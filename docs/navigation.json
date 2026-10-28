@@ -2010,6 +2010,213 @@
     "tag": "7FD866591D17"
   },
   {
+    "route": "sections/transition-profiles-and-phase-field-energy",
+    "title": "12.2 Transition profiles and phase-field energy",
+    "chapter": "allen-cahn",
+    "section": "transition-profiles-and-phase-field-energy"
+  },
+  {
+    "route": "tag/CF4888DCD29F",
+    "title": "Definition 12.2.1 (Local diffuse-interface energy)",
+    "chapter": "allen-cahn",
+    "section": "transition-profiles-and-phase-field-energy",
+    "tag": "CF4888DCD29F"
+  },
+  {
+    "route": "tag/A13F5CC7640E",
+    "title": "Proposition 12.2.2 (Truncation to the two wells decreases energy)",
+    "chapter": "allen-cahn",
+    "section": "transition-profiles-and-phase-field-energy",
+    "tag": "A13F5CC7640E"
+  },
+  {
+    "route": "tag/D9C3CB6B8ECD",
+    "title": "Proposition 12.2.3 (Maximum bound for smooth critical points)",
+    "chapter": "allen-cahn",
+    "section": "transition-profiles-and-phase-field-energy",
+    "tag": "D9C3CB6B8ECD"
+  },
+  {
+    "route": "tag/C2E265EAC5A8",
+    "title": "Proposition 12.2.4 (Zero energy and connected components)",
+    "chapter": "allen-cahn",
+    "section": "transition-profiles-and-phase-field-energy",
+    "tag": "C2E265EAC5A8"
+  },
+  {
+    "route": "tag/9904DDC4B1C1",
+    "title": "Lemma 12.2.5 (The one-dimensional Hamiltonian)",
+    "chapter": "allen-cahn",
+    "section": "transition-profiles-and-phase-field-energy",
+    "tag": "9904DDC4B1C1"
+  },
+  {
+    "route": "tag/E6898370A6C4",
+    "title": "Theorem 12.2.6 (Classification of finite-energy entire transition profiles)",
+    "chapter": "allen-cahn",
+    "section": "transition-profiles-and-phase-field-energy",
+    "tag": "E6898370A6C4"
+  },
+  {
+    "route": "tag/B4E1EE0417C5",
+    "title": "Definition 12.2.7 (The phase primitive)",
+    "chapter": "allen-cahn",
+    "section": "transition-profiles-and-phase-field-energy",
+    "tag": "B4E1EE0417C5"
+  },
+  {
+    "route": "tag/EFCBE4321CEF",
+    "title": "Lemma 12.2.8 (The Sobolev primitive and Modica's energy inequality)",
+    "chapter": "allen-cahn",
+    "section": "transition-profiles-and-phase-field-energy",
+    "tag": "EFCBE4321CEF"
+  },
+  {
+    "route": "tag/FE09C7FC0E55",
+    "title": "Proposition 12.2.9 (A sharp bound for a one-dimensional transition)",
+    "chapter": "allen-cahn",
+    "section": "transition-profiles-and-phase-field-energy",
+    "tag": "FE09C7FC0E55"
+  },
+  {
+    "route": "tag/F6D965E6AFE8",
+    "title": "Definition 12.2.10 (Energy discrepancy)",
+    "chapter": "allen-cahn",
+    "section": "transition-profiles-and-phase-field-energy",
+    "tag": "F6D965E6AFE8"
+  },
+  {
+    "route": "tag/1B56A14C4675",
+    "title": "Proposition 12.2.11 (The energy defect controls discrepancy)",
+    "chapter": "allen-cahn",
+    "section": "transition-profiles-and-phase-field-energy",
+    "tag": "1B56A14C4675"
+  },
+  {
+    "route": "sections/phase-compactness-and-the-perimeter-lower-bound",
+    "title": "12.3 Phase compactness and the perimeter lower bound",
+    "chapter": "allen-cahn",
+    "section": "phase-compactness-and-the-perimeter-lower-bound"
+  },
+  {
+    "route": "tag/F41C9F46FACF",
+    "title": "Lemma 12.3.1 (Quartic coercivity and concentration at the wells)",
+    "chapter": "allen-cahn",
+    "section": "phase-compactness-and-the-perimeter-lower-bound",
+    "tag": "F41C9F46FACF"
+  },
+  {
+    "route": "tag/AC8E360762C1",
+    "title": "Proposition 12.3.2 (Binary phases and perimeter normalization)",
+    "chapter": "allen-cahn",
+    "section": "phase-compactness-and-the-perimeter-lower-bound",
+    "tag": "AC8E360762C1"
+  },
+  {
+    "route": "tag/95CAAB2DF3CE",
+    "title": "Theorem 12.3.3 (Compactness of bounded diffuse-interface energy)",
+    "chapter": "allen-cahn",
+    "section": "phase-compactness-and-the-perimeter-lower-bound",
+    "tag": "95CAAB2DF3CE"
+  },
+  {
+    "route": "tag/D022437E926D",
+    "title": "Theorem 12.3.4 (The perimeter lower bound for a prescribed limit)",
+    "chapter": "allen-cahn",
+    "section": "phase-compactness-and-the-perimeter-lower-bound",
+    "tag": "D022437E926D"
+  },
+  {
+    "route": "tag/0AB8B0DD0379",
+    "title": "Proposition 12.3.5 (The limiting energy measure dominates perimeter)",
+    "chapter": "allen-cahn",
+    "section": "phase-compactness-and-the-perimeter-lower-bound",
+    "tag": "0AB8B0DD0379"
+  },
+  {
+    "route": "tag/194D96DE584A",
+    "title": "Corollary 12.3.6 (Energy convergence forces equipartition)",
+    "chapter": "allen-cahn",
+    "section": "phase-compactness-and-the-perimeter-lower-bound",
+    "tag": "194D96DE584A"
+  },
+  {
+    "route": "tag/D80927740693",
+    "title": "Example 12.3.7 (Two disappearing layers can retain energy)",
+    "chapter": "allen-cahn",
+    "section": "phase-compactness-and-the-perimeter-lower-bound",
+    "tag": "D80927740693"
+  },
+  {
+    "route": "sections/recovery-layers-and-variational-limits",
+    "title": "12.4 Recovery layers and variational limits",
+    "chapter": "allen-cahn",
+    "section": "recovery-layers-and-variational-limits"
+  },
+  {
+    "route": "tag/FB823D886F0F",
+    "title": "Proposition 12.4.1 (A flat layer and its limiting energy measure)",
+    "chapter": "allen-cahn",
+    "section": "recovery-layers-and-variational-limits",
+    "tag": "FB823D886F0F"
+  },
+  {
+    "route": "tag/F8A91A8CB4B3",
+    "title": "Lemma 12.4.2 (Tubular coordinates near a smooth boundary)",
+    "chapter": "allen-cahn",
+    "section": "recovery-layers-and-variational-limits",
+    "tag": "F8A91A8CB4B3"
+  },
+  {
+    "route": "tag/A3FF775127BE",
+    "title": "Theorem 12.4.3 (Recovery along a smooth compact interface)",
+    "chapter": "allen-cahn",
+    "section": "recovery-layers-and-variational-limits",
+    "tag": "A3FF775127BE"
+  },
+  {
+    "route": "tag/F1ECC254AE30",
+    "title": "Proposition 12.4.4 (The equation error of a curved recovery layer)",
+    "chapter": "allen-cahn",
+    "section": "recovery-layers-and-variational-limits",
+    "tag": "F1ECC254AE30"
+  },
+  {
+    "route": "tag/B5A69F7987FD",
+    "title": "Theorem 12.4.5 (Recovery for a compactly contained finite-perimeter set)",
+    "chapter": "allen-cahn",
+    "section": "recovery-layers-and-variational-limits",
+    "tag": "B5A69F7987FD"
+  },
+  {
+    "route": "tag/7F23C83BEC45",
+    "title": "Definition 12.4.6 (Gamma convergence in the phase topology)",
+    "chapter": "allen-cahn",
+    "section": "recovery-layers-and-variational-limits",
+    "tag": "7F23C83BEC45"
+  },
+  {
+    "route": "tag/9F5A13E8887B",
+    "title": "Theorem 12.4.7 (Relative recovery without prescribed boundary values)",
+    "chapter": "allen-cahn",
+    "section": "recovery-layers-and-variational-limits",
+    "tag": "9F5A13E8887B"
+  },
+  {
+    "route": "tag/E301EA40DFEE",
+    "title": "Corollary 12.4.8 (The unconstrained perimeter Gamma limit)",
+    "chapter": "allen-cahn",
+    "section": "recovery-layers-and-variational-limits",
+    "tag": "E301EA40DFEE"
+  },
+  {
+    "route": "tag/D0597DBED3DE",
+    "title": "Proposition 12.4.9 (Limits of minimizers with a fixed local radius)",
+    "chapter": "allen-cahn",
+    "section": "recovery-layers-and-variational-limits",
+    "tag": "D0597DBED3DE"
+  },
+  {
     "route": "chapters/obstacle-problems",
     "title": "13 Obstacle problems",
     "chapter": "obstacle-problems"

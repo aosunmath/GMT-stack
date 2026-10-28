@@ -749,6 +749,7 @@
       ],
       "dependencies": [
         "def:integral-brakke-flow",
+        "thm:phase-relative-recovery",
         "thm:plateau-direct-method"
       ],
       "formal_verification": "none"
@@ -4305,6 +4306,352 @@
       ],
       "dependencies": [],
       "formal_verification": "none"
+    },
+    {
+      "label": "def:phase-local-energy",
+      "title": "Local diffuse-interface energy",
+      "kind": "definition",
+      "file": "phase-energy.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-truncation",
+      "title": "Truncation to the two wells decreases energy",
+      "kind": "proposition",
+      "file": "phase-energy.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-maximum-bound",
+      "title": "Maximum bound for smooth critical points",
+      "kind": "proposition",
+      "file": "phase-energy.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-zero-energy",
+      "title": "Zero energy and connected components",
+      "kind": "proposition",
+      "file": "phase-energy.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-hamiltonian",
+      "title": "The one-dimensional Hamiltonian",
+      "kind": "lemma",
+      "file": "phase-energy.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-ode-classification",
+      "title": "Classification of finite-energy entire transition profiles",
+      "kind": "theorem",
+      "file": "phase-energy.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-hamiltonian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:phase-primitive",
+      "title": "The phase primitive",
+      "kind": "definition",
+      "file": "phase-energy.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-modica-energy",
+      "title": "The Sobolev primitive and Modica's energy inequality",
+      "kind": "lemma",
+      "file": "phase-energy.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-transition-cost",
+      "title": "A sharp bound for a one-dimensional transition",
+      "kind": "proposition",
+      "file": "phase-energy.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-modica-energy",
+        "thm:phase-ode-classification"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:phase-discrepancy",
+      "title": "Energy discrepancy",
+      "kind": "definition",
+      "file": "phase-energy.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-defect",
+      "title": "The energy defect controls discrepancy",
+      "kind": "proposition",
+      "file": "phase-energy.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:phase-modica-energy"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-coercivity",
+      "title": "Quartic coercivity and concentration at the wells",
+      "kind": "lemma",
+      "file": "phase-compactness.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-bv-normalization",
+      "title": "Binary phases and perimeter normalization",
+      "kind": "proposition",
+      "file": "phase-compactness.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "ex:bv-jump-coarea"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-compactness",
+      "title": "Compactness of bounded diffuse-interface energy",
+      "kind": "theorem",
+      "file": "phase-compactness.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-coercivity",
+        "lem:phase-modica-energy"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-liminf",
+      "title": "The perimeter lower bound for a prescribed limit",
+      "kind": "theorem",
+      "file": "phase-compactness.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "thm:phase-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-measure-bound",
+      "title": "The limiting energy measure dominates perimeter",
+      "kind": "proposition",
+      "file": "phase-compactness.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:phase-bv-normalization",
+        "thm:phase-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:phase-equipartition",
+      "title": "Energy convergence forces equipartition",
+      "kind": "corollary",
+      "file": "phase-compactness.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:phase-defect"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:phase-hidden-double-layer",
+      "title": "Two disappearing layers can retain energy",
+      "kind": "example",
+      "file": "phase-compactness.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-flat-interface",
+      "title": "A flat layer and its limiting energy measure",
+      "kind": "proposition",
+      "file": "phase-recovery.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-tubular-coordinates",
+      "title": "Tubular coordinates near a smooth boundary",
+      "kind": "lemma",
+      "file": "phase-recovery.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-smooth-recovery",
+      "title": "Recovery along a smooth compact interface",
+      "kind": "theorem",
+      "file": "phase-recovery.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-tubular-coordinates"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-recovery-residual",
+      "title": "The equation error of a curved recovery layer",
+      "kind": "proposition",
+      "file": "phase-recovery.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-tubular-coordinates"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-interior-recovery",
+      "title": "Recovery for a compactly contained finite-perimeter set",
+      "kind": "theorem",
+      "file": "phase-recovery.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "thm:perimeter-smooth-approximation",
+        "thm:phase-smooth-recovery"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:phase-gamma-convergence",
+      "title": "Gamma convergence in the phase topology",
+      "kind": "definition",
+      "file": "phase-recovery.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-relative-recovery",
+      "title": "Relative recovery without prescribed boundary values",
+      "kind": "theorem",
+      "file": "phase-recovery.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:phase-gamma-limit",
+      "title": "The unconstrained perimeter Gamma limit",
+      "kind": "corollary",
+      "file": "phase-recovery.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:phase-local-energy",
+        "thm:phase-liminf",
+        "thm:phase-relative-recovery"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-local-minimizers",
+      "title": "Limits of minimizers with a fixed local radius",
+      "kind": "proposition",
+      "file": "phase-recovery.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "thm:phase-relative-recovery"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -4359,7 +4706,8 @@
     "Sobolev positive-part chain rule and trace compatibility with Lipschitz truncation",
     "Optimal C1,1 interior obstacle regularity",
     "Caffarelli regular--singular obstacle dichotomy and analytic regular free boundary",
-    "C1 manifold containment for classical obstacle singular strata"
+    "C1 manifold containment for classical obstacle singular strata",
+    "Relative smooth approximation and Allen-Cahn recovery for finite-perimeter sets meeting a Lipschitz domain boundary"
   ],
   "next_development": [
     "Covering and differentiation theorems for measures",
@@ -4370,6 +4718,7 @@
     "Detailed Pitts proof chain and modern regularity hypotheses",
     "Proofs and comparison of the volume-spectrum conventions",
     "Proofs of optimal obstacle regularity and classification; thin obstacles; level-set flows, tangent-flow extraction, and finer flow singularity theory",
-    "Free-boundary, Plateau, capillarity, and prescribed-mean-curvature branches"
+    "Free-boundary, Plateau, capillarity, and prescribed-mean-curvature branches",
+    "Pointwise Modica gradient estimate, stable and monotone Allen-Cahn solutions, phase-field varifold integrality and multiplicity, and constrained recovery"
   ]
 }

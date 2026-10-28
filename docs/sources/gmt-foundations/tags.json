@@ -3481,5 +3481,275 @@
     "page": "tag/E32089F6/index.html",
     "canonical_tag": "9A0B5D86CDB6",
     "anchor": ""
+  },
+  {
+    "tag": "BF7EA358",
+    "label": "sec:phase-energy",
+    "title": "52 Transition profiles and phase-field energy",
+    "kind": "chapter",
+    "page": "tag/BF7EA358/index.html",
+    "canonical_tag": "A0A93B912E49",
+    "anchor": ""
+  },
+  {
+    "tag": "0CCFAFAC",
+    "label": "def:phase-local-energy",
+    "title": "Definition 52.1 (Local diffuse-interface energy)",
+    "kind": "definition",
+    "page": "tag/0CCFAFAC/index.html",
+    "canonical_tag": "CF4888DCD29F",
+    "anchor": ""
+  },
+  {
+    "tag": "01DCECE5",
+    "label": "prop:phase-truncation",
+    "title": "Proposition 52.2 (Truncation to the two wells decreases energy)",
+    "kind": "proposition",
+    "page": "tag/01DCECE5/index.html",
+    "canonical_tag": "A13F5CC7640E",
+    "anchor": ""
+  },
+  {
+    "tag": "69EAC7CC",
+    "label": "prop:phase-maximum-bound",
+    "title": "Proposition 52.3 (Maximum bound for smooth critical points)",
+    "kind": "proposition",
+    "page": "tag/69EAC7CC/index.html",
+    "canonical_tag": "D9C3CB6B8ECD",
+    "anchor": ""
+  },
+  {
+    "tag": "757D905D",
+    "label": "prop:phase-zero-energy",
+    "title": "Proposition 52.4 (Zero energy and connected components)",
+    "kind": "proposition",
+    "page": "tag/757D905D/index.html",
+    "canonical_tag": "C2E265EAC5A8",
+    "anchor": ""
+  },
+  {
+    "tag": "C8F6C040",
+    "label": "lem:phase-hamiltonian",
+    "title": "Lemma 52.5 (The one-dimensional Hamiltonian)",
+    "kind": "lemma",
+    "page": "tag/C8F6C040/index.html",
+    "canonical_tag": "9904DDC4B1C1",
+    "anchor": ""
+  },
+  {
+    "tag": "70CE4C97",
+    "label": "thm:phase-ode-classification",
+    "title": "Theorem 52.6 (Classification of finite-energy entire transition profiles)",
+    "kind": "theorem",
+    "page": "tag/70CE4C97/index.html",
+    "canonical_tag": "E6898370A6C4",
+    "anchor": ""
+  },
+  {
+    "tag": "6014BC81",
+    "label": "def:phase-primitive",
+    "title": "Definition 52.7 (The phase primitive)",
+    "kind": "definition",
+    "page": "tag/6014BC81/index.html",
+    "canonical_tag": "B4E1EE0417C5",
+    "anchor": ""
+  },
+  {
+    "tag": "31EBCCB3",
+    "label": "lem:phase-modica-energy",
+    "title": "Lemma 52.8 (The Sobolev primitive and Modica's energy inequality)",
+    "kind": "lemma",
+    "page": "tag/31EBCCB3/index.html",
+    "canonical_tag": "EFCBE4321CEF",
+    "anchor": ""
+  },
+  {
+    "tag": "509FCE5B",
+    "label": "prop:phase-transition-cost",
+    "title": "Proposition 52.9 (A sharp bound for a one-dimensional transition)",
+    "kind": "proposition",
+    "page": "tag/509FCE5B/index.html",
+    "canonical_tag": "FE09C7FC0E55",
+    "anchor": ""
+  },
+  {
+    "tag": "F67C17DE",
+    "label": "def:phase-discrepancy",
+    "title": "Definition 52.10 (Energy discrepancy)",
+    "kind": "definition",
+    "page": "tag/F67C17DE/index.html",
+    "canonical_tag": "F6D965E6AFE8",
+    "anchor": ""
+  },
+  {
+    "tag": "A87E49A7",
+    "label": "prop:phase-defect",
+    "title": "Proposition 52.11 (The energy defect controls discrepancy)",
+    "kind": "proposition",
+    "page": "tag/A87E49A7/index.html",
+    "canonical_tag": "1B56A14C4675",
+    "anchor": ""
+  },
+  {
+    "tag": "D7D2DF1A",
+    "label": "sec:phase-compactness",
+    "title": "53 Phase compactness and the perimeter lower bound",
+    "kind": "chapter",
+    "page": "tag/D7D2DF1A/index.html",
+    "canonical_tag": "B25785170C6E",
+    "anchor": ""
+  },
+  {
+    "tag": "0AB9F1A7",
+    "label": "lem:phase-coercivity",
+    "title": "Lemma 53.1 (Quartic coercivity and concentration at the wells)",
+    "kind": "lemma",
+    "page": "tag/0AB9F1A7/index.html",
+    "canonical_tag": "F41C9F46FACF",
+    "anchor": ""
+  },
+  {
+    "tag": "CD813D80",
+    "label": "prop:phase-bv-normalization",
+    "title": "Proposition 53.2 (Binary phases and perimeter normalization)",
+    "kind": "proposition",
+    "page": "tag/CD813D80/index.html",
+    "canonical_tag": "AC8E360762C1",
+    "anchor": ""
+  },
+  {
+    "tag": "6F7B0302",
+    "label": "thm:phase-compactness",
+    "title": "Theorem 53.3 (Compactness of bounded diffuse-interface energy)",
+    "kind": "theorem",
+    "page": "tag/6F7B0302/index.html",
+    "canonical_tag": "95CAAB2DF3CE",
+    "anchor": ""
+  },
+  {
+    "tag": "820C37F9",
+    "label": "thm:phase-liminf",
+    "title": "Theorem 53.4 (The perimeter lower bound for a prescribed limit)",
+    "kind": "theorem",
+    "page": "tag/820C37F9/index.html",
+    "canonical_tag": "D022437E926D",
+    "anchor": ""
+  },
+  {
+    "tag": "35CE01F6",
+    "label": "prop:phase-measure-bound",
+    "title": "Proposition 53.5 (The limiting energy measure dominates perimeter)",
+    "kind": "proposition",
+    "page": "tag/35CE01F6/index.html",
+    "canonical_tag": "0AB8B0DD0379",
+    "anchor": ""
+  },
+  {
+    "tag": "2AD60BE8",
+    "label": "cor:phase-equipartition",
+    "title": "Corollary 53.6 (Energy convergence forces equipartition)",
+    "kind": "corollary",
+    "page": "tag/2AD60BE8/index.html",
+    "canonical_tag": "194D96DE584A",
+    "anchor": ""
+  },
+  {
+    "tag": "D11FE22F",
+    "label": "ex:phase-hidden-double-layer",
+    "title": "Example 53.7 (Two disappearing layers can retain energy)",
+    "kind": "example",
+    "page": "tag/D11FE22F/index.html",
+    "canonical_tag": "D80927740693",
+    "anchor": ""
+  },
+  {
+    "tag": "D10FBA8B",
+    "label": "sec:phase-recovery",
+    "title": "54 Recovery layers and variational limits",
+    "kind": "chapter",
+    "page": "tag/D10FBA8B/index.html",
+    "canonical_tag": "4E08B346AEDF",
+    "anchor": ""
+  },
+  {
+    "tag": "02BA7D33",
+    "label": "prop:phase-flat-interface",
+    "title": "Proposition 54.1 (A flat layer and its limiting energy measure)",
+    "kind": "proposition",
+    "page": "tag/02BA7D33/index.html",
+    "canonical_tag": "FB823D886F0F",
+    "anchor": ""
+  },
+  {
+    "tag": "4C82A490",
+    "label": "lem:phase-tubular-coordinates",
+    "title": "Lemma 54.2 (Tubular coordinates near a smooth boundary)",
+    "kind": "lemma",
+    "page": "tag/4C82A490/index.html",
+    "canonical_tag": "F8A91A8CB4B3",
+    "anchor": ""
+  },
+  {
+    "tag": "C8D7D416",
+    "label": "thm:phase-smooth-recovery",
+    "title": "Theorem 54.3 (Recovery along a smooth compact interface)",
+    "kind": "theorem",
+    "page": "tag/C8D7D416/index.html",
+    "canonical_tag": "A3FF775127BE",
+    "anchor": ""
+  },
+  {
+    "tag": "2E5449E8",
+    "label": "prop:phase-recovery-residual",
+    "title": "Proposition 54.4 (The equation error of a curved recovery layer)",
+    "kind": "proposition",
+    "page": "tag/2E5449E8/index.html",
+    "canonical_tag": "F1ECC254AE30",
+    "anchor": ""
+  },
+  {
+    "tag": "71720BA1",
+    "label": "thm:phase-interior-recovery",
+    "title": "Theorem 54.5 (Recovery for a compactly contained finite-perimeter set)",
+    "kind": "theorem",
+    "page": "tag/71720BA1/index.html",
+    "canonical_tag": "B5A69F7987FD",
+    "anchor": ""
+  },
+  {
+    "tag": "A0AD1250",
+    "label": "def:phase-gamma-convergence",
+    "title": "Definition 54.6 (Gamma convergence in the phase topology)",
+    "kind": "definition",
+    "page": "tag/A0AD1250/index.html",
+    "canonical_tag": "7F23C83BEC45",
+    "anchor": ""
+  },
+  {
+    "tag": "61FA9AC6",
+    "label": "thm:phase-relative-recovery",
+    "title": "Theorem 54.7 (Relative recovery without prescribed boundary values)",
+    "kind": "theorem",
+    "page": "tag/61FA9AC6/index.html",
+    "canonical_tag": "9F5A13E8887B",
+    "anchor": ""
+  },
+  {
+    "tag": "39C4BF8E",
+    "label": "cor:phase-gamma-limit",
+    "title": "Corollary 54.8 (The unconstrained perimeter Gamma limit)",
+    "kind": "corollary",
+    "page": "tag/39C4BF8E/index.html",
+    "canonical_tag": "E301EA40DFEE",
+    "anchor": ""
+  },
+  {
+    "tag": "63F887C9",
+    "label": "prop:phase-local-minimizers",
+    "title": "Proposition 54.9 (Limits of minimizers with a fixed local radius)",
+    "kind": "proposition",
+    "page": "tag/63F887C9/index.html",
+    "canonical_tag": "D0597DBED3DE",
+    "anchor": ""
   }
 ]
