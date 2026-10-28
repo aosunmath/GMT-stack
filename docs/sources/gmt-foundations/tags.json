@@ -4075,5 +4075,203 @@
     "page": "tag/897298BE/index.html",
     "canonical_tag": "DB82FE46F8E6",
     "anchor": ""
+  },
+  {
+    "tag": "C110D8E9",
+    "label": "sec:varifold-exact-monotonicity",
+    "title": "58 Radial variation and exact monotonicity",
+    "kind": "chapter",
+    "page": "tag/C110D8E9/index.html",
+    "canonical_tag": "349010E50BF4",
+    "anchor": ""
+  },
+  {
+    "tag": "96169CBE",
+    "label": "def:radial-varifold-tilt",
+    "title": "Definition 58.1 (Mass ratio and radial tilt)",
+    "kind": "definition",
+    "page": "tag/96169CBE/index.html",
+    "canonical_tag": "7577F97C39D0",
+    "anchor": ""
+  },
+  {
+    "tag": "6017642B",
+    "label": "lem:radial-varifold-divergence",
+    "title": "Lemma 58.2 (Divergence of a radial test field)",
+    "kind": "lemma",
+    "page": "tag/6017642B/index.html",
+    "canonical_tag": "FF971C87180B",
+    "anchor": ""
+  },
+  {
+    "tag": "33E8D8CA",
+    "label": "prop:stationary-annular-identity",
+    "title": "Proposition 58.3 (Exact stationary annular identity)",
+    "kind": "proposition",
+    "page": "tag/33E8D8CA/index.html",
+    "canonical_tag": "A2E5563F6D93",
+    "anchor": ""
+  },
+  {
+    "tag": "3AC3499C",
+    "label": "cor:stationary-density-defect",
+    "title": "Corollary 58.4 (Density defect and absence of atoms)",
+    "kind": "corollary",
+    "page": "tag/3AC3499C/index.html",
+    "canonical_tag": "4EA95AAE7E1A",
+    "anchor": ""
+  },
+  {
+    "tag": "1F30FAB7",
+    "label": "cor:stationary-radial-equality",
+    "title": "Corollary 58.5 (Equality and quantitative radial tilt)",
+    "kind": "corollary",
+    "page": "tag/1F30FAB7/index.html",
+    "canonical_tag": "E28E9DD8CC63",
+    "anchor": ""
+  },
+  {
+    "tag": "A1F45623",
+    "label": "ex:diffuse-stationary-varifold",
+    "title": "Example 58.6 (A stationary varifold with zero density on its support)",
+    "kind": "example",
+    "page": "tag/A1F45623/index.html",
+    "canonical_tag": "9198A856EB15",
+    "anchor": ""
+  },
+  {
+    "tag": "CB0FB10D",
+    "label": "ex:stationary-circle-rays",
+    "title": "Example 58.7 (A stationary varifold that charges a sphere)",
+    "kind": "example",
+    "page": "tag/CB0FB10D/index.html",
+    "canonical_tag": "2B91CC016F24",
+    "anchor": ""
+  },
+  {
+    "tag": "52B8FFF5",
+    "label": "prop:no-compact-stationary-varifold",
+    "title": "Proposition 58.8 (No stationary varifold supported in a compact interior set)",
+    "kind": "proposition",
+    "page": "tag/52B8FFF5/index.html",
+    "canonical_tag": "2C80FDE3480E",
+    "anchor": ""
+  },
+  {
+    "tag": "D89C493E",
+    "label": "sec:varifold-conical-structure",
+    "title": "59 Conical structure and convergence of supports",
+    "kind": "chapter",
+    "page": "tag/D89C493E/index.html",
+    "canonical_tag": "7E1DC84EF076",
+    "anchor": ""
+  },
+  {
+    "tag": "FA65432A",
+    "label": "lem:stationarity-closed",
+    "title": "Lemma 59.1 (Stationarity is closed under varifold convergence)",
+    "kind": "lemma",
+    "page": "tag/FA65432A/index.html",
+    "canonical_tag": "30C4784016ED",
+    "anchor": ""
+  },
+  {
+    "tag": "23EFA598",
+    "label": "lem:rectifiable-lift-unique",
+    "title": "Lemma 59.2 (The weight determines a rectifiable varifold)",
+    "kind": "lemma",
+    "page": "tag/23EFA598/index.html",
+    "canonical_tag": "FE7578F66513",
+    "anchor": ""
+  },
+  {
+    "tag": "D1CFA7AC",
+    "label": "prop:radial-tangency-homogeneous-weight",
+    "title": "Proposition 59.3 (Radial tangency gives homogeneous weight)",
+    "kind": "proposition",
+    "page": "tag/D1CFA7AC/index.html",
+    "canonical_tag": "A324E62A87A7",
+    "anchor": ""
+  },
+  {
+    "tag": "D604E6B8",
+    "label": "thm:constant-ratio-cone",
+    "title": "Theorem 59.4 (Constant mass ratio characterizes rectifiable stationary cones)",
+    "kind": "theorem",
+    "page": "tag/D604E6B8/index.html",
+    "canonical_tag": "21FBA0CA65BE",
+    "anchor": ""
+  },
+  {
+    "tag": "171C80E8",
+    "label": "prop:stationary-support-mass-bound",
+    "title": "Proposition 59.5 (Uniform mass lower bound at integral support points)",
+    "kind": "proposition",
+    "page": "tag/171C80E8/index.html",
+    "canonical_tag": "46494077AB90",
+    "anchor": ""
+  },
+  {
+    "tag": "252E6393",
+    "label": "prop:stationary-support-convergence",
+    "title": "Proposition 59.6 (Local convergence of stationary integral supports)",
+    "kind": "proposition",
+    "page": "tag/252E6393/index.html",
+    "canonical_tag": "3F8B37A1F50E",
+    "anchor": ""
+  },
+  {
+    "tag": "043573C3",
+    "label": "sec:varifold-bounded-curvature",
+    "title": "60 Bounded curvature and corrected mass ratios",
+    "kind": "chapter",
+    "page": "tag/043573C3/index.html",
+    "canonical_tag": "07F762F17112",
+    "anchor": ""
+  },
+  {
+    "tag": "4750B815",
+    "label": "prop:curvature-annular-identity",
+    "title": "Proposition 60.1 (Annular identity with mean-curvature error)",
+    "kind": "proposition",
+    "page": "tag/4750B815/index.html",
+    "canonical_tag": "11614439894F",
+    "anchor": ""
+  },
+  {
+    "tag": "C244858D",
+    "label": "lem:mass-ratio-integrating-factor",
+    "title": "Lemma 60.2 (An integrating factor for a measure differential inequality)",
+    "kind": "lemma",
+    "page": "tag/C244858D/index.html",
+    "canonical_tag": "8BCD68460FB3",
+    "anchor": ""
+  },
+  {
+    "tag": "D926B81E",
+    "label": "thm:bounded-curvature-monotonicity",
+    "title": "Theorem 60.3 (Exponential monotonicity for bounded mean curvature)",
+    "kind": "theorem",
+    "page": "tag/D926B81E/index.html",
+    "canonical_tag": "6871F1D8A0BA",
+    "anchor": ""
+  },
+  {
+    "tag": "F1600880",
+    "label": "cor:bounded-curvature-support-density",
+    "title": "Corollary 60.4 (Density and mass lower bounds with bounded curvature)",
+    "kind": "corollary",
+    "page": "tag/F1600880/index.html",
+    "canonical_tag": "CECE32EC9E60",
+    "anchor": ""
+  },
+  {
+    "tag": "6CC3B049",
+    "label": "ex:disk-singular-first-variation",
+    "title": "Example 60.5 (Why a disk is not a zero-curvature test case)",
+    "kind": "example",
+    "page": "tag/6CC3B049/index.html",
+    "canonical_tag": "FD22E871D957",
+    "anchor": ""
   }
 ]

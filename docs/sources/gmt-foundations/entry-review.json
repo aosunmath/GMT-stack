@@ -982,11 +982,13 @@
       "title": "Stationary monotonicity",
       "kind": "theorem",
       "file": "varifolds.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Sim18"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "prop:stationary-annular-identity"
+      ],
       "formal_verification": "none"
     },
     {
@@ -1840,11 +1842,17 @@
       "title": "Existence and structure of tangent cones",
       "kind": "theorem",
       "file": "varifold-regularity.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Minter"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cor:integral-support-density",
+        "lem:stationarity-closed",
+        "prop:varifold-scaling",
+        "thm:allard-compactness",
+        "thm:constant-ratio-cone"
+      ],
       "formal_verification": "none"
     },
     {
@@ -1968,11 +1976,14 @@
       "title": "A density gap above one",
       "kind": "theorem",
       "file": "varifold-regularity.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Minter"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cor:unit-density-regularity",
+        "thm:allard-lp"
+      ],
       "formal_verification": "none"
     },
     {
@@ -5107,6 +5118,235 @@
         "thm:phase-stable-growth-rigidity"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "def:radial-varifold-tilt",
+      "title": "Mass ratio and radial tilt",
+      "kind": "definition",
+      "file": "varifold-monotonicity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:radial-varifold-divergence",
+      "title": "Divergence of a radial test field",
+      "kind": "lemma",
+      "file": "varifold-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:stationary-annular-identity",
+      "title": "Exact stationary annular identity",
+      "kind": "proposition",
+      "file": "varifold-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:radial-varifold-divergence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:stationary-density-defect",
+      "title": "Density defect and absence of atoms",
+      "kind": "corollary",
+      "file": "varifold-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:stationary-annular-identity",
+        "thm:stationary-monotonicity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:stationary-radial-equality",
+      "title": "Equality and quantitative radial tilt",
+      "kind": "corollary",
+      "file": "varifold-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:stationary-annular-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:diffuse-stationary-varifold",
+      "title": "A stationary varifold with zero density on its support",
+      "kind": "example",
+      "file": "varifold-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:integral-support-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:stationary-circle-rays",
+      "title": "A stationary varifold that charges a sphere",
+      "kind": "example",
+      "file": "varifold-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:stationary-annular-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:no-compact-stationary-varifold",
+      "title": "No stationary varifold supported in a compact interior set",
+      "kind": "proposition",
+      "file": "varifold-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:stationarity-closed",
+      "title": "Stationarity is closed under varifold convergence",
+      "kind": "lemma",
+      "file": "varifold-cones.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:allard-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:rectifiable-lift-unique",
+      "title": "The weight determines a rectifiable varifold",
+      "kind": "lemma",
+      "file": "varifold-cones.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:rectifiable-varifold",
+        "thm:rectifiable-tangents"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:radial-tangency-homogeneous-weight",
+      "title": "Radial tangency gives homogeneous weight",
+      "kind": "proposition",
+      "file": "varifold-cones.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:constant-ratio-cone",
+      "title": "Constant mass ratio characterizes rectifiable stationary cones",
+      "kind": "theorem",
+      "file": "varifold-cones.tex",
+      "status": "proof-included",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [
+        "cor:stationary-density-defect",
+        "lem:rectifiable-lift-unique",
+        "prop:radial-tangency-homogeneous-weight",
+        "prop:stationary-annular-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:stationary-support-mass-bound",
+      "title": "Uniform mass lower bound at integral support points",
+      "kind": "proposition",
+      "file": "varifold-cones.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:integral-support-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:stationary-support-convergence",
+      "title": "Local convergence of stationary integral supports",
+      "kind": "proposition",
+      "file": "varifold-cones.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:stationary-support-mass-bound"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:curvature-annular-identity",
+      "title": "Annular identity with mean-curvature error",
+      "kind": "proposition",
+      "file": "varifold-curvature.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:radial-varifold-tilt",
+        "prop:stationary-annular-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:mass-ratio-integrating-factor",
+      "title": "An integrating factor for a measure differential inequality",
+      "kind": "lemma",
+      "file": "varifold-curvature.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:bounded-curvature-monotonicity",
+      "title": "Exponential monotonicity for bounded mean curvature",
+      "kind": "theorem",
+      "file": "varifold-curvature.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:mass-ratio-integrating-factor",
+        "prop:curvature-annular-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:bounded-curvature-support-density",
+      "title": "Density and mass lower bounds with bounded curvature",
+      "kind": "corollary",
+      "file": "varifold-curvature.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:integral-support-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:disk-singular-first-variation",
+      "title": "Why a disk is not a zero-curvature test case",
+      "kind": "example",
+      "file": "varifold-curvature.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -5119,7 +5359,6 @@
     "De Giorgi structure theorem",
     "Rectifiable current representation and mass formula",
     "Federer--Fleming compactness and closure",
-    "Stationary varifold monotonicity",
     "Normal-bundle index theory for one-sided hypersurfaces",
     "Almgren cycle-space topology and detecting cohomology classes",
     "Discrete-continuous interpolation with no concentration",
@@ -5143,9 +5382,9 @@
     "Measurable-coefficient local boundedness and Harnack inequality",
     "Interior Schauder and Sobolev estimates",
     "Smoothness of scalar Lipschitz weak minimal graphs",
-    "Conical structure of tangent varifolds and spine splitting",
+    "Spine splitting for stationary integral cones",
     "Qualitative dimension reduction for singular strata",
-    "Allard Lp mean-curvature regularity and the stationary density gap",
+    "Allard Lp mean-curvature regularity",
     "Positive Jacobi fields from ordered minimal normal graphs",
     "Euclidean Simons identity from the Gauss and Codazzi equations",
     "Smooth mean curvature flow short-time existence and curvature continuation",
@@ -5172,7 +5411,7 @@
     "Proofs of Rademacher and the area/coarea formulas",
     "Sharp isoperimetry, traces, and the full De Giorgi blow-up proof",
     "Deformation theorem and compactness of integral currents",
-    "Full proofs of varifold monotonicity, compactness, and Allard excess decay",
+    "Full proofs of integral-varifold compactness, cone spine splitting, and Allard excess decay",
     "Detailed Pitts proof chain and modern regularity hypotheses",
     "Proofs and comparison of the volume-spectrum conventions",
     "Proofs of optimal obstacle regularity and classification; thin obstacles; level-set flows, tangent-flow extraction, and finer flow singularity theory",

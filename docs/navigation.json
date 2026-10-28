@@ -1076,6 +1076,157 @@
     "tag": "09CF92107610"
   },
   {
+    "route": "sections/radial-variation-and-exact-monotonicity",
+    "title": "6.6 Radial variation and exact monotonicity",
+    "chapter": "varifolds",
+    "section": "radial-variation-and-exact-monotonicity"
+  },
+  {
+    "route": "tag/7577F97C39D0",
+    "title": "Definition 6.6.1 (Mass ratio and radial tilt)",
+    "chapter": "varifolds",
+    "section": "radial-variation-and-exact-monotonicity",
+    "tag": "7577F97C39D0"
+  },
+  {
+    "route": "tag/FF971C87180B",
+    "title": "Lemma 6.6.2 (Divergence of a radial test field)",
+    "chapter": "varifolds",
+    "section": "radial-variation-and-exact-monotonicity",
+    "tag": "FF971C87180B"
+  },
+  {
+    "route": "tag/A2E5563F6D93",
+    "title": "Proposition 6.6.3 (Exact stationary annular identity)",
+    "chapter": "varifolds",
+    "section": "radial-variation-and-exact-monotonicity",
+    "tag": "A2E5563F6D93"
+  },
+  {
+    "route": "tag/4EA95AAE7E1A",
+    "title": "Corollary 6.6.4 (Density defect and absence of atoms)",
+    "chapter": "varifolds",
+    "section": "radial-variation-and-exact-monotonicity",
+    "tag": "4EA95AAE7E1A"
+  },
+  {
+    "route": "tag/E28E9DD8CC63",
+    "title": "Corollary 6.6.5 (Equality and quantitative radial tilt)",
+    "chapter": "varifolds",
+    "section": "radial-variation-and-exact-monotonicity",
+    "tag": "E28E9DD8CC63"
+  },
+  {
+    "route": "tag/9198A856EB15",
+    "title": "Example 6.6.6 (A stationary varifold with zero density on its support)",
+    "chapter": "varifolds",
+    "section": "radial-variation-and-exact-monotonicity",
+    "tag": "9198A856EB15"
+  },
+  {
+    "route": "tag/2B91CC016F24",
+    "title": "Example 6.6.7 (A stationary varifold that charges a sphere)",
+    "chapter": "varifolds",
+    "section": "radial-variation-and-exact-monotonicity",
+    "tag": "2B91CC016F24"
+  },
+  {
+    "route": "tag/2C80FDE3480E",
+    "title": "Proposition 6.6.8 (No stationary varifold supported in a compact interior set)",
+    "chapter": "varifolds",
+    "section": "radial-variation-and-exact-monotonicity",
+    "tag": "2C80FDE3480E"
+  },
+  {
+    "route": "sections/conical-structure-and-convergence-of-supports",
+    "title": "6.7 Conical structure and convergence of supports",
+    "chapter": "varifolds",
+    "section": "conical-structure-and-convergence-of-supports"
+  },
+  {
+    "route": "tag/30C4784016ED",
+    "title": "Lemma 6.7.1 (Stationarity is closed under varifold convergence)",
+    "chapter": "varifolds",
+    "section": "conical-structure-and-convergence-of-supports",
+    "tag": "30C4784016ED"
+  },
+  {
+    "route": "tag/FE7578F66513",
+    "title": "Lemma 6.7.2 (The weight determines a rectifiable varifold)",
+    "chapter": "varifolds",
+    "section": "conical-structure-and-convergence-of-supports",
+    "tag": "FE7578F66513"
+  },
+  {
+    "route": "tag/A324E62A87A7",
+    "title": "Proposition 6.7.3 (Radial tangency gives homogeneous weight)",
+    "chapter": "varifolds",
+    "section": "conical-structure-and-convergence-of-supports",
+    "tag": "A324E62A87A7"
+  },
+  {
+    "route": "tag/21FBA0CA65BE",
+    "title": "Theorem 6.7.4 (Constant mass ratio characterizes rectifiable stationary cones)",
+    "chapter": "varifolds",
+    "section": "conical-structure-and-convergence-of-supports",
+    "tag": "21FBA0CA65BE"
+  },
+  {
+    "route": "tag/46494077AB90",
+    "title": "Proposition 6.7.5 (Uniform mass lower bound at integral support points)",
+    "chapter": "varifolds",
+    "section": "conical-structure-and-convergence-of-supports",
+    "tag": "46494077AB90"
+  },
+  {
+    "route": "tag/3F8B37A1F50E",
+    "title": "Proposition 6.7.6 (Local convergence of stationary integral supports)",
+    "chapter": "varifolds",
+    "section": "conical-structure-and-convergence-of-supports",
+    "tag": "3F8B37A1F50E"
+  },
+  {
+    "route": "sections/bounded-curvature-and-corrected-mass-ratios",
+    "title": "6.8 Bounded curvature and corrected mass ratios",
+    "chapter": "varifolds",
+    "section": "bounded-curvature-and-corrected-mass-ratios"
+  },
+  {
+    "route": "tag/11614439894F",
+    "title": "Proposition 6.8.1 (Annular identity with mean-curvature error)",
+    "chapter": "varifolds",
+    "section": "bounded-curvature-and-corrected-mass-ratios",
+    "tag": "11614439894F"
+  },
+  {
+    "route": "tag/8BCD68460FB3",
+    "title": "Lemma 6.8.2 (An integrating factor for a measure differential inequality)",
+    "chapter": "varifolds",
+    "section": "bounded-curvature-and-corrected-mass-ratios",
+    "tag": "8BCD68460FB3"
+  },
+  {
+    "route": "tag/6871F1D8A0BA",
+    "title": "Theorem 6.8.3 (Exponential monotonicity for bounded mean curvature)",
+    "chapter": "varifolds",
+    "section": "bounded-curvature-and-corrected-mass-ratios",
+    "tag": "6871F1D8A0BA"
+  },
+  {
+    "route": "tag/CECE32EC9E60",
+    "title": "Corollary 6.8.4 (Density and mass lower bounds with bounded curvature)",
+    "chapter": "varifolds",
+    "section": "bounded-curvature-and-corrected-mass-ratios",
+    "tag": "CECE32EC9E60"
+  },
+  {
+    "route": "tag/FD22E871D957",
+    "title": "Example 6.8.5 (Why a disk is not a zero-curvature test case)",
+    "chapter": "varifolds",
+    "section": "bounded-curvature-and-corrected-mass-ratios",
+    "tag": "FD22E871D957"
+  },
+  {
     "route": "chapters/minimal-surfaces",
     "title": "7 Minimal surfaces",
     "chapter": "minimal-surfaces"

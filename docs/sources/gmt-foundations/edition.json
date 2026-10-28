@@ -1,10 +1,10 @@
 {
   "source": "https://github.com/aosunmath/GMT-stack",
   "kind": "local-manuscript",
-  "source_sha256": "37d1e7eabd5d3aab40b46cd15132126bbb96657b403870126edecd81e7c396b3",
+  "source_sha256": "62f3d6cb9f27cbbadec76b3af5f18e200f728ee6869851797ef64b74df19a435",
   "files": {
     "allen-cahn.tex": "e83e29527057db852a886628ed3c458c538c48ad6245618ed5e5b68d2035e36c",
-    "book.tex": "70d0587d0a1720cfc8adbe9009d6790f3997c9e9f11317b695913efed1019b25",
+    "book.tex": "883d1c7fcdce8854bb76c32ed8e12e5f8d3b2b56fa5af97704347cdb0f03c1a2",
     "brakke-flow.tex": "9e8ef5dc76e7a4814d1703566e54ece216f0302c47f2cc9339b61f4e278c0f68",
     "bv-coarea.tex": "79110d4ed8d0630caa45ca1a78530bf626bf4d828c65df35770a02bd25a57eff",
     "bv-compactness.tex": "3820bcb702ed7a0da8c69251b0ae7860a576fc1124a7143e4a105510ba58f4bc",
@@ -16,7 +16,7 @@
     "current-slicing.tex": "7e56bc01b29f4a106261d2715e3d3666398ce0adcec14e04cf05cbb88ebac027",
     "currents.tex": "676b01a38af29d135b9c8923fe0380ba6728591f4acf859e8a4463e2242b4a8a",
     "elliptic-tools.tex": "6ba2f6b653e2f5a61bb9ff30191536cd79e8adae5f41e38a0412e5da600a4b49",
-    "entry-review.json": "16add6b00928b9131de26da9178749d8a3e910f9325494d6f06d94187c67d987",
+    "entry-review.json": "a9893c14fbc81e51fcc63285e15c3e35cb669c8fac9a8ce7bbe84dd6a4a46a6a",
     "geometric-inequalities.tex": "b082ed97dffc30ff4b17954f6127135999d4fde7ba55327bcaac999e2f656632",
     "history.tex": "56ceb9c3aa6fe2ef05b4a7e2affea072699de2b72510cf738eea57abed1e535f",
     "jacobi-fields.tex": "af6b98456c2db0baa3d94d1249b89d629ea7dd3ab466cda9ba27f75a0c735de0",
@@ -42,14 +42,17 @@
     "phase-stability.tex": "2b62caf5e05c5183b3600dda7bf5ca04f087767fe47c46eaed7bc83390fce10d",
     "rectifiability.tex": "d2dc7fa9136c72205b19ee6e166660204a527eb577b2a36701d004ebadc45dec",
     "references.bib": "c69dea4057007a4c6d363af055ea0a93652c6036925cdd1a3dd0172f90981994",
-    "source-inventory.json": "a0212e1d289a8b287940d3f692389237b9bde634f3e17652ec7480ee87200854",
+    "source-inventory.json": "d965337e15ce3fb5f490896a8c2bc77ce8c8a65f1e36d8ad97aecdcd46205cbb",
     "stability-applications.tex": "9a08c2f0c3f6a4114106cfe34c2bfa7b28021922604e586ed71efa46917ae443",
     "stable-cones.tex": "5ecf6dd70abea081efb998912072bbe0ab1a00d61d7bf30a25c64dd4fbb3cc3f",
+    "varifold-cones.tex": "5539f3f02cd74b402beefa83c10738799272d6b757fff979e4c13afedbe3a77b",
     "varifold-constancy.tex": "df2b181498660dca742caa91dd474a47c746e93bda4a6cf712261572a73bb38c",
-    "varifold-regularity.tex": "ab585d6ede21754219fdcc631d99c4feff67153f86d7437a50fd89cad8248479",
-    "varifolds.tex": "88ea0d2ff4d2724f6438f1862fe5c5704c56ac4d1e3c14285fac8730c73d9118",
+    "varifold-curvature.tex": "23e79d7ab5d394b7c77847c11da58927aca9cc4e24778e3e89059d509efd61d2",
+    "varifold-monotonicity.tex": "e433f0d2c12aa0623b964801a6218463991a3d845a0789fdba670dfb04a14f79",
+    "varifold-regularity.tex": "2e28b6913aa2293cc23e6b486ca19d405f0924726a36fd8f74c15cf7d85fcdb3",
+    "varifolds.tex": "ac6e66091f330462930a3fc2e4f05a3212f1f072a5c4fd3d0a8b3407600710d5",
     "volume-spectrum.tex": "a35d18377d81410425b447e0062f2efffb9b24db3ded0d8e49f80367ff272068"
   },
   "renderer": "Gerby",
-  "tags": 453
+  "tags": 475
 }
