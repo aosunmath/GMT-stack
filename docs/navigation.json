@@ -2217,6 +2217,255 @@
     "tag": "D0597DBED3DE"
   },
   {
+    "route": "sections/gradient-bounds-and-diffuse-monotonicity",
+    "title": "12.5 Gradient bounds and diffuse monotonicity",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity"
+  },
+  {
+    "route": "tag/43AE37D12C79",
+    "title": "Lemma 12.5.1 (Uniform estimates for bounded entire solutions)",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity",
+    "tag": "43AE37D12C79"
+  },
+  {
+    "route": "tag/4E4A8609F931",
+    "title": "Lemma 12.5.2 (A bounded function has arbitrarily small gradient somewhere)",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity",
+    "tag": "4E4A8609F931"
+  },
+  {
+    "route": "tag/21D87AED7971",
+    "title": "Lemma 12.5.3 (The differential inequality for the gradient defect)",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity",
+    "tag": "21D87AED7971"
+  },
+  {
+    "route": "tag/667E950C291A",
+    "title": "Theorem 12.5.4 (Modica's pointwise gradient estimate)",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity",
+    "tag": "667E950C291A"
+  },
+  {
+    "route": "tag/4EB15D8DC6CD",
+    "title": "Corollary 12.5.5 (Nonpositive discrepancy at arbitrary diffuse scale)",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity",
+    "tag": "4EB15D8DC6CD"
+  },
+  {
+    "route": "tag/46CB1D1432FA",
+    "title": "Example 12.5.6 (A local solution need not satisfy Modica's bound)",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity",
+    "tag": "46CB1D1432FA"
+  },
+  {
+    "route": "tag/F85802FCEEC5",
+    "title": "Theorem 12.5.7 (Rigidity in the pointwise gradient estimate)",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity",
+    "tag": "F85802FCEEC5"
+  },
+  {
+    "route": "tag/D34F2C0DB289",
+    "title": "Definition 12.5.8 (The diffuse stress-energy tensor)",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity",
+    "tag": "D34F2C0DB289"
+  },
+  {
+    "route": "tag/A8022BB0F3F8",
+    "title": "Proposition 12.5.9 (Stress-energy conservation)",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity",
+    "tag": "A8022BB0F3F8"
+  },
+  {
+    "route": "tag/E77581190B89",
+    "title": "Theorem 12.5.10 (The exact diffuse energy-ratio identity)",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity",
+    "tag": "E77581190B89"
+  },
+  {
+    "route": "tag/52022BB1B0F4",
+    "title": "Corollary 12.5.11 (Monotonicity and area-order energy growth)",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity",
+    "tag": "52022BB1B0F4"
+  },
+  {
+    "route": "tag/4D27FAB15F2F",
+    "title": "Corollary 12.5.12 (Finite total energy in dimension at least two)",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity",
+    "tag": "4D27FAB15F2F"
+  },
+  {
+    "route": "tag/55D0C917348E",
+    "title": "Example 12.5.13 (Energy ratios of a flat transition layer)",
+    "chapter": "allen-cahn",
+    "section": "gradient-bounds-and-diffuse-monotonicity",
+    "tag": "55D0C917348E"
+  },
+  {
+    "route": "sections/stability-and-level-set-geometry",
+    "title": "12.6 Stability and level-set geometry",
+    "chapter": "allen-cahn",
+    "section": "stability-and-level-set-geometry"
+  },
+  {
+    "route": "tag/A8339114053E",
+    "title": "Definition 12.6.1 (Local Allen-Cahn stability)",
+    "chapter": "allen-cahn",
+    "section": "stability-and-level-set-geometry",
+    "tag": "A8339114053E"
+  },
+  {
+    "route": "tag/4615C9B9B66E",
+    "title": "Proposition 12.6.2 (A positive linearized solution gives stability)",
+    "chapter": "allen-cahn",
+    "section": "stability-and-level-set-geometry",
+    "tag": "4615C9B9B66E"
+  },
+  {
+    "route": "tag/B2558F130634",
+    "title": "Corollary 12.6.3 (Monotone entire solutions are stable)",
+    "chapter": "allen-cahn",
+    "section": "stability-and-level-set-geometry",
+    "tag": "B2558F130634"
+  },
+  {
+    "route": "tag/78EF88634BFA",
+    "title": "Lemma 12.6.4 (The gradient defect and regular level geometry)",
+    "chapter": "allen-cahn",
+    "section": "stability-and-level-set-geometry",
+    "tag": "78EF88634BFA"
+  },
+  {
+    "route": "tag/E4E01C8AC073",
+    "title": "Theorem 12.6.5 (The geometric stability inequality)",
+    "chapter": "allen-cahn",
+    "section": "stability-and-level-set-geometry",
+    "tag": "E4E01C8AC073"
+  },
+  {
+    "route": "tag/674165351C6D",
+    "title": "Corollary 12.6.6 (Stable phases on a closed positive-Ricci manifold)",
+    "chapter": "allen-cahn",
+    "section": "stability-and-level-set-geometry",
+    "tag": "674165351C6D"
+  },
+  {
+    "route": "tag/72E89BE7D42F",
+    "title": "Proposition 12.6.7 (Quadratic gradient growth makes the level geometry flat)",
+    "chapter": "allen-cahn",
+    "section": "stability-and-level-set-geometry",
+    "tag": "72E89BE7D42F"
+  },
+  {
+    "route": "tag/B7BCF88ADDC6",
+    "title": "Lemma 12.6.8 (From zero level defect to a one-dimensional solution)",
+    "chapter": "allen-cahn",
+    "section": "stability-and-level-set-geometry",
+    "tag": "B7BCF88ADDC6"
+  },
+  {
+    "route": "tag/AF0A25D74045",
+    "title": "Lemma 12.6.9 (Bounded stable one-dimensional profiles)",
+    "chapter": "allen-cahn",
+    "section": "stability-and-level-set-geometry",
+    "tag": "AF0A25D74045"
+  },
+  {
+    "route": "tag/1AB5B72578D5",
+    "title": "Theorem 12.6.10 (Stable rigidity under quadratic gradient growth)",
+    "chapter": "allen-cahn",
+    "section": "stability-and-level-set-geometry",
+    "tag": "1AB5B72578D5"
+  },
+  {
+    "route": "tag/B1BFB391165D",
+    "title": "Corollary 12.6.11 (Classification of bounded stable solutions in the plane)",
+    "chapter": "allen-cahn",
+    "section": "stability-and-level-set-geometry",
+    "tag": "B1BFB391165D"
+  },
+  {
+    "route": "sections/monotone-solutions-and-minimizing-properties",
+    "title": "12.7 Monotone solutions and minimizing properties",
+    "chapter": "allen-cahn",
+    "section": "monotone-solutions-and-minimizing-properties"
+  },
+  {
+    "route": "tag/D868C40CBC37",
+    "title": "Definition 12.7.1 (Minimization on bounded balls)",
+    "chapter": "allen-cahn",
+    "section": "monotone-solutions-and-minimizing-properties",
+    "tag": "D868C40CBC37"
+  },
+  {
+    "route": "tag/8A218837EB6A",
+    "title": "Lemma 12.7.2 (Strong contact for ordered solutions)",
+    "chapter": "allen-cahn",
+    "section": "monotone-solutions-and-minimizing-properties",
+    "tag": "8A218837EB6A"
+  },
+  {
+    "route": "tag/37A7AE57FF5D",
+    "title": "Theorem 12.7.3 (A bounded Dirichlet minimizer on a ball)",
+    "chapter": "allen-cahn",
+    "section": "monotone-solutions-and-minimizing-properties",
+    "tag": "37A7AE57FF5D"
+  },
+  {
+    "route": "tag/CCDEB635E7C2",
+    "title": "Lemma 12.7.4 (Uniform limits of monotone translates on compact sets)",
+    "chapter": "allen-cahn",
+    "section": "monotone-solutions-and-minimizing-properties",
+    "tag": "CCDEB635E7C2"
+  },
+  {
+    "route": "tag/D96A7C9B599C",
+    "title": "Theorem 12.7.5 (Monotonicity with saturated ends gives minimization)",
+    "chapter": "allen-cahn",
+    "section": "monotone-solutions-and-minimizing-properties",
+    "tag": "D96A7C9B599C"
+  },
+  {
+    "route": "tag/92B0918DB383",
+    "title": "Proposition 12.7.6 (Area-order energy bound for bounded minimizers)",
+    "chapter": "allen-cahn",
+    "section": "monotone-solutions-and-minimizing-properties",
+    "tag": "92B0918DB383"
+  },
+  {
+    "route": "tag/D8F9E0D25BDD",
+    "title": "Proposition 12.7.7 (Limits at the ends of a monotone solution)",
+    "chapter": "allen-cahn",
+    "section": "monotone-solutions-and-minimizing-properties",
+    "tag": "D8F9E0D25BDD"
+  },
+  {
+    "route": "tag/ED5A458AE4FC",
+    "title": "Proposition 12.7.8 (Energy comparison with a monotone end limit)",
+    "chapter": "allen-cahn",
+    "section": "monotone-solutions-and-minimizing-properties",
+    "tag": "ED5A458AE4FC"
+  },
+  {
+    "route": "tag/DB82FE46F8E6",
+    "title": "Theorem 12.7.9 (Monotone bounded solutions in three dimensions)",
+    "chapter": "allen-cahn",
+    "section": "monotone-solutions-and-minimizing-properties",
+    "tag": "DB82FE46F8E6"
+  },
+  {
     "route": "chapters/obstacle-problems",
     "title": "13 Obstacle problems",
     "chapter": "obstacle-problems"

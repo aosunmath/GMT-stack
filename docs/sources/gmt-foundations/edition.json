@@ -1,10 +1,10 @@
 {
   "source": "https://github.com/aosunmath/GMT-stack",
   "kind": "local-manuscript",
-  "source_sha256": "98a38989ae00e67d62ac863f5b157af966dfcc1101d00d780133e55394d09d91",
+  "source_sha256": "37d1e7eabd5d3aab40b46cd15132126bbb96657b403870126edecd81e7c396b3",
   "files": {
-    "allen-cahn.tex": "d10c86589670e115fd9f027535d6f5b35f947d5a2c92eaaef1a1bcf775459416",
-    "book.tex": "385cd433714c2a203611d31e2be1a52bff1b9ce5e4ac4ee5aafd06c7f9c82120",
+    "allen-cahn.tex": "e83e29527057db852a886628ed3c458c538c48ad6245618ed5e5b68d2035e36c",
+    "book.tex": "70d0587d0a1720cfc8adbe9009d6790f3997c9e9f11317b695913efed1019b25",
     "brakke-flow.tex": "9e8ef5dc76e7a4814d1703566e54ece216f0302c47f2cc9339b61f4e278c0f68",
     "bv-coarea.tex": "79110d4ed8d0630caa45ca1a78530bf626bf4d828c65df35770a02bd25a57eff",
     "bv-compactness.tex": "3820bcb702ed7a0da8c69251b0ae7860a576fc1124a7143e4a105510ba58f4bc",
@@ -16,7 +16,7 @@
     "current-slicing.tex": "7e56bc01b29f4a106261d2715e3d3666398ce0adcec14e04cf05cbb88ebac027",
     "currents.tex": "676b01a38af29d135b9c8923fe0380ba6728591f4acf859e8a4463e2242b4a8a",
     "elliptic-tools.tex": "6ba2f6b653e2f5a61bb9ff30191536cd79e8adae5f41e38a0412e5da600a4b49",
-    "entry-review.json": "edae95b02fffbff4890a80e6c8fc54c83d2c86b379ee8cf5fb57c0076f3571a5",
+    "entry-review.json": "16add6b00928b9131de26da9178749d8a3e910f9325494d6f06d94187c67d987",
     "geometric-inequalities.tex": "b082ed97dffc30ff4b17954f6127135999d4fde7ba55327bcaac999e2f656632",
     "history.tex": "56ceb9c3aa6fe2ef05b4a7e2affea072699de2b72510cf738eea57abed1e535f",
     "jacobi-fields.tex": "af6b98456c2db0baa3d94d1249b89d629ea7dd3ab466cda9ba27f75a0c735de0",
@@ -32,14 +32,17 @@
     "obstacle-monotonicity.tex": "f044e300ba04029ebda7bae7ce833739f378bd021349dd714fd83c8a0c573bd9",
     "obstacle-problems.tex": "e5f8b649acadf500e5f2bf2bef9802bb9ce5d02486f9c4ead25717e3955bb6c4",
     "obstacle-variational.tex": "c0f072d03898bdcd171896dd805d740398b7da171a24b9881cf3243f3c7f1789",
-    "orientation.tex": "7282c2001fe3c54a5a5868e965472e0d2fcf814b484e2c8d89586e7bc37dc5e6",
+    "orientation.tex": "b06f4f3f6cddf9ba4656128994e12a9179f92d82a59946bc677a93bcb6347c62",
     "perimeter.tex": "71da28f0765a9d6d9e2076696c3fe0be46f44a4dba755b57091801d00c1c22fe",
     "phase-compactness.tex": "372ff02467fd5ff429ad1f0931d99232ca89a9dc6329388d751fbc545d32da41",
     "phase-energy.tex": "5385234d882e3b405637d424d170e3624e02c8f80eff75a4f3d784d6755090af",
+    "phase-minimizers.tex": "5ef1847b2a2261a36be34ca42defbbfbc75df8dec146daf4ddd263d068182054",
+    "phase-monotonicity.tex": "47963e9d89f79418c8b452140b75fac3fe48a2267da47df6849611704efc3d7f",
     "phase-recovery.tex": "830fc640158614373370cb8a8fff43fed37f347fecb67bebf31e97f32ddc6d7e",
+    "phase-stability.tex": "2b62caf5e05c5183b3600dda7bf5ca04f087767fe47c46eaed7bc83390fce10d",
     "rectifiability.tex": "d2dc7fa9136c72205b19ee6e166660204a527eb577b2a36701d004ebadc45dec",
     "references.bib": "c69dea4057007a4c6d363af055ea0a93652c6036925cdd1a3dd0172f90981994",
-    "source-inventory.json": "82c806f730c6e5ddfa8ee6a2d039ec950b800852ecd684981737752951ee2f2e",
+    "source-inventory.json": "a0212e1d289a8b287940d3f692389237b9bde634f3e17652ec7480ee87200854",
     "stability-applications.tex": "9a08c2f0c3f6a4114106cfe34c2bfa7b28021922604e586ed71efa46917ae443",
     "stable-cones.tex": "5ecf6dd70abea081efb998912072bbe0ab1a00d61d7bf30a25c64dd4fbb3cc3f",
     "varifold-constancy.tex": "df2b181498660dca742caa91dd474a47c746e93bda4a6cf712261572a73bb38c",
@@ -48,5 +51,5 @@
     "volume-spectrum.tex": "a35d18377d81410425b447e0062f2efffb9b24db3ded0d8e49f80367ff272068"
   },
   "renderer": "Gerby",
-  "tags": 417
+  "tags": 453
 }

@@ -255,7 +255,7 @@
       "edition": "Revision June 29, 2023",
       "sha256": "ba3f324e849afb1268e70d2fcd45e519f51d6ad95429bc9b4445fb0a02c37f30",
       "pdf_pages": 38,
-      "role": "Energy convention, ODE transitions, sharp energy bounds, BV compactness and liminf, recovery layers, Gamma convergence and local-minimizer limits; relative boundary recovery remains external.",
+      "role": "Energy convention, ODE transitions, sharp energy bounds, BV compactness and liminf, recovery layers, Gamma convergence and local-minimizer limits; relative boundary recovery remains external. Modica gradient estimate, stress-energy identity, geometric stability, level-set rigidity, sliding minimization and monotone end limits, with analytic dependencies recorded.",
       "redistributed": false,
       "review_status": "selected-passages-checked",
       "checked_passages": [
@@ -264,7 +264,12 @@
         "Section 2.3.1 and Exercise 2.3, p. 6: flat layers and surface tension; fixed-interface rescaling clarified",
         "Section 3.1, equation (3.1), Proposition 3.5 and Exercise 3.1, pp. 8--9: primitive, compactness and perimeter lower bound; binary-phase factor two retained",
         "Proposition 3.6 and Remark 3.7, pp. 9--10: smooth recovery and Gamma convergence; relative-boundary approximation external",
-        "Section 3.2 and Proposition 3.10, pp. 10--11: fixed-radius local-minimizer limits; phase distance and strict comparison margin explicit"
+        "Section 3.2 and Proposition 3.10, pp. 10--11: fixed-radius local-minimizer limits; phase distance and strict comparison margin explicit",
+        "Proposition 4.1 and Exercises 4.2--4.3, p. 13: Bochner identity, geometric stability and positive-Ricci obstruction",
+        "Lemmas 5.6--5.7, Proposition 5.8 and Exercises 5.2--5.4, pp. 16--18: positive linearized solutions, ordered contact, Dirichlet minimizers and sliding",
+        "Theorems 5.9--5.10, Exercise 5.5 and Sections 5.3--5.4, pp. 19--21: level-set defect, logarithmic cutoffs and stable classification; constant wells retained",
+        "Section 5.5 and Exercise 5.8, pp. 21--22: lower-dimensional end-limit stability, translation-energy comparison and three-dimensional monotone rigidity",
+        "Appendix B Problem 1(a)--(g), p. 27: Modica gradient bound and equality, diffuse monotonicity; source defect factor and radius powers corrected by direct calculation"
       ]
     },
     {

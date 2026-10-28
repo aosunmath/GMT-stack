@@ -3751,5 +3751,329 @@
     "page": "tag/63F887C9/index.html",
     "canonical_tag": "D0597DBED3DE",
     "anchor": ""
+  },
+  {
+    "tag": "87096573",
+    "label": "sec:phase-monotonicity",
+    "title": "55 Gradient bounds and diffuse monotonicity",
+    "kind": "chapter",
+    "page": "tag/87096573/index.html",
+    "canonical_tag": "1DC232E7975B",
+    "anchor": ""
+  },
+  {
+    "tag": "30892B46",
+    "label": "lem:phase-entire-estimates",
+    "title": "Lemma 55.1 (Uniform estimates for bounded entire solutions)",
+    "kind": "lemma",
+    "page": "tag/30892B46/index.html",
+    "canonical_tag": "43AE37D12C79",
+    "anchor": ""
+  },
+  {
+    "tag": "C2A14189",
+    "label": "lem:phase-small-gradient",
+    "title": "Lemma 55.2 (A bounded function has arbitrarily small gradient somewhere)",
+    "kind": "lemma",
+    "page": "tag/C2A14189/index.html",
+    "canonical_tag": "4E4A8609F931",
+    "anchor": ""
+  },
+  {
+    "tag": "80FB1869",
+    "label": "lem:phase-gradient-defect-pde",
+    "title": "Lemma 55.3 (The differential inequality for the gradient defect)",
+    "kind": "lemma",
+    "page": "tag/80FB1869/index.html",
+    "canonical_tag": "21D87AED7971",
+    "anchor": ""
+  },
+  {
+    "tag": "42B6EC31",
+    "label": "thm:phase-modica-gradient",
+    "title": "Theorem 55.4 (Modica's pointwise gradient estimate)",
+    "kind": "theorem",
+    "page": "tag/42B6EC31/index.html",
+    "canonical_tag": "667E950C291A",
+    "anchor": ""
+  },
+  {
+    "tag": "FA3E99E4",
+    "label": "cor:phase-modica-scaled",
+    "title": "Corollary 55.5 (Nonpositive discrepancy at arbitrary diffuse scale)",
+    "kind": "corollary",
+    "page": "tag/FA3E99E4/index.html",
+    "canonical_tag": "4EB15D8DC6CD",
+    "anchor": ""
+  },
+  {
+    "tag": "FA59E1C4",
+    "label": "ex:phase-local-gradient-bound",
+    "title": "Example 55.6 (A local solution need not satisfy Modica's bound)",
+    "kind": "example",
+    "page": "tag/FA59E1C4/index.html",
+    "canonical_tag": "46CB1D1432FA",
+    "anchor": ""
+  },
+  {
+    "tag": "04587367",
+    "label": "thm:phase-modica-equality",
+    "title": "Theorem 55.7 (Rigidity in the pointwise gradient estimate)",
+    "kind": "theorem",
+    "page": "tag/04587367/index.html",
+    "canonical_tag": "F85802FCEEC5",
+    "anchor": ""
+  },
+  {
+    "tag": "92A32855",
+    "label": "def:phase-stress-energy",
+    "title": "Definition 55.8 (The diffuse stress-energy tensor)",
+    "kind": "definition",
+    "page": "tag/92A32855/index.html",
+    "canonical_tag": "D34F2C0DB289",
+    "anchor": ""
+  },
+  {
+    "tag": "B5DB20F9",
+    "label": "prop:phase-stress-conservation",
+    "title": "Proposition 55.9 (Stress-energy conservation)",
+    "kind": "proposition",
+    "page": "tag/B5DB20F9/index.html",
+    "canonical_tag": "A8022BB0F3F8",
+    "anchor": ""
+  },
+  {
+    "tag": "89F9D887",
+    "label": "thm:phase-energy-ratio",
+    "title": "Theorem 55.10 (The exact diffuse energy-ratio identity)",
+    "kind": "theorem",
+    "page": "tag/89F9D887/index.html",
+    "canonical_tag": "E77581190B89",
+    "anchor": ""
+  },
+  {
+    "tag": "BB2CE893",
+    "label": "cor:phase-energy-monotonicity",
+    "title": "Corollary 55.11 (Monotonicity and area-order energy growth)",
+    "kind": "corollary",
+    "page": "tag/BB2CE893/index.html",
+    "canonical_tag": "52022BB1B0F4",
+    "anchor": ""
+  },
+  {
+    "tag": "11AF9B84",
+    "label": "cor:phase-finite-total-energy",
+    "title": "Corollary 55.12 (Finite total energy in dimension at least two)",
+    "kind": "corollary",
+    "page": "tag/11AF9B84/index.html",
+    "canonical_tag": "4D27FAB15F2F",
+    "anchor": ""
+  },
+  {
+    "tag": "14BB761E",
+    "label": "ex:phase-flat-density-ratio",
+    "title": "Example 55.13 (Energy ratios of a flat transition layer)",
+    "kind": "example",
+    "page": "tag/14BB761E/index.html",
+    "canonical_tag": "55D0C917348E",
+    "anchor": ""
+  },
+  {
+    "tag": "A8A01360",
+    "label": "sec:phase-stability",
+    "title": "56 Stability and level-set geometry",
+    "kind": "chapter",
+    "page": "tag/A8A01360/index.html",
+    "canonical_tag": "6E44CE36482C",
+    "anchor": ""
+  },
+  {
+    "tag": "D695B444",
+    "label": "def:phase-local-stability",
+    "title": "Definition 56.1 (Local Allen-Cahn stability)",
+    "kind": "definition",
+    "page": "tag/D695B444/index.html",
+    "canonical_tag": "A8339114053E",
+    "anchor": ""
+  },
+  {
+    "tag": "4A6CCBF2",
+    "label": "prop:phase-ground-state",
+    "title": "Proposition 56.2 (A positive linearized solution gives stability)",
+    "kind": "proposition",
+    "page": "tag/4A6CCBF2/index.html",
+    "canonical_tag": "4615C9B9B66E",
+    "anchor": ""
+  },
+  {
+    "tag": "EECBDBC5",
+    "label": "cor:phase-monotone-stability",
+    "title": "Corollary 56.3 (Monotone entire solutions are stable)",
+    "kind": "corollary",
+    "page": "tag/EECBDBC5/index.html",
+    "canonical_tag": "B2558F130634",
+    "anchor": ""
+  },
+  {
+    "tag": "4DD5D4AF",
+    "label": "lem:phase-level-geometry",
+    "title": "Lemma 56.4 (The gradient defect and regular level geometry)",
+    "kind": "lemma",
+    "page": "tag/4DD5D4AF/index.html",
+    "canonical_tag": "78EF88634BFA",
+    "anchor": ""
+  },
+  {
+    "tag": "B0381184",
+    "label": "thm:phase-geometric-stability",
+    "title": "Theorem 56.5 (The geometric stability inequality)",
+    "kind": "theorem",
+    "page": "tag/B0381184/index.html",
+    "canonical_tag": "E4E01C8AC073",
+    "anchor": ""
+  },
+  {
+    "tag": "E7655ED9",
+    "label": "cor:phase-positive-ricci",
+    "title": "Corollary 56.6 (Stable phases on a closed positive-Ricci manifold)",
+    "kind": "corollary",
+    "page": "tag/E7655ED9/index.html",
+    "canonical_tag": "674165351C6D",
+    "anchor": ""
+  },
+  {
+    "tag": "DD09FBF5",
+    "label": "prop:phase-quadratic-flatness",
+    "title": "Proposition 56.7 (Quadratic gradient growth makes the level geometry flat)",
+    "kind": "proposition",
+    "page": "tag/DD09FBF5/index.html",
+    "canonical_tag": "72E89BE7D42F",
+    "anchor": ""
+  },
+  {
+    "tag": "E0C5720F",
+    "label": "lem:phase-flat-to-onedimensional",
+    "title": "Lemma 56.8 (From zero level defect to a one-dimensional solution)",
+    "kind": "lemma",
+    "page": "tag/E0C5720F/index.html",
+    "canonical_tag": "B7BCF88ADDC6",
+    "anchor": ""
+  },
+  {
+    "tag": "0B7A01A1",
+    "label": "lem:phase-stable-ode",
+    "title": "Lemma 56.9 (Bounded stable one-dimensional profiles)",
+    "kind": "lemma",
+    "page": "tag/0B7A01A1/index.html",
+    "canonical_tag": "AF0A25D74045",
+    "anchor": ""
+  },
+  {
+    "tag": "ABF76429",
+    "label": "thm:phase-stable-growth-rigidity",
+    "title": "Theorem 56.10 (Stable rigidity under quadratic gradient growth)",
+    "kind": "theorem",
+    "page": "tag/ABF76429/index.html",
+    "canonical_tag": "1AB5B72578D5",
+    "anchor": ""
+  },
+  {
+    "tag": "A64C0B75",
+    "label": "cor:phase-planar-stable",
+    "title": "Corollary 56.11 (Classification of bounded stable solutions in the plane)",
+    "kind": "corollary",
+    "page": "tag/A64C0B75/index.html",
+    "canonical_tag": "B1BFB391165D",
+    "anchor": ""
+  },
+  {
+    "tag": "6948DE48",
+    "label": "sec:phase-minimizers",
+    "title": "57 Monotone solutions and minimizing properties",
+    "kind": "chapter",
+    "page": "tag/6948DE48/index.html",
+    "canonical_tag": "3CCB21712644",
+    "anchor": ""
+  },
+  {
+    "tag": "CDBD394E",
+    "label": "def:phase-ball-minimizer",
+    "title": "Definition 57.1 (Minimization on bounded balls)",
+    "kind": "definition",
+    "page": "tag/CDBD394E/index.html",
+    "canonical_tag": "D868C40CBC37",
+    "anchor": ""
+  },
+  {
+    "tag": "80134A1E",
+    "label": "lem:phase-ordered-contact",
+    "title": "Lemma 57.2 (Strong contact for ordered solutions)",
+    "kind": "lemma",
+    "page": "tag/80134A1E/index.html",
+    "canonical_tag": "8A218837EB6A",
+    "anchor": ""
+  },
+  {
+    "tag": "1703DC55",
+    "label": "thm:phase-dirichlet-minimizer",
+    "title": "Theorem 57.3 (A bounded Dirichlet minimizer on a ball)",
+    "kind": "theorem",
+    "page": "tag/1703DC55/index.html",
+    "canonical_tag": "37A7AE57FF5D",
+    "anchor": ""
+  },
+  {
+    "tag": "8B2353DB",
+    "label": "lem:phase-translate-limits",
+    "title": "Lemma 57.4 (Uniform limits of monotone translates on compact sets)",
+    "kind": "lemma",
+    "page": "tag/8B2353DB/index.html",
+    "canonical_tag": "CCDEB635E7C2",
+    "anchor": ""
+  },
+  {
+    "tag": "B43D4347",
+    "label": "thm:phase-monotone-minimizing",
+    "title": "Theorem 57.5 (Monotonicity with saturated ends gives minimization)",
+    "kind": "theorem",
+    "page": "tag/B43D4347/index.html",
+    "canonical_tag": "D96A7C9B599C",
+    "anchor": ""
+  },
+  {
+    "tag": "0D61C7E4",
+    "label": "prop:phase-minimizer-growth",
+    "title": "Proposition 57.6 (Area-order energy bound for bounded minimizers)",
+    "kind": "proposition",
+    "page": "tag/0D61C7E4/index.html",
+    "canonical_tag": "92B0918DB383",
+    "anchor": ""
+  },
+  {
+    "tag": "21EA30D0",
+    "label": "prop:phase-monotone-end-limits",
+    "title": "Proposition 57.7 (Limits at the ends of a monotone solution)",
+    "kind": "proposition",
+    "page": "tag/21EA30D0/index.html",
+    "canonical_tag": "D8F9E0D25BDD",
+    "anchor": ""
+  },
+  {
+    "tag": "BAE314EE",
+    "label": "prop:phase-translation-energy",
+    "title": "Proposition 57.8 (Energy comparison with a monotone end limit)",
+    "kind": "proposition",
+    "page": "tag/BAE314EE/index.html",
+    "canonical_tag": "ED5A458AE4FC",
+    "anchor": ""
+  },
+  {
+    "tag": "897298BE",
+    "label": "thm:phase-monotone-three-dimensional",
+    "title": "Theorem 57.9 (Monotone bounded solutions in three dimensions)",
+    "kind": "theorem",
+    "page": "tag/897298BE/index.html",
+    "canonical_tag": "DB82FE46F8E6",
+    "anchor": ""
   }
 ]
