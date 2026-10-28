@@ -457,6 +457,214 @@
     "tag": "2113703E7856"
   },
   {
+    "route": "sections/operations-on-currents",
+    "title": "5.3 Operations on currents",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents"
+  },
+  {
+    "route": "tag/F9AA0927D6D3",
+    "title": "Definition 5.3.1 (Support and normal currents)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "F9AA0927D6D3"
+  },
+  {
+    "route": "tag/E73216D55EF5",
+    "title": "Theorem 5.3.2 (Representation of currents with locally finite mass)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "E73216D55EF5"
+  },
+  {
+    "route": "tag/AA1586653736",
+    "title": "Proposition 5.3.3 (Weak compactness from local mass bounds)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "AA1586653736"
+  },
+  {
+    "route": "tag/D80FDA4F9AB7",
+    "title": "Definition 5.3.4 (Restriction and contraction by a differential)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "D80FDA4F9AB7"
+  },
+  {
+    "route": "tag/C518F9F87741",
+    "title": "Proposition 5.3.5 (Boundary of a smooth scalar restriction)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "C518F9F87741"
+  },
+  {
+    "route": "tag/6D60EECBFF25",
+    "title": "Definition 5.3.6 (Smooth pushforward and properness)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "6D60EECBFF25"
+  },
+  {
+    "route": "tag/738450753968",
+    "title": "Proposition 5.3.7 (Pushforward, boundary, and composition)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "738450753968"
+  },
+  {
+    "route": "tag/126C4418F9FD",
+    "title": "Proposition 5.3.8 (Mass bound for a pushforward)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "126C4418F9FD"
+  },
+  {
+    "route": "tag/C03BD7F60BF1",
+    "title": "Theorem 5.3.9 (Lipschitz pushforwards of integral currents)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "C03BD7F60BF1"
+  },
+  {
+    "route": "tag/BD37354CBD90",
+    "title": "Example 5.3.10 (Projection can cancel two sheets)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "BD37354CBD90"
+  },
+  {
+    "route": "tag/1CD110260D8E",
+    "title": "Definition 5.3.11 (The interval product)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "1CD110260D8E"
+  },
+  {
+    "route": "tag/35BE43CA75FC",
+    "title": "Proposition 5.3.12 (Boundary of the interval product)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "35BE43CA75FC"
+  },
+  {
+    "route": "tag/1820DA232B40",
+    "title": "Proposition 5.3.13 (The homotopy formula)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "1820DA232B40"
+  },
+  {
+    "route": "tag/0F1A75F2601B",
+    "title": "Definition 5.3.14 (A flat norm for real currents)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "0F1A75F2601B"
+  },
+  {
+    "route": "tag/F92644CBD3BD",
+    "title": "Proposition 5.3.15 (Flat control of test forms and boundaries)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "F92644CBD3BD"
+  },
+  {
+    "route": "tag/AB58565BA69A",
+    "title": "Proposition 5.3.16 (Nondegeneracy of the integer polyhedral flat metric)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "AB58565BA69A"
+  },
+  {
+    "route": "tag/1ECE4BB7EEE7",
+    "title": "Proposition 5.3.17 (A quantitative affine homotopy estimate)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "1ECE4BB7EEE7"
+  },
+  {
+    "route": "tag/55F0DD68BC15",
+    "title": "Definition 5.3.18 (The cone over a compactly supported current)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "55F0DD68BC15"
+  },
+  {
+    "route": "tag/FE4C86C4A57D",
+    "title": "Proposition 5.3.19 (Cone identity and mass estimate)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "FE4C86C4A57D"
+  },
+  {
+    "route": "tag/A3DF20FFB628",
+    "title": "Example 5.3.20 (The zero-dimensional augmentation condition)",
+    "chapter": "currents-flat-chains",
+    "section": "operations-on-currents",
+    "tag": "A3DF20FFB628"
+  },
+  {
+    "route": "sections/slicing-and-the-plateau-direct-method",
+    "title": "5.4 Slicing and the Plateau direct method",
+    "chapter": "currents-flat-chains",
+    "section": "slicing-and-the-plateau-direct-method"
+  },
+  {
+    "route": "tag/4F695BB95218",
+    "title": "Definition 5.4.1 (Slice by a scalar function)",
+    "chapter": "currents-flat-chains",
+    "section": "slicing-and-the-plateau-direct-method",
+    "tag": "4F695BB95218"
+  },
+  {
+    "route": "tag/0E99E4802BCA",
+    "title": "Theorem 5.4.2 (Slicing of integral currents)",
+    "chapter": "currents-flat-chains",
+    "section": "slicing-and-the-plateau-direct-method",
+    "tag": "0E99E4802BCA"
+  },
+  {
+    "route": "tag/90329BDB0E5A",
+    "title": "Proposition 5.4.3 (Boundary and slicing have opposite signs)",
+    "chapter": "currents-flat-chains",
+    "section": "slicing-and-the-plateau-direct-method",
+    "tag": "90329BDB0E5A"
+  },
+  {
+    "route": "tag/73C4D018ADAF",
+    "title": "Proposition 5.4.4 (Choosing a radius with controlled cutting boundary)",
+    "chapter": "currents-flat-chains",
+    "section": "slicing-and-the-plateau-direct-method",
+    "tag": "73C4D018ADAF"
+  },
+  {
+    "route": "tag/A2CEDE0295D2",
+    "title": "Example 5.4.5 (The slice of an oriented rectangle)",
+    "chapter": "currents-flat-chains",
+    "section": "slicing-and-the-plateau-direct-method",
+    "tag": "A2CEDE0295D2"
+  },
+  {
+    "route": "tag/959193546633",
+    "title": "Definition 5.4.6 (The integral Plateau problem in a compact container)",
+    "chapter": "currents-flat-chains",
+    "section": "slicing-and-the-plateau-direct-method",
+    "tag": "959193546633"
+  },
+  {
+    "route": "tag/5D2EEA517377",
+    "title": "Theorem 5.4.7 (Existence of a mass-minimizing integral filling)",
+    "chapter": "currents-flat-chains",
+    "section": "slicing-and-the-plateau-direct-method",
+    "tag": "5D2EEA517377"
+  },
+  {
+    "route": "tag/2DDDF8908CF1",
+    "title": "Corollary 5.4.8 (Compact boundaries have Euclidean minimizers)",
+    "chapter": "currents-flat-chains",
+    "section": "slicing-and-the-plateau-direct-method",
+    "tag": "2DDDF8908CF1"
+  },
+  {
     "route": "chapters/varifolds",
     "title": "6 Varifolds",
     "chapter": "varifolds"
@@ -1278,6 +1486,110 @@
     "chapter": "constant-mean-curvature",
     "section": "constant-geodesic-curvature-networks",
     "tag": "1BE70B8F92FD"
+  },
+  {
+    "route": "sections/volume-constraints-and-cmc-stability",
+    "title": "11.3 Volume constraints and CMC stability",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability"
+  },
+  {
+    "route": "tag/69AD8C3A2E1D",
+    "title": "Definition 11.3.1 (Infinitesimal volume-preserving variations)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "69AD8C3A2E1D"
+  },
+  {
+    "route": "tag/35ECF4C2F5DD",
+    "title": "Proposition 11.3.2 (Realizing a zero-mean speed with an exact volume constraint)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "35ECF4C2F5DD"
+  },
+  {
+    "route": "tag/AC0FE2421EEA",
+    "title": "Proposition 11.3.3 (Fixed-volume stationarity characterizes constant mean curvature)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "AC0FE2421EEA"
+  },
+  {
+    "route": "tag/2DBE30F27E50",
+    "title": "Proposition 11.3.4 (Riemannian normal variation of mean curvature)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "2DBE30F27E50"
+  },
+  {
+    "route": "tag/0C2679767FF6",
+    "title": "Proposition 11.3.5 (Second variation of area minus volume)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "0C2679767FF6"
+  },
+  {
+    "route": "tag/067C762778A0",
+    "title": "Definition 11.3.6 (Strong and volume-constrained CMC stability)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "067C762778A0"
+  },
+  {
+    "route": "tag/93851119AB24",
+    "title": "Proposition 11.3.7 (One scalar constraint changes index by at most one)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "93851119AB24"
+  },
+  {
+    "route": "tag/4AF6DFFAC5BC",
+    "title": "Proposition 11.3.8 (The sharp Poincare inequality on a round sphere)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "4AF6DFFAC5BC"
+  },
+  {
+    "route": "tag/62447F464A27",
+    "title": "Example 11.3.9 (A round sphere is weakly stable but strongly unstable)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "62447F464A27"
+  },
+  {
+    "route": "tag/6BAA97140F05",
+    "title": "Proposition 11.3.10 (Strong instability under nonnegative Ricci curvature)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "6BAA97140F05"
+  },
+  {
+    "route": "tag/9C857ED1F719",
+    "title": "Proposition 11.3.11 (Volume stability forces connectedness when the potential is positive)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "9C857ED1F719"
+  },
+  {
+    "route": "tag/0874A98CACF0",
+    "title": "Definition 11.3.12 (Prescribed-mean-curvature energy)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "0874A98CACF0"
+  },
+  {
+    "route": "tag/2F067F1DC90E",
+    "title": "Proposition 11.3.13 (First and second variation for prescribed mean curvature)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "2F067F1DC90E"
+  },
+  {
+    "route": "tag/8D4734A778BF",
+    "title": "Proposition 11.3.14 (The CMC graph equation and oriented contact)",
+    "chapter": "constant-mean-curvature",
+    "section": "volume-constraints-and-cmc-stability",
+    "tag": "8D4734A778BF"
   },
   {
     "route": "chapters/allen-cahn",

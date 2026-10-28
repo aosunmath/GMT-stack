@@ -48,8 +48,11 @@
       "tag": "9250EFD1531A",
       "topics": [
         "currents-and-compactness",
-        "polyhedral-and-flat-chains"
+        "polyhedral-and-flat-chains",
+        "operations-on-currents",
+        "slicing-and-the-plateau-direct-method"
       ],
+      "description": "Mass, compactness, flat chains, pushforwards, homotopies, cones, slicing, and the integral Plateau direct method.",
       "number": 5
     },
     {
@@ -120,9 +123,10 @@
       "tag": "738653D2CC4F",
       "topics": [
         "constant-mean-curvature-and-constrained-area",
-        "constant-geodesic-curvature-networks"
+        "constant-geodesic-curvature-networks",
+        "volume-constraints-and-cmc-stability"
       ],
-      "description": "Area with a volume term, almost embedded CMC hypersurfaces, and curvature networks.",
+      "description": "Area minus volume, CMC min-max, curvature networks, exact volume constraints, and strong versus constrained stability.",
       "number": 11
     },
     {
@@ -445,6 +449,27 @@
       "description": "",
       "number": "4.3",
       "tag": "69083B262DD9"
+    },
+    {
+      "slug": "operations-on-currents",
+      "title": "Operations on currents",
+      "description": "",
+      "number": "5.3",
+      "tag": "4F98A2504D31"
+    },
+    {
+      "slug": "slicing-and-the-plateau-direct-method",
+      "title": "Slicing and the Plateau direct method",
+      "description": "",
+      "number": "5.4",
+      "tag": "AB62CA3EC367"
+    },
+    {
+      "slug": "volume-constraints-and-cmc-stability",
+      "title": "Volume constraints and CMC stability",
+      "description": "",
+      "number": "11.3",
+      "tag": "BAC2E4164020"
     }
   ],
   "entries": [
@@ -461,7 +486,7 @@
           "book": "gmt-foundations",
           "tag": "F8390A5C",
           "label": "sec:sources-conventions",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -479,7 +504,7 @@
           "book": "gmt-foundations",
           "tag": "B6BB2EC0",
           "label": "rem:source-editions",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -497,7 +522,7 @@
           "book": "gmt-foundations",
           "tag": "BA8E466F",
           "label": "rem:notation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -515,7 +540,7 @@
           "book": "gmt-foundations",
           "tag": "6592A3B9",
           "label": "rem:project-scope",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -533,7 +558,7 @@
           "book": "gmt-foundations",
           "tag": "AD6522C4",
           "label": "sec:radon-measures",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -551,7 +576,7 @@
           "book": "gmt-foundations",
           "tag": "4720F063",
           "label": "def:radon-measure",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -569,7 +594,7 @@
           "book": "gmt-foundations",
           "tag": "5F0C390F",
           "label": "def:weak-measure",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -587,7 +612,7 @@
           "book": "gmt-foundations",
           "tag": "C9FD2516",
           "label": "thm:radon-compactness",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -605,7 +630,7 @@
           "book": "gmt-foundations",
           "tag": "509E98AA",
           "label": "prop:measure-lsc",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -623,7 +648,7 @@
           "book": "gmt-foundations",
           "tag": "61D8030E",
           "label": "sec:hausdorff-measure",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -641,7 +666,7 @@
           "book": "gmt-foundations",
           "tag": "3C6E8F29",
           "label": "def:hausdorff-measure",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -659,7 +684,7 @@
           "book": "gmt-foundations",
           "tag": "588809A3",
           "label": "prop:lipschitz-measure",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -677,7 +702,7 @@
           "book": "gmt-foundations",
           "tag": "7B8EA77A",
           "label": "def:density",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -695,7 +720,7 @@
           "book": "gmt-foundations",
           "tag": "01506B24",
           "label": "ex:plane-density",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -713,7 +738,7 @@
           "book": "gmt-foundations",
           "tag": "A598409E",
           "label": "sec:rectifiable-sets",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -731,7 +756,7 @@
           "book": "gmt-foundations",
           "tag": "9C089029",
           "label": "def:rectifiable-set",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -749,7 +774,7 @@
           "book": "gmt-foundations",
           "tag": "54612FF0",
           "label": "thm:rademacher",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -767,7 +792,7 @@
           "book": "gmt-foundations",
           "tag": "923A745A",
           "label": "def:approximate-tangent",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -785,7 +810,7 @@
           "book": "gmt-foundations",
           "tag": "592D7EC3",
           "label": "thm:rectifiable-tangents",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -803,7 +828,7 @@
           "book": "gmt-foundations",
           "tag": "84D3983B",
           "label": "sec:area-coarea",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -821,7 +846,7 @@
           "book": "gmt-foundations",
           "tag": "3F1624A4",
           "label": "def:jacobians",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -839,7 +864,7 @@
           "book": "gmt-foundations",
           "tag": "198EB5B3",
           "label": "thm:area-formula",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -857,7 +882,7 @@
           "book": "gmt-foundations",
           "tag": "557B8C3B",
           "label": "cor:graph-area",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -875,7 +900,7 @@
           "book": "gmt-foundations",
           "tag": "6412C4A4",
           "label": "thm:coarea-formula",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -893,7 +918,7 @@
           "book": "gmt-foundations",
           "tag": "E1107D6F",
           "label": "sec:finite-perimeter",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -911,7 +936,7 @@
           "book": "gmt-foundations",
           "tag": "41FF3C2E",
           "label": "def:bv",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -929,7 +954,7 @@
           "book": "gmt-foundations",
           "tag": "12895E50",
           "label": "def:finite-perimeter",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -947,7 +972,7 @@
           "book": "gmt-foundations",
           "tag": "3E809D50",
           "label": "prop:perimeter-lsc",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -965,7 +990,7 @@
           "book": "gmt-foundations",
           "tag": "A6252FDA",
           "label": "def:reduced-boundary",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -983,7 +1008,7 @@
           "book": "gmt-foundations",
           "tag": "6BABFB22",
           "label": "thm:de-giorgi",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1001,7 +1026,7 @@
           "book": "gmt-foundations",
           "tag": "A4DCAA13",
           "label": "ex:smooth-perimeter",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1019,7 +1044,7 @@
           "book": "gmt-foundations",
           "tag": "4295C021",
           "label": "sec:currents",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1037,7 +1062,7 @@
           "book": "gmt-foundations",
           "tag": "90B10D4C",
           "label": "def:current",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1055,7 +1080,7 @@
           "book": "gmt-foundations",
           "tag": "AF19E76D",
           "label": "prop:boundary-current",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1073,7 +1098,7 @@
           "book": "gmt-foundations",
           "tag": "9CD367F0",
           "label": "def:mass-current",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1091,7 +1116,7 @@
           "book": "gmt-foundations",
           "tag": "D093638D",
           "label": "prop:mass-lsc",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1109,7 +1134,7 @@
           "book": "gmt-foundations",
           "tag": "90A54D90",
           "label": "def:integral-current",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1127,7 +1152,7 @@
           "book": "gmt-foundations",
           "tag": "AF630ACE",
           "label": "thm:integral-compactness",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1145,7 +1170,7 @@
           "book": "gmt-foundations",
           "tag": "35A2E808",
           "label": "sec:flat-chains",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1163,7 +1188,7 @@
           "book": "gmt-foundations",
           "tag": "169D404D",
           "label": "def:polyhedral-chain",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1181,7 +1206,7 @@
           "book": "gmt-foundations",
           "tag": "6C96BC51",
           "label": "def:flat-norm",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1199,7 +1224,7 @@
           "book": "gmt-foundations",
           "tag": "4A9E5B8C",
           "label": "prop:flat-boundary",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1217,7 +1242,7 @@
           "book": "gmt-foundations",
           "tag": "75A4FEA4",
           "label": "ex:thin-rectangle",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1235,7 +1260,7 @@
           "book": "gmt-foundations",
           "tag": "4BE2EFCC",
           "label": "sec:varifolds",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1253,7 +1278,7 @@
           "book": "gmt-foundations",
           "tag": "3F5F54C4",
           "label": "def:varifold",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1271,7 +1296,7 @@
           "book": "gmt-foundations",
           "tag": "D39B8F54",
           "label": "def:rectifiable-varifold",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1289,7 +1314,7 @@
           "book": "gmt-foundations",
           "tag": "687E4FA1",
           "label": "def:first-variation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1307,7 +1332,7 @@
           "book": "gmt-foundations",
           "tag": "F434B949",
           "label": "prop:plane-stationary",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1325,7 +1350,7 @@
           "book": "gmt-foundations",
           "tag": "E02239D4",
           "label": "thm:stationary-monotonicity",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1343,7 +1368,7 @@
           "book": "gmt-foundations",
           "tag": "73041C2A",
           "label": "sec:minimal-stability",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1361,7 +1386,7 @@
           "book": "gmt-foundations",
           "tag": "B892A771",
           "label": "def:smooth-minimal",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1379,7 +1404,7 @@
           "book": "gmt-foundations",
           "tag": "ADA163D3",
           "label": "prop:smooth-first-variation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1397,7 +1422,7 @@
           "book": "gmt-foundations",
           "tag": "4AD8B5BF",
           "label": "thm:second-variation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1415,7 +1440,7 @@
           "book": "gmt-foundations",
           "tag": "1B475C58",
           "label": "def:morse-index",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1433,7 +1458,7 @@
           "book": "gmt-foundations",
           "tag": "49337A84",
           "label": "cor:ricci-unstable",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1451,7 +1476,7 @@
           "book": "gmt-foundations",
           "tag": "BD4A2B38",
           "label": "sec:minimal-graphs",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1469,7 +1494,7 @@
           "book": "gmt-foundations",
           "tag": "53EE188E",
           "label": "prop:minimal-graph-pde",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1487,7 +1512,7 @@
           "book": "gmt-foundations",
           "tag": "5EFFBB9C",
           "label": "rem:regularity-program",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1505,7 +1530,7 @@
           "book": "gmt-foundations",
           "tag": "1F5DE8C3",
           "label": "def:weak-minimal-graph",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1523,7 +1548,7 @@
           "book": "gmt-foundations",
           "tag": "8EF0F3AA",
           "label": "prop:graph-ellipticity",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1541,7 +1566,7 @@
           "book": "gmt-foundations",
           "tag": "326CAC2F",
           "label": "prop:graph-linearization",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1559,7 +1584,7 @@
           "book": "gmt-foundations",
           "tag": "A80DE10F",
           "label": "thm:lipschitz-minimal-regularity",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1577,7 +1602,7 @@
           "book": "gmt-foundations",
           "tag": "735CA39E",
           "label": "prop:classical-graph-bootstrap",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1595,7 +1620,7 @@
           "book": "gmt-foundations",
           "tag": "36688523",
           "label": "prop:graph-strong-comparison",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1613,7 +1638,7 @@
           "book": "gmt-foundations",
           "tag": "5B1F6A25",
           "label": "cor:graph-dirichlet-uniqueness",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1631,7 +1656,7 @@
           "book": "gmt-foundations",
           "tag": "5470ECE3",
           "label": "cor:minimal-tangency",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1649,7 +1674,7 @@
           "book": "gmt-foundations",
           "tag": "3F96A5E1",
           "label": "def:calibration",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1667,7 +1692,7 @@
           "book": "gmt-foundations",
           "tag": "53DE80F7",
           "label": "prop:calibration-minimizes",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1685,7 +1710,7 @@
           "book": "gmt-foundations",
           "tag": "4A86E539",
           "label": "prop:graph-calibration",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1703,7 +1728,7 @@
           "book": "gmt-foundations",
           "tag": "13D45764",
           "label": "ex:scherk-graph",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1721,7 +1746,7 @@
           "book": "gmt-foundations",
           "tag": "B217FE17",
           "label": "sec:minmax-cycles",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1739,7 +1764,7 @@
           "book": "gmt-foundations",
           "tag": "B311C8E7",
           "label": "def:minmax-cycles",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1757,7 +1782,7 @@
           "book": "gmt-foundations",
           "tag": "150043F6",
           "label": "def:homotopy-width",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1775,7 +1800,7 @@
           "book": "gmt-foundations",
           "tag": "9B764EAB",
           "label": "def:mass-fineness",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1793,7 +1818,7 @@
           "book": "gmt-foundations",
           "tag": "E58FC24E",
           "label": "rem:smooth-sweepouts",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1811,7 +1836,7 @@
           "book": "gmt-foundations",
           "tag": "5EB31A57",
           "label": "sec:almost-minimizing",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1829,7 +1854,7 @@
           "book": "gmt-foundations",
           "tag": "C9FFC372",
           "label": "def:almost-minimizing",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1847,7 +1872,7 @@
           "book": "gmt-foundations",
           "tag": "82C74BB3",
           "label": "thm:pitts-existence",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1865,7 +1890,7 @@
           "book": "gmt-foundations",
           "tag": "0012D4A0",
           "label": "thm:ap-realization",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1883,7 +1908,7 @@
           "book": "gmt-foundations",
           "tag": "3922FC0A",
           "label": "rem:pitts-proof-route",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1901,7 +1926,7 @@
           "book": "gmt-foundations",
           "tag": "E7B6814B",
           "label": "sec:volume-spectrum",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1919,7 +1944,7 @@
           "book": "gmt-foundations",
           "tag": "52FADBB4",
           "label": "def:no-concentration",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1937,7 +1962,7 @@
           "book": "gmt-foundations",
           "tag": "D5EBDB55",
           "label": "def:p-width",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1955,7 +1980,7 @@
           "book": "gmt-foundations",
           "tag": "0804B28B",
           "label": "lem:width-monotonicity",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1973,7 +1998,7 @@
           "book": "gmt-foundations",
           "tag": "D1B6C128",
           "label": "lem:width-scaling",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -1991,7 +2016,7 @@
           "book": "gmt-foundations",
           "tag": "5D225410",
           "label": "thm:weyl-volume",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2009,7 +2034,7 @@
           "book": "gmt-foundations",
           "tag": "13DF50E4",
           "label": "sec:minmax-index",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2027,7 +2052,7 @@
           "book": "gmt-foundations",
           "tag": "77AD4764",
           "label": "def:bumpy-minimal-cycle",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2045,7 +2070,7 @@
           "book": "gmt-foundations",
           "tag": "8D5C9131",
           "label": "thm:minmax-index-equality",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2063,7 +2088,7 @@
           "book": "gmt-foundations",
           "tag": "24D05566",
           "label": "sec:willmore-catenoid",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2081,7 +2106,7 @@
           "book": "gmt-foundations",
           "tag": "40FB988E",
           "label": "def:willmore-energy",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2099,7 +2124,7 @@
           "book": "gmt-foundations",
           "tag": "BFF89772",
           "label": "thm:willmore-bound",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2117,7 +2142,7 @@
           "book": "gmt-foundations",
           "tag": "5E30228A",
           "label": "rem:catenoid-estimate",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2135,7 +2160,7 @@
           "book": "gmt-foundations",
           "tag": "70596725",
           "label": "thm:ricci-one-parameter",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2153,7 +2178,7 @@
           "book": "gmt-foundations",
           "tag": "44FE92B1",
           "label": "sec:round-sphere-widths",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2171,7 +2196,7 @@
           "book": "gmt-foundations",
           "tag": "2F0111DD",
           "label": "thm:nurser-widths",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2189,7 +2214,7 @@
           "book": "gmt-foundations",
           "tag": "E3476664",
           "label": "ex:latitude-area",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2207,7 +2232,7 @@
           "book": "gmt-foundations",
           "tag": "ABD9027B",
           "label": "sec:cmc-variation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2225,7 +2250,7 @@
           "book": "gmt-foundations",
           "tag": "C8A14D33",
           "label": "def:cmc-functional",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2243,7 +2268,7 @@
           "book": "gmt-foundations",
           "tag": "4391378E",
           "label": "prop:cmc-first-variation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2261,7 +2286,7 @@
           "book": "gmt-foundations",
           "tag": "B8E2AC88",
           "label": "def:almost-embedded",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2279,7 +2304,7 @@
           "book": "gmt-foundations",
           "tag": "21A1ED1F",
           "label": "thm:zhou-zhu-cmc",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2297,7 +2322,7 @@
           "book": "gmt-foundations",
           "tag": "8E1C736F",
           "label": "sec:curvature-networks",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2315,7 +2340,7 @@
           "book": "gmt-foundations",
           "tag": "4D8D0C3E",
           "label": "thm:zhou-zhu-networks",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2333,7 +2358,7 @@
           "book": "gmt-foundations",
           "tag": "7D00AC42",
           "label": "sec:allen-cahn",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2351,7 +2376,7 @@
           "book": "gmt-foundations",
           "tag": "BCAE07D6",
           "label": "def:allen-cahn-energy",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2369,7 +2394,7 @@
           "book": "gmt-foundations",
           "tag": "C653F9DB",
           "label": "prop:allen-cahn-variation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2387,7 +2412,7 @@
           "book": "gmt-foundations",
           "tag": "11F7952D",
           "label": "ex:allen-cahn-layer",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2405,7 +2430,7 @@
           "book": "gmt-foundations",
           "tag": "38292DA5",
           "label": "rem:allen-cahn-minmax",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2423,7 +2448,7 @@
           "book": "gmt-foundations",
           "tag": "ACB3D527",
           "label": "sec:obstacle-problems",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2441,7 +2466,7 @@
           "book": "gmt-foundations",
           "tag": "7CC2B662",
           "label": "def:obstacle-problem",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2459,7 +2484,7 @@
           "book": "gmt-foundations",
           "tag": "6D9A2248",
           "label": "prop:obstacle-inequality",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2477,7 +2502,7 @@
           "book": "gmt-foundations",
           "tag": "4867E093",
           "label": "rem:obstacle-program",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2495,7 +2520,7 @@
           "book": "gmt-foundations",
           "tag": "64D58967",
           "label": "sec:mean-curvature-flow",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2513,7 +2538,7 @@
           "book": "gmt-foundations",
           "tag": "2D512F6A",
           "label": "def:mean-curvature-flow",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2531,7 +2556,7 @@
           "book": "gmt-foundations",
           "tag": "8B2DB27C",
           "label": "prop:mcf-area-dissipation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2549,7 +2574,7 @@
           "book": "gmt-foundations",
           "tag": "DD6B68EB",
           "label": "ex:shrinking-sphere",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2567,7 +2592,7 @@
           "book": "gmt-foundations",
           "tag": "1FBA8379",
           "label": "rem:flow-program",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2585,7 +2610,7 @@
           "book": "gmt-foundations",
           "tag": "98ED5BBB",
           "label": "sec:convex-flow-shrinkers",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2603,7 +2628,7 @@
           "book": "gmt-foundations",
           "tag": "90C06472",
           "label": "thm:huisken-convex",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2621,7 +2646,7 @@
           "book": "gmt-foundations",
           "tag": "DC39B483",
           "label": "def:self-shrinker",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2639,7 +2664,7 @@
           "book": "gmt-foundations",
           "tag": "A2A4CB6B",
           "label": "prop:shrinking-cylinders",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2657,7 +2682,7 @@
           "book": "gmt-foundations",
           "tag": "97EAAA5F",
           "label": "prop:gaussian-first-variation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2675,7 +2700,7 @@
           "book": "gmt-foundations",
           "tag": "BDEA960C",
           "label": "rem:generic-flow-source",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2693,7 +2718,7 @@
           "book": "gmt-foundations",
           "tag": "5BEDA498",
           "label": "sec:integral-varifold-compactness",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2711,7 +2736,7 @@
           "book": "gmt-foundations",
           "tag": "78CA14B3",
           "label": "thm:allard-compactness",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2729,7 +2754,7 @@
           "book": "gmt-foundations",
           "tag": "2E08F3D9",
           "label": "def:varifold-mod-two",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2747,7 +2772,7 @@
           "book": "gmt-foundations",
           "tag": "6E197414",
           "label": "thm:white-mod-two",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2765,7 +2790,7 @@
           "book": "gmt-foundations",
           "tag": "B1C757C7",
           "label": "ex:even-multiplicity",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2783,7 +2808,7 @@
           "book": "gmt-foundations",
           "tag": "B3106026",
           "label": "sec:bounded-index-compactness",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2801,7 +2826,7 @@
           "book": "gmt-foundations",
           "tag": "380D60FB",
           "label": "lem:disjoint-unstable-regions",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2819,7 +2844,7 @@
           "book": "gmt-foundations",
           "tag": "5CD6F96D",
           "label": "thm:sharp-compactness",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2837,7 +2862,7 @@
           "book": "gmt-foundations",
           "tag": "3A6968F0",
           "label": "rem:sharp-regularity-input",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2855,7 +2880,7 @@
           "book": "gmt-foundations",
           "tag": "2F67483D",
           "label": "sec:submanifold-inequalities",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2873,7 +2898,7 @@
           "book": "gmt-foundations",
           "tag": "637EDB81",
           "label": "thm:michael-simon",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2891,7 +2916,7 @@
           "book": "gmt-foundations",
           "tag": "9B6401CA",
           "label": "thm:brendle-isoperimetry",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2909,7 +2934,7 @@
           "book": "gmt-foundations",
           "tag": "70779977",
           "label": "ex:flat-ball-isoperimetry",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2927,7 +2952,7 @@
           "book": "gmt-foundations",
           "tag": "73068A5D",
           "label": "sec:bumpy-multiplicity-abundance",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2945,7 +2970,7 @@
           "book": "gmt-foundations",
           "tag": "9C42220F",
           "label": "def:bumpy-metric",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2963,7 +2988,7 @@
           "book": "gmt-foundations",
           "tag": "116742F5",
           "label": "thm:bumpy-metrics",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2981,7 +3006,7 @@
           "book": "gmt-foundations",
           "tag": "E721562C",
           "label": "thm:zhou-multiplicity-one",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -2999,7 +3024,7 @@
           "book": "gmt-foundations",
           "tag": "144D1513",
           "label": "thm:song-infinitely-many",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3017,7 +3042,7 @@
           "book": "gmt-foundations",
           "tag": "6A99510D",
           "label": "thm:generic-equidistribution",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3035,7 +3060,7 @@
           "book": "gmt-foundations",
           "tag": "3F8AB395",
           "label": "sec:history-origins",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3053,7 +3078,7 @@
           "book": "gmt-foundations",
           "tag": "DF17334B",
           "label": "hist:integral-currents",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3071,7 +3096,7 @@
           "book": "gmt-foundations",
           "tag": "B7CC90C8",
           "label": "hist:de-giorgi",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3089,7 +3114,7 @@
           "book": "gmt-foundations",
           "tag": "1F950D86",
           "label": "hist:bernstein",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3107,7 +3132,7 @@
           "book": "gmt-foundations",
           "tag": "64DFA463",
           "label": "hist:generalized-surfaces",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3125,7 +3150,7 @@
           "book": "gmt-foundations",
           "tag": "E09D06EC",
           "label": "sec:history-minmax",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3143,7 +3168,7 @@
           "book": "gmt-foundations",
           "tag": "37442EC1",
           "label": "hist:pitts-dimensions",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3161,7 +3186,7 @@
           "book": "gmt-foundations",
           "tag": "726DA910",
           "label": "hist:volume-spectrum",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3179,7 +3204,7 @@
           "book": "gmt-foundations",
           "tag": "83004A43",
           "label": "sec:elliptic-tools",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3197,7 +3222,7 @@
           "book": "gmt-foundations",
           "tag": "DE53174C",
           "label": "def:sobolev-weak-derivatives",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3215,7 +3240,7 @@
           "book": "gmt-foundations",
           "tag": "6DB548F5",
           "label": "def:weak-elliptic-equation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3233,7 +3258,7 @@
           "book": "gmt-foundations",
           "tag": "4D073F45",
           "label": "def:holder-seminorm",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3251,7 +3276,7 @@
           "book": "gmt-foundations",
           "tag": "93588474",
           "label": "lem:caccioppoli",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3269,7 +3294,7 @@
           "book": "gmt-foundations",
           "tag": "68C59CF3",
           "label": "thm:elliptic-local-boundedness",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3287,7 +3312,7 @@
           "book": "gmt-foundations",
           "tag": "AEC477B5",
           "label": "thm:elliptic-harnack",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3305,7 +3330,7 @@
           "book": "gmt-foundations",
           "tag": "EC779A5C",
           "label": "cor:elliptic-holder",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3323,7 +3348,7 @@
           "book": "gmt-foundations",
           "tag": "61C139B9",
           "label": "thm:interior-schauder",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3341,7 +3366,7 @@
           "book": "gmt-foundations",
           "tag": "7E62D793",
           "label": "thm:laplace-w2p",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3359,7 +3384,7 @@
           "book": "gmt-foundations",
           "tag": "E6AC0F4E",
           "label": "sec:positive-jacobi",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3377,7 +3402,7 @@
           "book": "gmt-foundations",
           "tag": "DB3A1A33",
           "label": "def:local-stability",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3395,7 +3420,7 @@
           "book": "gmt-foundations",
           "tag": "6B27179D",
           "label": "prop:mean-curvature-linearization",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3413,7 +3438,7 @@
           "book": "gmt-foundations",
           "tag": "BFC2E2EA",
           "label": "prop:positive-jacobi-stability",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3431,7 +3456,7 @@
           "book": "gmt-foundations",
           "tag": "302B059E",
           "label": "cor:graph-positive-jacobi",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3449,7 +3474,7 @@
           "book": "gmt-foundations",
           "tag": "F6D35028",
           "label": "thm:separated-sheets-jacobi",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3467,7 +3492,7 @@
           "book": "gmt-foundations",
           "tag": "A860D88D",
           "label": "thm:stable-curvature-bound",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3485,7 +3510,7 @@
           "book": "gmt-foundations",
           "tag": "C06A3A8A",
           "label": "sec:tangent-cones-strata",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3503,7 +3528,7 @@
           "book": "gmt-foundations",
           "tag": "3F1F4FFD",
           "label": "def:varifold-dilation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3521,7 +3546,7 @@
           "book": "gmt-foundations",
           "tag": "38571E78",
           "label": "prop:varifold-scaling",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3539,7 +3564,7 @@
           "book": "gmt-foundations",
           "tag": "8059AA63",
           "label": "prop:density-upper-semicontinuity",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3557,7 +3582,7 @@
           "book": "gmt-foundations",
           "tag": "D1069526",
           "label": "cor:integral-support-density",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3575,7 +3600,7 @@
           "book": "gmt-foundations",
           "tag": "6CA00195",
           "label": "def:varifold-regular-singular",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3593,7 +3618,7 @@
           "book": "gmt-foundations",
           "tag": "44166E55",
           "label": "thm:tangent-cones",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3611,7 +3636,7 @@
           "book": "gmt-foundations",
           "tag": "1810F9FA",
           "label": "def:cone-spine",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3629,7 +3654,7 @@
           "book": "gmt-foundations",
           "tag": "030D8355",
           "label": "thm:cone-spine-splitting",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3647,7 +3672,7 @@
           "book": "gmt-foundations",
           "tag": "4BB8CFFE",
           "label": "def:singular-strata",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3665,7 +3690,7 @@
           "book": "gmt-foundations",
           "tag": "283B3284",
           "label": "thm:strata-dimension",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3683,7 +3708,7 @@
           "book": "gmt-foundations",
           "tag": "DDD83AE5",
           "label": "ex:crossing-planes",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3701,7 +3726,7 @@
           "book": "gmt-foundations",
           "tag": "A2984C02",
           "label": "sec:allard-regularity",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3719,7 +3744,7 @@
           "book": "gmt-foundations",
           "tag": "1156CD22",
           "label": "def:varifold-excess",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3737,7 +3762,7 @@
           "book": "gmt-foundations",
           "tag": "CFD0A401",
           "label": "prop:excess-scaling",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3755,7 +3780,7 @@
           "book": "gmt-foundations",
           "tag": "5DD30D05",
           "label": "thm:allard-lp",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3773,7 +3798,7 @@
           "book": "gmt-foundations",
           "tag": "E0124EA1",
           "label": "cor:unit-density-regularity",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3791,7 +3816,7 @@
           "book": "gmt-foundations",
           "tag": "6354D6F8",
           "label": "thm:stationary-density-gap",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3809,7 +3834,7 @@
           "book": "gmt-foundations",
           "tag": "16DAAB62",
           "label": "ex:multiple-plane-excess",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3827,7 +3852,7 @@
           "book": "gmt-foundations",
           "tag": "0951B99D",
           "label": "sec:mcf-evolution",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3845,7 +3870,7 @@
           "book": "gmt-foundations",
           "tag": "AF80FEBA",
           "label": "def:mcf-scalar-second-form",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3863,7 +3888,7 @@
           "book": "gmt-foundations",
           "tag": "A3EBAA28",
           "label": "prop:normal-variation-formulas",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3881,7 +3906,7 @@
           "book": "gmt-foundations",
           "tag": "47614060",
           "label": "thm:euclidean-simons",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3899,7 +3924,7 @@
           "book": "gmt-foundations",
           "tag": "32885892",
           "label": "prop:mcf-curvature-evolution",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3917,7 +3942,7 @@
           "book": "gmt-foundations",
           "tag": "DC4054C5",
           "label": "cor:mcf-mean-convexity",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3935,7 +3960,7 @@
           "book": "gmt-foundations",
           "tag": "C66998C7",
           "label": "prop:mcf-position-heat",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3953,7 +3978,7 @@
           "book": "gmt-foundations",
           "tag": "BFE4ED67",
           "label": "cor:mcf-confinement",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3971,7 +3996,7 @@
           "book": "gmt-foundations",
           "tag": "9BCA6474",
           "label": "prop:mcf-avoidance",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -3989,7 +4014,7 @@
           "book": "gmt-foundations",
           "tag": "4BD759E5",
           "label": "thm:mcf-existence-continuation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4007,7 +4032,7 @@
           "book": "gmt-foundations",
           "tag": "E3B115CF",
           "label": "prop:mcf-curvature-rate",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4025,7 +4050,7 @@
           "book": "gmt-foundations",
           "tag": "8135ABB8",
           "label": "def:mcf-singularity-types",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4043,7 +4068,7 @@
           "book": "gmt-foundations",
           "tag": "3A8DA19E",
           "label": "prop:mcf-parabolic-rescaling",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4061,7 +4086,7 @@
           "book": "gmt-foundations",
           "tag": "657A5850",
           "label": "prop:graphical-mcf",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4079,7 +4104,7 @@
           "book": "gmt-foundations",
           "tag": "F5C52AE3",
           "label": "prop:graphical-mcf-comparison",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4097,7 +4122,7 @@
           "book": "gmt-foundations",
           "tag": "8058AF9E",
           "label": "sec:mcf-monotonicity",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4115,7 +4140,7 @@
           "book": "gmt-foundations",
           "tag": "0D20D7E7",
           "label": "prop:mcf-test-transport",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4133,7 +4158,7 @@
           "book": "gmt-foundations",
           "tag": "8F3EC1F2",
           "label": "def:mcf-backward-gaussian",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4151,7 +4176,7 @@
           "book": "gmt-foundations",
           "tag": "8CB4F56C",
           "label": "thm:huisken-monotonicity",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4169,7 +4194,7 @@
           "book": "gmt-foundations",
           "tag": "A2CCBF92",
           "label": "cor:mcf-gaussian-density-limit",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4187,7 +4212,7 @@
           "book": "gmt-foundations",
           "tag": "1DCEC758",
           "label": "prop:mcf-regular-density",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4205,7 +4230,7 @@
           "book": "gmt-foundations",
           "tag": "7CF2CC80",
           "label": "def:mcf-entropy",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4223,7 +4248,7 @@
           "book": "gmt-foundations",
           "tag": "41CE42F4",
           "label": "prop:mcf-entropy-invariance",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4241,7 +4266,7 @@
           "book": "gmt-foundations",
           "tag": "EC65E482",
           "label": "prop:mcf-entropy-monotone",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4259,7 +4284,7 @@
           "book": "gmt-foundations",
           "tag": "F15AB825",
           "label": "prop:mcf-entropy-area-growth",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4277,7 +4302,7 @@
           "book": "gmt-foundations",
           "tag": "7AF09714",
           "label": "ex:mcf-plane-entropy",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4295,7 +4320,7 @@
           "book": "gmt-foundations",
           "tag": "C8012D01",
           "label": "sec:mcf-rescaled-models",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4313,7 +4338,7 @@
           "book": "gmt-foundations",
           "tag": "387CC7D6",
           "label": "prop:mcf-log-rescaling",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4331,7 +4356,7 @@
           "book": "gmt-foundations",
           "tag": "A27F662F",
           "label": "prop:mcf-rescaled-dissipation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4349,7 +4374,7 @@
           "book": "gmt-foundations",
           "tag": "47B63E2C",
           "label": "cor:mcf-small-dissipation-times",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4367,7 +4392,7 @@
           "book": "gmt-foundations",
           "tag": "5F3593C3",
           "label": "prop:mcf-monotonicity-equality",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4385,7 +4410,7 @@
           "book": "gmt-foundations",
           "tag": "A9DF1B14",
           "label": "def:mcf-other-solitons",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4403,7 +4428,7 @@
           "book": "gmt-foundations",
           "tag": "1A547C29",
           "label": "ex:mcf-grim-reaper",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4421,7 +4446,7 @@
           "book": "gmt-foundations",
           "tag": "65A9FFF8",
           "label": "sec:brakke-flow",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4439,7 +4464,7 @@
           "book": "gmt-foundations",
           "tag": "417B12F3",
           "label": "def:integral-brakke-flow",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4457,7 +4482,7 @@
           "book": "gmt-foundations",
           "tag": "88989563",
           "label": "prop:smooth-to-brakke",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4475,7 +4500,7 @@
           "book": "gmt-foundations",
           "tag": "3D43D55C",
           "label": "ex:brakke-disappearing-plane",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4493,7 +4518,7 @@
           "book": "gmt-foundations",
           "tag": "F564D9EF",
           "label": "prop:brakke-shrinking-cutoff",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4511,7 +4536,7 @@
           "book": "gmt-foundations",
           "tag": "4E821A0E",
           "label": "prop:brakke-local-energy",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4529,7 +4554,7 @@
           "book": "gmt-foundations",
           "tag": "8877F17D",
           "label": "prop:brakke-time-semicontinuity",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4547,7 +4572,7 @@
           "book": "gmt-foundations",
           "tag": "8123BC3E",
           "label": "def:brakke-convergence",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4565,7 +4590,7 @@
           "book": "gmt-foundations",
           "tag": "1FEBD55D",
           "label": "thm:brakke-compactness",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4583,7 +4608,7 @@
           "book": "gmt-foundations",
           "tag": "1D894F33",
           "label": "thm:brakke-gaussian-monotonicity",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4601,7 +4626,7 @@
           "book": "gmt-foundations",
           "tag": "4BAEF0C1",
           "label": "def:unit-regular-brakke",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4619,7 +4644,7 @@
           "book": "gmt-foundations",
           "tag": "DE5072C1",
           "label": "ex:brakke-density-one-drop",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4637,7 +4662,7 @@
           "book": "gmt-foundations",
           "tag": "7D9C252C",
           "label": "def:cyclic-brakke",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4655,7 +4680,7 @@
           "book": "gmt-foundations",
           "tag": "74B31F71",
           "label": "sec:bv-approximation",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4673,7 +4698,7 @@
           "book": "gmt-foundations",
           "tag": "BAC6D4A0",
           "label": "prop:bv-lsc",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4691,7 +4716,7 @@
           "book": "gmt-foundations",
           "tag": "364A218D",
           "label": "prop:bv-cutoff-product",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4709,7 +4734,7 @@
           "book": "gmt-foundations",
           "tag": "59C8347F",
           "label": "lem:bv-mollification",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4727,7 +4752,7 @@
           "book": "gmt-foundations",
           "tag": "9FB819D2",
           "label": "def:bv-strict-convergence",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4745,7 +4770,7 @@
           "book": "gmt-foundations",
           "tag": "D7BC06DA",
           "label": "cor:bv-strict-mollification",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4763,7 +4788,7 @@
           "book": "gmt-foundations",
           "tag": "8A6CF002",
           "label": "prop:bv-translations",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4781,7 +4806,7 @@
           "book": "gmt-foundations",
           "tag": "D7F96A6F",
           "label": "thm:bv-local-compactness",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4799,7 +4824,7 @@
           "book": "gmt-foundations",
           "tag": "0C33C44A",
           "label": "cor:perimeter-compactness",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4817,7 +4842,7 @@
           "book": "gmt-foundations",
           "tag": "7716C981",
           "label": "prop:bv-derivative-convergence",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4835,7 +4860,7 @@
           "book": "gmt-foundations",
           "tag": "AAAB4C3C",
           "label": "ex:bv-constants",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4853,7 +4878,7 @@
           "book": "gmt-foundations",
           "tag": "C2991A42",
           "label": "ex:bv-strict-not-norm",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4871,7 +4896,7 @@
           "book": "gmt-foundations",
           "tag": "EF54ACCB",
           "label": "sec:perimeter-direct-method",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4889,7 +4914,7 @@
           "book": "gmt-foundations",
           "tag": "99379534",
           "label": "def:measure-theoretic-boundary",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4907,7 +4932,7 @@
           "book": "gmt-foundations",
           "tag": "18F87034",
           "label": "thm:perimeter-halfspace-blowup",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4925,7 +4950,7 @@
           "book": "gmt-foundations",
           "tag": "ECA9DDD2",
           "label": "ex:null-modification-boundary",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4943,7 +4968,7 @@
           "book": "gmt-foundations",
           "tag": "4D195FC9",
           "label": "prop:perimeter-volume-existence",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4961,7 +4986,7 @@
           "book": "gmt-foundations",
           "tag": "77CB17E9",
           "label": "prop:perimeter-bulk-existence",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []
@@ -4979,7 +5004,817 @@
           "book": "gmt-foundations",
           "tag": "EFB3BB88",
           "label": "prop:perimeter-bulk-euler",
-          "revision": "sha256:84ee14b20d206bb18695d593713902e80e8a0b76f3b0c9983e7972ffce527c6a"
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "4F98A2504D31",
+      "number": "5.3",
+      "section_intro": true,
+      "title": "5.3 Operations on currents",
+      "kind": "chapter",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "3C7EFE9B",
+          "label": "sec:current-operations",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "F9AA0927D6D3",
+      "number": "5.3.1",
+      "section_intro": false,
+      "title": "Definition 5.3.1 (Support and normal currents)",
+      "kind": "definition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "FFB2E8F0",
+          "label": "def:normal-current",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "E73216D55EF5",
+      "number": "5.3.2",
+      "section_intro": false,
+      "title": "Theorem 5.3.2 (Representation of currents with locally finite mass)",
+      "kind": "theorem",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "E7971D3C",
+          "label": "thm:current-mass-representation",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "AA1586653736",
+      "number": "5.3.3",
+      "section_intro": false,
+      "title": "Proposition 5.3.3 (Weak compactness from local mass bounds)",
+      "kind": "proposition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "78882422",
+          "label": "prop:current-weak-compactness",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "D80FDA4F9AB7",
+      "number": "5.3.4",
+      "section_intro": false,
+      "title": "Definition 5.3.4 (Restriction and contraction by a differential)",
+      "kind": "definition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "9DA2B003",
+          "label": "def:current-restriction",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "C518F9F87741",
+      "number": "5.3.5",
+      "section_intro": false,
+      "title": "Proposition 5.3.5 (Boundary of a smooth scalar restriction)",
+      "kind": "proposition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "3E992753",
+          "label": "prop:current-cutoff-boundary",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "6D60EECBFF25",
+      "number": "5.3.6",
+      "section_intro": false,
+      "title": "Definition 5.3.6 (Smooth pushforward and properness)",
+      "kind": "definition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "1B102051",
+          "label": "def:current-pushforward",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "738450753968",
+      "number": "5.3.7",
+      "section_intro": false,
+      "title": "Proposition 5.3.7 (Pushforward, boundary, and composition)",
+      "kind": "proposition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "1DBAF09C",
+          "label": "prop:current-pushforward-identities",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "126C4418F9FD",
+      "number": "5.3.8",
+      "section_intro": false,
+      "title": "Proposition 5.3.8 (Mass bound for a pushforward)",
+      "kind": "proposition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "A3BC453F",
+          "label": "prop:current-pushforward-mass",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "C03BD7F60BF1",
+      "number": "5.3.9",
+      "section_intro": false,
+      "title": "Theorem 5.3.9 (Lipschitz pushforwards of integral currents)",
+      "kind": "theorem",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "6D049399",
+          "label": "thm:lipschitz-current-pushforward",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "BD37354CBD90",
+      "number": "5.3.10",
+      "section_intro": false,
+      "title": "Example 5.3.10 (Projection can cancel two sheets)",
+      "kind": "example",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "53827E50",
+          "label": "ex:current-projection-cancellation",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "1CD110260D8E",
+      "number": "5.3.11",
+      "section_intro": false,
+      "title": "Definition 5.3.11 (The interval product)",
+      "kind": "definition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "15FA955D",
+          "label": "def:current-interval-product",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "35BE43CA75FC",
+      "number": "5.3.12",
+      "section_intro": false,
+      "title": "Proposition 5.3.12 (Boundary of the interval product)",
+      "kind": "proposition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "91067B4A",
+          "label": "prop:current-product-boundary",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "1820DA232B40",
+      "number": "5.3.13",
+      "section_intro": false,
+      "title": "Proposition 5.3.13 (The homotopy formula)",
+      "kind": "proposition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "42AA5E95",
+          "label": "prop:current-homotopy",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "0F1A75F2601B",
+      "number": "5.3.14",
+      "section_intro": false,
+      "title": "Definition 5.3.14 (A flat norm for real currents)",
+      "kind": "definition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "FDAAAB11",
+          "label": "def:real-current-flat-norm",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "F92644CBD3BD",
+      "number": "5.3.15",
+      "section_intro": false,
+      "title": "Proposition 5.3.15 (Flat control of test forms and boundaries)",
+      "kind": "proposition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "3C069D19",
+          "label": "prop:real-flat-control",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "AB58565BA69A",
+      "number": "5.3.16",
+      "section_intro": false,
+      "title": "Proposition 5.3.16 (Nondegeneracy of the integer polyhedral flat metric)",
+      "kind": "proposition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "4CDCA807",
+          "label": "prop:polyhedral-flat-nondegeneracy",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "1ECE4BB7EEE7",
+      "number": "5.3.17",
+      "section_intro": false,
+      "title": "Proposition 5.3.17 (A quantitative affine homotopy estimate)",
+      "kind": "proposition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "CD31A8A3",
+          "label": "prop:current-homotopy-estimate",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "55F0DD68BC15",
+      "number": "5.3.18",
+      "section_intro": false,
+      "title": "Definition 5.3.18 (The cone over a compactly supported current)",
+      "kind": "definition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "9F817114",
+          "label": "def:current-cone",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "FE4C86C4A57D",
+      "number": "5.3.19",
+      "section_intro": false,
+      "title": "Proposition 5.3.19 (Cone identity and mass estimate)",
+      "kind": "proposition",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "2FDB5DF6",
+          "label": "prop:current-cone-bound",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "A3DF20FFB628",
+      "number": "5.3.20",
+      "section_intro": false,
+      "title": "Example 5.3.20 (The zero-dimensional augmentation condition)",
+      "kind": "example",
+      "chapter": "currents-flat-chains",
+      "topic": "operations-on-currents",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "1151AAD5",
+          "label": "ex:zero-current-augmentation",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "AB62CA3EC367",
+      "number": "5.4",
+      "section_intro": true,
+      "title": "5.4 Slicing and the Plateau direct method",
+      "kind": "chapter",
+      "chapter": "currents-flat-chains",
+      "topic": "slicing-and-the-plateau-direct-method",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "C2B37889",
+          "label": "sec:current-slicing",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "4F695BB95218",
+      "number": "5.4.1",
+      "section_intro": false,
+      "title": "Definition 5.4.1 (Slice by a scalar function)",
+      "kind": "definition",
+      "chapter": "currents-flat-chains",
+      "topic": "slicing-and-the-plateau-direct-method",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "094177E9",
+          "label": "def:current-slice",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "0E99E4802BCA",
+      "number": "5.4.2",
+      "section_intro": false,
+      "title": "Theorem 5.4.2 (Slicing of integral currents)",
+      "kind": "theorem",
+      "chapter": "currents-flat-chains",
+      "topic": "slicing-and-the-plateau-direct-method",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "DE8F64BD",
+          "label": "thm:integral-current-slicing",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "90329BDB0E5A",
+      "number": "5.4.3",
+      "section_intro": false,
+      "title": "Proposition 5.4.3 (Boundary and slicing have opposite signs)",
+      "kind": "proposition",
+      "chapter": "currents-flat-chains",
+      "topic": "slicing-and-the-plateau-direct-method",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "25618FD1",
+          "label": "prop:slice-boundary-sign",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "73C4D018ADAF",
+      "number": "5.4.4",
+      "section_intro": false,
+      "title": "Proposition 5.4.4 (Choosing a radius with controlled cutting boundary)",
+      "kind": "proposition",
+      "chapter": "currents-flat-chains",
+      "topic": "slicing-and-the-plateau-direct-method",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "F5218A35",
+          "label": "prop:current-good-radius",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "A2CEDE0295D2",
+      "number": "5.4.5",
+      "section_intro": false,
+      "title": "Example 5.4.5 (The slice of an oriented rectangle)",
+      "kind": "example",
+      "chapter": "currents-flat-chains",
+      "topic": "slicing-and-the-plateau-direct-method",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "C9878FAF",
+          "label": "ex:rectangle-slice",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "959193546633",
+      "number": "5.4.6",
+      "section_intro": false,
+      "title": "Definition 5.4.6 (The integral Plateau problem in a compact container)",
+      "kind": "definition",
+      "chapter": "currents-flat-chains",
+      "topic": "slicing-and-the-plateau-direct-method",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "33007FC5",
+          "label": "def:integral-plateau",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "5D2EEA517377",
+      "number": "5.4.7",
+      "section_intro": false,
+      "title": "Theorem 5.4.7 (Existence of a mass-minimizing integral filling)",
+      "kind": "theorem",
+      "chapter": "currents-flat-chains",
+      "topic": "slicing-and-the-plateau-direct-method",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "2F06A811",
+          "label": "thm:plateau-direct-method",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "2DDDF8908CF1",
+      "number": "5.4.8",
+      "section_intro": false,
+      "title": "Corollary 5.4.8 (Compact boundaries have Euclidean minimizers)",
+      "kind": "corollary",
+      "chapter": "currents-flat-chains",
+      "topic": "slicing-and-the-plateau-direct-method",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "CFEA8B77",
+          "label": "cor:euclidean-plateau",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "BAC2E4164020",
+      "number": "11.3",
+      "section_intro": true,
+      "title": "11.3 Volume constraints and CMC stability",
+      "kind": "chapter",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "6371555A",
+          "label": "sec:cmc-stability",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "69AD8C3A2E1D",
+      "number": "11.3.1",
+      "section_intro": false,
+      "title": "Definition 11.3.1 (Infinitesimal volume-preserving variations)",
+      "kind": "definition",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "B9EFE396",
+          "label": "def:volume-preserving-speed",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "35ECF4C2F5DD",
+      "number": "11.3.2",
+      "section_intro": false,
+      "title": "Proposition 11.3.2 (Realizing a zero-mean speed with an exact volume constraint)",
+      "kind": "proposition",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "B962DC90",
+          "label": "prop:realize-volume-constraint",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "AC0FE2421EEA",
+      "number": "11.3.3",
+      "section_intro": false,
+      "title": "Proposition 11.3.3 (Fixed-volume stationarity characterizes constant mean curvature)",
+      "kind": "proposition",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "83153F09",
+          "label": "prop:fixed-volume-cmc",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "2DBE30F27E50",
+      "number": "11.3.4",
+      "section_intro": false,
+      "title": "Proposition 11.3.4 (Riemannian normal variation of mean curvature)",
+      "kind": "proposition",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "5B0DD263",
+          "label": "prop:riemannian-mean-curvature-variation",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "0C2679767FF6",
+      "number": "11.3.5",
+      "section_intro": false,
+      "title": "Proposition 11.3.5 (Second variation of area minus volume)",
+      "kind": "proposition",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "DAE98B89",
+          "label": "prop:cmc-second-variation",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "067C762778A0",
+      "number": "11.3.6",
+      "section_intro": false,
+      "title": "Definition 11.3.6 (Strong and volume-constrained CMC stability)",
+      "kind": "definition",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "0D7A8FAE",
+          "label": "def:cmc-stability-types",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "93851119AB24",
+      "number": "11.3.7",
+      "section_intro": false,
+      "title": "Proposition 11.3.7 (One scalar constraint changes index by at most one)",
+      "kind": "proposition",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "A18A6C77",
+          "label": "prop:cmc-constrained-index",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "4AF6DFFAC5BC",
+      "number": "11.3.8",
+      "section_intro": false,
+      "title": "Proposition 11.3.8 (The sharp Poincare inequality on a round sphere)",
+      "kind": "proposition",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "FB32A65B",
+          "label": "prop:round-sphere-poincare",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "62447F464A27",
+      "number": "11.3.9",
+      "section_intro": false,
+      "title": "Example 11.3.9 (A round sphere is weakly stable but strongly unstable)",
+      "kind": "example",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "884FC17A",
+          "label": "ex:round-cmc-stability",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "6BAA97140F05",
+      "number": "11.3.10",
+      "section_intro": false,
+      "title": "Proposition 11.3.10 (Strong instability under nonnegative Ricci curvature)",
+      "kind": "proposition",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "CED6B59C",
+          "label": "prop:cmc-ricci-strong-instability",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "9C857ED1F719",
+      "number": "11.3.11",
+      "section_intro": false,
+      "title": "Proposition 11.3.11 (Volume stability forces connectedness when the potential is positive)",
+      "kind": "proposition",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "A01FE3A1",
+          "label": "prop:cmc-stable-connectedness",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "0874A98CACF0",
+      "number": "11.3.12",
+      "section_intro": false,
+      "title": "Definition 11.3.12 (Prescribed-mean-curvature energy)",
+      "kind": "definition",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "D3912A34",
+          "label": "def:prescribed-mean-curvature-energy",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "2F067F1DC90E",
+      "number": "11.3.13",
+      "section_intro": false,
+      "title": "Proposition 11.3.13 (First and second variation for prescribed mean curvature)",
+      "kind": "proposition",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "F3E23C35",
+          "label": "prop:prescribed-mean-curvature-variation",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "8D4734A778BF",
+      "number": "11.3.14",
+      "section_intro": false,
+      "title": "Proposition 11.3.14 (The CMC graph equation and oriented contact)",
+      "kind": "proposition",
+      "chapter": "constant-mean-curvature",
+      "topic": "volume-constraints-and-cmc-stability",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "66C549FE",
+          "label": "prop:cmc-graph-contact",
+          "revision": "sha256:a74bfee95766815cb89ade4a5f53650a5bb69f0a3876384a4bcf7087e973ec87"
         }
       ],
       "components": []

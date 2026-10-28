@@ -2266,5 +2266,410 @@
     "page": "tag/EFB3BB88/index.html",
     "canonical_tag": "FCE1DA6B5E31",
     "anchor": ""
+  },
+  {
+    "tag": "3C7EFE9B",
+    "label": "sec:current-operations",
+    "title": "40 Operations on currents",
+    "kind": "chapter",
+    "page": "tag/3C7EFE9B/index.html",
+    "canonical_tag": "4F98A2504D31",
+    "anchor": ""
+  },
+  {
+    "tag": "FFB2E8F0",
+    "label": "def:normal-current",
+    "title": "Definition 40.1 (Support and normal currents)",
+    "kind": "definition",
+    "page": "tag/FFB2E8F0/index.html",
+    "canonical_tag": "F9AA0927D6D3",
+    "anchor": ""
+  },
+  {
+    "tag": "E7971D3C",
+    "label": "thm:current-mass-representation",
+    "title": "Theorem 40.2 (Representation of currents with locally finite mass)",
+    "kind": "theorem",
+    "page": "tag/E7971D3C/index.html",
+    "canonical_tag": "E73216D55EF5",
+    "anchor": ""
+  },
+  {
+    "tag": "78882422",
+    "label": "prop:current-weak-compactness",
+    "title": "Proposition 40.3 (Weak compactness from local mass bounds)",
+    "kind": "proposition",
+    "page": "tag/78882422/index.html",
+    "canonical_tag": "AA1586653736",
+    "anchor": ""
+  },
+  {
+    "tag": "9DA2B003",
+    "label": "def:current-restriction",
+    "title": "Definition 40.4 (Restriction and contraction by a differential)",
+    "kind": "definition",
+    "page": "tag/9DA2B003/index.html",
+    "canonical_tag": "D80FDA4F9AB7",
+    "anchor": ""
+  },
+  {
+    "tag": "3E992753",
+    "label": "prop:current-cutoff-boundary",
+    "title": "Proposition 40.5 (Boundary of a smooth scalar restriction)",
+    "kind": "proposition",
+    "page": "tag/3E992753/index.html",
+    "canonical_tag": "C518F9F87741",
+    "anchor": ""
+  },
+  {
+    "tag": "1B102051",
+    "label": "def:current-pushforward",
+    "title": "Definition 40.6 (Smooth pushforward and properness)",
+    "kind": "definition",
+    "page": "tag/1B102051/index.html",
+    "canonical_tag": "6D60EECBFF25",
+    "anchor": ""
+  },
+  {
+    "tag": "1DBAF09C",
+    "label": "prop:current-pushforward-identities",
+    "title": "Proposition 40.7 (Pushforward, boundary, and composition)",
+    "kind": "proposition",
+    "page": "tag/1DBAF09C/index.html",
+    "canonical_tag": "738450753968",
+    "anchor": ""
+  },
+  {
+    "tag": "A3BC453F",
+    "label": "prop:current-pushforward-mass",
+    "title": "Proposition 40.8 (Mass bound for a pushforward)",
+    "kind": "proposition",
+    "page": "tag/A3BC453F/index.html",
+    "canonical_tag": "126C4418F9FD",
+    "anchor": ""
+  },
+  {
+    "tag": "6D049399",
+    "label": "thm:lipschitz-current-pushforward",
+    "title": "Theorem 40.9 (Lipschitz pushforwards of integral currents)",
+    "kind": "theorem",
+    "page": "tag/6D049399/index.html",
+    "canonical_tag": "C03BD7F60BF1",
+    "anchor": ""
+  },
+  {
+    "tag": "53827E50",
+    "label": "ex:current-projection-cancellation",
+    "title": "Example 40.10 (Projection can cancel two sheets)",
+    "kind": "example",
+    "page": "tag/53827E50/index.html",
+    "canonical_tag": "BD37354CBD90",
+    "anchor": ""
+  },
+  {
+    "tag": "15FA955D",
+    "label": "def:current-interval-product",
+    "title": "Definition 40.11 (The interval product)",
+    "kind": "definition",
+    "page": "tag/15FA955D/index.html",
+    "canonical_tag": "1CD110260D8E",
+    "anchor": ""
+  },
+  {
+    "tag": "91067B4A",
+    "label": "prop:current-product-boundary",
+    "title": "Proposition 40.12 (Boundary of the interval product)",
+    "kind": "proposition",
+    "page": "tag/91067B4A/index.html",
+    "canonical_tag": "35BE43CA75FC",
+    "anchor": ""
+  },
+  {
+    "tag": "42AA5E95",
+    "label": "prop:current-homotopy",
+    "title": "Proposition 40.13 (The homotopy formula)",
+    "kind": "proposition",
+    "page": "tag/42AA5E95/index.html",
+    "canonical_tag": "1820DA232B40",
+    "anchor": ""
+  },
+  {
+    "tag": "FDAAAB11",
+    "label": "def:real-current-flat-norm",
+    "title": "Definition 40.14 (A flat norm for real currents)",
+    "kind": "definition",
+    "page": "tag/FDAAAB11/index.html",
+    "canonical_tag": "0F1A75F2601B",
+    "anchor": ""
+  },
+  {
+    "tag": "3C069D19",
+    "label": "prop:real-flat-control",
+    "title": "Proposition 40.15 (Flat control of test forms and boundaries)",
+    "kind": "proposition",
+    "page": "tag/3C069D19/index.html",
+    "canonical_tag": "F92644CBD3BD",
+    "anchor": ""
+  },
+  {
+    "tag": "4CDCA807",
+    "label": "prop:polyhedral-flat-nondegeneracy",
+    "title": "Proposition 40.16 (Nondegeneracy of the integer polyhedral flat metric)",
+    "kind": "proposition",
+    "page": "tag/4CDCA807/index.html",
+    "canonical_tag": "AB58565BA69A",
+    "anchor": ""
+  },
+  {
+    "tag": "CD31A8A3",
+    "label": "prop:current-homotopy-estimate",
+    "title": "Proposition 40.17 (A quantitative affine homotopy estimate)",
+    "kind": "proposition",
+    "page": "tag/CD31A8A3/index.html",
+    "canonical_tag": "1ECE4BB7EEE7",
+    "anchor": ""
+  },
+  {
+    "tag": "9F817114",
+    "label": "def:current-cone",
+    "title": "Definition 40.18 (The cone over a compactly supported current)",
+    "kind": "definition",
+    "page": "tag/9F817114/index.html",
+    "canonical_tag": "55F0DD68BC15",
+    "anchor": ""
+  },
+  {
+    "tag": "2FDB5DF6",
+    "label": "prop:current-cone-bound",
+    "title": "Proposition 40.19 (Cone identity and mass estimate)",
+    "kind": "proposition",
+    "page": "tag/2FDB5DF6/index.html",
+    "canonical_tag": "FE4C86C4A57D",
+    "anchor": ""
+  },
+  {
+    "tag": "1151AAD5",
+    "label": "ex:zero-current-augmentation",
+    "title": "Example 40.20 (The zero-dimensional augmentation condition)",
+    "kind": "example",
+    "page": "tag/1151AAD5/index.html",
+    "canonical_tag": "A3DF20FFB628",
+    "anchor": ""
+  },
+  {
+    "tag": "C2B37889",
+    "label": "sec:current-slicing",
+    "title": "41 Slicing and the Plateau direct method",
+    "kind": "chapter",
+    "page": "tag/C2B37889/index.html",
+    "canonical_tag": "AB62CA3EC367",
+    "anchor": ""
+  },
+  {
+    "tag": "094177E9",
+    "label": "def:current-slice",
+    "title": "Definition 41.1 (Slice by a scalar function)",
+    "kind": "definition",
+    "page": "tag/094177E9/index.html",
+    "canonical_tag": "4F695BB95218",
+    "anchor": ""
+  },
+  {
+    "tag": "DE8F64BD",
+    "label": "thm:integral-current-slicing",
+    "title": "Theorem 41.2 (Slicing of integral currents)",
+    "kind": "theorem",
+    "page": "tag/DE8F64BD/index.html",
+    "canonical_tag": "0E99E4802BCA",
+    "anchor": ""
+  },
+  {
+    "tag": "25618FD1",
+    "label": "prop:slice-boundary-sign",
+    "title": "Proposition 41.3 (Boundary and slicing have opposite signs)",
+    "kind": "proposition",
+    "page": "tag/25618FD1/index.html",
+    "canonical_tag": "90329BDB0E5A",
+    "anchor": ""
+  },
+  {
+    "tag": "F5218A35",
+    "label": "prop:current-good-radius",
+    "title": "Proposition 41.4 (Choosing a radius with controlled cutting boundary)",
+    "kind": "proposition",
+    "page": "tag/F5218A35/index.html",
+    "canonical_tag": "73C4D018ADAF",
+    "anchor": ""
+  },
+  {
+    "tag": "C9878FAF",
+    "label": "ex:rectangle-slice",
+    "title": "Example 41.5 (The slice of an oriented rectangle)",
+    "kind": "example",
+    "page": "tag/C9878FAF/index.html",
+    "canonical_tag": "A2CEDE0295D2",
+    "anchor": ""
+  },
+  {
+    "tag": "33007FC5",
+    "label": "def:integral-plateau",
+    "title": "Definition 41.6 (The integral Plateau problem in a compact container)",
+    "kind": "definition",
+    "page": "tag/33007FC5/index.html",
+    "canonical_tag": "959193546633",
+    "anchor": ""
+  },
+  {
+    "tag": "2F06A811",
+    "label": "thm:plateau-direct-method",
+    "title": "Theorem 41.7 (Existence of a mass-minimizing integral filling)",
+    "kind": "theorem",
+    "page": "tag/2F06A811/index.html",
+    "canonical_tag": "5D2EEA517377",
+    "anchor": ""
+  },
+  {
+    "tag": "CFEA8B77",
+    "label": "cor:euclidean-plateau",
+    "title": "Corollary 41.8 (Compact boundaries have Euclidean minimizers)",
+    "kind": "corollary",
+    "page": "tag/CFEA8B77/index.html",
+    "canonical_tag": "2DDDF8908CF1",
+    "anchor": ""
+  },
+  {
+    "tag": "6371555A",
+    "label": "sec:cmc-stability",
+    "title": "42 Volume constraints and CMC stability",
+    "kind": "chapter",
+    "page": "tag/6371555A/index.html",
+    "canonical_tag": "BAC2E4164020",
+    "anchor": ""
+  },
+  {
+    "tag": "B9EFE396",
+    "label": "def:volume-preserving-speed",
+    "title": "Definition 42.1 (Infinitesimal volume-preserving variations)",
+    "kind": "definition",
+    "page": "tag/B9EFE396/index.html",
+    "canonical_tag": "69AD8C3A2E1D",
+    "anchor": ""
+  },
+  {
+    "tag": "B962DC90",
+    "label": "prop:realize-volume-constraint",
+    "title": "Proposition 42.2 (Realizing a zero-mean speed with an exact volume constraint)",
+    "kind": "proposition",
+    "page": "tag/B962DC90/index.html",
+    "canonical_tag": "35ECF4C2F5DD",
+    "anchor": ""
+  },
+  {
+    "tag": "83153F09",
+    "label": "prop:fixed-volume-cmc",
+    "title": "Proposition 42.3 (Fixed-volume stationarity characterizes constant mean curvature)",
+    "kind": "proposition",
+    "page": "tag/83153F09/index.html",
+    "canonical_tag": "AC0FE2421EEA",
+    "anchor": ""
+  },
+  {
+    "tag": "5B0DD263",
+    "label": "prop:riemannian-mean-curvature-variation",
+    "title": "Proposition 42.4 (Riemannian normal variation of mean curvature)",
+    "kind": "proposition",
+    "page": "tag/5B0DD263/index.html",
+    "canonical_tag": "2DBE30F27E50",
+    "anchor": ""
+  },
+  {
+    "tag": "DAE98B89",
+    "label": "prop:cmc-second-variation",
+    "title": "Proposition 42.5 (Second variation of area minus volume)",
+    "kind": "proposition",
+    "page": "tag/DAE98B89/index.html",
+    "canonical_tag": "0C2679767FF6",
+    "anchor": ""
+  },
+  {
+    "tag": "0D7A8FAE",
+    "label": "def:cmc-stability-types",
+    "title": "Definition 42.6 (Strong and volume-constrained CMC stability)",
+    "kind": "definition",
+    "page": "tag/0D7A8FAE/index.html",
+    "canonical_tag": "067C762778A0",
+    "anchor": ""
+  },
+  {
+    "tag": "A18A6C77",
+    "label": "prop:cmc-constrained-index",
+    "title": "Proposition 42.7 (One scalar constraint changes index by at most one)",
+    "kind": "proposition",
+    "page": "tag/A18A6C77/index.html",
+    "canonical_tag": "93851119AB24",
+    "anchor": ""
+  },
+  {
+    "tag": "FB32A65B",
+    "label": "prop:round-sphere-poincare",
+    "title": "Proposition 42.8 (The sharp Poincare inequality on a round sphere)",
+    "kind": "proposition",
+    "page": "tag/FB32A65B/index.html",
+    "canonical_tag": "4AF6DFFAC5BC",
+    "anchor": ""
+  },
+  {
+    "tag": "884FC17A",
+    "label": "ex:round-cmc-stability",
+    "title": "Example 42.9 (A round sphere is weakly stable but strongly unstable)",
+    "kind": "example",
+    "page": "tag/884FC17A/index.html",
+    "canonical_tag": "62447F464A27",
+    "anchor": ""
+  },
+  {
+    "tag": "CED6B59C",
+    "label": "prop:cmc-ricci-strong-instability",
+    "title": "Proposition 42.10 (Strong instability under nonnegative Ricci curvature)",
+    "kind": "proposition",
+    "page": "tag/CED6B59C/index.html",
+    "canonical_tag": "6BAA97140F05",
+    "anchor": ""
+  },
+  {
+    "tag": "A01FE3A1",
+    "label": "prop:cmc-stable-connectedness",
+    "title": "Proposition 42.11 (Volume stability forces connectedness when the potential is positive)",
+    "kind": "proposition",
+    "page": "tag/A01FE3A1/index.html",
+    "canonical_tag": "9C857ED1F719",
+    "anchor": ""
+  },
+  {
+    "tag": "D3912A34",
+    "label": "def:prescribed-mean-curvature-energy",
+    "title": "Definition 42.12 (Prescribed-mean-curvature energy)",
+    "kind": "definition",
+    "page": "tag/D3912A34/index.html",
+    "canonical_tag": "0874A98CACF0",
+    "anchor": ""
+  },
+  {
+    "tag": "F3E23C35",
+    "label": "prop:prescribed-mean-curvature-variation",
+    "title": "Proposition 42.13 (First and second variation for prescribed mean curvature)",
+    "kind": "proposition",
+    "page": "tag/F3E23C35/index.html",
+    "canonical_tag": "2F067F1DC90E",
+    "anchor": ""
+  },
+  {
+    "tag": "66C549FE",
+    "label": "prop:cmc-graph-contact",
+    "title": "Proposition 42.14 (The CMC graph equation and oriented contact)",
+    "kind": "proposition",
+    "page": "tag/66C549FE/index.html",
+    "canonical_tag": "8D4734A778BF",
+    "anchor": ""
   }
 ]
