@@ -2289,6 +2289,164 @@
     "tag": "D6C9F6556AEA"
   },
   {
+    "route": "sections/compact-critical-sets-and-deformation-topologies",
+    "title": "8.5 Compact critical sets and deformation topologies",
+    "chapter": "min-max-theory",
+    "section": "compact-critical-sets-and-deformation-topologies"
+  },
+  {
+    "route": "tag/7FF786CD9267",
+    "title": "Definition 8.5.1 (A mass cap and its stationary subset)",
+    "chapter": "min-max-theory",
+    "section": "compact-critical-sets-and-deformation-topologies",
+    "tag": "7FF786CD9267"
+  },
+  {
+    "route": "tag/6FFDB2ED1D18",
+    "title": "Lemma 8.5.2 (Compactness and joint continuity of first variation)",
+    "chapter": "min-max-theory",
+    "section": "compact-critical-sets-and-deformation-topologies",
+    "tag": "6FFDB2ED1D18"
+  },
+  {
+    "route": "tag/FA1671BEBE2B",
+    "title": "Lemma 8.5.3 (A minimizing sequence has a compact nonempty critical set)",
+    "chapter": "min-max-theory",
+    "section": "compact-critical-sets-and-deformation-topologies",
+    "tag": "FA1671BEBE2B"
+  },
+  {
+    "route": "tag/1F1EF36EE50A",
+    "title": "Lemma 8.5.4 (Late near-maximal slices concentrate near the critical set)",
+    "chapter": "min-max-theory",
+    "section": "compact-critical-sets-and-deformation-topologies",
+    "tag": "1F1EF36EE50A"
+  },
+  {
+    "route": "tag/D97A7755DDD4",
+    "title": "Lemma 8.5.5 (Joint continuity of diffeomorphic pushforward)",
+    "chapter": "min-max-theory",
+    "section": "compact-critical-sets-and-deformation-topologies",
+    "tag": "D97A7755DDD4"
+  },
+  {
+    "route": "tag/43B8B0899242",
+    "title": "Example 8.5.6 (A smooth isotopy need not be continuous in mass)",
+    "chapter": "min-max-theory",
+    "section": "compact-critical-sets-and-deformation-topologies",
+    "tag": "43B8B0899242"
+  },
+  {
+    "route": "sections/continuous-descending-fields-and-mass-decreasing-flows",
+    "title": "8.6 Continuous descending fields and mass-decreasing flows",
+    "chapter": "min-max-theory",
+    "section": "continuous-descending-fields-and-mass-decreasing-flows"
+  },
+  {
+    "route": "tag/FEE57F22C3EB",
+    "title": "Lemma 8.6.1 (A negative first variation persists on a neighborhood)",
+    "chapter": "min-max-theory",
+    "section": "continuous-descending-fields-and-mass-decreasing-flows",
+    "tag": "FEE57F22C3EB"
+  },
+  {
+    "route": "tag/ED073D8BA201",
+    "title": "Lemma 8.6.2 (A continuous selection of smooth descending fields)",
+    "chapter": "min-max-theory",
+    "section": "continuous-descending-fields-and-mass-decreasing-flows",
+    "tag": "ED073D8BA201"
+  },
+  {
+    "route": "tag/3E3D48604A0F",
+    "title": "Lemma 8.6.3 (A continuous stationarity defect)",
+    "chapter": "min-max-theory",
+    "section": "continuous-descending-fields-and-mass-decreasing-flows",
+    "tag": "3E3D48604A0F"
+  },
+  {
+    "route": "tag/CC858385ED7D",
+    "title": "Lemma 8.6.4 (Uniform Taylor control along the selected flows)",
+    "chapter": "min-max-theory",
+    "section": "continuous-descending-fields-and-mass-decreasing-flows",
+    "tag": "CC858385ED7D"
+  },
+  {
+    "route": "tag/8B58860B5F4F",
+    "title": "Proposition 8.6.5 (A continuous time choice with a positive mass drop)",
+    "chapter": "min-max-theory",
+    "section": "continuous-descending-fields-and-mass-decreasing-flows",
+    "tag": "8B58860B5F4F"
+  },
+  {
+    "route": "tag/D31BFD6C3534",
+    "title": "Corollary 8.6.6 (Uniform loss away from stationary varifolds)",
+    "chapter": "min-max-theory",
+    "section": "continuous-descending-fields-and-mass-decreasing-flows",
+    "tag": "D31BFD6C3534"
+  },
+  {
+    "route": "tag/52267311276E",
+    "title": "Lemma 8.6.7 (Uniform closeness to the identity)",
+    "chapter": "min-max-theory",
+    "section": "continuous-descending-fields-and-mass-decreasing-flows",
+    "tag": "52267311276E"
+  },
+  {
+    "route": "tag/90DB4B31CDD9",
+    "title": "Theorem 8.6.8 (A continuous pull-tight homotopy on boundary cycles)",
+    "chapter": "min-max-theory",
+    "section": "continuous-descending-fields-and-mass-decreasing-flows",
+    "tag": "90DB4B31CDD9"
+  },
+  {
+    "route": "sections/pulled-tight-sequences-and-the-limits-of-stationarity",
+    "title": "8.7 Pulled-tight sequences and the limits of stationarity",
+    "chapter": "min-max-theory",
+    "section": "pulled-tight-sequences-and-the-limits-of-stationarity"
+  },
+  {
+    "route": "tag/FB67EB71A6E8",
+    "title": "Definition 8.7.1 (A pulled-tight minimizing sequence)",
+    "chapter": "min-max-theory",
+    "section": "pulled-tight-sequences-and-the-limits-of-stationarity",
+    "tag": "FB67EB71A6E8"
+  },
+  {
+    "route": "tag/CD1277EA8D53",
+    "title": "Theorem 8.7.2 (Pull-tight preserves the width and decreases the critical set)",
+    "chapter": "min-max-theory",
+    "section": "pulled-tight-sequences-and-the-limits-of-stationarity",
+    "tag": "CD1277EA8D53"
+  },
+  {
+    "route": "tag/CB49E43C32FF",
+    "title": "Corollary 8.7.3 (Positive width produces a nonzero stationary varifold)",
+    "chapter": "min-max-theory",
+    "section": "pulled-tight-sequences-and-the-limits-of-stationarity",
+    "tag": "CB49E43C32FF"
+  },
+  {
+    "route": "tag/E310F2DBD8F7",
+    "title": "Proposition 8.7.4 (Near-maximal slices of a pulled-tight sequence approach stationarity)",
+    "chapter": "min-max-theory",
+    "section": "pulled-tight-sequences-and-the-limits-of-stationarity",
+    "tag": "E310F2DBD8F7"
+  },
+  {
+    "route": "tag/D95BB0100791",
+    "title": "Example 8.7.5 (A diffuse stationary varifold on a compact manifold)",
+    "chapter": "min-max-theory",
+    "section": "pulled-tight-sequences-and-the-limits-of-stationarity",
+    "tag": "D95BB0100791"
+  },
+  {
+    "route": "tag/ADB5C190FC3B",
+    "title": "Example 8.7.6 (Stationary integral varifolds can have crossings)",
+    "chapter": "min-max-theory",
+    "section": "pulled-tight-sequences-and-the-limits-of-stationarity",
+    "tag": "ADB5C190FC3B"
+  },
+  {
     "route": "chapters/volume-spectrum",
     "title": "9 Volume spectrum and Morse index",
     "chapter": "volume-spectrum"

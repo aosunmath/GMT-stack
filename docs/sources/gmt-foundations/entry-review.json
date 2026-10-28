@@ -494,7 +494,10 @@
         "LiAP",
         "Pitts81"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "thm:continuous-pulltight-homotopy",
+        "thm:pulled-tight-minimizing-sequence"
+      ],
       "formal_verification": "none"
     },
     {
@@ -7245,6 +7248,259 @@
       ],
       "dependencies": [
         "thm:compact-metric-uniform-weyl"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:pulltight-mass-cap",
+      "title": "A mass cap and its stationary subset",
+      "kind": "definition",
+      "file": "critical-sets.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "LiAP"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:pulltight-compact-cap",
+      "title": "Compactness and joint continuity of first variation",
+      "kind": "lemma",
+      "file": "critical-sets.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:pulltight-mass-cap"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:compact-critical-set",
+      "title": "A minimizing sequence has a compact nonempty critical set",
+      "kind": "lemma",
+      "file": "critical-sets.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:homotopy-width",
+        "lem:pulltight-compact-cap"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:near-critical-slices",
+      "title": "Late near-maximal slices concentrate near the critical set",
+      "kind": "lemma",
+      "file": "critical-sets.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:compact-critical-set"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:pulltight-pushforward-continuity",
+      "title": "Joint continuity of diffeomorphic pushforward",
+      "kind": "lemma",
+      "file": "critical-sets.tex",
+      "status": "proof-included",
+      "citations": [
+        "MNIndex"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:translated-slab-mass-distance",
+      "title": "A smooth isotopy need not be continuous in mass",
+      "kind": "example",
+      "file": "critical-sets.tex",
+      "status": "proof-included",
+      "citations": [
+        "LiAP"
+      ],
+      "dependencies": [
+        "lem:pulltight-pushforward-continuity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:local-descending-field",
+      "title": "A negative first variation persists on a neighborhood",
+      "kind": "lemma",
+      "file": "pulltight-deformation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:pulltight-compact-cap"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:global-descending-field",
+      "title": "A continuous selection of smooth descending fields",
+      "kind": "lemma",
+      "file": "pulltight-deformation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:local-descending-field",
+        "lem:pulltight-compact-cap"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:continuous-stationarity-defect",
+      "title": "A continuous stationarity defect",
+      "kind": "lemma",
+      "file": "pulltight-deformation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:global-descending-field"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:pulltight-flow-taylor",
+      "title": "Uniform Taylor control along the selected flows",
+      "kind": "lemma",
+      "file": "pulltight-deformation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:pulltight-time-choice",
+      "title": "A continuous time choice with a positive mass drop",
+      "kind": "proposition",
+      "file": "pulltight-deformation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:pulltight-flow-taylor",
+        "lem:pulltight-pushforward-continuity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:pulltight-uniform-loss",
+      "title": "Uniform loss away from stationary varifolds",
+      "kind": "corollary",
+      "file": "pulltight-deformation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:pulltight-time-choice"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:pulltight-near-identity",
+      "title": "Uniform closeness to the identity",
+      "kind": "lemma",
+      "file": "pulltight-deformation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:translated-slab-mass-distance",
+        "prop:pulltight-time-choice"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:continuous-pulltight-homotopy",
+      "title": "A continuous pull-tight homotopy on boundary cycles",
+      "kind": "theorem",
+      "file": "pulltight-deformation.tex",
+      "status": "proof-included",
+      "citations": [
+        "MNIndex"
+      ],
+      "dependencies": [
+        "lem:pulltight-near-identity",
+        "lem:pulltight-pushforward-continuity",
+        "prop:pulltight-time-choice"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:pulled-tight-sequence",
+      "title": "A pulled-tight minimizing sequence",
+      "kind": "definition",
+      "file": "pulled-tight-limits.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "MNIndex"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:pulled-tight-minimizing-sequence",
+      "title": "Pull-tight preserves the width and decreases the critical set",
+      "kind": "theorem",
+      "file": "pulled-tight-limits.tex",
+      "status": "proof-included",
+      "citations": [
+        "LiAP",
+        "MNIndex"
+      ],
+      "dependencies": [
+        "cor:pulltight-uniform-loss",
+        "def:homotopy-width",
+        "thm:continuous-pulltight-homotopy"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:positive-width-stationary-varifold",
+      "title": "Positive width produces a nonzero stationary varifold",
+      "kind": "corollary",
+      "file": "pulled-tight-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:compact-critical-set",
+        "thm:ap-realization",
+        "thm:pulled-tight-minimizing-sequence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:pulledtight-near-maximal-stationary",
+      "title": "Near-maximal slices of a pulled-tight sequence approach stationarity",
+      "kind": "proposition",
+      "file": "pulled-tight-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:near-critical-slices"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:diffuse-stationary-flat-torus",
+      "title": "A diffuse stationary varifold on a compact manifold",
+      "kind": "example",
+      "file": "pulled-tight-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:crossing-stationary-tori",
+      "title": "Stationary integral varifolds can have crossings",
+      "kind": "example",
+      "file": "pulled-tight-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "rem:pitts-proof-route"
       ],
       "formal_verification": "none"
     }

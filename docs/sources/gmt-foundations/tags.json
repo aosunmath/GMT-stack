@@ -5722,5 +5722,212 @@
     "page": "tag/6F1CDDA6/index.html",
     "canonical_tag": "09F3DF8E7EC5",
     "anchor": ""
+  },
+  {
+    "tag": "197543F5",
+    "label": "sec:critical-sets",
+    "title": "79 Compact critical sets and deformation topologies",
+    "kind": "chapter",
+    "page": "tag/197543F5/index.html",
+    "canonical_tag": "C15402F1FE6C",
+    "anchor": ""
+  },
+  {
+    "tag": "8AC30DFA",
+    "label": "def:pulltight-mass-cap",
+    "title": "Definition 79.1 (A mass cap and its stationary subset)",
+    "kind": "definition",
+    "page": "tag/8AC30DFA/index.html",
+    "canonical_tag": "7FF786CD9267",
+    "anchor": ""
+  },
+  {
+    "tag": "EAD8FBC5",
+    "label": "lem:pulltight-compact-cap",
+    "title": "Lemma 79.2 (Compactness and joint continuity of first variation)",
+    "kind": "lemma",
+    "page": "tag/EAD8FBC5/index.html",
+    "canonical_tag": "6FFDB2ED1D18",
+    "anchor": ""
+  },
+  {
+    "tag": "0A3FDBAC",
+    "label": "lem:compact-critical-set",
+    "title": "Lemma 79.3 (A minimizing sequence has a compact nonempty critical set)",
+    "kind": "lemma",
+    "page": "tag/0A3FDBAC/index.html",
+    "canonical_tag": "FA1671BEBE2B",
+    "anchor": ""
+  },
+  {
+    "tag": "3C2FFD0F",
+    "label": "lem:near-critical-slices",
+    "title": "Lemma 79.4 (Late near-maximal slices concentrate near the critical set)",
+    "kind": "lemma",
+    "page": "tag/3C2FFD0F/index.html",
+    "canonical_tag": "1F1EF36EE50A",
+    "anchor": ""
+  },
+  {
+    "tag": "3217E483",
+    "label": "lem:pulltight-pushforward-continuity",
+    "title": "Lemma 79.5 (Joint continuity of diffeomorphic pushforward)",
+    "kind": "lemma",
+    "page": "tag/3217E483/index.html",
+    "canonical_tag": "D97A7755DDD4",
+    "anchor": ""
+  },
+  {
+    "tag": "3D311333",
+    "label": "ex:translated-slab-mass-distance",
+    "title": "Example 79.6 (A smooth isotopy need not be continuous in mass)",
+    "kind": "example",
+    "page": "tag/3D311333/index.html",
+    "canonical_tag": "43B8B0899242",
+    "anchor": ""
+  },
+  {
+    "tag": "4CA24DDF",
+    "label": "sec:pulltight-deformation",
+    "title": "80 Continuous descending fields and mass-decreasing flows",
+    "kind": "chapter",
+    "page": "tag/4CA24DDF/index.html",
+    "canonical_tag": "D6479908381E",
+    "anchor": ""
+  },
+  {
+    "tag": "CED744A4",
+    "label": "lem:local-descending-field",
+    "title": "Lemma 80.1 (A negative first variation persists on a neighborhood)",
+    "kind": "lemma",
+    "page": "tag/CED744A4/index.html",
+    "canonical_tag": "FEE57F22C3EB",
+    "anchor": ""
+  },
+  {
+    "tag": "E7BFF265",
+    "label": "lem:global-descending-field",
+    "title": "Lemma 80.2 (A continuous selection of smooth descending fields)",
+    "kind": "lemma",
+    "page": "tag/E7BFF265/index.html",
+    "canonical_tag": "ED073D8BA201",
+    "anchor": ""
+  },
+  {
+    "tag": "6DA594D2",
+    "label": "lem:continuous-stationarity-defect",
+    "title": "Lemma 80.3 (A continuous stationarity defect)",
+    "kind": "lemma",
+    "page": "tag/6DA594D2/index.html",
+    "canonical_tag": "3E3D48604A0F",
+    "anchor": ""
+  },
+  {
+    "tag": "B4DE5D80",
+    "label": "lem:pulltight-flow-taylor",
+    "title": "Lemma 80.4 (Uniform Taylor control along the selected flows)",
+    "kind": "lemma",
+    "page": "tag/B4DE5D80/index.html",
+    "canonical_tag": "CC858385ED7D",
+    "anchor": ""
+  },
+  {
+    "tag": "4A76F178",
+    "label": "prop:pulltight-time-choice",
+    "title": "Proposition 80.5 (A continuous time choice with a positive mass drop)",
+    "kind": "proposition",
+    "page": "tag/4A76F178/index.html",
+    "canonical_tag": "8B58860B5F4F",
+    "anchor": ""
+  },
+  {
+    "tag": "1A651494",
+    "label": "cor:pulltight-uniform-loss",
+    "title": "Corollary 80.6 (Uniform loss away from stationary varifolds)",
+    "kind": "corollary",
+    "page": "tag/1A651494/index.html",
+    "canonical_tag": "D31BFD6C3534",
+    "anchor": ""
+  },
+  {
+    "tag": "BCF98DDB",
+    "label": "lem:pulltight-near-identity",
+    "title": "Lemma 80.7 (Uniform closeness to the identity)",
+    "kind": "lemma",
+    "page": "tag/BCF98DDB/index.html",
+    "canonical_tag": "52267311276E",
+    "anchor": ""
+  },
+  {
+    "tag": "C3446632",
+    "label": "thm:continuous-pulltight-homotopy",
+    "title": "Theorem 80.8 (A continuous pull-tight homotopy on boundary cycles)",
+    "kind": "theorem",
+    "page": "tag/C3446632/index.html",
+    "canonical_tag": "90DB4B31CDD9",
+    "anchor": ""
+  },
+  {
+    "tag": "16E65B94",
+    "label": "sec:pulled-tight-limits",
+    "title": "81 Pulled-tight sequences and the limits of stationarity",
+    "kind": "chapter",
+    "page": "tag/16E65B94/index.html",
+    "canonical_tag": "8B18F41E983E",
+    "anchor": ""
+  },
+  {
+    "tag": "58FDDF7D",
+    "label": "def:pulled-tight-sequence",
+    "title": "Definition 81.1 (A pulled-tight minimizing sequence)",
+    "kind": "definition",
+    "page": "tag/58FDDF7D/index.html",
+    "canonical_tag": "FB67EB71A6E8",
+    "anchor": ""
+  },
+  {
+    "tag": "B111DEFB",
+    "label": "thm:pulled-tight-minimizing-sequence",
+    "title": "Theorem 81.2 (Pull-tight preserves the width and decreases the critical set)",
+    "kind": "theorem",
+    "page": "tag/B111DEFB/index.html",
+    "canonical_tag": "CD1277EA8D53",
+    "anchor": ""
+  },
+  {
+    "tag": "86B677D8",
+    "label": "cor:positive-width-stationary-varifold",
+    "title": "Corollary 81.3 (Positive width produces a nonzero stationary varifold)",
+    "kind": "corollary",
+    "page": "tag/86B677D8/index.html",
+    "canonical_tag": "CB49E43C32FF",
+    "anchor": ""
+  },
+  {
+    "tag": "C428B69F",
+    "label": "prop:pulledtight-near-maximal-stationary",
+    "title": "Proposition 81.4 (Near-maximal slices of a pulled-tight sequence approach stationarity)",
+    "kind": "proposition",
+    "page": "tag/C428B69F/index.html",
+    "canonical_tag": "E310F2DBD8F7",
+    "anchor": ""
+  },
+  {
+    "tag": "6AE8C01C",
+    "label": "ex:diffuse-stationary-flat-torus",
+    "title": "Example 81.5 (A diffuse stationary varifold on a compact manifold)",
+    "kind": "example",
+    "page": "tag/6AE8C01C/index.html",
+    "canonical_tag": "D95BB0100791",
+    "anchor": ""
+  },
+  {
+    "tag": "44F077A6",
+    "label": "ex:crossing-stationary-tori",
+    "title": "Example 81.6 (Stationary integral varifolds can have crossings)",
+    "kind": "example",
+    "page": "tag/44F077A6/index.html",
+    "canonical_tag": "ADB5C190FC3B",
+    "anchor": ""
   }
 ]
