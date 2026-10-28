@@ -97,9 +97,11 @@
       "tag": "DEC5D9D7BBFF",
       "topics": [
         "cycles-and-min-max-families",
-        "almost-minimizing-varifolds-and-existence"
+        "almost-minimizing-varifolds-and-existence",
+        "continuity-and-concentration-in-cycle-families",
+        "detecting-classes-and-parameter-space-arguments"
       ],
-      "description": "Pitts, cycle topologies, discrete fineness, almost minimizing limits, and existence."
+      "description": "Pitts, cycle topologies, discrete fineness, almost minimizing limits, existence, uniform concentration control, and cohomological detection."
     },
     {
       "slug": "volume-spectrum",
@@ -108,9 +110,10 @@
       "topics": [
         "the-volume-spectrum-and-weyl-law",
         "multiplicity-and-the-morse-index",
-        "bumpy-metrics-multiplicity-and-abundance"
+        "bumpy-metrics-multiplicity-and-abundance",
+        "metric-comparison-and-uniform-weyl-asymptotics"
       ],
-      "description": "Cohomological sweepouts, Weyl asymptotics, multiplicity one, index, and abundance."
+      "description": "Cohomological sweepouts, metric comparison, uniform Weyl asymptotics, multiplicity one, index, and abundance."
     },
     {
       "slug": "geometric-applications",
