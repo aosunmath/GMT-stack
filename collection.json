@@ -201,6 +201,19 @@
         "from-one-minimal-hypersurface-to-many"
       ],
       "description": "Sourced historical notes on the origins of GMT and the development of min-max theory."
+    },
+    {
+      "slug": "examples",
+      "title": "Examples",
+      "topics": [
+        "atomic-diffuse-and-singular-measures",
+        "classical-minimal-surfaces-by-calculation",
+        "explicit-solitons-and-translating-graphs",
+        "constructing-the-rotational-bowl-soliton",
+        "expanding-curves-that-smooth-a-corner",
+        "an-explicit-ancient-oval"
+      ],
+      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs."
     }
   ],
   "topics": [],

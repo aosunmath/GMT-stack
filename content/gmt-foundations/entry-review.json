@@ -752,8 +752,13 @@
       ],
       "dependencies": [
         "def:integral-brakke-flow",
+        "ex:explicit-catenoid",
+        "prop:cantor-dimension",
+        "thm:convex-graphical-expander",
+        "thm:explicit-ancient-oval",
         "thm:phase-relative-recovery",
-        "thm:plateau-direct-method"
+        "thm:plateau-direct-method",
+        "thm:rotational-bowl-construction"
       ],
       "formal_verification": "none"
     },
@@ -7872,6 +7877,632 @@
         "lem:positive-part-subsolution",
         "prop:moser-all-positive-exponents"
       ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:dense-atomic-measure",
+      "title": "A measure can be atomic and have an interval as support",
+      "kind": "example",
+      "file": "examples-measures.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:approximate-identity-dirac",
+      "title": "Concentration of absolutely continuous measures",
+      "kind": "example",
+      "file": "examples-measures.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:escaping-mass",
+      "title": "Mass escapes through infinity or a domain boundary",
+      "kind": "example",
+      "file": "examples-measures.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:weak-measure"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:weak-borel-discontinuity",
+      "title": "Weak convergence does not imply convergence on every Borel set",
+      "kind": "example",
+      "file": "examples-measures.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:measure-lsc"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:oscillating-densities",
+      "title": "Oscillating densities can average without converging in norm",
+      "kind": "example",
+      "file": "examples-measures.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:cantor-model",
+      "title": "The middle-thirds Cantor set and its probability measure",
+      "kind": "definition",
+      "file": "examples-measures.tex",
+      "status": "definition-with-source",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cantor-cylinder-mass",
+      "title": "Cylinder masses and singular continuity",
+      "kind": "proposition",
+      "file": "examples-measures.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cantor-ball-bounds",
+      "title": "Power-law bounds for the Cantor measure",
+      "kind": "proposition",
+      "file": "examples-measures.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:hausdorff-dimension-examples",
+      "title": "Hausdorff dimension via diameter covers",
+      "kind": "definition",
+      "file": "examples-measures.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:hausdorff-measure"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cantor-dimension",
+      "title": "The Cantor set has a noninteger dimension",
+      "kind": "proposition",
+      "file": "examples-measures.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:cantor-ball-bounds"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:cantor-function-bv",
+      "title": "The Cantor function has a singular distributional derivative",
+      "kind": "example",
+      "file": "examples-measures.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:cantor-cylinder-mass"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:example-conformal-harmonic",
+      "title": "A conformal harmonic immersion is minimal",
+      "kind": "lemma",
+      "file": "examples-minimal.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:explicit-catenoid",
+      "title": "The catenoid: an embedded complete minimal annulus",
+      "kind": "example",
+      "file": "examples-minimal.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "lem:example-conformal-harmonic"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:catenoid-curvature-example",
+      "title": "Curvature and total curvature of the catenoid",
+      "kind": "proposition",
+      "file": "examples-minimal.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:example-conformal-curvature"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:catenoid-unstable-example",
+      "title": "The complete catenoid is unstable",
+      "kind": "proposition",
+      "file": "examples-minimal.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:explicit-catenoid",
+        "prop:graph-calibration"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:rotational-catenoid-ode",
+      "title": "Rotational minimal hypersurfaces and their first integral",
+      "kind": "proposition",
+      "file": "examples-minimal.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:higher-catenoid-height",
+      "title": "Higher-dimensional catenoids fit in a finite-height slab",
+      "kind": "example",
+      "file": "examples-minimal.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "prop:rotational-catenoid-ode"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:explicit-helicoid",
+      "title": "The helicoid: a complete embedded minimal plane",
+      "kind": "example",
+      "file": "examples-minimal.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "lem:example-conformal-harmonic"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:catenoid-helicoid-associate",
+      "title": "The catenoid-helicoid association and its period obstruction",
+      "kind": "proposition",
+      "file": "examples-minimal.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:explicit-enneper",
+      "title": "Enneper's surface is immersed and complete but not embedded",
+      "kind": "example",
+      "file": "examples-minimal.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "lem:example-conformal-harmonic"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:enneper-total-curvature",
+      "title": "Total curvature counts the parameter surface",
+      "kind": "proposition",
+      "file": "examples-minimal.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:example-minimal-links",
+      "title": "Other explicit models already developed in the project",
+      "kind": "remark",
+      "file": "examples-minimal.tex",
+      "status": "editorial",
+      "citations": [],
+      "dependencies": [
+        "ex:complex-cusp-current",
+        "ex:scherk-graph",
+        "prop:cusp-density",
+        "prop:cusp-tangent"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:example-homothetic-clock",
+      "title": "The scale and time interval of a homothetic soliton",
+      "kind": "proposition",
+      "file": "examples-solitons.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:mcf-parabolic-rescaling"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:example-soliton-product",
+      "title": "Products preserve a soliton equation",
+      "kind": "proposition",
+      "file": "examples-solitons.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:soliton-model-comparison",
+      "title": "Planes, spheres, and cylinders have different motion laws",
+      "kind": "example",
+      "file": "examples-solitons.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:shrinking-sphere",
+        "prop:example-soliton-product"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-graph-example",
+      "title": "The upward translator equation for a graph",
+      "kind": "proposition",
+      "file": "examples-solitons.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:graphical-mcf"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:grim-reaper-speed-family",
+      "title": "All translating graphs of curves with nonzero vertical speed",
+      "kind": "proposition",
+      "file": "examples-solitons.tex",
+      "status": "proof-included",
+      "citations": [
+        "HIMW19"
+      ],
+      "dependencies": [
+        "ex:mcf-grim-reaper",
+        "prop:translator-graph-example"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:tilted-grim-reaper",
+      "title": "Tilted grim-reaper cylinders",
+      "kind": "example",
+      "file": "examples-solitons.tex",
+      "status": "proof-included",
+      "citations": [
+        "HIMW19"
+      ],
+      "dependencies": [
+        "prop:translator-graph-example"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-height-example",
+      "title": "A translator's height is a strict elliptic test",
+      "kind": "proposition",
+      "file": "examples-solitons.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-weighted-area-example",
+      "title": "Translation as a weighted area problem",
+      "kind": "proposition",
+      "file": "examples-solitons.tex",
+      "status": "proof-included",
+      "citations": [
+        "HIMW19"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:radial-translator-tip",
+      "title": "The radial equation at the tip of a bowl translator",
+      "kind": "proposition",
+      "file": "examples-solitons.tex",
+      "status": "proof-included",
+      "citations": [
+        "HIMW19"
+      ],
+      "dependencies": [
+        "prop:translator-graph-example"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:paraboloid-not-translator",
+      "title": "A paraboloid is not an exact bowl translator",
+      "kind": "example",
+      "file": "examples-solitons.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:radial-translator-tip"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:cantor-density-approximation",
+      "title": "Diffuse approximations to a singular continuous measure",
+      "kind": "example",
+      "file": "examples-measures.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:approximate-identity-dirac"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:three-measure-components",
+      "title": "Three mutually singular components in one measure",
+      "kind": "example",
+      "file": "examples-measures.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:bowl-smooth-tip-existence",
+      "title": "Resolving the radial equation at zero",
+      "kind": "lemma",
+      "file": "examples-bowl.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:radial-translator-tip"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:bowl-slope-barriers",
+      "title": "Linear barriers prevent finite-radius blow-up",
+      "kind": "lemma",
+      "file": "examples-bowl.tex",
+      "status": "proof-included",
+      "citations": [
+        "CSS07"
+      ],
+      "dependencies": [
+        "prop:radial-translator-tip"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:rotational-bowl-construction",
+      "title": "The complete rotational bowl",
+      "kind": "theorem",
+      "file": "examples-bowl.tex",
+      "status": "proof-included",
+      "citations": [
+        "CSS07"
+      ],
+      "dependencies": [
+        "lem:bowl-slope-barriers",
+        "lem:bowl-smooth-tip-existence",
+        "prop:translator-graph-example"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:bowl-leading-growth",
+      "title": "The quadratic growth coefficient of the bowl",
+      "kind": "proposition",
+      "file": "examples-bowl.tex",
+      "status": "proof-included",
+      "citations": [
+        "CSS07"
+      ],
+      "dependencies": [
+        "lem:bowl-slope-barriers"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:bowl-slope-correction",
+      "title": "The first slope correction",
+      "kind": "lemma",
+      "file": "examples-bowl.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:bowl-logarithmic-asymptotic",
+      "title": "A logarithmic correction to the bowl height",
+      "kind": "proposition",
+      "file": "examples-bowl.tex",
+      "status": "proof-included",
+      "citations": [
+        "CSS07"
+      ],
+      "dependencies": [
+        "lem:bowl-slope-correction"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:bowl-speed-scaling",
+      "title": "Translation speed and dilations of the bowl",
+      "kind": "corollary",
+      "file": "examples-bowl.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:bowl-logarithmic-asymptotic"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:expander-graph-defect",
+      "title": "The expander graph equation and its positive defect",
+      "kind": "proposition",
+      "file": "examples-expanders.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:expander-global-slope",
+      "title": "The expanding graph has bounded slope",
+      "kind": "lemma",
+      "file": "examples-expanders.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:expander-graph-defect"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:convex-graphical-expander",
+      "title": "A complete convex expander asymptotic to two rays",
+      "kind": "theorem",
+      "file": "examples-expanders.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hal12"
+      ],
+      "dependencies": [
+        "lem:expander-global-slope"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:expander-corner-initial-trace",
+      "title": "A smooth flow converging uniformly to a corner",
+      "kind": "proposition",
+      "file": "examples-expanders.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:example-soliton-product",
+        "thm:convex-graphical-expander"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:expander-curvature-example",
+      "title": "Total curvature and maximum curvature of the expander",
+      "kind": "proposition",
+      "file": "examples-expanders.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:explicit-ancient-oval",
+      "title": "The implicit oval is an ancient curve-shortening flow",
+      "kind": "theorem",
+      "file": "examples-ancient-curves.tex",
+      "status": "proof-included",
+      "citations": [
+        "BV11"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:ancient-oval-curvature-ratio",
+      "title": "The ancient oval changes shape",
+      "kind": "proposition",
+      "file": "examples-ancient-curves.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:explicit-ancient-oval"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:ancient-oval-extinction-model",
+      "title": "Area and the shrinking-circle limit",
+      "kind": "proposition",
+      "file": "examples-ancient-curves.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [
+        "ex:soliton-model-comparison",
+        "thm:explicit-ancient-oval"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:ancient-oval-translator-limits",
+      "title": "The two grim-reaper limits backward in time",
+      "kind": "proposition",
+      "file": "examples-ancient-curves.tex",
+      "status": "proof-included",
+      "citations": [
+        "BV11"
+      ],
+      "dependencies": [
+        "prop:grim-reaper-speed-family"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:example-conformal-curvature",
+      "title": "Gauss curvature in a conformal chart",
+      "kind": "lemma",
+      "file": "examples-minimal.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
       "formal_verification": "none"
     }
   ],
