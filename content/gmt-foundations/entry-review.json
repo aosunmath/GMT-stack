@@ -4652,6 +4652,461 @@
         "thm:phase-relative-recovery"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-entire-estimates",
+      "title": "Uniform estimates for bounded entire solutions",
+      "kind": "lemma",
+      "file": "phase-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "thm:interior-schauder",
+        "thm:laplace-w2p"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-small-gradient",
+      "title": "A bounded function has arbitrarily small gradient somewhere",
+      "kind": "lemma",
+      "file": "phase-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-gradient-defect-pde",
+      "title": "The differential inequality for the gradient defect",
+      "kind": "lemma",
+      "file": "phase-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-modica-gradient",
+      "title": "Modica's pointwise gradient estimate",
+      "kind": "theorem",
+      "file": "phase-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-entire-estimates",
+        "lem:phase-gradient-defect-pde",
+        "lem:phase-small-gradient"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:phase-modica-scaled",
+      "title": "Nonpositive discrepancy at arbitrary diffuse scale",
+      "kind": "corollary",
+      "file": "phase-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:phase-discrepancy",
+        "thm:phase-modica-gradient"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:phase-local-gradient-bound",
+      "title": "A local solution need not satisfy Modica's bound",
+      "kind": "example",
+      "file": "phase-monotonicity.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [
+        "thm:phase-modica-gradient"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-modica-equality",
+      "title": "Rigidity in the pointwise gradient estimate",
+      "kind": "theorem",
+      "file": "phase-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-ordered-contact",
+        "thm:phase-modica-gradient"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:phase-stress-energy",
+      "title": "The diffuse stress-energy tensor",
+      "kind": "definition",
+      "file": "phase-monotonicity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-stress-conservation",
+      "title": "Stress-energy conservation",
+      "kind": "proposition",
+      "file": "phase-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:phase-stress-energy"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-energy-ratio",
+      "title": "The exact diffuse energy-ratio identity",
+      "kind": "theorem",
+      "file": "phase-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "def:phase-discrepancy"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:phase-energy-monotonicity",
+      "title": "Monotonicity and area-order energy growth",
+      "kind": "corollary",
+      "file": "phase-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:phase-modica-scaled",
+        "thm:phase-energy-ratio"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:phase-finite-total-energy",
+      "title": "Finite total energy in dimension at least two",
+      "kind": "corollary",
+      "file": "phase-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:phase-zero-energy",
+        "thm:phase-ode-classification"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:phase-flat-density-ratio",
+      "title": "Energy ratios of a flat transition layer",
+      "kind": "example",
+      "file": "phase-monotonicity.tex",
+      "status": "worked-example",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:phase-local-stability",
+      "title": "Local Allen-Cahn stability",
+      "kind": "definition",
+      "file": "phase-stability.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "prop:allen-cahn-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-ground-state",
+      "title": "A positive linearized solution gives stability",
+      "kind": "proposition",
+      "file": "phase-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "prop:positive-jacobi-stability"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:phase-monotone-stability",
+      "title": "Monotone entire solutions are stable",
+      "kind": "corollary",
+      "file": "phase-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "prop:phase-ground-state"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-level-geometry",
+      "title": "The gradient defect and regular level geometry",
+      "kind": "lemma",
+      "file": "phase-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-geometric-stability",
+      "title": "The geometric stability inequality",
+      "kind": "theorem",
+      "file": "phase-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:phase-positive-ricci",
+      "title": "Stable phases on a closed positive-Ricci manifold",
+      "kind": "corollary",
+      "file": "phase-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-level-geometry",
+        "thm:phase-geometric-stability"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-quadratic-flatness",
+      "title": "Quadratic gradient growth makes the level geometry flat",
+      "kind": "proposition",
+      "file": "phase-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-level-geometry",
+        "prop:quadratic-growth-cutoffs"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-flat-to-onedimensional",
+      "title": "From zero level defect to a one-dimensional solution",
+      "kind": "lemma",
+      "file": "phase-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-level-geometry"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-stable-ode",
+      "title": "Bounded stable one-dimensional profiles",
+      "kind": "lemma",
+      "file": "phase-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "prop:phase-ground-state"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-stable-growth-rigidity",
+      "title": "Stable rigidity under quadratic gradient growth",
+      "kind": "theorem",
+      "file": "phase-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-flat-to-onedimensional",
+        "lem:phase-stable-ode",
+        "prop:phase-quadratic-flatness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:phase-planar-stable",
+      "title": "Classification of bounded stable solutions in the plane",
+      "kind": "corollary",
+      "file": "phase-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "cor:phase-monotone-stability",
+        "lem:phase-entire-estimates",
+        "thm:phase-stable-growth-rigidity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:phase-ball-minimizer",
+      "title": "Minimization on bounded balls",
+      "kind": "definition",
+      "file": "phase-minimizers.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-ordered-contact",
+      "title": "Strong contact for ordered solutions",
+      "kind": "lemma",
+      "file": "phase-minimizers.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-dirichlet-minimizer",
+      "title": "A bounded Dirichlet minimizer on a ball",
+      "kind": "theorem",
+      "file": "phase-minimizers.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-ordered-contact"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-translate-limits",
+      "title": "Uniform limits of monotone translates on compact sets",
+      "kind": "lemma",
+      "file": "phase-minimizers.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-monotone-minimizing",
+      "title": "Monotonicity with saturated ends gives minimization",
+      "kind": "theorem",
+      "file": "phase-minimizers.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "def:phase-ball-minimizer",
+        "lem:phase-ordered-contact",
+        "lem:phase-translate-limits",
+        "thm:phase-dirichlet-minimizer"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-minimizer-growth",
+      "title": "Area-order energy bound for bounded minimizers",
+      "kind": "proposition",
+      "file": "phase-minimizers.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-entire-estimates",
+        "thm:phase-stable-growth-rigidity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-monotone-end-limits",
+      "title": "Limits at the ends of a monotone solution",
+      "kind": "proposition",
+      "file": "phase-minimizers.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "cor:phase-monotone-stability",
+        "lem:phase-entire-estimates"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-translation-energy",
+      "title": "Energy comparison with a monotone end limit",
+      "kind": "proposition",
+      "file": "phase-minimizers.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "prop:phase-monotone-end-limits"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-monotone-three-dimensional",
+      "title": "Monotone bounded solutions in three dimensions",
+      "kind": "theorem",
+      "file": "phase-minimizers.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "cor:phase-planar-stable",
+        "prop:phase-monotone-end-limits",
+        "prop:phase-translation-energy",
+        "thm:phase-stable-growth-rigidity"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -4707,7 +5162,10 @@
     "Optimal C1,1 interior obstacle regularity",
     "Caffarelli regular--singular obstacle dichotomy and analytic regular free boundary",
     "C1 manifold containment for classical obstacle singular strata",
-    "Relative smooth approximation and Allen-Cahn recovery for finite-perimeter sets meeting a Lipschitz domain boundary"
+    "Relative smooth approximation and Allen-Cahn recovery for finite-perimeter sets meeting a Lipschitz domain boundary",
+    "Strong elliptic maximum principle with nonpositive zero-order coefficient",
+    "Unique continuation for scalar elliptic equations with smooth potential, used in Allen-Cahn level-set rigidity",
+    "Rellich compactness and Poisson boundary regularity on a smooth ball"
   ],
   "next_development": [
     "Covering and differentiation theorems for measures",
@@ -4719,6 +5177,6 @@
     "Proofs and comparison of the volume-spectrum conventions",
     "Proofs of optimal obstacle regularity and classification; thin obstacles; level-set flows, tangent-flow extraction, and finer flow singularity theory",
     "Free-boundary, Plateau, capillarity, and prescribed-mean-curvature branches",
-    "Pointwise Modica gradient estimate, stable and monotone Allen-Cahn solutions, phase-field varifold integrality and multiplicity, and constrained recovery"
+    "Phase-field varifold integrality and multiplicity, heteroclinic spectral theory, constrained recovery, and geometric singular limits"
   ]
 }

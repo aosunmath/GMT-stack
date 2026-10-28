@@ -132,9 +132,12 @@
         "allen-cahn-energy-and-minimal-interfaces",
         "transition-profiles-and-phase-field-energy",
         "phase-compactness-and-the-perimeter-lower-bound",
-        "recovery-layers-and-variational-limits"
+        "recovery-layers-and-variational-limits",
+        "gradient-bounds-and-diffuse-monotonicity",
+        "stability-and-level-set-geometry",
+        "monotone-solutions-and-minimizing-properties"
       ],
-      "description": "Transition profiles, sharp energy bounds, BV phase compactness, perimeter lower bounds, discrepancy and equipartition, recovery layers, and variational limits with explicit proof dependencies."
+      "description": "Transition profiles, BV compactness and perimeter limits, recovery layers, Modica bounds, stress-energy monotonicity, stability and level geometry, sliding minimization, and planar and three-dimensional rigidity."
     },
     {
       "slug": "obstacle-problems",

@@ -1,6 +1,6 @@
 # Phase-transition foundations
 
-This expansion adds **27 entries in three sections**, with **21 local proofs**, four definitions, one externally proved theorem, and one worked example. The edition has **363 mathematical and historical entries, 54 sections, and 15 chapters**, with 173 local proofs and 52 external theorems. The total of 417 addressable entries also counts section headings.
+This expansion adds **27 entries in three sections**, with **21 local proofs**, four definitions, one externally proved theorem, and one worked example. At this expansion stage, the edition had **363 mathematical and historical entries, 54 sections, and 15 chapters**, with 173 local proofs and 52 external theorems. The total of 417 addressable entries also counts section headings.
 
 ## Profiles and energy
 
