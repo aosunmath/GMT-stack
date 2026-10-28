@@ -372,6 +372,40 @@
     "tag": "A08B64B5DD43"
   },
   {
+    "route": "sections/integral-compactness-and-mod-two-compatibility",
+    "title": "6.2 Integral compactness and mod-two compatibility",
+    "chapter": "varifolds",
+    "section": "integral-compactness-and-mod-two-compatibility"
+  },
+  {
+    "route": "tag/5A050AC47DEE",
+    "title": "Theorem 6.2.1 (Allard compactness for integral varifolds)",
+    "chapter": "varifolds",
+    "section": "integral-compactness-and-mod-two-compatibility",
+    "tag": "5A050AC47DEE"
+  },
+  {
+    "route": "tag/8706AD13DA84",
+    "title": "Definition 6.2.2 (The mod-two chain of an integral varifold)",
+    "chapter": "varifolds",
+    "section": "integral-compactness-and-mod-two-compatibility",
+    "tag": "8706AD13DA84"
+  },
+  {
+    "route": "tag/A428515E6D50",
+    "title": "Theorem 6.2.3 (Compatibility of varifold and mod-two limits)",
+    "chapter": "varifolds",
+    "section": "integral-compactness-and-mod-two-compatibility",
+    "tag": "A428515E6D50"
+  },
+  {
+    "route": "tag/58C720EC2E67",
+    "title": "Example 6.2.4 (Even multiplicity is invisible modulo two)",
+    "chapter": "varifolds",
+    "section": "integral-compactness-and-mod-two-compatibility",
+    "tag": "58C720EC2E67"
+  },
+  {
     "route": "chapters/minimal-surfaces",
     "title": "7 Minimal surfaces",
     "chapter": "minimal-surfaces"
@@ -436,6 +470,60 @@
     "chapter": "minimal-surfaces",
     "section": "minimal-graphs-and-elliptic-regularity",
     "tag": "5BFC45FF0297"
+  },
+  {
+    "route": "sections/compactness-with-bounded-area-and-index",
+    "title": "7.3 Compactness with bounded area and index",
+    "chapter": "minimal-surfaces",
+    "section": "compactness-with-bounded-area-and-index"
+  },
+  {
+    "route": "tag/3E0AAA9F69FA",
+    "title": "Lemma 7.3.1 (Disjoint unstable regions consume index)",
+    "chapter": "minimal-surfaces",
+    "section": "compactness-with-bounded-area-and-index",
+    "tag": "3E0AAA9F69FA"
+  },
+  {
+    "route": "tag/780986CC98B2",
+    "title": "Theorem 7.3.2 (Sharp compactness)",
+    "chapter": "minimal-surfaces",
+    "section": "compactness-with-bounded-area-and-index",
+    "tag": "780986CC98B2"
+  },
+  {
+    "route": "tag/EFD6BFF7085F",
+    "title": "Remark 7.3.3 (Where regularity enters)",
+    "chapter": "minimal-surfaces",
+    "section": "compactness-with-bounded-area-and-index",
+    "tag": "EFD6BFF7085F"
+  },
+  {
+    "route": "sections/sobolev-and-isoperimetric-inequalities",
+    "title": "7.4 Sobolev and isoperimetric inequalities",
+    "chapter": "minimal-surfaces",
+    "section": "sobolev-and-isoperimetric-inequalities"
+  },
+  {
+    "route": "tag/A63DB2A4CACB",
+    "title": "Theorem 7.4.1 (Michael–Simon inequality in the smooth case)",
+    "chapter": "minimal-surfaces",
+    "section": "sobolev-and-isoperimetric-inequalities",
+    "tag": "A63DB2A4CACB"
+  },
+  {
+    "route": "tag/ED2217821AC7",
+    "title": "Theorem 7.4.2 (Sharp isoperimetry in codimension at most two)",
+    "chapter": "minimal-surfaces",
+    "section": "sobolev-and-isoperimetric-inequalities",
+    "tag": "ED2217821AC7"
+  },
+  {
+    "route": "tag/35A87C0CF8FF",
+    "title": "Example 7.4.3 (The flat ball fixes the normalization)",
+    "chapter": "minimal-surfaces",
+    "section": "sobolev-and-isoperimetric-inequalities",
+    "tag": "35A87C0CF8FF"
   },
   {
     "route": "chapters/min-max-theory",
@@ -575,6 +663,47 @@
     "chapter": "volume-spectrum",
     "section": "multiplicity-and-the-morse-index",
     "tag": "5CC6B5664356"
+  },
+  {
+    "route": "sections/bumpy-metrics-multiplicity-and-abundance",
+    "title": "9.3 Bumpy metrics, multiplicity, and abundance",
+    "chapter": "volume-spectrum",
+    "section": "bumpy-metrics-multiplicity-and-abundance"
+  },
+  {
+    "route": "tag/3AFB2285C181",
+    "title": "Definition 9.3.1 (Bumpy metrics)",
+    "chapter": "volume-spectrum",
+    "section": "bumpy-metrics-multiplicity-and-abundance",
+    "tag": "3AFB2285C181"
+  },
+  {
+    "route": "tag/826686D45D1C",
+    "title": "Theorem 9.3.2 (Generic bumpiness)",
+    "chapter": "volume-spectrum",
+    "section": "bumpy-metrics-multiplicity-and-abundance",
+    "tag": "826686D45D1C"
+  },
+  {
+    "route": "tag/0BB7ED8003DE",
+    "title": "Theorem 9.3.3 (Multiplicity-one realization of the volume spectrum)",
+    "chapter": "volume-spectrum",
+    "section": "bumpy-metrics-multiplicity-and-abundance",
+    "tag": "0BB7ED8003DE"
+  },
+  {
+    "route": "tag/DD08D48E52FD",
+    "title": "Theorem 9.3.4 (Infinitely many minimal hypersurfaces)",
+    "chapter": "volume-spectrum",
+    "section": "bumpy-metrics-multiplicity-and-abundance",
+    "tag": "DD08D48E52FD"
+  },
+  {
+    "route": "tag/5DAA3668FA8E",
+    "title": "Theorem 9.3.5 (Equidistribution for generic metrics)",
+    "chapter": "volume-spectrum",
+    "section": "bumpy-metrics-multiplicity-and-abundance",
+    "tag": "5DAA3668FA8E"
   },
   {
     "route": "chapters/geometric-applications",
@@ -796,6 +925,106 @@
     "chapter": "mean-curvature-flow",
     "section": "smooth-mean-curvature-flow",
     "tag": "D1D70B3B2945"
+  },
+  {
+    "route": "sections/convex-flow-and-shrinking-models",
+    "title": "14.2 Convex flow and shrinking models",
+    "chapter": "mean-curvature-flow",
+    "section": "convex-flow-and-shrinking-models"
+  },
+  {
+    "route": "tag/7CECF8A8FAC9",
+    "title": "Theorem 14.2.1 (Convex Euclidean hypersurfaces become round)",
+    "chapter": "mean-curvature-flow",
+    "section": "convex-flow-and-shrinking-models",
+    "tag": "7CECF8A8FAC9"
+  },
+  {
+    "route": "tag/F2183BE1F075",
+    "title": "Definition 14.2.2 (Self-shrinkers)",
+    "chapter": "mean-curvature-flow",
+    "section": "convex-flow-and-shrinking-models",
+    "tag": "F2183BE1F075"
+  },
+  {
+    "route": "tag/B31B3405D469",
+    "title": "Proposition 14.2.3 (Round shrinking cylinders)",
+    "chapter": "mean-curvature-flow",
+    "section": "convex-flow-and-shrinking-models",
+    "tag": "B31B3405D469"
+  },
+  {
+    "route": "tag/12DACC1AA667",
+    "title": "Proposition 14.2.4 (Gaussian area and the shrinker equation)",
+    "chapter": "mean-curvature-flow",
+    "section": "convex-flow-and-shrinking-models",
+    "tag": "12DACC1AA667"
+  },
+  {
+    "route": "tag/AAE9B0385275",
+    "title": "Remark 14.2.5 (The supplied generic-flow paper has a specific scope)",
+    "chapter": "mean-curvature-flow",
+    "section": "convex-flow-and-shrinking-models",
+    "tag": "AAE9B0385275"
+  },
+  {
+    "route": "chapters/history",
+    "title": "15 History",
+    "chapter": "history"
+  },
+  {
+    "route": "sections/origins-of-geometric-measure-theory",
+    "title": "15.1 Origins of geometric measure theory",
+    "chapter": "history",
+    "section": "origins-of-geometric-measure-theory"
+  },
+  {
+    "route": "tag/9EF132811524",
+    "title": "Remark 15.1.1 (1958–1960: compactness as a design principle)",
+    "chapter": "history",
+    "section": "origins-of-geometric-measure-theory",
+    "tag": "9EF132811524"
+  },
+  {
+    "route": "tag/E409AB8EC052",
+    "title": "Remark 15.1.2 (De Giorgi's boundary without smoothness)",
+    "chapter": "history",
+    "section": "origins-of-geometric-measure-theory",
+    "tag": "E409AB8EC052"
+  },
+  {
+    "route": "tag/AE10C8E9DF1A",
+    "title": "Remark 15.1.3 (1969: a dimension threshold that surprised analysts)",
+    "chapter": "history",
+    "section": "origins-of-geometric-measure-theory",
+    "tag": "AE10C8E9DF1A"
+  },
+  {
+    "route": "tag/A7B67D7E0642",
+    "title": "Remark 15.1.4 (Different notions of a generalized surface)",
+    "chapter": "history",
+    "section": "origins-of-geometric-measure-theory",
+    "tag": "A7B67D7E0642"
+  },
+  {
+    "route": "sections/from-one-minimal-hypersurface-to-many",
+    "title": "15.2 From one minimal hypersurface to many",
+    "chapter": "history",
+    "section": "from-one-minimal-hypersurface-to-many"
+  },
+  {
+    "route": "tag/035643999D57",
+    "title": "Remark 15.2.1 (Existence, regularity, and the meaning of dimension)",
+    "chapter": "history",
+    "section": "from-one-minimal-hypersurface-to-many",
+    "tag": "035643999D57"
+  },
+  {
+    "route": "tag/C5CCD5D00E73",
+    "title": "Remark 15.2.2 (The volume spectrum and a sequence of geometric questions)",
+    "chapter": "history",
+    "section": "from-one-minimal-hypersurface-to-many",
+    "tag": "C5CCD5D00E73"
   },
   {
     "route": "entries",

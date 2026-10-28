@@ -54,7 +54,8 @@
       "title": "Varifolds",
       "tag": "F7D373E3D6CA",
       "topics": [
-        "varifolds-and-first-variation"
+        "varifolds-and-first-variation",
+        "integral-compactness-and-mod-two-compatibility"
       ],
       "number": 6
     },
@@ -64,9 +65,11 @@
       "tag": "A3C628E1D3D3",
       "topics": [
         "minimal-hypersurfaces-and-stability",
-        "minimal-graphs-and-elliptic-regularity"
+        "minimal-graphs-and-elliptic-regularity",
+        "compactness-with-bounded-area-and-index",
+        "sobolev-and-isoperimetric-inequalities"
       ],
-      "description": "First and second variation, stability, Morse index, graph equations, and the regularity program.",
+      "description": "Variations, stability, minimal graphs, compactness with bounded index, and geometric inequalities.",
       "number": 7
     },
     {
@@ -86,9 +89,10 @@
       "tag": "B03BDC08CEA0",
       "topics": [
         "the-volume-spectrum-and-weyl-law",
-        "multiplicity-and-the-morse-index"
+        "multiplicity-and-the-morse-index",
+        "bumpy-metrics-multiplicity-and-abundance"
       ],
-      "description": "Cohomological sweepouts, scaling, Weyl asymptotics, and conditional index equality.",
+      "description": "Cohomological sweepouts, Weyl asymptotics, multiplicity one, index, and abundance.",
       "number": 9
     },
     {
@@ -138,10 +142,22 @@
       "title": "Mean curvature flows",
       "tag": "A05D84A81776",
       "topics": [
-        "smooth-mean-curvature-flow"
+        "smooth-mean-curvature-flow",
+        "convex-flow-and-shrinking-models"
       ],
-      "description": "Initial smooth formulation, area dissipation, and shrinking spheres; weak flows are planned.",
+      "description": "Smooth flow, convex contraction, shrinking models, and Gaussian area; weak-flow theory is in development.",
       "number": 14
+    },
+    {
+      "slug": "history",
+      "title": "History",
+      "topics": [
+        "origins-of-geometric-measure-theory",
+        "from-one-minimal-hypersurface-to-many"
+      ],
+      "description": "Sourced historical notes on the origins of GMT and the development of min-max theory.",
+      "number": 15,
+      "tag": "93C732F18318"
     }
   ],
   "topics": [
@@ -298,6 +314,55 @@
       "description": "",
       "number": "14.1",
       "tag": "1CA6D6DA3A2D"
+    },
+    {
+      "slug": "convex-flow-and-shrinking-models",
+      "title": "Convex flow and shrinking models",
+      "description": "",
+      "number": "14.2",
+      "tag": "B6287A1ABCC9"
+    },
+    {
+      "slug": "integral-compactness-and-mod-two-compatibility",
+      "title": "Integral compactness and mod-two compatibility",
+      "description": "",
+      "number": "6.2",
+      "tag": "0CE74FE3A047"
+    },
+    {
+      "slug": "compactness-with-bounded-area-and-index",
+      "title": "Compactness with bounded area and index",
+      "description": "",
+      "number": "7.3",
+      "tag": "605F0FF85A8C"
+    },
+    {
+      "slug": "sobolev-and-isoperimetric-inequalities",
+      "title": "Sobolev and isoperimetric inequalities",
+      "description": "",
+      "number": "7.4",
+      "tag": "9E935745FB86"
+    },
+    {
+      "slug": "bumpy-metrics-multiplicity-and-abundance",
+      "title": "Bumpy metrics, multiplicity, and abundance",
+      "description": "",
+      "number": "9.3",
+      "tag": "0D93167A032E"
+    },
+    {
+      "slug": "origins-of-geometric-measure-theory",
+      "title": "Origins of geometric measure theory",
+      "description": "",
+      "number": "15.1",
+      "tag": "33FDA03D4698"
+    },
+    {
+      "slug": "from-one-minimal-hypersurface-to-many",
+      "title": "From one minimal hypersurface to many",
+      "description": "",
+      "number": "15.2",
+      "tag": "1912BF12699D"
     }
   ],
   "entries": [
@@ -314,7 +379,7 @@
           "book": "gmt-foundations",
           "tag": "F8390A5C",
           "label": "sec:sources-conventions",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -332,7 +397,7 @@
           "book": "gmt-foundations",
           "tag": "B6BB2EC0",
           "label": "rem:source-editions",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -350,7 +415,7 @@
           "book": "gmt-foundations",
           "tag": "BA8E466F",
           "label": "rem:notation",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -368,7 +433,7 @@
           "book": "gmt-foundations",
           "tag": "6592A3B9",
           "label": "rem:project-scope",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -386,7 +451,7 @@
           "book": "gmt-foundations",
           "tag": "AD6522C4",
           "label": "sec:radon-measures",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -404,7 +469,7 @@
           "book": "gmt-foundations",
           "tag": "4720F063",
           "label": "def:radon-measure",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -422,7 +487,7 @@
           "book": "gmt-foundations",
           "tag": "5F0C390F",
           "label": "def:weak-measure",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -440,7 +505,7 @@
           "book": "gmt-foundations",
           "tag": "C9FD2516",
           "label": "thm:radon-compactness",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -458,7 +523,7 @@
           "book": "gmt-foundations",
           "tag": "509E98AA",
           "label": "prop:measure-lsc",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -476,7 +541,7 @@
           "book": "gmt-foundations",
           "tag": "61D8030E",
           "label": "sec:hausdorff-measure",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -494,7 +559,7 @@
           "book": "gmt-foundations",
           "tag": "3C6E8F29",
           "label": "def:hausdorff-measure",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -512,7 +577,7 @@
           "book": "gmt-foundations",
           "tag": "588809A3",
           "label": "prop:lipschitz-measure",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -530,7 +595,7 @@
           "book": "gmt-foundations",
           "tag": "7B8EA77A",
           "label": "def:density",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -548,7 +613,7 @@
           "book": "gmt-foundations",
           "tag": "01506B24",
           "label": "ex:plane-density",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -566,7 +631,7 @@
           "book": "gmt-foundations",
           "tag": "A598409E",
           "label": "sec:rectifiable-sets",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -584,7 +649,7 @@
           "book": "gmt-foundations",
           "tag": "9C089029",
           "label": "def:rectifiable-set",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -602,7 +667,7 @@
           "book": "gmt-foundations",
           "tag": "54612FF0",
           "label": "thm:rademacher",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -620,7 +685,7 @@
           "book": "gmt-foundations",
           "tag": "923A745A",
           "label": "def:approximate-tangent",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -638,7 +703,7 @@
           "book": "gmt-foundations",
           "tag": "592D7EC3",
           "label": "thm:rectifiable-tangents",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -656,7 +721,7 @@
           "book": "gmt-foundations",
           "tag": "84D3983B",
           "label": "sec:area-coarea",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -674,7 +739,7 @@
           "book": "gmt-foundations",
           "tag": "3F1624A4",
           "label": "def:jacobians",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -692,7 +757,7 @@
           "book": "gmt-foundations",
           "tag": "198EB5B3",
           "label": "thm:area-formula",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -710,7 +775,7 @@
           "book": "gmt-foundations",
           "tag": "557B8C3B",
           "label": "cor:graph-area",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -728,7 +793,7 @@
           "book": "gmt-foundations",
           "tag": "6412C4A4",
           "label": "thm:coarea-formula",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -746,7 +811,7 @@
           "book": "gmt-foundations",
           "tag": "E1107D6F",
           "label": "sec:finite-perimeter",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -764,7 +829,7 @@
           "book": "gmt-foundations",
           "tag": "41FF3C2E",
           "label": "def:bv",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -782,7 +847,7 @@
           "book": "gmt-foundations",
           "tag": "12895E50",
           "label": "def:finite-perimeter",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -800,7 +865,7 @@
           "book": "gmt-foundations",
           "tag": "3E809D50",
           "label": "prop:perimeter-lsc",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -818,7 +883,7 @@
           "book": "gmt-foundations",
           "tag": "A6252FDA",
           "label": "def:reduced-boundary",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -836,7 +901,7 @@
           "book": "gmt-foundations",
           "tag": "6BABFB22",
           "label": "thm:de-giorgi",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -854,7 +919,7 @@
           "book": "gmt-foundations",
           "tag": "A4DCAA13",
           "label": "ex:smooth-perimeter",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -872,7 +937,7 @@
           "book": "gmt-foundations",
           "tag": "4295C021",
           "label": "sec:currents",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -890,7 +955,7 @@
           "book": "gmt-foundations",
           "tag": "90B10D4C",
           "label": "def:current",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -908,7 +973,7 @@
           "book": "gmt-foundations",
           "tag": "AF19E76D",
           "label": "prop:boundary-current",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -926,7 +991,7 @@
           "book": "gmt-foundations",
           "tag": "9CD367F0",
           "label": "def:mass-current",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -944,7 +1009,7 @@
           "book": "gmt-foundations",
           "tag": "D093638D",
           "label": "prop:mass-lsc",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -962,7 +1027,7 @@
           "book": "gmt-foundations",
           "tag": "90A54D90",
           "label": "def:integral-current",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -980,7 +1045,7 @@
           "book": "gmt-foundations",
           "tag": "AF630ACE",
           "label": "thm:integral-compactness",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -998,7 +1063,7 @@
           "book": "gmt-foundations",
           "tag": "35A2E808",
           "label": "sec:flat-chains",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1016,7 +1081,7 @@
           "book": "gmt-foundations",
           "tag": "169D404D",
           "label": "def:polyhedral-chain",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1034,7 +1099,7 @@
           "book": "gmt-foundations",
           "tag": "6C96BC51",
           "label": "def:flat-norm",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1052,7 +1117,7 @@
           "book": "gmt-foundations",
           "tag": "4A9E5B8C",
           "label": "prop:flat-boundary",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1070,7 +1135,7 @@
           "book": "gmt-foundations",
           "tag": "75A4FEA4",
           "label": "ex:thin-rectangle",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1088,7 +1153,7 @@
           "book": "gmt-foundations",
           "tag": "4BE2EFCC",
           "label": "sec:varifolds",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1106,7 +1171,7 @@
           "book": "gmt-foundations",
           "tag": "3F5F54C4",
           "label": "def:varifold",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1124,7 +1189,7 @@
           "book": "gmt-foundations",
           "tag": "D39B8F54",
           "label": "def:rectifiable-varifold",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1142,7 +1207,7 @@
           "book": "gmt-foundations",
           "tag": "687E4FA1",
           "label": "def:first-variation",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1160,7 +1225,7 @@
           "book": "gmt-foundations",
           "tag": "F434B949",
           "label": "prop:plane-stationary",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1178,7 +1243,7 @@
           "book": "gmt-foundations",
           "tag": "E02239D4",
           "label": "thm:stationary-monotonicity",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1196,7 +1261,7 @@
           "book": "gmt-foundations",
           "tag": "73041C2A",
           "label": "sec:minimal-stability",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1214,7 +1279,7 @@
           "book": "gmt-foundations",
           "tag": "B892A771",
           "label": "def:smooth-minimal",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1232,7 +1297,7 @@
           "book": "gmt-foundations",
           "tag": "ADA163D3",
           "label": "prop:smooth-first-variation",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1250,7 +1315,7 @@
           "book": "gmt-foundations",
           "tag": "4AD8B5BF",
           "label": "thm:second-variation",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1268,7 +1333,7 @@
           "book": "gmt-foundations",
           "tag": "1B475C58",
           "label": "def:morse-index",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1286,7 +1351,7 @@
           "book": "gmt-foundations",
           "tag": "49337A84",
           "label": "cor:ricci-unstable",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1304,7 +1369,7 @@
           "book": "gmt-foundations",
           "tag": "BD4A2B38",
           "label": "sec:minimal-graphs",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1322,7 +1387,7 @@
           "book": "gmt-foundations",
           "tag": "53EE188E",
           "label": "prop:minimal-graph-pde",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1340,7 +1405,7 @@
           "book": "gmt-foundations",
           "tag": "5EFFBB9C",
           "label": "rem:regularity-program",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1358,7 +1423,7 @@
           "book": "gmt-foundations",
           "tag": "B217FE17",
           "label": "sec:minmax-cycles",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1376,7 +1441,7 @@
           "book": "gmt-foundations",
           "tag": "B311C8E7",
           "label": "def:minmax-cycles",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1394,7 +1459,7 @@
           "book": "gmt-foundations",
           "tag": "150043F6",
           "label": "def:homotopy-width",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1412,7 +1477,7 @@
           "book": "gmt-foundations",
           "tag": "9B764EAB",
           "label": "def:mass-fineness",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1430,7 +1495,7 @@
           "book": "gmt-foundations",
           "tag": "E58FC24E",
           "label": "rem:smooth-sweepouts",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1448,7 +1513,7 @@
           "book": "gmt-foundations",
           "tag": "5EB31A57",
           "label": "sec:almost-minimizing",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1466,7 +1531,7 @@
           "book": "gmt-foundations",
           "tag": "C9FFC372",
           "label": "def:almost-minimizing",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1484,7 +1549,7 @@
           "book": "gmt-foundations",
           "tag": "82C74BB3",
           "label": "thm:pitts-existence",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1502,7 +1567,7 @@
           "book": "gmt-foundations",
           "tag": "0012D4A0",
           "label": "thm:ap-realization",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1520,7 +1585,7 @@
           "book": "gmt-foundations",
           "tag": "3922FC0A",
           "label": "rem:pitts-proof-route",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1538,7 +1603,7 @@
           "book": "gmt-foundations",
           "tag": "E7B6814B",
           "label": "sec:volume-spectrum",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1556,7 +1621,7 @@
           "book": "gmt-foundations",
           "tag": "52FADBB4",
           "label": "def:no-concentration",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1574,7 +1639,7 @@
           "book": "gmt-foundations",
           "tag": "D5EBDB55",
           "label": "def:p-width",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1592,7 +1657,7 @@
           "book": "gmt-foundations",
           "tag": "0804B28B",
           "label": "lem:width-monotonicity",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1610,7 +1675,7 @@
           "book": "gmt-foundations",
           "tag": "D1B6C128",
           "label": "lem:width-scaling",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1628,7 +1693,7 @@
           "book": "gmt-foundations",
           "tag": "5D225410",
           "label": "thm:weyl-volume",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1646,7 +1711,7 @@
           "book": "gmt-foundations",
           "tag": "13DF50E4",
           "label": "sec:minmax-index",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1664,7 +1729,7 @@
           "book": "gmt-foundations",
           "tag": "77AD4764",
           "label": "def:bumpy-minimal-cycle",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1682,7 +1747,7 @@
           "book": "gmt-foundations",
           "tag": "8D5C9131",
           "label": "thm:minmax-index-equality",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1700,7 +1765,7 @@
           "book": "gmt-foundations",
           "tag": "24D05566",
           "label": "sec:willmore-catenoid",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1718,7 +1783,7 @@
           "book": "gmt-foundations",
           "tag": "40FB988E",
           "label": "def:willmore-energy",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1736,7 +1801,7 @@
           "book": "gmt-foundations",
           "tag": "BFF89772",
           "label": "thm:willmore-bound",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1754,7 +1819,7 @@
           "book": "gmt-foundations",
           "tag": "5E30228A",
           "label": "rem:catenoid-estimate",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1772,7 +1837,7 @@
           "book": "gmt-foundations",
           "tag": "70596725",
           "label": "thm:ricci-one-parameter",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1790,7 +1855,7 @@
           "book": "gmt-foundations",
           "tag": "44FE92B1",
           "label": "sec:round-sphere-widths",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1808,7 +1873,7 @@
           "book": "gmt-foundations",
           "tag": "2F0111DD",
           "label": "thm:nurser-widths",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1826,7 +1891,7 @@
           "book": "gmt-foundations",
           "tag": "E3476664",
           "label": "ex:latitude-area",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1844,7 +1909,7 @@
           "book": "gmt-foundations",
           "tag": "ABD9027B",
           "label": "sec:cmc-variation",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1862,7 +1927,7 @@
           "book": "gmt-foundations",
           "tag": "C8A14D33",
           "label": "def:cmc-functional",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1880,7 +1945,7 @@
           "book": "gmt-foundations",
           "tag": "4391378E",
           "label": "prop:cmc-first-variation",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1898,7 +1963,7 @@
           "book": "gmt-foundations",
           "tag": "B8E2AC88",
           "label": "def:almost-embedded",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1916,7 +1981,7 @@
           "book": "gmt-foundations",
           "tag": "21A1ED1F",
           "label": "thm:zhou-zhu-cmc",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1934,7 +1999,7 @@
           "book": "gmt-foundations",
           "tag": "8E1C736F",
           "label": "sec:curvature-networks",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1952,7 +2017,7 @@
           "book": "gmt-foundations",
           "tag": "4D8D0C3E",
           "label": "thm:zhou-zhu-networks",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1970,7 +2035,7 @@
           "book": "gmt-foundations",
           "tag": "7D00AC42",
           "label": "sec:allen-cahn",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -1988,7 +2053,7 @@
           "book": "gmt-foundations",
           "tag": "BCAE07D6",
           "label": "def:allen-cahn-energy",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -2006,7 +2071,7 @@
           "book": "gmt-foundations",
           "tag": "C653F9DB",
           "label": "prop:allen-cahn-variation",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -2024,7 +2089,7 @@
           "book": "gmt-foundations",
           "tag": "11F7952D",
           "label": "ex:allen-cahn-layer",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -2042,7 +2107,7 @@
           "book": "gmt-foundations",
           "tag": "38292DA5",
           "label": "rem:allen-cahn-minmax",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -2060,7 +2125,7 @@
           "book": "gmt-foundations",
           "tag": "ACB3D527",
           "label": "sec:obstacle-problems",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -2078,7 +2143,7 @@
           "book": "gmt-foundations",
           "tag": "7CC2B662",
           "label": "def:obstacle-problem",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -2096,7 +2161,7 @@
           "book": "gmt-foundations",
           "tag": "6D9A2248",
           "label": "prop:obstacle-inequality",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -2114,7 +2179,7 @@
           "book": "gmt-foundations",
           "tag": "4867E093",
           "label": "rem:obstacle-program",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -2132,7 +2197,7 @@
           "book": "gmt-foundations",
           "tag": "64D58967",
           "label": "sec:mean-curvature-flow",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -2150,7 +2215,7 @@
           "book": "gmt-foundations",
           "tag": "2D512F6A",
           "label": "def:mean-curvature-flow",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -2168,7 +2233,7 @@
           "book": "gmt-foundations",
           "tag": "8B2DB27C",
           "label": "prop:mcf-area-dissipation",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -2186,7 +2251,7 @@
           "book": "gmt-foundations",
           "tag": "DD6B68EB",
           "label": "ex:shrinking-sphere",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []
@@ -2204,7 +2269,601 @@
           "book": "gmt-foundations",
           "tag": "1FBA8379",
           "label": "rem:flow-program",
-          "revision": "sha256:c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48"
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "B6287A1ABCC9",
+      "number": "14.2",
+      "section_intro": true,
+      "title": "14.2 Convex flow and shrinking models",
+      "kind": "chapter",
+      "chapter": "mean-curvature-flow",
+      "topic": "convex-flow-and-shrinking-models",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "98ED5BBB",
+          "label": "sec:convex-flow-shrinkers",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "7CECF8A8FAC9",
+      "number": "14.2.1",
+      "section_intro": false,
+      "title": "Theorem 14.2.1 (Convex Euclidean hypersurfaces become round)",
+      "kind": "theorem",
+      "chapter": "mean-curvature-flow",
+      "topic": "convex-flow-and-shrinking-models",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "90C06472",
+          "label": "thm:huisken-convex",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "F2183BE1F075",
+      "number": "14.2.2",
+      "section_intro": false,
+      "title": "Definition 14.2.2 (Self-shrinkers)",
+      "kind": "definition",
+      "chapter": "mean-curvature-flow",
+      "topic": "convex-flow-and-shrinking-models",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "DC39B483",
+          "label": "def:self-shrinker",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "B31B3405D469",
+      "number": "14.2.3",
+      "section_intro": false,
+      "title": "Proposition 14.2.3 (Round shrinking cylinders)",
+      "kind": "proposition",
+      "chapter": "mean-curvature-flow",
+      "topic": "convex-flow-and-shrinking-models",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "A2A4CB6B",
+          "label": "prop:shrinking-cylinders",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "12DACC1AA667",
+      "number": "14.2.4",
+      "section_intro": false,
+      "title": "Proposition 14.2.4 (Gaussian area and the shrinker equation)",
+      "kind": "proposition",
+      "chapter": "mean-curvature-flow",
+      "topic": "convex-flow-and-shrinking-models",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "97EAAA5F",
+          "label": "prop:gaussian-first-variation",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "AAE9B0385275",
+      "number": "14.2.5",
+      "section_intro": false,
+      "title": "Remark 14.2.5 (The supplied generic-flow paper has a specific scope)",
+      "kind": "remark",
+      "chapter": "mean-curvature-flow",
+      "topic": "convex-flow-and-shrinking-models",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "BDEA960C",
+          "label": "rem:generic-flow-source",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "0CE74FE3A047",
+      "number": "6.2",
+      "section_intro": true,
+      "title": "6.2 Integral compactness and mod-two compatibility",
+      "kind": "chapter",
+      "chapter": "varifolds",
+      "topic": "integral-compactness-and-mod-two-compatibility",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "5BEDA498",
+          "label": "sec:integral-varifold-compactness",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "5A050AC47DEE",
+      "number": "6.2.1",
+      "section_intro": false,
+      "title": "Theorem 6.2.1 (Allard compactness for integral varifolds)",
+      "kind": "theorem",
+      "chapter": "varifolds",
+      "topic": "integral-compactness-and-mod-two-compatibility",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "78CA14B3",
+          "label": "thm:allard-compactness",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "8706AD13DA84",
+      "number": "6.2.2",
+      "section_intro": false,
+      "title": "Definition 6.2.2 (The mod-two chain of an integral varifold)",
+      "kind": "definition",
+      "chapter": "varifolds",
+      "topic": "integral-compactness-and-mod-two-compatibility",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "2E08F3D9",
+          "label": "def:varifold-mod-two",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "A428515E6D50",
+      "number": "6.2.3",
+      "section_intro": false,
+      "title": "Theorem 6.2.3 (Compatibility of varifold and mod-two limits)",
+      "kind": "theorem",
+      "chapter": "varifolds",
+      "topic": "integral-compactness-and-mod-two-compatibility",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "6E197414",
+          "label": "thm:white-mod-two",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "58C720EC2E67",
+      "number": "6.2.4",
+      "section_intro": false,
+      "title": "Example 6.2.4 (Even multiplicity is invisible modulo two)",
+      "kind": "example",
+      "chapter": "varifolds",
+      "topic": "integral-compactness-and-mod-two-compatibility",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "B1C757C7",
+          "label": "ex:even-multiplicity",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "605F0FF85A8C",
+      "number": "7.3",
+      "section_intro": true,
+      "title": "7.3 Compactness with bounded area and index",
+      "kind": "chapter",
+      "chapter": "minimal-surfaces",
+      "topic": "compactness-with-bounded-area-and-index",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "B3106026",
+          "label": "sec:bounded-index-compactness",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "3E0AAA9F69FA",
+      "number": "7.3.1",
+      "section_intro": false,
+      "title": "Lemma 7.3.1 (Disjoint unstable regions consume index)",
+      "kind": "lemma",
+      "chapter": "minimal-surfaces",
+      "topic": "compactness-with-bounded-area-and-index",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "380D60FB",
+          "label": "lem:disjoint-unstable-regions",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "780986CC98B2",
+      "number": "7.3.2",
+      "section_intro": false,
+      "title": "Theorem 7.3.2 (Sharp compactness)",
+      "kind": "theorem",
+      "chapter": "minimal-surfaces",
+      "topic": "compactness-with-bounded-area-and-index",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "5CD6F96D",
+          "label": "thm:sharp-compactness",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "EFD6BFF7085F",
+      "number": "7.3.3",
+      "section_intro": false,
+      "title": "Remark 7.3.3 (Where regularity enters)",
+      "kind": "remark",
+      "chapter": "minimal-surfaces",
+      "topic": "compactness-with-bounded-area-and-index",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "3A6968F0",
+          "label": "rem:sharp-regularity-input",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "9E935745FB86",
+      "number": "7.4",
+      "section_intro": true,
+      "title": "7.4 Sobolev and isoperimetric inequalities",
+      "kind": "chapter",
+      "chapter": "minimal-surfaces",
+      "topic": "sobolev-and-isoperimetric-inequalities",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "2F67483D",
+          "label": "sec:submanifold-inequalities",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "A63DB2A4CACB",
+      "number": "7.4.1",
+      "section_intro": false,
+      "title": "Theorem 7.4.1 (Michael–Simon inequality in the smooth case)",
+      "kind": "theorem",
+      "chapter": "minimal-surfaces",
+      "topic": "sobolev-and-isoperimetric-inequalities",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "637EDB81",
+          "label": "thm:michael-simon",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "ED2217821AC7",
+      "number": "7.4.2",
+      "section_intro": false,
+      "title": "Theorem 7.4.2 (Sharp isoperimetry in codimension at most two)",
+      "kind": "theorem",
+      "chapter": "minimal-surfaces",
+      "topic": "sobolev-and-isoperimetric-inequalities",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "9B6401CA",
+          "label": "thm:brendle-isoperimetry",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "35A87C0CF8FF",
+      "number": "7.4.3",
+      "section_intro": false,
+      "title": "Example 7.4.3 (The flat ball fixes the normalization)",
+      "kind": "example",
+      "chapter": "minimal-surfaces",
+      "topic": "sobolev-and-isoperimetric-inequalities",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "70779977",
+          "label": "ex:flat-ball-isoperimetry",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "0D93167A032E",
+      "number": "9.3",
+      "section_intro": true,
+      "title": "9.3 Bumpy metrics, multiplicity, and abundance",
+      "kind": "chapter",
+      "chapter": "volume-spectrum",
+      "topic": "bumpy-metrics-multiplicity-and-abundance",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "73068A5D",
+          "label": "sec:bumpy-multiplicity-abundance",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "3AFB2285C181",
+      "number": "9.3.1",
+      "section_intro": false,
+      "title": "Definition 9.3.1 (Bumpy metrics)",
+      "kind": "definition",
+      "chapter": "volume-spectrum",
+      "topic": "bumpy-metrics-multiplicity-and-abundance",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "9C42220F",
+          "label": "def:bumpy-metric",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "826686D45D1C",
+      "number": "9.3.2",
+      "section_intro": false,
+      "title": "Theorem 9.3.2 (Generic bumpiness)",
+      "kind": "theorem",
+      "chapter": "volume-spectrum",
+      "topic": "bumpy-metrics-multiplicity-and-abundance",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "116742F5",
+          "label": "thm:bumpy-metrics",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "0BB7ED8003DE",
+      "number": "9.3.3",
+      "section_intro": false,
+      "title": "Theorem 9.3.3 (Multiplicity-one realization of the volume spectrum)",
+      "kind": "theorem",
+      "chapter": "volume-spectrum",
+      "topic": "bumpy-metrics-multiplicity-and-abundance",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "E721562C",
+          "label": "thm:zhou-multiplicity-one",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "DD08D48E52FD",
+      "number": "9.3.4",
+      "section_intro": false,
+      "title": "Theorem 9.3.4 (Infinitely many minimal hypersurfaces)",
+      "kind": "theorem",
+      "chapter": "volume-spectrum",
+      "topic": "bumpy-metrics-multiplicity-and-abundance",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "144D1513",
+          "label": "thm:song-infinitely-many",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "5DAA3668FA8E",
+      "number": "9.3.5",
+      "section_intro": false,
+      "title": "Theorem 9.3.5 (Equidistribution for generic metrics)",
+      "kind": "theorem",
+      "chapter": "volume-spectrum",
+      "topic": "bumpy-metrics-multiplicity-and-abundance",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "6A99510D",
+          "label": "thm:generic-equidistribution",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "33FDA03D4698",
+      "number": "15.1",
+      "section_intro": true,
+      "title": "15.1 Origins of geometric measure theory",
+      "kind": "chapter",
+      "chapter": "history",
+      "topic": "origins-of-geometric-measure-theory",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "3F8AB395",
+          "label": "sec:history-origins",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "9EF132811524",
+      "number": "15.1.1",
+      "section_intro": false,
+      "title": "Remark 15.1.1 (1958–1960: compactness as a design principle)",
+      "kind": "remark",
+      "chapter": "history",
+      "topic": "origins-of-geometric-measure-theory",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "DF17334B",
+          "label": "hist:integral-currents",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "E409AB8EC052",
+      "number": "15.1.2",
+      "section_intro": false,
+      "title": "Remark 15.1.2 (De Giorgi's boundary without smoothness)",
+      "kind": "remark",
+      "chapter": "history",
+      "topic": "origins-of-geometric-measure-theory",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "B7CC90C8",
+          "label": "hist:de-giorgi",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "AE10C8E9DF1A",
+      "number": "15.1.3",
+      "section_intro": false,
+      "title": "Remark 15.1.3 (1969: a dimension threshold that surprised analysts)",
+      "kind": "remark",
+      "chapter": "history",
+      "topic": "origins-of-geometric-measure-theory",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "1F950D86",
+          "label": "hist:bernstein",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "A7B67D7E0642",
+      "number": "15.1.4",
+      "section_intro": false,
+      "title": "Remark 15.1.4 (Different notions of a generalized surface)",
+      "kind": "remark",
+      "chapter": "history",
+      "topic": "origins-of-geometric-measure-theory",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "64DFA463",
+          "label": "hist:generalized-surfaces",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "1912BF12699D",
+      "number": "15.2",
+      "section_intro": true,
+      "title": "15.2 From one minimal hypersurface to many",
+      "kind": "chapter",
+      "chapter": "history",
+      "topic": "from-one-minimal-hypersurface-to-many",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "E09D06EC",
+          "label": "sec:history-minmax",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "035643999D57",
+      "number": "15.2.1",
+      "section_intro": false,
+      "title": "Remark 15.2.1 (Existence, regularity, and the meaning of dimension)",
+      "kind": "remark",
+      "chapter": "history",
+      "topic": "from-one-minimal-hypersurface-to-many",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "37442EC1",
+          "label": "hist:pitts-dimensions",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
+        }
+      ],
+      "components": []
+    },
+    {
+      "tag": "C5CCD5D00E73",
+      "number": "15.2.2",
+      "section_intro": false,
+      "title": "Remark 15.2.2 (The volume spectrum and a sequence of geometric questions)",
+      "kind": "remark",
+      "chapter": "history",
+      "topic": "from-one-minimal-hypersurface-to-many",
+      "sources": [
+        {
+          "book": "gmt-foundations",
+          "tag": "726DA910",
+          "label": "hist:volume-spectrum",
+          "revision": "sha256:f626599b7bd60975e5e93c86f69e2d324a6129e75ebf84d9eeb51c308d2d7d44"
         }
       ],
       "components": []

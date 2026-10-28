@@ -952,5 +952,302 @@
     "page": "tag/1FBA8379/index.html",
     "canonical_tag": "D1D70B3B2945",
     "anchor": ""
+  },
+  {
+    "tag": "98ED5BBB",
+    "label": "sec:convex-flow-shrinkers",
+    "title": "23 Convex flow and shrinking models",
+    "kind": "chapter",
+    "page": "tag/98ED5BBB/index.html",
+    "canonical_tag": "B6287A1ABCC9",
+    "anchor": ""
+  },
+  {
+    "tag": "90C06472",
+    "label": "thm:huisken-convex",
+    "title": "Theorem 23.1 (Convex Euclidean hypersurfaces become round)",
+    "kind": "theorem",
+    "page": "tag/90C06472/index.html",
+    "canonical_tag": "7CECF8A8FAC9",
+    "anchor": ""
+  },
+  {
+    "tag": "DC39B483",
+    "label": "def:self-shrinker",
+    "title": "Definition 23.2 (Self-shrinkers)",
+    "kind": "definition",
+    "page": "tag/DC39B483/index.html",
+    "canonical_tag": "F2183BE1F075",
+    "anchor": ""
+  },
+  {
+    "tag": "A2A4CB6B",
+    "label": "prop:shrinking-cylinders",
+    "title": "Proposition 23.3 (Round shrinking cylinders)",
+    "kind": "proposition",
+    "page": "tag/A2A4CB6B/index.html",
+    "canonical_tag": "B31B3405D469",
+    "anchor": ""
+  },
+  {
+    "tag": "97EAAA5F",
+    "label": "prop:gaussian-first-variation",
+    "title": "Proposition 23.4 (Gaussian area and the shrinker equation)",
+    "kind": "proposition",
+    "page": "tag/97EAAA5F/index.html",
+    "canonical_tag": "12DACC1AA667",
+    "anchor": ""
+  },
+  {
+    "tag": "BDEA960C",
+    "label": "rem:generic-flow-source",
+    "title": "Remark 23.5 (The supplied generic-flow paper has a specific scope)",
+    "kind": "remark",
+    "page": "tag/BDEA960C/index.html",
+    "canonical_tag": "AAE9B0385275",
+    "anchor": ""
+  },
+  {
+    "tag": "5BEDA498",
+    "label": "sec:integral-varifold-compactness",
+    "title": "24 Integral compactness and mod-two compatibility",
+    "kind": "chapter",
+    "page": "tag/5BEDA498/index.html",
+    "canonical_tag": "0CE74FE3A047",
+    "anchor": ""
+  },
+  {
+    "tag": "78CA14B3",
+    "label": "thm:allard-compactness",
+    "title": "Theorem 24.1 (Allard compactness for integral varifolds)",
+    "kind": "theorem",
+    "page": "tag/78CA14B3/index.html",
+    "canonical_tag": "5A050AC47DEE",
+    "anchor": ""
+  },
+  {
+    "tag": "2E08F3D9",
+    "label": "def:varifold-mod-two",
+    "title": "Definition 24.2 (The mod-two chain of an integral varifold)",
+    "kind": "definition",
+    "page": "tag/2E08F3D9/index.html",
+    "canonical_tag": "8706AD13DA84",
+    "anchor": ""
+  },
+  {
+    "tag": "6E197414",
+    "label": "thm:white-mod-two",
+    "title": "Theorem 24.3 (Compatibility of varifold and mod-two limits)",
+    "kind": "theorem",
+    "page": "tag/6E197414/index.html",
+    "canonical_tag": "A428515E6D50",
+    "anchor": ""
+  },
+  {
+    "tag": "B1C757C7",
+    "label": "ex:even-multiplicity",
+    "title": "Example 24.4 (Even multiplicity is invisible modulo two)",
+    "kind": "example",
+    "page": "tag/B1C757C7/index.html",
+    "canonical_tag": "58C720EC2E67",
+    "anchor": ""
+  },
+  {
+    "tag": "B3106026",
+    "label": "sec:bounded-index-compactness",
+    "title": "25 Compactness with bounded area and index",
+    "kind": "chapter",
+    "page": "tag/B3106026/index.html",
+    "canonical_tag": "605F0FF85A8C",
+    "anchor": ""
+  },
+  {
+    "tag": "380D60FB",
+    "label": "lem:disjoint-unstable-regions",
+    "title": "Lemma 25.1 (Disjoint unstable regions consume index)",
+    "kind": "lemma",
+    "page": "tag/380D60FB/index.html",
+    "canonical_tag": "3E0AAA9F69FA",
+    "anchor": ""
+  },
+  {
+    "tag": "5CD6F96D",
+    "label": "thm:sharp-compactness",
+    "title": "Theorem 25.2 (Sharp compactness)",
+    "kind": "theorem",
+    "page": "tag/5CD6F96D/index.html",
+    "canonical_tag": "780986CC98B2",
+    "anchor": ""
+  },
+  {
+    "tag": "3A6968F0",
+    "label": "rem:sharp-regularity-input",
+    "title": "Remark 25.3 (Where regularity enters)",
+    "kind": "remark",
+    "page": "tag/3A6968F0/index.html",
+    "canonical_tag": "EFD6BFF7085F",
+    "anchor": ""
+  },
+  {
+    "tag": "2F67483D",
+    "label": "sec:submanifold-inequalities",
+    "title": "26 Sobolev and isoperimetric inequalities",
+    "kind": "chapter",
+    "page": "tag/2F67483D/index.html",
+    "canonical_tag": "9E935745FB86",
+    "anchor": ""
+  },
+  {
+    "tag": "637EDB81",
+    "label": "thm:michael-simon",
+    "title": "Theorem 26.1 (Michael\u2013Simon inequality in the smooth case)",
+    "kind": "theorem",
+    "page": "tag/637EDB81/index.html",
+    "canonical_tag": "A63DB2A4CACB",
+    "anchor": ""
+  },
+  {
+    "tag": "9B6401CA",
+    "label": "thm:brendle-isoperimetry",
+    "title": "Theorem 26.2 (Sharp isoperimetry in codimension at most two)",
+    "kind": "theorem",
+    "page": "tag/9B6401CA/index.html",
+    "canonical_tag": "ED2217821AC7",
+    "anchor": ""
+  },
+  {
+    "tag": "70779977",
+    "label": "ex:flat-ball-isoperimetry",
+    "title": "Example 26.3 (The flat ball fixes the normalization)",
+    "kind": "example",
+    "page": "tag/70779977/index.html",
+    "canonical_tag": "35A87C0CF8FF",
+    "anchor": ""
+  },
+  {
+    "tag": "73068A5D",
+    "label": "sec:bumpy-multiplicity-abundance",
+    "title": "27 Bumpy metrics, multiplicity, and abundance",
+    "kind": "chapter",
+    "page": "tag/73068A5D/index.html",
+    "canonical_tag": "0D93167A032E",
+    "anchor": ""
+  },
+  {
+    "tag": "9C42220F",
+    "label": "def:bumpy-metric",
+    "title": "Definition 27.1 (Bumpy metrics)",
+    "kind": "definition",
+    "page": "tag/9C42220F/index.html",
+    "canonical_tag": "3AFB2285C181",
+    "anchor": ""
+  },
+  {
+    "tag": "116742F5",
+    "label": "thm:bumpy-metrics",
+    "title": "Theorem 27.2 (Generic bumpiness)",
+    "kind": "theorem",
+    "page": "tag/116742F5/index.html",
+    "canonical_tag": "826686D45D1C",
+    "anchor": ""
+  },
+  {
+    "tag": "E721562C",
+    "label": "thm:zhou-multiplicity-one",
+    "title": "Theorem 27.3 (Multiplicity-one realization of the volume spectrum)",
+    "kind": "theorem",
+    "page": "tag/E721562C/index.html",
+    "canonical_tag": "0BB7ED8003DE",
+    "anchor": ""
+  },
+  {
+    "tag": "144D1513",
+    "label": "thm:song-infinitely-many",
+    "title": "Theorem 27.4 (Infinitely many minimal hypersurfaces)",
+    "kind": "theorem",
+    "page": "tag/144D1513/index.html",
+    "canonical_tag": "DD08D48E52FD",
+    "anchor": ""
+  },
+  {
+    "tag": "6A99510D",
+    "label": "thm:generic-equidistribution",
+    "title": "Theorem 27.5 (Equidistribution for generic metrics)",
+    "kind": "theorem",
+    "page": "tag/6A99510D/index.html",
+    "canonical_tag": "5DAA3668FA8E",
+    "anchor": ""
+  },
+  {
+    "tag": "3F8AB395",
+    "label": "sec:history-origins",
+    "title": "28 Origins of geometric measure theory",
+    "kind": "chapter",
+    "page": "tag/3F8AB395/index.html",
+    "canonical_tag": "33FDA03D4698",
+    "anchor": ""
+  },
+  {
+    "tag": "DF17334B",
+    "label": "hist:integral-currents",
+    "title": "Remark 28.1 (1958\u20131960: compactness as a design principle)",
+    "kind": "remark",
+    "page": "tag/DF17334B/index.html",
+    "canonical_tag": "9EF132811524",
+    "anchor": ""
+  },
+  {
+    "tag": "B7CC90C8",
+    "label": "hist:de-giorgi",
+    "title": "Remark 28.2 (De Giorgi's boundary without smoothness)",
+    "kind": "remark",
+    "page": "tag/B7CC90C8/index.html",
+    "canonical_tag": "E409AB8EC052",
+    "anchor": ""
+  },
+  {
+    "tag": "1F950D86",
+    "label": "hist:bernstein",
+    "title": "Remark 28.3 (1969: a dimension threshold that surprised analysts)",
+    "kind": "remark",
+    "page": "tag/1F950D86/index.html",
+    "canonical_tag": "AE10C8E9DF1A",
+    "anchor": ""
+  },
+  {
+    "tag": "64DFA463",
+    "label": "hist:generalized-surfaces",
+    "title": "Remark 28.4 (Different notions of a generalized surface)",
+    "kind": "remark",
+    "page": "tag/64DFA463/index.html",
+    "canonical_tag": "A7B67D7E0642",
+    "anchor": ""
+  },
+  {
+    "tag": "E09D06EC",
+    "label": "sec:history-minmax",
+    "title": "29 From one minimal hypersurface to many",
+    "kind": "chapter",
+    "page": "tag/E09D06EC/index.html",
+    "canonical_tag": "1912BF12699D",
+    "anchor": ""
+  },
+  {
+    "tag": "37442EC1",
+    "label": "hist:pitts-dimensions",
+    "title": "Remark 29.1 (Existence, regularity, and the meaning of dimension)",
+    "kind": "remark",
+    "page": "tag/37442EC1/index.html",
+    "canonical_tag": "035643999D57",
+    "anchor": ""
+  },
+  {
+    "tag": "726DA910",
+    "label": "hist:volume-spectrum",
+    "title": "Remark 29.2 (The volume spectrum and a sequence of geometric questions)",
+    "kind": "remark",
+    "page": "tag/726DA910/index.html",
+    "canonical_tag": "C5CCD5D00E73",
+    "anchor": ""
   }
 ]
