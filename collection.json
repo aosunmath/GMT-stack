@@ -36,9 +36,10 @@
         "finite-perimeter-and-reduced-boundary",
         "bv-approximation-and-compactness",
         "perimeter-blow-ups-and-the-direct-method",
-        "bv-coarea-and-level-set-calculus"
+        "bv-coarea-and-level-set-calculus",
+        "subcalibrations-and-minimizing-simons-cones"
       ],
-      "description": "Distributional perimeter, reduced-boundary structure, BV approximation, compactness, coarea and level-set calculus, and variational existence."
+      "description": "Distributional perimeter, reduced boundary, BV approximation, compactness, coarea, level sets, variational existence, subcalibrations, and minimizing Simons cones."
     },
     {
       "slug": "currents-flat-chains",
@@ -48,9 +49,11 @@
         "currents-and-compactness",
         "polyhedral-and-flat-chains",
         "operations-on-currents",
-        "slicing-and-the-plateau-direct-method"
+        "slicing-and-the-plateau-direct-method",
+        "calibrated-currents-and-mass-comparison",
+        "complex-curves-and-singular-calibrated-minimizers"
       ],
-      "description": "Mass, compactness, flat chains, pushforwards, homotopies, cones, slicing, and the integral Plateau direct method."
+      "description": "Mass, compactness, flat chains, pushforwards, homotopies, slicing, Plateau existence, calibrated currents, and singular complex-curve minimizers."
     },
     {
       "slug": "varifolds",

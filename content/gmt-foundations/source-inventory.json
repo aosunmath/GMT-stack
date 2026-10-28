@@ -137,7 +137,8 @@
         "Lemma 0.7 and proof, pp. 8--9: smooth-support constancy; coordinate volume factor made explicit locally",
         "Lemmas 1.1--1.2 and proofs, pp. 11--12: continuity-radius limit and rectifiable conical structure",
         "Lemma 1.5 and proof, pp. 13--15; ray balance and cone examples, pp. 15--16; flat singular points, p. 20",
-        "Theorem 1.7 and proof, pp. 17--19 and 22--24: density concentration, countable decomposition, and covering refinement"
+        "Theorem 1.7 and proof, pp. 17--19 and 22--24: density concentration, countable decomposition, and covering refinement",
+        "Complex cusp example, p. 20: locally calibrated singular surface; explicit density and tangent calculated in the project"
       ]
     },
     {
@@ -296,7 +297,9 @@
         "Corollary 18.2, p. 51: area growth of entire minimal graphs",
         "Section 24, pp. 61--62: traced Gauss equation and stable surfaces; closed orientable formulation used, with R_Sigma = 2K",
         "Section 25, pp. 62--64: logarithmic cutoff proof of Bernstein; squared-gradient estimate checked directly",
-        "Proposition 26.1 and Lemma 26.5--Corollary 26.6, pp. 64--68: spectral cone criterion and Simons dimension restriction, with smooth links and nonflatness made explicit"
+        "Proposition 26.1 and Lemma 26.5--Corollary 26.6, pp. 64--68: spectral cone criterion and Simons dimension restriction, with smooth links and nonflatness made explicit",
+        "Section 16, Definition 16.1, Theorem 16.2 and Example 16.5, p. 46: calibration and complex curves",
+        "Section 17, Theorem 17.1 and Exercise 17.1, pp. 48--50: subcalibration, signed divergence, and vertex cutoff; p. 49 visually checked"
       ]
     },
     {

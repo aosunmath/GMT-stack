@@ -1554,7 +1554,9 @@
       "citations": [
         "ChMin"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "thm:calibrated-current-minimizes"
+      ],
       "formal_verification": "none"
     },
     {
@@ -3557,7 +3559,8 @@
         "ChMin"
       ],
       "dependencies": [
-        "prop:cone-spectral-stability"
+        "prop:cone-spectral-stability",
+        "thm:simons-cone-minimizing"
       ],
       "formal_verification": "none"
     },
@@ -5672,6 +5675,317 @@
       "status": "proof-included",
       "citations": [],
       "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:calibrated-current",
+      "title": "A current calibrated by a form",
+      "kind": "definition",
+      "file": "calibrated-currents.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "def:calibration"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:calibration-defect",
+      "title": "The calibration defect and equality condition",
+      "kind": "lemma",
+      "file": "calibrated-currents.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:integral-current"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:calibrated-current-minimizes",
+      "title": "Calibrated currents minimize in their compact homology class",
+      "kind": "theorem",
+      "file": "calibrated-currents.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "lem:calibration-defect"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:calibrated-euclidean-boundary",
+      "title": "Fixed-boundary minimization in Euclidean space",
+      "kind": "corollary",
+      "file": "calibrated-currents.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:current-cone-bound",
+        "thm:calibrated-current-minimizes"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:calibrated-weak-limits",
+      "title": "Weak limits of calibrated currents retain mass",
+      "kind": "proposition",
+      "file": "calibrated-currents.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:integral-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:calibrated-current-stationary",
+      "title": "Stationarity away from the boundary of a calibrated current",
+      "kind": "proposition",
+      "file": "calibrated-currents.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:current-homotopy",
+        "thm:calibrated-current-minimizes"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:calibration-homology-condition",
+      "title": "Why the homology condition matters",
+      "kind": "example",
+      "file": "calibrated-currents.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:calibrated-euclidean-boundary"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:complex-two-form",
+      "title": "The Euclidean complex two-form has comass one",
+      "kind": "lemma",
+      "file": "calibrated-curves.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:holomorphic-area-identity",
+      "title": "Area and orientation of a holomorphic parametrization",
+      "kind": "proposition",
+      "file": "calibrated-curves.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:complex-two-form"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:holomorphic-current-minimizer",
+      "title": "Holomorphic disks give calibrated integral currents",
+      "kind": "proposition",
+      "file": "calibrated-curves.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:calibrated-euclidean-boundary",
+        "prop:holomorphic-area-identity",
+        "thm:lipschitz-current-pushforward"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:complex-cusp-current",
+      "title": "The complex cusp as an integral minimizer",
+      "kind": "example",
+      "file": "calibrated-curves.tex",
+      "status": "proof-included",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [
+        "prop:holomorphic-area-identity",
+        "prop:holomorphic-current-minimizer"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cusp-density",
+      "title": "Exact density of the calibrated cusp",
+      "kind": "proposition",
+      "file": "calibrated-curves.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:complex-cusp-current"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cusp-tangent",
+      "title": "The cusp has a unique double-plane tangent",
+      "kind": "proposition",
+      "file": "calibrated-curves.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:cusp-flat-singular",
+      "title": "A singular calibrated surface with a flat tangent",
+      "kind": "corollary",
+      "file": "calibrated-curves.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:flat-singular-point",
+        "prop:calibrated-current-stationary",
+        "prop:cusp-density",
+        "prop:cusp-tangent"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:perimeter-perturbation-locality",
+      "title": "Locality of perimeter under compact perturbations",
+      "kind": "lemma",
+      "file": "subcalibrations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:singular-field-flux",
+      "title": "Removing one singular point from a flux identity",
+      "kind": "lemma",
+      "file": "subcalibrations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:de-giorgi"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:signed-subcalibration",
+      "title": "A signed subcalibration for a perimeter set",
+      "kind": "definition",
+      "file": "subcalibrations.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "lem:singular-field-flux"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:subcalibration-gap",
+      "title": "The exact perimeter-gap identity",
+      "kind": "proposition",
+      "file": "subcalibrations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:perimeter-perturbation-locality",
+        "lem:singular-field-flux"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:subcalibration-minimizes",
+      "title": "Perimeter minimality and strictness from a subcalibration",
+      "kind": "corollary",
+      "file": "subcalibrations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:subcalibration-gap"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:simons-cone-perimeter",
+      "title": "Perimeter and normal of the equal-factor cone",
+      "kind": "proposition",
+      "file": "subcalibrations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:cone-geometry"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:simons-subcalibration-divergence",
+      "title": "The Simons subcalibration and its divergence",
+      "kind": "proposition",
+      "file": "subcalibrations.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "prop:simons-cone-perimeter"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:simons-cone-minimizing",
+      "title": "Strict perimeter minimization by the equal-factor Simons cone",
+      "kind": "theorem",
+      "file": "subcalibrations.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "cor:subcalibration-minimizes",
+        "lem:singular-field-flux",
+        "prop:simons-cone-perimeter",
+        "prop:simons-subcalibration-divergence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:simons-eight-dimensional-example",
+      "title": "A singular perimeter minimizer in ambient dimension eight",
+      "kind": "corollary",
+      "file": "subcalibrations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:simons-cone-perimeter",
+        "thm:simons-cone-minimizing"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:simons-minimizer-stationary",
+      "title": "Stationarity and punctured stability of the minimizing cone",
+      "kind": "corollary",
+      "file": "subcalibrations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:cone-punctured-stability",
+        "ex:clifford-cone-stability",
+        "thm:simons-cone-minimizing"
+      ],
       "formal_verification": "none"
     }
   ],
