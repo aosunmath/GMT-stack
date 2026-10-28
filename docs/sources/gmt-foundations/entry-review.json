@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stage": "Source comparison and mathematical drafting, including expanded regularity statements and local proofs; no independent human review recorded.",
+  "stage": "Source comparison and original mathematical exposition, including local elliptic and flow proofs; no independent human review recorded.",
   "entries": [
     {
       "label": "def:allen-cahn-energy",
@@ -283,7 +283,14 @@
       "file": "mean-curvature-flow.tex",
       "status": "editorial",
       "citations": [],
-      "dependencies": [],
+      "dependencies": [
+        "def:integral-brakke-flow",
+        "ex:brakke-density-one-drop",
+        "prop:mcf-avoidance",
+        "thm:brakke-compactness",
+        "thm:huisken-monotonicity",
+        "thm:mcf-existence-continuation"
+      ],
       "formal_verification": "none"
     },
     {
@@ -1143,6 +1150,9 @@
         "CCMS20"
       ],
       "dependencies": [
+        "def:integral-brakke-flow",
+        "def:mcf-entropy",
+        "def:unit-regular-brakke",
         "thm:white-mod-two"
       ],
       "formal_verification": "none"
@@ -1956,6 +1966,780 @@
         "def:varifold-regular-singular"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "def:mcf-scalar-second-form",
+      "title": "Scalar second fundamental form",
+      "kind": "definition",
+      "file": "mcf-evolution.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "HP99"
+      ],
+      "dependencies": [
+        "def:smooth-minimal"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:normal-variation-formulas",
+      "title": "Euclidean normal-variation formulas",
+      "kind": "proposition",
+      "file": "mcf-evolution.tex",
+      "status": "proof-included",
+      "citations": [
+        "HP99"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:euclidean-simons",
+      "title": "Euclidean Simons identity",
+      "kind": "theorem",
+      "file": "mcf-evolution.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "HP99"
+      ],
+      "dependencies": [
+        "def:mcf-scalar-second-form"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-curvature-evolution",
+      "title": "Curvature evolution under mean curvature flow",
+      "kind": "proposition",
+      "file": "mcf-evolution.tex",
+      "status": "proof-included",
+      "citations": [
+        "HP99",
+        "Hui90"
+      ],
+      "dependencies": [
+        "prop:normal-variation-formulas",
+        "thm:euclidean-simons"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:mcf-mean-convexity",
+      "title": "Preservation of nonnegative mean curvature",
+      "kind": "corollary",
+      "file": "mcf-evolution.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hui90"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-position-heat",
+      "title": "Position and squared-distance equations",
+      "kind": "proposition",
+      "file": "mcf-evolution.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hui90"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:mcf-confinement",
+      "title": "Confinement and finite lifetime",
+      "kind": "corollary",
+      "file": "mcf-evolution.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:mcf-position-heat"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-avoidance",
+      "title": "Avoidance for two closed hypersurface flows",
+      "kind": "proposition",
+      "file": "mcf-evolution.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:mcf-existence-continuation",
+      "title": "Short-time existence and the curvature continuation criterion",
+      "kind": "theorem",
+      "file": "mcf-evolution.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "HP99",
+        "Hui90"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-curvature-rate",
+      "title": "Curvature ODE bound and a lower singularity rate",
+      "kind": "proposition",
+      "file": "mcf-evolution.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hui90"
+      ],
+      "dependencies": [
+        "prop:mcf-curvature-evolution",
+        "thm:mcf-existence-continuation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:mcf-singularity-types",
+      "title": "Type I and Type II finite-time singularities",
+      "kind": "definition",
+      "file": "mcf-evolution.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "HP99",
+        "Hui90"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-parabolic-rescaling",
+      "title": "Parabolic rescaling",
+      "kind": "proposition",
+      "file": "mcf-evolution.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:graphical-mcf",
+      "title": "The graphical mean curvature equation",
+      "kind": "proposition",
+      "file": "mcf-evolution.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [
+        "prop:graph-ellipticity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:graphical-mcf-comparison",
+      "title": "Comparison for graphical flows",
+      "kind": "proposition",
+      "file": "mcf-evolution.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [
+        "prop:graphical-mcf"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-test-transport",
+      "title": "Transport of a test function along a closed flow",
+      "kind": "proposition",
+      "file": "mcf-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [
+        "prop:normal-variation-formulas"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:mcf-backward-gaussian",
+      "title": "Backward Gaussian kernel",
+      "kind": "definition",
+      "file": "mcf-monotonicity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Hui90"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:huisken-monotonicity",
+      "title": "Huisken's monotonicity identity for closed smooth flows",
+      "kind": "theorem",
+      "file": "mcf-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hui90"
+      ],
+      "dependencies": [
+        "prop:mcf-test-transport"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:mcf-gaussian-density-limit",
+      "title": "Gaussian density at an endpoint",
+      "kind": "corollary",
+      "file": "mcf-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [
+        "thm:huisken-monotonicity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-regular-density",
+      "title": "Gaussian density at a smooth embedded point",
+      "kind": "proposition",
+      "file": "mcf-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:mcf-entropy",
+      "title": "Gaussian area at arbitrary center and scale, and entropy",
+      "kind": "definition",
+      "file": "mcf-monotonicity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "CCMS20",
+        "WhiMCF15"
+      ],
+      "dependencies": [
+        "prop:gaussian-first-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-entropy-invariance",
+      "title": "Entropy is invariant under translations and dilations",
+      "kind": "proposition",
+      "file": "mcf-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:varifold-dilation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-entropy-monotone",
+      "title": "Entropy is nonincreasing along a closed smooth flow",
+      "kind": "proposition",
+      "file": "mcf-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [
+        "thm:huisken-monotonicity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-entropy-area-growth",
+      "title": "Entropy and uniform Euclidean area growth",
+      "kind": "proposition",
+      "file": "mcf-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:mcf-plane-entropy",
+      "title": "A plane records its multiplicity in entropy",
+      "kind": "example",
+      "file": "mcf-monotonicity.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [
+        "ex:multiple-plane-excess"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-log-rescaling",
+      "title": "Logarithmic rescaling at a finite time",
+      "kind": "proposition",
+      "file": "mcf-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hui90"
+      ],
+      "dependencies": [
+        "prop:mcf-parabolic-rescaling"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-rescaled-dissipation",
+      "title": "Gaussian area dissipates along rescaled flow",
+      "kind": "proposition",
+      "file": "mcf-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hui90"
+      ],
+      "dependencies": [
+        "prop:gaussian-first-variation",
+        "prop:mcf-log-rescaling"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:mcf-small-dissipation-times",
+      "title": "Times with small Gaussian dissipation",
+      "kind": "corollary",
+      "file": "mcf-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [
+        "prop:mcf-rescaled-dissipation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-monotonicity-equality",
+      "title": "Equality in monotonicity gives self-similar motion",
+      "kind": "proposition",
+      "file": "mcf-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:mcf-log-rescaling",
+        "thm:huisken-monotonicity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:mcf-other-solitons",
+      "title": "Translators and self-expanders",
+      "kind": "definition",
+      "file": "mcf-monotonicity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "HP99",
+        "WhiMCF15"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:mcf-grim-reaper",
+      "title": "The grim reaper and its cylindrical products",
+      "kind": "example",
+      "file": "mcf-monotonicity.tex",
+      "status": "worked-example",
+      "citations": [
+        "HP99"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:integral-brakke-flow",
+      "title": "Integral Brakke flow without boundary",
+      "kind": "definition",
+      "file": "brakke-flow.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:smooth-to-brakke",
+      "title": "A smooth closed flow is a Brakke flow",
+      "kind": "proposition",
+      "file": "brakke-flow.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:integral-brakke-flow",
+        "prop:mcf-test-transport"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:brakke-disappearing-plane",
+      "title": "A plane that suddenly disappears",
+      "kind": "example",
+      "file": "brakke-flow.tex",
+      "status": "worked-example",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:brakke-shrinking-cutoff",
+      "title": "A shrinking spatial cutoff",
+      "kind": "proposition",
+      "file": "brakke-flow.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:brakke-local-energy",
+      "title": "Local curvature energy from the Brakke inequality",
+      "kind": "proposition",
+      "file": "brakke-flow.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:brakke-time-semicontinuity",
+      "title": "One-sided limits of localized mass",
+      "kind": "proposition",
+      "file": "brakke-flow.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:brakke-convergence",
+      "title": "Convergence of integral Brakke flows",
+      "kind": "definition",
+      "file": "brakke-flow.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "CCMS20"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:brakke-compactness",
+      "title": "Compactness of integral Brakke flows",
+      "kind": "theorem",
+      "file": "brakke-flow.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "CCMS20",
+        "WhiMCF15"
+      ],
+      "dependencies": [
+        "def:brakke-convergence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:brakke-gaussian-monotonicity",
+      "title": "Gaussian monotonicity for Brakke flows",
+      "kind": "theorem",
+      "file": "brakke-flow.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "CCMS20",
+        "WhiMCF15"
+      ],
+      "dependencies": [
+        "cor:mcf-gaussian-density-limit",
+        "prop:mcf-entropy-area-growth"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:unit-regular-brakke",
+      "title": "Unit-regular Brakke flows",
+      "kind": "definition",
+      "file": "brakke-flow.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "CCMS20"
+      ],
+      "dependencies": [
+        "def:integral-brakke-flow"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:brakke-density-one-drop",
+      "title": "Density one does not prevent a mass drop",
+      "kind": "example",
+      "file": "brakke-flow.tex",
+      "status": "worked-example",
+      "citations": [
+        "WhiMCF15"
+      ],
+      "dependencies": [
+        "ex:brakke-disappearing-plane"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:cyclic-brakke",
+      "title": "Cyclic integral Brakke flows",
+      "kind": "definition",
+      "file": "brakke-flow.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "CCMS20",
+        "White09"
+      ],
+      "dependencies": [
+        "def:varifold-mod-two"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:bv-lsc",
+      "title": "Lower semicontinuity of total variation",
+      "kind": "proposition",
+      "file": "bv-compactness.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:perimeter-lsc"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:bv-cutoff-product",
+      "title": "Multiplication by a smooth cutoff",
+      "kind": "proposition",
+      "file": "bv-compactness.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:bv-mollification",
+      "title": "Mollification and the variation bound",
+      "kind": "lemma",
+      "file": "bv-compactness.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:bv-strict-convergence",
+      "title": "Strict convergence in BV",
+      "kind": "definition",
+      "file": "bv-compactness.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:bv-strict-mollification",
+      "title": "Global mollification is strict approximation",
+      "kind": "corollary",
+      "file": "bv-compactness.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:bv-mollification",
+        "prop:bv-lsc"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:bv-translations",
+      "title": "Translation estimate for BV functions",
+      "kind": "proposition",
+      "file": "bv-compactness.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:bv-mollification"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:bv-local-compactness",
+      "title": "Local compactness of BV functions",
+      "kind": "theorem",
+      "file": "bv-compactness.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:bv-cutoff-product",
+        "prop:bv-lsc",
+        "prop:bv-translations"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:perimeter-compactness",
+      "title": "Compactness of finite-perimeter sets",
+      "kind": "corollary",
+      "file": "bv-compactness.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:perimeter-lsc",
+        "thm:bv-local-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:bv-derivative-convergence",
+      "title": "Weak convergence of the derivative measures",
+      "kind": "proposition",
+      "file": "bv-compactness.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:bv-constants",
+      "title": "Variation control without function control is insufficient",
+      "kind": "example",
+      "file": "bv-compactness.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [
+        "cor:perimeter-compactness",
+        "thm:bv-local-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:bv-strict-not-norm",
+      "title": "Strict convergence need not be BV-norm convergence",
+      "kind": "example",
+      "file": "bv-compactness.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [
+        "cor:bv-strict-mollification"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:measure-theoretic-boundary",
+      "title": "Measure-theoretic interior and exterior",
+      "kind": "definition",
+      "file": "bv-compactness.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:perimeter-halfspace-blowup",
+      "title": "Half-space blow-up at a reduced-boundary point",
+      "kind": "theorem",
+      "file": "bv-compactness.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:null-modification-boundary",
+      "title": "A null modification can change the whole topological boundary",
+      "kind": "example",
+      "file": "bv-compactness.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:perimeter-volume-existence",
+      "title": "Existence with a fixed volume in a compact container",
+      "kind": "proposition",
+      "file": "bv-compactness.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:perimeter-compactness",
+        "prop:perimeter-lsc"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:perimeter-bulk-existence",
+      "title": "A local direct method with a bulk term",
+      "kind": "proposition",
+      "file": "bv-compactness.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:perimeter-compactness",
+        "def:cmc-functional"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:perimeter-bulk-euler",
+      "title": "The Euler equation on a smooth minimizing interface",
+      "kind": "proposition",
+      "file": "bv-compactness.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:cmc-first-variation",
+        "prop:perimeter-bulk-existence"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -1996,17 +2780,21 @@
     "Conical structure of tangent varifolds and spine splitting",
     "Qualitative dimension reduction for singular strata",
     "Allard Lp mean-curvature regularity and the stationary density gap",
-    "Positive Jacobi fields from ordered minimal normal graphs"
+    "Positive Jacobi fields from ordered minimal normal graphs",
+    "Euclidean Simons identity from the Gauss and Codazzi equations",
+    "Smooth mean curvature flow short-time existence and curvature continuation",
+    "Weak and strong parabolic maximum principles",
+    "Integral Brakke compactness and weak Gaussian monotonicity"
   ],
   "next_development": [
     "Covering and differentiation theorems for measures",
     "Proofs of Rademacher and the area/coarea formulas",
-    "BV compactness and De Giorgi blow-up theorem",
+    "BV coarea, sharp isoperimetry, traces, and the full De Giorgi blow-up proof",
     "Deformation theorem and compactness of integral currents",
     "Full proofs of varifold monotonicity, compactness, and Allard excess decay",
     "Detailed Pitts proof chain and modern regularity hypotheses",
     "Proofs and comparison of the volume-spectrum conventions",
-    "Obstacle-problem sources and deeper mean-curvature-flow theory, including weak flows and entropy",
+    "Obstacle-problem sources, level-set flows, tangent-flow extraction, and finer flow singularity theory",
     "Free-boundary, Plateau, capillarity, and prescribed-mean-curvature branches"
   ]
 }
