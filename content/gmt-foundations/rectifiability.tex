@@ -1,0 +1,84 @@
+\chapter{Rectifiable sets and tangent planes}\label{sec:rectifiable-sets}
+Lipschitz parametrizations are differentiable almost everywhere. Their images therefore provide the basic class of sets on which tangent-plane geometry survives. We follow \cite{Sim18}, Chapter 2, Section 1, and Chapter 3, Section 1.
+
+\begin{definition}[Countable rectifiability]\label{def:rectifiable-set}
+An $\mathcal{H}^m$-measurable set $M\subset\mathbb{R}^n$ is \emph{countably $m$-rectifiable} if there are Lipschitz maps $f_i:\mathbb{R}^m\to\mathbb{R}^n$ such that
+\[
+ \mathcal{H}^m\left(M\setminus\bigcup_{i=1}^{\infty}f_i(\mathbb{R}^m)\right)=0.
+\]
+Local finiteness of $\mathcal{H}^m\llcorner M$ is an additional hypothesis when needed, not part of this definition. See \cite{Sim18}, Chapter 3, Definition 1.1, p.~85; compare \cite{WhiCho14}, Section 7, pp.~33--34. In Federer's notation this is countable $(\mathcal{H}^m,m)$ rectifiability; his ``countably $m$ rectifiable'' requires an exact countable union. See \cite{Fed69}, Section 3.2.14, pp.~251--252. The null exceptional set must be retained when translating between the conventions.
+\end{definition}
+
+\begin{theorem}[Rademacher]\label{thm:rademacher}
+Let $V\subset\mathbb{R}^m$ be open and let $f:V\to\mathbb{R}^n$ be locally Lipschitz. Then for $\mathcal{L}^m$-almost every $x\in V$ there is a linear map $Df(x):\mathbb{R}^m\to\mathbb{R}^n$ such that
+\[
+ \lim_{h\to0}\frac{|f(x+h)-f(x)-Df(x)h|}{|h|}=0.
+\]
+\emph{Cited theorem; proof to be added.} See \cite{Sim18}, Chapter 2, Theorem 1.4, pp.~44--46, for the scalar theorem. The displayed form follows by applying that theorem to each coordinate and localizing to balls compactly contained in $V$.
+\end{theorem}
+
+\begin{definition}[Approximate tangent plane]\label{def:approximate-tangent}
+Let $M\subset\mathbb{R}^n$ be $\mathcal{H}^m$-measurable with locally finite $\mathcal{H}^m$ measure. An $m$-dimensional linear subspace $P$ is the \emph{approximate tangent plane} to $M$ at $x$ if
+\[
+ \lim_{r\downarrow0}r^{-m}\int_M\varphi\left(\frac{y-x}{r}\right)\,d\mathcal{H}^m(y)
+   =\int_P\varphi\,d\mathcal{H}^m
+ \quad\text{for every }\varphi\in C_c(\mathbb{R}^n).
+\]
+When it exists, it is unique and is denoted by $T_xM$. This is the measure-limit convention in \cite{Sim18}, Chapter 3, Definition 1.4, pp.~86--87; it includes unit density. Uniqueness follows because the limiting measures have supports equal to their respective planes.
+\end{definition}
+
+\begin{theorem}[Tangent planes on rectifiable sets]\label{thm:rectifiable-tangents}
+Let $M\subset\mathbb{R}^n$ be $\mathcal{H}^m$-measurable and satisfy $\mathcal{H}^m(M\cap K)<\infty$ for every compact $K$. Then $M$ is countably $m$-rectifiable if and only if $T_xM$ in Definition~\ref{def:approximate-tangent} exists at $\mathcal{H}^m$-almost every $x\in M$. In particular, a countably $m$-rectifiable set with this local finiteness property satisfies
+\[
+ \Theta^m(\mathcal{H}^m\llcorner M,x)=1
+ \quad\text{for }\mathcal{H}^m\text{-almost every }x\in M.
+\]
+\emph{Cited theorem; proof to be added.} See \cite{Sim18}, Chapter 3, Theorem 1.6 and Remark 1.5(3), p.~87. The density conclusion follows from the tangent-measure limit by approximating the indicator of the unit ball with continuous test functions. Local finiteness is essential to this formulation.
+\end{theorem}
+
+\chapter{Area and coarea}\label{sec:area-coarea}
+The area formula counts points in the fibers of a parametrization. The coarea formula integrates the measures of higher-dimensional fibers. We state Euclidean versions first, with different Jacobians made explicit.
+
+\begin{definition}[Area and coarea Jacobians]\label{def:jacobians}
+For a linear map $L:\mathbb{R}^m\to\mathbb{R}^n$ with $m\leq n$, define its area Jacobian by
+\[
+ J_mL=\sqrt{\det(L^*L)}.
+\]
+For $L:\mathbb{R}^n\to\mathbb{R}^m$ with $m\leq n$, define its coarea Jacobian by
+\[
+ J_mL=\sqrt{\det(LL^*)}.
+\]
+Here $L^*$ is the Euclidean adjoint. Each quantity is zero when $L$ has rank less than $m$. For a locally Lipschitz map, use the appropriate expression with $L=Df(x)$ at points of differentiability, and set it to zero on the exceptional null set. See \cite{Sim18}, Chapter 2, equation (3.2), p.~57, and Chapter 3, equation (2.7), p.~93.
+\end{definition}
+
+\begin{theorem}[Area formula]\label{thm:area-formula}
+Let $V\subset\mathbb{R}^m$ be open, let $m\leq n$, let $f:V\to\mathbb{R}^n$ be locally Lipschitz, and let $A\subset V$ be Lebesgue measurable. Then the multiplicity function on the right is $\mathcal{H}^m$-measurable and
+\[
+ \int_A J_mDf(x)\,d\mathcal{L}^m(x)
+ =\int_{\mathbb{R}^n}\mathcal{H}^0\bigl(A\cap f^{-1}(\{y\})\bigr)\,d\mathcal{H}^m(y).
+\]
+Both sides may be infinite. If $f$ is injective on $A$, the right side is $\mathcal{H}^m(f(A))$.
+
+\emph{Cited theorem; proof to be added.} See \cite{Sim18}, Chapter 2, Theorem 3.3, p.~57. See also \cite{Fed69}, Theorem 3.2.3, p.~243. Rademacher's theorem supplies the derivative; the area formula is a further theorem and does not follow from differentiability alone.
+\end{theorem}
+
+\begin{corollary}[Area of a scalar graph]\label{cor:graph-area}
+Let $V\subset\mathbb{R}^m$ be open, let $u:V\to\mathbb{R}$ be locally Lipschitz, and let $A\subset V$ be Lebesgue measurable. Then
+\[
+ \mathcal{H}^m\{(x,u(x)):x\in A\}
+ =\int_A\sqrt{1+|Du(x)|^2}\,d\mathcal{L}^m(x).
+\]
+\end{corollary}
+\begin{proof}
+The map $F(x)=(x,u(x))$ is locally Lipschitz and injective. At almost every point,
+$(DF)^*DF=I+Du\otimes Du$. This matrix has eigenvalue $1+|Du|^2$ in the direction of $Du$ and eigenvalue $1$ in the orthogonal directions; if $Du=0$, it is the identity. Thus $J_mDF=\sqrt{1+|Du|^2}$. Apply Theorem~\ref{thm:area-formula}.
+\end{proof}
+
+\begin{theorem}[Coarea formula]\label{thm:coarea-formula}
+Let $V\subset\mathbb{R}^n$ be open, let $1\leq m<n$, let $f:V\to\mathbb{R}^m$ be locally Lipschitz, and let $A\subset V$ be Lebesgue measurable. Then the fiber measure on the right is Lebesgue measurable and
+\[
+ \int_A J_mDf(x)\,d\mathcal{L}^n(x)
+ =\int_{\mathbb{R}^m}\mathcal{H}^{n-m}\bigl(A\cap f^{-1}(\{y\})\bigr)\,d\mathcal{L}^m(y).
+\]
+\emph{Cited theorem; proof to be added.} This is the Euclidean special case of \cite{Sim18}, Chapter 3, equation (2.8), p.~93; Chapter 2, Section 7 develops the smooth case. Compare the rectifiable-set coarea theorem in \cite{Fed69}, Theorem 3.2.22, p.~258. Unlike the area formula, the Jacobian here is $\sqrt{\det(Df(Df)^*)}$.
+\end{theorem}

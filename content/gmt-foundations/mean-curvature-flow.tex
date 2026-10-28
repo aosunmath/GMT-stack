@@ -1,0 +1,33 @@
+\chapter{Smooth mean curvature flow}\label{sec:mean-curvature-flow}
+Mean curvature flow is the evolution associated with the first variation of area. This introductory section fixes the sign and supplies a basic model. A dedicated flow source corpus and the weak-flow theory are still to be added.
+
+\begin{definition}[Smooth mean curvature flow]\label{def:mean-curvature-flow}
+A smooth family of immersions $F:\Sigma^n\times[0,T)\to M^{n+1}$ evolves by mean curvature flow if
+\[
+ (\partial_tF)^\perp=\vec H.
+\]
+Tangential velocity only changes the parametrization. With the convention of Definition \ref{def:smooth-minimal}, a normal parametrization satisfies $\partial_tF=-H\nu$. The vector $\vec H$ is the trace mean curvature vector, so there is no factor $1/n$ in this equation. The smooth first-variation background is \cite{ChMin}, Section 7, and \cite{MM}, Section 2.
+\end{definition}
+
+\begin{proposition}[Area dissipation along a smooth closed flow]\label{prop:mcf-area-dissipation}
+For a smooth mean curvature flow of a compact hypersurface without boundary,
+\[
+ \frac{d}{dt}\operatorname{Area}(\Sigma_t)
+ =-\int_{\Sigma_t}|\vec H|^2\,dA\leq0.
+\]
+\end{proposition}
+\begin{proof}
+Apply Proposition \ref{prop:smooth-first-variation} at each time with the variation velocity $\partial_tF$. Its normal component is $\vec H$, and its tangential component has zero inner product with $\vec H$. The first variation is therefore the negative integral of $|\vec H|^2$.
+\end{proof}
+
+\begin{example}[Shrinking round spheres]\label{ex:shrinking-sphere}
+For a round $S^n_{R(t)}\subset\mathbb R^{n+1}$ with outward normal, $H=n/R(t)$, so the flow equation gives $R'=-n/R$. Consequently
+\[
+ R(t)^2=R(0)^2-2nt,\qquad 0\leq t<R(0)^2/(2n).
+\]
+The sphere remains smooth on this interval and its radius tends to zero at its endpoint. This calculation checks the sign and time scaling of the convention; it makes no assertion about continuing an arbitrary flow through a singularity.
+\end{example}
+
+\begin{remark}[Planned weak flows and related variational problems]\label{rem:flow-program}
+The planned flow branch includes short-time existence, avoidance, monotonicity, tangent flows, self-shrinkers, and singularities. Brakke flow and level-set flow will have separate definitions and comparison results. Related branches include Plateau problems, free-boundary minimal surfaces, capillarity, prescribed mean curvature, and further Willmore problems. Their links to currents, varifolds, elliptic PDE, and constrained energies will be developed as sources and proofs are added. These are scope commitments, not completed theorem sections.
+\end{remark}

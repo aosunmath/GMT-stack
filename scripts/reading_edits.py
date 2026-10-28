@@ -1,4 +1,4 @@
-"""Reviewed prose edits and internal references for the Pome reading edition.
+"""Reviewed prose edits and internal references for the GMT Stack reading edition.
 
 Mathematical source strings and proof guards are left intact. Original attribution
 is retained on Sources pages; the curated historical exposition is applied separately.
@@ -76,8 +76,6 @@ def attribution_markup(node):
         note.attrs = {'class': 'attribution-note'}
     for text in copy.find_all(string=re.compile(r'\\gerbyfootnotemark')):
         text.replace_with(re.sub(r'\\gerbyfootnotemark\{[^{}]+\}', '', text))
-    for text in list(copy.find_all(string=re.compile(r'\bGerby\b(?!-)'))):
-        text.replace_with(re.sub(r'\bGerby\b(?!-)', 'Pome', text))
     return str(copy)
 
 
@@ -96,10 +94,10 @@ def replacement_fragment(original, markup):
     return replacement
 
 
-def source_locator_targets(cite, locators, current_tag):
-    """Resolve explicit SGPT coordinates only; never guess from similar names."""
+def source_locator_targets(cite, locators, current_tag, bibliography_key=None):
+    """Resolve explicitly configured source coordinates; never guess names."""
     keys = [a.get('href', '').removeprefix('/bibliography/') for a in cite.select('a')]
-    if keys != ['SGPT']:
+    if not bibliography_key or keys != [bibliography_key]:
         return []
     postnote = cite.select_one('.postnote')
     if not postnote:
@@ -149,7 +147,7 @@ def apply_reading_edits(entries, topic_chapters, registry_path):
     locators = {}
     for entry in entries.values():
         for v in entry['variants']:
-            if v['source'] != 'sgpt':
+            if v['source'] != registry.get('locator_source'):
                 continue
             family = 'heading' if v.get('section') else 'statement'
             if v['kind'] not in {'equation', 'item'} and v.get('number'):
@@ -237,7 +235,7 @@ def apply_reading_edits(entries, topic_chapters, registry_path):
                 if not named.get_text(strip=True).strip('() ,;'):
                     named.decompose()
             for cite in list(soup.select('.cite')):
-                targets = source_locator_targets(cite, locators, entry['tag'])
+                targets = source_locator_targets(cite, locators, entry['tag'], registry.get('locator_bibliography_key'))
                 if not targets:
                     continue
                 retain(source, cite, entry, variant)

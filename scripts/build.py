@@ -16,6 +16,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from collection import build_collection, check_links
+from source_snapshot import manuscript_snapshot
 
 ROOT = Path(__file__).resolve().parents[1]
 REPOSITORY = re.compile(r"https://github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+\Z")
@@ -57,7 +58,7 @@ def validate(books, formalizations):
         text_field(book, "title")
         source_fields(book)
         require(book.get("status") in {"pending", "published"}, "Invalid book status")
-        for field in ("entrypoint", "tags"):
+        for field in ("entrypoint", "tags", "local_path"):
             if field in book:
                 relative_path(book[field])
         if "checkout_env" in book:
@@ -89,12 +90,17 @@ def validate(books, formalizations):
 
 
 def source_key(record):
-    return record["repository"], record.get("ref", "HEAD")
+    return record["repository"], "local:" + record["local_path"] if "local_path" in record else record.get("ref", "HEAD")
 
 
 def fetch_source(record, cache):
     key = source_key(record)
     if key not in cache:
+        if "local_path" in record:
+            destination = (ROOT / relative_path(record["local_path"])).resolve()
+            require(destination.is_relative_to(ROOT.resolve()), "Local manuscript must stay inside the project")
+            cache[key] = {"path": destination, **manuscript_snapshot(destination)}
+            return cache[key]
         checkout = os.environ.get(record.get("checkout_env", ""))
         if checkout:
             destination = Path(checkout).resolve()
@@ -195,8 +201,8 @@ def build(fetch=False):
     formalizations = json.loads((ROOT / "formalizations.json").read_text())
     validate(books, formalizations)
     cache = {}
-    if fetch:
-        for record in books["books"] + formalizations["entries"]:
+    for record in books["books"] + formalizations["entries"]:
+        if fetch or "local_path" in record:
             fetch_source(record, cache)
     destination = ROOT / "_site"
     if destination.exists():
@@ -213,16 +219,20 @@ def build(fetch=False):
     for book in books["books"]:
         if book["status"] != "published":
             continue
-        require(fetch, "Published books require --fetch so editions cannot silently use stale sources")
+        require(fetch or "local_path" in book, "Published remote books require --fetch so editions cannot silently use stale sources")
         adapter = ROOT / "adapters" / f"{book['slug']}.py"
         require(adapter.is_file(), f"Missing Gerby adapter: {adapter.name}")
         output = destination / "books" / book["slug"]
         output.mkdir(parents=True)
         subprocess.run([sys.executable, str(adapter), str(cache[source_key(book)]["path"]), str(output)], check=True, cwd=ROOT)
         check_book(output, book["slug"])
+        if "local_path" in book:
+            expected = cache[source_key(book)]["source_sha256"]
+            edition = json.loads((output / "edition.json").read_text())
+            require(edition.get("source_sha256") == expected, "Local manuscript changed during the build")
     summary = build_collection(books["books"], destination, json.loads((ROOT / "collection.json").read_text()))
     (destination / "formalizations.json").write_text(json.dumps(public_formalizations(formalizations, cache), indent=2) + "\n")
-    revisions = [{"repository": repo, "ref": ref, "commit": info["commit"]} for (repo, ref), info in sorted(cache.items())]
+    revisions = [{"repository": repo, "ref": ref, **{k: v for k, v in info.items() if k != "path"}} for (repo, ref), info in sorted(cache.items())]
     publishing_commit = subprocess.check_output(["git", "-C", str(ROOT), "rev-parse", "HEAD"], text=True).strip()
     (destination / "upstream.json").write_text(json.dumps({"built_at": datetime.now(timezone.utc).isoformat(), "publishing_commit": publishing_commit, "sources": revisions}, indent=2) + "\n")
     (destination / ".nojekyll").touch()

@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "bibliography_key": "Fed69",
+      "filename": "Geometric measure theory_Federer.djvu",
+      "author": "Herbert Federer",
+      "title": "Geometric Measure Theory",
+      "edition": "1969",
+      "sha256": "7e543a53c574d6a21612b4337a3129b5688924505f3163879e7b9f319cc502ac",
+      "role": "Systematic reference; normalization, rectifiability, area/coarea and comass checked.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "Sim18",
+      "filename": "tsinghua-ntu-GMT_Simon.pdf",
+      "author": "Leon Simon",
+      "title": "Introduction to Geometric Measure Theory",
+      "edition": "2017/2018",
+      "sha256": "ba7fd4a53bf0f1d0ac54aec50bb72c4bba196b8e784d65cd0a7fd85131a3bf03",
+      "role": "Primary statement source for this first batch.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "WhiCho14",
+      "filename": "Topics in GMT_White.pdf",
+      "author": "Brian White; notes by Otis Chodosh",
+      "title": "Topics in GMT (Math 258)",
+      "edition": "November 6, 2014",
+      "sha256": "c437bec2c6c327c7b230c3b4605b8102f3df767d56e333c79b65a38456e2c8ac",
+      "role": "Integer polyhedral and flat chains.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "Sim14",
+      "filename": "GMT_Simon.pdf",
+      "author": "Leon Simon",
+      "title": "Introduction to Geometric Measure Theory",
+      "edition": "2014",
+      "sha256": "e4e2367b5a0555feed16712061b39b534fe554f0c920bb609ab983f3e698b88d",
+      "role": "Earlier edition retained for comparison; no duplicate mathematical entries imported.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "WhiCho14",
+      "filename": "Geometric measure theory_White_Chodosh.pdf",
+      "author": "Brian White; notes by Otis Chodosh",
+      "title": "Topics in GMT (Math 258)",
+      "edition": "November 6, 2014",
+      "sha256": "c437bec2c6c327c7b230c3b4605b8102f3df767d56e333c79b65a38456e2c8ac",
+      "role": "Identical copy of the other White/Chodosh file.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "Fle16",
+      "filename": "De Giorgi and Geometric Measure Theory_Fleming.pdf",
+      "author": "Wendell H. Fleming",
+      "title": "De Giorgi and Geometric Measure Theory",
+      "edition": "2016",
+      "sha256": "c5e5c00541618540ca450653169b9f8c26e3fa30b57830f353cf3ecb4a384ab0",
+      "role": "Historical account of finite perimeter and integral currents.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "Pitts81",
+      "filename": "Existence and regularity of minimal surfaces on Riemannian manifolds_Pitts.pdf",
+      "author": "Jon T. Pitts",
+      "title": "Existence and Regularity of Minimal Surfaces on Riemannian Manifolds",
+      "edition": "1981",
+      "sha256": "17e92ba8e81fc082180625aba7fd80be8bf8bd021265bc37608de17bffa648ec",
+      "pdf_pages": 342,
+      "role": "Foundational almost-minimizing and discrete min-max construction; Theorem A and Section 7.13.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "LMN",
+      "filename": "Weyl law for the volume spectrum_Liokumovich-Marques-Neves.pdf",
+      "author": "Yevgeny Liokumovich; Fernando C. Marques; André Neves",
+      "title": "Weyl law for the volume spectrum",
+      "edition": "Annals of Mathematics 187 (2018), 933–961",
+      "sha256": "e177013792a5bd11eee68ece1410b256d75b914eb285bb877b13970b91047ea0",
+      "pdf_pages": 30,
+      "role": "Primary Weyl-law source, Theorem 1.1; admissibility and widths in Section 2.6. Published version, not an early preprint.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "CDL",
+      "filename": "The min-max construction of minimal surface_Colding-De Lellis.pdf",
+      "author": "Tobias H. Colding; Camillo De Lellis",
+      "title": "The min-max construction of minimal surfaces",
+      "edition": "Surveys in Differential Geometry 8 (2003), 75–107",
+      "sha256": "b010140249792f6306e4eb26251eab06873e1d724264ead915dfcc4996443623",
+      "pdf_pages": 34,
+      "role": "Scanned survey; introductory pages visually checked. Smooth families and saturation, Section 1.1; detailed proofs require consulting the author-listed erratum.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "KMN",
+      "filename": "The catenoid estimate and its geometric applications_Ketover-Marques-Neves.pdf",
+      "author": "Daniel Ketover; Fernando C. Marques; André Neves",
+      "title": "The catenoid estimate and its geometric applications",
+      "edition": "Supplied 27-page manuscript; revision date not stated; work first posted in 2016",
+      "sha256": "23bf02aecc4d2c7f671ec78bab7593afe5697d083f01108fb1537b6976bea3d8",
+      "pdf_pages": 27,
+      "role": "Catenoid mechanism, Theorem 2.4; fundamental-class width in positive Ricci curvature, Theorem 1.5.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "Minter",
+      "filename": "reg-in-gmt-notesRegularity Techniques in Geometric Measure Theory_Minter.pdf",
+      "author": "Paul Minter",
+      "title": "Regularity Techniques in Geometric Measure Theory",
+      "edition": "Spring 2024 Princeton course",
+      "sha256": "ea39f03389bde1af127d2c5fa5351bbee85f30847a3b58ac58a29c9dfd838595",
+      "pdf_pages": 169,
+      "role": "Regularity roadmap: Allard, excess decay, stable hypersurfaces, cylindrical cones, and sheeting. Full theorem statements pending.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "SimonPDE",
+      "filename": "pde_Simon.pdf",
+      "author": "Leon Simon",
+      "title": "Lectures on PDE",
+      "edition": "Last updated March 5, 2015; Tsinghua notes",
+      "sha256": "0c64b0a3483594140f8dae7ac0578637b19e1eb0ef1f35380e456d6c00e0051e",
+      "pdf_pages": 118,
+      "role": "Sobolev and elliptic background; Chapter 19 minimal surface equation. Two-page spreads and damaged font encoding; title/date visually checked.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "LiAP",
+      "filename": "Notes-Almgren-Pitts theory introduction_Yangyang Li.pdf",
+      "author": "Yangyang Li",
+      "title": "Introduction to Almgren-Pitts Min-Max Theory",
+      "edition": "Preliminary version, July 7, 2019",
+      "sha256": "ad02b7e7db06914d86eb599bb3b1f92e230ae1cbf572ba3ac3a17811cff1065b",
+      "pdf_pages": 25,
+      "role": "Expository guide to almost minimizing, discrete topology, pull-tight, and regularity; original theorem sources retained.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "MNIndex",
+      "filename": "Morse index of multiplicity one min-max minimal hypersurfaces_Marques-Neves.pdf",
+      "author": "Fernando C. Marques; André Neves",
+      "title": "Morse index of multiplicity one min-max minimal hypersurfaces",
+      "edition": "Advances in Mathematics 378 (2021), 107527",
+      "sha256": "039a821daed9c8f2e242f1008d41dfa5b0551a7e7e6fc1847a2244171e2dc16d",
+      "pdf_pages": 58,
+      "role": "Published definitions and Main Theorem 1.3; multiplicity hypothesis retained explicitly.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "CM",
+      "filename": "Minimal surfaces and the Allen-Cahn equation on 3-manifolds index, multiplicity, and curvature estimates_Chodosh-Mantoulidis.pdf",
+      "author": "Otis Chodosh; Christos Mantoulidis",
+      "title": "Minimal surfaces and the Allen-Cahn equation on 3-manifolds: index, multiplicity, and curvature estimates",
+      "edition": "arXiv:1803.02716v2; posted May 14, 2018; manuscript dated May 16, 2018",
+      "sha256": "1bdb207c93421039bbf58d71906b2bb2b64a01246be981ae4601c8098ebe1f83",
+      "pdf_pages": 76,
+      "role": "Analytic dependency map for bounded energy and index, curvature estimates, multiplicity, and Jacobi fields. No equality of width constructions asserted.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "MM",
+      "filename": "Minimal Surface lecture notes_Marques_Montezuma.pdf",
+      "author": "Fernando Codá Marques; notes by Rafael Montezuma",
+      "title": "Surfaces minimales: théorie variationnelle et applications",
+      "edition": "Undated supplied 71-page lecture notes",
+      "sha256": "737ac1fe1d8ac44ce719338109af1d4b06fead90be896a4e217c1c5db353b5f3",
+      "pdf_pages": 71,
+      "role": "First variation, second variation, stability, and analytic background.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "ZZNet",
+      "filename": "Min-max theory for networks of constant geodesic curvature_Zhou-Zhu.pdf",
+      "author": "Xin Zhou; Jonathan J. Zhu",
+      "title": "Min-max theory for networks of constant geodesic curvature",
+      "edition": "Submission version 1, March 7, 2019",
+      "sha256": "552da80b58427fc58fc80e85462679ccc5bac49c8ca24d810063fc5ceec09965",
+      "pdf_pages": 12,
+      "role": "Theorem 1.1; finite junction set and almost embeddedness preserved.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "ZZCMC",
+      "filename": "Min-max theory for CMC hypersurfaces_Zhou-Zhu.pdf",
+      "author": "Xin Zhou; Jonathan J. Zhu",
+      "title": "Min-max theory for constant mean curvature hypersurfaces",
+      "edition": "arXiv:1707.08012v2, August 11, 2017",
+      "sha256": "688e270ec8effeaad1abb6e9fadff31db872c295a202abdfd479266fc925e6a1",
+      "pdf_pages": 32,
+      "role": "Area-minus-volume functional, Theorem 0.1 and Remark 0.2; touching and multiplicity conventions retained.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "MNWill",
+      "filename": "Min-max theory and the Willmore conjecture_Marques-Neves.pdf",
+      "author": "Fernando C. Marques; André Neves",
+      "title": "Min-Max theory and the Willmore conjecture",
+      "edition": "Annals of Mathematics 179 (2014), 683–782",
+      "sha256": "a006902a44c85e0d806dcc53470e5e6f2527e3a62efcc0d4afab7bc4e5768876",
+      "pdf_pages": 100,
+      "role": "Averaged-mean-curvature normalization, Definition 1.2, and Theorem A.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "Nurser",
+      "filename": "Low min-max widths of the round three-sphere_Nurser.pdf",
+      "author": "Charles Arthur George Nurser",
+      "title": "Low min-max widths of the round three-sphere",
+      "edition": "Imperial College London PhD thesis, October 2016",
+      "sha256": "04cc9234786c8c8dbe4a62380531fa08d5592a596d17015c98c5d981a3346bc7",
+      "pdf_pages": 92,
+      "role": "Historical low-width statements, Theorem 8, and explicit model families; no assertion of a complete current spectrum.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "ChAC",
+      "filename": "Lectures on Allen-Cahn_Chodosh.pdf",
+      "author": "Otis Chodosh",
+      "title": "Lecture notes on geometric features of the Allen-Cahn equation (Princeton, 2019)",
+      "edition": "Revision June 29, 2023",
+      "sha256": "ba3f324e849afb1268e70d2fcd45e519f51d6ad95429bc9b4445fb0a02c37f30",
+      "pdf_pages": 38,
+      "role": "Energy convention, Euler-Lagrange equation, and one-dimensional transition layer.",
+      "redistributed": false
+    },
+    {
+      "bibliography_key": "ChMin",
+      "filename": "Introduction to minimal surfaces_Chodosh.pdf",
+      "author": "Otis Chodosh",
+      "title": "Introduction to Minimal Surfaces",
+      "edition": "March 15, 2025",
+      "sha256": "97593a4ef8744f1ee6952fe23192937a83da41b9d2e099f160e13cdb1186745e",
+      "pdf_pages": 93,
+      "role": "Smooth minimal-surface background, first and second variation, examples, and compactness roadmap.",
+      "redistributed": false
+    }
+  ],
+  "distinct_editions": 21,
+  "pagination": "Citations use printed source pages and original theorem numbers. Pitts printed page 1 is PDF page 11; LMN printed page 933 is PDF page 2. Simon PDFs generally contain two-page spreads. Reader numbering is generated independently.",
+  "source_rights": "Supplied reference files retain their original copyrights. They and their extracted text are not included in the site or repository content.",
+  "exposition": "Original exposition for the Stack Project of Geometric Measure Theory and Variational Problems; initial draft, not an exhaustive transcription or a formally verified library."
+}

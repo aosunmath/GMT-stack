@@ -1,31 +1,32 @@
 {
-  "built_at": "2026-10-23T02:27:39.175256+00:00",
-  "publishing_commit": "da63fcd770fb06e0bc58db7e6754d17b53dcc9a8",
+  "built_at": "2026-10-28T14:27:04.005949+00:00",
+  "publishing_commit": "b6933b772f41b45918f7e25ed1afbbb1fd892272",
   "sources": [
     {
-      "repository": "https://github.com/MingchenXia/Gerby-Literature",
-      "ref": "a6e5b1149b8e20e8312bbc335156182b7a416697",
-      "commit": "a6e5b1149b8e20e8312bbc335156182b7a416697"
-    },
-    {
-      "repository": "https://github.com/MingchenXia/Gerby-Literature",
-      "ref": "main",
-      "commit": "89141b1647c5282a121afec72ec3a5a0d7b7addd"
-    },
-    {
-      "repository": "https://github.com/MingchenXia/SGPT",
-      "ref": "main",
-      "commit": "e5e68c86cf5d6e36b06a431c6625acd2e1e3176e"
-    },
-    {
-      "repository": "https://github.com/MingchenXia/foundations-of-pluripotential-theory",
-      "ref": "main",
-      "commit": "da2be417c7b38b386d0b688251cf4978df94d682"
-    },
-    {
-      "repository": "https://github.com/MingchenXia/non-kahler-pluripotential-theory",
-      "ref": "main",
-      "commit": "9d4f324ca55f5db30f60825aba5733ecd24a42b5"
+      "repository": "https://github.com/aosunmath/GMT-stack",
+      "ref": "local:content/gmt-foundations",
+      "kind": "local-manuscript",
+      "source_sha256": "c3d8ee9917a42499dbc24e4f41fe263b8bcd357db2b0296c264d58d0fa5f7f48",
+      "files": {
+        "allen-cahn.tex": "316ba3ebebfeefb6140c7a50c30709d5ec888720e064744d54d8d131e88f16f5",
+        "book.tex": "02c162e24d5d0fff723971914e55f1c5e4132e65138d7c2e8e83357ba2d39142",
+        "cmc.tex": "c45e16edef25721d19e7239b9e01d32e365860dc58656101fb85993ecf87ec5f",
+        "currents.tex": "05eeaac893d347f3714010d7eabef945a5d4d2da2a8d33e46b2c5fd7b4b47c17",
+        "entry-review.json": "ed859e81c85f08740ba9fde2ce83bd9761ed3334a08d68c26ef21899374729dd",
+        "mean-curvature-flow.tex": "8f81e5ffa47b4e4bd8028cf73a5ce9ba757d53546cfb080f6a408f5d32b19293",
+        "measures.tex": "b8314802a32a8cb4f230c68993d009e5b5277e63303165b59e0e1b64fe4fdbf9",
+        "min-max.tex": "1ed88012fa85c55eb9ddb13ae2e52f92dca5f9fb4eca24b85cbdf57de27a848b",
+        "minimal-surfaces.tex": "8eb34c63f1320e8600de35853a084a344de50de0980282a0aec40729b240c5dc",
+        "minmax-applications.tex": "d7cd97a7bb4ab00119a606821310405d00161d4b1d8f805f79aff011d64332cf",
+        "obstacle-problems.tex": "d7c29fdf8f845a078689673499ac14136c02c8e0755eb30914d06676727cd9b6",
+        "orientation.tex": "fda172fb98edb2e5048f774d6a247fe4976f90d308c2a52588854f17ad337c4e",
+        "perimeter.tex": "71da28f0765a9d6d9e2076696c3fe0be46f44a4dba755b57091801d00c1c22fe",
+        "rectifiability.tex": "d2dc7fa9136c72205b19ee6e166660204a527eb577b2a36701d004ebadc45dec",
+        "references.bib": "e5e0ed765cabbb70077d59cc9500ecf2789c677d0c4b9e176afd024d7796c0d2",
+        "source-inventory.json": "a74c8b226641d9c66e2bc1601df3487ba501ddca6faee25c9d0dd7c6beca557e",
+        "varifolds.tex": "88ea0d2ff4d2724f6438f1862fe5c5704c56ac4d1e3c14285fac8730c73d9118",
+        "volume-spectrum.tex": "a35d18377d81410425b447e0062f2efffb9b24db3ded0d8e49f80367ff272068"
+      }
     }
   ]
 }

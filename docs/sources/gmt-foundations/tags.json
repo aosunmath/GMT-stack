@@ -1,0 +1,956 @@
+[
+  {
+    "tag": "F8390A5C",
+    "label": "sec:sources-conventions",
+    "title": "1 Sources and conventions",
+    "kind": "chapter",
+    "page": "tag/F8390A5C/index.html",
+    "canonical_tag": "35E9759B45E2",
+    "anchor": ""
+  },
+  {
+    "tag": "B6BB2EC0",
+    "label": "rem:source-editions",
+    "title": "Remark 1.1 (The source editions)",
+    "kind": "remark",
+    "page": "tag/B6BB2EC0/index.html",
+    "canonical_tag": "912105D5B712",
+    "anchor": ""
+  },
+  {
+    "tag": "BA8E466F",
+    "label": "rem:notation",
+    "title": "Remark 1.2 (Notation and prerequisites)",
+    "kind": "remark",
+    "page": "tag/BA8E466F/index.html",
+    "canonical_tag": "4EDA6AEDEA07",
+    "anchor": ""
+  },
+  {
+    "tag": "6592A3B9",
+    "label": "rem:project-scope",
+    "title": "Remark 1.3 (The expanded variational reference)",
+    "kind": "remark",
+    "page": "tag/6592A3B9/index.html",
+    "canonical_tag": "57833B199F67",
+    "anchor": ""
+  },
+  {
+    "tag": "AD6522C4",
+    "label": "sec:radon-measures",
+    "title": "2 Radon measures",
+    "kind": "chapter",
+    "page": "tag/AD6522C4/index.html",
+    "canonical_tag": "2AD208A5263B",
+    "anchor": ""
+  },
+  {
+    "tag": "4720F063",
+    "label": "def:radon-measure",
+    "title": "Definition 2.1 (Radon measure)",
+    "kind": "definition",
+    "page": "tag/4720F063/index.html",
+    "canonical_tag": "5B8B37A79F3A",
+    "anchor": ""
+  },
+  {
+    "tag": "5F0C390F",
+    "label": "def:weak-measure",
+    "title": "Definition 2.2 (Weak convergence of measures)",
+    "kind": "definition",
+    "page": "tag/5F0C390F/index.html",
+    "canonical_tag": "D58956DB1AAB",
+    "anchor": ""
+  },
+  {
+    "tag": "C9FD2516",
+    "label": "thm:radon-compactness",
+    "title": "Theorem 2.3 (Local compactness of Radon measures)",
+    "kind": "theorem",
+    "page": "tag/C9FD2516/index.html",
+    "canonical_tag": "EC3F5C88A198",
+    "anchor": ""
+  },
+  {
+    "tag": "509E98AA",
+    "label": "prop:measure-lsc",
+    "title": "Proposition 2.4 (Lower semicontinuity on open sets)",
+    "kind": "proposition",
+    "page": "tag/509E98AA/index.html",
+    "canonical_tag": "E6E21F29D7CA",
+    "anchor": ""
+  },
+  {
+    "tag": "61D8030E",
+    "label": "sec:hausdorff-measure",
+    "title": "3 Hausdorff measure and density",
+    "kind": "chapter",
+    "page": "tag/61D8030E/index.html",
+    "canonical_tag": "2E7A24F3D4E0",
+    "anchor": ""
+  },
+  {
+    "tag": "3C6E8F29",
+    "label": "def:hausdorff-measure",
+    "title": "Definition 3.1 (Normalized Hausdorff measure)",
+    "kind": "definition",
+    "page": "tag/3C6E8F29/index.html",
+    "canonical_tag": "04D5BCC54A0E",
+    "anchor": ""
+  },
+  {
+    "tag": "588809A3",
+    "label": "prop:lipschitz-measure",
+    "title": "Proposition 3.2 (Lipschitz distortion of Hausdorff measure)",
+    "kind": "proposition",
+    "page": "tag/588809A3/index.html",
+    "canonical_tag": "2921BEDC2A31",
+    "anchor": ""
+  },
+  {
+    "tag": "7B8EA77A",
+    "label": "def:density",
+    "title": "Definition 3.3 (Density)",
+    "kind": "definition",
+    "page": "tag/7B8EA77A/index.html",
+    "canonical_tag": "B88FEB8AC934",
+    "anchor": ""
+  },
+  {
+    "tag": "01506B24",
+    "label": "ex:plane-density",
+    "title": "Example 3.4 (A plane with multiplicity)",
+    "kind": "example",
+    "page": "tag/01506B24/index.html",
+    "canonical_tag": "F2FA6522C7DE",
+    "anchor": ""
+  },
+  {
+    "tag": "A598409E",
+    "label": "sec:rectifiable-sets",
+    "title": "4 Rectifiable sets and tangent planes",
+    "kind": "chapter",
+    "page": "tag/A598409E/index.html",
+    "canonical_tag": "4F8F7AEE0F1B",
+    "anchor": ""
+  },
+  {
+    "tag": "9C089029",
+    "label": "def:rectifiable-set",
+    "title": "Definition 4.1 (Countable rectifiability)",
+    "kind": "definition",
+    "page": "tag/9C089029/index.html",
+    "canonical_tag": "F69B7B515F3F",
+    "anchor": ""
+  },
+  {
+    "tag": "54612FF0",
+    "label": "thm:rademacher",
+    "title": "Theorem 4.2 (Rademacher)",
+    "kind": "theorem",
+    "page": "tag/54612FF0/index.html",
+    "canonical_tag": "27C55CB3CC94",
+    "anchor": ""
+  },
+  {
+    "tag": "923A745A",
+    "label": "def:approximate-tangent",
+    "title": "Definition 4.3 (Approximate tangent plane)",
+    "kind": "definition",
+    "page": "tag/923A745A/index.html",
+    "canonical_tag": "455A7C72F775",
+    "anchor": ""
+  },
+  {
+    "tag": "592D7EC3",
+    "label": "thm:rectifiable-tangents",
+    "title": "Theorem 4.4 (Tangent planes on rectifiable sets)",
+    "kind": "theorem",
+    "page": "tag/592D7EC3/index.html",
+    "canonical_tag": "07FB5BA849C0",
+    "anchor": ""
+  },
+  {
+    "tag": "84D3983B",
+    "label": "sec:area-coarea",
+    "title": "5 Area and coarea",
+    "kind": "chapter",
+    "page": "tag/84D3983B/index.html",
+    "canonical_tag": "C07458D97A0A",
+    "anchor": ""
+  },
+  {
+    "tag": "3F1624A4",
+    "label": "def:jacobians",
+    "title": "Definition 5.1 (Area and coarea Jacobians)",
+    "kind": "definition",
+    "page": "tag/3F1624A4/index.html",
+    "canonical_tag": "ECFDA4F8C960",
+    "anchor": ""
+  },
+  {
+    "tag": "198EB5B3",
+    "label": "thm:area-formula",
+    "title": "Theorem 5.2 (Area formula)",
+    "kind": "theorem",
+    "page": "tag/198EB5B3/index.html",
+    "canonical_tag": "893CBC15202C",
+    "anchor": ""
+  },
+  {
+    "tag": "557B8C3B",
+    "label": "cor:graph-area",
+    "title": "Corollary 5.3 (Area of a scalar graph)",
+    "kind": "corollary",
+    "page": "tag/557B8C3B/index.html",
+    "canonical_tag": "C022A573234B",
+    "anchor": ""
+  },
+  {
+    "tag": "6412C4A4",
+    "label": "thm:coarea-formula",
+    "title": "Theorem 5.4 (Coarea formula)",
+    "kind": "theorem",
+    "page": "tag/6412C4A4/index.html",
+    "canonical_tag": "5830576492D6",
+    "anchor": ""
+  },
+  {
+    "tag": "E1107D6F",
+    "label": "sec:finite-perimeter",
+    "title": "6 Finite perimeter and reduced boundary",
+    "kind": "chapter",
+    "page": "tag/E1107D6F/index.html",
+    "canonical_tag": "5526969B30CA",
+    "anchor": ""
+  },
+  {
+    "tag": "41FF3C2E",
+    "label": "def:bv",
+    "title": "Definition 6.1 (Locally bounded variation)",
+    "kind": "definition",
+    "page": "tag/41FF3C2E/index.html",
+    "canonical_tag": "4FF0E8DA6480",
+    "anchor": ""
+  },
+  {
+    "tag": "12895E50",
+    "label": "def:finite-perimeter",
+    "title": "Definition 6.2 (Finite perimeter)",
+    "kind": "definition",
+    "page": "tag/12895E50/index.html",
+    "canonical_tag": "4E14BC795E12",
+    "anchor": ""
+  },
+  {
+    "tag": "3E809D50",
+    "label": "prop:perimeter-lsc",
+    "title": "Proposition 6.3 (Lower semicontinuity of perimeter)",
+    "kind": "proposition",
+    "page": "tag/3E809D50/index.html",
+    "canonical_tag": "D59D0CB3A71F",
+    "anchor": ""
+  },
+  {
+    "tag": "A6252FDA",
+    "label": "def:reduced-boundary",
+    "title": "Definition 6.4 (Reduced boundary and outward normal)",
+    "kind": "definition",
+    "page": "tag/A6252FDA/index.html",
+    "canonical_tag": "55A210572AB4",
+    "anchor": ""
+  },
+  {
+    "tag": "6BABFB22",
+    "label": "thm:de-giorgi",
+    "title": "Theorem 6.5 (De Giorgi structure and Gauss\u2013Green)",
+    "kind": "theorem",
+    "page": "tag/6BABFB22/index.html",
+    "canonical_tag": "DA1827FB809A",
+    "anchor": ""
+  },
+  {
+    "tag": "A4DCAA13",
+    "label": "ex:smooth-perimeter",
+    "title": "Example 6.6 (Smooth domains)",
+    "kind": "example",
+    "page": "tag/A4DCAA13/index.html",
+    "canonical_tag": "589B34B9A3FE",
+    "anchor": ""
+  },
+  {
+    "tag": "4295C021",
+    "label": "sec:currents",
+    "title": "7 Currents and compactness",
+    "kind": "chapter",
+    "page": "tag/4295C021/index.html",
+    "canonical_tag": "9211826C5642",
+    "anchor": ""
+  },
+  {
+    "tag": "90B10D4C",
+    "label": "def:current",
+    "title": "Definition 7.1 (Current and boundary)",
+    "kind": "definition",
+    "page": "tag/90B10D4C/index.html",
+    "canonical_tag": "C87631EB7AA5",
+    "anchor": ""
+  },
+  {
+    "tag": "AF19E76D",
+    "label": "prop:boundary-current",
+    "title": "Proposition 7.2 (Boundary squared and weak continuity)",
+    "kind": "proposition",
+    "page": "tag/AF19E76D/index.html",
+    "canonical_tag": "7D8936D48805",
+    "anchor": ""
+  },
+  {
+    "tag": "9CD367F0",
+    "label": "def:mass-current",
+    "title": "Definition 7.3 (Mass and the comass convention)",
+    "kind": "definition",
+    "page": "tag/9CD367F0/index.html",
+    "canonical_tag": "1EEA7973F645",
+    "anchor": ""
+  },
+  {
+    "tag": "D093638D",
+    "label": "prop:mass-lsc",
+    "title": "Proposition 7.4 (Lower semicontinuity of mass)",
+    "kind": "proposition",
+    "page": "tag/D093638D/index.html",
+    "canonical_tag": "D219E445117D",
+    "anchor": ""
+  },
+  {
+    "tag": "90A54D90",
+    "label": "def:integral-current",
+    "title": "Definition 7.5 (Integer rectifiable and integral currents)",
+    "kind": "definition",
+    "page": "tag/90A54D90/index.html",
+    "canonical_tag": "4220ABFF9A31",
+    "anchor": ""
+  },
+  {
+    "tag": "AF630ACE",
+    "label": "thm:integral-compactness",
+    "title": "Theorem 7.6 (Federer\u2013Fleming compactness)",
+    "kind": "theorem",
+    "page": "tag/AF630ACE/index.html",
+    "canonical_tag": "558B04F2FD71",
+    "anchor": ""
+  },
+  {
+    "tag": "35A2E808",
+    "label": "sec:flat-chains",
+    "title": "8 Polyhedral and flat chains",
+    "kind": "chapter",
+    "page": "tag/35A2E808/index.html",
+    "canonical_tag": "4791813D2C61",
+    "anchor": ""
+  },
+  {
+    "tag": "169D404D",
+    "label": "def:polyhedral-chain",
+    "title": "Definition 8.1 (Integer polyhedral chains)",
+    "kind": "definition",
+    "page": "tag/169D404D/index.html",
+    "canonical_tag": "79AE1902199F",
+    "anchor": ""
+  },
+  {
+    "tag": "6C96BC51",
+    "label": "def:flat-norm",
+    "title": "Definition 8.2 (Flat norm and completion)",
+    "kind": "definition",
+    "page": "tag/6C96BC51/index.html",
+    "canonical_tag": "394A15B53A4E",
+    "anchor": ""
+  },
+  {
+    "tag": "4A9E5B8C",
+    "label": "prop:flat-boundary",
+    "title": "Proposition 8.3 (Boundary is continuous in the flat norm)",
+    "kind": "proposition",
+    "page": "tag/4A9E5B8C/index.html",
+    "canonical_tag": "FEAB4217D841",
+    "anchor": ""
+  },
+  {
+    "tag": "75A4FEA4",
+    "label": "ex:thin-rectangle",
+    "title": "Example 8.4 (Thin boundaries and loss of mass)",
+    "kind": "example",
+    "page": "tag/75A4FEA4/index.html",
+    "canonical_tag": "2113703E7856",
+    "anchor": ""
+  },
+  {
+    "tag": "4BE2EFCC",
+    "label": "sec:varifolds",
+    "title": "9 Varifolds and first variation",
+    "kind": "chapter",
+    "page": "tag/4BE2EFCC/index.html",
+    "canonical_tag": "555AA5C62B73",
+    "anchor": ""
+  },
+  {
+    "tag": "3F5F54C4",
+    "label": "def:varifold",
+    "title": "Definition 9.1 (Varifold and weight)",
+    "kind": "definition",
+    "page": "tag/3F5F54C4/index.html",
+    "canonical_tag": "4CCDC6F2267C",
+    "anchor": ""
+  },
+  {
+    "tag": "D39B8F54",
+    "label": "def:rectifiable-varifold",
+    "title": "Definition 9.2 (Rectifiable and integral varifolds)",
+    "kind": "definition",
+    "page": "tag/D39B8F54/index.html",
+    "canonical_tag": "46E46AD2EF79",
+    "anchor": ""
+  },
+  {
+    "tag": "687E4FA1",
+    "label": "def:first-variation",
+    "title": "Definition 9.3 (First variation, stationarity, and mean curvature)",
+    "kind": "definition",
+    "page": "tag/687E4FA1/index.html",
+    "canonical_tag": "CBCB798B764C",
+    "anchor": ""
+  },
+  {
+    "tag": "F434B949",
+    "label": "prop:plane-stationary",
+    "title": "Proposition 9.4 (An affine plane is stationary)",
+    "kind": "proposition",
+    "page": "tag/F434B949/index.html",
+    "canonical_tag": "B47686B92774",
+    "anchor": ""
+  },
+  {
+    "tag": "E02239D4",
+    "label": "thm:stationary-monotonicity",
+    "title": "Theorem 9.5 (Stationary monotonicity)",
+    "kind": "theorem",
+    "page": "tag/E02239D4/index.html",
+    "canonical_tag": "A08B64B5DD43",
+    "anchor": ""
+  },
+  {
+    "tag": "73041C2A",
+    "label": "sec:minimal-stability",
+    "title": "10 Minimal hypersurfaces and stability",
+    "kind": "chapter",
+    "page": "tag/73041C2A/index.html",
+    "canonical_tag": "1DCFE80CFBCA",
+    "anchor": ""
+  },
+  {
+    "tag": "B892A771",
+    "label": "def:smooth-minimal",
+    "title": "Definition 10.1 (Mean curvature and minimality)",
+    "kind": "definition",
+    "page": "tag/B892A771/index.html",
+    "canonical_tag": "28E53582FC82",
+    "anchor": ""
+  },
+  {
+    "tag": "ADA163D3",
+    "label": "prop:smooth-first-variation",
+    "title": "Proposition 10.2 (First variation of a closed hypersurface)",
+    "kind": "proposition",
+    "page": "tag/ADA163D3/index.html",
+    "canonical_tag": "571E6CF1470F",
+    "anchor": ""
+  },
+  {
+    "tag": "4AD8B5BF",
+    "label": "thm:second-variation",
+    "title": "Theorem 10.3 (Second variation in the two-sided case)",
+    "kind": "theorem",
+    "page": "tag/4AD8B5BF/index.html",
+    "canonical_tag": "30FBA471ADE5",
+    "anchor": ""
+  },
+  {
+    "tag": "1B475C58",
+    "label": "def:morse-index",
+    "title": "Definition 10.4 (Stability and Morse index)",
+    "kind": "definition",
+    "page": "tag/1B475C58/index.html",
+    "canonical_tag": "6E18930B316D",
+    "anchor": ""
+  },
+  {
+    "tag": "49337A84",
+    "label": "cor:ricci-unstable",
+    "title": "Corollary 10.5 (Positive Ricci curvature gives an unstable direction)",
+    "kind": "corollary",
+    "page": "tag/49337A84/index.html",
+    "canonical_tag": "DAFF74D119A8",
+    "anchor": ""
+  },
+  {
+    "tag": "BD4A2B38",
+    "label": "sec:minimal-graphs",
+    "title": "11 Minimal graphs and elliptic regularity",
+    "kind": "chapter",
+    "page": "tag/BD4A2B38/index.html",
+    "canonical_tag": "6777B79D5D8A",
+    "anchor": ""
+  },
+  {
+    "tag": "53EE188E",
+    "label": "prop:minimal-graph-pde",
+    "title": "Proposition 11.1 (The minimal graph equation)",
+    "kind": "proposition",
+    "page": "tag/53EE188E/index.html",
+    "canonical_tag": "118E021473BF",
+    "anchor": ""
+  },
+  {
+    "tag": "5EFFBB9C",
+    "label": "rem:regularity-program",
+    "title": "Remark 11.2 (Regularity techniques and their hypotheses)",
+    "kind": "remark",
+    "page": "tag/5EFFBB9C/index.html",
+    "canonical_tag": "5BFC45FF0297",
+    "anchor": ""
+  },
+  {
+    "tag": "B217FE17",
+    "label": "sec:minmax-cycles",
+    "title": "12 Cycles and min-max families",
+    "kind": "chapter",
+    "page": "tag/B217FE17/index.html",
+    "canonical_tag": "6BE94E1EB61B",
+    "anchor": ""
+  },
+  {
+    "tag": "B311C8E7",
+    "label": "def:minmax-cycles",
+    "title": "Definition 12.1 (Mod-two boundary cycles and topologies)",
+    "kind": "definition",
+    "page": "tag/B311C8E7/index.html",
+    "canonical_tag": "AEAF42CA9912",
+    "anchor": ""
+  },
+  {
+    "tag": "150043F6",
+    "label": "def:homotopy-width",
+    "title": "Definition 12.2 (A fixed homotopy-class width)",
+    "kind": "definition",
+    "page": "tag/150043F6/index.html",
+    "canonical_tag": "073350371C3C",
+    "anchor": ""
+  },
+  {
+    "tag": "9B764EAB",
+    "label": "def:mass-fineness",
+    "title": "Definition 12.3 (Mass fineness of a discrete family)",
+    "kind": "definition",
+    "page": "tag/9B764EAB/index.html",
+    "canonical_tag": "92950BF01F3D",
+    "anchor": ""
+  },
+  {
+    "tag": "E58FC24E",
+    "label": "rem:smooth-sweepouts",
+    "title": "Remark 12.4 (Smooth sweepouts in dimension three)",
+    "kind": "remark",
+    "page": "tag/E58FC24E/index.html",
+    "canonical_tag": "E05332744D17",
+    "anchor": ""
+  },
+  {
+    "tag": "5EB31A57",
+    "label": "sec:almost-minimizing",
+    "title": "13 Almost minimizing varifolds and existence",
+    "kind": "chapter",
+    "page": "tag/5EB31A57/index.html",
+    "canonical_tag": "847AC51636CA",
+    "anchor": ""
+  },
+  {
+    "tag": "C9FFC372",
+    "label": "def:almost-minimizing",
+    "title": "Definition 13.1 (Almost minimizing in an open set)",
+    "kind": "definition",
+    "page": "tag/C9FFC372/index.html",
+    "canonical_tag": "5A3BD49B3997",
+    "anchor": ""
+  },
+  {
+    "tag": "82C74BB3",
+    "label": "thm:pitts-existence",
+    "title": "Theorem 13.2 (Pitts' original smooth existence range)",
+    "kind": "theorem",
+    "page": "tag/82C74BB3/index.html",
+    "canonical_tag": "0B2FDF2F71CE",
+    "anchor": ""
+  },
+  {
+    "tag": "0012D4A0",
+    "label": "thm:ap-realization",
+    "title": "Theorem 13.3 (Realization of a positive homotopy width)",
+    "kind": "theorem",
+    "page": "tag/0012D4A0/index.html",
+    "canonical_tag": "05D114DEC261",
+    "anchor": ""
+  },
+  {
+    "tag": "3922FC0A",
+    "label": "rem:pitts-proof-route",
+    "title": "Remark 13.4 (The proof dependencies in Pitts' construction)",
+    "kind": "remark",
+    "page": "tag/3922FC0A/index.html",
+    "canonical_tag": "F06EA6D2D607",
+    "anchor": ""
+  },
+  {
+    "tag": "E7B6814B",
+    "label": "sec:volume-spectrum",
+    "title": "14 The volume spectrum and Weyl law",
+    "kind": "chapter",
+    "page": "tag/E7B6814B/index.html",
+    "canonical_tag": "9617EAF3240E",
+    "anchor": ""
+  },
+  {
+    "tag": "52FADBB4",
+    "label": "def:no-concentration",
+    "title": "Definition 14.1 (No concentration of mass)",
+    "kind": "definition",
+    "page": "tag/52FADBB4/index.html",
+    "canonical_tag": "F9E567A4EE61",
+    "anchor": ""
+  },
+  {
+    "tag": "D5EBDB55",
+    "label": "def:p-width",
+    "title": "Definition 14.2 (Sweepouts and the volume spectrum)",
+    "kind": "definition",
+    "page": "tag/D5EBDB55/index.html",
+    "canonical_tag": "0363383FFC95",
+    "anchor": ""
+  },
+  {
+    "tag": "0804B28B",
+    "label": "lem:width-monotonicity",
+    "title": "Lemma 14.3 (Monotonicity in the sweepout index)",
+    "kind": "lemma",
+    "page": "tag/0804B28B/index.html",
+    "canonical_tag": "A3635FA3B0D1",
+    "anchor": ""
+  },
+  {
+    "tag": "D1B6C128",
+    "label": "lem:width-scaling",
+    "title": "Lemma 14.4 (Scaling of widths)",
+    "kind": "lemma",
+    "page": "tag/D1B6C128/index.html",
+    "canonical_tag": "0B5B92D679F2",
+    "anchor": ""
+  },
+  {
+    "tag": "5D225410",
+    "label": "thm:weyl-volume",
+    "title": "Theorem 14.5 (Weyl law for the volume spectrum)",
+    "kind": "theorem",
+    "page": "tag/5D225410/index.html",
+    "canonical_tag": "272A35DD519B",
+    "anchor": ""
+  },
+  {
+    "tag": "13DF50E4",
+    "label": "sec:minmax-index",
+    "title": "15 Multiplicity and the Morse index",
+    "kind": "chapter",
+    "page": "tag/13DF50E4/index.html",
+    "canonical_tag": "D58BB7C941EF",
+    "anchor": ""
+  },
+  {
+    "tag": "77AD4764",
+    "label": "def:bumpy-minimal-cycle",
+    "title": "Definition 15.1 (Bumpy metrics and the index of a minimal cycle)",
+    "kind": "definition",
+    "page": "tag/77AD4764/index.html",
+    "canonical_tag": "BE8BE104CF66",
+    "anchor": ""
+  },
+  {
+    "tag": "8D5C9131",
+    "label": "thm:minmax-index-equality",
+    "title": "Theorem 15.2 (Index equality under a critical-set multiplicity hypothesis)",
+    "kind": "theorem",
+    "page": "tag/8D5C9131/index.html",
+    "canonical_tag": "5CC6B5664356",
+    "anchor": ""
+  },
+  {
+    "tag": "24D05566",
+    "label": "sec:willmore-catenoid",
+    "title": "16 The Willmore energy and the catenoid estimate",
+    "kind": "chapter",
+    "page": "tag/24D05566/index.html",
+    "canonical_tag": "C8139A8F0719",
+    "anchor": ""
+  },
+  {
+    "tag": "40FB988E",
+    "label": "def:willmore-energy",
+    "title": "Definition 16.1 (Willmore energy and normalization)",
+    "kind": "definition",
+    "page": "tag/40FB988E/index.html",
+    "canonical_tag": "9E90E1906976",
+    "anchor": ""
+  },
+  {
+    "tag": "BFF89772",
+    "label": "thm:willmore-bound",
+    "title": "Theorem 16.2 (The Willmore bound for embedded positive-genus surfaces)",
+    "kind": "theorem",
+    "page": "tag/BFF89772/index.html",
+    "canonical_tag": "1EB4A795BBF2",
+    "anchor": ""
+  },
+  {
+    "tag": "5E30228A",
+    "label": "rem:catenoid-estimate",
+    "title": "Remark 16.3 (What the catenoid estimate supplies)",
+    "kind": "remark",
+    "page": "tag/5E30228A/index.html",
+    "canonical_tag": "1D4901862AD8",
+    "anchor": ""
+  },
+  {
+    "tag": "70596725",
+    "label": "thm:ricci-one-parameter",
+    "title": "Theorem 16.4 (One-parameter width in positive Ricci curvature)",
+    "kind": "theorem",
+    "page": "tag/70596725/index.html",
+    "canonical_tag": "7A5ED0EFD787",
+    "anchor": ""
+  },
+  {
+    "tag": "44FE92B1",
+    "label": "sec:round-sphere-widths",
+    "title": "17 Low widths of the round three-sphere",
+    "kind": "chapter",
+    "page": "tag/44FE92B1/index.html",
+    "canonical_tag": "4AD58599F928",
+    "anchor": ""
+  },
+  {
+    "tag": "2F0111DD",
+    "label": "thm:nurser-widths",
+    "title": "Theorem 17.1 (Nurser's low-width results)",
+    "kind": "theorem",
+    "page": "tag/2F0111DD/index.html",
+    "canonical_tag": "EDAAB3DCB932",
+    "anchor": ""
+  },
+  {
+    "tag": "E3476664",
+    "label": "ex:latitude-area",
+    "title": "Example 17.2 (The latitude family)",
+    "kind": "example",
+    "page": "tag/E3476664/index.html",
+    "canonical_tag": "A2692E8AF721",
+    "anchor": ""
+  },
+  {
+    "tag": "ABD9027B",
+    "label": "sec:cmc-variation",
+    "title": "18 Constant mean curvature and constrained area",
+    "kind": "chapter",
+    "page": "tag/ABD9027B/index.html",
+    "canonical_tag": "CA1D0C381103",
+    "anchor": ""
+  },
+  {
+    "tag": "C8A14D33",
+    "label": "def:cmc-functional",
+    "title": "Definition 18.1 (The area-minus-volume functional)",
+    "kind": "definition",
+    "page": "tag/C8A14D33/index.html",
+    "canonical_tag": "858933BEFE56",
+    "anchor": ""
+  },
+  {
+    "tag": "4391378E",
+    "label": "prop:cmc-first-variation",
+    "title": "Proposition 18.2 (The smooth CMC Euler-Lagrange equation)",
+    "kind": "proposition",
+    "page": "tag/4391378E/index.html",
+    "canonical_tag": "DEFFDC26B8E9",
+    "anchor": ""
+  },
+  {
+    "tag": "B8E2AC88",
+    "label": "def:almost-embedded",
+    "title": "Definition 18.3 (Almost embedded hypersurfaces)",
+    "kind": "definition",
+    "page": "tag/B8E2AC88/index.html",
+    "canonical_tag": "D37CE32A4FFA",
+    "anchor": ""
+  },
+  {
+    "tag": "21A1ED1F",
+    "label": "thm:zhou-zhu-cmc",
+    "title": "Theorem 18.4 (Prescribed positive constant mean curvature)",
+    "kind": "theorem",
+    "page": "tag/21A1ED1F/index.html",
+    "canonical_tag": "BEF02630A1D3",
+    "anchor": ""
+  },
+  {
+    "tag": "8E1C736F",
+    "label": "sec:curvature-networks",
+    "title": "19 Constant geodesic curvature networks",
+    "kind": "chapter",
+    "page": "tag/8E1C736F/index.html",
+    "canonical_tag": "0C07E14954C1",
+    "anchor": ""
+  },
+  {
+    "tag": "4D8D0C3E",
+    "label": "thm:zhou-zhu-networks",
+    "title": "Theorem 19.1 (Curvature networks on a closed surface)",
+    "kind": "theorem",
+    "page": "tag/4D8D0C3E/index.html",
+    "canonical_tag": "1BE70B8F92FD",
+    "anchor": ""
+  },
+  {
+    "tag": "7D00AC42",
+    "label": "sec:allen-cahn",
+    "title": "20 Allen-Cahn energy and minimal interfaces",
+    "kind": "chapter",
+    "page": "tag/7D00AC42/index.html",
+    "canonical_tag": "F710E3587F5F",
+    "anchor": ""
+  },
+  {
+    "tag": "BCAE07D6",
+    "label": "def:allen-cahn-energy",
+    "title": "Definition 20.1 (The Allen-Cahn energy)",
+    "kind": "definition",
+    "page": "tag/BCAE07D6/index.html",
+    "canonical_tag": "E4C01FDF2BAC",
+    "anchor": ""
+  },
+  {
+    "tag": "C653F9DB",
+    "label": "prop:allen-cahn-variation",
+    "title": "Proposition 20.2 (Equation and second variation of Allen-Cahn)",
+    "kind": "proposition",
+    "page": "tag/C653F9DB/index.html",
+    "canonical_tag": "6CA7B05E1A99",
+    "anchor": ""
+  },
+  {
+    "tag": "11F7952D",
+    "label": "ex:allen-cahn-layer",
+    "title": "Example 20.3 (A single transition layer)",
+    "kind": "example",
+    "page": "tag/11F7952D/index.html",
+    "canonical_tag": "3C84C0DE867A",
+    "anchor": ""
+  },
+  {
+    "tag": "38292DA5",
+    "label": "rem:allen-cahn-minmax",
+    "title": "Remark 20.4 (Multiplicity, curvature, and index in dimension three)",
+    "kind": "remark",
+    "page": "tag/38292DA5/index.html",
+    "canonical_tag": "7FD866591D17",
+    "anchor": ""
+  },
+  {
+    "tag": "ACB3D527",
+    "label": "sec:obstacle-problems",
+    "title": "21 Obstacle problems and variational inequalities",
+    "kind": "chapter",
+    "page": "tag/ACB3D527/index.html",
+    "canonical_tag": "7603C685327E",
+    "anchor": ""
+  },
+  {
+    "tag": "7CC2B662",
+    "label": "def:obstacle-problem",
+    "title": "Definition 21.1 (The classical scalar obstacle problem)",
+    "kind": "definition",
+    "page": "tag/7CC2B662/index.html",
+    "canonical_tag": "C97A1383B3DD",
+    "anchor": ""
+  },
+  {
+    "tag": "6D9A2248",
+    "label": "prop:obstacle-inequality",
+    "title": "Proposition 21.2 (Variational inequality for the obstacle problem)",
+    "kind": "proposition",
+    "page": "tag/6D9A2248/index.html",
+    "canonical_tag": "422992397FE9",
+    "anchor": ""
+  },
+  {
+    "tag": "4867E093",
+    "label": "rem:obstacle-program",
+    "title": "Remark 21.3 (Planned free-boundary developments)",
+    "kind": "remark",
+    "page": "tag/4867E093/index.html",
+    "canonical_tag": "E2F2435B4E26",
+    "anchor": ""
+  },
+  {
+    "tag": "64D58967",
+    "label": "sec:mean-curvature-flow",
+    "title": "22 Smooth mean curvature flow",
+    "kind": "chapter",
+    "page": "tag/64D58967/index.html",
+    "canonical_tag": "1CA6D6DA3A2D",
+    "anchor": ""
+  },
+  {
+    "tag": "2D512F6A",
+    "label": "def:mean-curvature-flow",
+    "title": "Definition 22.1 (Smooth mean curvature flow)",
+    "kind": "definition",
+    "page": "tag/2D512F6A/index.html",
+    "canonical_tag": "3FFB3EED5409",
+    "anchor": ""
+  },
+  {
+    "tag": "8B2DB27C",
+    "label": "prop:mcf-area-dissipation",
+    "title": "Proposition 22.2 (Area dissipation along a smooth closed flow)",
+    "kind": "proposition",
+    "page": "tag/8B2DB27C/index.html",
+    "canonical_tag": "C8E6BF7840BF",
+    "anchor": ""
+  },
+  {
+    "tag": "DD6B68EB",
+    "label": "ex:shrinking-sphere",
+    "title": "Example 22.3 (Shrinking round spheres)",
+    "kind": "example",
+    "page": "tag/DD6B68EB/index.html",
+    "canonical_tag": "2E074E821F62",
+    "anchor": ""
+  },
+  {
+    "tag": "1FBA8379",
+    "label": "rem:flow-program",
+    "title": "Remark 22.4 (Planned weak flows and related variational problems)",
+    "kind": "remark",
+    "page": "tag/1FBA8379/index.html",
+    "canonical_tag": "D1D70B3B2945",
+    "anchor": ""
+  }
+]

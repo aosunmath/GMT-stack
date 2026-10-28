@@ -1,0 +1,1080 @@
+{
+  "version": 1,
+  "stage": "Initial source comparison and mathematical drafting; no independent human review recorded.",
+  "entries": [
+    {
+      "label": "def:allen-cahn-energy",
+      "title": "The Allen-Cahn energy",
+      "kind": "definition",
+      "file": "allen-cahn.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:allen-cahn-variation",
+      "title": "Equation and second variation of Allen-Cahn",
+      "kind": "proposition",
+      "file": "allen-cahn.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:allen-cahn-layer",
+      "title": "A single transition layer",
+      "kind": "example",
+      "file": "allen-cahn.tex",
+      "status": "worked-example",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "def:allen-cahn-energy"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:allen-cahn-minmax",
+      "title": "Multiplicity, curvature, and index in dimension three",
+      "kind": "remark",
+      "file": "allen-cahn.tex",
+      "status": "editorial",
+      "citations": [
+        "CM"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:cmc-functional",
+      "title": "The area-minus-volume functional",
+      "kind": "definition",
+      "file": "cmc.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ZZCMC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-first-variation",
+      "title": "The smooth CMC Euler-Lagrange equation",
+      "kind": "proposition",
+      "file": "cmc.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:smooth-first-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:almost-embedded",
+      "title": "Almost embedded hypersurfaces",
+      "kind": "definition",
+      "file": "cmc.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ZZCMC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:zhou-zhu-cmc",
+      "title": "Prescribed positive constant mean curvature",
+      "kind": "theorem",
+      "file": "cmc.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "ZZCMC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:zhou-zhu-networks",
+      "title": "Curvature networks on a closed surface",
+      "kind": "theorem",
+      "file": "cmc.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "ZZNet"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:current",
+      "title": "Current and boundary",
+      "kind": "definition",
+      "file": "currents.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:boundary-current",
+      "title": "Boundary squared and weak continuity",
+      "kind": "proposition",
+      "file": "currents.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:current"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:mass-current",
+      "title": "Mass and the comass convention",
+      "kind": "definition",
+      "file": "currents.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Fed69",
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:integral-current"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mass-lsc",
+      "title": "Lower semicontinuity of mass",
+      "kind": "proposition",
+      "file": "currents.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:integral-current",
+      "title": "Integer rectifiable and integral currents",
+      "kind": "definition",
+      "file": "currents.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:integral-compactness",
+      "title": "Federer--Fleming compactness",
+      "kind": "theorem",
+      "file": "currents.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Fle16",
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:boundary-current",
+        "prop:mass-lsc"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:polyhedral-chain",
+      "title": "Integer polyhedral chains",
+      "kind": "definition",
+      "file": "currents.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "WhiCho14"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:flat-norm",
+      "title": "Flat norm and completion",
+      "kind": "definition",
+      "file": "currents.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "WhiCho14"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:flat-boundary",
+      "title": "Boundary is continuous in the flat norm",
+      "kind": "proposition",
+      "file": "currents.tex",
+      "status": "proof-included",
+      "citations": [
+        "WhiCho14"
+      ],
+      "dependencies": [
+        "def:flat-norm"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:thin-rectangle",
+      "title": "Thin boundaries and loss of mass",
+      "kind": "example",
+      "file": "currents.tex",
+      "status": "worked-example",
+      "citations": [
+        "WhiCho14"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:mean-curvature-flow",
+      "title": "Smooth mean curvature flow",
+      "kind": "definition",
+      "file": "mean-curvature-flow.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChMin",
+        "MM"
+      ],
+      "dependencies": [
+        "def:smooth-minimal"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-area-dissipation",
+      "title": "Area dissipation along a smooth closed flow",
+      "kind": "proposition",
+      "file": "mean-curvature-flow.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:smooth-first-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:shrinking-sphere",
+      "title": "Shrinking round spheres",
+      "kind": "example",
+      "file": "mean-curvature-flow.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:flow-program",
+      "title": "Planned weak flows and related variational problems",
+      "kind": "remark",
+      "file": "mean-curvature-flow.tex",
+      "status": "editorial",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:radon-measure",
+      "title": "Radon measure",
+      "kind": "definition",
+      "file": "measures.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:weak-measure",
+      "title": "Weak convergence of measures",
+      "kind": "definition",
+      "file": "measures.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:radon-compactness",
+      "title": "Local compactness of Radon measures",
+      "kind": "theorem",
+      "file": "measures.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:measure-lsc",
+      "title": "Lower semicontinuity on open sets",
+      "kind": "proposition",
+      "file": "measures.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:hausdorff-measure",
+      "title": "Normalized Hausdorff measure",
+      "kind": "definition",
+      "file": "measures.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Fed69",
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:lipschitz-measure",
+      "title": "Lipschitz distortion of Hausdorff measure",
+      "kind": "proposition",
+      "file": "measures.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:density",
+      "title": "Density",
+      "kind": "definition",
+      "file": "measures.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:plane-density",
+      "title": "A plane with multiplicity",
+      "kind": "example",
+      "file": "measures.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:minmax-cycles",
+      "title": "Mod-two boundary cycles and topologies",
+      "kind": "definition",
+      "file": "min-max.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "MNIndex"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:homotopy-width",
+      "title": "A fixed homotopy-class width",
+      "kind": "definition",
+      "file": "min-max.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "MNIndex",
+        "Pitts81"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:mass-fineness",
+      "title": "Mass fineness of a discrete family",
+      "kind": "definition",
+      "file": "min-max.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "LMN",
+        "LiAP",
+        "Pitts81"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:smooth-sweepouts",
+      "title": "Smooth sweepouts in dimension three",
+      "kind": "remark",
+      "file": "min-max.tex",
+      "status": "editorial",
+      "citations": [
+        "CDL"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:almost-minimizing",
+      "title": "Almost minimizing in an open set",
+      "kind": "definition",
+      "file": "min-max.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "LiAP",
+        "Pitts81"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:pitts-existence",
+      "title": "Pitts' original smooth existence range",
+      "kind": "theorem",
+      "file": "min-max.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Pitts81"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:ap-realization",
+      "title": "Realization of a positive homotopy width",
+      "kind": "theorem",
+      "file": "min-max.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "LiAP",
+        "MNIndex"
+      ],
+      "dependencies": [
+        "def:homotopy-width"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:pitts-proof-route",
+      "title": "The proof dependencies in Pitts' construction",
+      "kind": "remark",
+      "file": "min-max.tex",
+      "status": "editorial",
+      "citations": [
+        "CDL",
+        "LiAP",
+        "Pitts81"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:smooth-minimal",
+      "title": "Mean curvature and minimality",
+      "kind": "definition",
+      "file": "minimal-surfaces.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChMin",
+        "MM"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:smooth-first-variation",
+      "title": "First variation of a closed hypersurface",
+      "kind": "proposition",
+      "file": "minimal-surfaces.tex",
+      "status": "proof-included",
+      "citations": [
+        "MM"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:second-variation",
+      "title": "Second variation in the two-sided case",
+      "kind": "theorem",
+      "file": "minimal-surfaces.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "ChMin",
+        "MM"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:morse-index",
+      "title": "Stability and Morse index",
+      "kind": "definition",
+      "file": "minimal-surfaces.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "MM",
+        "MNIndex"
+      ],
+      "dependencies": [
+        "thm:second-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:ricci-unstable",
+      "title": "Positive Ricci curvature gives an unstable direction",
+      "kind": "corollary",
+      "file": "minimal-surfaces.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:second-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:minimal-graph-pde",
+      "title": "The minimal graph equation",
+      "kind": "proposition",
+      "file": "minimal-surfaces.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin",
+        "SimonPDE"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:regularity-program",
+      "title": "Regularity techniques and their hypotheses",
+      "kind": "remark",
+      "file": "minimal-surfaces.tex",
+      "status": "editorial",
+      "citations": [
+        "Minter",
+        "SimonPDE"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:willmore-energy",
+      "title": "Willmore energy and normalization",
+      "kind": "definition",
+      "file": "minmax-applications.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "MNWill"
+      ],
+      "dependencies": [
+        "def:smooth-minimal"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:willmore-bound",
+      "title": "The Willmore bound for embedded positive-genus surfaces",
+      "kind": "theorem",
+      "file": "minmax-applications.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "MNWill"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:catenoid-estimate",
+      "title": "What the catenoid estimate supplies",
+      "kind": "remark",
+      "file": "minmax-applications.tex",
+      "status": "editorial",
+      "citations": [
+        "KMN"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:ricci-one-parameter",
+      "title": "One-parameter width in positive Ricci curvature",
+      "kind": "theorem",
+      "file": "minmax-applications.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "KMN"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:nurser-widths",
+      "title": "Nurser's low-width results",
+      "kind": "theorem",
+      "file": "minmax-applications.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Nurser"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:latitude-area",
+      "title": "The latitude family",
+      "kind": "example",
+      "file": "minmax-applications.tex",
+      "status": "worked-example",
+      "citations": [
+        "Nurser"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:obstacle-problem",
+      "title": "The classical scalar obstacle problem",
+      "kind": "definition",
+      "file": "obstacle-problems.tex",
+      "status": "definition",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:obstacle-inequality",
+      "title": "Variational inequality for the obstacle problem",
+      "kind": "proposition",
+      "file": "obstacle-problems.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:obstacle-program",
+      "title": "Planned free-boundary developments",
+      "kind": "remark",
+      "file": "obstacle-problems.tex",
+      "status": "editorial",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:source-editions",
+      "title": "The source editions",
+      "kind": "remark",
+      "file": "orientation.tex",
+      "status": "editorial",
+      "citations": [
+        "Fed69",
+        "Fle16",
+        "Sim14",
+        "Sim18",
+        "WhiCho14"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:notation",
+      "title": "Notation and prerequisites",
+      "kind": "remark",
+      "file": "orientation.tex",
+      "status": "editorial",
+      "citations": [],
+      "dependencies": [
+        "def:mass-current"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:project-scope",
+      "title": "The expanded variational reference",
+      "kind": "remark",
+      "file": "orientation.tex",
+      "status": "editorial",
+      "citations": [
+        "Pitts81"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:bv",
+      "title": "Locally bounded variation",
+      "kind": "definition",
+      "file": "perimeter.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:finite-perimeter",
+      "title": "Finite perimeter",
+      "kind": "definition",
+      "file": "perimeter.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:perimeter-lsc",
+      "title": "Lower semicontinuity of perimeter",
+      "kind": "proposition",
+      "file": "perimeter.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:reduced-boundary",
+      "title": "Reduced boundary and outward normal",
+      "kind": "definition",
+      "file": "perimeter.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:de-giorgi",
+      "title": "De Giorgi structure and Gauss--Green",
+      "kind": "theorem",
+      "file": "perimeter.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Fle16",
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:bv"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:smooth-perimeter",
+      "title": "Smooth domains",
+      "kind": "example",
+      "file": "perimeter.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [
+        "thm:de-giorgi"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:rectifiable-set",
+      "title": "Countable rectifiability",
+      "kind": "definition",
+      "file": "rectifiability.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Fed69",
+        "Sim18",
+        "WhiCho14"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:rademacher",
+      "title": "Rademacher",
+      "kind": "theorem",
+      "file": "rectifiability.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:approximate-tangent",
+      "title": "Approximate tangent plane",
+      "kind": "definition",
+      "file": "rectifiability.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:rectifiable-tangents",
+      "title": "Tangent planes on rectifiable sets",
+      "kind": "theorem",
+      "file": "rectifiability.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:approximate-tangent"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:jacobians",
+      "title": "Area and coarea Jacobians",
+      "kind": "definition",
+      "file": "rectifiability.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:area-formula",
+      "title": "Area formula",
+      "kind": "theorem",
+      "file": "rectifiability.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Fed69",
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:graph-area",
+      "title": "Area of a scalar graph",
+      "kind": "corollary",
+      "file": "rectifiability.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:area-formula"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:coarea-formula",
+      "title": "Coarea formula",
+      "kind": "theorem",
+      "file": "rectifiability.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Fed69",
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:varifold",
+      "title": "Varifold and weight",
+      "kind": "definition",
+      "file": "varifolds.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:rectifiable-varifold",
+      "title": "Rectifiable and integral varifolds",
+      "kind": "definition",
+      "file": "varifolds.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:rectifiable-tangents"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:first-variation",
+      "title": "First variation, stationarity, and mean curvature",
+      "kind": "definition",
+      "file": "varifolds.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:plane-stationary",
+      "title": "An affine plane is stationary",
+      "kind": "proposition",
+      "file": "varifolds.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:stationary-monotonicity",
+      "title": "Stationary monotonicity",
+      "kind": "theorem",
+      "file": "varifolds.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:no-concentration",
+      "title": "No concentration of mass",
+      "kind": "definition",
+      "file": "volume-spectrum.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "LMN"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:p-width",
+      "title": "Sweepouts and the volume spectrum",
+      "kind": "definition",
+      "file": "volume-spectrum.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "LMN",
+        "MNIndex"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:width-monotonicity",
+      "title": "Monotonicity in the sweepout index",
+      "kind": "lemma",
+      "file": "volume-spectrum.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:p-width"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:width-scaling",
+      "title": "Scaling of widths",
+      "kind": "lemma",
+      "file": "volume-spectrum.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:weyl-volume",
+      "title": "Weyl law for the volume spectrum",
+      "kind": "theorem",
+      "file": "volume-spectrum.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "LMN"
+      ],
+      "dependencies": [
+        "lem:width-scaling"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:bumpy-minimal-cycle",
+      "title": "Bumpy metrics and the index of a minimal cycle",
+      "kind": "definition",
+      "file": "volume-spectrum.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "MNIndex"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:minmax-index-equality",
+      "title": "Index equality under a critical-set multiplicity hypothesis",
+      "kind": "theorem",
+      "file": "volume-spectrum.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "MNIndex"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    }
+  ],
+  "external_proof_dependencies": [
+    "Riesz representation and Radon compactness",
+    "Borel regularity and Euclidean normalization of Hausdorff measure",
+    "Rademacher differentiability",
+    "Rectifiability and approximate tangent characterization",
+    "Area and coarea formulas",
+    "BV representation by vector measures",
+    "De Giorgi structure theorem",
+    "Rectifiable current representation and mass formula",
+    "Federer--Fleming compactness and closure",
+    "Nondegeneracy of the polyhedral flat norm",
+    "Stationary varifold monotonicity",
+    "Smooth second variation and normal-bundle index theory",
+    "Almgren cycle-space topology and detecting cohomology classes",
+    "Discrete-continuous interpolation with no concentration",
+    "Pitts pull-tight and combinatorial almost-minimizing construction",
+    "Replacement regularity including the Schoen-Simon extension",
+    "Weyl law localization and gluing",
+    "Multiplicity-one hypotheses and White local min-max for index equality",
+    "Willmore canonical family and catenoid deformations",
+    "Nurser low-width lower bounds and detecting families",
+    "Zhou-Zhu CMC and network min-max regularity",
+    "Allen-Cahn compactness, sheet separation, and index comparison"
+  ],
+  "next_development": [
+    "Covering and differentiation theorems for measures",
+    "Proofs of Rademacher and the area/coarea formulas",
+    "BV compactness and De Giorgi blow-up theorem",
+    "Deformation theorem and compactness of integral currents",
+    "Varifold monotonicity proof, compactness, then Allard regularity",
+    "Detailed Pitts proof chain and modern regularity hypotheses",
+    "Proofs and comparison of the volume-spectrum conventions",
+    "Dedicated obstacle-problem and mean-curvature-flow source corpora",
+    "Free-boundary, Plateau, capillarity, and prescribed-mean-curvature branches"
+  ]
+}

@@ -10,6 +10,8 @@ import subprocess
 import sys
 
 from publish import deployment_current, request_deployment, project_unchanged
+from build import relative_path, source_key
+from source_snapshot import manuscript_snapshot
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -33,19 +35,27 @@ def current_revision(repository, ref):
 def update(force=False):
     # Never overwrite an editor's uncommitted work or change their branch.
     if run("git", "status", "--porcelain", capture=True):
-        raise ValueError("Commit or save local Pome changes before requested publication")
+        raise ValueError("Commit or save local project changes before requested publication")
     if run("git", "branch", "--show-current", capture=True) != "main":
         raise ValueError("The local updater requires the main branch")
     run("git", "pull", "--ff-only", "origin", "main")
     books = json.loads((ROOT / "books.json").read_text())["books"]
     proofs = json.loads((ROOT / "formalizations.json").read_text())["entries"]
-    keys = {(item["repository"], item.get("ref", "HEAD")) for item in books + proofs}
-    revisions = [{"repository": repo, "ref": ref, "commit": current_revision(repo, ref)}
-                 for repo, ref in sorted(keys)]
+    records = {source_key(item): item for item in books + proofs}
+    revisions = []
+    for (repo, ref), record in sorted(records.items()):
+        if "local_path" in record:
+            folder = (ROOT / relative_path(record["local_path"])).resolve()
+            if not folder.is_relative_to(ROOT.resolve()):
+                raise ValueError("Local manuscript must stay inside the project")
+            provenance = manuscript_snapshot(folder)
+        else:
+            provenance = {"commit": current_revision(repo, ref)}
+        revisions.append({"repository": repo, "ref": ref, **provenance})
     receipt = json.loads((ROOT / "docs" / "upstream.json").read_text())
     if not force and project_unchanged(receipt.get("publishing_commit")) and receipt["sources"] == revisions:
         if deployment_current(receipt):
-            print("No changes: the public Pome collection is current.")
+            print("No changes: the public project collection is current.")
         else:
             request_deployment(receipt)
         return

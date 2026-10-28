@@ -1,0 +1,22 @@
+\chapter{Sources and conventions}\label{sec:sources-conventions}
+We begin with the common language of geometric measure theory: measures record size, rectifiable sets supply tangent planes, and currents and varifolds encode different geometric data. The Stack Project of Geometric Measure Theory and Variational Problems develops this language together with minimal surfaces, CMC surfaces, min-max theory, phase transitions, obstacle problems, and mean curvature flow. The exposition and elementary proofs are written for this project. Theorems used without proof are explicitly identified below; their cited proofs remain external dependencies.
+
+\begin{remark}[The source editions]\label{rem:source-editions}
+The initial foundational corpus contains five distinct works or editions. Federer, \emph{Geometric Measure Theory} (1969), supplies the systematic reference \cite{Fed69}. Simon's \emph{Introduction to Geometric Measure Theory}, copyright 2017, 2018, is the main source for the initial statements \cite{Sim18}. The supplied 2014 version \cite{Sim14} is retained as a separate edition: its printed page numbers differ from those of the later text.
+
+White's \emph{Topics in GMT}, with notes by Otis Chodosh dated November 6, 2014, supplies the flat-chain viewpoint \cite{WhiCho14}. The two supplied filenames for these notes are byte-for-byte identical and represent one bibliographic source. Fleming's 2016 article \cite{Fle16} supplies historical context for finite perimeter and integral currents. It is not used as a substitute for a detailed proof of the structure or compactness theorems.
+
+Source citations use the printed page numbers of these editions, not PDF viewer page numbers. In the two Simon files, a PDF page usually contains a two-page spread. The source inventory records file hashes and the page conventions so later additions can use the same editions.
+\end{remark}
+
+\begin{remark}[Notation and prerequisites]\label{rem:notation}
+Unless stated otherwise, $U$ is an open subset of $\mathbb{R}^n$, $1\leq m\leq n$, and $B_r(x)$ is the open Euclidean ball. We write $\mathcal{L}^n$ for Lebesgue measure, $\omega_m=\mathcal{L}^m(B_1(0))$, and $\mu\llcorner E$ for the restriction of a measure to a measurable set $E$. The notation $W\Subset U$ means that $\overline W$ is compact and contained in $U$. Continuous compactly supported functions form $C_c(U)$.
+
+We assume elementary Lebesgue integration, the dominated and monotone convergence theorems, and basic differential forms. These prerequisites have not yet been developed in the stack. All almost-everywhere statements specify their measure. Sets of finite perimeter are considered modulo $\mathcal{L}^n$-null sets. Our normal to a set of finite perimeter points outward; Simon uses the inward normal in Chapter 3, Section 4. For currents we use the comass convention for mass, as explained in Definition~\ref{def:mass-current}.
+\end{remark}
+
+\begin{remark}[The expanded variational reference]\label{rem:project-scope}
+The first variational additions connect Pitts' book \cite{Pitts81} to minimal hypersurfaces and stability, cycle-space min-max theory, the volume spectrum, Morse index, Willmore geometry, CMC hypersurfaces, curvature networks, and Allen--Cahn theory. They draw on the sixteen additional supplied files, with editions and roles recorded in the source inventory. Together with the classical corpus there are twenty-one distinct works or editions in twenty-two supplied files.
+
+The obstacle and mean-curvature-flow chapters currently contain model formulations and elementary calculations. Their deeper regularity, singularity, and weak-solution theories are planned developments. Related topics include Plateau problems, free-boundary minimal surfaces, capillarity, prescribed mean curvature, and geometric PDE. A cited theorem without a local proof remains an external dependency; a chapter in the table of contents does not mean that its subject is complete.
+\end{remark}

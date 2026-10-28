@@ -1,8 +1,5 @@
 {
-  "repo": "MingchenXia/Pome",
-  "repo_id": "R_kgDOVKfctw",
-  "category": "General",
-  "category_id": "DIC_kwDOVKfct84DIf0F",
-  "category_slug": "general",
-  "term_prefix": "Gerby"
+  "enabled": false,
+  "repo": "aosunmath/GMT-stack",
+  "term_prefix": "Stack Project of Geometric Measure Theory and Variational Problems"
 }

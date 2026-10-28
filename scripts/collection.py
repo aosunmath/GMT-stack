@@ -1,4 +1,4 @@
-"""Combine Pome exports into shared chapters with reviewed canonical entries."""
+"""Combine GMT Stack exports into shared chapters with reviewed canonical entries."""
 from __future__ import annotations
 
 from hashlib import sha256
@@ -22,6 +22,8 @@ from reading_edits import apply_reading_edits, validate_reading_edits
 from numbering import assign_numbers
 from history import curate_history
 from search_index import write_search_index
+from project import TITLE, DESCRIPTION, REPOSITORY
+from source_snapshot import revision_id, revision_markup
 
 
 def slugify(title):
@@ -209,7 +211,7 @@ def prepare_fragment(variant, source_tags, references, root, component_anchors=N
     image = r"\\gerbyimage\{([^}]+)\}\{([^}]+)\}"
     def illustration(match):
         return '<img class="source-figure" src="/asset/' + escape(match[1], quote=True) + '" alt="' + escape(match[2], quote=True) + '" loading="lazy">'
-    # Pome serializes math bodies as TeX. A diagram inside display math must
+    # GMT Stack serializes math bodies as TeX. A diagram inside display math must
     # become an image outside the math delimiters, retaining its equation tag.
     fragment = re.sub(r"\\\[\s*" + image + r"\s*\\\]", illustration, fragment)
     fragment = re.sub(r"\\begin\{equation\*?\}\s*(?:\\label\{[^}]+\}\s*)?" + image + r"\s*\\end\{equation\*?\}", illustration, fragment)
@@ -307,7 +309,7 @@ def prepare_fragment(variant, source_tags, references, root, component_anchors=N
 @cache
 def asset_revision():
     folder = Path(__file__).resolve().parents[1] / "site" / "assets"
-    names = ("book.css", "collection.css", "formalization.css", "math-config.js", "formalization.mjs", "collection.mjs", "pome-mascot.png", "comments.mjs", "search.mjs")
+    names = ("book.css", "collection.css", "formalization.css", "math-config.js", "formalization.mjs", "collection.mjs", "comments.mjs", "search.mjs")
     return sha256(b"".join((folder / name).read_bytes() for name in names)).hexdigest()[:12]
 
 
@@ -404,7 +406,7 @@ def redirect(path, target, destination, fragments=None, anchor="", fragment_rout
     relative += anchor
     assets = Path(os.path.relpath(destination / "assets", path.parent)).as_posix() + "/"
     fragment_anchors = "".join(f'<span hidden id="{escape(identifier, quote=True)}"></span>' for identifier in dict.fromkeys([*(fragments or {}), *(fragment_routes or {})]))
-    path.write_text(f'''<!doctype html><html lang="en" data-redirect="{escape(relative, quote=True)}" data-fragments='{escape(json.dumps(fragments or {}), quote=True)}' data-fragment-routes='{escape(json.dumps(fragment_routes or {}), quote=True)}'><head><meta charset="utf-8"><title>Continue to Pome</title><link rel="canonical" href="{escape(relative, quote=True)}"><script defer src="{assets}redirect.js"></script></head><body>{fragment_anchors}<p>This content is part of the shared Pome reference. <a href="{escape(relative, quote=True)}">Continue to the shared entry</a>.</p></body></html>''')
+    path.write_text(f'''<!doctype html><html lang="en" data-redirect="{escape(relative, quote=True)}" data-fragments='{escape(json.dumps(fragments or {}), quote=True)}' data-fragment-routes='{escape(json.dumps(fragment_routes or {}), quote=True)}'><head><meta charset="utf-8"><title>Continue to {escape(TITLE)}</title><link rel="canonical" href="{escape(relative, quote=True)}"><script defer src="{assets}redirect.js"></script></head><body>{fragment_anchors}<p>This content is part of the shared {escape(TITLE)} reference. <a href="{escape(relative, quote=True)}">Continue to the shared entry</a>.</p></body></html>''')
 
 
 def build_collection(books, destination, configuration):
@@ -450,8 +452,10 @@ def build_collection(books, destination, configuration):
         page.parent.mkdir(parents=True, exist_ok=True)
         page.write_text(reader.shell(content, route, root, asset_revision()))
 
-    introduction = f'<section class="collection-intro"><div><h1>Pome</h1><p>A Stacks Project for pluripotential theory</p><p class="collection-count">{len(entries):,} entries · {len(chapters)} chapters · {len(topics)} sections · {len(sources)} sources</p></div><img class="home-mascot" src="assets/pome-mascot.png" alt="Pome pomegranate mascot" width="128" height="128"></section>'
-    write("", introduction + '<nav class="home-links" aria-label="Explore Pome"><a href="chapters/">Table of contents</a><a href="search/">Search</a><a href="references/">Bibliography</a><a href="comments/">Comments</a><a href="sources/">Sources</a><a href="https://github.com/MingchenXia/Pome">GitHub</a></nav><h2>Table of contents</h2>' + reader.contents(""), "Pome", "")
+    introduction = f'<section class="collection-intro"><div><h1>{TITLE}</h1><p>{DESCRIPTION}</p><p class="collection-count">{len(entries):,} entries · {len(chapters)} chapters · {len(topics)} sections · {len(sources)} manuscript{"s" if len(sources) != 1 else ""} · {len(references)} references</p></div></section>'
+    if not entries:
+        introduction += '<p>Content on geometric measure theory and variational problems will be added here.</p>'
+    write("", introduction + f'<nav class="home-links" aria-label="Explore {escape(TITLE)}"><a href="chapters/">Table of contents</a><a href="search/">Search</a><a href="references/">Bibliography</a><a href="comments/">Comments</a><a href="sources/">Sources</a><a href="{REPOSITORY}">GitHub</a></nav><h2>Table of contents</h2>' + reader.contents(""), TITLE, "")
     write("chapters", '<h1>Table of contents</h1>' + reader.contents("../"), "Table of contents", "../")
     for key, chapter in chapters.items():
         content = f'<p class="eyebrow">Chapter {chapter["number"]}</p><h1>{escape(chapter["title"])}{tag_code(chapter["tag"])}</h1><p>{escape(chapter.get("description", ""))}</p>'
@@ -497,7 +501,7 @@ def build_collection(books, destination, configuration):
     for configured in configuration["entries"]:
         if configured["topic"] in configuration.get("excluded_topics", []):
             redirect(destination / "tag" / configured["tag"] / "index.html", contents, destination)
-    write("entries", '<h1>All entries</h1><p>Search across every source, or follow the shared chapter order below.</p>' + "".join(f'<h2><a href="../chapters/{key}/">{chapter["number"]}. {escape(chapter["title"])}</a></h2>' + entry_list([e for e in entries.values() if e["topic"] in chapter["topics"]], topics, "../") for key, chapter in chapters.items()), "All entries", "../")
+    write("entries", '<h1>All entries</h1>' + ('<p>Search across every source, or follow the shared chapter order below.</p>' if entries else '<p>No entries have been added yet.</p>') + "".join(f'<h2><a href="../chapters/{key}/">{chapter["number"]}. {escape(chapter["title"])}</a></h2>' + entry_list([e for e in entries.values() if e["topic"] in chapter["topics"]], topics, "../") for key, chapter in chapters.items()), "All entries", "../")
     search = [{"tag": chapter["tag"], "title": f'{chapter["number"]} {chapter["title"]}', "search_title": chapter["title"], "kind": "chapter", "topic": chapter["title"], "text": "", "aliases": []} for chapter in chapters.values()]
     search += [{"tag": section["tag"], "title": f'{section["number"]} {section["title"]}', "search_title": section["title"], "kind": "section", "topic": chapters[section["chapter"]]["title"], "text": "", "aliases": []} for section in reader.sections.values() if not any(e.get("section_intro") for e in section["entries"])]
     public_entries, merges, section_search = [], [], {}
@@ -519,7 +523,7 @@ def build_collection(books, destination, configuration):
                 body = '<details class="source-alternative"><summary>Read the alternative statement and proof</summary>' + body + '</details>'
             content += f'<section class="source-variant" data-gerby-book="{source}">{badge}{body}</section>'
             texts.append(parsed_body.get_text(" ", strip=True))
-            variants.append({"book": source, "tag": local, "label": variant["label"], "revision": editions[source]["commit"]})
+            variants.append({"book": source, "tag": local, "label": variant["label"], "revision": revision_id(editions[source])})
         if entry.get("section_intro"):
             fragments = {v["source"] + "-" + v["tag"]: v["source"] + "-" + v["tag"] for v in entry["components"]}
             redirect(destination / "tag" / tag / "index.html", destination / "sections" / entry["topic"] / "index.html", destination, fragments, anchor="#entry-" + tag)
@@ -545,27 +549,37 @@ def build_collection(books, destination, configuration):
                 redirect(destination / "tag" / old / "index.html", destination / "tag" / tag / "index.html", destination, anchor=anchors.get((variant["source"], variant["tag"]), ""))
     source_list = '<h1>Sources</h1><p>Contributions share one chapter structure. Attribution and exact revisions remain available for every entry. These are working mathematical texts; inclusion does not certify a proof or a formalization.</p><ul class="entry-list">'
     for source, book in sources.items():
-        author = re.sub(r'\bGerby\b(?!-)', 'Pome', book.get('author', ''))
+        author = book.get('author', '')
         source_list += f'<li><a href="{source}/">{escape(book["title"])}</a> · {escape(author)}</li>'
         relevant = [entry for entry in entries.values() if any(v["source"] == source for v in entry["variants"])]
         source_content = f'<p class="eyebrow">Source attribution</p><h1>{escape(book["title"])}</h1><p>{escape(author)}</p><p>These contributions appear throughout the shared chapters.</p>'
         if book.get("visibility") == "private":
             source_content += '<p class="source-notice">This reading edition is published by permission. The source repository remains private; its revision links require access. Research files and source archives are not included.</p>'
-        source_content += f'<p><a href="{escape(book["repository"])}/commit/{editions[source]["commit"]}">Source revision {editions[source]["commit"][:12]} ↗</a></p>'
+        source_content += "<p>" + revision_markup(editions[source], book["repository"]) + "</p>"
+        if book.get("description"):
+            source_content += "<p>" + escape(book["description"]) + "</p>"
         source_notes = [note for note in reading_notes if note['source'] == source]
         if source_notes:
-            source_content += '<h2>Attribution and further reading</h2><p>Original source commentary and bibliographical references accompany the corresponding Pome entries here.</p>'
+            source_content += '<h2>Attribution and further reading</h2><p>Original source commentary and bibliographical references accompany the corresponding reference entries here.</p>'
             for note in source_notes:
                 entry = entries[note['tag']]
                 variant = {'source': source, 'label': note['label'], 'tag': entry['variants'][0]['tag'], 'html': note['html']}
                 body = prepare_fragment(variant, source_tags, reference_map, '../../', anchors, reader.numbering)
                 source_content += f'<details class="source-attribution"><summary><a href="../../tag/{entry["tag"]}/">{escape(display_title(entry))}</a></summary>{body}</details>'
+        provenance_files = ["edition.json"]
+        for name in ("source-inventory.json", "entry-review.json"):
+            if (destination / "books" / source / name).is_file():
+                provenance_files.append(name)
+        source_content += '<p>Source records: ' + ' · '.join(f'<a href="{name}">{title}</a>' for name, title in (("edition.json", "Build manifest"), ("source-inventory.json", "Reference inventory"), ("entry-review.json", "Entry and proof status")) if name in provenance_files) + '</p>'
         source_content += '<h2>Contributed entries</h2>'
         write("sources/" + source, source_content + entry_list(relevant, topics, "../../"), book["title"], "../../")
         source_folder = destination / "sources" / source
         (source_folder / "tags.json").write_text(json.dumps([{**record, "canonical_tag": source_tags[(source, record["tag"])], "anchor": anchors.get((source, record["tag"]), "")} for record in inventories[source]], indent=2) + "\n")
         (source_folder / "edition.json").write_text(json.dumps(editions[source], indent=2) + "\n")
         old_folder = destination / "books" / source
+        for name in provenance_files:
+            if name != "edition.json":
+                shutil.copyfile(old_folder / name, source_folder / name)
         shutil.rmtree(old_folder)
         redirect(old_folder / "index.html", source_folder / "index.html", destination)
         for record in inventories[source]:
@@ -579,13 +593,18 @@ def build_collection(books, destination, configuration):
                 elif configured["topic"] in configuration.get("excluded_topics", []):
                     redirect(old_folder / "tag" / configured["tag"] / "index.html", contents, destination)
         redirect(old_folder / "bibliography" / "index.html", destination / "references" / "index.html", destination, {key: identifier for (origin, key), identifier in reference_map.items() if origin == source})
-    write("sources", source_list + '</ul><p><a href="../deduplication.json">Reviewed duplicate groups and retained source tags</a></p>', "Sources", "../")
+    write("sources", source_list + ('</ul>' if sources else '</ul><p>No sources have been added yet.</p>') + '<p><a href="../deduplication.json">Reviewed duplicate groups and retained source tags</a></p>', "Sources", "../")
     reference_content = '<h1>Bibliography</h1><p>Bibliographic references cited across the shared collection.</p>'
+    if not references:
+        reference_content += '<p>No references have been added yet.</p>'
     for identifier, record in sorted(references.items()):
         reference_content += f'<div class="bibliography-entry" id="{identifier}">{record["html"]}</div>'
     write("references", reference_content, "References", "../")
     write("search", '<h1>Search</h1><form class="page-search" role="search"><label for="page-search">Keywords, a statement number, or a permanent tag</label><input id="page-search" type="search" name="q" autocomplete="off" aria-controls="page-search-results"><button type="submit">Search</button></form><div id="page-search-results" aria-live="polite"></div>', "Search", "../")
-    write("comments", '<h1>Comments and corrections</h1><p>Each chapter, section, and entry has its own comment thread. Use the Comments link on a reading page for a question or correction about that page.</p><p><a href="https://github.com/MingchenXia/Pome/discussions">Browse all discussions on GitHub</a></p><p>The comment thread below is for general feedback about the reference. Markdown and mathematical notation are supported by GitHub Discussions. Please identify the statement and give enough detail for others to check a proposed correction.</p>', "Comments", "../")
+    comment_content = '<h1>Comments and corrections</h1>'
+    if comments.get("enabled", True):
+        comment_content += f'<p>Use the Comments link on a reading page for a question or correction about that page.</p><p><a href="{REPOSITORY}/discussions">Browse all discussions on GitHub</a></p>'
+    write("comments", comment_content, "Comments", "../")
     write_search_index(search, destination)
     public_topics = [{**topic, "number": reader.sections[key]["number"], "tag": reader.sections[key]["tag"]} for key, topic in topics.items()]
     (destination / "collection.json").write_text(json.dumps({"version": 1, "chapters": list(chapters.values()), "topics": public_topics, "entries": public_entries}, ensure_ascii=False, indent=2) + "\n")

@@ -2,101 +2,13 @@
   "version": 1,
   "books": [
     {
-      "slug": "foundations-of-pluripotential-theory",
-      "title": "Foundations of pluripotential theory",
-      "author": "Mingchen Xia",
-      "repository": "https://github.com/MingchenXia/foundations-of-pluripotential-theory",
-      "ref": "main",
-      "entrypoint": "book.tex",
-      "checkout_env": "FOUNDATIONS_SOURCE_DIR",
-      "status": "published"
-    },
-    {
-      "slug": "sgpt",
-      "title": "Singularities in global pluripotential theory",
-      "author": "Mingchen Xia",
-      "repository": "https://github.com/MingchenXia/SGPT",
-      "ref": "main",
-      "entrypoint": "book.tex",
-      "checkout_env": "SGPT_SOURCE_DIR",
-      "status": "published"
-    },
-    {
-      "slug": "non-kahler-pluripotential-theory",
-      "title": "Singularities in Hermitian pluripotential theory",
-      "author": "AI-assisted working research draft",
-      "repository": "https://github.com/MingchenXia/non-kahler-pluripotential-theory",
-      "ref": "main",
-      "entrypoint": "book/book.tex",
-      "checkout_env": "NON_KAHLER_SOURCE_DIR",
-      "visibility": "private",
-      "status": "published"
-    },
-    {
-      "slug": "classical-potential-theory",
-      "title": "Classical potential theory: supplements after Helms",
-      "author": "Gerby Literature preparation after L. L. Helms",
-      "repository": "https://github.com/MingchenXia/Gerby-Literature",
-      "ref": "main",
-      "entrypoint": "contributions/classical-potential-theory.tex",
-      "checkout_env": "LITERATURE_SOURCE_DIR",
-      "visibility": "private",
-      "status": "published"
-    },
-    {
-      "slug": "klimek-pluripotential-theory",
-      "title": "Local and global pluripotential theory: supplements after Klimek",
-      "author": "Gerby Literature preparation after Maciej Klimek",
-      "repository": "https://github.com/MingchenXia/Gerby-Literature",
-      "ref": "main",
-      "entrypoint": "contributions/klimek-pluripotential-theory.tex",
-      "checkout_env": "KLIMEK_SOURCE_DIR",
-      "visibility": "private",
-      "status": "published"
-    },
-    {
-      "slug": "demailly-complex-geometry",
-      "title": "Complex analysis, cohomology and differential geometry",
-      "author": "Gerby Literature",
-      "repository": "https://github.com/MingchenXia/Gerby-Literature",
-      "ref": "main",
-      "entrypoint": "contributions/demailly-complex-geometry.tex",
-      "checkout_env": "DEMAILLY_SOURCE_DIR",
-      "visibility": "private",
-      "status": "published"
-    },
-    {
-      "slug": "transcendental-positive-cones",
-      "title": "Transcendental positive cones",
-      "author": "Gerby Literature",
-      "repository": "https://github.com/MingchenXia/Gerby-Literature",
-      "ref": "main",
-      "entrypoint": "contributions/transcendental-positive-cones.tex",
-      "checkout_env": "POSITIVE_CONES_SOURCE_DIR",
-      "visibility": "private",
-      "status": "published"
-    },
-    {
-      "slug": "isolated-plurisubharmonic-singularities",
-      "title": "Isolated plurisubharmonic singularities",
-      "author": "Gerby Literature",
-      "repository": "https://github.com/MingchenXia/Gerby-Literature",
-      "ref": "main",
-      "entrypoint": "contributions/isolated-plurisubharmonic-singularities.tex",
-      "checkout_env": "ISOLATED_PSH_SOURCE_DIR",
-      "visibility": "private",
-      "status": "published"
-    },
-    {
-      "slug": "cao-paun-foliations",
-      "title": "Relative canonical bundles and positive foliations",
-      "author": "Gerby Literature",
-      "repository": "https://github.com/MingchenXia/Gerby-Literature",
-      "ref": "a6e5b1149b8e20e8312bbc335156182b7a416697",
-      "entrypoint": "contributions/cao-paun-foliations.tex",
-      "checkout_env": "CAO_PAUN_SOURCE_DIR",
-      "visibility": "private",
-      "status": "published"
+      "slug": "gmt-foundations",
+      "title": "Geometric measure theory and variational problems: a first reading",
+      "author": "Stack Project of Geometric Measure Theory and Variational Problems contributors",
+      "repository": "https://github.com/aosunmath/GMT-stack",
+      "status": "published",
+      "local_path": "content/gmt-foundations",
+      "description": "Original exposition connecting classical GMT with minimal surfaces, Almgren-Pitts min-max theory, the volume spectrum, CMC problems, and Allen-Cahn theory. Obstacle problems and mean curvature flow have introductory scope notes. The source inventory identifies the supplied editions; source scans are not distributed. Cited theorems without local proofs are marked in the text."
     }
   ]
 }

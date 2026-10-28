@@ -1,0 +1,74 @@
+\chapter{Minimal hypersurfaces and stability}\label{sec:minimal-stability}
+In the variational chapters we write $M^{n+1}$ for the ambient manifold and $\Sigma^n$ for a hypersurface. Thus $n$ is the hypersurface dimension. A surface has $n=2$. These conventions replace the Euclidean dimension letters used in the foundational chapters. The smooth theory connects the first variation of varifolds with elliptic equations and Morse index. Sources for this section are Marques' lectures, recorded by Montezuma, \cite{MM}, Sections 2 and 6, and Chodosh \cite{ChMin}, Sections 7 and 23.
+
+\begin{definition}[Mean curvature and minimality]\label{def:smooth-minimal}
+For a smooth immersed hypersurface $\Sigma\subset M$, let
+\[
+ B(X,Y)=(\nabla^M_XY)^\perp,\qquad
+ \vec H=\operatorname{tr}_{T\Sigma}B.
+\]
+We call $\Sigma$ minimal when $\vec H=0$. If a global unit normal $\nu$ exists, $\Sigma$ is two-sided. Our scalar convention is $H=\operatorname{div}_{\Sigma}\nu$, so that $\vec H=-H\nu$. With the outward normal, a Euclidean sphere of radius $R$ has $H=n/R$. Here $H$ is the sum of principal curvatures; in the Willmore energy we explicitly use their average. See \cite{MM}, Section 2, and \cite{ChMin}, Section 7.
+\end{definition}
+
+\begin{proposition}[First variation of a closed hypersurface]\label{prop:smooth-first-variation}
+Let $\Sigma$ be smooth, compact, and without boundary. If $F_t$ is a smooth variation with velocity $X$, then
+\[
+ \left.\frac{d}{dt}\right|_{0}\operatorname{Area}(F_t(\Sigma))
+ =\int_\Sigma\operatorname{div}_\Sigma X\,dA
+ =-\int_\Sigma\langle\vec H,X\rangle\,dA.
+\]
+For $X=f\nu$ this equals $\int_\Sigma Hf\,dA$. This is the smooth counterpart of the varifold first variation. Compare \cite{MM}, Theorems 2.3 and 2.6.
+\end{proposition}
+\begin{proof}
+In local coordinates, differentiating the induced metric gives
+$\dot g_{ij}=\langle\nabla_iX,e_j\rangle+\langle e_i,\nabla_jX\rangle$.
+The identity $\frac{d}{dt}\sqrt{\det g}=\frac12\operatorname{tr}(g^{-1}\dot g)\sqrt{\det g}$ therefore gives $\dot{dA}=\operatorname{div}_\Sigma X\,dA$.
+Decompose $X=X^T+X^\perp$. Differentiating $\langle X^\perp,e_i\rangle=0$ along an orthonormal tangent frame yields
+$\operatorname{div}_\Sigma X=\operatorname{div}_\Sigma X^T-\langle\vec H,X\rangle$.
+The tangential divergence integrates to zero because $\Sigma$ has no boundary. Finally substitute $\vec H=-H\nu$.
+\end{proof}
+
+\begin{theorem}[Second variation in the two-sided case]\label{thm:second-variation}
+Let $\Sigma^n\subset(M^{n+1},g)$ be a smooth, closed, two-sided minimal hypersurface. For a smooth normal variation with initial velocity $f\nu$, the second derivative of area is
+\[
+ Q(f,f)=\int_\Sigma\bigl(|\nabla_\Sigma f|^2-(|B|^2+\operatorname{Ric}_M(\nu,\nu))f^2\bigr)\,dA.
+\]
+With $\Delta_\Sigma=\operatorname{div}_\Sigma\nabla_\Sigma$, define
+$J=\Delta_\Sigma+|B|^2+\operatorname{Ric}_M(\nu,\nu)$; then $Q(f,f)=-\int_\Sigma fJf\,dA$.
+Source: \cite{MM}, Theorem 6.2, specialized to a closed hypersurface; also \cite{ChMin}, Section 23. The second-variation computation remains an external proof dependency.
+\end{theorem}
+
+\begin{definition}[Stability and Morse index]\label{def:morse-index}
+For the hypersurface in Theorem \ref{thm:second-variation}, stability means $Q(f,f)\geq0$ for every smooth $f$. The Morse index is the largest dimension of a linear subspace on which $Q$ is negative definite. A Jacobi field is a normal field in the kernel of the Jacobi operator. For a one-sided hypersurface, use sections of its normal line bundle, equivalently the appropriate equivariant functions on the two-sided cover. These are unrestricted area variations; CMC stability will use a volume constraint. See \cite{MM}, Section 9, and \cite{MNIndex}, Section 1.
+\end{definition}
+
+\begin{corollary}[Positive Ricci curvature gives an unstable direction]\label{cor:ricci-unstable}
+If $\operatorname{Ric}_M>0$, every nonempty smooth closed two-sided minimal hypersurface has Morse index at least one.
+\end{corollary}
+\begin{proof}
+Put $f=1$ in Theorem \ref{thm:second-variation}. The gradient term vanishes, while $|B|^2+\operatorname{Ric}_M(\nu,\nu)>0$ everywhere. Consequently $Q(1,1)<0$, and the span of the constant function is a negative direction.
+\end{proof}
+
+\chapter{Minimal graphs and elliptic regularity}\label{sec:minimal-graphs}
+The graph equation is a first bridge from geometric variation to nonlinear elliptic PDE. Simon's supplied \emph{Lectures on PDE}, last updated March 5, 2015, develops the analytic background and treats the minimal surface and mean curvature equations in Chapter 19 \cite{SimonPDE}.
+
+\begin{proposition}[The minimal graph equation]\label{prop:minimal-graph-pde}
+Let $U\subset\mathbb R^n$ be open and $u\in C^2(U)$. The graph of $u$ is stationary for compactly supported vertical variations if and only if
+\[
+ \operatorname{div}\left(\frac{Du}{\sqrt{1+|Du|^2}}\right)=0.
+\]
+Equivalently,
+$\bigl(\delta_{ij}-u_i u_j/(1+|Du|^2)\bigr)u_{ij}=0$,
+where repeated indices are summed. Compare \cite{SimonPDE}, Chapter 19, and \cite{ChMin}, Section 18.
+\end{proposition}
+\begin{proof}
+For a relatively compact domain containing the support of a test function $\phi$, the graph area is $\int\sqrt{1+|Du|^2}$ by the area formula. Its derivative at $u+t\phi$ is
+$\int Du\cdot D\phi/\sqrt{1+|Du|^2}$.
+Integration by parts gives the stated equation. Expanding the divergence gives the nondivergence expression. Since $u$ is $C^2$, the weak and pointwise expressions agree.
+\end{proof}
+
+\begin{remark}[Regularity techniques and their hypotheses]\label{rem:regularity-program}
+Minter's Spring 2024 course \cite{Minter} is the guide for a later proof sequence: tangent cones and stratification (Section 1), stable hypersurfaces (Section 2), Allard regularity and excess decay (Section 3), cylindrical tangent cones (Section 4), and Wickramasekera's sheeting theory (Section 5). Simon \cite{SimonPDE}, Chapters 5--9, 12, and 17--19, supplies Sobolev, elliptic, Schauder, and De Giorgi--Nash--Moser tools.
+
+These are distinct regularity inputs. Stationarity by itself does not imply smoothness. An application of Allard's theorem must state its density, excess, and first-variation assumptions; an application of stable-varifold regularity must also state its structural and dimension assumptions. Detailed formulations and proofs of these theorems have not yet been added here.
+\end{remark}

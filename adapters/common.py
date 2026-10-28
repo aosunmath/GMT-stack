@@ -18,18 +18,21 @@ import tempfile
 
 from bs4 import BeautifulSoup
 from unidecode import unidecode
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+from source_snapshot import manuscript_snapshot, revision_markup
+from project import CONTRIBUTORS
 
-SLUG = "foundations-of-pluripotential-theory"
-TITLE = "Foundations of pluripotential theory"
-REPOSITORY = f"https://github.com/MingchenXia/{SLUG}"
-AUTHOR = "Mingchen Xia"
+SLUG = "gmt-source"
+TITLE = "GMT source"
+REPOSITORY = "https://github.com/aosunmath/GMT-stack"
+AUTHOR = CONTRIBUTORS
 DIRECTORY = ""
-BIBLIOGRAPHY = "ComplexGeometry.bib"
+BIBLIOGRAPHY = "references.bib"
 ASSETS = None
 DEFAULT_TOPIC = "Project notes"
 
 
-def configure(slug, title, repository, author="Mingchen Xia", directory="", bibliography="ComplexGeometry.bib", topic="Project notes"):
+def configure(slug, title, repository, author=CONTRIBUTORS, directory="", bibliography="references.bib", topic="Project notes"):
     global SLUG, TITLE, REPOSITORY, AUTHOR, DIRECTORY, BIBLIOGRAPHY, DEFAULT_TOPIC
     SLUG, TITLE, REPOSITORY, AUTHOR, DIRECTORY, BIBLIOGRAPHY = slug, title, repository, author, directory, bibliography
     DEFAULT_TOPIC = topic
@@ -70,27 +73,9 @@ def active_text(source, name="book.tex", stack=()):
 
 
 def prepare_tex(source):
-    if SLUG != "foundations-of-pluripotential-theory":
-        from profiles import prepare
-        return prepare(source, SLUG, ASSETS, THEOREMS)
-    book = uncomment((source / "book.tex").read_text())
-    if r"\documentclass[envcountsect]{svmono}" not in book:
-        raise ValueError("The source document class changed; review the Gerby numbering adapter")
-    body = book[book.index(r"\begin{document}"):]
-    def expand(match):
-        name = match[1] if Path(match[1]).suffix else match[1] + ".tex"
-        return active_text(source, name)
-    body = re.sub(r"\\(?:input|include)\s*\{([^}]+)\}", expand, body)
-    body = body.replace(r"\preface", r"\chapter*{Preface}")
-    body = re.sub(r"\\extrachap\{([^}]+)\}", r"\\chapter*{\1}", body)
-    # Bibliography entries are exported separately from the cited upstream database.
-    body = re.sub(r"\\(?:printindex|bibliographystyle\{[^}]+\}|bibliography\{[^}]+\})", "", body)
-    preamble = uncomment((source / "style/book-preamble.tex").read_text())
-    macros = preamble[preamble.index(r"\newcommand{\nef}"):preamble.index(r"\setlist")]
-    theorems = r"\newtheorem{theorem}{Theorem}[section]" + "\n"
-    theorems += "\n".join(rf"\newtheorem{{{name}}}[theorem]{{{name.title()}}}" for name in THEOREMS)
-    theorems += "\n" + r"\newtheorem*{claim}{Claim}" + "\n"
-    return "\\documentclass{book}\n\\usepackage{amsmath,amssymb}\n" + theorems + macros + body
+    """Expand a web-compatible manuscript; custom adapters may supply a callback."""
+    body = active_text(source)
+    return re.sub(r"\\(?:printindex|bibliographystyle\{[^}]+\}|bibliography\{[^}]+\})", "", body)
 
 
 def compatibility():
@@ -267,15 +252,12 @@ def render_fragments(source, working, prepare=None):
         if id(node) not in labelled:
             if node.nodeName in SECTIONS and node.ref is None:
                 title = node.title.textContent.strip()
-                # Frontmatter/part headings in svmono need synthetic, named labels.
+                # Unnumbered front matter and part headings need synthetic, named labels.
                 label = "heading:" + re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
                 document.context.label(label, node)
                 node.ref = document.createDocumentFragment()
             elif node.nodeName == "part":
                 label = "part:" + re.sub(r"[^a-z0-9]+", "-", node.title.textContent.lower()).strip("-")
-                document.context.label(label, node)
-            elif SLUG != "foundations-of-pluripotential-theory":
-                label = "unlabelled:" + node.nodeName + ":" + sha256(node.source.encode()).hexdigest()[:16]
                 document.context.label(label, node)
             else:
                 raise ValueError(f"Every numbered heading and theorem needs a source label: {node.nodeName}")
@@ -299,15 +281,6 @@ def render_fragments(source, working, prepare=None):
             title = number + " " + title
         if not title:
             title = kind.title() + (" " + number if number else "")
-        if SLUG == "sgpt" and node.nodeName == "thmenv" and not getattr(node, "title", None):
-            # Legacy SGPT identifiers such as L1122 are source coordinates,
-            # rather than reader-facing names. Definitions acquire their
-            # emphasized term after rendering; other unnamed results keep
-            # their original, unambiguous theorem locator.
-            semantic_title = title
-        if semantic_title.startswith("-good singularities"):
-            semantic_title = "I" + semantic_title
-        semantic_title = semantic_title.replace("and -goodness", "and I-goodness")
         parent = node
         while parent.parentNode is not None and parent.nodeName != "chapter":
             parent = parent.parentNode
@@ -425,7 +398,6 @@ def shell(content, title, records, revision, root=""):
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{escape(title)} · Gerby</title>
 <link rel="stylesheet" href="{assets}book.css"><link rel="stylesheet" href="{assets}formalization.css">
-<link rel="icon" href="{assets}favicon.svg" type="image/svg+xml">
 <script src="{assets}math-config.js"></script><script defer src="{assets}mathjax/tex-chtml.js"></script>
 <script type="module" src="{assets}formalization.mjs"></script><script type="module" src="{assets}book.mjs"></script>
 </head><body><a class="skip" href="#content">Skip to book text</a>
@@ -434,20 +406,24 @@ def shell(content, title, records, revision, root=""):
 <label for="book-search">Search this book</label><input id="book-search" type="search" placeholder="A title, phrase, or tag" autocomplete="off"><div id="search-results" aria-live="polite"></div>
 <nav aria-label="Book contents"><ul><li><a href="{root}">Read the active draft</a></li>{toc}<li><a href="{root}bibliography/">Bibliography</a></li></ul></nav>
 <p class="draft-note">Work in progress. This edition follows the active manuscript.</p></aside>
-<main id="content">{content}<footer class="book-footer">{escape(AUTHOR)} · Draft edition · Source revision <a href="{REPOSITORY}/commit/{revision}">{revision[:12]}</a><br>Tags identify source labels. Formalization status is recorded independently of the mathematical text.</footer></main></div></body></html>'''
+<main id="content">{content}<footer class="book-footer">{escape(AUTHOR)} · Draft edition · {revision_markup(revision, REPOSITORY)}<br>Tags identify source labels. Formalization status is recorded independently of the mathematical text.</footer></main></div></body></html>'''
 
 
-def export(source, output, prepare=None, transform=None):
+def export(source, output, prepare=None, transform=None, local=False):
     global ASSETS
     source, output = source.resolve(), output.resolve()
     ASSETS = output / "assets"
     ASSETS.mkdir(parents=True, exist_ok=True)
-    revision = subprocess.check_output(["git", "-C", str(source), "rev-parse", "HEAD"], text=True).strip()
-    subprocess.run(["git", "-C", str(source), "diff", "--exit-code", "HEAD"], check=True, stdout=subprocess.DEVNULL)
-    if not re.fullmatch(r"[a-f0-9]{40}", revision):
-        raise ValueError("Missing exact source revision")
+    if local:
+        revision = manuscript_snapshot(source / DIRECTORY)
+    else:
+        commit = subprocess.check_output(["git", "-C", str(source), "rev-parse", "HEAD"], text=True).strip()
+        subprocess.run(["git", "-C", str(source), "diff", "--exit-code", "HEAD"], check=True, stdout=subprocess.DEVNULL)
+        if not re.fullmatch(r"[a-f0-9]{40}", commit):
+            raise ValueError("Missing exact source revision")
+        revision = {"commit": commit}
     output.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix="gerby-foundations-") as temporary:
+    with tempfile.TemporaryDirectory(prefix="gerby-source-") as temporary:
         records = render_fragments(source / DIRECTORY, Path(temporary), prepare=prepare)
     if transform:
         records = transform(source / DIRECTORY, records)
@@ -506,7 +482,9 @@ def export(source, output, prepare=None, transform=None):
     (output / "entries.json").write_text(json.dumps(records, ensure_ascii=False) + "\n")
     (output / "references.json").write_text(json.dumps(reference_records, ensure_ascii=False) + "\n")
     (output / "search.json").write_text(json.dumps(search, ensure_ascii=False) + "\n")
-    (output / "edition.json").write_text(json.dumps({"source": REPOSITORY, "commit": revision, "renderer": "Gerby", "tags": len(records)}, indent=2) + "\n")
+    if local and manuscript_snapshot(source / DIRECTORY) != revision:
+        raise ValueError("Local manuscript changed while rendering")
+    (output / "edition.json").write_text(json.dumps({"source": REPOSITORY, **revision, "renderer": "Gerby", "tags": len(records)}, indent=2) + "\n")
     print(f"Exported {len(records)} permanent tags from the active manuscript")
 
 
