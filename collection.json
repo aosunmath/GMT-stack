@@ -90,9 +90,10 @@
         "smooth-links-and-stable-minimal-cones",
         "positive-solutions-and-limits-of-normal-graphs",
         "small-capacity-punctures-and-removable-stability",
-        "localization-of-index-and-weak-convergence-of-variations"
+        "localization-of-index-and-weak-convergence-of-variations",
+        "power-tests-and-moser-iteration"
       ],
-      "description": "Variations, graphs, elliptic estimates, Jacobi fields, separated sheets, removable stability, index localization and weak convergence, compactness, geometric inequalities, scalar curvature, Bernstein arguments, and stable cones."
+      "description": "Variations, graphs, elliptic estimates, truncated power tests and Moser iteration, Jacobi fields, separated sheets, removable stability, index localization and weak convergence, compactness, geometric inequalities, scalar curvature, Bernstein arguments, and stable cones."
     },
     {
       "slug": "min-max-theory",

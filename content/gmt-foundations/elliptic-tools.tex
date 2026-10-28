@@ -46,8 +46,11 @@ Let $v\in H^1(B_{2R}(a))$ solve the equation in Definition \ref{def:weak-ellipti
  \operatorname*{ess\,sup}_{B_R(a)}|v|
  \leq C\left(R^{-n}\int_{B_{2R}(a)}|v|^2\right)^{1/2},
 \]
-where $C=C(n,\Lambda/\lambda)$. This is \cite{SimonPDE}, Chapter 18, Theorem 2, p.~212, with zero forcing and lower-order terms. The iteration proof remains external.
+where $C=C(n,\Lambda/\lambda)$. This is \cite{SimonPDE}, Chapter 18, Theorem 2, p.~212, with zero forcing and lower-order terms. The local iteration proof is supplied below.
 \end{theorem}
+\begin{proof}
+By Lemma \ref{lem:positive-part-subsolution}, $v_+$ and $(-v)_+$ are nonnegative weak subsolutions of the same zero-lower-order equation. Apply Theorem \ref{thm:moser-subsolution-bound} to each. Their $L^2$ norms are at most that of $v$, and $|v|$ is their pointwise maximum. This gives the displayed estimate. The supporting argument uses truncated power tests, the external Sobolev gain, an integrability-improvement step and a convergent product of iteration constants; see Lemmas \ref{lem:truncated-power-energy} and \ref{lem:moser-integrability-step}.
+\end{proof}
 
 \begin{theorem}[Interior Harnack inequality]\label{thm:elliptic-harnack}
 If $v\in H^1(B_{2R}(a))$ is nonnegative and solves the equation in Definition \ref{def:weak-elliptic-equation}, then
