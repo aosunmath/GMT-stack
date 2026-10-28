@@ -4768,5 +4768,239 @@
     "page": "tag/99F44613/index.html",
     "canonical_tag": "28A91C3FE627",
     "anchor": ""
+  },
+  {
+    "tag": "6D862395",
+    "label": "sec:shrinker-calculus",
+    "title": "67 Gaussian calculus on self-shrinkers",
+    "kind": "chapter",
+    "page": "tag/6D862395/index.html",
+    "canonical_tag": "F5F891ECCCF7",
+    "anchor": ""
+  },
+  {
+    "tag": "2E0FE9CC",
+    "label": "def:gaussian-drift",
+    "title": "Definition 67.1 (Gaussian drift and polynomial area growth)",
+    "kind": "definition",
+    "page": "tag/2E0FE9CC/index.html",
+    "canonical_tag": "0745A084E5F8",
+    "anchor": ""
+  },
+  {
+    "tag": "09F956BF",
+    "label": "lem:gaussian-integration-parts",
+    "title": "Lemma 67.2 (Weighted integration by parts with compact support)",
+    "kind": "lemma",
+    "page": "tag/09F956BF/index.html",
+    "canonical_tag": "895D966424D5",
+    "anchor": ""
+  },
+  {
+    "tag": "B2EBE76A",
+    "label": "lem:gaussian-global-parts",
+    "title": "Lemma 67.3 (Global weighted integration by parts)",
+    "kind": "lemma",
+    "page": "tag/B2EBE76A/index.html",
+    "canonical_tag": "F4CA20B83C44",
+    "anchor": ""
+  },
+  {
+    "tag": "1FF1B3EF",
+    "label": "lem:gaussian-polynomial-moments",
+    "title": "Lemma 67.4 (Gaussian moments from area growth)",
+    "kind": "lemma",
+    "page": "tag/1FF1B3EF/index.html",
+    "canonical_tag": "3D797C21D18F",
+    "anchor": ""
+  },
+  {
+    "tag": "4E423861",
+    "label": "prop:shrinker-drift-identities",
+    "title": "Proposition 67.5 (Coordinate and radial drift identities)",
+    "kind": "proposition",
+    "page": "tag/4E423861/index.html",
+    "canonical_tag": "89901739599A",
+    "anchor": ""
+  },
+  {
+    "tag": "FBB22E43",
+    "label": "prop:shrinker-basic-moments",
+    "title": "Proposition 67.6 (Gaussian center, radius, and mixed moments)",
+    "kind": "proposition",
+    "page": "tag/FBB22E43/index.html",
+    "canonical_tag": "9410BE875CB7",
+    "anchor": ""
+  },
+  {
+    "tag": "72EE0704",
+    "label": "prop:shrinker-fourth-moment",
+    "title": "Proposition 67.7 (The fourth moment and the scale variance)",
+    "kind": "proposition",
+    "page": "tag/72EE0704/index.html",
+    "canonical_tag": "2AA75BC1A69D",
+    "anchor": ""
+  },
+  {
+    "tag": "0ADC1226",
+    "label": "cor:shrinker-radius-constraint",
+    "title": "Corollary 67.8 (A radial constraint for closed shrinkers)",
+    "kind": "corollary",
+    "page": "tag/0ADC1226/index.html",
+    "canonical_tag": "CF7BD7C076CF",
+    "anchor": ""
+  },
+  {
+    "tag": "9397F16C",
+    "label": "sec:shrinker-variation",
+    "title": "68 Gaussian second variation and symmetry modes",
+    "kind": "chapter",
+    "page": "tag/9397F16C/index.html",
+    "canonical_tag": "A2DC3F2E48E4",
+    "anchor": ""
+  },
+  {
+    "tag": "8BFC00D3",
+    "label": "prop:gaussian-compact-variation",
+    "title": "Proposition 68.1 (Compact variations of noncompact Gaussian area)",
+    "kind": "proposition",
+    "page": "tag/8BFC00D3/index.html",
+    "canonical_tag": "E8BEBA69F77A",
+    "anchor": ""
+  },
+  {
+    "tag": "A8DA8829",
+    "label": "def:shrinker-jacobi",
+    "title": "Definition 68.2 (The Gaussian Jacobi operator)",
+    "kind": "definition",
+    "page": "tag/A8DA8829/index.html",
+    "canonical_tag": "9EB35742B3AF",
+    "anchor": ""
+  },
+  {
+    "tag": "87C7C1F9",
+    "label": "prop:shrinker-linearization",
+    "title": "Proposition 68.3 (Linearizing the shrinker equation)",
+    "kind": "proposition",
+    "page": "tag/87C7C1F9/index.html",
+    "canonical_tag": "3AED5B2D47FB",
+    "anchor": ""
+  },
+  {
+    "tag": "4E0F5C25",
+    "label": "thm:shrinker-fixed-hessian",
+    "title": "Theorem 68.4 (Second variation with fixed center and scale)",
+    "kind": "theorem",
+    "page": "tag/4E0F5C25/index.html",
+    "canonical_tag": "81208FDD5A9C",
+    "anchor": ""
+  },
+  {
+    "tag": "CC918BC8",
+    "label": "prop:shrinker-translation-dilation",
+    "title": "Proposition 68.5 (Translation and dilation modes)",
+    "kind": "proposition",
+    "page": "tag/CC918BC8/index.html",
+    "canonical_tag": "B2A315CA544B",
+    "anchor": ""
+  },
+  {
+    "tag": "8BE1620B",
+    "label": "prop:shrinker-rotation-mode",
+    "title": "Proposition 68.6 (Rotations give Jacobi fields)",
+    "kind": "proposition",
+    "page": "tag/8BE1620B/index.html",
+    "canonical_tag": "3E301015DE84",
+    "anchor": ""
+  },
+  {
+    "tag": "89592807",
+    "label": "cor:shrinker-mode-orthogonality",
+    "title": "Corollary 68.7 (Orthogonality of the geometric modes on a closed shrinker)",
+    "kind": "corollary",
+    "page": "tag/89592807/index.html",
+    "canonical_tag": "21CF7F379644",
+    "anchor": ""
+  },
+  {
+    "tag": "B0049012",
+    "label": "thm:shrinker-fixed-instability",
+    "title": "Theorem 68.8 (Every finite-Gaussian-area proper shrinker is unstable at fixed center)",
+    "kind": "theorem",
+    "page": "tag/B0049012/index.html",
+    "canonical_tag": "64BCB21D3A98",
+    "anchor": ""
+  },
+  {
+    "tag": "F5CDA446",
+    "label": "sec:shrinker-stability",
+    "title": "69 Center and scale in shrinker stability",
+    "kind": "chapter",
+    "page": "tag/F5CDA446/index.html",
+    "canonical_tag": "577C1FAE04B9",
+    "anchor": ""
+  },
+  {
+    "tag": "A3BEB6F2",
+    "label": "prop:gaussian-joint-first",
+    "title": "Proposition 69.1 (First variation with a moving Gaussian center and scale)",
+    "kind": "proposition",
+    "page": "tag/A3BEB6F2/index.html",
+    "canonical_tag": "9DB971431D60",
+    "anchor": ""
+  },
+  {
+    "tag": "D24E2AA3",
+    "label": "thm:shrinker-joint-hessian",
+    "title": "Theorem 69.2 (The simultaneous shape, center, and scale Hessian)",
+    "kind": "theorem",
+    "page": "tag/D24E2AA3/index.html",
+    "canonical_tag": "85B891A44BBE",
+    "anchor": ""
+  },
+  {
+    "tag": "2D50C621",
+    "label": "def:shrinker-f-stability",
+    "title": "Definition 69.3 (F-stability and its quantifiers)",
+    "kind": "definition",
+    "page": "tag/2D50C621/index.html",
+    "canonical_tag": "1D2681AB2F92",
+    "anchor": ""
+  },
+  {
+    "tag": "447ED7F5",
+    "label": "prop:shrinker-optimized-hessian",
+    "title": "Proposition 69.4 (Removing geometric modes on a closed shrinker)",
+    "kind": "proposition",
+    "page": "tag/447ED7F5/index.html",
+    "canonical_tag": "7D33754FC184",
+    "anchor": ""
+  },
+  {
+    "tag": "1282E007",
+    "label": "prop:shrinker-sphere-f-stable",
+    "title": "Proposition 69.5 (The round sphere is F-stable)",
+    "kind": "proposition",
+    "page": "tag/1282E007/index.html",
+    "canonical_tag": "0948281F1984",
+    "anchor": ""
+  },
+  {
+    "tag": "E0E50329",
+    "label": "thm:shrinker-changing-sign-instability",
+    "title": "Theorem 69.6 (Sign-changing mean curvature gives closed F-instability)",
+    "kind": "theorem",
+    "page": "tag/E0E50329/index.html",
+    "canonical_tag": "12B9846AA0AB",
+    "anchor": ""
+  },
+  {
+    "tag": "4131BFA9",
+    "label": "thm:shrinker-cylinder-f-unstable",
+    "title": "Theorem 69.7 (Nontrivial round cylinders are F-unstable)",
+    "kind": "theorem",
+    "page": "tag/4131BFA9/index.html",
+    "canonical_tag": "C6F03108FD3A",
+    "anchor": ""
   }
 ]

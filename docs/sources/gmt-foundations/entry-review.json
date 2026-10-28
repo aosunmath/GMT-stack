@@ -1155,7 +1155,10 @@
       "citations": [
         "CCMS20"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "prop:gaussian-compact-variation",
+        "thm:shrinker-joint-hessian"
+      ],
       "formal_verification": "none"
     },
     {
@@ -5985,6 +5988,315 @@
         "def:cone-punctured-stability",
         "ex:clifford-cone-stability",
         "thm:simons-cone-minimizing"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:gaussian-drift",
+      "title": "Gaussian drift and polynomial area growth",
+      "kind": "definition",
+      "file": "shrinker-calculus.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:gaussian-integration-parts",
+      "title": "Weighted integration by parts with compact support",
+      "kind": "lemma",
+      "file": "shrinker-calculus.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:gaussian-global-parts",
+      "title": "Global weighted integration by parts",
+      "kind": "lemma",
+      "file": "shrinker-calculus.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:gaussian-polynomial-moments",
+      "title": "Gaussian moments from area growth",
+      "kind": "lemma",
+      "file": "shrinker-calculus.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-drift-identities",
+      "title": "Coordinate and radial drift identities",
+      "kind": "proposition",
+      "file": "shrinker-calculus.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-basic-moments",
+      "title": "Gaussian center, radius, and mixed moments",
+      "kind": "proposition",
+      "file": "shrinker-calculus.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "lem:gaussian-global-parts",
+        "lem:gaussian-polynomial-moments",
+        "prop:shrinker-drift-identities"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-fourth-moment",
+      "title": "The fourth moment and the scale variance",
+      "kind": "proposition",
+      "file": "shrinker-calculus.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "prop:shrinker-basic-moments"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:shrinker-radius-constraint",
+      "title": "A radial constraint for closed shrinkers",
+      "kind": "corollary",
+      "file": "shrinker-calculus.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:gaussian-compact-variation",
+      "title": "Compact variations of noncompact Gaussian area",
+      "kind": "proposition",
+      "file": "shrinker-variation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:gaussian-first-variation",
+        "prop:normal-variation-formulas"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:shrinker-jacobi",
+      "title": "The Gaussian Jacobi operator",
+      "kind": "definition",
+      "file": "shrinker-variation.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "CCMS20",
+        "CM12"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-linearization",
+      "title": "Linearizing the shrinker equation",
+      "kind": "proposition",
+      "file": "shrinker-variation.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "prop:mean-curvature-linearization"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:shrinker-fixed-hessian",
+      "title": "Second variation with fixed center and scale",
+      "kind": "theorem",
+      "file": "shrinker-variation.tex",
+      "status": "proof-included",
+      "citations": [
+        "CCMS20",
+        "CM12"
+      ],
+      "dependencies": [
+        "lem:gaussian-integration-parts",
+        "prop:gaussian-compact-variation",
+        "prop:shrinker-linearization"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-translation-dilation",
+      "title": "Translation and dilation modes",
+      "kind": "proposition",
+      "file": "shrinker-variation.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-rotation-mode",
+      "title": "Rotations give Jacobi fields",
+      "kind": "proposition",
+      "file": "shrinker-variation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:shrinker-linearization"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:shrinker-mode-orthogonality",
+      "title": "Orthogonality of the geometric modes on a closed shrinker",
+      "kind": "corollary",
+      "file": "shrinker-variation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:shrinker-rotation-mode",
+        "prop:shrinker-translation-dilation",
+        "thm:shrinker-fixed-hessian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:shrinker-fixed-instability",
+      "title": "Every finite-Gaussian-area proper shrinker is unstable at fixed center",
+      "kind": "theorem",
+      "file": "shrinker-variation.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "def:shrinker-f-stability"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:gaussian-joint-first",
+      "title": "First variation with a moving Gaussian center and scale",
+      "kind": "proposition",
+      "file": "shrinker-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "lem:gaussian-polynomial-moments",
+        "prop:gaussian-compact-variation",
+        "prop:shrinker-basic-moments"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:shrinker-joint-hessian",
+      "title": "The simultaneous shape, center, and scale Hessian",
+      "kind": "theorem",
+      "file": "shrinker-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "def:shrinker-jacobi",
+        "prop:gaussian-joint-first",
+        "prop:shrinker-basic-moments",
+        "prop:shrinker-fourth-moment"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:shrinker-f-stability",
+      "title": "F-stability and its quantifiers",
+      "kind": "definition",
+      "file": "shrinker-stability.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "def:mcf-entropy",
+        "thm:shrinker-fixed-instability",
+        "thm:shrinker-joint-hessian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-optimized-hessian",
+      "title": "Removing geometric modes on a closed shrinker",
+      "kind": "proposition",
+      "file": "shrinker-stability.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:shrinker-mode-orthogonality",
+        "thm:shrinker-joint-hessian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-sphere-f-stable",
+      "title": "The round sphere is F-stable",
+      "kind": "proposition",
+      "file": "shrinker-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "prop:shrinker-optimized-hessian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:shrinker-changing-sign-instability",
+      "title": "Sign-changing mean curvature gives closed F-instability",
+      "kind": "theorem",
+      "file": "shrinker-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:shrinker-cylinder-f-unstable",
+      "title": "Nontrivial round cylinders are F-unstable",
+      "kind": "theorem",
+      "file": "shrinker-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "def:shrinker-f-stability"
       ],
       "formal_verification": "none"
     }

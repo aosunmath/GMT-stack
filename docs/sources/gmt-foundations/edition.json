@@ -1,10 +1,10 @@
 {
   "source": "https://github.com/aosunmath/GMT-stack",
   "kind": "local-manuscript",
-  "source_sha256": "9ef8f454657c1ea20d9e7e9ef6fd214a1d5b4d74ea7e847e0a21f40febd75054",
+  "source_sha256": "1eea1612039924942784d2e71b4d5572e51813691aa2a2f4fda8e6731503531e",
   "files": {
     "allen-cahn.tex": "e83e29527057db852a886628ed3c458c538c48ad6245618ed5e5b68d2035e36c",
-    "book.tex": "be7777bcc5387feb4308075591dcecd6df5ca6e109d3fb184bcce2dfc581c4bb",
+    "book.tex": "5071e1b554930e08177549c5ee34cb4a39111609cda0b7004eebf3d584d2c11d",
     "brakke-flow.tex": "9e8ef5dc76e7a4814d1703566e54ece216f0302c47f2cc9339b61f4e278c0f68",
     "bv-coarea.tex": "79110d4ed8d0630caa45ca1a78530bf626bf4d828c65df35770a02bd25a57eff",
     "bv-compactness.tex": "3820bcb702ed7a0da8c69251b0ae7860a576fc1124a7143e4a105510ba58f4bc",
@@ -20,13 +20,13 @@
     "current-slicing.tex": "7e56bc01b29f4a106261d2715e3d3666398ce0adcec14e04cf05cbb88ebac027",
     "currents.tex": "676b01a38af29d135b9c8923fe0380ba6728591f4acf859e8a4463e2242b4a8a",
     "elliptic-tools.tex": "6ba2f6b653e2f5a61bb9ff30191536cd79e8adae5f41e38a0412e5da600a4b49",
-    "entry-review.json": "5c8255e4d8ef39b7354c7cdfd91498ca4e813bbd99347170b4345fd7f1afbda9",
+    "entry-review.json": "1289fe9391852ceeade5882168105355bf2e833301fe4448c37e501f32205509",
     "geometric-inequalities.tex": "b082ed97dffc30ff4b17954f6127135999d4fde7ba55327bcaac999e2f656632",
     "history.tex": "56ceb9c3aa6fe2ef05b4a7e2affea072699de2b72510cf738eea57abed1e535f",
     "jacobi-fields.tex": "af6b98456c2db0baa3d94d1249b89d629ea7dd3ab466cda9ba27f75a0c735de0",
     "mcf-evolution.tex": "9774ad346df5035a26f6b5ca7eaecd9815ddea9f85b8d37a0314dc6594d6fdef",
     "mcf-monotonicity.tex": "5a8452ffc8e9230b286db7de699e32d0e71fd340e84b0dcf5f408d36cdf1a03f",
-    "mean-curvature-flow.tex": "5a2258e478df118318e3955dbdf6c3c2e71fe52f92eae550432a511bc19f211f",
+    "mean-curvature-flow.tex": "4735074f4904060f8b3c465b87e1e60bbecd659f778e178d8ef91b5c6155514a",
     "measures.tex": "b8314802a32a8cb4f230c68993d009e5b5277e63303165b59e0e1b64fe4fdbf9",
     "min-max.tex": "1ed88012fa85c55eb9ddb13ae2e52f92dca5f9fb4eca24b85cbdf57de27a848b",
     "minimal-surfaces.tex": "e59a9b2a9721ce7611541045e51d98110762a58500f84e257594b6619c11211c",
@@ -45,8 +45,11 @@
     "phase-recovery.tex": "830fc640158614373370cb8a8fff43fed37f347fecb67bebf31e97f32ddc6d7e",
     "phase-stability.tex": "2b62caf5e05c5183b3600dda7bf5ca04f087767fe47c46eaed7bc83390fce10d",
     "rectifiability.tex": "d2dc7fa9136c72205b19ee6e166660204a527eb577b2a36701d004ebadc45dec",
-    "references.bib": "c69dea4057007a4c6d363af055ea0a93652c6036925cdd1a3dd0172f90981994",
-    "source-inventory.json": "f6c64432587e60482ab37a1121fbc20bfced39130b8400bc275816913423efa3",
+    "references.bib": "b85fbc834c9d41eb3a5dfe0f5aa96d569e4057e37c6257796db19e8eb3f2088e",
+    "shrinker-calculus.tex": "ea680cd1ce73bd7629a96a817d0e800010732bc55cde1500a45aa9d2afe243c0",
+    "shrinker-stability.tex": "8d3cc6c216696198bb2c6e1306073712ac7a918bc75f36ef4bf2a80dc9468dbd",
+    "shrinker-variation.tex": "3c7316ad322600f5f3fd872c30c98cca2faa1d199adc78e9f474586d429fe2a6",
+    "source-inventory.json": "da1ec348bc9307a4baa3737f100f92545d5a9837c4f1c0223122f45ae864bde7",
     "stability-applications.tex": "9a08c2f0c3f6a4114106cfe34c2bfa7b28021922604e586ed71efa46917ae443",
     "stable-cones.tex": "9ecf00a60d578fcc88ddab9423c7be02b4c4d93519ac7cc1bd44603c01bd92d5",
     "stratification-proof.tex": "88164b26c35f4f85ad9bbfdaa72be8a684a6b77a9e731e829e69742bacdc206b",
@@ -60,5 +63,5 @@
     "volume-spectrum.tex": "a35d18377d81410425b447e0062f2efffb9b24db3ded0d8e49f80367ff272068"
   },
   "renderer": "Gerby",
-  "tags": 530
+  "tags": 556
 }

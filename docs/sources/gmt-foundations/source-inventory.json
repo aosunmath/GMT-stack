@@ -930,7 +930,8 @@
       "pdf_pages": 83,
       "checked_passages": [
         "Introduction: scope of the supplied v1",
-        "Sections 2.4--2.6, pp. 10--11: Brakke flow, Gaussian density, unit regularity, cyclicity, and convergence"
+        "Sections 2.4--2.6, pp. 10--11: Brakke flow, Gaussian density, unit regularity, cyclicity, and convergence",
+        "Sections 2.7--2.8 and 3.1, pp. 11--12: shrinkers and compact-test Gaussian second variation"
       ]
     },
     {
@@ -1611,6 +1612,25 @@
         "Proposition 8.2 and Lemma 8.4, pp. 17--18: Weiss and Monneau formulas",
         "Theorem 8.1 and proof, pp. 17--19: uniqueness and continuity; spherical integrals retained in the uniqueness proof",
         "Theorem 9.1, p. 19: classical singular-stratum containment"
+      ]
+    },
+    {
+      "bibliography_key": "CM12",
+      "filename": "Generic mean curvature flow I- generic singularities_Colding-Minicozzi.pdf",
+      "title": "Generic mean curvature flow I: generic singularities",
+      "author": "Tobias H. Colding; William P. Minicozzi II",
+      "edition": "Annals of Mathematics 175 (2012), 755–833; published version",
+      "sha256": "158cf668e44a6d7e9650ed0d418eeeff3b7622e014f586f923d87b0371027842",
+      "pdf_pages": 79,
+      "redistributed": false,
+      "role": "Weighted shrinker identities and Gaussian variation formulas; local proofs supplied, with spherical harmonic and compact elliptic spectral facts explicitly external.",
+      "review_status": "selected-passages-checked",
+      "metadata_status": "source-checked",
+      "checked_passages": [
+        "Section 3.3, Lemma 3.8, Corollary 3.10, Lemmas 3.20 and 3.25, and Corollary 3.34, pp. 772--775",
+        "Theorem 4.14 and proof, Lemma 4.23 and proof, pp. 777--779",
+        "Theorem 5.2, Lemma 5.5, Corollary 5.15, and Section 6 instability argument, pp. 780--783",
+        "Section 11.1, cylinder instability calculation, pp. 816--817"
       ]
     }
   ],

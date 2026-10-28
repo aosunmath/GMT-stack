@@ -3668,6 +3668,185 @@
     "tag": "262B8C72DD55"
   },
   {
+    "route": "sections/gaussian-calculus-on-self-shrinkers",
+    "title": "14.7 Gaussian calculus on self-shrinkers",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-calculus-on-self-shrinkers"
+  },
+  {
+    "route": "tag/0745A084E5F8",
+    "title": "Definition 14.7.1 (Gaussian drift and polynomial area growth)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-calculus-on-self-shrinkers",
+    "tag": "0745A084E5F8"
+  },
+  {
+    "route": "tag/895D966424D5",
+    "title": "Lemma 14.7.2 (Weighted integration by parts with compact support)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-calculus-on-self-shrinkers",
+    "tag": "895D966424D5"
+  },
+  {
+    "route": "tag/F4CA20B83C44",
+    "title": "Lemma 14.7.3 (Global weighted integration by parts)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-calculus-on-self-shrinkers",
+    "tag": "F4CA20B83C44"
+  },
+  {
+    "route": "tag/3D797C21D18F",
+    "title": "Lemma 14.7.4 (Gaussian moments from area growth)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-calculus-on-self-shrinkers",
+    "tag": "3D797C21D18F"
+  },
+  {
+    "route": "tag/89901739599A",
+    "title": "Proposition 14.7.5 (Coordinate and radial drift identities)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-calculus-on-self-shrinkers",
+    "tag": "89901739599A"
+  },
+  {
+    "route": "tag/9410BE875CB7",
+    "title": "Proposition 14.7.6 (Gaussian center, radius, and mixed moments)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-calculus-on-self-shrinkers",
+    "tag": "9410BE875CB7"
+  },
+  {
+    "route": "tag/2AA75BC1A69D",
+    "title": "Proposition 14.7.7 (The fourth moment and the scale variance)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-calculus-on-self-shrinkers",
+    "tag": "2AA75BC1A69D"
+  },
+  {
+    "route": "tag/CF7BD7C076CF",
+    "title": "Corollary 14.7.8 (A radial constraint for closed shrinkers)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-calculus-on-self-shrinkers",
+    "tag": "CF7BD7C076CF"
+  },
+  {
+    "route": "sections/gaussian-second-variation-and-symmetry-modes",
+    "title": "14.8 Gaussian second variation and symmetry modes",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-second-variation-and-symmetry-modes"
+  },
+  {
+    "route": "tag/E8BEBA69F77A",
+    "title": "Proposition 14.8.1 (Compact variations of noncompact Gaussian area)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-second-variation-and-symmetry-modes",
+    "tag": "E8BEBA69F77A"
+  },
+  {
+    "route": "tag/9EB35742B3AF",
+    "title": "Definition 14.8.2 (The Gaussian Jacobi operator)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-second-variation-and-symmetry-modes",
+    "tag": "9EB35742B3AF"
+  },
+  {
+    "route": "tag/3AED5B2D47FB",
+    "title": "Proposition 14.8.3 (Linearizing the shrinker equation)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-second-variation-and-symmetry-modes",
+    "tag": "3AED5B2D47FB"
+  },
+  {
+    "route": "tag/81208FDD5A9C",
+    "title": "Theorem 14.8.4 (Second variation with fixed center and scale)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-second-variation-and-symmetry-modes",
+    "tag": "81208FDD5A9C"
+  },
+  {
+    "route": "tag/B2A315CA544B",
+    "title": "Proposition 14.8.5 (Translation and dilation modes)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-second-variation-and-symmetry-modes",
+    "tag": "B2A315CA544B"
+  },
+  {
+    "route": "tag/3E301015DE84",
+    "title": "Proposition 14.8.6 (Rotations give Jacobi fields)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-second-variation-and-symmetry-modes",
+    "tag": "3E301015DE84"
+  },
+  {
+    "route": "tag/21CF7F379644",
+    "title": "Corollary 14.8.7 (Orthogonality of the geometric modes on a closed shrinker)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-second-variation-and-symmetry-modes",
+    "tag": "21CF7F379644"
+  },
+  {
+    "route": "tag/64BCB21D3A98",
+    "title": "Theorem 14.8.8 (Every finite-Gaussian-area proper shrinker is unstable at fixed center)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-second-variation-and-symmetry-modes",
+    "tag": "64BCB21D3A98"
+  },
+  {
+    "route": "sections/center-and-scale-in-shrinker-stability",
+    "title": "14.9 Center and scale in shrinker stability",
+    "chapter": "mean-curvature-flow",
+    "section": "center-and-scale-in-shrinker-stability"
+  },
+  {
+    "route": "tag/9DB971431D60",
+    "title": "Proposition 14.9.1 (First variation with a moving Gaussian center and scale)",
+    "chapter": "mean-curvature-flow",
+    "section": "center-and-scale-in-shrinker-stability",
+    "tag": "9DB971431D60"
+  },
+  {
+    "route": "tag/85B891A44BBE",
+    "title": "Theorem 14.9.2 (The simultaneous shape, center, and scale Hessian)",
+    "chapter": "mean-curvature-flow",
+    "section": "center-and-scale-in-shrinker-stability",
+    "tag": "85B891A44BBE"
+  },
+  {
+    "route": "tag/1D2681AB2F92",
+    "title": "Definition 14.9.3 (F-stability and its quantifiers)",
+    "chapter": "mean-curvature-flow",
+    "section": "center-and-scale-in-shrinker-stability",
+    "tag": "1D2681AB2F92"
+  },
+  {
+    "route": "tag/7D33754FC184",
+    "title": "Proposition 14.9.4 (Removing geometric modes on a closed shrinker)",
+    "chapter": "mean-curvature-flow",
+    "section": "center-and-scale-in-shrinker-stability",
+    "tag": "7D33754FC184"
+  },
+  {
+    "route": "tag/0948281F1984",
+    "title": "Proposition 14.9.5 (The round sphere is F-stable)",
+    "chapter": "mean-curvature-flow",
+    "section": "center-and-scale-in-shrinker-stability",
+    "tag": "0948281F1984"
+  },
+  {
+    "route": "tag/12B9846AA0AB",
+    "title": "Theorem 14.9.6 (Sign-changing mean curvature gives closed F-instability)",
+    "chapter": "mean-curvature-flow",
+    "section": "center-and-scale-in-shrinker-stability",
+    "tag": "12B9846AA0AB"
+  },
+  {
+    "route": "tag/C6F03108FD3A",
+    "title": "Theorem 14.9.7 (Nontrivial round cylinders are F-unstable)",
+    "chapter": "mean-curvature-flow",
+    "section": "center-and-scale-in-shrinker-stability",
+    "tag": "C6F03108FD3A"
+  },
+  {
     "route": "chapters/history",
     "title": "15 History",
     "chapter": "history"
