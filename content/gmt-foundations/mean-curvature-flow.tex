@@ -1,5 +1,5 @@
 \chapter{Smooth mean curvature flow}\label{sec:mean-curvature-flow}
-Mean curvature flow is the evolution associated with the first variation of area. This introductory section fixes the sign and supplies a basic model. A dedicated flow source corpus and the weak-flow theory are still to be added.
+Mean curvature flow is the evolution associated with the first variation of area. This introductory section fixes the sign and supplies a basic model. The next section develops convex contraction, shrinking models, and Gaussian area from the supplied flow papers; weak-flow theory remains to be added.
 
 \begin{definition}[Smooth mean curvature flow]\label{def:mean-curvature-flow}
 A smooth family of immersions $F:\Sigma^n\times[0,T)\to M^{n+1}$ evolves by mean curvature flow if
@@ -29,5 +29,47 @@ The sphere remains smooth on this interval and its radius tends to zero at its e
 \end{example}
 
 \begin{remark}[Planned weak flows and related variational problems]\label{rem:flow-program}
-The planned flow branch includes short-time existence, avoidance, monotonicity, tangent flows, self-shrinkers, and singularities. Brakke flow and level-set flow will have separate definitions and comparison results. Related branches include Plateau problems, free-boundary minimal surfaces, capillarity, prescribed mean curvature, and further Willmore problems. Their links to currents, varifolds, elliptic PDE, and constrained energies will be developed as sources and proofs are added. These are scope commitments, not completed theorem sections.
+The planned flow branch includes short-time existence, avoidance, monotonicity, tangent flows, and further singularity theory. Brakke flow and level-set flow will have separate definitions and comparison results. Related branches include Plateau problems, free-boundary minimal surfaces, capillarity, prescribed mean curvature, and further Willmore problems. Their links to currents, varifolds, elliptic PDE, and constrained energies will be developed as sources and proofs are added. These are scope commitments, not completed theorem sections.
+\end{remark}
+
+\chapter{Convex flow and shrinking models}\label{sec:convex-flow-shrinkers}
+A round sphere is a model for a flow singularity, but the theory must explain when such a model is forced and when other models can occur. The supplied papers of Huisken \cite{Hui86} and Chodosh--Choi--Mantoulidis--Schulze \cite{CCMS20} provide two entry points.
+
+\begin{theorem}[Convex Euclidean hypersurfaces become round]\label{thm:huisken-convex}
+Let $\Sigma_0^n\subset\mathbb R^{n+1}$ be a smooth, connected, closed, embedded, strictly convex hypersurface, with $n\geq2$. Its mean curvature flow exists smoothly until a finite time $T$, contracts to a single point, and, after dilation about that point to keep the area fixed, converges smoothly to a round sphere as $t\uparrow T$. This is the Euclidean specialization of \cite{Hui86}, Theorem 1.1. The introduction of that article attributes the Euclidean result to Huisken's earlier work. In a curved ambient manifold, the theorem requires quantitative pinching relative to ambient curvature; mere convexity is not substituted for those hypotheses. The proof remains external.
+\end{theorem}
+
+\begin{definition}[Self-shrinkers]\label{def:self-shrinker}
+A smooth hypersurface $\Sigma^n\subset\mathbb R^{n+1}$ is a self-shrinker with center zero and scale one when
+\[
+ \vec H+\frac12 x^\perp=0.
+\]
+Here $x^\perp$ is the normal projection of the position vector. The associated family is $\Sigma_t=\sqrt{-t}\,\Sigma$ for $t<0$, evolving by mean curvature in its normal velocity. This normalization matches \cite{CCMS20}, Sections 1.2 and 2.
+\end{definition}
+
+\begin{proposition}[Round shrinking cylinders]\label{prop:shrinking-cylinders}
+For $1\leq k\leq n$, the cylinder $S^k(\sqrt{2k})\times\mathbb R^{n-k}\subset\mathbb R^{n+1}$ is a self-shrinker. A hyperplane through the origin is also a self-shrinker.
+\end{proposition}
+\begin{proof}
+On the radius-$r$ cylinder, let $\nu$ be the outward radial normal to the spherical factor. There are $k$ principal curvatures equal to $1/r$ and $n-k$ equal to zero. Our convention gives $\vec H=-(k/r)\nu$ and $x^\perp=r\nu$. The shrinker equation is therefore $-k/r+r/2=0$, equivalently $r^2=2k$. On a linear hyperplane both $\vec H$ and $x^\perp$ vanish. Differentiating the dilation $\sqrt{-t}$ shows that its normal velocity is exactly the rescaled mean curvature vector.
+\end{proof}
+
+\begin{proposition}[Gaussian area and the shrinker equation]\label{prop:gaussian-first-variation}
+For a smooth closed hypersurface, put
+\[
+ F(\Sigma)=(4\pi)^{-n/2}\int_\Sigma e^{-|x|^2/4}\,dA.
+\]
+For a smooth normal variation with velocity $X$, its first variation is
+\[
+ \delta F(X)=-(4\pi)^{-n/2}\int_\Sigma
+ \left\langle\vec H+\tfrac12x^\perp,X\right\rangle e^{-|x|^2/4}\,dA.
+\]
+Consequently the critical hypersurfaces for this functional satisfy the self-shrinker equation. Compare \cite{CCMS20}, Section 2.
+\end{proposition}
+\begin{proof}
+Since $X$ is normal, the pointwise first variation of area is $-\langle\vec H,X\rangle dA$. The derivative of the Gaussian factor is $-\tfrac12\langle x,X\rangle e^{-|x|^2/4}$. Add these contributions and use $\langle x,X\rangle=\langle x^\perp,X\rangle$. Testing with arbitrary smooth normal fields gives the final assertion.
+\end{proof}
+
+\begin{remark}[The supplied generic-flow paper has a specific scope]\label{rem:generic-flow-source}
+The supplied version of \cite{CCMS20} is arXiv:2003.14344v1, dated March 31, 2020. It studies one-sided ancient flows and perturbations avoiding certain unstable singularity models. Its introduction explicitly retains possible obstructions involving higher multiplicity and noncylindrical models with cylindrical ends. We do not turn this version into an unconditional classification of all generic flow singularities. Brakke flow, entropy, and the precise perturbation theorems require further development; Theorem \ref{thm:white-mod-two} is one connection to the chain and varifold framework.
 \end{remark}

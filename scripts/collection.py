@@ -21,6 +21,7 @@ from proof_expansions import apply_expansions, check_dependencies
 from reading_edits import apply_reading_edits, validate_reading_edits
 from numbering import assign_numbers
 from history import curate_history
+from reader_references import page_references, bibliography, source_catalogue
 from search_index import write_search_index
 from project import TITLE, DESCRIPTION, REPOSITORY
 from source_snapshot import revision_id, revision_markup
@@ -260,6 +261,7 @@ def prepare_fragment(variant, source_tags, references, root, component_anchors=N
     for anchor in soup.select('a[href^="/bibliography/"]'):
         key = anchor["href"].split("/")[-1]
         anchor["href"] = root + "references/#" + references[(source, key)]
+        anchor["data-reference"] = references[(source, key)]
     for marker in soup.select("[data-tag]"):
         local = marker.get("data-tag")
         if not local:
@@ -303,6 +305,17 @@ def prepare_fragment(variant, source_tags, references, root, component_anchors=N
         identifier = unquote(anchor["href"][1:])
         if identifier in identifiers:
             anchor["href"] = "#" + prefix + identifier
+    for proof in soup.select("article.env-proof"):
+        if proof.find_parent("details", class_="proof"):
+            continue
+        panel = soup.new_tag("details", attrs={"class": "proof"})
+        summary = soup.new_tag("summary")
+        summary.string = "Proof"
+        proof.wrap(panel)
+        panel.insert(0, summary)
+        heading = proof.find("strong")
+        if heading and heading.get_text(strip=True) in {"Proof.", "Proof"}:
+            heading.decompose()
     return str(soup)
 
 
@@ -447,7 +460,13 @@ def build_collection(books, destination, configuration):
             references.setdefault(identifier, {**record, "sources": []})["sources"].append({"source": source, "key": record["key"]})
             reference_map[(source, record["key"])] = identifier
 
+    reference_uses = {}
+
     def write(route, content, title, root):
+        content, used = page_references(content, references, root)
+        if route.startswith(("sections/", "tag/")):
+            for identifier in used:
+                reference_uses.setdefault(identifier, {})[route] = reader.pages[route]["title"]
         page = destination / route / "index.html" if route else destination / "index.html"
         page.parent.mkdir(parents=True, exist_ok=True)
         page.write_text(reader.shell(content, route, root, asset_revision()))
@@ -571,6 +590,9 @@ def build_collection(books, destination, configuration):
             if (destination / "books" / source / name).is_file():
                 provenance_files.append(name)
         source_content += '<p>Source records: ' + ' · '.join(f'<a href="{name}">{title}</a>' for name, title in (("edition.json", "Build manifest"), ("source-inventory.json", "Reference inventory"), ("entry-review.json", "Entry and proof status")) if name in provenance_files) + '</p>'
+        inventory_file = destination / "books" / source / "source-inventory.json"
+        if inventory_file.is_file():
+            source_content += source_catalogue(json.loads(inventory_file.read_text()), source, reference_map, "../../")
         source_content += '<h2>Contributed entries</h2>'
         write("sources/" + source, source_content + entry_list(relevant, topics, "../../"), book["title"], "../../")
         source_folder = destination / "sources" / source
@@ -594,11 +616,7 @@ def build_collection(books, destination, configuration):
                     redirect(old_folder / "tag" / configured["tag"] / "index.html", contents, destination)
         redirect(old_folder / "bibliography" / "index.html", destination / "references" / "index.html", destination, {key: identifier for (origin, key), identifier in reference_map.items() if origin == source})
     write("sources", source_list + ('</ul>' if sources else '</ul><p>No sources have been added yet.</p>') + '<p><a href="../deduplication.json">Reviewed duplicate groups and retained source tags</a></p>', "Sources", "../")
-    reference_content = '<h1>Bibliography</h1><p>Bibliographic references cited across the shared collection.</p>'
-    if not references:
-        reference_content += '<p>No references have been added yet.</p>'
-    for identifier, record in sorted(references.items()):
-        reference_content += f'<div class="bibliography-entry" id="{identifier}">{record["html"]}</div>'
+    reference_content = bibliography(references, reference_uses)
     write("references", reference_content, "References", "../")
     write("search", '<h1>Search</h1><form class="page-search" role="search"><label for="page-search">Keywords, a statement number, or a permanent tag</label><input id="page-search" type="search" name="q" autocomplete="off" aria-controls="page-search-results"><button type="submit">Search</button></form><div id="page-search-results" aria-live="polite"></div>', "Search", "../")
     comment_content = '<h1>Comments and corrections</h1>'

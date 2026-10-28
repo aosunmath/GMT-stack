@@ -8,7 +8,7 @@ A growing, subject-based mathematical reference for geometric measure theory and
 
 ## Reading the project
 
-Start with the [Introduction](https://aosunmath.github.io/GMT-stack/chapters/orientation/) for sources and conventions, or use the table of contents to enter by subject. Search accepts keywords and permanent tags. Each reading page provides a permalink and citation tools; source pages record the manuscript revision and references.
+Start with the [Introduction](https://aosunmath.github.io/GMT-stack/chapters/orientation/) for sources and conventions, or use the table of contents to enter by subject. Search accepts keywords and permanent tags. Proofs are collapsed by default: select **Proof** or its down arrow to open the argument. Citations jump to a reference list on the same page, with return links. The bibliography links back to the pages that use each source. Each reading page also provides a permalink and citation tools.
 
 | Area | Chapters |
 | --- | --- |
@@ -18,13 +18,15 @@ Start with the [Introduction](https://aosunmath.github.io/GMT-stack/chapters/ori
 | Constrained and diffuse interfaces | [Constant mean curvature surfaces](https://aosunmath.github.io/GMT-stack/chapters/constant-mean-curvature/), [Allen–Cahn and phase transitions](https://aosunmath.github.io/GMT-stack/chapters/allen-cahn/) |
 | Free boundaries and evolution | [Obstacle problems](https://aosunmath.github.io/GMT-stack/chapters/obstacle-problems/), [mean curvature flows](https://aosunmath.github.io/GMT-stack/chapters/mean-curvature-flow/) |
 
+Explore the **[History chapter](https://aosunmath.github.io/GMT-stack/chapters/history/)** for sourced notes about the origins of GMT, the Bernstein problem, and min-max theory. Browse the **[reference library](https://aosunmath.github.io/GMT-stack/sources/gmt-foundations/#reference-library)** for study status and source editions.
+
 ## Current scope and sources
 
 The project covers geometric measure theory, minimal surfaces, min-max theory, the volume spectrum, constant mean curvature surfaces, Willmore geometry, Allen–Cahn and phase transitions, obstacle problems, and mean curvature flows. The first chapter is **Introduction**.
 
-The current draft contains **84 mathematical and editorial entries in 22 sections and 14 chapters**, including 17 local proofs and 18 cited theorems whose proofs remain external. The website's total of 106 addressable entries includes the 22 section headings. Obstacle problems and mean curvature flow currently have introductory formulations and elementary calculations; their deeper theories are planned. No independent human review or formal verification is claimed.
+The current draft contains **110 mathematical and historical entries in 29 sections and 15 chapters**, including 20 local proofs and 28 cited theorems whose proofs remain external. The website's total of 139 addressable entries includes the 29 section headings. Obstacle problems remain introductory. The flow chapter now includes convex contraction, shrinking models, and Gaussian area; deeper weak-flow and singularity theory is still in development. No independent human review or formal verification is claimed.
 
-The initial sources include Federer, Simon, White, Fleming, and Pitts, together with papers and lecture notes on min-max theory, the volume spectrum, the Willmore conjecture, CMC surfaces, regularity, and Allen–Cahn. The 22 supplied reference files represent 21 distinct works or editions. See the [classical source guide](documentation/classical-sources.md) and [variational source guide and scope](documentation/variational-sources.md) for exact editions and coverage. The manuscript is original exposition; source books and extracted full text are not redistributed.
+The initial sources include Federer, Simon, White, Fleming, and Pitts, together with papers and lecture notes on min-max theory, the volume spectrum, the Willmore conjecture, CMC surfaces, regularity, and Allen–Cahn. The reference library now records 116 supplied files, including duplicate copies and separate editions. Thirty-five bibliographic works or editions are cited; other files are explicitly catalogued for further study. See the [classical source guide](documentation/classical-sources.md), [variational source guide and scope](documentation/variational-sources.md) and the [latest library expansion](documentation/library-expansion.md) for exact editions and coverage. The manuscript is original exposition; source books and extracted full text are not redistributed.
 
 Statements retain their hypotheses, conventions, and source attribution. The [proof ledger](content/gmt-foundations/entry-review.json) distinguishes local proofs from cited results. The renderer supports formalization badges, but no verified formalizations are currently registered. Comments are disabled pending a project-specific configuration.
 

@@ -1,6 +1,6 @@
 # Integration layout and numbering
 
-The active reference is an original local manuscript in `content/gmt-foundations/`. `collection.json` places its 22 subject sections in 14 chapters. See [classical sources](classical-sources.md) and [variational sources](variational-sources.md) for editions, conventions, and proof coverage. Project identity is centralized in `scripts/project.py`; preserve existing tags, source slugs, and URLs when changing display titles.
+The active reference is an original local manuscript in `content/gmt-foundations/`. `collection.json` places its 29 subject sections in 15 chapters. See [classical sources](classical-sources.md), [variational sources](variational-sources.md), and [the library expansion](library-expansion.md) for editions, conventions, and proof coverage. Project identity is centralized in `scripts/project.py`; preserve existing tags, source slugs, and URLs when changing display titles.
 
 ## Reading structure
 
@@ -23,3 +23,5 @@ Record source licenses, exact revisions, attribution, and unresolved proof depen
 Show tags reveals chapter, section, statement, equation, and clause identifiers. Cite this page must open on repeated clicks and direct `#cite` links, and its BibTeX must identify Stack Project of Geometric Measure Theory and Variational Problems and the current page. Footnotes retain paired references and return links. Long equations scroll within the reading column on narrow screens.
 
 Before publication, run the commands in the README and inspect desktop and mobile layouts. For the empty edition, the build must produce zero chapters, entries, sources, search results, and formalizations, with no links to old mathematical routes or Xia’s comment threads.
+
+Proofs use native closed `details.proof` panels. Fragment links reopen a containing proof, and print events temporarily expand proofs. Citations retain their canonical bibliography identifiers and also receive page-local reference targets with unique return links. Bibliography backlinks point to the exact local reference list; source catalogues distinguish cited sources from files awaiting review.

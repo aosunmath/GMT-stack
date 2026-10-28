@@ -1040,6 +1040,344 @@
       ],
       "dependencies": [],
       "formal_verification": "none"
+    },
+    {
+      "label": "thm:michael-simon",
+      "title": "Michael--Simon inequality in the smooth case",
+      "kind": "theorem",
+      "file": "geometric-inequalities.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "MS73"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:brendle-isoperimetry",
+      "title": "Sharp isoperimetry in codimension at most two",
+      "kind": "theorem",
+      "file": "geometric-inequalities.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Brendle19"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:flat-ball-isoperimetry",
+      "title": "The flat ball fixes the normalization",
+      "kind": "example",
+      "file": "geometric-inequalities.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [
+        "thm:brendle-isoperimetry"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:huisken-convex",
+      "title": "Convex Euclidean hypersurfaces become round",
+      "kind": "theorem",
+      "file": "mean-curvature-flow.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Hui86"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:self-shrinker",
+      "title": "Self-shrinkers",
+      "kind": "definition",
+      "file": "mean-curvature-flow.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "CCMS20"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinking-cylinders",
+      "title": "Round shrinking cylinders",
+      "kind": "proposition",
+      "file": "mean-curvature-flow.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:gaussian-first-variation",
+      "title": "Gaussian area and the shrinker equation",
+      "kind": "proposition",
+      "file": "mean-curvature-flow.tex",
+      "status": "proof-included",
+      "citations": [
+        "CCMS20"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:generic-flow-source",
+      "title": "The supplied generic-flow paper has a specific scope",
+      "kind": "remark",
+      "file": "mean-curvature-flow.tex",
+      "status": "editorial",
+      "citations": [
+        "CCMS20"
+      ],
+      "dependencies": [
+        "thm:white-mod-two"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:bumpy-metric",
+      "title": "Bumpy metrics",
+      "kind": "definition",
+      "file": "modern-minmax.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "White17",
+        "Zhou20"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:bumpy-metrics",
+      "title": "Generic bumpiness",
+      "kind": "theorem",
+      "file": "modern-minmax.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "White17"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:zhou-multiplicity-one",
+      "title": "Multiplicity-one realization of the volume spectrum",
+      "kind": "theorem",
+      "file": "modern-minmax.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Zhou20"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:song-infinitely-many",
+      "title": "Infinitely many minimal hypersurfaces",
+      "kind": "theorem",
+      "file": "modern-minmax.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Song18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:generic-equidistribution",
+      "title": "Equidistribution for generic metrics",
+      "kind": "theorem",
+      "file": "modern-minmax.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "MNS19"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "hist:integral-currents",
+      "title": "1958--1960: compactness as a design principle",
+      "kind": "remark",
+      "file": "history.tex",
+      "status": "editorial",
+      "citations": [
+        "Fle07",
+        "Fle15"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "hist:de-giorgi",
+      "title": "De Giorgi's boundary without smoothness",
+      "kind": "remark",
+      "file": "history.tex",
+      "status": "editorial",
+      "citations": [
+        "Fle16"
+      ],
+      "dependencies": [
+        "thm:de-giorgi"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "hist:bernstein",
+      "title": "1969: a dimension threshold that surprised analysts",
+      "kind": "remark",
+      "file": "history.tex",
+      "status": "editorial",
+      "citations": [
+        "Fle15"
+      ],
+      "dependencies": [
+        "prop:minimal-graph-pde"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "hist:generalized-surfaces",
+      "title": "Different notions of a generalized surface",
+      "kind": "remark",
+      "file": "history.tex",
+      "status": "editorial",
+      "citations": [
+        "Allard72",
+        "Fle15"
+      ],
+      "dependencies": [
+        "thm:white-mod-two"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "hist:pitts-dimensions",
+      "title": "Existence, regularity, and the meaning of dimension",
+      "kind": "remark",
+      "file": "history.tex",
+      "status": "editorial",
+      "citations": [
+        "Pitts81",
+        "SS81",
+        "Song18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "hist:volume-spectrum",
+      "title": "The volume spectrum and a sequence of geometric questions",
+      "kind": "remark",
+      "file": "history.tex",
+      "status": "editorial",
+      "citations": [
+        "LMN",
+        "MNS19",
+        "Song18",
+        "Zhou20"
+      ],
+      "dependencies": [
+        "thm:generic-equidistribution",
+        "thm:song-infinitely-many",
+        "thm:zhou-multiplicity-one"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:allard-compactness",
+      "title": "Allard compactness for integral varifolds",
+      "kind": "theorem",
+      "file": "compactness-regularity.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Allard72",
+        "White09"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:varifold-mod-two",
+      "title": "The mod-two chain of an integral varifold",
+      "kind": "definition",
+      "file": "compactness-regularity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "White09"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:white-mod-two",
+      "title": "Compatibility of varifold and mod-two limits",
+      "kind": "theorem",
+      "file": "compactness-regularity.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "White09"
+      ],
+      "dependencies": [
+        "thm:allard-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:even-multiplicity",
+      "title": "Even multiplicity is invisible modulo two",
+      "kind": "example",
+      "file": "compactness-regularity.tex",
+      "status": "worked-example",
+      "citations": [
+        "White09"
+      ],
+      "dependencies": [
+        "thm:white-mod-two"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:disjoint-unstable-regions",
+      "title": "Disjoint unstable regions consume index",
+      "kind": "lemma",
+      "file": "compactness-regularity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sharp17"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:sharp-compactness",
+      "title": "Sharp compactness",
+      "kind": "theorem",
+      "file": "compactness-regularity.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Sharp17"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:sharp-regularity-input",
+      "title": "Where regularity enters",
+      "kind": "remark",
+      "file": "compactness-regularity.tex",
+      "status": "editorial",
+      "citations": [
+        "SS81",
+        "Sharp17"
+      ],
+      "dependencies": [
+        "lem:disjoint-unstable-regions"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [

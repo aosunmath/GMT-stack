@@ -2,7 +2,7 @@
 
 The expanded reference is **Stack Project of Geometric Measure Theory and Variational Problems**. It includes the classical GMT foundation and branches for minimal surfaces, min-max theory, the volume spectrum, CMC surfaces, phase transitions, obstacle problems, and mean curvature flows. The Introduction retains the former `orientation` route and all pre-existing tags.
 
-The current manuscript contains 84 mathematical/editorial entries in 22 sections and 14 chapters. Seventeen entries include local proofs; eighteen are cited theorems with external proofs. Definitions, examples, and editorial dependency maps make up the remainder. No independent human review or formal verification is recorded. The website's count of 106 addressable entries also includes the 22 section headings.
+The first variational expansion contained 84 mathematical/editorial entries in 22 sections and 14 chapters. Seventeen entries include local proofs; eighteen are cited theorems with external proofs. Definitions, examples, and editorial dependency maps make up the remainder. No independent human review or formal verification is recorded. That edition's count of 106 addressable entries also included its 22 section headings. See [the later library expansion](library-expansion.md) for current coverage.
 
 ## The sixteen additional supplied references
 
@@ -46,6 +46,6 @@ Hypersurface dimension is `n`, ambient dimension is `n+1`. The smooth scalar mea
 
 ## Scope still to develop
 
-Obstacle problems currently have a precise admissible set and a proved variational inequality. Mean curvature flow currently has its smooth definition, proved area dissipation, and a shrinking-sphere example. Dedicated source corpora, existence theory, regularity, singularities, Brakke flow, and level-set flow are pending. Further planned branches include Plateau problems, free-boundary minimal surfaces, capillarity, prescribed mean curvature, and additional Willmore problems.
+Obstacle problems currently have a precise admissible set and a proved variational inequality. The first mean-curvature-flow section introduced smooth flow, area dissipation, and a shrinking sphere. The later library expansion adds convex contraction, self-shrinkers, and Gaussian area; Brakke flow and level-set flow remain to be developed. Further planned branches include Plateau problems, free-boundary minimal surfaces, capillarity, prescribed mean curvature, and additional Willmore problems.
 
 The full proof ledger is `content/gmt-foundations/entry-review.json`, also exported on the Sources page. Theorems cited without proofs are visibly labeled in their entries. The project retains the Pome/Gerby framework and infrastructure attribution; its GitHub repository and public root remain stable in `scripts/project.py`.

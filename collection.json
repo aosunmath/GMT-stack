@@ -49,7 +49,8 @@
       "title": "Varifolds",
       "tag": "F862A2ECABE2",
       "topics": [
-        "varifolds-and-first-variation"
+        "varifolds-and-first-variation",
+        "integral-compactness-and-mod-two-compatibility"
       ]
     },
     {
@@ -58,9 +59,11 @@
       "tag": "C209F3969037",
       "topics": [
         "minimal-hypersurfaces-and-stability",
-        "minimal-graphs-and-elliptic-regularity"
+        "minimal-graphs-and-elliptic-regularity",
+        "compactness-with-bounded-area-and-index",
+        "sobolev-and-isoperimetric-inequalities"
       ],
-      "description": "First and second variation, stability, Morse index, graph equations, and the regularity program."
+      "description": "Variations, stability, minimal graphs, compactness with bounded index, and geometric inequalities."
     },
     {
       "slug": "min-max-theory",
@@ -78,9 +81,10 @@
       "tag": "B27D22043EEB",
       "topics": [
         "the-volume-spectrum-and-weyl-law",
-        "multiplicity-and-the-morse-index"
+        "multiplicity-and-the-morse-index",
+        "bumpy-metrics-multiplicity-and-abundance"
       ],
-      "description": "Cohomological sweepouts, scaling, Weyl asymptotics, and conditional index equality."
+      "description": "Cohomological sweepouts, Weyl asymptotics, multiplicity one, index, and abundance."
     },
     {
       "slug": "geometric-applications",
@@ -125,9 +129,19 @@
       "title": "Mean curvature flows",
       "tag": "A4745CB639A8",
       "topics": [
-        "smooth-mean-curvature-flow"
+        "smooth-mean-curvature-flow",
+        "convex-flow-and-shrinking-models"
       ],
-      "description": "Initial smooth formulation, area dissipation, and shrinking spheres; weak flows are planned."
+      "description": "Smooth flow, convex contraction, shrinking models, and Gaussian area; weak-flow theory is in development."
+    },
+    {
+      "slug": "history",
+      "title": "History",
+      "topics": [
+        "origins-of-geometric-measure-theory",
+        "from-one-minimal-hypersurface-to-many"
+      ],
+      "description": "Sourced historical notes on the origins of GMT and the development of min-max theory."
     }
   ],
   "topics": [],
