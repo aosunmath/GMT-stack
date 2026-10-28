@@ -1,6 +1,6 @@
 # Currents and constrained variations
 
-This expansion adds **42 entries** in three sections, with **24 new local proofs** and three externally proved theorems. It also supplies a proof of the existing smooth second-variation theorem. The edition now has **255 mathematical and historical entries in 42 sections and 15 chapters**, with 99 local proofs and 47 externally proved theorems. Including section headings gives 297 addressable entries.
+This expansion adds **42 entries** in three sections, with **24 new local proofs** and three externally proved theorems. It also supplies a proof of the existing smooth second-variation theorem. At this expansion stage, the edition had **255 mathematical and historical entries in 42 sections and 15 chapters**, with 99 local proofs and 47 externally proved theorems. Including section headings gives 297 addressable entries.
 
 ## Current operations and Plateau theory
 

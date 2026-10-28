@@ -72,9 +72,12 @@
         "compactness-with-bounded-area-and-index",
         "sobolev-and-isoperimetric-inequalities",
         "elliptic-estimates-for-weak-solutions",
-        "positive-jacobi-fields-and-graphical-convergence"
+        "positive-jacobi-fields-and-graphical-convergence",
+        "stability-and-scalar-curvature",
+        "logarithmic-cutoffs-and-the-bernstein-theorem",
+        "smooth-links-and-stable-minimal-cones"
       ],
-      "description": "Variations, minimal graphs, elliptic estimates, comparison, calibrations, Jacobi fields, compactness, and geometric inequalities."
+      "description": "Variations, graphs, elliptic estimates, comparison, Jacobi fields, compactness, geometric inequalities, scalar curvature, Bernstein arguments, and stable cones."
     },
     {
       "slug": "min-max-theory",
