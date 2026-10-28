@@ -2264,6 +2264,68 @@
     "tag": "3A92CD67456B"
   },
   {
+    "route": "sections/power-tests-and-moser-iteration",
+    "title": "7.13 Power tests and Moser iteration",
+    "chapter": "minimal-surfaces",
+    "section": "power-tests-and-moser-iteration"
+  },
+  {
+    "route": "tag/B8CE044300F3",
+    "title": "Theorem 7.13.1 (The Sobolev gain used in iteration)",
+    "chapter": "minimal-surfaces",
+    "section": "power-tests-and-moser-iteration",
+    "tag": "B8CE044300F3"
+  },
+  {
+    "route": "tag/B951D0F32E6B",
+    "title": "Lemma 7.13.2 (Positive parts preserve the subsolution inequality)",
+    "chapter": "minimal-surfaces",
+    "section": "power-tests-and-moser-iteration",
+    "tag": "B951D0F32E6B"
+  },
+  {
+    "route": "tag/7066CAF042C4",
+    "title": "Lemma 7.13.3 (Energy estimate for truncated powers)",
+    "chapter": "minimal-surfaces",
+    "section": "power-tests-and-moser-iteration",
+    "tag": "7066CAF042C4"
+  },
+  {
+    "route": "tag/C8B26982BF2A",
+    "title": "Lemma 7.13.4 (One step of integrability improvement)",
+    "chapter": "minimal-surfaces",
+    "section": "power-tests-and-moser-iteration",
+    "tag": "C8B26982BF2A"
+  },
+  {
+    "route": "tag/DB183F3A4CE7",
+    "title": "Theorem 7.13.5 (Moser local boundedness for nonnegative subsolutions)",
+    "chapter": "minimal-surfaces",
+    "section": "power-tests-and-moser-iteration",
+    "tag": "DB183F3A4CE7"
+  },
+  {
+    "route": "tag/667B61D52CFD",
+    "title": "Proposition 7.13.6 (Local bounds from every positive integrability exponent)",
+    "chapter": "minimal-surfaces",
+    "section": "power-tests-and-moser-iteration",
+    "tag": "667B61D52CFD"
+  },
+  {
+    "route": "tag/3E2A4AEFD01C",
+    "title": "Proposition 7.13.7 (Weak maximum principle with a Sobolev boundary condition)",
+    "chapter": "minimal-surfaces",
+    "section": "power-tests-and-moser-iteration",
+    "tag": "3E2A4AEFD01C"
+  },
+  {
+    "route": "tag/D0D8708926B9",
+    "title": "Corollary 7.13.8 (An integrable entire subsolution vanishes)",
+    "chapter": "minimal-surfaces",
+    "section": "power-tests-and-moser-iteration",
+    "tag": "D0D8708926B9"
+  },
+  {
     "route": "chapters/min-max-theory",
     "title": "8 Min-max theory",
     "chapter": "min-max-theory"

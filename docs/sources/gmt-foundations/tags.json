@@ -6136,5 +6136,86 @@
     "page": "tag/C05479AE/index.html",
     "canonical_tag": "3A92CD67456B",
     "anchor": ""
+  },
+  {
+    "tag": "6C2F5ACF",
+    "label": "sec:moser-iteration",
+    "title": "85 Power tests and Moser iteration",
+    "kind": "chapter",
+    "page": "tag/6C2F5ACF/index.html",
+    "canonical_tag": "7DA889D6DE36",
+    "anchor": ""
+  },
+  {
+    "tag": "A77E737A",
+    "label": "thm:iteration-sobolev-gain",
+    "title": "Theorem 85.1 (The Sobolev gain used in iteration)",
+    "kind": "theorem",
+    "page": "tag/A77E737A/index.html",
+    "canonical_tag": "B8CE044300F3",
+    "anchor": ""
+  },
+  {
+    "tag": "D13DD43B",
+    "label": "lem:positive-part-subsolution",
+    "title": "Lemma 85.2 (Positive parts preserve the subsolution inequality)",
+    "kind": "lemma",
+    "page": "tag/D13DD43B/index.html",
+    "canonical_tag": "B951D0F32E6B",
+    "anchor": ""
+  },
+  {
+    "tag": "EA259940",
+    "label": "lem:truncated-power-energy",
+    "title": "Lemma 85.3 (Energy estimate for truncated powers)",
+    "kind": "lemma",
+    "page": "tag/EA259940/index.html",
+    "canonical_tag": "7066CAF042C4",
+    "anchor": ""
+  },
+  {
+    "tag": "9B7EDB4C",
+    "label": "lem:moser-integrability-step",
+    "title": "Lemma 85.4 (One step of integrability improvement)",
+    "kind": "lemma",
+    "page": "tag/9B7EDB4C/index.html",
+    "canonical_tag": "C8B26982BF2A",
+    "anchor": ""
+  },
+  {
+    "tag": "45139AA3",
+    "label": "thm:moser-subsolution-bound",
+    "title": "Theorem 85.5 (Moser local boundedness for nonnegative subsolutions)",
+    "kind": "theorem",
+    "page": "tag/45139AA3/index.html",
+    "canonical_tag": "DB183F3A4CE7",
+    "anchor": ""
+  },
+  {
+    "tag": "EE54DE09",
+    "label": "prop:moser-all-positive-exponents",
+    "title": "Proposition 85.6 (Local bounds from every positive integrability exponent)",
+    "kind": "proposition",
+    "page": "tag/EE54DE09/index.html",
+    "canonical_tag": "667B61D52CFD",
+    "anchor": ""
+  },
+  {
+    "tag": "0656250E",
+    "label": "prop:weak-maximum-sobolev-boundary",
+    "title": "Proposition 85.7 (Weak maximum principle with a Sobolev boundary condition)",
+    "kind": "proposition",
+    "page": "tag/0656250E/index.html",
+    "canonical_tag": "3E2A4AEFD01C",
+    "anchor": ""
+  },
+  {
+    "tag": "F7554BBE",
+    "label": "cor:integrable-subsolution-liouville",
+    "title": "Corollary 85.8 (An integrable entire subsolution vanishes)",
+    "kind": "corollary",
+    "page": "tag/F7554BBE/index.html",
+    "canonical_tag": "D0D8708926B9",
+    "anchor": ""
   }
 ]

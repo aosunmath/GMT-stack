@@ -1,10 +1,10 @@
 {
   "source": "https://github.com/aosunmath/GMT-stack",
   "kind": "local-manuscript",
-  "source_sha256": "045a76f81a374b1ace6c7df52ff8b47903a18bceb04b9d1a04d279065133cf49",
+  "source_sha256": "f3dcf92726424123b8e3f703049de26381c9dfdfca60d0d696bbcd489a6cb666",
   "files": {
     "allen-cahn.tex": "e83e29527057db852a886628ed3c458c538c48ad6245618ed5e5b68d2035e36c",
-    "book.tex": "1a6d1418761400bab8326bc56ecfdf873f3e0befcfb7c4938f3e3c014e654f05",
+    "book.tex": "356029abe320a09fbcd546b38cfdffa203c986c785f76a897795f5ff5eabd082",
     "brakke-flow.tex": "9e8ef5dc76e7a4814d1703566e54ece216f0302c47f2cc9339b61f4e278c0f68",
     "bv-coarea.tex": "79110d4ed8d0630caa45ca1a78530bf626bf4d828c65df35770a02bd25a57eff",
     "bv-compactness.tex": "3820bcb702ed7a0da8c69251b0ae7860a576fc1124a7143e4a105510ba58f4bc",
@@ -23,10 +23,10 @@
     "current-operations.tex": "f6198a00f618e1a8f07f9a4e443e6d86a58f6167813b60d0b7fd3c12a6673815",
     "current-slicing.tex": "7e56bc01b29f4a106261d2715e3d3666398ce0adcec14e04cf05cbb88ebac027",
     "currents.tex": "676b01a38af29d135b9c8923fe0380ba6728591f4acf859e8a4463e2242b4a8a",
-    "elliptic-tools.tex": "6ba2f6b653e2f5a61bb9ff30191536cd79e8adae5f41e38a0412e5da600a4b49",
+    "elliptic-tools.tex": "677f7d1d2531604a17c70adeee1074f3577b855c271613e8651c0366bc52f485",
     "entropy-convergence.tex": "c463af2938b9c31c7246234ca5aa0e51bc846f57726e39216e978820ba63a0a2",
     "entropy-perturbations.tex": "791086299f156ae2ce541b46e14d4de0096198b5172dea57491dee4079ba61c3",
-    "entry-review.json": "236655f192a51cde70228d1a443c242ed4007869a1926393345119eb93399a55",
+    "entry-review.json": "7e3a365aa17db2d03b5a0744e8a41c89aa93eb4d791fd39caa9347c7f80941db",
     "geometric-inequalities.tex": "b082ed97dffc30ff4b17954f6127135999d4fde7ba55327bcaac999e2f656632",
     "history.tex": "56ceb9c3aa6fe2ef05b4a7e2affea072699de2b72510cf738eea57abed1e535f",
     "index-convergence.tex": "b262178288ca00e247d60f07cb315d9d30171654dcc2a69e4389aa4c5f598667",
@@ -40,6 +40,7 @@
     "minimal-surfaces.tex": "e59a9b2a9721ce7611541045e51d98110762a58500f84e257594b6619c11211c",
     "minmax-applications.tex": "d7cd97a7bb4ab00119a606821310405d00161d4b1d8f805f79aff011d64332cf",
     "modern-minmax.tex": "359e4ffb65b6a3a72f41e94fd945ba543ad939c295a47119a1a3692a0c6eb76a",
+    "moser-iteration.tex": "baa693ea1b798728c42d1da225be097e7d762c6100bf3483ce5e16423d12c1c9",
     "obstacle-blowups.tex": "00e855eda5c5ec9363731aa8a64ccc159a9f9250012d04f85e07f4db5ef67866",
     "obstacle-monotonicity.tex": "f044e300ba04029ebda7bae7ce833739f378bd021349dd714fd83c8a0c573bd9",
     "obstacle-problems.tex": "e5f8b649acadf500e5f2bf2bef9802bb9ce5d02486f9c4ead25717e3955bb6c4",
@@ -61,7 +62,7 @@
     "shrinker-entropy.tex": "e01cefce78b02eb699d85995dd7cc3652392205b6be7b4d0f09b6f35f47b2546",
     "shrinker-stability.tex": "ea31b7f6478ea9fe5ef3a898e38417577f79f98324a845d911ffccfdfb97b7fd",
     "shrinker-variation.tex": "3c7316ad322600f5f3fd872c30c98cca2faa1d199adc78e9f474586d429fe2a6",
-    "source-inventory.json": "fca5d361d60eaf6680b993d9f06c67666f8bbae7fc97930660178720861e707d",
+    "source-inventory.json": "ec7da6fe5d49f36b8dac21f33962cfd6faa8467003fda463633c9f2797618630",
     "stability-applications.tex": "9a08c2f0c3f6a4114106cfe34c2bfa7b28021922604e586ed71efa46917ae443",
     "stable-cones.tex": "9ecf00a60d578fcc88ddab9423c7be02b4c4d93519ac7cc1bd44603c01bd92d5",
     "stratification-proof.tex": "88164b26c35f4f85ad9bbfdaa72be8a684a6b77a9e731e829e69742bacdc206b",
@@ -78,5 +79,5 @@
     "width-metrics.tex": "f90e11b91192d6b13860db2a680f99584d67646f0fcd9ba72891883fc550f293"
   },
   "renderer": "Gerby",
-  "tags": 682
+  "tags": 691
 }

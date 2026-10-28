@@ -1648,12 +1648,16 @@
       "title": "Local boundedness of weak solutions",
       "kind": "theorem",
       "file": "elliptic-tools.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "SimonPDE"
       ],
       "dependencies": [
-        "def:weak-elliptic-equation"
+        "def:weak-elliptic-equation",
+        "lem:moser-integrability-step",
+        "lem:positive-part-subsolution",
+        "lem:truncated-power-energy",
+        "thm:moser-subsolution-bound"
       ],
       "formal_verification": "none"
     },
@@ -7767,6 +7771,106 @@
       "citations": [],
       "dependencies": [
         "thm:index-smooth-varifold-limit"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:iteration-sobolev-gain",
+      "title": "The Sobolev gain used in iteration",
+      "kind": "theorem",
+      "file": "moser-iteration.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:positive-part-subsolution",
+      "title": "Positive parts preserve the subsolution inequality",
+      "kind": "lemma",
+      "file": "moser-iteration.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:truncated-power-energy",
+      "title": "Energy estimate for truncated powers",
+      "kind": "lemma",
+      "file": "moser-iteration.tex",
+      "status": "proof-included",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:moser-integrability-step",
+      "title": "One step of integrability improvement",
+      "kind": "lemma",
+      "file": "moser-iteration.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:truncated-power-energy",
+        "thm:iteration-sobolev-gain"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:moser-subsolution-bound",
+      "title": "Moser local boundedness for nonnegative subsolutions",
+      "kind": "theorem",
+      "file": "moser-iteration.tex",
+      "status": "proof-included",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [
+        "lem:moser-integrability-step"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:moser-all-positive-exponents",
+      "title": "Local bounds from every positive integrability exponent",
+      "kind": "proposition",
+      "file": "moser-iteration.tex",
+      "status": "proof-included",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [
+        "thm:moser-subsolution-bound"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:weak-maximum-sobolev-boundary",
+      "title": "Weak maximum principle with a Sobolev boundary condition",
+      "kind": "proposition",
+      "file": "moser-iteration.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:iteration-sobolev-gain"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:integrable-subsolution-liouville",
+      "title": "An integrable entire subsolution vanishes",
+      "kind": "corollary",
+      "file": "moser-iteration.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:positive-part-subsolution",
+        "prop:moser-all-positive-exponents"
       ],
       "formal_verification": "none"
     }
