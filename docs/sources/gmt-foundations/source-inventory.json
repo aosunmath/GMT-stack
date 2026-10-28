@@ -28,7 +28,9 @@
         "Chapter 6, equations (2.8)--(2.17), pp. 160--162: representation and weak compactness",
         "Chapter 6, equations (2.19)--(2.39), pp. 162--167: products, pushforwards, homotopies, and cones",
         "Chapter 6, Lemma 3.12 and Remark 3.13, pp. 174--175: Lipschitz images and cancellation",
-        "Chapter 6, Section 4, pp. 180--185: geometric and distributional slicing, orientation, and mass bounds"
+        "Chapter 6, Section 4, pp. 180--185: geometric and distributional slicing, orientation, and mass bounds",
+        "Chapter 2, Theorem 7.3 and Remark 7.4, pp. 76--79: manifold and weighted coarea",
+        "Chapter 3, Section 2, pp. 92--94: tangential differentiation, weighted area/coarea, and rectifiable fibers"
       ]
     },
     {
@@ -130,7 +132,8 @@
       "checked_passages": [
         "Section 0, Lemma 0.6 and Definitions 0.8--0.9",
         "Section 1, Lemmas 1.1--1.5, Definition 1.6, Theorem 1.7",
-        "Sections 2--3, scalar graph regularity and Corollary 3.2"
+        "Sections 2--3, scalar graph regularity and Corollary 3.2",
+        "Lemma 0.7 and proof, pp. 8--9: smooth-support constancy; coordinate volume factor made explicit locally"
       ]
     },
     {
@@ -910,17 +913,22 @@
       ]
     },
     {
-      "bibliography_key": null,
+      "bibliography_key": "Giu84",
       "filename": "Minimal Surfaces and Functions of Bounded Variation_Giusti.pdf",
       "title": "Minimal Surfaces and Functions of Bounded Variation",
-      "author": "Giusti",
-      "edition": "Supplied file; edition not yet reviewed",
+      "author": "Enrico Giusti",
+      "edition": "1984; supplied reprint of the original edition",
       "sha256": "d25b41c81362f70a7b5047ac543523a3c34453768e6e4842349ccc6622dca079",
       "redistributed": false,
-      "role": "Catalogued for later subject-specific study; no mathematical claims imported from this file.",
-      "review_status": "catalogued-only",
-      "metadata_status": "filename-only",
-      "pdf_pages": 250
+      "role": "BV coarea and smooth finite-perimeter approximation; local proofs developed from layer cake, strict mollification, and level selection.",
+      "review_status": "selected-passages-checked",
+      "metadata_status": "source-checked",
+      "pdf_pages": 250,
+      "checked_passages": [
+        "Title and copyright pages: Monographs in Mathematics 80, original 1984 edition, DOI 10.1007/978-1-4684-9486-0",
+        "Theorem 1.23 and its approximation proof, printed pp. 20--22",
+        "Theorem 1.24 and Lemma 1.25, printed pp. 22--23: smooth set approximation and threshold selection"
+      ]
     },
     {
       "bibliography_key": null,

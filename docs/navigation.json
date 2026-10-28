@@ -186,6 +186,61 @@
     "tag": "5830576492D6"
   },
   {
+    "route": "sections/tangential-jacobians-and-weighted-coarea",
+    "title": "3.3 Tangential Jacobians and weighted coarea",
+    "chapter": "rectifiability",
+    "section": "tangential-jacobians-and-weighted-coarea"
+  },
+  {
+    "route": "tag/82E9244AC74A",
+    "title": "Proposition 3.3.1 (Weighted Euclidean area formula)",
+    "chapter": "rectifiability",
+    "section": "tangential-jacobians-and-weighted-coarea",
+    "tag": "82E9244AC74A"
+  },
+  {
+    "route": "tag/72A60FF7DFA9",
+    "title": "Definition 3.3.2 (Tangential differential and coarea Jacobian)",
+    "chapter": "rectifiability",
+    "section": "tangential-jacobians-and-weighted-coarea",
+    "tag": "72A60FF7DFA9"
+  },
+  {
+    "route": "tag/6D91F1CCF988",
+    "title": "Theorem 3.3.3 (Coarea on a rectifiable set)",
+    "chapter": "rectifiability",
+    "section": "tangential-jacobians-and-weighted-coarea",
+    "tag": "6D91F1CCF988"
+  },
+  {
+    "route": "tag/F478D1BCB783",
+    "title": "Corollary 3.3.4 (Weighted rectifiable coarea)",
+    "chapter": "rectifiability",
+    "section": "tangential-jacobians-and-weighted-coarea",
+    "tag": "F478D1BCB783"
+  },
+  {
+    "route": "tag/579B93950659",
+    "title": "Proposition 3.3.5 (Selecting a radial slice of controlled area)",
+    "chapter": "rectifiability",
+    "section": "tangential-jacobians-and-weighted-coarea",
+    "tag": "579B93950659"
+  },
+  {
+    "route": "tag/33937AFF00CD",
+    "title": "Example 3.3.6 (Projection recovers Fubini)",
+    "chapter": "rectifiability",
+    "section": "tangential-jacobians-and-weighted-coarea",
+    "tag": "33937AFF00CD"
+  },
+  {
+    "route": "tag/4C93F9F0300B",
+    "title": "Example 3.3.7 (An ambient exceptional set can contain the whole surface)",
+    "chapter": "rectifiability",
+    "section": "tangential-jacobians-and-weighted-coarea",
+    "tag": "4C93F9F0300B"
+  },
+  {
     "route": "chapters/finite-perimeter",
     "title": "4 Sets of finite perimeter",
     "chapter": "finite-perimeter"
@@ -368,6 +423,103 @@
     "chapter": "finite-perimeter",
     "section": "perimeter-blow-ups-and-the-direct-method",
     "tag": "FCE1DA6B5E31"
+  },
+  {
+    "route": "sections/bv-coarea-and-level-set-calculus",
+    "title": "4.4 BV coarea and level-set calculus",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus"
+  },
+  {
+    "route": "tag/9CC91C075013",
+    "title": "Lemma 4.4.1 (Layer cake and the distance between level sets)",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus",
+    "tag": "9CC91C075013"
+  },
+  {
+    "route": "tag/309A29065003",
+    "title": "Proposition 4.4.2 (Coarea for smooth superlevel sets)",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus",
+    "tag": "309A29065003"
+  },
+  {
+    "route": "tag/14EFA42D4221",
+    "title": "Lemma 4.4.3 (Almost-everywhere convergence of superlevel sets)",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus",
+    "tag": "14EFA42D4221"
+  },
+  {
+    "route": "tag/0D1F3CCF1E8C",
+    "title": "Theorem 4.4.4 (Whole-space BV coarea)",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus",
+    "tag": "0D1F3CCF1E8C"
+  },
+  {
+    "route": "tag/37A9B9679336",
+    "title": "Theorem 4.4.5 (Local and weighted BV coarea)",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus",
+    "tag": "37A9B9679336"
+  },
+  {
+    "route": "tag/9979CFE006F3",
+    "title": "Proposition 4.4.6 (Lipschitz composition preserves local BV)",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus",
+    "tag": "9979CFE006F3"
+  },
+  {
+    "route": "tag/65E058CA44BE",
+    "title": "Corollary 4.4.7 (Exact variation of a truncation)",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus",
+    "tag": "65E058CA44BE"
+  },
+  {
+    "route": "tag/D3CFF7861958",
+    "title": "Corollary 4.4.8 (Positive and negative variations split exactly)",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus",
+    "tag": "D3CFF7861958"
+  },
+  {
+    "route": "tag/CCE6F12929C4",
+    "title": "Proposition 4.4.9 (The BV lattice inequality)",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus",
+    "tag": "CCE6F12929C4"
+  },
+  {
+    "route": "tag/3FF2415BEDED",
+    "title": "Corollary 4.4.10 (Union and intersection of finite-perimeter sets)",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus",
+    "tag": "3FF2415BEDED"
+  },
+  {
+    "route": "tag/1F03439EADE6",
+    "title": "Theorem 4.4.11 (Smooth approximation of a bounded finite-perimeter set)",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus",
+    "tag": "1F03439EADE6"
+  },
+  {
+    "route": "tag/5A7BDE390B41",
+    "title": "Example 4.4.12 (A jump contributes its height times perimeter)",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus",
+    "tag": "5A7BDE390B41"
+  },
+  {
+    "route": "tag/C70596090F29",
+    "title": "Example 4.4.13 (A fixed level can fail under strong convergence)",
+    "chapter": "finite-perimeter",
+    "section": "bv-coarea-and-level-set-calculus",
+    "tag": "C70596090F29"
   },
   {
     "route": "chapters/currents-flat-chains",
@@ -874,6 +1026,54 @@
     "chapter": "varifolds",
     "section": "excess-and-allard-regularity",
     "tag": "2D4CD27BD1E5"
+  },
+  {
+    "route": "sections/smooth-support-and-multiplicity",
+    "title": "6.5 Smooth support and multiplicity",
+    "chapter": "varifolds",
+    "section": "smooth-support-and-multiplicity"
+  },
+  {
+    "route": "tag/CB1D1F5465B7",
+    "title": "Lemma 6.5.1 (A distributionally constant function is constant)",
+    "chapter": "varifolds",
+    "section": "smooth-support-and-multiplicity",
+    "tag": "CB1D1F5465B7"
+  },
+  {
+    "route": "tag/5832EF0DAF5B",
+    "title": "Proposition 6.5.2 (Tangential stationarity forces constant density)",
+    "chapter": "varifolds",
+    "section": "smooth-support-and-multiplicity",
+    "tag": "5832EF0DAF5B"
+  },
+  {
+    "route": "tag/B43FE7AAC565",
+    "title": "Theorem 6.5.3 (Constancy on a smooth connected support)",
+    "chapter": "varifolds",
+    "section": "smooth-support-and-multiplicity",
+    "tag": "B43FE7AAC565"
+  },
+  {
+    "route": "tag/A1F1A11532C8",
+    "title": "Example 6.5.4 (A multiplicity jump produces first variation)",
+    "chapter": "varifolds",
+    "section": "smooth-support-and-multiplicity",
+    "tag": "A1F1A11532C8"
+  },
+  {
+    "route": "tag/A4DAF9D70A92",
+    "title": "Proposition 6.5.5 (First variation of a smooth positive density)",
+    "chapter": "varifolds",
+    "section": "smooth-support-and-multiplicity",
+    "tag": "A4DAF9D70A92"
+  },
+  {
+    "route": "tag/09CF92107610",
+    "title": "Example 6.5.6 (Generalized mean curvature can have a tangential part)",
+    "chapter": "varifolds",
+    "section": "smooth-support-and-multiplicity",
+    "tag": "09CF92107610"
   },
   {
     "route": "chapters/minimal-surfaces",

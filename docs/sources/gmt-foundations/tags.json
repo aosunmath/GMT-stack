@@ -2905,5 +2905,266 @@
     "page": "tag/49197434/index.html",
     "canonical_tag": "0574E4F9C647",
     "anchor": ""
+  },
+  {
+    "tag": "92303C93",
+    "label": "sec:weighted-coarea",
+    "title": "46 Tangential Jacobians and weighted coarea",
+    "kind": "chapter",
+    "page": "tag/92303C93/index.html",
+    "canonical_tag": "1BA039560294",
+    "anchor": ""
+  },
+  {
+    "tag": "FFE78172",
+    "label": "prop:weighted-area",
+    "title": "Proposition 46.1 (Weighted Euclidean area formula)",
+    "kind": "proposition",
+    "page": "tag/FFE78172/index.html",
+    "canonical_tag": "82E9244AC74A",
+    "anchor": ""
+  },
+  {
+    "tag": "1115D777",
+    "label": "def:tangential-coarea-jacobian",
+    "title": "Definition 46.2 (Tangential differential and coarea Jacobian)",
+    "kind": "definition",
+    "page": "tag/1115D777/index.html",
+    "canonical_tag": "72A60FF7DFA9",
+    "anchor": ""
+  },
+  {
+    "tag": "6D9A2AB4",
+    "label": "thm:rectifiable-coarea",
+    "title": "Theorem 46.3 (Coarea on a rectifiable set)",
+    "kind": "theorem",
+    "page": "tag/6D9A2AB4/index.html",
+    "canonical_tag": "6D91F1CCF988",
+    "anchor": ""
+  },
+  {
+    "tag": "891EC085",
+    "label": "cor:weighted-rectifiable-coarea",
+    "title": "Corollary 46.4 (Weighted rectifiable coarea)",
+    "kind": "corollary",
+    "page": "tag/891EC085/index.html",
+    "canonical_tag": "F478D1BCB783",
+    "anchor": ""
+  },
+  {
+    "tag": "7D5CC997",
+    "label": "prop:rectifiable-radial-slice",
+    "title": "Proposition 46.5 (Selecting a radial slice of controlled area)",
+    "kind": "proposition",
+    "page": "tag/7D5CC997/index.html",
+    "canonical_tag": "579B93950659",
+    "anchor": ""
+  },
+  {
+    "tag": "D1569990",
+    "label": "ex:coarea-fubini",
+    "title": "Example 46.6 (Projection recovers Fubini)",
+    "kind": "example",
+    "page": "tag/D1569990/index.html",
+    "canonical_tag": "33937AFF00CD",
+    "anchor": ""
+  },
+  {
+    "tag": "B3D2E0A8",
+    "label": "ex:tangential-not-ambient",
+    "title": "Example 46.7 (An ambient exceptional set can contain the whole surface)",
+    "kind": "example",
+    "page": "tag/B3D2E0A8/index.html",
+    "canonical_tag": "4C93F9F0300B",
+    "anchor": ""
+  },
+  {
+    "tag": "4B3DEBA8",
+    "label": "sec:bv-coarea",
+    "title": "47 BV coarea and level-set calculus",
+    "kind": "chapter",
+    "page": "tag/4B3DEBA8/index.html",
+    "canonical_tag": "1DCD646579F1",
+    "anchor": ""
+  },
+  {
+    "tag": "DA1328DE",
+    "label": "lem:level-set-layer-cake",
+    "title": "Lemma 47.1 (Layer cake and the distance between level sets)",
+    "kind": "lemma",
+    "page": "tag/DA1328DE/index.html",
+    "canonical_tag": "9CC91C075013",
+    "anchor": ""
+  },
+  {
+    "tag": "447C658A",
+    "label": "prop:smooth-superlevel-coarea",
+    "title": "Proposition 47.2 (Coarea for smooth superlevel sets)",
+    "kind": "proposition",
+    "page": "tag/447C658A/index.html",
+    "canonical_tag": "309A29065003",
+    "anchor": ""
+  },
+  {
+    "tag": "AF123215",
+    "label": "lem:level-set-convergence",
+    "title": "Lemma 47.3 (Almost-everywhere convergence of superlevel sets)",
+    "kind": "lemma",
+    "page": "tag/AF123215/index.html",
+    "canonical_tag": "14EFA42D4221",
+    "anchor": ""
+  },
+  {
+    "tag": "AFFABBA1",
+    "label": "thm:bv-coarea-global",
+    "title": "Theorem 47.4 (Whole-space BV coarea)",
+    "kind": "theorem",
+    "page": "tag/AFFABBA1/index.html",
+    "canonical_tag": "0D1F3CCF1E8C",
+    "anchor": ""
+  },
+  {
+    "tag": "E640FC14",
+    "label": "thm:bv-coarea-local",
+    "title": "Theorem 47.5 (Local and weighted BV coarea)",
+    "kind": "theorem",
+    "page": "tag/E640FC14/index.html",
+    "canonical_tag": "37A9B9679336",
+    "anchor": ""
+  },
+  {
+    "tag": "648F609F",
+    "label": "prop:bv-lipschitz-composition",
+    "title": "Proposition 47.6 (Lipschitz composition preserves local BV)",
+    "kind": "proposition",
+    "page": "tag/648F609F/index.html",
+    "canonical_tag": "9979CFE006F3",
+    "anchor": ""
+  },
+  {
+    "tag": "82D1BF47",
+    "label": "cor:bv-truncation-coarea",
+    "title": "Corollary 47.7 (Exact variation of a truncation)",
+    "kind": "corollary",
+    "page": "tag/82D1BF47/index.html",
+    "canonical_tag": "65E058CA44BE",
+    "anchor": ""
+  },
+  {
+    "tag": "E5120646",
+    "label": "cor:bv-positive-negative",
+    "title": "Corollary 47.8 (Positive and negative variations split exactly)",
+    "kind": "corollary",
+    "page": "tag/E5120646/index.html",
+    "canonical_tag": "D3CFF7861958",
+    "anchor": ""
+  },
+  {
+    "tag": "7644D171",
+    "label": "prop:bv-lattice",
+    "title": "Proposition 47.9 (The BV lattice inequality)",
+    "kind": "proposition",
+    "page": "tag/7644D171/index.html",
+    "canonical_tag": "CCE6F12929C4",
+    "anchor": ""
+  },
+  {
+    "tag": "DA0977E0",
+    "label": "cor:perimeter-submodularity",
+    "title": "Corollary 47.10 (Union and intersection of finite-perimeter sets)",
+    "kind": "corollary",
+    "page": "tag/DA0977E0/index.html",
+    "canonical_tag": "3FF2415BEDED",
+    "anchor": ""
+  },
+  {
+    "tag": "EEA4663C",
+    "label": "thm:perimeter-smooth-approximation",
+    "title": "Theorem 47.11 (Smooth approximation of a bounded finite-perimeter set)",
+    "kind": "theorem",
+    "page": "tag/EEA4663C/index.html",
+    "canonical_tag": "1F03439EADE6",
+    "anchor": ""
+  },
+  {
+    "tag": "7BA51D81",
+    "label": "ex:bv-jump-coarea",
+    "title": "Example 47.12 (A jump contributes its height times perimeter)",
+    "kind": "example",
+    "page": "tag/7BA51D81/index.html",
+    "canonical_tag": "5A7BDE390B41",
+    "anchor": ""
+  },
+  {
+    "tag": "84B682A1",
+    "label": "ex:exceptional-level",
+    "title": "Example 47.13 (A fixed level can fail under strong convergence)",
+    "kind": "example",
+    "page": "tag/84B682A1/index.html",
+    "canonical_tag": "C70596090F29",
+    "anchor": ""
+  },
+  {
+    "tag": "AA715AF6",
+    "label": "sec:varifold-constancy",
+    "title": "48 Smooth support and multiplicity",
+    "kind": "chapter",
+    "page": "tag/AA715AF6/index.html",
+    "canonical_tag": "86EE0C8A66A2",
+    "anchor": ""
+  },
+  {
+    "tag": "0773274B",
+    "label": "lem:weak-gradient-zero",
+    "title": "Lemma 48.1 (A distributionally constant function is constant)",
+    "kind": "lemma",
+    "page": "tag/0773274B/index.html",
+    "canonical_tag": "CB1D1F5465B7",
+    "anchor": ""
+  },
+  {
+    "tag": "3DFAF2A6",
+    "label": "prop:tangential-density-constancy",
+    "title": "Proposition 48.2 (Tangential stationarity forces constant density)",
+    "kind": "proposition",
+    "page": "tag/3DFAF2A6/index.html",
+    "canonical_tag": "5832EF0DAF5B",
+    "anchor": ""
+  },
+  {
+    "tag": "3397EEC0",
+    "label": "thm:varifold-smooth-constancy",
+    "title": "Theorem 48.3 (Constancy on a smooth connected support)",
+    "kind": "theorem",
+    "page": "tag/3397EEC0/index.html",
+    "canonical_tag": "B43FE7AAC565",
+    "anchor": ""
+  },
+  {
+    "tag": "AFFE38CE",
+    "label": "ex:jump-multiplicity",
+    "title": "Example 48.4 (A multiplicity jump produces first variation)",
+    "kind": "example",
+    "page": "tag/AFFE38CE/index.html",
+    "canonical_tag": "A1F1A11532C8",
+    "anchor": ""
+  },
+  {
+    "tag": "AC1209AF",
+    "label": "prop:weighted-smooth-first-variation",
+    "title": "Proposition 48.5 (First variation of a smooth positive density)",
+    "kind": "proposition",
+    "page": "tag/AC1209AF/index.html",
+    "canonical_tag": "A4DAF9D70A92",
+    "anchor": ""
+  },
+  {
+    "tag": "495556A0",
+    "label": "ex:weighted-plane-mean-curvature",
+    "title": "Example 48.6 (Generalized mean curvature can have a tangential part)",
+    "kind": "example",
+    "page": "tag/495556A0/index.html",
+    "canonical_tag": "09CF92107610",
+    "anchor": ""
   }
 ]
