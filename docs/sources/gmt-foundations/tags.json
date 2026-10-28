@@ -5002,5 +5002,239 @@
     "page": "tag/4131BFA9/index.html",
     "canonical_tag": "C6F03108FD3A",
     "anchor": ""
+  },
+  {
+    "tag": "937CB645",
+    "label": "sec:entropy-convergence",
+    "title": "70 Gaussian tails and convergence of entropy",
+    "kind": "chapter",
+    "page": "tag/937CB645/index.html",
+    "canonical_tag": "E19583DFFAC6",
+    "anchor": ""
+  },
+  {
+    "tag": "912958CA",
+    "label": "prop:entropy-lower-semicontinuity",
+    "title": "Proposition 70.1 (Lower semicontinuity of Gaussian area and entropy)",
+    "kind": "proposition",
+    "page": "tag/912958CA/index.html",
+    "canonical_tag": "7E46AD688EDF",
+    "anchor": ""
+  },
+  {
+    "tag": "FD3BE55C",
+    "label": "lem:entropy-gaussian-tails",
+    "title": "Lemma 70.2 (Uniform polynomial Gaussian tails)",
+    "kind": "lemma",
+    "page": "tag/FD3BE55C/index.html",
+    "canonical_tag": "52A6BD047625",
+    "anchor": ""
+  },
+  {
+    "tag": "70D4C9B6",
+    "label": "thm:gaussian-local-weak-convergence",
+    "title": "Theorem 70.3 (Gaussian convergence on compact parameter sets)",
+    "kind": "theorem",
+    "page": "tag/70D4C9B6/index.html",
+    "canonical_tag": "951933FB16BD",
+    "anchor": ""
+  },
+  {
+    "tag": "76B00011",
+    "label": "ex:entropy-two-plane-escape",
+    "title": "Example 70.4 (Entropy can drop when a plane escapes to infinity)",
+    "kind": "example",
+    "page": "tag/76B00011/index.html",
+    "canonical_tag": "939147F750E3",
+    "anchor": ""
+  },
+  {
+    "tag": "AB0FAAA8",
+    "label": "prop:entropy-gaussian-second-moment",
+    "title": "Proposition 70.5 (Entropy controls the Gaussian second moment)",
+    "kind": "proposition",
+    "page": "tag/AB0FAAA8/index.html",
+    "canonical_tag": "572E84F0FD10",
+    "anchor": ""
+  },
+  {
+    "tag": "F9B9194E",
+    "label": "prop:entropy-euclidean-product",
+    "title": "Proposition 70.6 (Entropy is unchanged by a Euclidean product)",
+    "kind": "proposition",
+    "page": "tag/F9B9194E/index.html",
+    "canonical_tag": "510CE72B5070",
+    "anchor": ""
+  },
+  {
+    "tag": "FCCA27E1",
+    "label": "prop:static-gaussian-density",
+    "title": "Proposition 70.7 (Small-scale Gaussian limits on a proper embedded hypersurface)",
+    "kind": "proposition",
+    "page": "tag/FCCA27E1/index.html",
+    "canonical_tag": "EC6BCD371796",
+    "anchor": ""
+  },
+  {
+    "tag": "4EBE60EB",
+    "label": "sec:shrinker-entropy",
+    "title": "71 Entropy maximizers and translation symmetries",
+    "kind": "chapter",
+    "page": "tag/4EBE60EB/index.html",
+    "canonical_tag": "7A32DDA20884",
+    "anchor": ""
+  },
+  {
+    "tag": "DE95BDB1",
+    "label": "lem:shrinker-shifted-divergence",
+    "title": "Lemma 71.1 (Shifted weighted divergence identities)",
+    "kind": "lemma",
+    "page": "tag/DE95BDB1/index.html",
+    "canonical_tag": "733F0C797F3D",
+    "anchor": ""
+  },
+  {
+    "tag": "50F104E3",
+    "label": "prop:shrinker-parameter-monotonicity",
+    "title": "Proposition 71.2 (Gaussian area decreases along parabolic parameter paths)",
+    "kind": "proposition",
+    "page": "tag/50F104E3/index.html",
+    "canonical_tag": "6CD90D8527E9",
+    "anchor": ""
+  },
+  {
+    "tag": "95BD40B7",
+    "label": "thm:shrinker-entropy-maximum",
+    "title": "Theorem 71.3 (A shrinker attains its entropy at its normalized parameters)",
+    "kind": "theorem",
+    "page": "tag/95BD40B7/index.html",
+    "canonical_tag": "700C3DB366A4",
+    "anchor": ""
+  },
+  {
+    "tag": "11B38C90",
+    "label": "prop:shrinker-translation-splitting",
+    "title": "Proposition 71.4 (Constant tangent vectors and product splitting)",
+    "kind": "proposition",
+    "page": "tag/11B38C90/index.html",
+    "canonical_tag": "7CEAAB5D3070",
+    "anchor": ""
+  },
+  {
+    "tag": "3A79E99D",
+    "label": "lem:minimal-shrinker-plane",
+    "title": "Lemma 71.5 (A smooth proper minimal shrinker is a plane)",
+    "kind": "lemma",
+    "page": "tag/3A79E99D/index.html",
+    "canonical_tag": "A18B950AE5BE",
+    "anchor": ""
+  },
+  {
+    "tag": "9EA21959",
+    "label": "prop:shrinker-gaussian-equality",
+    "title": "Proposition 71.6 (All maximizing parameters of an embedded shrinker)",
+    "kind": "proposition",
+    "page": "tag/9EA21959/index.html",
+    "canonical_tag": "8338D14CFD9B",
+    "anchor": ""
+  },
+  {
+    "tag": "9FA48741",
+    "label": "prop:shrinker-local-entropy-gap",
+    "title": "Proposition 71.7 (A quadratic parameter deficit without line splitting)",
+    "kind": "proposition",
+    "page": "tag/9FA48741/index.html",
+    "canonical_tag": "218C6C0F43AF",
+    "anchor": ""
+  },
+  {
+    "tag": "639ECF15",
+    "label": "thm:shrinker-global-entropy-gap",
+    "title": "Theorem 71.8 (A uniform entropy gap away from the normalized parameters)",
+    "kind": "theorem",
+    "page": "tag/639ECF15/index.html",
+    "canonical_tag": "93F994D6C9F0",
+    "anchor": ""
+  },
+  {
+    "tag": "7B58A92E",
+    "label": "sec:entropy-perturbations",
+    "title": "72 Entropy-lowering compact perturbations",
+    "kind": "chapter",
+    "page": "tag/7B58A92E/index.html",
+    "canonical_tag": "D74A98F1FACF",
+    "anchor": ""
+  },
+  {
+    "tag": "80AD7945",
+    "label": "def:compact-shrinker-perturbation",
+    "title": "Definition 72.1 (A compact normal graph family)",
+    "kind": "definition",
+    "page": "tag/80AD7945/index.html",
+    "canonical_tag": "4257A80FD7E0",
+    "anchor": ""
+  },
+  {
+    "tag": "24845CD4",
+    "label": "lem:gaussian-scale-inequality",
+    "title": "Lemma 72.2 (A Gaussian scale derivative identity and inequality)",
+    "kind": "lemma",
+    "page": "tag/24845CD4/index.html",
+    "canonical_tag": "F763BCA041B5",
+    "anchor": ""
+  },
+  {
+    "tag": "398F5E60",
+    "label": "lem:entropy-compact-perturbation-bounds",
+    "title": "Lemma 72.3 (Uniform bounds for the changed compact part)",
+    "kind": "lemma",
+    "page": "tag/398F5E60/index.html",
+    "canonical_tag": "8516998A23F4",
+    "anchor": ""
+  },
+  {
+    "tag": "2B0A728D",
+    "label": "lem:entropy-small-scale-control",
+    "title": "Lemma 72.4 (Small-scale control for compact perturbations of a shrinker)",
+    "kind": "lemma",
+    "page": "tag/2B0A728D/index.html",
+    "canonical_tag": "815D2AE0FC46",
+    "anchor": ""
+  },
+  {
+    "tag": "9086CB60",
+    "label": "lem:entropy-parameter-exclusion",
+    "title": "Lemma 72.5 (Maximizing parameters cannot escape under a small compact perturbation)",
+    "kind": "lemma",
+    "page": "tag/9086CB60/index.html",
+    "canonical_tag": "140F76BA7406",
+    "anchor": ""
+  },
+  {
+    "tag": "6080DF6F",
+    "label": "lem:entropy-joint-local-maximum",
+    "title": "Lemma 72.6 (An F-negative direction gives a strict joint local maximum)",
+    "kind": "lemma",
+    "page": "tag/6080DF6F/index.html",
+    "canonical_tag": "45661094ED28",
+    "anchor": ""
+  },
+  {
+    "tag": "86814923",
+    "label": "thm:shrinker-entropy-lowering",
+    "title": "Theorem 72.7 (F-instability lowers entropy when no line splits)",
+    "kind": "theorem",
+    "page": "tag/86814923/index.html",
+    "canonical_tag": "BEB1AB569895",
+    "anchor": ""
+  },
+  {
+    "tag": "5DA2757B",
+    "label": "cor:closed-shrinker-entropy-drop",
+    "title": "Corollary 72.8 (Entropy-lowering perturbations of closed sign-changing shrinkers)",
+    "kind": "corollary",
+    "page": "tag/5DA2757B/index.html",
+    "canonical_tag": "7AABD65517DC",
+    "anchor": ""
   }
 ]

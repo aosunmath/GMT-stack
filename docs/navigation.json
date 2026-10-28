@@ -3847,6 +3847,185 @@
     "tag": "C6F03108FD3A"
   },
   {
+    "route": "sections/gaussian-tails-and-convergence-of-entropy",
+    "title": "14.10 Gaussian tails and convergence of entropy",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-tails-and-convergence-of-entropy"
+  },
+  {
+    "route": "tag/7E46AD688EDF",
+    "title": "Proposition 14.10.1 (Lower semicontinuity of Gaussian area and entropy)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-tails-and-convergence-of-entropy",
+    "tag": "7E46AD688EDF"
+  },
+  {
+    "route": "tag/52A6BD047625",
+    "title": "Lemma 14.10.2 (Uniform polynomial Gaussian tails)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-tails-and-convergence-of-entropy",
+    "tag": "52A6BD047625"
+  },
+  {
+    "route": "tag/951933FB16BD",
+    "title": "Theorem 14.10.3 (Gaussian convergence on compact parameter sets)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-tails-and-convergence-of-entropy",
+    "tag": "951933FB16BD"
+  },
+  {
+    "route": "tag/939147F750E3",
+    "title": "Example 14.10.4 (Entropy can drop when a plane escapes to infinity)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-tails-and-convergence-of-entropy",
+    "tag": "939147F750E3"
+  },
+  {
+    "route": "tag/572E84F0FD10",
+    "title": "Proposition 14.10.5 (Entropy controls the Gaussian second moment)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-tails-and-convergence-of-entropy",
+    "tag": "572E84F0FD10"
+  },
+  {
+    "route": "tag/510CE72B5070",
+    "title": "Proposition 14.10.6 (Entropy is unchanged by a Euclidean product)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-tails-and-convergence-of-entropy",
+    "tag": "510CE72B5070"
+  },
+  {
+    "route": "tag/EC6BCD371796",
+    "title": "Proposition 14.10.7 (Small-scale Gaussian limits on a proper embedded hypersurface)",
+    "chapter": "mean-curvature-flow",
+    "section": "gaussian-tails-and-convergence-of-entropy",
+    "tag": "EC6BCD371796"
+  },
+  {
+    "route": "sections/entropy-maximizers-and-translation-symmetries",
+    "title": "14.11 Entropy maximizers and translation symmetries",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-maximizers-and-translation-symmetries"
+  },
+  {
+    "route": "tag/733F0C797F3D",
+    "title": "Lemma 14.11.1 (Shifted weighted divergence identities)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-maximizers-and-translation-symmetries",
+    "tag": "733F0C797F3D"
+  },
+  {
+    "route": "tag/6CD90D8527E9",
+    "title": "Proposition 14.11.2 (Gaussian area decreases along parabolic parameter paths)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-maximizers-and-translation-symmetries",
+    "tag": "6CD90D8527E9"
+  },
+  {
+    "route": "tag/700C3DB366A4",
+    "title": "Theorem 14.11.3 (A shrinker attains its entropy at its normalized parameters)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-maximizers-and-translation-symmetries",
+    "tag": "700C3DB366A4"
+  },
+  {
+    "route": "tag/7CEAAB5D3070",
+    "title": "Proposition 14.11.4 (Constant tangent vectors and product splitting)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-maximizers-and-translation-symmetries",
+    "tag": "7CEAAB5D3070"
+  },
+  {
+    "route": "tag/A18B950AE5BE",
+    "title": "Lemma 14.11.5 (A smooth proper minimal shrinker is a plane)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-maximizers-and-translation-symmetries",
+    "tag": "A18B950AE5BE"
+  },
+  {
+    "route": "tag/8338D14CFD9B",
+    "title": "Proposition 14.11.6 (All maximizing parameters of an embedded shrinker)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-maximizers-and-translation-symmetries",
+    "tag": "8338D14CFD9B"
+  },
+  {
+    "route": "tag/218C6C0F43AF",
+    "title": "Proposition 14.11.7 (A quadratic parameter deficit without line splitting)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-maximizers-and-translation-symmetries",
+    "tag": "218C6C0F43AF"
+  },
+  {
+    "route": "tag/93F994D6C9F0",
+    "title": "Theorem 14.11.8 (A uniform entropy gap away from the normalized parameters)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-maximizers-and-translation-symmetries",
+    "tag": "93F994D6C9F0"
+  },
+  {
+    "route": "sections/entropy-lowering-compact-perturbations",
+    "title": "14.12 Entropy-lowering compact perturbations",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-lowering-compact-perturbations"
+  },
+  {
+    "route": "tag/4257A80FD7E0",
+    "title": "Definition 14.12.1 (A compact normal graph family)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-lowering-compact-perturbations",
+    "tag": "4257A80FD7E0"
+  },
+  {
+    "route": "tag/F763BCA041B5",
+    "title": "Lemma 14.12.2 (A Gaussian scale derivative identity and inequality)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-lowering-compact-perturbations",
+    "tag": "F763BCA041B5"
+  },
+  {
+    "route": "tag/8516998A23F4",
+    "title": "Lemma 14.12.3 (Uniform bounds for the changed compact part)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-lowering-compact-perturbations",
+    "tag": "8516998A23F4"
+  },
+  {
+    "route": "tag/815D2AE0FC46",
+    "title": "Lemma 14.12.4 (Small-scale control for compact perturbations of a shrinker)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-lowering-compact-perturbations",
+    "tag": "815D2AE0FC46"
+  },
+  {
+    "route": "tag/140F76BA7406",
+    "title": "Lemma 14.12.5 (Maximizing parameters cannot escape under a small compact perturbation)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-lowering-compact-perturbations",
+    "tag": "140F76BA7406"
+  },
+  {
+    "route": "tag/45661094ED28",
+    "title": "Lemma 14.12.6 (An F-negative direction gives a strict joint local maximum)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-lowering-compact-perturbations",
+    "tag": "45661094ED28"
+  },
+  {
+    "route": "tag/BEB1AB569895",
+    "title": "Theorem 14.12.7 (F-instability lowers entropy when no line splits)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-lowering-compact-perturbations",
+    "tag": "BEB1AB569895"
+  },
+  {
+    "route": "tag/7AABD65517DC",
+    "title": "Corollary 14.12.8 (Entropy-lowering perturbations of closed sign-changing shrinkers)",
+    "chapter": "mean-curvature-flow",
+    "section": "entropy-lowering-compact-perturbations",
+    "tag": "7AABD65517DC"
+  },
+  {
     "route": "chapters/history",
     "title": "15 History",
     "chapter": "history"

@@ -6242,6 +6242,7 @@
       ],
       "dependencies": [
         "def:mcf-entropy",
+        "thm:shrinker-entropy-lowering",
         "thm:shrinker-fixed-instability",
         "thm:shrinker-joint-hessian"
       ],
@@ -6297,6 +6298,333 @@
       ],
       "dependencies": [
         "def:shrinker-f-stability"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:entropy-lower-semicontinuity",
+      "title": "Lower semicontinuity of Gaussian area and entropy",
+      "kind": "proposition",
+      "file": "entropy-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:entropy-gaussian-tails",
+      "title": "Uniform polynomial Gaussian tails",
+      "kind": "lemma",
+      "file": "entropy-convergence.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "prop:mcf-entropy-area-growth"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:gaussian-local-weak-convergence",
+      "title": "Gaussian convergence on compact parameter sets",
+      "kind": "theorem",
+      "file": "entropy-convergence.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "lem:entropy-gaussian-tails",
+        "prop:entropy-lower-semicontinuity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:entropy-two-plane-escape",
+      "title": "Entropy can drop when a plane escapes to infinity",
+      "kind": "example",
+      "file": "entropy-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:mcf-plane-entropy",
+        "thm:gaussian-local-weak-convergence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:entropy-gaussian-second-moment",
+      "title": "Entropy controls the Gaussian second moment",
+      "kind": "proposition",
+      "file": "entropy-convergence.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "lem:entropy-gaussian-tails",
+        "prop:mcf-entropy-invariance"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:entropy-euclidean-product",
+      "title": "Entropy is unchanged by a Euclidean product",
+      "kind": "proposition",
+      "file": "entropy-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:shrinker-gaussian-equality"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:static-gaussian-density",
+      "title": "Small-scale Gaussian limits on a proper embedded hypersurface",
+      "kind": "proposition",
+      "file": "entropy-convergence.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "prop:mcf-regular-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:shrinker-shifted-divergence",
+      "title": "Shifted weighted divergence identities",
+      "kind": "lemma",
+      "file": "shrinker-entropy.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "lem:gaussian-polynomial-moments"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-parameter-monotonicity",
+      "title": "Gaussian area decreases along parabolic parameter paths",
+      "kind": "proposition",
+      "file": "shrinker-entropy.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "lem:shrinker-shifted-divergence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:shrinker-entropy-maximum",
+      "title": "A shrinker attains its entropy at its normalized parameters",
+      "kind": "theorem",
+      "file": "shrinker-entropy.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "lem:gaussian-polynomial-moments",
+        "prop:mcf-entropy-area-growth",
+        "prop:shrinker-parameter-monotonicity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-translation-splitting",
+      "title": "Constant tangent vectors and product splitting",
+      "kind": "proposition",
+      "file": "shrinker-entropy.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:minimal-shrinker-plane",
+      "title": "A smooth proper minimal shrinker is a plane",
+      "kind": "lemma",
+      "file": "shrinker-entropy.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "prop:shrinker-translation-splitting"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-gaussian-equality",
+      "title": "All maximizing parameters of an embedded shrinker",
+      "kind": "proposition",
+      "file": "shrinker-entropy.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "ex:mcf-plane-entropy",
+        "lem:minimal-shrinker-plane",
+        "prop:shrinker-parameter-monotonicity",
+        "prop:shrinker-translation-splitting",
+        "thm:shrinker-entropy-maximum"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-local-entropy-gap",
+      "title": "A quadratic parameter deficit without line splitting",
+      "kind": "proposition",
+      "file": "shrinker-entropy.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "lem:minimal-shrinker-plane",
+        "prop:gaussian-joint-first",
+        "thm:shrinker-joint-hessian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:shrinker-global-entropy-gap",
+      "title": "A uniform entropy gap away from the normalized parameters",
+      "kind": "theorem",
+      "file": "shrinker-entropy.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "prop:shrinker-local-entropy-gap",
+        "prop:shrinker-parameter-monotonicity",
+        "prop:static-gaussian-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:compact-shrinker-perturbation",
+      "title": "A compact normal graph family",
+      "kind": "definition",
+      "file": "entropy-perturbations.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:gaussian-scale-inequality",
+      "title": "A Gaussian scale derivative identity and inequality",
+      "kind": "lemma",
+      "file": "entropy-perturbations.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:entropy-compact-perturbation-bounds",
+      "title": "Uniform bounds for the changed compact part",
+      "kind": "lemma",
+      "file": "entropy-perturbations.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:entropy-small-scale-control",
+      "title": "Small-scale control for compact perturbations of a shrinker",
+      "kind": "lemma",
+      "file": "entropy-perturbations.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "lem:gaussian-scale-inequality",
+        "prop:entropy-gaussian-second-moment",
+        "thm:shrinker-entropy-maximum"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:entropy-parameter-exclusion",
+      "title": "Maximizing parameters cannot escape under a small compact perturbation",
+      "kind": "lemma",
+      "file": "entropy-perturbations.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "lem:entropy-compact-perturbation-bounds",
+        "lem:entropy-small-scale-control",
+        "thm:shrinker-global-entropy-gap"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:entropy-joint-local-maximum",
+      "title": "An F-negative direction gives a strict joint local maximum",
+      "kind": "lemma",
+      "file": "entropy-perturbations.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "prop:gaussian-joint-first",
+        "prop:shrinker-local-entropy-gap",
+        "thm:shrinker-joint-hessian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:shrinker-entropy-lowering",
+      "title": "F-instability lowers entropy when no line splits",
+      "kind": "theorem",
+      "file": "entropy-perturbations.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "def:compact-shrinker-perturbation",
+        "def:shrinker-f-stability",
+        "lem:entropy-joint-local-maximum",
+        "lem:entropy-parameter-exclusion",
+        "thm:shrinker-global-entropy-gap"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:closed-shrinker-entropy-drop",
+      "title": "Entropy-lowering perturbations of closed sign-changing shrinkers",
+      "kind": "corollary",
+      "file": "entropy-perturbations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:shrinker-translation-splitting",
+        "thm:shrinker-changing-sign-instability",
+        "thm:shrinker-entropy-lowering"
       ],
       "formal_verification": "none"
     }
