@@ -1422,9 +1422,11 @@
       ],
       "dependencies": [
         "lem:disjoint-unstable-regions",
-        "thm:stable-curvature-bound",
+        "prop:positive-jacobi-stability",
+        "thm:index-smooth-varifold-limit",
+        "thm:removable-stability-capacity",
         "thm:separated-sheets-jacobi",
-        "prop:positive-jacobi-stability"
+        "thm:stable-curvature-bound"
       ],
       "formal_verification": "none"
     },
@@ -1765,11 +1767,15 @@
       "title": "Separated sheets produce a positive Jacobi field",
       "kind": "theorem",
       "file": "jacobi-fields.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "ChMin"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "lem:normal-graph-gap-equation",
+        "lem:normalized-positive-solutions",
+        "prop:positive-jacobi-stability"
+      ],
       "formal_verification": "none"
     },
     {
@@ -7501,6 +7507,266 @@
       "citations": [],
       "dependencies": [
         "rem:pitts-proof-route"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:harnack-lower-order",
+      "title": "Harnack with bounded lower-order coefficients",
+      "kind": "theorem",
+      "file": "jacobi-limits.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "ChMin",
+        "SimonPDE"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:normalized-positive-solutions",
+      "title": "Compactness after normalizing a positive solution",
+      "kind": "lemma",
+      "file": "jacobi-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:harnack-lower-order",
+        "thm:interior-schauder"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:normal-graph-gap-equation",
+      "title": "The equation for the gap between minimal normal graphs",
+      "kind": "lemma",
+      "file": "jacobi-limits.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "prop:mean-curvature-linearization"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:sheet-gap-comparison",
+      "title": "Comparable sheet gaps on compact subsets",
+      "kind": "corollary",
+      "file": "jacobi-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:normal-graph-gap-equation",
+        "lem:normalized-positive-solutions",
+        "thm:separated-sheets-jacobi"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:positive-supersolution-transform",
+      "title": "Positive supersolutions and the quadratic form",
+      "kind": "proposition",
+      "file": "jacobi-limits.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:positive-jacobi-simple-kernel",
+      "title": "A positive Jacobi field on a closed manifold has simple kernel",
+      "kind": "proposition",
+      "file": "jacobi-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:positive-supersolution-transform"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:accumulating-graphs-jacobi",
+      "title": "Accumulating minimal normal graphs force degeneracy",
+      "kind": "proposition",
+      "file": "jacobi-limits.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sharp17"
+      ],
+      "dependencies": [
+        "lem:normal-graph-gap-equation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:local-zero-capacity-cutoffs",
+      "title": "Local cutoffs avoiding a closed set",
+      "kind": "definition",
+      "file": "puncture-stability.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:point-capacity-cutoffs",
+      "title": "A point has cutoffs of arbitrarily small energy in dimension at least two",
+      "kind": "lemma",
+      "file": "puncture-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "def:local-zero-capacity-cutoffs"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:capacity-test-approximation",
+      "title": "Finite unions and approximation of test functions",
+      "kind": "lemma",
+      "file": "puncture-stability.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:point-capacity-cutoffs"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:removable-stability-capacity",
+      "title": "Stability extends across sets with the cutoff property",
+      "kind": "theorem",
+      "file": "puncture-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin",
+        "Sharp17"
+      ],
+      "dependencies": [
+        "def:local-zero-capacity-cutoffs",
+        "lem:capacity-test-approximation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:point-removal-one-dimensional",
+      "title": "Removing a point can change stability in dimension one",
+      "kind": "example",
+      "file": "puncture-stability.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:positive-supersolution-transform"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:ordered-sheets-punctured-stability",
+      "title": "Ordered sheets away from finitely many points imply global stability",
+      "kind": "corollary",
+      "file": "puncture-stability.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:positive-jacobi-stability",
+        "thm:removable-stability-capacity",
+        "thm:separated-sheets-jacobi"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:compact-support-index",
+      "title": "Compactly supported index",
+      "kind": "definition",
+      "file": "index-convergence.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sharp17"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:finite-index-stable-outside",
+      "title": "Finite index gives stability outside a compact set",
+      "kind": "proposition",
+      "file": "index-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:compact-support-index",
+        "lem:disjoint-unstable-regions"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:finite-index-stable-puncture",
+      "title": "Finite index gives a stable punctured neighborhood",
+      "kind": "proposition",
+      "file": "index-convergence.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sharp17"
+      ],
+      "dependencies": [
+        "def:compact-support-index"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:negative-form-persistence",
+      "title": "Negative definite forms persist under matrix convergence",
+      "kind": "lemma",
+      "file": "index-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:weak-second-variation-continuity",
+      "title": "Weak continuity of a finite family of ambient second variations",
+      "kind": "lemma",
+      "file": "index-convergence.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sharp17"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:index-smooth-varifold-limit",
+      "title": "Index cannot increase at a smooth weak limit",
+      "kind": "theorem",
+      "file": "index-convergence.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sharp17"
+      ],
+      "dependencies": [
+        "lem:negative-form-persistence",
+        "lem:weak-second-variation-continuity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:stable-smooth-varifold-limit",
+      "title": "Stability passes to a smooth positive-multiplicity limit",
+      "kind": "corollary",
+      "file": "index-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:index-smooth-varifold-limit"
       ],
       "formal_verification": "none"
     }

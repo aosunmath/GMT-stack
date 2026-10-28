@@ -2106,6 +2106,164 @@
     "tag": "0574E4F9C647"
   },
   {
+    "route": "sections/positive-solutions-and-limits-of-normal-graphs",
+    "title": "7.10 Positive solutions and limits of normal graphs",
+    "chapter": "minimal-surfaces",
+    "section": "positive-solutions-and-limits-of-normal-graphs"
+  },
+  {
+    "route": "tag/C122EB493E51",
+    "title": "Theorem 7.10.1 (Harnack with bounded lower-order coefficients)",
+    "chapter": "minimal-surfaces",
+    "section": "positive-solutions-and-limits-of-normal-graphs",
+    "tag": "C122EB493E51"
+  },
+  {
+    "route": "tag/A22B04D02BB2",
+    "title": "Lemma 7.10.2 (Compactness after normalizing a positive solution)",
+    "chapter": "minimal-surfaces",
+    "section": "positive-solutions-and-limits-of-normal-graphs",
+    "tag": "A22B04D02BB2"
+  },
+  {
+    "route": "tag/B17410FAAB18",
+    "title": "Lemma 7.10.3 (The equation for the gap between minimal normal graphs)",
+    "chapter": "minimal-surfaces",
+    "section": "positive-solutions-and-limits-of-normal-graphs",
+    "tag": "B17410FAAB18"
+  },
+  {
+    "route": "tag/747E58F53F15",
+    "title": "Corollary 7.10.4 (Comparable sheet gaps on compact subsets)",
+    "chapter": "minimal-surfaces",
+    "section": "positive-solutions-and-limits-of-normal-graphs",
+    "tag": "747E58F53F15"
+  },
+  {
+    "route": "tag/8E562438D97E",
+    "title": "Proposition 7.10.5 (Positive supersolutions and the quadratic form)",
+    "chapter": "minimal-surfaces",
+    "section": "positive-solutions-and-limits-of-normal-graphs",
+    "tag": "8E562438D97E"
+  },
+  {
+    "route": "tag/3A7A095E3DA2",
+    "title": "Proposition 7.10.6 (A positive Jacobi field on a closed manifold has simple kernel)",
+    "chapter": "minimal-surfaces",
+    "section": "positive-solutions-and-limits-of-normal-graphs",
+    "tag": "3A7A095E3DA2"
+  },
+  {
+    "route": "tag/8A40075C4DD7",
+    "title": "Proposition 7.10.7 (Accumulating minimal normal graphs force degeneracy)",
+    "chapter": "minimal-surfaces",
+    "section": "positive-solutions-and-limits-of-normal-graphs",
+    "tag": "8A40075C4DD7"
+  },
+  {
+    "route": "sections/small-capacity-punctures-and-removable-stability",
+    "title": "7.11 Small-capacity punctures and removable stability",
+    "chapter": "minimal-surfaces",
+    "section": "small-capacity-punctures-and-removable-stability"
+  },
+  {
+    "route": "tag/B8E027663FF9",
+    "title": "Definition 7.11.1 (Local cutoffs avoiding a closed set)",
+    "chapter": "minimal-surfaces",
+    "section": "small-capacity-punctures-and-removable-stability",
+    "tag": "B8E027663FF9"
+  },
+  {
+    "route": "tag/4E098CFF9186",
+    "title": "Lemma 7.11.2 (A point has cutoffs of arbitrarily small energy in dimension at least two)",
+    "chapter": "minimal-surfaces",
+    "section": "small-capacity-punctures-and-removable-stability",
+    "tag": "4E098CFF9186"
+  },
+  {
+    "route": "tag/04A378869597",
+    "title": "Lemma 7.11.3 (Finite unions and approximation of test functions)",
+    "chapter": "minimal-surfaces",
+    "section": "small-capacity-punctures-and-removable-stability",
+    "tag": "04A378869597"
+  },
+  {
+    "route": "tag/04F4CF70F97D",
+    "title": "Theorem 7.11.4 (Stability extends across sets with the cutoff property)",
+    "chapter": "minimal-surfaces",
+    "section": "small-capacity-punctures-and-removable-stability",
+    "tag": "04F4CF70F97D"
+  },
+  {
+    "route": "tag/CEDADA80CB0B",
+    "title": "Example 7.11.5 (Removing a point can change stability in dimension one)",
+    "chapter": "minimal-surfaces",
+    "section": "small-capacity-punctures-and-removable-stability",
+    "tag": "CEDADA80CB0B"
+  },
+  {
+    "route": "tag/7D9C1F01B117",
+    "title": "Corollary 7.11.6 (Ordered sheets away from finitely many points imply global stability)",
+    "chapter": "minimal-surfaces",
+    "section": "small-capacity-punctures-and-removable-stability",
+    "tag": "7D9C1F01B117"
+  },
+  {
+    "route": "sections/localization-of-index-and-weak-convergence-of-variations",
+    "title": "7.12 Localization of index and weak convergence of variations",
+    "chapter": "minimal-surfaces",
+    "section": "localization-of-index-and-weak-convergence-of-variations"
+  },
+  {
+    "route": "tag/74B73BFDE4B7",
+    "title": "Definition 7.12.1 (Compactly supported index)",
+    "chapter": "minimal-surfaces",
+    "section": "localization-of-index-and-weak-convergence-of-variations",
+    "tag": "74B73BFDE4B7"
+  },
+  {
+    "route": "tag/E86FC1854BD4",
+    "title": "Proposition 7.12.2 (Finite index gives stability outside a compact set)",
+    "chapter": "minimal-surfaces",
+    "section": "localization-of-index-and-weak-convergence-of-variations",
+    "tag": "E86FC1854BD4"
+  },
+  {
+    "route": "tag/7034A7DD4402",
+    "title": "Proposition 7.12.3 (Finite index gives a stable punctured neighborhood)",
+    "chapter": "minimal-surfaces",
+    "section": "localization-of-index-and-weak-convergence-of-variations",
+    "tag": "7034A7DD4402"
+  },
+  {
+    "route": "tag/DF7E085F8EF9",
+    "title": "Lemma 7.12.4 (Negative definite forms persist under matrix convergence)",
+    "chapter": "minimal-surfaces",
+    "section": "localization-of-index-and-weak-convergence-of-variations",
+    "tag": "DF7E085F8EF9"
+  },
+  {
+    "route": "tag/C34F05CF122D",
+    "title": "Lemma 7.12.5 (Weak continuity of a finite family of ambient second variations)",
+    "chapter": "minimal-surfaces",
+    "section": "localization-of-index-and-weak-convergence-of-variations",
+    "tag": "C34F05CF122D"
+  },
+  {
+    "route": "tag/CFEE9839203E",
+    "title": "Theorem 7.12.6 (Index cannot increase at a smooth weak limit)",
+    "chapter": "minimal-surfaces",
+    "section": "localization-of-index-and-weak-convergence-of-variations",
+    "tag": "CFEE9839203E"
+  },
+  {
+    "route": "tag/3A92CD67456B",
+    "title": "Corollary 7.12.7 (Stability passes to a smooth positive-multiplicity limit)",
+    "chapter": "minimal-surfaces",
+    "section": "localization-of-index-and-weak-convergence-of-variations",
+    "tag": "3A92CD67456B"
+  },
+  {
     "route": "chapters/min-max-theory",
     "title": "8 Min-max theory",
     "chapter": "min-max-theory"

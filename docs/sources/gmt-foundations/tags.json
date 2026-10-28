@@ -5929,5 +5929,212 @@
     "page": "tag/44F077A6/index.html",
     "canonical_tag": "ADB5C190FC3B",
     "anchor": ""
+  },
+  {
+    "tag": "769337C3",
+    "label": "sec:jacobi-limits",
+    "title": "82 Positive solutions and limits of normal graphs",
+    "kind": "chapter",
+    "page": "tag/769337C3/index.html",
+    "canonical_tag": "A1376C328CF6",
+    "anchor": ""
+  },
+  {
+    "tag": "C2D1A3E3",
+    "label": "thm:harnack-lower-order",
+    "title": "Theorem 82.1 (Harnack with bounded lower-order coefficients)",
+    "kind": "theorem",
+    "page": "tag/C2D1A3E3/index.html",
+    "canonical_tag": "C122EB493E51",
+    "anchor": ""
+  },
+  {
+    "tag": "880B33BC",
+    "label": "lem:normalized-positive-solutions",
+    "title": "Lemma 82.2 (Compactness after normalizing a positive solution)",
+    "kind": "lemma",
+    "page": "tag/880B33BC/index.html",
+    "canonical_tag": "A22B04D02BB2",
+    "anchor": ""
+  },
+  {
+    "tag": "5CD28EBD",
+    "label": "lem:normal-graph-gap-equation",
+    "title": "Lemma 82.3 (The equation for the gap between minimal normal graphs)",
+    "kind": "lemma",
+    "page": "tag/5CD28EBD/index.html",
+    "canonical_tag": "B17410FAAB18",
+    "anchor": ""
+  },
+  {
+    "tag": "FE65A1B1",
+    "label": "cor:sheet-gap-comparison",
+    "title": "Corollary 82.4 (Comparable sheet gaps on compact subsets)",
+    "kind": "corollary",
+    "page": "tag/FE65A1B1/index.html",
+    "canonical_tag": "747E58F53F15",
+    "anchor": ""
+  },
+  {
+    "tag": "7852D9E2",
+    "label": "prop:positive-supersolution-transform",
+    "title": "Proposition 82.5 (Positive supersolutions and the quadratic form)",
+    "kind": "proposition",
+    "page": "tag/7852D9E2/index.html",
+    "canonical_tag": "8E562438D97E",
+    "anchor": ""
+  },
+  {
+    "tag": "7302D7D9",
+    "label": "prop:positive-jacobi-simple-kernel",
+    "title": "Proposition 82.6 (A positive Jacobi field on a closed manifold has simple kernel)",
+    "kind": "proposition",
+    "page": "tag/7302D7D9/index.html",
+    "canonical_tag": "3A7A095E3DA2",
+    "anchor": ""
+  },
+  {
+    "tag": "E20A8736",
+    "label": "prop:accumulating-graphs-jacobi",
+    "title": "Proposition 82.7 (Accumulating minimal normal graphs force degeneracy)",
+    "kind": "proposition",
+    "page": "tag/E20A8736/index.html",
+    "canonical_tag": "8A40075C4DD7",
+    "anchor": ""
+  },
+  {
+    "tag": "B4D85D7E",
+    "label": "sec:puncture-stability",
+    "title": "83 Small-capacity punctures and removable stability",
+    "kind": "chapter",
+    "page": "tag/B4D85D7E/index.html",
+    "canonical_tag": "63C90C629FF2",
+    "anchor": ""
+  },
+  {
+    "tag": "AE8D92F8",
+    "label": "def:local-zero-capacity-cutoffs",
+    "title": "Definition 83.1 (Local cutoffs avoiding a closed set)",
+    "kind": "definition",
+    "page": "tag/AE8D92F8/index.html",
+    "canonical_tag": "B8E027663FF9",
+    "anchor": ""
+  },
+  {
+    "tag": "418D2DF9",
+    "label": "lem:point-capacity-cutoffs",
+    "title": "Lemma 83.2 (A point has cutoffs of arbitrarily small energy in dimension at least two)",
+    "kind": "lemma",
+    "page": "tag/418D2DF9/index.html",
+    "canonical_tag": "4E098CFF9186",
+    "anchor": ""
+  },
+  {
+    "tag": "855B0C89",
+    "label": "lem:capacity-test-approximation",
+    "title": "Lemma 83.3 (Finite unions and approximation of test functions)",
+    "kind": "lemma",
+    "page": "tag/855B0C89/index.html",
+    "canonical_tag": "04A378869597",
+    "anchor": ""
+  },
+  {
+    "tag": "AC7B71E6",
+    "label": "thm:removable-stability-capacity",
+    "title": "Theorem 83.4 (Stability extends across sets with the cutoff property)",
+    "kind": "theorem",
+    "page": "tag/AC7B71E6/index.html",
+    "canonical_tag": "04F4CF70F97D",
+    "anchor": ""
+  },
+  {
+    "tag": "09C84285",
+    "label": "ex:point-removal-one-dimensional",
+    "title": "Example 83.5 (Removing a point can change stability in dimension one)",
+    "kind": "example",
+    "page": "tag/09C84285/index.html",
+    "canonical_tag": "CEDADA80CB0B",
+    "anchor": ""
+  },
+  {
+    "tag": "FD5AF41E",
+    "label": "cor:ordered-sheets-punctured-stability",
+    "title": "Corollary 83.6 (Ordered sheets away from finitely many points imply global stability)",
+    "kind": "corollary",
+    "page": "tag/FD5AF41E/index.html",
+    "canonical_tag": "7D9C1F01B117",
+    "anchor": ""
+  },
+  {
+    "tag": "AB31A77E",
+    "label": "sec:index-convergence",
+    "title": "84 Localization of index and weak convergence of variations",
+    "kind": "chapter",
+    "page": "tag/AB31A77E/index.html",
+    "canonical_tag": "1ED0635BE6DB",
+    "anchor": ""
+  },
+  {
+    "tag": "7BBFEB7C",
+    "label": "def:compact-support-index",
+    "title": "Definition 84.1 (Compactly supported index)",
+    "kind": "definition",
+    "page": "tag/7BBFEB7C/index.html",
+    "canonical_tag": "74B73BFDE4B7",
+    "anchor": ""
+  },
+  {
+    "tag": "E33EB140",
+    "label": "prop:finite-index-stable-outside",
+    "title": "Proposition 84.2 (Finite index gives stability outside a compact set)",
+    "kind": "proposition",
+    "page": "tag/E33EB140/index.html",
+    "canonical_tag": "E86FC1854BD4",
+    "anchor": ""
+  },
+  {
+    "tag": "9AE78AB6",
+    "label": "prop:finite-index-stable-puncture",
+    "title": "Proposition 84.3 (Finite index gives a stable punctured neighborhood)",
+    "kind": "proposition",
+    "page": "tag/9AE78AB6/index.html",
+    "canonical_tag": "7034A7DD4402",
+    "anchor": ""
+  },
+  {
+    "tag": "7E7387D8",
+    "label": "lem:negative-form-persistence",
+    "title": "Lemma 84.4 (Negative definite forms persist under matrix convergence)",
+    "kind": "lemma",
+    "page": "tag/7E7387D8/index.html",
+    "canonical_tag": "DF7E085F8EF9",
+    "anchor": ""
+  },
+  {
+    "tag": "FAF7CE9D",
+    "label": "lem:weak-second-variation-continuity",
+    "title": "Lemma 84.5 (Weak continuity of a finite family of ambient second variations)",
+    "kind": "lemma",
+    "page": "tag/FAF7CE9D/index.html",
+    "canonical_tag": "C34F05CF122D",
+    "anchor": ""
+  },
+  {
+    "tag": "BF919CF2",
+    "label": "thm:index-smooth-varifold-limit",
+    "title": "Theorem 84.6 (Index cannot increase at a smooth weak limit)",
+    "kind": "theorem",
+    "page": "tag/BF919CF2/index.html",
+    "canonical_tag": "CFEE9839203E",
+    "anchor": ""
+  },
+  {
+    "tag": "C05479AE",
+    "label": "cor:stable-smooth-varifold-limit",
+    "title": "Corollary 84.7 (Stability passes to a smooth positive-multiplicity limit)",
+    "kind": "corollary",
+    "page": "tag/C05479AE/index.html",
+    "canonical_tag": "3A92CD67456B",
+    "anchor": ""
   }
 ]
