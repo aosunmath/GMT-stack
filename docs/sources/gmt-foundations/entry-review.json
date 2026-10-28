@@ -326,11 +326,15 @@
       "title": "Local compactness of Radon measures",
       "kind": "theorem",
       "file": "measures.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Sim18"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "def:weak-measure",
+        "lem:measure-diagonal-functional",
+        "thm:positive-riesz-representation"
+      ],
       "formal_verification": "none"
     },
     {
@@ -8503,6 +8507,382 @@
       "status": "proof-included",
       "citations": [],
       "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:positive-test-functional",
+      "title": "A positive functional on compactly supported tests",
+      "kind": "definition",
+      "file": "radon-representation.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:radon-compact-cutoffs",
+      "title": "Compact cutoffs and a finite partition of unity",
+      "kind": "lemma",
+      "file": "radon-representation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:positive-functional-local-bound",
+      "title": "Positivity gives continuity on a fixed support",
+      "kind": "lemma",
+      "file": "radon-representation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:functional-open-mass",
+      "title": "The open-set mass associated with a positive functional",
+      "kind": "proposition",
+      "file": "radon-representation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:radon-compact-cutoffs"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:metric-outer-borel",
+      "title": "Metric outer measures make Borel sets measurable",
+      "kind": "lemma",
+      "file": "radon-representation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:functional-measure-radon",
+      "title": "The constructed measure is Radon",
+      "kind": "proposition",
+      "file": "radon-representation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:metric-outer-borel",
+        "prop:functional-open-mass"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:positive-riesz-representation",
+      "title": "Positive Riesz representation on a Euclidean open set",
+      "kind": "theorem",
+      "file": "radon-representation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:positive-functional-local-bound",
+        "prop:functional-measure-radon"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:radon-lp-density",
+      "title": "Continuous compactly supported tests are dense in finite-power spaces",
+      "kind": "theorem",
+      "file": "radon-representation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:radon-compact-cutoffs"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:countable-radon-tests",
+      "title": "A countable family of compactly supported tests",
+      "kind": "lemma",
+      "file": "measure-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:radon-compact-cutoffs"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:measure-diagonal-functional",
+      "title": "Diagonal extraction of a positive limit functional",
+      "kind": "lemma",
+      "file": "measure-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:countable-radon-tests"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:measure-compact-usc",
+      "title": "Upper semicontinuity on compact sets",
+      "kind": "proposition",
+      "file": "measure-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:measure-lsc"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:measure-continuity-sets",
+      "title": "Convergence of masses on continuity sets",
+      "kind": "corollary",
+      "file": "measure-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:measure-compact-usc",
+        "prop:measure-lsc"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:uniform-tightness",
+      "title": "Uniform tightness and bounded-continuous testing",
+      "kind": "definition",
+      "file": "measure-convergence.tex",
+      "status": "definition-with-source",
+      "citations": [],
+      "dependencies": [
+        "def:weak-measure"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:tight-vague-to-narrow",
+      "title": "Tightness upgrades compact tests to bounded tests",
+      "kind": "theorem",
+      "file": "measure-convergence.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "ex:escaping-mass"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:tight-probability-compactness",
+      "title": "Sequential compactness for tight probability measures",
+      "kind": "corollary",
+      "file": "measure-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:radon-compactness",
+        "thm:tight-vague-to-narrow"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:radon-mollification",
+      "title": "Smooth densities approximate any Radon measure locally",
+      "kind": "proposition",
+      "file": "measure-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:approximate-identity-dirac",
+        "ex:cantor-density-approximation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:radon-atomic-approximation",
+      "title": "Finite atomic measures also approximate locally",
+      "kind": "proposition",
+      "file": "measure-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:radon-mollification"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:bounded-fivefold-covering",
+      "title": "Fivefold covering for a bounded family of Euclidean balls",
+      "kind": "lemma",
+      "file": "measure-differentiation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:centered-maximal-function",
+      "title": "Centered maximal functions",
+      "kind": "definition",
+      "file": "measure-differentiation.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:measure-maximal-weak",
+      "title": "The weak maximal estimate for finite measures",
+      "kind": "proposition",
+      "file": "measure-differentiation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:bounded-fivefold-covering"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:maximal-strong-lp",
+      "title": "A strong maximal bound above the endpoint",
+      "kind": "theorem",
+      "file": "measure-differentiation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:measure-maximal-weak"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:lebesgue-point",
+      "title": "Lebesgue points",
+      "kind": "definition",
+      "file": "measure-differentiation.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:lebesgue-differentiation",
+      "title": "Lebesgue differentiation with absolute oscillation",
+      "kind": "theorem",
+      "file": "measure-differentiation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:lebesgue-point",
+        "thm:radon-lp-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:lebesgue-density-theorem",
+      "title": "The Lebesgue density theorem for measurable sets",
+      "kind": "corollary",
+      "file": "measure-differentiation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:lebesgue-differentiation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:lebesgue-approximate-continuity",
+      "title": "Approximate continuity at a Lebesgue point",
+      "kind": "proposition",
+      "file": "measure-differentiation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mollifiers-at-lebesgue-points",
+      "title": "Mollifiers converge at every Lebesgue point",
+      "kind": "proposition",
+      "file": "measure-differentiation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:radon-mollification"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:singular-ambient-density-zero",
+      "title": "A singular measure has zero ambient density almost everywhere",
+      "kind": "proposition",
+      "file": "measure-differentiation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:measure-maximal-weak"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:ball-density-ac-part",
+      "title": "Ball densities identify an absolutely continuous part",
+      "kind": "corollary",
+      "file": "measure-differentiation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:singular-ambient-density-zero",
+        "thm:lebesgue-differentiation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:maximal-endpoint-failure",
+      "title": "The maximal operator need not preserve integrability",
+      "kind": "example",
+      "file": "measure-differentiation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:measure-maximal-weak",
+        "thm:maximal-strong-lp"
+      ],
       "formal_verification": "none"
     }
   ],

@@ -6730,5 +6730,293 @@
     "page": "tag/DA8F7D57/index.html",
     "canonical_tag": "932BFFC222D3",
     "anchor": ""
+  },
+  {
+    "tag": "37BBEBAF",
+    "label": "sec:radon-representation",
+    "title": "92 Radon representation from positive functionals",
+    "kind": "chapter",
+    "page": "tag/37BBEBAF/index.html",
+    "canonical_tag": "BFB627EE4234",
+    "anchor": ""
+  },
+  {
+    "tag": "206BA05A",
+    "label": "def:positive-test-functional",
+    "title": "Definition 92.1 (A positive functional on compactly supported tests)",
+    "kind": "definition",
+    "page": "tag/206BA05A/index.html",
+    "canonical_tag": "9E4845BBA4ED",
+    "anchor": ""
+  },
+  {
+    "tag": "A06E4CC8",
+    "label": "lem:radon-compact-cutoffs",
+    "title": "Lemma 92.2 (Compact cutoffs and a finite partition of unity)",
+    "kind": "lemma",
+    "page": "tag/A06E4CC8/index.html",
+    "canonical_tag": "065D9AC3265E",
+    "anchor": ""
+  },
+  {
+    "tag": "6EBB5DA7",
+    "label": "lem:positive-functional-local-bound",
+    "title": "Lemma 92.3 (Positivity gives continuity on a fixed support)",
+    "kind": "lemma",
+    "page": "tag/6EBB5DA7/index.html",
+    "canonical_tag": "059D87E3EFB0",
+    "anchor": ""
+  },
+  {
+    "tag": "1AADE061",
+    "label": "prop:functional-open-mass",
+    "title": "Proposition 92.4 (The open-set mass associated with a positive functional)",
+    "kind": "proposition",
+    "page": "tag/1AADE061/index.html",
+    "canonical_tag": "D6FBFD2B5B8A",
+    "anchor": ""
+  },
+  {
+    "tag": "C1D6C1D3",
+    "label": "lem:metric-outer-borel",
+    "title": "Lemma 92.5 (Metric outer measures make Borel sets measurable)",
+    "kind": "lemma",
+    "page": "tag/C1D6C1D3/index.html",
+    "canonical_tag": "87BA9817395E",
+    "anchor": ""
+  },
+  {
+    "tag": "E9728EDC",
+    "label": "prop:functional-measure-radon",
+    "title": "Proposition 92.6 (The constructed measure is Radon)",
+    "kind": "proposition",
+    "page": "tag/E9728EDC/index.html",
+    "canonical_tag": "DCE16B3F3D66",
+    "anchor": ""
+  },
+  {
+    "tag": "E1F8E905",
+    "label": "thm:positive-riesz-representation",
+    "title": "Theorem 92.7 (Positive Riesz representation on a Euclidean open set)",
+    "kind": "theorem",
+    "page": "tag/E1F8E905/index.html",
+    "canonical_tag": "D8B4638B4814",
+    "anchor": ""
+  },
+  {
+    "tag": "8E61B15B",
+    "label": "thm:radon-lp-density",
+    "title": "Theorem 92.8 (Continuous compactly supported tests are dense in finite-power spaces)",
+    "kind": "theorem",
+    "page": "tag/8E61B15B/index.html",
+    "canonical_tag": "19396F96DC10",
+    "anchor": ""
+  },
+  {
+    "tag": "9D4DFF8C",
+    "label": "sec:measure-convergence-tools",
+    "title": "93 Weak convergence, continuity sets, and tightness",
+    "kind": "chapter",
+    "page": "tag/9D4DFF8C/index.html",
+    "canonical_tag": "5BDE435DF2F3",
+    "anchor": ""
+  },
+  {
+    "tag": "3D2A8AFD",
+    "label": "lem:countable-radon-tests",
+    "title": "Lemma 93.1 (A countable family of compactly supported tests)",
+    "kind": "lemma",
+    "page": "tag/3D2A8AFD/index.html",
+    "canonical_tag": "EBB2048864FA",
+    "anchor": ""
+  },
+  {
+    "tag": "384FE5B0",
+    "label": "lem:measure-diagonal-functional",
+    "title": "Lemma 93.2 (Diagonal extraction of a positive limit functional)",
+    "kind": "lemma",
+    "page": "tag/384FE5B0/index.html",
+    "canonical_tag": "B9EF3BFBC186",
+    "anchor": ""
+  },
+  {
+    "tag": "75E0FCEB",
+    "label": "prop:measure-compact-usc",
+    "title": "Proposition 93.3 (Upper semicontinuity on compact sets)",
+    "kind": "proposition",
+    "page": "tag/75E0FCEB/index.html",
+    "canonical_tag": "5E1115A68860",
+    "anchor": ""
+  },
+  {
+    "tag": "386E6085",
+    "label": "cor:measure-continuity-sets",
+    "title": "Corollary 93.4 (Convergence of masses on continuity sets)",
+    "kind": "corollary",
+    "page": "tag/386E6085/index.html",
+    "canonical_tag": "DDCA164F3208",
+    "anchor": ""
+  },
+  {
+    "tag": "27C5C6BE",
+    "label": "def:uniform-tightness",
+    "title": "Definition 93.5 (Uniform tightness and bounded-continuous testing)",
+    "kind": "definition",
+    "page": "tag/27C5C6BE/index.html",
+    "canonical_tag": "9FBD8CC6ACC8",
+    "anchor": ""
+  },
+  {
+    "tag": "B4E53075",
+    "label": "thm:tight-vague-to-narrow",
+    "title": "Theorem 93.6 (Tightness upgrades compact tests to bounded tests)",
+    "kind": "theorem",
+    "page": "tag/B4E53075/index.html",
+    "canonical_tag": "51E7B8F93AB4",
+    "anchor": ""
+  },
+  {
+    "tag": "69176765",
+    "label": "cor:tight-probability-compactness",
+    "title": "Corollary 93.7 (Sequential compactness for tight probability measures)",
+    "kind": "corollary",
+    "page": "tag/69176765/index.html",
+    "canonical_tag": "E6622953C8DE",
+    "anchor": ""
+  },
+  {
+    "tag": "279782AD",
+    "label": "prop:radon-mollification",
+    "title": "Proposition 93.8 (Smooth densities approximate any Radon measure locally)",
+    "kind": "proposition",
+    "page": "tag/279782AD/index.html",
+    "canonical_tag": "6D1B7D98305E",
+    "anchor": ""
+  },
+  {
+    "tag": "5F453799",
+    "label": "prop:radon-atomic-approximation",
+    "title": "Proposition 93.9 (Finite atomic measures also approximate locally)",
+    "kind": "proposition",
+    "page": "tag/5F453799/index.html",
+    "canonical_tag": "EDC3E29B3DCC",
+    "anchor": ""
+  },
+  {
+    "tag": "24FCC2DF",
+    "label": "sec:measure-differentiation",
+    "title": "94 Covering, maximal estimates, and Lebesgue points",
+    "kind": "chapter",
+    "page": "tag/24FCC2DF/index.html",
+    "canonical_tag": "33CC01B32E56",
+    "anchor": ""
+  },
+  {
+    "tag": "FCCDE925",
+    "label": "lem:bounded-fivefold-covering",
+    "title": "Lemma 94.1 (Fivefold covering for a bounded family of Euclidean balls)",
+    "kind": "lemma",
+    "page": "tag/FCCDE925/index.html",
+    "canonical_tag": "9B745ADFD001",
+    "anchor": ""
+  },
+  {
+    "tag": "4D55D192",
+    "label": "def:centered-maximal-function",
+    "title": "Definition 94.2 (Centered maximal functions)",
+    "kind": "definition",
+    "page": "tag/4D55D192/index.html",
+    "canonical_tag": "E382FA55D5F1",
+    "anchor": ""
+  },
+  {
+    "tag": "B59A0BD6",
+    "label": "prop:measure-maximal-weak",
+    "title": "Proposition 94.3 (The weak maximal estimate for finite measures)",
+    "kind": "proposition",
+    "page": "tag/B59A0BD6/index.html",
+    "canonical_tag": "10768DA6E59B",
+    "anchor": ""
+  },
+  {
+    "tag": "342B2C86",
+    "label": "thm:maximal-strong-lp",
+    "title": "Theorem 94.4 (A strong maximal bound above the endpoint)",
+    "kind": "theorem",
+    "page": "tag/342B2C86/index.html",
+    "canonical_tag": "4A2AA689E78F",
+    "anchor": ""
+  },
+  {
+    "tag": "451D839D",
+    "label": "def:lebesgue-point",
+    "title": "Definition 94.5 (Lebesgue points)",
+    "kind": "definition",
+    "page": "tag/451D839D/index.html",
+    "canonical_tag": "6B471E3298DE",
+    "anchor": ""
+  },
+  {
+    "tag": "01CADB42",
+    "label": "thm:lebesgue-differentiation",
+    "title": "Theorem 94.6 (Lebesgue differentiation with absolute oscillation)",
+    "kind": "theorem",
+    "page": "tag/01CADB42/index.html",
+    "canonical_tag": "2CA07074F4A7",
+    "anchor": ""
+  },
+  {
+    "tag": "8079ABBB",
+    "label": "cor:lebesgue-density-theorem",
+    "title": "Corollary 94.7 (The Lebesgue density theorem for measurable sets)",
+    "kind": "corollary",
+    "page": "tag/8079ABBB/index.html",
+    "canonical_tag": "C69197CB30B1",
+    "anchor": ""
+  },
+  {
+    "tag": "B26FD7DA",
+    "label": "prop:lebesgue-approximate-continuity",
+    "title": "Proposition 94.8 (Approximate continuity at a Lebesgue point)",
+    "kind": "proposition",
+    "page": "tag/B26FD7DA/index.html",
+    "canonical_tag": "6196A7F42C62",
+    "anchor": ""
+  },
+  {
+    "tag": "886F6533",
+    "label": "prop:mollifiers-at-lebesgue-points",
+    "title": "Proposition 94.9 (Mollifiers converge at every Lebesgue point)",
+    "kind": "proposition",
+    "page": "tag/886F6533/index.html",
+    "canonical_tag": "C54A732E0D36",
+    "anchor": ""
+  },
+  {
+    "tag": "F6473D5F",
+    "label": "prop:singular-ambient-density-zero",
+    "title": "Proposition 94.10 (A singular measure has zero ambient density almost everywhere)",
+    "kind": "proposition",
+    "page": "tag/F6473D5F/index.html",
+    "canonical_tag": "752D2F6CE2C7",
+    "anchor": ""
+  },
+  {
+    "tag": "9F5916D7",
+    "label": "cor:ball-density-ac-part",
+    "title": "Corollary 94.11 (Ball densities identify an absolutely continuous part)",
+    "kind": "corollary",
+    "page": "tag/9F5916D7/index.html",
+    "canonical_tag": "E5945F5D2962",
+    "anchor": ""
+  },
+  {
+    "tag": "B594CD7C",
+    "label": "ex:maximal-endpoint-failure",
+    "title": "Example 94.12 (The maximal operator need not preserve integrability)",
+    "kind": "example",
+    "page": "tag/B594CD7C/index.html",
+    "canonical_tag": "798D622C77F0",
+    "anchor": ""
   }
 ]

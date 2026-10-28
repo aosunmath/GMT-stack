@@ -113,6 +113,227 @@
     "tag": "F2FA6522C7DE"
   },
   {
+    "route": "sections/radon-representation-from-positive-functionals",
+    "title": "2.3 Radon representation from positive functionals",
+    "chapter": "measure-theory",
+    "section": "radon-representation-from-positive-functionals"
+  },
+  {
+    "route": "tag/9E4845BBA4ED",
+    "title": "Definition 2.3.1 (A positive functional on compactly supported tests)",
+    "chapter": "measure-theory",
+    "section": "radon-representation-from-positive-functionals",
+    "tag": "9E4845BBA4ED"
+  },
+  {
+    "route": "tag/065D9AC3265E",
+    "title": "Lemma 2.3.2 (Compact cutoffs and a finite partition of unity)",
+    "chapter": "measure-theory",
+    "section": "radon-representation-from-positive-functionals",
+    "tag": "065D9AC3265E"
+  },
+  {
+    "route": "tag/059D87E3EFB0",
+    "title": "Lemma 2.3.3 (Positivity gives continuity on a fixed support)",
+    "chapter": "measure-theory",
+    "section": "radon-representation-from-positive-functionals",
+    "tag": "059D87E3EFB0"
+  },
+  {
+    "route": "tag/D6FBFD2B5B8A",
+    "title": "Proposition 2.3.4 (The open-set mass associated with a positive functional)",
+    "chapter": "measure-theory",
+    "section": "radon-representation-from-positive-functionals",
+    "tag": "D6FBFD2B5B8A"
+  },
+  {
+    "route": "tag/87BA9817395E",
+    "title": "Lemma 2.3.5 (Metric outer measures make Borel sets measurable)",
+    "chapter": "measure-theory",
+    "section": "radon-representation-from-positive-functionals",
+    "tag": "87BA9817395E"
+  },
+  {
+    "route": "tag/DCE16B3F3D66",
+    "title": "Proposition 2.3.6 (The constructed measure is Radon)",
+    "chapter": "measure-theory",
+    "section": "radon-representation-from-positive-functionals",
+    "tag": "DCE16B3F3D66"
+  },
+  {
+    "route": "tag/D8B4638B4814",
+    "title": "Theorem 2.3.7 (Positive Riesz representation on a Euclidean open set)",
+    "chapter": "measure-theory",
+    "section": "radon-representation-from-positive-functionals",
+    "tag": "D8B4638B4814"
+  },
+  {
+    "route": "tag/19396F96DC10",
+    "title": "Theorem 2.3.8 (Continuous compactly supported tests are dense in finite-power spaces)",
+    "chapter": "measure-theory",
+    "section": "radon-representation-from-positive-functionals",
+    "tag": "19396F96DC10"
+  },
+  {
+    "route": "sections/weak-convergence-continuity-sets-and-tightness",
+    "title": "2.4 Weak convergence, continuity sets, and tightness",
+    "chapter": "measure-theory",
+    "section": "weak-convergence-continuity-sets-and-tightness"
+  },
+  {
+    "route": "tag/EBB2048864FA",
+    "title": "Lemma 2.4.1 (A countable family of compactly supported tests)",
+    "chapter": "measure-theory",
+    "section": "weak-convergence-continuity-sets-and-tightness",
+    "tag": "EBB2048864FA"
+  },
+  {
+    "route": "tag/B9EF3BFBC186",
+    "title": "Lemma 2.4.2 (Diagonal extraction of a positive limit functional)",
+    "chapter": "measure-theory",
+    "section": "weak-convergence-continuity-sets-and-tightness",
+    "tag": "B9EF3BFBC186"
+  },
+  {
+    "route": "tag/5E1115A68860",
+    "title": "Proposition 2.4.3 (Upper semicontinuity on compact sets)",
+    "chapter": "measure-theory",
+    "section": "weak-convergence-continuity-sets-and-tightness",
+    "tag": "5E1115A68860"
+  },
+  {
+    "route": "tag/DDCA164F3208",
+    "title": "Corollary 2.4.4 (Convergence of masses on continuity sets)",
+    "chapter": "measure-theory",
+    "section": "weak-convergence-continuity-sets-and-tightness",
+    "tag": "DDCA164F3208"
+  },
+  {
+    "route": "tag/9FBD8CC6ACC8",
+    "title": "Definition 2.4.5 (Uniform tightness and bounded-continuous testing)",
+    "chapter": "measure-theory",
+    "section": "weak-convergence-continuity-sets-and-tightness",
+    "tag": "9FBD8CC6ACC8"
+  },
+  {
+    "route": "tag/51E7B8F93AB4",
+    "title": "Theorem 2.4.6 (Tightness upgrades compact tests to bounded tests)",
+    "chapter": "measure-theory",
+    "section": "weak-convergence-continuity-sets-and-tightness",
+    "tag": "51E7B8F93AB4"
+  },
+  {
+    "route": "tag/E6622953C8DE",
+    "title": "Corollary 2.4.7 (Sequential compactness for tight probability measures)",
+    "chapter": "measure-theory",
+    "section": "weak-convergence-continuity-sets-and-tightness",
+    "tag": "E6622953C8DE"
+  },
+  {
+    "route": "tag/6D1B7D98305E",
+    "title": "Proposition 2.4.8 (Smooth densities approximate any Radon measure locally)",
+    "chapter": "measure-theory",
+    "section": "weak-convergence-continuity-sets-and-tightness",
+    "tag": "6D1B7D98305E"
+  },
+  {
+    "route": "tag/EDC3E29B3DCC",
+    "title": "Proposition 2.4.9 (Finite atomic measures also approximate locally)",
+    "chapter": "measure-theory",
+    "section": "weak-convergence-continuity-sets-and-tightness",
+    "tag": "EDC3E29B3DCC"
+  },
+  {
+    "route": "sections/covering-maximal-estimates-and-lebesgue-points",
+    "title": "2.5 Covering, maximal estimates, and Lebesgue points",
+    "chapter": "measure-theory",
+    "section": "covering-maximal-estimates-and-lebesgue-points"
+  },
+  {
+    "route": "tag/9B745ADFD001",
+    "title": "Lemma 2.5.1 (Fivefold covering for a bounded family of Euclidean balls)",
+    "chapter": "measure-theory",
+    "section": "covering-maximal-estimates-and-lebesgue-points",
+    "tag": "9B745ADFD001"
+  },
+  {
+    "route": "tag/E382FA55D5F1",
+    "title": "Definition 2.5.2 (Centered maximal functions)",
+    "chapter": "measure-theory",
+    "section": "covering-maximal-estimates-and-lebesgue-points",
+    "tag": "E382FA55D5F1"
+  },
+  {
+    "route": "tag/10768DA6E59B",
+    "title": "Proposition 2.5.3 (The weak maximal estimate for finite measures)",
+    "chapter": "measure-theory",
+    "section": "covering-maximal-estimates-and-lebesgue-points",
+    "tag": "10768DA6E59B"
+  },
+  {
+    "route": "tag/4A2AA689E78F",
+    "title": "Theorem 2.5.4 (A strong maximal bound above the endpoint)",
+    "chapter": "measure-theory",
+    "section": "covering-maximal-estimates-and-lebesgue-points",
+    "tag": "4A2AA689E78F"
+  },
+  {
+    "route": "tag/6B471E3298DE",
+    "title": "Definition 2.5.5 (Lebesgue points)",
+    "chapter": "measure-theory",
+    "section": "covering-maximal-estimates-and-lebesgue-points",
+    "tag": "6B471E3298DE"
+  },
+  {
+    "route": "tag/2CA07074F4A7",
+    "title": "Theorem 2.5.6 (Lebesgue differentiation with absolute oscillation)",
+    "chapter": "measure-theory",
+    "section": "covering-maximal-estimates-and-lebesgue-points",
+    "tag": "2CA07074F4A7"
+  },
+  {
+    "route": "tag/C69197CB30B1",
+    "title": "Corollary 2.5.7 (The Lebesgue density theorem for measurable sets)",
+    "chapter": "measure-theory",
+    "section": "covering-maximal-estimates-and-lebesgue-points",
+    "tag": "C69197CB30B1"
+  },
+  {
+    "route": "tag/6196A7F42C62",
+    "title": "Proposition 2.5.8 (Approximate continuity at a Lebesgue point)",
+    "chapter": "measure-theory",
+    "section": "covering-maximal-estimates-and-lebesgue-points",
+    "tag": "6196A7F42C62"
+  },
+  {
+    "route": "tag/C54A732E0D36",
+    "title": "Proposition 2.5.9 (Mollifiers converge at every Lebesgue point)",
+    "chapter": "measure-theory",
+    "section": "covering-maximal-estimates-and-lebesgue-points",
+    "tag": "C54A732E0D36"
+  },
+  {
+    "route": "tag/752D2F6CE2C7",
+    "title": "Proposition 2.5.10 (A singular measure has zero ambient density almost everywhere)",
+    "chapter": "measure-theory",
+    "section": "covering-maximal-estimates-and-lebesgue-points",
+    "tag": "752D2F6CE2C7"
+  },
+  {
+    "route": "tag/E5945F5D2962",
+    "title": "Corollary 2.5.11 (Ball densities identify an absolutely continuous part)",
+    "chapter": "measure-theory",
+    "section": "covering-maximal-estimates-and-lebesgue-points",
+    "tag": "E5945F5D2962"
+  },
+  {
+    "route": "tag/798D622C77F0",
+    "title": "Example 2.5.12 (The maximal operator need not preserve integrability)",
+    "chapter": "measure-theory",
+    "section": "covering-maximal-estimates-and-lebesgue-points",
+    "tag": "798D622C77F0"
+  },
+  {
     "route": "chapters/rectifiability",
     "title": "3 Rectifiability and integration",
     "chapter": "rectifiability"

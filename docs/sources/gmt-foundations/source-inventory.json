@@ -32,7 +32,9 @@
         "Chapter 2, Theorem 7.3 and Remark 7.4, pp. 76--79: manifold and weighted coarea",
         "Chapter 3, Section 2, pp. 92--94: tangential differentiation, weighted area/coarea, and rectifiable fibers",
         "Chapter 8, equations (2.1)--(2.10), pp. 238--240; radial first variation and monotonicity (3.3)--(3.6), pp. 240--241",
-        "Chapter 1, Sections 1--2, pp. 1--13: Borel regularity and real-exponent Hausdorff coverings, used for directly proved atomic, concentration, oscillation and Cantor examples."
+        "Chapter 1, Sections 1--2, pp. 1--13: Borel regularity and real-exponent Hausdorff coverings, used for directly proved atomic, concentration, oscillation and Cantor examples.",
+        "Chapter 1, Section 5, printed pp. 29–39 (PDF pp. 18–23): compact cutoffs, partition of unity, Radon regularity, Lp density, positive Riesz representation, and local measure compactness. Sequential extraction restricted to Euclidean open sets and justified with countable tests.",
+        "Chapter 1, Sections 3–4, printed pp. 15–28 (PDF pp. 11–18): fivefold covering, upper densities, Lebesgue density and differentiation, and identification of the density in a given absolutely continuous/singular decomposition. Local maximal estimates derived explicitly; arbitrary-Radon differentiation not imported."
       ]
     },
     {
