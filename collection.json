@@ -99,9 +99,12 @@
         "cycles-and-min-max-families",
         "almost-minimizing-varifolds-and-existence",
         "continuity-and-concentration-in-cycle-families",
-        "detecting-classes-and-parameter-space-arguments"
+        "detecting-classes-and-parameter-space-arguments",
+        "compact-critical-sets-and-deformation-topologies",
+        "continuous-descending-fields-and-mass-decreasing-flows",
+        "pulled-tight-sequences-and-the-limits-of-stationarity"
       ],
-      "description": "Pitts, cycle topologies, discrete fineness, almost minimizing limits, existence, uniform concentration control, and cohomological detection."
+      "description": "Pitts, cycle topologies, discrete fineness, almost minimizing limits, existence, concentration control, cohomological detection, compact critical sets, continuous pull-tight deformations, and stationary critical limits."
     },
     {
       "slug": "volume-spectrum",

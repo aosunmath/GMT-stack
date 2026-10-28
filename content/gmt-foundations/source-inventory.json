@@ -175,7 +175,11 @@
       "sha256": "ad02b7e7db06914d86eb599bb3b1f92e230ae1cbf572ba3ac3a17811cff1065b",
       "pdf_pages": 25,
       "role": "Expository guide to almost minimizing, discrete topology, pull-tight, and regularity; original theorem sources retained.",
-      "redistributed": false
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "checked_passages": [
+        "Section 4.2, pp. 14--15, Theorem 4.1 and outline: compact mass cap, descending fields, and explicit warning that smooth flows do not preserve mass continuity or discrete fineness; interpolation remains necessary."
+      ]
     },
     {
       "bibliography_key": "MNIndex",
@@ -186,7 +190,11 @@
       "sha256": "039a821daed9c8f2e242f1008d41dfa5b0551a7e7e6fc1847a2244171e2dc16d",
       "pdf_pages": 58,
       "role": "Published definitions and Main Theorem 1.3; multiplicity hypothesis retained explicitly.",
-      "redistributed": false
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "checked_passages": [
+        "Section 2.8 and Definition 2.9, p. 9: continuous pull-tight deformation and critical-set conclusion; adjacent Theorem 2.10 distinguishes stationary integral realization and regularity. Page rendered for verification."
+      ]
     },
     {
       "bibliography_key": "CM",
