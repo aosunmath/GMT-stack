@@ -170,9 +170,12 @@
         "evolution-equations-and-comparison",
         "huisken-monotonicity-and-entropy",
         "rescaled-flow-and-self-similar-models",
-        "brakke-flows-and-loss-of-mass"
+        "brakke-flows-and-loss-of-mass",
+        "gaussian-calculus-on-self-shrinkers",
+        "gaussian-second-variation-and-symmetry-modes",
+        "center-and-scale-in-shrinker-stability"
       ],
-      "description": "Smooth evolution and comparison, convex contraction, Gaussian monotonicity and entropy, rescaling, and Brakke flows with explicit mass-loss and regularity distinctions."
+      "description": "Smooth evolution and comparison, Gaussian monotonicity and entropy, rescaling, Brakke flows, weighted shrinker identities, Gaussian variations, symmetry modes, and precise center/scale stability distinctions."
     },
     {
       "slug": "history",
