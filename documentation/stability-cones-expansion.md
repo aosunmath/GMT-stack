@@ -1,6 +1,6 @@
 # Stability, scalar curvature, and minimal cones
 
-This expansion adds **23 entries in three sections**, including **15 local proofs**, four definitions, and four examples. The edition now contains **278 mathematical and historical entries in 45 sections and 15 chapters**, with 114 local proofs and 47 externally proved theorems. Section headings bring the number of addressable entries to 323.
+This expansion adds **23 entries in three sections**, including **15 local proofs**, four definitions, and four examples. At this expansion stage, the edition contained **278 mathematical and historical entries in 45 sections and 15 chapters**, with 114 local proofs and 47 externally proved theorems. Section headings bring the number of addressable entries to 323.
 
 ## Scalar curvature and topology
 

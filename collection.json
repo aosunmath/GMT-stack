@@ -24,7 +24,8 @@
       "tag": "E3ACAB149CE4",
       "topics": [
         "rectifiable-sets-and-tangent-planes",
-        "area-and-coarea"
+        "area-and-coarea",
+        "tangential-jacobians-and-weighted-coarea"
       ]
     },
     {
@@ -34,9 +35,10 @@
       "topics": [
         "finite-perimeter-and-reduced-boundary",
         "bv-approximation-and-compactness",
-        "perimeter-blow-ups-and-the-direct-method"
+        "perimeter-blow-ups-and-the-direct-method",
+        "bv-coarea-and-level-set-calculus"
       ],
-      "description": "Distributional perimeter, reduced-boundary structure, BV approximation and compactness, and direct-method existence with volume and bulk terms."
+      "description": "Distributional perimeter, reduced-boundary structure, BV approximation, compactness, coarea and level-set calculus, and variational existence."
     },
     {
       "slug": "currents-flat-chains",
@@ -58,9 +60,10 @@
         "varifolds-and-first-variation",
         "integral-compactness-and-mod-two-compatibility",
         "tangent-cones-and-stratification",
-        "excess-and-allard-regularity"
+        "excess-and-allard-regularity",
+        "smooth-support-and-multiplicity"
       ],
-      "description": "First variation, integral compactness, tangent cones, stratification, excess, and Allard regularity."
+      "description": "First variation, smooth-support constancy, multiplicity, integral compactness, tangent cones, stratification, excess, and Allard regularity."
     },
     {
       "slug": "minimal-surfaces",

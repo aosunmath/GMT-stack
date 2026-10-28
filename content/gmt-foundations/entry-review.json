@@ -1823,7 +1823,9 @@
       "citations": [
         "Minter"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "thm:varifold-smooth-constancy"
+      ],
       "formal_verification": "none"
     },
     {
@@ -3572,6 +3574,331 @@
       ],
       "dependencies": [],
       "formal_verification": "none"
+    },
+    {
+      "label": "prop:weighted-area",
+      "title": "Weighted Euclidean area formula",
+      "kind": "proposition",
+      "file": "coarea-tools.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:area-formula"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:tangential-coarea-jacobian",
+      "title": "Tangential differential and coarea Jacobian",
+      "kind": "definition",
+      "file": "coarea-tools.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:rectifiable-coarea",
+      "title": "Coarea on a rectifiable set",
+      "kind": "theorem",
+      "file": "coarea-tools.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:tangential-coarea-jacobian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:weighted-rectifiable-coarea",
+      "title": "Weighted rectifiable coarea",
+      "kind": "corollary",
+      "file": "coarea-tools.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:rectifiable-coarea"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:rectifiable-radial-slice",
+      "title": "Selecting a radial slice of controlled area",
+      "kind": "proposition",
+      "file": "coarea-tools.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:integral-current-slicing"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:coarea-fubini",
+      "title": "Projection recovers Fubini",
+      "kind": "example",
+      "file": "coarea-tools.tex",
+      "status": "worked-example",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:tangential-not-ambient",
+      "title": "An ambient exceptional set can contain the whole surface",
+      "kind": "example",
+      "file": "coarea-tools.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:level-set-layer-cake",
+      "title": "Layer cake and the distance between level sets",
+      "kind": "lemma",
+      "file": "bv-coarea.tex",
+      "status": "proof-included",
+      "citations": [
+        "Giu84"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:smooth-superlevel-coarea",
+      "title": "Coarea for smooth superlevel sets",
+      "kind": "proposition",
+      "file": "bv-coarea.tex",
+      "status": "proof-included",
+      "citations": [
+        "Giu84"
+      ],
+      "dependencies": [
+        "thm:coarea-formula"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:level-set-convergence",
+      "title": "Almost-everywhere convergence of superlevel sets",
+      "kind": "lemma",
+      "file": "bv-coarea.tex",
+      "status": "proof-included",
+      "citations": [
+        "Giu84"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:bv-coarea-global",
+      "title": "Whole-space BV coarea",
+      "kind": "theorem",
+      "file": "bv-coarea.tex",
+      "status": "proof-included",
+      "citations": [
+        "Giu84"
+      ],
+      "dependencies": [
+        "cor:bv-strict-mollification",
+        "lem:level-set-convergence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:bv-coarea-local",
+      "title": "Local and weighted BV coarea",
+      "kind": "theorem",
+      "file": "bv-coarea.tex",
+      "status": "proof-included",
+      "citations": [
+        "Giu84"
+      ],
+      "dependencies": [
+        "lem:bv-mollification",
+        "prop:bv-cutoff-product"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:bv-lipschitz-composition",
+      "title": "Lipschitz composition preserves local BV",
+      "kind": "proposition",
+      "file": "bv-coarea.tex",
+      "status": "proof-included",
+      "citations": [
+        "Giu84"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:bv-truncation-coarea",
+      "title": "Exact variation of a truncation",
+      "kind": "corollary",
+      "file": "bv-coarea.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:bv-lipschitz-composition"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:bv-positive-negative",
+      "title": "Positive and negative variations split exactly",
+      "kind": "corollary",
+      "file": "bv-coarea.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:bv-lattice",
+      "title": "The BV lattice inequality",
+      "kind": "proposition",
+      "file": "bv-coarea.tex",
+      "status": "proof-included",
+      "citations": [
+        "Giu84"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:perimeter-submodularity",
+      "title": "Union and intersection of finite-perimeter sets",
+      "kind": "corollary",
+      "file": "bv-coarea.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:bv-lattice"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:perimeter-smooth-approximation",
+      "title": "Smooth approximation of a bounded finite-perimeter set",
+      "kind": "theorem",
+      "file": "bv-coarea.tex",
+      "status": "proof-included",
+      "citations": [
+        "Giu84"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:bv-jump-coarea",
+      "title": "A jump contributes its height times perimeter",
+      "kind": "example",
+      "file": "bv-coarea.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:exceptional-level",
+      "title": "A fixed level can fail under strong convergence",
+      "kind": "example",
+      "file": "bv-coarea.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [
+        "lem:level-set-convergence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:weak-gradient-zero",
+      "title": "A distributionally constant function is constant",
+      "kind": "lemma",
+      "file": "varifold-constancy.tex",
+      "status": "proof-included",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:tangential-density-constancy",
+      "title": "Tangential stationarity forces constant density",
+      "kind": "proposition",
+      "file": "varifold-constancy.tex",
+      "status": "proof-included",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [
+        "lem:weak-gradient-zero"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:varifold-smooth-constancy",
+      "title": "Constancy on a smooth connected support",
+      "kind": "theorem",
+      "file": "varifold-constancy.tex",
+      "status": "proof-included",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [
+        "prop:tangential-density-constancy",
+        "prop:weighted-smooth-first-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:jump-multiplicity",
+      "title": "A multiplicity jump produces first variation",
+      "kind": "example",
+      "file": "varifold-constancy.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:weighted-smooth-first-variation",
+      "title": "First variation of a smooth positive density",
+      "kind": "proposition",
+      "file": "varifold-constancy.tex",
+      "status": "proof-included",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [
+        "def:first-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:weighted-plane-mean-curvature",
+      "title": "Generalized mean curvature can have a tangential part",
+      "kind": "example",
+      "file": "varifold-constancy.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [
+        "def:first-variation"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -3621,12 +3948,13 @@
     "Compact Laplace spectral theorem and Bochner identity",
     "Gauss--Bonnet and classification of closed orientable surfaces",
     "Sard theorem and divergence theorem for transverse piecewise smooth regions",
-    "Compactly supported Sobolev approximation on smooth manifolds"
+    "Compactly supported Sobolev approximation on smooth manifolds",
+    "C1 manifold decomposition and tangential differentiability on rectifiable sets"
   ],
   "next_development": [
     "Covering and differentiation theorems for measures",
     "Proofs of Rademacher and the area/coarea formulas",
-    "BV coarea, sharp isoperimetry, traces, and the full De Giorgi blow-up proof",
+    "Sharp isoperimetry, traces, and the full De Giorgi blow-up proof",
     "Deformation theorem and compactness of integral currents",
     "Full proofs of varifold monotonicity, compactness, and Allard excess decay",
     "Detailed Pitts proof chain and modern regularity hypotheses",
