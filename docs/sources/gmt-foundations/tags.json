@@ -4273,5 +4273,257 @@
     "page": "tag/6CC3B049/index.html",
     "canonical_tag": "FD22E871D957",
     "anchor": ""
+  },
+  {
+    "tag": "D433968E",
+    "label": "sec:cone-spines-products",
+    "title": "61 Spines and products of stationary cones",
+    "kind": "chapter",
+    "page": "tag/D433968E/index.html",
+    "canonical_tag": "84D0DFE4E7F0",
+    "anchor": ""
+  },
+  {
+    "tag": "55DA0B5B",
+    "label": "prop:cone-density-infinity",
+    "title": "Proposition 61.1 (Density under scaling and at infinity)",
+    "kind": "proposition",
+    "page": "tag/55DA0B5B/index.html",
+    "canonical_tag": "135F8E55ADD3",
+    "anchor": ""
+  },
+  {
+    "tag": "3B6F0743",
+    "label": "prop:maximal-density-vertex",
+    "title": "Proposition 61.2 (Maximal density gives another cone vertex)",
+    "kind": "proposition",
+    "page": "tag/3B6F0743/index.html",
+    "canonical_tag": "53B7945861D9",
+    "anchor": ""
+  },
+  {
+    "tag": "5480386A",
+    "label": "lem:two-cone-vertices",
+    "title": "Lemma 61.3 (Two vertices generate a line of translations)",
+    "kind": "lemma",
+    "page": "tag/5480386A/index.html",
+    "canonical_tag": "A06E3D122AB7",
+    "anchor": ""
+  },
+  {
+    "tag": "AC10D74C",
+    "label": "prop:spine-maximal-density",
+    "title": "Proposition 61.4 (The spine is the linear set of maximal density)",
+    "kind": "proposition",
+    "page": "tag/AC10D74C/index.html",
+    "canonical_tag": "6C0B9465DCAB",
+    "anchor": ""
+  },
+  {
+    "tag": "BA7D472E",
+    "label": "lem:translation-measure-product",
+    "title": "Lemma 61.5 (Factoring a translation-invariant Radon measure)",
+    "kind": "lemma",
+    "page": "tag/BA7D472E/index.html",
+    "canonical_tag": "5E59E735DDCC",
+    "anchor": ""
+  },
+  {
+    "tag": "B16CC280",
+    "label": "lem:spine-tangent-directions",
+    "title": "Lemma 61.6 (Spine directions lie in the recorded planes)",
+    "kind": "lemma",
+    "page": "tag/B16CC280/index.html",
+    "canonical_tag": "CCCFFD8D2555",
+    "anchor": ""
+  },
+  {
+    "tag": "0CECD744",
+    "label": "prop:cone-product-splitting",
+    "title": "Proposition 61.7 (Integral product splitting along a proper spine subspace)",
+    "kind": "proposition",
+    "page": "tag/0CECD744/index.html",
+    "canonical_tag": "8AEAAFC90D06",
+    "anchor": ""
+  },
+  {
+    "tag": "D24EF75B",
+    "label": "cor:full-spine-plane",
+    "title": "Corollary 61.8 (A full-dimensional spine forces a multiple plane)",
+    "kind": "corollary",
+    "page": "tag/D24EF75B/index.html",
+    "canonical_tag": "5FC3B6942F0A",
+    "anchor": ""
+  },
+  {
+    "tag": "10067878",
+    "label": "sec:strata-covering",
+    "title": "62 Covering arguments for singular strata",
+    "kind": "chapter",
+    "page": "tag/10067878/index.html",
+    "canonical_tag": "A56526554CB7",
+    "anchor": ""
+  },
+  {
+    "tag": "ECE44533",
+    "label": "def:one-sided-plane-approximation",
+    "title": "Definition 62.1 (One-sided approximation by planes)",
+    "kind": "definition",
+    "page": "tag/ECE44533/index.html",
+    "canonical_tag": "90B2A5CC707F",
+    "anchor": ""
+  },
+  {
+    "tag": "1864FD3E",
+    "label": "lem:flat-cover-refinement",
+    "title": "Lemma 62.2 (Refining a cover near a plane)",
+    "kind": "lemma",
+    "page": "tag/1864FD3E/index.html",
+    "canonical_tag": "F04616F157C3",
+    "anchor": ""
+  },
+  {
+    "tag": "37B948BA",
+    "label": "prop:flat-approximation-dimension",
+    "title": "Proposition 62.3 (Small one-sided approximation bounds Hausdorff dimension)",
+    "kind": "proposition",
+    "page": "tag/37B948BA/index.html",
+    "canonical_tag": "EBCF2E3FB28D",
+    "anchor": ""
+  },
+  {
+    "tag": "71CA0A89",
+    "label": "lem:stratum-density-concentration",
+    "title": "Lemma 62.4 (Nearly maximal density concentrates near a spine)",
+    "kind": "lemma",
+    "page": "tag/71CA0A89/index.html",
+    "canonical_tag": "B01C74EE7C25",
+    "anchor": ""
+  },
+  {
+    "tag": "C56ADECE",
+    "label": "prop:stratum-flat-pieces",
+    "title": "Proposition 62.5 (Decomposing a stratum by scale and density)",
+    "kind": "proposition",
+    "page": "tag/C56ADECE/index.html",
+    "canonical_tag": "BD5246D88700",
+    "anchor": ""
+  },
+  {
+    "tag": "5D21D3F2",
+    "label": "cor:zero-stratum-countable",
+    "title": "Corollary 62.6 (The zero stratum is countable)",
+    "kind": "corollary",
+    "page": "tag/5D21D3F2/index.html",
+    "canonical_tag": "A98914D9EBD1",
+    "anchor": ""
+  },
+  {
+    "tag": "6BB297C5",
+    "label": "def:flat-singular-point",
+    "title": "Definition 62.7 (Flat singular points)",
+    "kind": "definition",
+    "page": "tag/6BB297C5/index.html",
+    "canonical_tag": "8E5306B184C0",
+    "anchor": ""
+  },
+  {
+    "tag": "C91E0E77",
+    "label": "cor:flat-singular-top-stratum",
+    "title": "Corollary 62.8 (Flat singular points form the top stratum difference)",
+    "kind": "corollary",
+    "page": "tag/C91E0E77/index.html",
+    "canonical_tag": "3C81F5ADA4BE",
+    "anchor": ""
+  },
+  {
+    "tag": "55116400",
+    "label": "cor:subtwo-singular-dimension",
+    "title": "Corollary 62.9 (The singular set below density two)",
+    "kind": "corollary",
+    "page": "tag/55116400/index.html",
+    "canonical_tag": "5CC0A191C3F4",
+    "anchor": ""
+  },
+  {
+    "tag": "560D0149",
+    "label": "sec:cone-junctions",
+    "title": "63 Balanced junctions and flat singular examples",
+    "kind": "chapter",
+    "page": "tag/560D0149/index.html",
+    "canonical_tag": "A976DD1EBE14",
+    "anchor": ""
+  },
+  {
+    "tag": "E6612CBC",
+    "label": "def:weighted-ray-cone",
+    "title": "Definition 63.1 (A finite weighted ray cone)",
+    "kind": "definition",
+    "page": "tag/E6612CBC/index.html",
+    "canonical_tag": "479485EBDA40",
+    "anchor": ""
+  },
+  {
+    "tag": "9DE4AE36",
+    "label": "prop:ray-junction-balance",
+    "title": "Proposition 63.2 (First variation and density of a ray junction)",
+    "kind": "proposition",
+    "page": "tag/9DE4AE36/index.html",
+    "canonical_tag": "F9B23C2936BA",
+    "anchor": ""
+  },
+  {
+    "tag": "D3143985",
+    "label": "lem:one-cone-polar-measure",
+    "title": "Lemma 63.3 (Polar measure of a one-dimensional cone)",
+    "kind": "lemma",
+    "page": "tag/D3143985/index.html",
+    "canonical_tag": "D981C02BEF95",
+    "anchor": ""
+  },
+  {
+    "tag": "D62FEEE9",
+    "label": "thm:one-dimensional-cones",
+    "title": "Theorem 63.4 (Classification of stationary integral one-dimensional cones)",
+    "kind": "theorem",
+    "page": "tag/D62FEEE9/index.html",
+    "canonical_tag": "BC1EE471EB15",
+    "anchor": ""
+  },
+  {
+    "tag": "6279D4AD",
+    "label": "cor:classical-cone-density",
+    "title": "Corollary 63.5 (Density of cones with a codimension-one spine)",
+    "kind": "corollary",
+    "page": "tag/6279D4AD/index.html",
+    "canonical_tag": "5872374C9915",
+    "anchor": ""
+  },
+  {
+    "tag": "6A633829",
+    "label": "ex:triple-junction-products",
+    "title": "Example 63.6 (The triple junction and its products)",
+    "kind": "example",
+    "page": "tag/6A633829/index.html",
+    "canonical_tag": "9A121EC9BA8B",
+    "anchor": ""
+  },
+  {
+    "tag": "0F71236B",
+    "label": "ex:disjoint-great-circle-link",
+    "title": "Example 63.7 (A nonplanar cone with a smooth disconnected link)",
+    "kind": "example",
+    "page": "tag/0F71236B/index.html",
+    "canonical_tag": "86409CB74347",
+    "anchor": ""
+  },
+  {
+    "tag": "FA0829B7",
+    "label": "ex:scherk-flat-singular",
+    "title": "Example 63.8 (A flat singular point from two smooth minimal graphs)",
+    "kind": "example",
+    "page": "tag/FA0829B7/index.html",
+    "canonical_tag": "67A305ACFB42",
+    "anchor": ""
   }
 ]

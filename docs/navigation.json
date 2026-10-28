@@ -1227,6 +1227,199 @@
     "tag": "FD22E871D957"
   },
   {
+    "route": "sections/spines-and-products-of-stationary-cones",
+    "title": "6.9 Spines and products of stationary cones",
+    "chapter": "varifolds",
+    "section": "spines-and-products-of-stationary-cones"
+  },
+  {
+    "route": "tag/135F8E55ADD3",
+    "title": "Proposition 6.9.1 (Density under scaling and at infinity)",
+    "chapter": "varifolds",
+    "section": "spines-and-products-of-stationary-cones",
+    "tag": "135F8E55ADD3"
+  },
+  {
+    "route": "tag/53B7945861D9",
+    "title": "Proposition 6.9.2 (Maximal density gives another cone vertex)",
+    "chapter": "varifolds",
+    "section": "spines-and-products-of-stationary-cones",
+    "tag": "53B7945861D9"
+  },
+  {
+    "route": "tag/A06E3D122AB7",
+    "title": "Lemma 6.9.3 (Two vertices generate a line of translations)",
+    "chapter": "varifolds",
+    "section": "spines-and-products-of-stationary-cones",
+    "tag": "A06E3D122AB7"
+  },
+  {
+    "route": "tag/6C0B9465DCAB",
+    "title": "Proposition 6.9.4 (The spine is the linear set of maximal density)",
+    "chapter": "varifolds",
+    "section": "spines-and-products-of-stationary-cones",
+    "tag": "6C0B9465DCAB"
+  },
+  {
+    "route": "tag/5E59E735DDCC",
+    "title": "Lemma 6.9.5 (Factoring a translation-invariant Radon measure)",
+    "chapter": "varifolds",
+    "section": "spines-and-products-of-stationary-cones",
+    "tag": "5E59E735DDCC"
+  },
+  {
+    "route": "tag/CCCFFD8D2555",
+    "title": "Lemma 6.9.6 (Spine directions lie in the recorded planes)",
+    "chapter": "varifolds",
+    "section": "spines-and-products-of-stationary-cones",
+    "tag": "CCCFFD8D2555"
+  },
+  {
+    "route": "tag/8AEAAFC90D06",
+    "title": "Proposition 6.9.7 (Integral product splitting along a proper spine subspace)",
+    "chapter": "varifolds",
+    "section": "spines-and-products-of-stationary-cones",
+    "tag": "8AEAAFC90D06"
+  },
+  {
+    "route": "tag/5FC3B6942F0A",
+    "title": "Corollary 6.9.8 (A full-dimensional spine forces a multiple plane)",
+    "chapter": "varifolds",
+    "section": "spines-and-products-of-stationary-cones",
+    "tag": "5FC3B6942F0A"
+  },
+  {
+    "route": "sections/covering-arguments-for-singular-strata",
+    "title": "6.10 Covering arguments for singular strata",
+    "chapter": "varifolds",
+    "section": "covering-arguments-for-singular-strata"
+  },
+  {
+    "route": "tag/90B2A5CC707F",
+    "title": "Definition 6.10.1 (One-sided approximation by planes)",
+    "chapter": "varifolds",
+    "section": "covering-arguments-for-singular-strata",
+    "tag": "90B2A5CC707F"
+  },
+  {
+    "route": "tag/F04616F157C3",
+    "title": "Lemma 6.10.2 (Refining a cover near a plane)",
+    "chapter": "varifolds",
+    "section": "covering-arguments-for-singular-strata",
+    "tag": "F04616F157C3"
+  },
+  {
+    "route": "tag/EBCF2E3FB28D",
+    "title": "Proposition 6.10.3 (Small one-sided approximation bounds Hausdorff dimension)",
+    "chapter": "varifolds",
+    "section": "covering-arguments-for-singular-strata",
+    "tag": "EBCF2E3FB28D"
+  },
+  {
+    "route": "tag/B01C74EE7C25",
+    "title": "Lemma 6.10.4 (Nearly maximal density concentrates near a spine)",
+    "chapter": "varifolds",
+    "section": "covering-arguments-for-singular-strata",
+    "tag": "B01C74EE7C25"
+  },
+  {
+    "route": "tag/BD5246D88700",
+    "title": "Proposition 6.10.5 (Decomposing a stratum by scale and density)",
+    "chapter": "varifolds",
+    "section": "covering-arguments-for-singular-strata",
+    "tag": "BD5246D88700"
+  },
+  {
+    "route": "tag/A98914D9EBD1",
+    "title": "Corollary 6.10.6 (The zero stratum is countable)",
+    "chapter": "varifolds",
+    "section": "covering-arguments-for-singular-strata",
+    "tag": "A98914D9EBD1"
+  },
+  {
+    "route": "tag/8E5306B184C0",
+    "title": "Definition 6.10.7 (Flat singular points)",
+    "chapter": "varifolds",
+    "section": "covering-arguments-for-singular-strata",
+    "tag": "8E5306B184C0"
+  },
+  {
+    "route": "tag/3C81F5ADA4BE",
+    "title": "Corollary 6.10.8 (Flat singular points form the top stratum difference)",
+    "chapter": "varifolds",
+    "section": "covering-arguments-for-singular-strata",
+    "tag": "3C81F5ADA4BE"
+  },
+  {
+    "route": "tag/5CC0A191C3F4",
+    "title": "Corollary 6.10.9 (The singular set below density two)",
+    "chapter": "varifolds",
+    "section": "covering-arguments-for-singular-strata",
+    "tag": "5CC0A191C3F4"
+  },
+  {
+    "route": "sections/balanced-junctions-and-flat-singular-examples",
+    "title": "6.11 Balanced junctions and flat singular examples",
+    "chapter": "varifolds",
+    "section": "balanced-junctions-and-flat-singular-examples"
+  },
+  {
+    "route": "tag/479485EBDA40",
+    "title": "Definition 6.11.1 (A finite weighted ray cone)",
+    "chapter": "varifolds",
+    "section": "balanced-junctions-and-flat-singular-examples",
+    "tag": "479485EBDA40"
+  },
+  {
+    "route": "tag/F9B23C2936BA",
+    "title": "Proposition 6.11.2 (First variation and density of a ray junction)",
+    "chapter": "varifolds",
+    "section": "balanced-junctions-and-flat-singular-examples",
+    "tag": "F9B23C2936BA"
+  },
+  {
+    "route": "tag/D981C02BEF95",
+    "title": "Lemma 6.11.3 (Polar measure of a one-dimensional cone)",
+    "chapter": "varifolds",
+    "section": "balanced-junctions-and-flat-singular-examples",
+    "tag": "D981C02BEF95"
+  },
+  {
+    "route": "tag/BC1EE471EB15",
+    "title": "Theorem 6.11.4 (Classification of stationary integral one-dimensional cones)",
+    "chapter": "varifolds",
+    "section": "balanced-junctions-and-flat-singular-examples",
+    "tag": "BC1EE471EB15"
+  },
+  {
+    "route": "tag/5872374C9915",
+    "title": "Corollary 6.11.5 (Density of cones with a codimension-one spine)",
+    "chapter": "varifolds",
+    "section": "balanced-junctions-and-flat-singular-examples",
+    "tag": "5872374C9915"
+  },
+  {
+    "route": "tag/9A121EC9BA8B",
+    "title": "Example 6.11.6 (The triple junction and its products)",
+    "chapter": "varifolds",
+    "section": "balanced-junctions-and-flat-singular-examples",
+    "tag": "9A121EC9BA8B"
+  },
+  {
+    "route": "tag/86409CB74347",
+    "title": "Example 6.11.7 (A nonplanar cone with a smooth disconnected link)",
+    "chapter": "varifolds",
+    "section": "balanced-junctions-and-flat-singular-examples",
+    "tag": "86409CB74347"
+  },
+  {
+    "route": "tag/67A305ACFB42",
+    "title": "Example 6.11.8 (A flat singular point from two smooth minimal graphs)",
+    "chapter": "varifolds",
+    "section": "balanced-junctions-and-flat-singular-examples",
+    "tag": "67A305ACFB42"
+  },
+  {
     "route": "chapters/minimal-surfaces",
     "title": "7 Minimal surfaces",
     "chapter": "minimal-surfaces"
