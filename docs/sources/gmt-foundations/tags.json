@@ -522,6 +522,114 @@
     "anchor": ""
   },
   {
+    "tag": "1F5DE8C3",
+    "label": "def:weak-minimal-graph",
+    "title": "Definition 11.3 (Weak minimal graphs)",
+    "kind": "definition",
+    "page": "tag/1F5DE8C3/index.html",
+    "canonical_tag": "2BE9138D926B",
+    "anchor": ""
+  },
+  {
+    "tag": "8EF0F3AA",
+    "label": "prop:graph-ellipticity",
+    "title": "Proposition 11.4 (Ellipticity and the gradient bound)",
+    "kind": "proposition",
+    "page": "tag/8EF0F3AA/index.html",
+    "canonical_tag": "29B464EBCF55",
+    "anchor": ""
+  },
+  {
+    "tag": "326CAC2F",
+    "label": "prop:graph-linearization",
+    "title": "Proposition 11.5 (Linearization and differences of graph solutions)",
+    "kind": "proposition",
+    "page": "tag/326CAC2F/index.html",
+    "canonical_tag": "65270DE0F6E0",
+    "anchor": ""
+  },
+  {
+    "tag": "A80DE10F",
+    "label": "thm:lipschitz-minimal-regularity",
+    "title": "Theorem 11.6 (Smoothness of Lipschitz weak minimal graphs)",
+    "kind": "theorem",
+    "page": "tag/A80DE10F/index.html",
+    "canonical_tag": "86FA24C083FB",
+    "anchor": ""
+  },
+  {
+    "tag": "735CA39E",
+    "label": "prop:classical-graph-bootstrap",
+    "title": "Proposition 11.7 (Bootstrapping a classical minimal graph)",
+    "kind": "proposition",
+    "page": "tag/735CA39E/index.html",
+    "canonical_tag": "9843EEC0DB02",
+    "anchor": ""
+  },
+  {
+    "tag": "36688523",
+    "label": "prop:graph-strong-comparison",
+    "title": "Proposition 11.8 (Strong comparison for minimal graphs)",
+    "kind": "proposition",
+    "page": "tag/36688523/index.html",
+    "canonical_tag": "EA3CB199A4FD",
+    "anchor": ""
+  },
+  {
+    "tag": "5B1F6A25",
+    "label": "cor:graph-dirichlet-uniqueness",
+    "title": "Corollary 11.9 (Boundary comparison and uniqueness)",
+    "kind": "corollary",
+    "page": "tag/5B1F6A25/index.html",
+    "canonical_tag": "AF64217A81F7",
+    "anchor": ""
+  },
+  {
+    "tag": "5470ECE3",
+    "label": "cor:minimal-tangency",
+    "title": "Corollary 11.10 (Interior tangency principle)",
+    "kind": "corollary",
+    "page": "tag/5470ECE3/index.html",
+    "canonical_tag": "DBF134AFFBB2",
+    "anchor": ""
+  },
+  {
+    "tag": "3F96A5E1",
+    "label": "def:calibration",
+    "title": "Definition 11.11 (Calibrations)",
+    "kind": "definition",
+    "page": "tag/3F96A5E1/index.html",
+    "canonical_tag": "5CC331303E30",
+    "anchor": ""
+  },
+  {
+    "tag": "53DE80F7",
+    "label": "prop:calibration-minimizes",
+    "title": "Proposition 11.12 (A calibration proves area minimization)",
+    "kind": "proposition",
+    "page": "tag/53DE80F7/index.html",
+    "canonical_tag": "27EE3D841187",
+    "anchor": ""
+  },
+  {
+    "tag": "4A86E539",
+    "label": "prop:graph-calibration",
+    "title": "Proposition 11.13 (Minimal graphs are calibrated in their cylinder)",
+    "kind": "proposition",
+    "page": "tag/4A86E539/index.html",
+    "canonical_tag": "74F9A2FF880C",
+    "anchor": ""
+  },
+  {
+    "tag": "13D45764",
+    "label": "ex:scherk-graph",
+    "title": "Example 11.14 (A graph with unbounded slope at its domain boundary)",
+    "kind": "example",
+    "page": "tag/13D45764/index.html",
+    "canonical_tag": "62DB8C81E589",
+    "anchor": ""
+  },
+  {
     "tag": "B217FE17",
     "label": "sec:minmax-cycles",
     "title": "12 Cycles and min-max families",
@@ -1248,6 +1356,330 @@
     "kind": "remark",
     "page": "tag/726DA910/index.html",
     "canonical_tag": "C5CCD5D00E73",
+    "anchor": ""
+  },
+  {
+    "tag": "83004A43",
+    "label": "sec:elliptic-tools",
+    "title": "30 Elliptic estimates for weak solutions",
+    "kind": "chapter",
+    "page": "tag/83004A43/index.html",
+    "canonical_tag": "57735E602BFC",
+    "anchor": ""
+  },
+  {
+    "tag": "DE53174C",
+    "label": "def:sobolev-weak-derivatives",
+    "title": "Definition 30.1 (Sobolev spaces and weak derivatives)",
+    "kind": "definition",
+    "page": "tag/DE53174C/index.html",
+    "canonical_tag": "848E8C69703F",
+    "anchor": ""
+  },
+  {
+    "tag": "6DB548F5",
+    "label": "def:weak-elliptic-equation",
+    "title": "Definition 30.2 (Uniform ellipticity and weak divergence equations)",
+    "kind": "definition",
+    "page": "tag/6DB548F5/index.html",
+    "canonical_tag": "5454001B58EE",
+    "anchor": ""
+  },
+  {
+    "tag": "4D073F45",
+    "label": "def:holder-seminorm",
+    "title": "Definition 30.3 (H\u00f6lder seminorms)",
+    "kind": "definition",
+    "page": "tag/4D073F45/index.html",
+    "canonical_tag": "9B57A69E7130",
+    "anchor": ""
+  },
+  {
+    "tag": "93588474",
+    "label": "lem:caccioppoli",
+    "title": "Lemma 30.4 (Caccioppoli energy estimate)",
+    "kind": "lemma",
+    "page": "tag/93588474/index.html",
+    "canonical_tag": "494C2D3530AB",
+    "anchor": ""
+  },
+  {
+    "tag": "68C59CF3",
+    "label": "thm:elliptic-local-boundedness",
+    "title": "Theorem 30.5 (Local boundedness of weak solutions)",
+    "kind": "theorem",
+    "page": "tag/68C59CF3/index.html",
+    "canonical_tag": "C56302366B3D",
+    "anchor": ""
+  },
+  {
+    "tag": "AEC477B5",
+    "label": "thm:elliptic-harnack",
+    "title": "Theorem 30.6 (Interior Harnack inequality)",
+    "kind": "theorem",
+    "page": "tag/AEC477B5/index.html",
+    "canonical_tag": "4D92018C184B",
+    "anchor": ""
+  },
+  {
+    "tag": "EC779A5C",
+    "label": "cor:elliptic-holder",
+    "title": "Corollary 30.7 (H\u00f6lder continuity from oscillation decay)",
+    "kind": "corollary",
+    "page": "tag/EC779A5C/index.html",
+    "canonical_tag": "482FCE0EEBCC",
+    "anchor": ""
+  },
+  {
+    "tag": "61C139B9",
+    "label": "thm:interior-schauder",
+    "title": "Theorem 30.8 (Interior Schauder regularity)",
+    "kind": "theorem",
+    "page": "tag/61C139B9/index.html",
+    "canonical_tag": "275ADD902409",
+    "anchor": ""
+  },
+  {
+    "tag": "7E62D793",
+    "label": "thm:laplace-w2p",
+    "title": "Theorem 30.9 (Interior Sobolev estimate for the Laplacian)",
+    "kind": "theorem",
+    "page": "tag/7E62D793/index.html",
+    "canonical_tag": "B926EC268DB9",
+    "anchor": ""
+  },
+  {
+    "tag": "E6AC0F4E",
+    "label": "sec:positive-jacobi",
+    "title": "31 Positive Jacobi fields and graphical convergence",
+    "kind": "chapter",
+    "page": "tag/E6AC0F4E/index.html",
+    "canonical_tag": "0E19712752FF",
+    "anchor": ""
+  },
+  {
+    "tag": "DB3A1A33",
+    "label": "def:local-stability",
+    "title": "Definition 31.1 (Stability on a noncompact hypersurface)",
+    "kind": "definition",
+    "page": "tag/DB3A1A33/index.html",
+    "canonical_tag": "35808222AC5B",
+    "anchor": ""
+  },
+  {
+    "tag": "6B27179D",
+    "label": "prop:mean-curvature-linearization",
+    "title": "Proposition 31.2 (Linearization of scalar mean curvature)",
+    "kind": "proposition",
+    "page": "tag/6B27179D/index.html",
+    "canonical_tag": "E4E4294F8594",
+    "anchor": ""
+  },
+  {
+    "tag": "BFC2E2EA",
+    "label": "prop:positive-jacobi-stability",
+    "title": "Proposition 31.3 (Positive Jacobi fields imply stability)",
+    "kind": "proposition",
+    "page": "tag/BFC2E2EA/index.html",
+    "canonical_tag": "F531FEF8EC1D",
+    "anchor": ""
+  },
+  {
+    "tag": "302B059E",
+    "label": "cor:graph-positive-jacobi",
+    "title": "Corollary 31.4 (The vertical angle makes a minimal graph stable)",
+    "kind": "corollary",
+    "page": "tag/302B059E/index.html",
+    "canonical_tag": "6FAB89AC045D",
+    "anchor": ""
+  },
+  {
+    "tag": "F6D35028",
+    "label": "thm:separated-sheets-jacobi",
+    "title": "Theorem 31.5 (Separated sheets produce a positive Jacobi field)",
+    "kind": "theorem",
+    "page": "tag/F6D35028/index.html",
+    "canonical_tag": "BB7E1EEFDC4F",
+    "anchor": ""
+  },
+  {
+    "tag": "A860D88D",
+    "label": "thm:stable-curvature-bound",
+    "title": "Theorem 31.6 (Stable curvature estimate in dimensions at most six)",
+    "kind": "theorem",
+    "page": "tag/A860D88D/index.html",
+    "canonical_tag": "0B9CCB2E229B",
+    "anchor": ""
+  },
+  {
+    "tag": "C06A3A8A",
+    "label": "sec:tangent-cones-strata",
+    "title": "32 Tangent cones and stratification",
+    "kind": "chapter",
+    "page": "tag/C06A3A8A/index.html",
+    "canonical_tag": "54A78170AF99",
+    "anchor": ""
+  },
+  {
+    "tag": "3F1F4FFD",
+    "label": "def:varifold-dilation",
+    "title": "Definition 32.1 (Dilations of a varifold)",
+    "kind": "definition",
+    "page": "tag/3F1F4FFD/index.html",
+    "canonical_tag": "CC955C20A984",
+    "anchor": ""
+  },
+  {
+    "tag": "38571E78",
+    "label": "prop:varifold-scaling",
+    "title": "Proposition 32.2 (Mass and stationarity under dilation)",
+    "kind": "proposition",
+    "page": "tag/38571E78/index.html",
+    "canonical_tag": "989EAE3823D1",
+    "anchor": ""
+  },
+  {
+    "tag": "8059AA63",
+    "label": "prop:density-upper-semicontinuity",
+    "title": "Proposition 32.3 (Upper semicontinuity of stationary density)",
+    "kind": "proposition",
+    "page": "tag/8059AA63/index.html",
+    "canonical_tag": "04D4F1210FAB",
+    "anchor": ""
+  },
+  {
+    "tag": "D1069526",
+    "label": "cor:integral-support-density",
+    "title": "Corollary 32.4 (Density at every support point)",
+    "kind": "corollary",
+    "page": "tag/D1069526/index.html",
+    "canonical_tag": "3A22ED5AAEBA",
+    "anchor": ""
+  },
+  {
+    "tag": "6CA00195",
+    "label": "def:varifold-regular-singular",
+    "title": "Definition 32.5 (Regular and singular points)",
+    "kind": "definition",
+    "page": "tag/6CA00195/index.html",
+    "canonical_tag": "9EC8D9CF963C",
+    "anchor": ""
+  },
+  {
+    "tag": "44166E55",
+    "label": "thm:tangent-cones",
+    "title": "Theorem 32.6 (Existence and structure of tangent cones)",
+    "kind": "theorem",
+    "page": "tag/44166E55/index.html",
+    "canonical_tag": "4897B19C7602",
+    "anchor": ""
+  },
+  {
+    "tag": "1810F9FA",
+    "label": "def:cone-spine",
+    "title": "Definition 32.7 (The spine of a stationary cone)",
+    "kind": "definition",
+    "page": "tag/1810F9FA/index.html",
+    "canonical_tag": "19F77FBF48A6",
+    "anchor": ""
+  },
+  {
+    "tag": "030D8355",
+    "label": "thm:cone-spine-splitting",
+    "title": "Theorem 32.8 (Spine structure and splitting)",
+    "kind": "theorem",
+    "page": "tag/030D8355/index.html",
+    "canonical_tag": "2C1BC96081EA",
+    "anchor": ""
+  },
+  {
+    "tag": "4BB8CFFE",
+    "label": "def:singular-strata",
+    "title": "Definition 32.9 (Singular strata)",
+    "kind": "definition",
+    "page": "tag/4BB8CFFE/index.html",
+    "canonical_tag": "AA22661A81D0",
+    "anchor": ""
+  },
+  {
+    "tag": "283B3284",
+    "label": "thm:strata-dimension",
+    "title": "Theorem 32.10 (Dimension bound for the strata)",
+    "kind": "theorem",
+    "page": "tag/283B3284/index.html",
+    "canonical_tag": "20B7E5509A93",
+    "anchor": ""
+  },
+  {
+    "tag": "DDD83AE5",
+    "label": "ex:crossing-planes",
+    "title": "Example 32.11 (Crossing planes remain stationary)",
+    "kind": "example",
+    "page": "tag/DDD83AE5/index.html",
+    "canonical_tag": "BFB7F867B030",
+    "anchor": ""
+  },
+  {
+    "tag": "A2984C02",
+    "label": "sec:allard-regularity",
+    "title": "33 Excess and Allard regularity",
+    "kind": "chapter",
+    "page": "tag/A2984C02/index.html",
+    "canonical_tag": "7EB7A8003449",
+    "anchor": ""
+  },
+  {
+    "tag": "1156CD22",
+    "label": "def:varifold-excess",
+    "title": "Definition 33.1 (Height and tilt excess)",
+    "kind": "definition",
+    "page": "tag/1156CD22/index.html",
+    "canonical_tag": "2C463D5AB6FB",
+    "anchor": ""
+  },
+  {
+    "tag": "CFD0A401",
+    "label": "prop:excess-scaling",
+    "title": "Proposition 33.2 (Excess is invariant under simultaneous rescaling)",
+    "kind": "proposition",
+    "page": "tag/CFD0A401/index.html",
+    "canonical_tag": "0938FA23F7B1",
+    "anchor": ""
+  },
+  {
+    "tag": "5DD30D05",
+    "label": "thm:allard-lp",
+    "title": "Theorem 33.3 (Allard regularity with supercritical mean curvature)",
+    "kind": "theorem",
+    "page": "tag/5DD30D05/index.html",
+    "canonical_tag": "AB385BD66E1E",
+    "anchor": ""
+  },
+  {
+    "tag": "E0124EA1",
+    "label": "cor:unit-density-regularity",
+    "title": "Corollary 33.4 (Density one forces a regular point)",
+    "kind": "corollary",
+    "page": "tag/E0124EA1/index.html",
+    "canonical_tag": "B253B69E9E98",
+    "anchor": ""
+  },
+  {
+    "tag": "6354D6F8",
+    "label": "thm:stationary-density-gap",
+    "title": "Theorem 33.5 (A density gap above one)",
+    "kind": "theorem",
+    "page": "tag/6354D6F8/index.html",
+    "canonical_tag": "5DBE38E6CA27",
+    "anchor": ""
+  },
+  {
+    "tag": "16DAAB62",
+    "label": "ex:multiple-plane-excess",
+    "title": "Example 33.6 (Zero excess does not specify multiplicity)",
+    "kind": "example",
+    "page": "tag/16DAAB62/index.html",
+    "canonical_tag": "2D4CD27BD1E5",
     "anchor": ""
   }
 ]

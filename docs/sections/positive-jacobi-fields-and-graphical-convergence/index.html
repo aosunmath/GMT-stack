@@ -1,0 +1,100 @@
+<!doctype html><html lang="en" data-reading-mode="continuous" data-asset-revision="8d257785b035" data-search-index="../../search.json" data-collection-root="../../"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#d9d8d1"><meta name="giscus:backlink" content="https://aosunmath.github.io/GMT-stack/sections/positive-jacobi-fields-and-graphical-convergence/"><title>7.6 Positive Jacobi fields and graphical convergence · Stack Project of Geometric Measure Theory and Variational Problems</title><link rel="canonical" href="https://aosunmath.github.io/GMT-stack/sections/positive-jacobi-fields-and-graphical-convergence/">
+<link rel="stylesheet" href="../../assets/book.css?v=8d257785b035"><link rel="stylesheet" href="../../assets/collection.css?v=8d257785b035"><link rel="stylesheet" href="../../assets/formalization.css?v=8d257785b035"><script src="../../assets/math-config.js?v=8d257785b035"></script><script defer src="../../assets/mathjax/tex-chtml.js?v=8d257785b035"></script><script type="module" src="../../assets/formalization.mjs?v=8d257785b035"></script><script type="module" src="../../assets/collection.mjs?v=8d257785b035"></script><script type="module" src="../../assets/comments.mjs?v=8d257785b035"></script></head>
+<body><a class="skip" href="#content">Skip to content</a><header class="book-header"><a class="brand" href="../../" aria-label="Stack Project of Geometric Measure Theory and Variational Problems home">Stack Project of Geometric Measure Theory and Variational Problems</a><nav aria-label="Primary"><a href="../../chapters/">Contents</a><a href="../../references/">Bibliography</a><a href="../../chapters/history/">History</a><a href="../../comments/">Comments</a></nav><form class="quick-search" action="../../search/" role="search"><label class="visually-hidden" for="collection-search">Search Stack Project of Geometric Measure Theory and Variational Problems</label><input id="collection-search" name="q" type="search" placeholder="Keywords or a tag" autocomplete="off" aria-controls="search-results"><div id="search-results" aria-live="polite"></div></form></header>
+<nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../chapters/">Table of contents</a></li><li><a href="../../chapters/minimal-surfaces/">Chapter 7: Minimal surfaces</a></li><li><a href="../../sections/positive-jacobi-fields-and-graphical-convergence/" aria-current="page">Section 7.6: Positive Jacobi fields and graphical convergence</a></li></ol></nav><div class="reading-layout"><aside class="sidebar"><details class="chapter-navigation" open><summary>Browse and page tools</summary><div class="reader-tools"><h2>In this chapter</h2><ol class="section-list"><li><a href="../../sections/minimal-hypersurfaces-and-stability/"><span>7.1</span> Minimal hypersurfaces and stability</a><code class="tag-id">1DCFE80CFBCA</code></li><li><a href="../../sections/minimal-graphs-and-elliptic-regularity/"><span>7.2</span> Minimal graphs and elliptic regularity</a><code class="tag-id">6777B79D5D8A</code></li><li><a href="../../sections/compactness-with-bounded-area-and-index/"><span>7.3</span> Compactness with bounded area and index</a><code class="tag-id">605F0FF85A8C</code></li><li><a href="../../sections/sobolev-and-isoperimetric-inequalities/"><span>7.4</span> Sobolev and isoperimetric inequalities</a><code class="tag-id">9E935745FB86</code></li><li><a href="../../sections/elliptic-estimates-for-weak-solutions/"><span>7.5</span> Elliptic estimates for weak solutions</a><code class="tag-id">57735E602BFC</code></li><li><a href="../../sections/positive-jacobi-fields-and-graphical-convergence/" aria-current="page"><span>7.6</span> Positive Jacobi fields and graphical convergence</a><code class="tag-id">0E19712752FF</code></li></ol><div class="page-tools"><a href="#comments">Comments</a><a href="#cite">Cite this page</a><a href="https://aosunmath.github.io/GMT-stack/sections/positive-jacobi-fields-and-graphical-convergence/">Permalink</a><button type="button" data-copy-link="https://aosunmath.github.io/GMT-stack/sections/positive-jacobi-fields-and-graphical-convergence/">Copy link</button><label class="tag-switch"><input type="checkbox" data-show-tags> Show tags</label><span class="copy-status" role="status"></span></div><details class="all-chapters"><summary>All chapters</summary><nav aria-label="All chapters"><ol><li><a href="../../chapters/orientation/">1. Introduction</a></li><li><a href="../../chapters/measure-theory/">2. Measure theory</a></li><li><a href="../../chapters/rectifiability/">3. Rectifiability and integration</a></li><li><a href="../../chapters/finite-perimeter/">4. Sets of finite perimeter</a></li><li><a href="../../chapters/currents-flat-chains/">5. Currents and flat chains</a></li><li><a href="../../chapters/varifolds/">6. Varifolds</a></li><li><a href="../../chapters/minimal-surfaces/">7. Minimal surfaces</a></li><li><a href="../../chapters/min-max-theory/">8. Min-max theory</a></li><li><a href="../../chapters/volume-spectrum/">9. Volume spectrum and Morse index</a></li><li><a href="../../chapters/geometric-applications/">10. Geometric applications of min-max theory</a></li><li><a href="../../chapters/constant-mean-curvature/">11. Constant mean curvature surfaces</a></li><li><a href="../../chapters/allen-cahn/">12. Allen-Cahn and phase transitions</a></li><li><a href="../../chapters/obstacle-problems/">13. Obstacle problems</a></li><li><a href="../../chapters/mean-curvature-flow/">14. Mean curvature flows</a></li><li><a href="../../chapters/history/">15. History</a></li></ol></nav></details><p><a href="../../sources/">Sources and revisions</a><br><a href="../../entries/">All entries</a><br><a href="https://github.com/aosunmath/GMT-stack">GitHub repository</a></p></div></details></aside>
+<main id="content" tabindex="-1"><nav class="page-navigation" aria-label="Page navigation"><a class="pager-prev" rel="prev" href="../../tag/B926EC268DB9/"><span>← Previous</span><small>Theorem 7.5.9 (Interior Sobolev estimate for the Laplacian)</small></a><a class="pager-next" rel="next" href="../../tag/35808222AC5B/"><span>Next →</span><small>Definition 7.6.1 (Stability on a noncompact hypersurface)</small></a></nav><h1>7.6 Positive Jacobi fields and graphical convergence<code class="tag-id">0E19712752FF</code></h1><div class="section-reading"><section class="reading-chunk" data-section-entries="0B9CCB2E229B 0E19712752FF 35808222AC5B 6FAB89AC045D BB7E1EEFDC4F E4E4294F8594 F531FEF8EC1D" id="entry-0E19712752FF"><div class="source-variant" data-gerby-book="gmt-foundations"><span data-gerby-tag="E6AC0F4E"><code class="tag-id">0E19712752FF</code></span>
+<p>
+ The stability inequality, the linearized mean-curvature equation, and the separation of nearby sheets are different statements. This section develops their connections. We use the scalar convention $H=\operatorname {div}_\Sigma \nu $ from Definition <a data-tag="B892A771" href="../../tag/28E53582FC82/">7.1.1</a>. 
+</p>
+<article class="env-definition" id="gmt-foundations-DB3A1A33">
+<p><a class="environment-identifier" href="../../tag/35808222AC5B/">Definition <span data-tag="DB3A1A33">7.6.1</span> <span class="named">(Stability on a noncompact hypersurface)</span>.</a><span data-gerby-tag="DB3A1A33"><code class="tag-id">35808222AC5B</code></span> Let $\Sigma $ be a smooth two-sided minimal hypersurface in a smooth Riemannian manifold, possibly noncompact or with boundary. Put $q=|B|^2+\operatorname {Ric}(\nu ,\nu )$ and $J=\Delta _\Sigma +q$. Stability means </p>
+<div class="equation">
+  \[  Q(\phi ,\phi )=\int _\Sigma (|\nabla \phi |^2-q\phi ^2)\, dA\geq 0 \quad \text{for all }\phi \in C_ c^\infty (\Sigma \setminus \partial \Sigma ).  \]
+</div>
+<p> Thus stability on an open subset only tests variations supported there. The compactly supported second-variation formula is the local version of Theorem <a data-tag="4AD8B5BF" href="../../tag/30FBA471ADE5/">7.1.3</a>; see <span class="cite">[<a class="reference-link" data-reference="RA9BD362DCDFB" href="#reference-RA9BD362DCDFB" id="cite-RA9BD362DCDFB-1" title="Otis Chodosh.
+Introduction to minimal surfaces.
+2025.
+Supplied lecture notes dated March 15, 2025.">ChMin</a>]</span>, Theorem 23.4. </p>
+</article>
+<article class="env-proposition" id="gmt-foundations-6B27179D">
+<p><a class="environment-identifier" href="../../tag/E4E4294F8594/">Proposition <span data-tag="6B27179D">7.6.2</span> <span class="named">(Linearization of scalar mean curvature)</span>.</a><span data-gerby-tag="6B27179D"><code class="tag-id">E4E4294F8594</code></span> Let $\Sigma $ be smooth, two-sided, and minimal. For a normal variation with velocity $f\nu $, differentiating scalar mean curvature at $t=0$ gives </p>
+<div class="equation">
+  \[  \left.\partial _ t H_{\Sigma _ t}\right|_{t=0}=-Jf.  \]
+</div>
+<p> The sign agrees with $Q(f,f)=-\int fJf$ and with the first variation $\delta A(f\nu )=\int Hf$. </p>
+</article>
+<details class="proof"><summary>Proof</summary><article class="env-proof">
+<p>
+
+      Take a two-parameter normal graph variation with initial velocities $f\nu $ and $\phi \nu $, both compactly supported. Differentiate its first-variation identity in the other parameter. Terms differentiating the area form or normal component are multiplied by $H=0$, leaving $\int \phi \, \partial _ tH$. The mixed second derivative is the polarization of the second variation, $Q(f,\phi )=-\int \phi Jf$. Since $\phi $ is arbitrary, the identity follows pointwise. For a general smooth $f$, insert cutoffs near the point being tested. Compare <span class="cite">[<a class="reference-link" data-reference="RA9BD362DCDFB" href="#reference-RA9BD362DCDFB" id="cite-RA9BD362DCDFB-2" title="Otis Chodosh.
+Introduction to minimal surfaces.
+2025.
+Supplied lecture notes dated March 15, 2025.">ChMin</a>]</span>, the proof of Proposition 33.3, pp. 80–81. 
+      <span class="qed">$\square$</span>
+</p>
+</article></details>
+<article class="env-proposition" id="gmt-foundations-BFC2E2EA">
+<p><a class="environment-identifier" href="../../tag/F531FEF8EC1D/">Proposition <span data-tag="BFC2E2EA">7.6.3</span> <span class="named">(Positive Jacobi fields imply stability)</span>.</a><span data-gerby-tag="BFC2E2EA"><code class="tag-id">F531FEF8EC1D</code></span> If $w&gt;0$ is smooth on a two-sided minimal hypersurface and $Jw=0$, then for every compactly supported smooth $\phi $ in its interior, </p>
+<div class="equation">
+  \[  Q(\phi ,\phi )=\int _\Sigma w^2\left|\nabla \left(\frac\phi w\right)\right|^2dA\geq 0.  \]
+</div>
+<p> In particular the hypersurface is stable in the sense of Definition <a data-tag="DB3A1A33" href="../../tag/35808222AC5B/">7.6.1</a>. </p>
+</article>
+<details class="proof"><summary>Proof</summary><article class="env-proof">
+<p>
+
+      Set $\eta =\phi /w$. Expanding $|\nabla (w\eta )|^2$ and subtracting $q w^2\eta ^2$, the terms other than $w^2|\nabla \eta |^2$ integrate to $\int \nabla w\cdot \nabla (w\eta ^2)-qw^2\eta ^2=-\int w\eta ^2(\Delta w+qw)=0$. There is no boundary term because $\eta $ has compact support. This identity makes explicit the positive-Jacobi-field argument of <span class="cite">[<a class="reference-link" data-reference="RA9BD362DCDFB" href="#reference-RA9BD362DCDFB" id="cite-RA9BD362DCDFB-3" title="Otis Chodosh.
+Introduction to minimal surfaces.
+2025.
+Supplied lecture notes dated March 15, 2025.">ChMin</a>]</span>, Proposition 33.4. 
+      <span class="qed">$\square$</span>
+</p>
+</article></details>
+<article class="env-corollary" id="gmt-foundations-302B059E">
+<p><a class="environment-identifier" href="../../tag/6FAB89AC045D/">Corollary <span data-tag="302B059E">7.6.4</span> <span class="named">(The vertical angle makes a minimal graph stable)</span>.</a><span data-gerby-tag="302B059E"><code class="tag-id">6FAB89AC045D</code></span> For a smooth minimal graph in $\mathbb R^{n+1}$ with upward normal $\nu $, the function </p>
+<div class="equation">
+  \[  w=\langle \nu ,e_{n+1}\rangle =(1+|Du|^2)^{-1/2}  \]
+</div>
+<p> is a positive Jacobi function. Hence the graph is stable under all compactly supported normal variations. </p>
+</article>
+<details class="proof"><summary>Proof</summary><article class="env-proof">
+<p>
+
+      Vertical translations preserve minimality. Their normal speed is $w$; their tangential part differentiates the identically zero mean curvature and contributes zero. Proposition <a data-tag="6B27179D" href="../../tag/E4E4294F8594/">7.6.2</a> therefore gives $Jw=0$. Apply Proposition <a data-tag="BFC2E2EA" href="../../tag/F531FEF8EC1D/">7.6.3</a>. This also follows from the minimizing property in Proposition <a data-tag="4A86E539" href="../../tag/74F9A2FF880C/">7.2.13</a>. 
+      <span class="qed">$\square$</span>
+</p>
+</article></details>
+<article class="env-theorem" id="gmt-foundations-F6D35028">
+<p><a class="environment-identifier" href="../../tag/BB7E1EEFDC4F/">Theorem <span data-tag="F6D35028">7.6.5</span> <span class="named">(Separated sheets produce a positive Jacobi field)</span>.</a><span data-gerby-tag="F6D35028"><code class="tag-id">BB7E1EEFDC4F</code></span> Let $\Sigma $ be a smooth connected two-sided embedded minimal hypersurface in a smooth Riemannian manifold. Let $U_1\Subset U_2\Subset \cdots $ be connected relatively compact open subsets exhausting its interior, and fix $p\in U_1$. Suppose smooth functions $u_{1,j}&lt;u_{2,j}$ on $U_ j$ define minimal normal graphs by the normal exponential map, with both functions converging to zero in $C^\infty $ on every compact subset of $\Sigma \setminus \partial \Sigma $. Then a subsequence of </p>
+<div class="equation">
+  \[  v_ j=\frac{u_{2,j}-u_{1,j}}{(u_{2,j}-u_{1,j})(p)}  \]
+</div>
+<p> converges in $C^\infty $ on compact subsets to a function $v&gt;0$ with $v(p)=1$ and $Jv=0$. Consequently the interior of $\Sigma $ is stable. This is the normal-graph formulation of <span class="cite">[<a class="reference-link" data-reference="RA9BD362DCDFB" href="#reference-RA9BD362DCDFB" id="cite-RA9BD362DCDFB-4" title="Otis Chodosh.
+Introduction to minimal surfaces.
+2025.
+Supplied lecture notes dated March 15, 2025.">ChMin</a>]</span>, Proposition 33.3, including its stated Riemannian extension. Uniform local ellipticity, Harnack, Schauder estimates, and a diagonal subsequence are the analytic proof inputs; that convergence proof remains external. The conclusion assumes two globally ordered sheets on the exhaustion, not merely a numerical multiplicity at one point. </p>
+</article>
+<article class="env-theorem" id="gmt-foundations-A860D88D">
+<p><a class="environment-identifier" href="../../tag/0B9CCB2E229B/">Theorem <span data-tag="A860D88D">7.6.6</span> <span class="named">(Stable curvature estimate in dimensions at most six)</span>.</a><span data-gerby-tag="A860D88D"><code class="tag-id">0B9CCB2E229B</code></span> Let $2\leq n\leq 6$. Suppose $\Sigma ^ n$ is a smooth properly embedded two-sided minimal hypersurface without boundary in $B_{2R}^{n+1}(a)$, is stable for compactly supported normal variations there, and satisfies </p>
+<div class="equation">
+  \[  \mathcal H^ n(\Sigma \cap B_{2R}(a))\leq \Lambda R^ n.  \]
+</div>
+<p> Then $\sup _{\Sigma \cap B_ R(a)}|B|\leq C(n,\Lambda )/R$. This is the smooth Euclidean specialization of Schoen–Simon <span class="cite">[<a class="reference-link" data-reference="R43B8B7CC5C64" href="#reference-R43B8B7CC5C64" id="cite-R43B8B7CC5C64-1" title="Richard Schoen and Leon Simon.
+Regularity of stable minimal hypersurfaces. Communications on Pure and Applied Mathematics , 34:741–797, 1981.">SS81</a>]</span>, as stated in <span class="cite">[<a class="reference-link" data-reference="RD2F76FCF5934" href="#reference-RD2F76FCF5934" id="cite-RD2F76FCF5934-1" title="Ben Sharp.
+Compactness of minimal hypersurfaces with bounded index. Journal of Differential Geometry , 106:317–339, 2017.">Sharp17</a>]</span>, Theorem 2.1, pp. 320–321. Applying that local estimate at points of $\Sigma \cap B_ R(a)$ gives the stated interior bound. Smoothness removes the singular-set hypothesis in that source; for singular hypersurfaces the hypothesis must be restored. The area bound and dimension restriction are retained. The proof remains external. </p>
+</article>
+</div></section></div><section class="page-references" aria-label="References on this page"><h2>References on this page</h2><ol><li id="reference-RA9BD362DCDFB"><span class="reference-key">[ChMin]</span> Otis Chodosh.
+Introduction to minimal surfaces.
+2025.
+Supplied lecture notes dated March 15, 2025.<span class="reference-actions"><a href="../../references/#RA9BD362DCDFB">All uses in this project</a> <a href="#cite-RA9BD362DCDFB-1" aria-label="Back to citation 1 of ChMin">↩ 1</a> <a href="#cite-RA9BD362DCDFB-2" aria-label="Back to citation 2 of ChMin">↩ 2</a> <a href="#cite-RA9BD362DCDFB-3" aria-label="Back to citation 3 of ChMin">↩ 3</a> <a href="#cite-RA9BD362DCDFB-4" aria-label="Back to citation 4 of ChMin">↩ 4</a></span></li><li id="reference-R43B8B7CC5C64"><span class="reference-key">[SS81]</span> Richard Schoen and Leon Simon.
+Regularity of stable minimal hypersurfaces.
+<em>Communications on Pure and Applied Mathematics</em>, 34:741–797, 1981.<span class="reference-actions"><a href="../../references/#R43B8B7CC5C64">All uses in this project</a> <a href="#cite-R43B8B7CC5C64-1" aria-label="Back to citation 1 of SS81">↩ 1</a></span></li><li id="reference-RD2F76FCF5934"><span class="reference-key">[Sharp17]</span> Ben Sharp.
+Compactness of minimal hypersurfaces with bounded index.
+<em>Journal of Differential Geometry</em>, 106:317–339, 2017.<span class="reference-actions"><a href="../../references/#RD2F76FCF5934">All uses in this project</a> <a href="#cite-RD2F76FCF5934-1" aria-label="Back to citation 1 of Sharp17">↩ 1</a></span></li></ol></section><nav class="page-navigation" aria-label="Page navigation bottom"><a class="pager-prev" rel="prev" href="../../tag/B926EC268DB9/"><span>← Previous</span><small>Theorem 7.5.9 (Interior Sobolev estimate for the Laplacian)</small></a><a class="pager-next" rel="next" href="../../tag/35808222AC5B/"><span>Next →</span><small>Definition 7.6.1 (Stability on a noncompact hypersurface)</small></a></nav>
+<details class="citation" id="cite"><summary>Cite this page</summary><label for="citation-text">BibTeX citation</label><textarea id="citation-text" readonly rows="7">@misc{gmt-stack-sections-positive-jacobi-fields-and-graphical-convergence,
+  author = {{Stack Project of Geometric Measure Theory and Variational Problems contributors}},
+  title = {7.6 Positive Jacobi fields and graphical convergence},
+  howpublished = {Stack Project of Geometric Measure Theory and Variational Problems},
+  url = {https://aosunmath.github.io/GMT-stack/sections/positive-jacobi-fields-and-graphical-convergence/}
+}</textarea><button type="button" data-copy-citation>Copy citation</button><span class="copy-status" role="status"></span></details>
+<section class="comments-panel" id="comments" aria-labelledby="comments-heading"><h2 id="comments-heading">Comments</h2><p>Comments are not enabled yet.</p></section><footer class="book-footer">Stack Project of Geometric Measure Theory and Variational Problems · <a href="../../sources/">Sources and revisions</a> · <a href="../../comments/">Comments</a></footer></main></div></body></html>

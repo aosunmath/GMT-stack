@@ -406,6 +406,137 @@
     "tag": "58C720EC2E67"
   },
   {
+    "route": "sections/tangent-cones-and-stratification",
+    "title": "6.3 Tangent cones and stratification",
+    "chapter": "varifolds",
+    "section": "tangent-cones-and-stratification"
+  },
+  {
+    "route": "tag/CC955C20A984",
+    "title": "Definition 6.3.1 (Dilations of a varifold)",
+    "chapter": "varifolds",
+    "section": "tangent-cones-and-stratification",
+    "tag": "CC955C20A984"
+  },
+  {
+    "route": "tag/989EAE3823D1",
+    "title": "Proposition 6.3.2 (Mass and stationarity under dilation)",
+    "chapter": "varifolds",
+    "section": "tangent-cones-and-stratification",
+    "tag": "989EAE3823D1"
+  },
+  {
+    "route": "tag/04D4F1210FAB",
+    "title": "Proposition 6.3.3 (Upper semicontinuity of stationary density)",
+    "chapter": "varifolds",
+    "section": "tangent-cones-and-stratification",
+    "tag": "04D4F1210FAB"
+  },
+  {
+    "route": "tag/3A22ED5AAEBA",
+    "title": "Corollary 6.3.4 (Density at every support point)",
+    "chapter": "varifolds",
+    "section": "tangent-cones-and-stratification",
+    "tag": "3A22ED5AAEBA"
+  },
+  {
+    "route": "tag/9EC8D9CF963C",
+    "title": "Definition 6.3.5 (Regular and singular points)",
+    "chapter": "varifolds",
+    "section": "tangent-cones-and-stratification",
+    "tag": "9EC8D9CF963C"
+  },
+  {
+    "route": "tag/4897B19C7602",
+    "title": "Theorem 6.3.6 (Existence and structure of tangent cones)",
+    "chapter": "varifolds",
+    "section": "tangent-cones-and-stratification",
+    "tag": "4897B19C7602"
+  },
+  {
+    "route": "tag/19F77FBF48A6",
+    "title": "Definition 6.3.7 (The spine of a stationary cone)",
+    "chapter": "varifolds",
+    "section": "tangent-cones-and-stratification",
+    "tag": "19F77FBF48A6"
+  },
+  {
+    "route": "tag/2C1BC96081EA",
+    "title": "Theorem 6.3.8 (Spine structure and splitting)",
+    "chapter": "varifolds",
+    "section": "tangent-cones-and-stratification",
+    "tag": "2C1BC96081EA"
+  },
+  {
+    "route": "tag/AA22661A81D0",
+    "title": "Definition 6.3.9 (Singular strata)",
+    "chapter": "varifolds",
+    "section": "tangent-cones-and-stratification",
+    "tag": "AA22661A81D0"
+  },
+  {
+    "route": "tag/20B7E5509A93",
+    "title": "Theorem 6.3.10 (Dimension bound for the strata)",
+    "chapter": "varifolds",
+    "section": "tangent-cones-and-stratification",
+    "tag": "20B7E5509A93"
+  },
+  {
+    "route": "tag/BFB7F867B030",
+    "title": "Example 6.3.11 (Crossing planes remain stationary)",
+    "chapter": "varifolds",
+    "section": "tangent-cones-and-stratification",
+    "tag": "BFB7F867B030"
+  },
+  {
+    "route": "sections/excess-and-allard-regularity",
+    "title": "6.4 Excess and Allard regularity",
+    "chapter": "varifolds",
+    "section": "excess-and-allard-regularity"
+  },
+  {
+    "route": "tag/2C463D5AB6FB",
+    "title": "Definition 6.4.1 (Height and tilt excess)",
+    "chapter": "varifolds",
+    "section": "excess-and-allard-regularity",
+    "tag": "2C463D5AB6FB"
+  },
+  {
+    "route": "tag/0938FA23F7B1",
+    "title": "Proposition 6.4.2 (Excess is invariant under simultaneous rescaling)",
+    "chapter": "varifolds",
+    "section": "excess-and-allard-regularity",
+    "tag": "0938FA23F7B1"
+  },
+  {
+    "route": "tag/AB385BD66E1E",
+    "title": "Theorem 6.4.3 (Allard regularity with supercritical mean curvature)",
+    "chapter": "varifolds",
+    "section": "excess-and-allard-regularity",
+    "tag": "AB385BD66E1E"
+  },
+  {
+    "route": "tag/B253B69E9E98",
+    "title": "Corollary 6.4.4 (Density one forces a regular point)",
+    "chapter": "varifolds",
+    "section": "excess-and-allard-regularity",
+    "tag": "B253B69E9E98"
+  },
+  {
+    "route": "tag/5DBE38E6CA27",
+    "title": "Theorem 6.4.5 (A density gap above one)",
+    "chapter": "varifolds",
+    "section": "excess-and-allard-regularity",
+    "tag": "5DBE38E6CA27"
+  },
+  {
+    "route": "tag/2D4CD27BD1E5",
+    "title": "Example 6.4.6 (Zero excess does not specify multiplicity)",
+    "chapter": "varifolds",
+    "section": "excess-and-allard-regularity",
+    "tag": "2D4CD27BD1E5"
+  },
+  {
     "route": "chapters/minimal-surfaces",
     "title": "7 Minimal surfaces",
     "chapter": "minimal-surfaces"
@@ -472,6 +603,90 @@
     "tag": "5BFC45FF0297"
   },
   {
+    "route": "tag/2BE9138D926B",
+    "title": "Definition 7.2.3 (Weak minimal graphs)",
+    "chapter": "minimal-surfaces",
+    "section": "minimal-graphs-and-elliptic-regularity",
+    "tag": "2BE9138D926B"
+  },
+  {
+    "route": "tag/29B464EBCF55",
+    "title": "Proposition 7.2.4 (Ellipticity and the gradient bound)",
+    "chapter": "minimal-surfaces",
+    "section": "minimal-graphs-and-elliptic-regularity",
+    "tag": "29B464EBCF55"
+  },
+  {
+    "route": "tag/65270DE0F6E0",
+    "title": "Proposition 7.2.5 (Linearization and differences of graph solutions)",
+    "chapter": "minimal-surfaces",
+    "section": "minimal-graphs-and-elliptic-regularity",
+    "tag": "65270DE0F6E0"
+  },
+  {
+    "route": "tag/86FA24C083FB",
+    "title": "Theorem 7.2.6 (Smoothness of Lipschitz weak minimal graphs)",
+    "chapter": "minimal-surfaces",
+    "section": "minimal-graphs-and-elliptic-regularity",
+    "tag": "86FA24C083FB"
+  },
+  {
+    "route": "tag/9843EEC0DB02",
+    "title": "Proposition 7.2.7 (Bootstrapping a classical minimal graph)",
+    "chapter": "minimal-surfaces",
+    "section": "minimal-graphs-and-elliptic-regularity",
+    "tag": "9843EEC0DB02"
+  },
+  {
+    "route": "tag/EA3CB199A4FD",
+    "title": "Proposition 7.2.8 (Strong comparison for minimal graphs)",
+    "chapter": "minimal-surfaces",
+    "section": "minimal-graphs-and-elliptic-regularity",
+    "tag": "EA3CB199A4FD"
+  },
+  {
+    "route": "tag/AF64217A81F7",
+    "title": "Corollary 7.2.9 (Boundary comparison and uniqueness)",
+    "chapter": "minimal-surfaces",
+    "section": "minimal-graphs-and-elliptic-regularity",
+    "tag": "AF64217A81F7"
+  },
+  {
+    "route": "tag/DBF134AFFBB2",
+    "title": "Corollary 7.2.10 (Interior tangency principle)",
+    "chapter": "minimal-surfaces",
+    "section": "minimal-graphs-and-elliptic-regularity",
+    "tag": "DBF134AFFBB2"
+  },
+  {
+    "route": "tag/5CC331303E30",
+    "title": "Definition 7.2.11 (Calibrations)",
+    "chapter": "minimal-surfaces",
+    "section": "minimal-graphs-and-elliptic-regularity",
+    "tag": "5CC331303E30"
+  },
+  {
+    "route": "tag/27EE3D841187",
+    "title": "Proposition 7.2.12 (A calibration proves area minimization)",
+    "chapter": "minimal-surfaces",
+    "section": "minimal-graphs-and-elliptic-regularity",
+    "tag": "27EE3D841187"
+  },
+  {
+    "route": "tag/74F9A2FF880C",
+    "title": "Proposition 7.2.13 (Minimal graphs are calibrated in their cylinder)",
+    "chapter": "minimal-surfaces",
+    "section": "minimal-graphs-and-elliptic-regularity",
+    "tag": "74F9A2FF880C"
+  },
+  {
+    "route": "tag/62DB8C81E589",
+    "title": "Example 7.2.14 (A graph with unbounded slope at its domain boundary)",
+    "chapter": "minimal-surfaces",
+    "section": "minimal-graphs-and-elliptic-regularity",
+    "tag": "62DB8C81E589"
+  },
+  {
     "route": "sections/compactness-with-bounded-area-and-index",
     "title": "7.3 Compactness with bounded area and index",
     "chapter": "minimal-surfaces",
@@ -524,6 +739,123 @@
     "chapter": "minimal-surfaces",
     "section": "sobolev-and-isoperimetric-inequalities",
     "tag": "35A87C0CF8FF"
+  },
+  {
+    "route": "sections/elliptic-estimates-for-weak-solutions",
+    "title": "7.5 Elliptic estimates for weak solutions",
+    "chapter": "minimal-surfaces",
+    "section": "elliptic-estimates-for-weak-solutions"
+  },
+  {
+    "route": "tag/848E8C69703F",
+    "title": "Definition 7.5.1 (Sobolev spaces and weak derivatives)",
+    "chapter": "minimal-surfaces",
+    "section": "elliptic-estimates-for-weak-solutions",
+    "tag": "848E8C69703F"
+  },
+  {
+    "route": "tag/5454001B58EE",
+    "title": "Definition 7.5.2 (Uniform ellipticity and weak divergence equations)",
+    "chapter": "minimal-surfaces",
+    "section": "elliptic-estimates-for-weak-solutions",
+    "tag": "5454001B58EE"
+  },
+  {
+    "route": "tag/9B57A69E7130",
+    "title": "Definition 7.5.3 (Hölder seminorms)",
+    "chapter": "minimal-surfaces",
+    "section": "elliptic-estimates-for-weak-solutions",
+    "tag": "9B57A69E7130"
+  },
+  {
+    "route": "tag/494C2D3530AB",
+    "title": "Lemma 7.5.4 (Caccioppoli energy estimate)",
+    "chapter": "minimal-surfaces",
+    "section": "elliptic-estimates-for-weak-solutions",
+    "tag": "494C2D3530AB"
+  },
+  {
+    "route": "tag/C56302366B3D",
+    "title": "Theorem 7.5.5 (Local boundedness of weak solutions)",
+    "chapter": "minimal-surfaces",
+    "section": "elliptic-estimates-for-weak-solutions",
+    "tag": "C56302366B3D"
+  },
+  {
+    "route": "tag/4D92018C184B",
+    "title": "Theorem 7.5.6 (Interior Harnack inequality)",
+    "chapter": "minimal-surfaces",
+    "section": "elliptic-estimates-for-weak-solutions",
+    "tag": "4D92018C184B"
+  },
+  {
+    "route": "tag/482FCE0EEBCC",
+    "title": "Corollary 7.5.7 (Hölder continuity from oscillation decay)",
+    "chapter": "minimal-surfaces",
+    "section": "elliptic-estimates-for-weak-solutions",
+    "tag": "482FCE0EEBCC"
+  },
+  {
+    "route": "tag/275ADD902409",
+    "title": "Theorem 7.5.8 (Interior Schauder regularity)",
+    "chapter": "minimal-surfaces",
+    "section": "elliptic-estimates-for-weak-solutions",
+    "tag": "275ADD902409"
+  },
+  {
+    "route": "tag/B926EC268DB9",
+    "title": "Theorem 7.5.9 (Interior Sobolev estimate for the Laplacian)",
+    "chapter": "minimal-surfaces",
+    "section": "elliptic-estimates-for-weak-solutions",
+    "tag": "B926EC268DB9"
+  },
+  {
+    "route": "sections/positive-jacobi-fields-and-graphical-convergence",
+    "title": "7.6 Positive Jacobi fields and graphical convergence",
+    "chapter": "minimal-surfaces",
+    "section": "positive-jacobi-fields-and-graphical-convergence"
+  },
+  {
+    "route": "tag/35808222AC5B",
+    "title": "Definition 7.6.1 (Stability on a noncompact hypersurface)",
+    "chapter": "minimal-surfaces",
+    "section": "positive-jacobi-fields-and-graphical-convergence",
+    "tag": "35808222AC5B"
+  },
+  {
+    "route": "tag/E4E4294F8594",
+    "title": "Proposition 7.6.2 (Linearization of scalar mean curvature)",
+    "chapter": "minimal-surfaces",
+    "section": "positive-jacobi-fields-and-graphical-convergence",
+    "tag": "E4E4294F8594"
+  },
+  {
+    "route": "tag/F531FEF8EC1D",
+    "title": "Proposition 7.6.3 (Positive Jacobi fields imply stability)",
+    "chapter": "minimal-surfaces",
+    "section": "positive-jacobi-fields-and-graphical-convergence",
+    "tag": "F531FEF8EC1D"
+  },
+  {
+    "route": "tag/6FAB89AC045D",
+    "title": "Corollary 7.6.4 (The vertical angle makes a minimal graph stable)",
+    "chapter": "minimal-surfaces",
+    "section": "positive-jacobi-fields-and-graphical-convergence",
+    "tag": "6FAB89AC045D"
+  },
+  {
+    "route": "tag/BB7E1EEFDC4F",
+    "title": "Theorem 7.6.5 (Separated sheets produce a positive Jacobi field)",
+    "chapter": "minimal-surfaces",
+    "section": "positive-jacobi-fields-and-graphical-convergence",
+    "tag": "BB7E1EEFDC4F"
+  },
+  {
+    "route": "tag/0B9CCB2E229B",
+    "title": "Theorem 7.6.6 (Stable curvature estimate in dimensions at most six)",
+    "chapter": "minimal-surfaces",
+    "section": "positive-jacobi-fields-and-graphical-convergence",
+    "tag": "0B9CCB2E229B"
   },
   {
     "route": "chapters/min-max-theory",

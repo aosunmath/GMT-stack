@@ -18,8 +18,12 @@
       "title": "Introduction to Geometric Measure Theory",
       "edition": "2017/2018",
       "sha256": "ba7fd4a53bf0f1d0ac54aec50bb72c4bba196b8e784d65cd0a7fd85131a3bf03",
-      "role": "Primary statement source for this first batch.",
-      "redistributed": false
+      "role": "Foundational GMT statements and the Lp mean-curvature version of Allard regularity.",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "checked_passages": [
+        "Chapter 5, hypotheses (5.1) and Theorem 5.2, pp. 145--146"
+      ]
     },
     {
       "bibliography_key": "WhiCho14",
@@ -114,8 +118,14 @@
       "edition": "Spring 2024 Princeton course",
       "sha256": "ea39f03389bde1af127d2c5fa5351bbee85f30847a3b58ac58a29c9dfd838595",
       "pdf_pages": 169,
-      "role": "Regularity roadmap: Allard, excess decay, stable hypersurfaces, cylindrical cones, and sheeting. Full theorem statements pending.",
-      "redistributed": false
+      "role": "Tangent cones, spine splitting, singular strata, stationary density gap, and scalar graph regularity; exact hypotheses separated into entries.",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "checked_passages": [
+        "Section 0, Lemma 0.6 and Definitions 0.8--0.9",
+        "Section 1, Lemmas 1.1--1.5, Definition 1.6, Theorem 1.7",
+        "Sections 2--3, scalar graph regularity and Corollary 3.2"
+      ]
     },
     {
       "bibliography_key": "SimonPDE",
@@ -125,8 +135,14 @@
       "edition": "Last updated March 5, 2015; Tsinghua notes",
       "sha256": "0c64b0a3483594140f8dae7ac0578637b19e1eb0ef1f35380e456d6c00e0051e",
       "pdf_pages": 118,
-      "role": "Sobolev and elliptic background; Chapter 19 minimal surface equation. Two-page spreads and damaged font encoding; title/date visually checked.",
-      "redistributed": false
+      "role": "Weak elliptic equations, local boundedness and Harnack, Schauder estimates, and the scalar minimal surface equation; damaged-font formulas visually checked.",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "checked_passages": [
+        "Chapters 5--6 and 12",
+        "Chapter 18, Theorems 1--2, printed pp. 211--212",
+        "Chapters 18--19"
+      ]
     },
     {
       "bibliography_key": "LiAP",
@@ -235,8 +251,15 @@
       "edition": "March 15, 2025",
       "sha256": "97593a4ef8744f1ee6952fe23192937a83da41b9d2e099f160e13cdb1186745e",
       "pdf_pages": 93,
-      "role": "Smooth minimal-surface background, first and second variation, examples, and compactness roadmap.",
-      "redistributed": false
+      "role": "Minimal graph ellipticity, bootstrap, comparison, calibration, Jacobi linearization, separated sheets, and interior elliptic estimates.",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "checked_passages": [
+        "Sections 16 and 18--19",
+        "Theorem 23.4",
+        "Propositions 33.3--33.4, pp. 80--81",
+        "Appendix A, p. 86"
+      ]
     },
     {
       "bibliography_key": null,
@@ -557,10 +580,14 @@
       "edition": "2017; Journal of Differential Geometry",
       "sha256": "9844eb2136d550067dbe7e9e4ae4120fb356879edf1bf8497f8801148c5658fe",
       "redistributed": false,
-      "role": "Selected statements or historical passages checked for this expansion; proofs remain external unless explicitly included.",
+      "role": "Bounded-area/index compactness and the smooth Euclidean specialization of the Schoen--Simon curvature estimate.",
       "review_status": "selected-passages-checked",
       "metadata_status": "source-checked",
-      "pdf_pages": 23
+      "pdf_pages": 23,
+      "checked_passages": [
+        "Theorem 2.1, pp. 320--321",
+        "Theorem 2.3, pp. 321--322"
+      ]
     },
     {
       "bibliography_key": null,

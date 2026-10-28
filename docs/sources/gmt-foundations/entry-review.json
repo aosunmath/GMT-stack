@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stage": "Source comparison and mathematical drafting, including the October 2026 library expansion; no independent human review recorded.",
+  "stage": "Source comparison and mathematical drafting, including expanded regularity statements and local proofs; no independent human review recorded.",
   "entries": [
     {
       "label": "def:allen-cahn-energy",
@@ -571,10 +571,20 @@
       "file": "minimal-surfaces.tex",
       "status": "editorial",
       "citations": [
+        "ChMin",
         "Minter",
         "SimonPDE"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "def:weak-elliptic-equation",
+        "def:weak-minimal-graph",
+        "prop:graph-ellipticity",
+        "thm:allard-lp",
+        "thm:elliptic-harnack",
+        "thm:interior-schauder",
+        "thm:stable-curvature-bound",
+        "thm:tangent-cones"
+      ],
       "formal_verification": "none"
     },
     {
@@ -1375,7 +1385,575 @@
         "Sharp17"
       ],
       "dependencies": [
-        "lem:disjoint-unstable-regions"
+        "lem:disjoint-unstable-regions",
+        "thm:stable-curvature-bound",
+        "thm:separated-sheets-jacobi",
+        "prop:positive-jacobi-stability"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:weak-minimal-graph",
+      "title": "Weak minimal graphs",
+      "kind": "definition",
+      "file": "minimal-surfaces.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:graph-ellipticity",
+      "title": "Ellipticity and the gradient bound",
+      "kind": "proposition",
+      "file": "minimal-surfaces.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "def:weak-minimal-graph"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:graph-linearization",
+      "title": "Linearization and differences of graph solutions",
+      "kind": "proposition",
+      "file": "minimal-surfaces.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "prop:graph-ellipticity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:lipschitz-minimal-regularity",
+      "title": "Smoothness of Lipschitz weak minimal graphs",
+      "kind": "theorem",
+      "file": "minimal-surfaces.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Minter",
+        "SimonPDE"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:classical-graph-bootstrap",
+      "title": "Bootstrapping a classical minimal graph",
+      "kind": "proposition",
+      "file": "minimal-surfaces.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "thm:interior-schauder"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:graph-strong-comparison",
+      "title": "Strong comparison for minimal graphs",
+      "kind": "proposition",
+      "file": "minimal-surfaces.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "prop:classical-graph-bootstrap",
+        "prop:graph-linearization"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:graph-dirichlet-uniqueness",
+      "title": "Boundary comparison and uniqueness",
+      "kind": "corollary",
+      "file": "minimal-surfaces.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "prop:graph-strong-comparison"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:minimal-tangency",
+      "title": "Interior tangency principle",
+      "kind": "corollary",
+      "file": "minimal-surfaces.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin",
+        "SimonPDE"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:calibration",
+      "title": "Calibrations",
+      "kind": "definition",
+      "file": "minimal-surfaces.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "def:mass-current"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:calibration-minimizes",
+      "title": "A calibration proves area minimization",
+      "kind": "proposition",
+      "file": "minimal-surfaces.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:graph-calibration",
+      "title": "Minimal graphs are calibrated in their cylinder",
+      "kind": "proposition",
+      "file": "minimal-surfaces.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "prop:calibration-minimizes"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:scherk-graph",
+      "title": "A graph with unbounded slope at its domain boundary",
+      "kind": "example",
+      "file": "minimal-surfaces.tex",
+      "status": "worked-example",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:sobolev-weak-derivatives",
+      "title": "Sobolev spaces and weak derivatives",
+      "kind": "definition",
+      "file": "elliptic-tools.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:weak-elliptic-equation",
+      "title": "Uniform ellipticity and weak divergence equations",
+      "kind": "definition",
+      "file": "elliptic-tools.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:holder-seminorm",
+      "title": "Hölder seminorms",
+      "kind": "definition",
+      "file": "elliptic-tools.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:caccioppoli",
+      "title": "Caccioppoli energy estimate",
+      "kind": "lemma",
+      "file": "elliptic-tools.tex",
+      "status": "proof-included",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [
+        "def:weak-elliptic-equation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:elliptic-local-boundedness",
+      "title": "Local boundedness of weak solutions",
+      "kind": "theorem",
+      "file": "elliptic-tools.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [
+        "def:weak-elliptic-equation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:elliptic-harnack",
+      "title": "Interior Harnack inequality",
+      "kind": "theorem",
+      "file": "elliptic-tools.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [
+        "def:weak-elliptic-equation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:elliptic-holder",
+      "title": "Hölder continuity from oscillation decay",
+      "kind": "corollary",
+      "file": "elliptic-tools.tex",
+      "status": "proof-included",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:interior-schauder",
+      "title": "Interior Schauder regularity",
+      "kind": "theorem",
+      "file": "elliptic-tools.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "ChMin",
+        "SimonPDE"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:laplace-w2p",
+      "title": "Interior Sobolev estimate for the Laplacian",
+      "kind": "theorem",
+      "file": "elliptic-tools.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:local-stability",
+      "title": "Stability on a noncompact hypersurface",
+      "kind": "definition",
+      "file": "jacobi-fields.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "thm:second-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mean-curvature-linearization",
+      "title": "Linearization of scalar mean curvature",
+      "kind": "proposition",
+      "file": "jacobi-fields.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:positive-jacobi-stability",
+      "title": "Positive Jacobi fields imply stability",
+      "kind": "proposition",
+      "file": "jacobi-fields.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "def:local-stability"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:graph-positive-jacobi",
+      "title": "The vertical angle makes a minimal graph stable",
+      "kind": "corollary",
+      "file": "jacobi-fields.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:graph-calibration",
+        "prop:mean-curvature-linearization",
+        "prop:positive-jacobi-stability"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:separated-sheets-jacobi",
+      "title": "Separated sheets produce a positive Jacobi field",
+      "kind": "theorem",
+      "file": "jacobi-fields.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:stable-curvature-bound",
+      "title": "Stable curvature estimate in dimensions at most six",
+      "kind": "theorem",
+      "file": "jacobi-fields.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "SS81",
+        "Sharp17"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:varifold-dilation",
+      "title": "Dilations of a varifold",
+      "kind": "definition",
+      "file": "varifold-regularity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:varifold-scaling",
+      "title": "Mass and stationarity under dilation",
+      "kind": "proposition",
+      "file": "varifold-regularity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:density-upper-semicontinuity",
+      "title": "Upper semicontinuity of stationary density",
+      "kind": "proposition",
+      "file": "varifold-regularity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:integral-support-density",
+      "title": "Density at every support point",
+      "kind": "corollary",
+      "file": "varifold-regularity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:density-upper-semicontinuity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:varifold-regular-singular",
+      "title": "Regular and singular points",
+      "kind": "definition",
+      "file": "varifold-regularity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:tangent-cones",
+      "title": "Existence and structure of tangent cones",
+      "kind": "theorem",
+      "file": "varifold-regularity.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:cone-spine",
+      "title": "The spine of a stationary cone",
+      "kind": "definition",
+      "file": "varifold-regularity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:cone-spine-splitting",
+      "title": "Spine structure and splitting",
+      "kind": "theorem",
+      "file": "varifold-regularity.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:singular-strata",
+      "title": "Singular strata",
+      "kind": "definition",
+      "file": "varifold-regularity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:strata-dimension",
+      "title": "Dimension bound for the strata",
+      "kind": "theorem",
+      "file": "varifold-regularity.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:crossing-planes",
+      "title": "Crossing planes remain stationary",
+      "kind": "example",
+      "file": "varifold-regularity.tex",
+      "status": "worked-example",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [
+        "prop:plane-stationary"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:varifold-excess",
+      "title": "Height and tilt excess",
+      "kind": "definition",
+      "file": "varifold-regularity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Minter",
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:excess-scaling",
+      "title": "Excess is invariant under simultaneous rescaling",
+      "kind": "proposition",
+      "file": "varifold-regularity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:varifold-dilation",
+        "prop:varifold-scaling"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:allard-lp",
+      "title": "Allard regularity with supercritical mean curvature",
+      "kind": "theorem",
+      "file": "varifold-regularity.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Allard72",
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:unit-density-regularity",
+      "title": "Density one forces a regular point",
+      "kind": "corollary",
+      "file": "varifold-regularity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [
+        "thm:allard-lp",
+        "thm:tangent-cones"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:stationary-density-gap",
+      "title": "A density gap above one",
+      "kind": "theorem",
+      "file": "varifold-regularity.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:multiple-plane-excess",
+      "title": "Zero excess does not specify multiplicity",
+      "kind": "example",
+      "file": "varifold-regularity.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [
+        "def:varifold-regular-singular"
       ],
       "formal_verification": "none"
     }
@@ -1411,14 +1989,21 @@
     "Zhou multiplicity-one volume-spectrum realization",
     "Song existence of infinitely many minimal hypersurfaces",
     "Marques-Neves-Song generic equidistribution",
-    "Huisken convex contraction and convergence after rescaling"
+    "Huisken convex contraction and convergence after rescaling",
+    "Measurable-coefficient local boundedness and Harnack inequality",
+    "Interior Schauder and Sobolev estimates",
+    "Smoothness of scalar Lipschitz weak minimal graphs",
+    "Conical structure of tangent varifolds and spine splitting",
+    "Qualitative dimension reduction for singular strata",
+    "Allard Lp mean-curvature regularity and the stationary density gap",
+    "Positive Jacobi fields from ordered minimal normal graphs"
   ],
   "next_development": [
     "Covering and differentiation theorems for measures",
     "Proofs of Rademacher and the area/coarea formulas",
     "BV compactness and De Giorgi blow-up theorem",
     "Deformation theorem and compactness of integral currents",
-    "Proofs of varifold monotonicity and compactness, followed by Allard regularity",
+    "Full proofs of varifold monotonicity, compactness, and Allard excess decay",
     "Detailed Pitts proof chain and modern regularity hypotheses",
     "Proofs and comparison of the volume-spectrum conventions",
     "Obstacle-problem sources and deeper mean-curvature-flow theory, including weak flows and entropy",
