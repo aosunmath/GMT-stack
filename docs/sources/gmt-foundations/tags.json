@@ -1010,7 +1010,7 @@
   {
     "tag": "4867E093",
     "label": "rem:obstacle-program",
-    "title": "Remark 21.3 (Planned free-boundary developments)",
+    "title": "Remark 21.3 (Scope of the classical obstacle theory)",
     "kind": "remark",
     "page": "tag/4867E093/index.html",
     "canonical_tag": "E2F2435B4E26",
@@ -3165,6 +3165,321 @@
     "kind": "example",
     "page": "tag/495556A0/index.html",
     "canonical_tag": "09CF92107610",
+    "anchor": ""
+  },
+  {
+    "tag": "06EAE3DF",
+    "label": "sec:obstacle-variational",
+    "title": "49 Obstacle existence, comparison, and reaction",
+    "kind": "chapter",
+    "page": "tag/06EAE3DF/index.html",
+    "canonical_tag": "C54B567B0A07",
+    "anchor": ""
+  },
+  {
+    "tag": "DEA593E7",
+    "label": "thm:obstacle-existence",
+    "title": "Theorem 49.1 (Existence and uniqueness for the scalar obstacle problem)",
+    "kind": "theorem",
+    "page": "tag/DEA593E7/index.html",
+    "canonical_tag": "A38AB8D7E124",
+    "anchor": ""
+  },
+  {
+    "tag": "06B59EFD",
+    "label": "prop:obstacle-energy-gap",
+    "title": "Proposition 49.2 (The energy gap controls distance to the minimizer)",
+    "kind": "proposition",
+    "page": "tag/06B59EFD/index.html",
+    "canonical_tag": "96ECD731A7B8",
+    "anchor": ""
+  },
+  {
+    "tag": "440AAD18",
+    "label": "prop:obstacle-forcing-stability",
+    "title": "Proposition 49.3 (Stability with respect to forcing)",
+    "kind": "proposition",
+    "page": "tag/440AAD18/index.html",
+    "canonical_tag": "7F60F782DF82",
+    "anchor": ""
+  },
+  {
+    "tag": "24E49090",
+    "label": "prop:obstacle-comparison",
+    "title": "Proposition 49.4 (Comparison for ordered data)",
+    "kind": "proposition",
+    "page": "tag/24E49090/index.html",
+    "canonical_tag": "72D49D22E1E5",
+    "anchor": ""
+  },
+  {
+    "tag": "CE3ED9D9",
+    "label": "prop:obstacle-reaction",
+    "title": "Proposition 49.5 (The nonnegative reaction measure)",
+    "kind": "proposition",
+    "page": "tag/CE3ED9D9/index.html",
+    "canonical_tag": "0005FEBA4E50",
+    "anchor": ""
+  },
+  {
+    "tag": "1575C51D",
+    "label": "prop:obstacle-noncontact-equation",
+    "title": "Proposition 49.6 (The equation away from contact)",
+    "kind": "proposition",
+    "page": "tag/1575C51D/index.html",
+    "canonical_tag": "4D161C1BC5E0",
+    "anchor": ""
+  },
+  {
+    "tag": "3061B152",
+    "label": "prop:obstacle-least-supersolution",
+    "title": "Proposition 49.7 (The minimizer is the least admissible supersolution)",
+    "kind": "proposition",
+    "page": "tag/3061B152/index.html",
+    "canonical_tag": "EE25177AE75F",
+    "anchor": ""
+  },
+  {
+    "tag": "8B1F0B20",
+    "label": "prop:obstacle-normalization",
+    "title": "Proposition 49.8 (Subtracting the obstacle and fixing the forcing sign)",
+    "kind": "proposition",
+    "page": "tag/8B1F0B20/index.html",
+    "canonical_tag": "5294DE479829",
+    "anchor": ""
+  },
+  {
+    "tag": "7652BA75",
+    "label": "sec:obstacle-blowups",
+    "title": "50 Obstacle regularity and quadratic blow-ups",
+    "kind": "chapter",
+    "page": "tag/7652BA75/index.html",
+    "canonical_tag": "AC73A5C520B8",
+    "anchor": ""
+  },
+  {
+    "tag": "E37F061E",
+    "label": "thm:obstacle-optimal-regularity",
+    "title": "Theorem 50.1 (Interior optimal regularity for a smooth obstacle problem)",
+    "kind": "theorem",
+    "page": "tag/E37F061E/index.html",
+    "canonical_tag": "B6DAB91F1A68",
+    "anchor": ""
+  },
+  {
+    "tag": "387B8B56",
+    "label": "lem:contact-hessian-zero",
+    "title": "Lemma 50.2 (The Hessian vanishes almost everywhere on contact)",
+    "kind": "lemma",
+    "page": "tag/387B8B56/index.html",
+    "canonical_tag": "44A7D8EEBA4E",
+    "anchor": ""
+  },
+  {
+    "tag": "D0724D17",
+    "label": "prop:obstacle-complementarity",
+    "title": "Proposition 50.3 (The strong equation and complementarity)",
+    "kind": "proposition",
+    "page": "tag/D0724D17/index.html",
+    "canonical_tag": "171E528F6D01",
+    "anchor": ""
+  },
+  {
+    "tag": "9FA870DB",
+    "label": "def:normalized-obstacle",
+    "title": "Definition 50.4 (The normalized classical obstacle equation)",
+    "kind": "definition",
+    "page": "tag/9FA870DB/index.html",
+    "canonical_tag": "93AD2E417FD0",
+    "anchor": ""
+  },
+  {
+    "tag": "DC00576E",
+    "label": "prop:normalized-obstacle-minimizes",
+    "title": "Proposition 50.5 (The normalized equation is a variational obstacle equation)",
+    "kind": "proposition",
+    "page": "tag/DC00576E/index.html",
+    "canonical_tag": "8273D1F0942D",
+    "anchor": ""
+  },
+  {
+    "tag": "1C6449D6",
+    "label": "ex:obstacle-half-parabola",
+    "title": "Example 50.6 (The half-parabola model)",
+    "kind": "example",
+    "page": "tag/1C6449D6/index.html",
+    "canonical_tag": "7DB8F77B9F40",
+    "anchor": ""
+  },
+  {
+    "tag": "9D56FD63",
+    "label": "ex:obstacle-quadratic-model",
+    "title": "Example 50.7 (Quadratic models with thin contact sets)",
+    "kind": "example",
+    "page": "tag/9D56FD63/index.html",
+    "canonical_tag": "C310C087055D",
+    "anchor": ""
+  },
+  {
+    "tag": "F22CE501",
+    "label": "prop:obstacle-upper-growth",
+    "title": "Proposition 50.8 (Quadratic upper growth at the free boundary)",
+    "kind": "proposition",
+    "page": "tag/F22CE501/index.html",
+    "canonical_tag": "5F4BD3841B73",
+    "anchor": ""
+  },
+  {
+    "tag": "CD22FDBA",
+    "label": "prop:obstacle-nondegeneracy",
+    "title": "Proposition 50.9 (Quadratic nondegeneracy)",
+    "kind": "proposition",
+    "page": "tag/CD22FDBA/index.html",
+    "canonical_tag": "8279B7503355",
+    "anchor": ""
+  },
+  {
+    "tag": "EB5D27ED",
+    "label": "def:obstacle-rescaling",
+    "title": "Definition 50.10 (Quadratic rescaling and obstacle blow-ups)",
+    "kind": "definition",
+    "page": "tag/EB5D27ED/index.html",
+    "canonical_tag": "02791D94E898",
+    "anchor": ""
+  },
+  {
+    "tag": "21D9400B",
+    "label": "thm:obstacle-blowup-compactness",
+    "title": "Theorem 50.11 (Compactness and nontriviality of obstacle blow-ups)",
+    "kind": "theorem",
+    "page": "tag/21D9400B/index.html",
+    "canonical_tag": "CD7780B6E0B3",
+    "anchor": ""
+  },
+  {
+    "tag": "15F54031",
+    "label": "def:obstacle-regular-point",
+    "title": "Definition 50.12 (Regular free-boundary points)",
+    "kind": "definition",
+    "page": "tag/15F54031/index.html",
+    "canonical_tag": "E00124214AB7",
+    "anchor": ""
+  },
+  {
+    "tag": "8B6E3B93",
+    "label": "def:obstacle-singular-point",
+    "title": "Definition 50.13 (Singular free-boundary points)",
+    "kind": "definition",
+    "page": "tag/8B6E3B93/index.html",
+    "canonical_tag": "E44AFB608CAD",
+    "anchor": ""
+  },
+  {
+    "tag": "492E1953",
+    "label": "thm:obstacle-dichotomy",
+    "title": "Theorem 50.14 (The classical regular\u2013singular dichotomy)",
+    "kind": "theorem",
+    "page": "tag/492E1953/index.html",
+    "canonical_tag": "02EBA4F86CC8",
+    "anchor": ""
+  },
+  {
+    "tag": "AF9848E9",
+    "label": "sec:obstacle-monotonicity",
+    "title": "51 Weiss and Monneau monotonicity",
+    "kind": "chapter",
+    "page": "tag/AF9848E9/index.html",
+    "canonical_tag": "8A7934261852",
+    "anchor": ""
+  },
+  {
+    "tag": "13694701",
+    "label": "def:obstacle-weiss-energy",
+    "title": "Definition 51.1 (The Weiss energy)",
+    "kind": "definition",
+    "page": "tag/13694701/index.html",
+    "canonical_tag": "E7030A133549",
+    "anchor": ""
+  },
+  {
+    "tag": "2C69518E",
+    "label": "thm:obstacle-weiss-monotonicity",
+    "title": "Theorem 51.2 (Weiss monotonicity and its exact derivative)",
+    "kind": "theorem",
+    "page": "tag/2C69518E/index.html",
+    "canonical_tag": "F5304A899D2C",
+    "anchor": ""
+  },
+  {
+    "tag": "67F9E960",
+    "label": "cor:obstacle-weiss-equality",
+    "title": "Corollary 51.3 (Equality in Weiss monotonicity)",
+    "kind": "corollary",
+    "page": "tag/67F9E960/index.html",
+    "canonical_tag": "A3D7C291127B",
+    "anchor": ""
+  },
+  {
+    "tag": "F06034D7",
+    "label": "prop:obstacle-blowup-homogeneous",
+    "title": "Proposition 51.4 (Every obstacle blow-up is quadratic homogeneous)",
+    "kind": "proposition",
+    "page": "tag/F06034D7/index.html",
+    "canonical_tag": "55AC4AED0949",
+    "anchor": ""
+  },
+  {
+    "tag": "00C050F6",
+    "label": "prop:obstacle-model-weiss",
+    "title": "Proposition 51.5 (Weiss energies of the two model families)",
+    "kind": "proposition",
+    "page": "tag/00C050F6/index.html",
+    "canonical_tag": "D998F7CCB961",
+    "anchor": ""
+  },
+  {
+    "tag": "15642FC8",
+    "label": "def:obstacle-monneau",
+    "title": "Definition 51.6 (The Monneau distance to a quadratic model)",
+    "kind": "definition",
+    "page": "tag/15642FC8/index.html",
+    "canonical_tag": "8FCA50C0A333",
+    "anchor": ""
+  },
+  {
+    "tag": "ECFA4772",
+    "label": "thm:obstacle-monneau-monotonicity",
+    "title": "Theorem 51.7 (Monneau monotonicity at a singular point)",
+    "kind": "theorem",
+    "page": "tag/ECFA4772/index.html",
+    "canonical_tag": "308C31A953C7",
+    "anchor": ""
+  },
+  {
+    "tag": "9E248DE9",
+    "label": "thm:obstacle-singular-uniqueness",
+    "title": "Theorem 51.8 (Uniqueness and continuity of singular blow-ups)",
+    "kind": "theorem",
+    "page": "tag/9E248DE9/index.html",
+    "canonical_tag": "3BC351E89BC9",
+    "anchor": ""
+  },
+  {
+    "tag": "42C55DC2",
+    "label": "def:obstacle-singular-strata",
+    "title": "Definition 51.9 (Singular strata of the classical obstacle problem)",
+    "kind": "definition",
+    "page": "tag/42C55DC2/index.html",
+    "canonical_tag": "E0118BF86411",
+    "anchor": ""
+  },
+  {
+    "tag": "E32089F6",
+    "label": "thm:obstacle-singular-stratification",
+    "title": "Theorem 51.10 (Classical stratification of singular obstacle points)",
+    "kind": "theorem",
+    "page": "tag/E32089F6/index.html",
+    "canonical_tag": "9A0B5D86CDB6",
     "anchor": ""
   }
 ]

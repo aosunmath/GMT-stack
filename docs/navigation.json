@@ -2036,10 +2036,252 @@
   },
   {
     "route": "tag/E2F2435B4E26",
-    "title": "Remark 13.1.3 (Planned free-boundary developments)",
+    "title": "Remark 13.1.3 (Scope of the classical obstacle theory)",
     "chapter": "obstacle-problems",
     "section": "obstacle-problems-and-variational-inequalities",
     "tag": "E2F2435B4E26"
+  },
+  {
+    "route": "sections/obstacle-existence-comparison-and-reaction",
+    "title": "13.2 Obstacle existence, comparison, and reaction",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-existence-comparison-and-reaction"
+  },
+  {
+    "route": "tag/A38AB8D7E124",
+    "title": "Theorem 13.2.1 (Existence and uniqueness for the scalar obstacle problem)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-existence-comparison-and-reaction",
+    "tag": "A38AB8D7E124"
+  },
+  {
+    "route": "tag/96ECD731A7B8",
+    "title": "Proposition 13.2.2 (The energy gap controls distance to the minimizer)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-existence-comparison-and-reaction",
+    "tag": "96ECD731A7B8"
+  },
+  {
+    "route": "tag/7F60F782DF82",
+    "title": "Proposition 13.2.3 (Stability with respect to forcing)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-existence-comparison-and-reaction",
+    "tag": "7F60F782DF82"
+  },
+  {
+    "route": "tag/72D49D22E1E5",
+    "title": "Proposition 13.2.4 (Comparison for ordered data)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-existence-comparison-and-reaction",
+    "tag": "72D49D22E1E5"
+  },
+  {
+    "route": "tag/0005FEBA4E50",
+    "title": "Proposition 13.2.5 (The nonnegative reaction measure)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-existence-comparison-and-reaction",
+    "tag": "0005FEBA4E50"
+  },
+  {
+    "route": "tag/4D161C1BC5E0",
+    "title": "Proposition 13.2.6 (The equation away from contact)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-existence-comparison-and-reaction",
+    "tag": "4D161C1BC5E0"
+  },
+  {
+    "route": "tag/EE25177AE75F",
+    "title": "Proposition 13.2.7 (The minimizer is the least admissible supersolution)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-existence-comparison-and-reaction",
+    "tag": "EE25177AE75F"
+  },
+  {
+    "route": "tag/5294DE479829",
+    "title": "Proposition 13.2.8 (Subtracting the obstacle and fixing the forcing sign)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-existence-comparison-and-reaction",
+    "tag": "5294DE479829"
+  },
+  {
+    "route": "sections/obstacle-regularity-and-quadratic-blow-ups",
+    "title": "13.3 Obstacle regularity and quadratic blow-ups",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups"
+  },
+  {
+    "route": "tag/B6DAB91F1A68",
+    "title": "Theorem 13.3.1 (Interior optimal regularity for a smooth obstacle problem)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "B6DAB91F1A68"
+  },
+  {
+    "route": "tag/44A7D8EEBA4E",
+    "title": "Lemma 13.3.2 (The Hessian vanishes almost everywhere on contact)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "44A7D8EEBA4E"
+  },
+  {
+    "route": "tag/171E528F6D01",
+    "title": "Proposition 13.3.3 (The strong equation and complementarity)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "171E528F6D01"
+  },
+  {
+    "route": "tag/93AD2E417FD0",
+    "title": "Definition 13.3.4 (The normalized classical obstacle equation)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "93AD2E417FD0"
+  },
+  {
+    "route": "tag/8273D1F0942D",
+    "title": "Proposition 13.3.5 (The normalized equation is a variational obstacle equation)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "8273D1F0942D"
+  },
+  {
+    "route": "tag/7DB8F77B9F40",
+    "title": "Example 13.3.6 (The half-parabola model)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "7DB8F77B9F40"
+  },
+  {
+    "route": "tag/C310C087055D",
+    "title": "Example 13.3.7 (Quadratic models with thin contact sets)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "C310C087055D"
+  },
+  {
+    "route": "tag/5F4BD3841B73",
+    "title": "Proposition 13.3.8 (Quadratic upper growth at the free boundary)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "5F4BD3841B73"
+  },
+  {
+    "route": "tag/8279B7503355",
+    "title": "Proposition 13.3.9 (Quadratic nondegeneracy)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "8279B7503355"
+  },
+  {
+    "route": "tag/02791D94E898",
+    "title": "Definition 13.3.10 (Quadratic rescaling and obstacle blow-ups)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "02791D94E898"
+  },
+  {
+    "route": "tag/CD7780B6E0B3",
+    "title": "Theorem 13.3.11 (Compactness and nontriviality of obstacle blow-ups)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "CD7780B6E0B3"
+  },
+  {
+    "route": "tag/E00124214AB7",
+    "title": "Definition 13.3.12 (Regular free-boundary points)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "E00124214AB7"
+  },
+  {
+    "route": "tag/E44AFB608CAD",
+    "title": "Definition 13.3.13 (Singular free-boundary points)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "E44AFB608CAD"
+  },
+  {
+    "route": "tag/02EBA4F86CC8",
+    "title": "Theorem 13.3.14 (The classical regular–singular dichotomy)",
+    "chapter": "obstacle-problems",
+    "section": "obstacle-regularity-and-quadratic-blow-ups",
+    "tag": "02EBA4F86CC8"
+  },
+  {
+    "route": "sections/weiss-and-monneau-monotonicity",
+    "title": "13.4 Weiss and Monneau monotonicity",
+    "chapter": "obstacle-problems",
+    "section": "weiss-and-monneau-monotonicity"
+  },
+  {
+    "route": "tag/E7030A133549",
+    "title": "Definition 13.4.1 (The Weiss energy)",
+    "chapter": "obstacle-problems",
+    "section": "weiss-and-monneau-monotonicity",
+    "tag": "E7030A133549"
+  },
+  {
+    "route": "tag/F5304A899D2C",
+    "title": "Theorem 13.4.2 (Weiss monotonicity and its exact derivative)",
+    "chapter": "obstacle-problems",
+    "section": "weiss-and-monneau-monotonicity",
+    "tag": "F5304A899D2C"
+  },
+  {
+    "route": "tag/A3D7C291127B",
+    "title": "Corollary 13.4.3 (Equality in Weiss monotonicity)",
+    "chapter": "obstacle-problems",
+    "section": "weiss-and-monneau-monotonicity",
+    "tag": "A3D7C291127B"
+  },
+  {
+    "route": "tag/55AC4AED0949",
+    "title": "Proposition 13.4.4 (Every obstacle blow-up is quadratic homogeneous)",
+    "chapter": "obstacle-problems",
+    "section": "weiss-and-monneau-monotonicity",
+    "tag": "55AC4AED0949"
+  },
+  {
+    "route": "tag/D998F7CCB961",
+    "title": "Proposition 13.4.5 (Weiss energies of the two model families)",
+    "chapter": "obstacle-problems",
+    "section": "weiss-and-monneau-monotonicity",
+    "tag": "D998F7CCB961"
+  },
+  {
+    "route": "tag/8FCA50C0A333",
+    "title": "Definition 13.4.6 (The Monneau distance to a quadratic model)",
+    "chapter": "obstacle-problems",
+    "section": "weiss-and-monneau-monotonicity",
+    "tag": "8FCA50C0A333"
+  },
+  {
+    "route": "tag/308C31A953C7",
+    "title": "Theorem 13.4.7 (Monneau monotonicity at a singular point)",
+    "chapter": "obstacle-problems",
+    "section": "weiss-and-monneau-monotonicity",
+    "tag": "308C31A953C7"
+  },
+  {
+    "route": "tag/3BC351E89BC9",
+    "title": "Theorem 13.4.8 (Uniqueness and continuity of singular blow-ups)",
+    "chapter": "obstacle-problems",
+    "section": "weiss-and-monneau-monotonicity",
+    "tag": "3BC351E89BC9"
+  },
+  {
+    "route": "tag/E0118BF86411",
+    "title": "Definition 13.4.9 (Singular strata of the classical obstacle problem)",
+    "chapter": "obstacle-problems",
+    "section": "weiss-and-monneau-monotonicity",
+    "tag": "E0118BF86411"
+  },
+  {
+    "route": "tag/9A0B5D86CDB6",
+    "title": "Theorem 13.4.10 (Classical stratification of singular obstacle points)",
+    "chapter": "obstacle-problems",
+    "section": "weiss-and-monneau-monotonicity",
+    "tag": "9A0B5D86CDB6"
   },
   {
     "route": "chapters/mean-curvature-flow",
