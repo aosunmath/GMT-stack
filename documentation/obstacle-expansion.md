@@ -1,6 +1,6 @@
 # Classical obstacle theory
 
-This expansion adds **32 entries in three sections**, including **20 local proofs**, seven definitions, three externally proved theorems, and two examples. The edition now has **336 mathematical and historical entries in 51 sections and 15 chapters**, with 152 local proofs and 51 externally proved theorems. Its 387 addressable entries also count section headings.
+This expansion adds **32 entries in three sections**, including **20 local proofs**, seven definitions, three externally proved theorems, and two examples. At this expansion stage, the edition had **336 mathematical and historical entries in 51 sections and 15 chapters**, with 152 local proofs and 51 externally proved theorems. Its 387 addressable entries also count section headings.
 
 ## Variational foundations
 

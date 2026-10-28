@@ -129,9 +129,12 @@
       "title": "Allen-Cahn and phase transitions",
       "tag": "97F440690D4E",
       "topics": [
-        "allen-cahn-energy-and-minimal-interfaces"
+        "allen-cahn-energy-and-minimal-interfaces",
+        "transition-profiles-and-phase-field-energy",
+        "phase-compactness-and-the-perimeter-lower-bound",
+        "recovery-layers-and-variational-limits"
       ],
-      "description": "Diffuse-interface energies, their Euler-Lagrange equation, and geometric limits."
+      "description": "Transition profiles, sharp energy bounds, BV phase compactness, perimeter lower bounds, discrepancy and equipartition, recovery layers, and variational limits with explicit proof dependencies."
     },
     {
       "slug": "obstacle-problems",
