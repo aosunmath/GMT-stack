@@ -82,8 +82,11 @@ The spine of a nonzero stationary integral $n$-cone is a linear subspace of dime
 \[
  S(C)=\{y:\Theta^n(\|C\|,y)=\Theta^n(\|C\|,0)\}.
 \]
-The vertex has maximal density. After an orthogonal change of coordinates, $C=C_0\times\mathbb R^d$, where $C_0$ is a stationary integral $(n-d)$-cone; for $d=n$, $C_0$ is a positive integer multiple of the origin. Source: \cite{Minter}, Lemma 1.5. The proof remains external.
+The vertex has maximal density. After an orthogonal change of coordinates, $C=C_0\times\mathbb R^d$, where $C_0$ is a stationary integral $(n-d)$-cone; for $d=n$, $C_0$ is a positive integer multiple of the origin. Source: \cite{Minter}, Lemma 1.5.
 \end{theorem}
+\begin{proof}
+Proposition \ref{prop:spine-maximal-density} identifies the maximal-density set with a linear spine of dimension at most $n$. If $d=0$, take $C_0=C$. If $1\leq d<n$, Proposition \ref{prop:cone-product-splitting} gives the stationary integral transverse cone, using rectifiable coarea as its recorded external input. If $d=n$, Corollary \ref{cor:full-spine-plane} gives a positive integer multiple of the spine, with transverse factor $q\delta_0$. These statements identify the weight, tangent planes, multiplicity, and first variation of each factor.
+\end{proof}
 
 \begin{definition}[Singular strata]\label{def:singular-strata}
 For $0\leq j\leq n$, define
@@ -99,8 +102,12 @@ For every stationary integral $n$-varifold and $0\leq j\leq n$,
 \[
  \dim_{\mathcal H}\mathcal S^j(V)\leq j.
 \]
-This is the qualitative stratification theorem stated in \cite{Minter}, Theorem 1.7, p.~17. Its dimension-reduction and covering proof remains external. The estimate alone does not remove the top stratum or give the codimension-seven bound available under stronger minimizing or stability hypotheses.
+This is the qualitative stratification theorem stated in \cite{Minter}, Theorem 1.7, p.~17. Its covering proof is given below. The estimate alone does not remove the top stratum or give the codimension-seven bound available under stronger minimizing or stability hypotheses.
 \end{theorem}
+\begin{proof}
+Fix $\beta>0$ and choose $\delta>0$ small enough for Proposition \ref{prop:flat-approximation-dimension} in ambient dimension $n+k$ and plane dimension $j$. Proposition \ref{prop:stratum-flat-pieces}, proved by tangent-cone compactness and density upper semicontinuity, decomposes $\mathcal S^j(V)$ into countably many sets with one-sided $\delta$ approximation by $j$-planes at all sufficiently small scales. Each piece has zero $\mathcal H^{j+\beta}$ outer measure by the covering proposition. Countable subadditivity gives the same conclusion for the stratum. Since $\beta>0$ is arbitrary, its Hausdorff dimension is at most $j$. This proves a dimension bound; it does not prove finite $\mathcal H^j$ measure, rectifiability, or uniqueness of tangent cones.
+\end{proof}
+
 
 \begin{example}[Crossing planes remain stationary]\label{ex:crossing-planes}
 Let $P_1,P_2$ be distinct $n$-dimensional hyperplanes in $\mathbb R^{n+1}$ through the origin. The varifold $|P_1|+|P_2|$ is stationary by linearity and Proposition \ref{prop:plane-stationary}. Its singular set and spine are $P_1\cap P_2$, of dimension $n-1$. The density is two on the intersection and one elsewhere on the support. Thus stationarity and integrality allow a large singular set. Compare \cite{Minter}, Sections 0--1.

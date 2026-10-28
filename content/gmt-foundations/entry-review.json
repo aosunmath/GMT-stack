@@ -1872,11 +1872,15 @@
       "title": "Spine structure and splitting",
       "kind": "theorem",
       "file": "varifold-regularity.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Minter"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cor:full-spine-plane",
+        "prop:cone-product-splitting",
+        "prop:spine-maximal-density"
+      ],
       "formal_verification": "none"
     },
     {
@@ -1896,11 +1900,14 @@
       "title": "Dimension bound for the strata",
       "kind": "theorem",
       "file": "varifold-regularity.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Minter"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "prop:flat-approximation-dimension",
+        "prop:stratum-flat-pieces"
+      ],
       "formal_verification": "none"
     },
     {
@@ -5347,6 +5354,325 @@
       "citations": [],
       "dependencies": [],
       "formal_verification": "none"
+    },
+    {
+      "label": "prop:cone-density-infinity",
+      "title": "Density under scaling and at infinity",
+      "kind": "proposition",
+      "file": "cone-spines.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:stationary-monotonicity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:maximal-density-vertex",
+      "title": "Maximal density gives another cone vertex",
+      "kind": "proposition",
+      "file": "cone-spines.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:cone-density-infinity",
+        "thm:constant-ratio-cone"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:two-cone-vertices",
+      "title": "Two vertices generate a line of translations",
+      "kind": "lemma",
+      "file": "cone-spines.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:spine-maximal-density",
+      "title": "The spine is the linear set of maximal density",
+      "kind": "proposition",
+      "file": "cone-spines.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:cone-spine",
+        "lem:two-cone-vertices",
+        "prop:maximal-density-vertex"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:translation-measure-product",
+      "title": "Factoring a translation-invariant Radon measure",
+      "kind": "lemma",
+      "file": "cone-spines.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:spine-tangent-directions",
+      "title": "Spine directions lie in the recorded planes",
+      "kind": "lemma",
+      "file": "cone-spines.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:stationary-radial-equality",
+        "prop:spine-maximal-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cone-product-splitting",
+      "title": "Integral product splitting along a proper spine subspace",
+      "kind": "proposition",
+      "file": "cone-spines.tex",
+      "status": "proof-included",
+      "citations": [
+        "Minter",
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:weighted-rectifiable-coarea",
+        "lem:rectifiable-lift-unique",
+        "lem:spine-tangent-directions",
+        "lem:translation-measure-product"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:full-spine-plane",
+      "title": "A full-dimensional spine forces a multiple plane",
+      "kind": "corollary",
+      "file": "cone-spines.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:translation-measure-product"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:one-sided-plane-approximation",
+      "title": "One-sided approximation by planes",
+      "kind": "definition",
+      "file": "stratification-proof.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:flat-cover-refinement",
+      "title": "Refining a cover near a plane",
+      "kind": "lemma",
+      "file": "stratification-proof.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:flat-approximation-dimension",
+      "title": "Small one-sided approximation bounds Hausdorff dimension",
+      "kind": "proposition",
+      "file": "stratification-proof.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:flat-cover-refinement"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:stratum-density-concentration",
+      "title": "Nearly maximal density concentrates near a spine",
+      "kind": "lemma",
+      "file": "stratification-proof.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:density-upper-semicontinuity",
+        "prop:spine-maximal-density",
+        "thm:tangent-cones"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:stratum-flat-pieces",
+      "title": "Decomposing a stratum by scale and density",
+      "kind": "proposition",
+      "file": "stratification-proof.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:stratum-density-concentration"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:zero-stratum-countable",
+      "title": "The zero stratum is countable",
+      "kind": "corollary",
+      "file": "stratification-proof.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:stratum-flat-pieces"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:flat-singular-point",
+      "title": "Flat singular points",
+      "kind": "definition",
+      "file": "stratification-proof.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [
+        "def:varifold-regular-singular"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:flat-singular-top-stratum",
+      "title": "Flat singular points form the top stratum difference",
+      "kind": "corollary",
+      "file": "stratification-proof.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:full-spine-plane",
+        "cor:unit-density-regularity",
+        "prop:spine-maximal-density",
+        "thm:tangent-cones"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:subtwo-singular-dimension",
+      "title": "The singular set below density two",
+      "kind": "corollary",
+      "file": "stratification-proof.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:flat-singular-top-stratum",
+        "cor:zero-stratum-countable",
+        "thm:strata-dimension"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:weighted-ray-cone",
+      "title": "A finite weighted ray cone",
+      "kind": "definition",
+      "file": "cone-junctions.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:ray-junction-balance",
+      "title": "First variation and density of a ray junction",
+      "kind": "proposition",
+      "file": "cone-junctions.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:weighted-ray-cone"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:one-cone-polar-measure",
+      "title": "Polar measure of a one-dimensional cone",
+      "kind": "lemma",
+      "file": "cone-junctions.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:stationary-density-defect"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:one-dimensional-cones",
+      "title": "Classification of stationary integral one-dimensional cones",
+      "kind": "theorem",
+      "file": "cone-junctions.tex",
+      "status": "proof-included",
+      "citations": [
+        "Minter"
+      ],
+      "dependencies": [
+        "def:weighted-ray-cone",
+        "lem:one-cone-polar-measure",
+        "lem:rectifiable-lift-unique",
+        "prop:cone-density-infinity",
+        "prop:ray-junction-balance"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:classical-cone-density",
+      "title": "Density of cones with a codimension-one spine",
+      "kind": "corollary",
+      "file": "cone-junctions.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:cone-spine-splitting",
+        "thm:one-dimensional-cones"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:triple-junction-products",
+      "title": "The triple junction and its products",
+      "kind": "example",
+      "file": "cone-junctions.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:ray-junction-balance",
+        "prop:spine-maximal-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:disjoint-great-circle-link",
+      "title": "A nonplanar cone with a smooth disconnected link",
+      "kind": "example",
+      "file": "cone-junctions.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:spine-maximal-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:scherk-flat-singular",
+      "title": "A flat singular point from two smooth minimal graphs",
+      "kind": "example",
+      "file": "cone-junctions.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -5382,8 +5708,6 @@
     "Measurable-coefficient local boundedness and Harnack inequality",
     "Interior Schauder and Sobolev estimates",
     "Smoothness of scalar Lipschitz weak minimal graphs",
-    "Spine splitting for stationary integral cones",
-    "Qualitative dimension reduction for singular strata",
     "Allard Lp mean-curvature regularity",
     "Positive Jacobi fields from ordered minimal normal graphs",
     "Euclidean Simons identity from the Gauss and Codazzi equations",
@@ -5411,7 +5735,7 @@
     "Proofs of Rademacher and the area/coarea formulas",
     "Sharp isoperimetry, traces, and the full De Giorgi blow-up proof",
     "Deformation theorem and compactness of integral currents",
-    "Full proofs of integral-varifold compactness, cone spine splitting, and Allard excess decay",
+    "Full proofs of integral-varifold compactness and Allard excess decay; quantitative stratification and rectifiability of strata",
     "Detailed Pitts proof chain and modern regularity hypotheses",
     "Proofs and comparison of the volume-spectrum conventions",
     "Proofs of optimal obstacle regularity and classification; thin obstacles; level-set flows, tangent-flow extraction, and finer flow singularity theory",

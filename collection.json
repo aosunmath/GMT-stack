@@ -64,9 +64,12 @@
         "smooth-support-and-multiplicity",
         "radial-variation-and-exact-monotonicity",
         "conical-structure-and-convergence-of-supports",
-        "bounded-curvature-and-corrected-mass-ratios"
+        "bounded-curvature-and-corrected-mass-ratios",
+        "spines-and-products-of-stationary-cones",
+        "covering-arguments-for-singular-strata",
+        "balanced-junctions-and-flat-singular-examples"
       ],
-      "description": "First variation, exact monotonicity, bounded curvature, smooth-support constancy, integral compactness, tangent cones, support convergence, stratification, and Allard regularity."
+      "description": "First variation, monotonicity, bounded curvature, constancy, integral compactness, tangent cones, spine splitting, support convergence, qualitative stratification, junction models, and Allard regularity."
     },
     {
       "slug": "minimal-surfaces",
