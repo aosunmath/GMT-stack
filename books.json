@@ -8,7 +8,7 @@
       "repository": "https://github.com/aosunmath/GMT-stack",
       "status": "published",
       "local_path": "content/gmt-foundations",
-      "description": "Original exposition connecting classical GMT with minimal surfaces, elliptic regularity, tangent cones, Allard regularity, Almgren-Pitts min-max theory, the volume spectrum, CMC problems, and Allen-Cahn theory. Smooth mean curvature flow includes shrinking models and Gaussian area; obstacle problems remain introductory. The source inventory identifies supplied editions and checked passages. Cited theorems without local proofs are marked in the text."
+      "description": "Original exposition connecting classical GMT, BV compactness and perimeter minimization, minimal surfaces, elliptic and Allard regularity, min-max theory, the volume spectrum, CMC problems, and Allen-Cahn theory. Mean curvature flow includes evolution, comparison, Gaussian monotonicity, entropy, rescaling, and Brakke flow. Obstacle problems remain introductory. Exact source editions, hypotheses, and proof status are recorded."
     }
   ]
 }

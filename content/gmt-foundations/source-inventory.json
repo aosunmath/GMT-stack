@@ -18,11 +18,13 @@
       "title": "Introduction to Geometric Measure Theory",
       "edition": "2017/2018",
       "sha256": "ba7fd4a53bf0f1d0ac54aec50bb72c4bba196b8e784d65cd0a7fd85131a3bf03",
-      "role": "Foundational GMT statements and the Lp mean-curvature version of Allard regularity.",
+      "role": "Foundational GMT, Allard regularity, BV mollification and compactness, and reduced-boundary blow-ups; local proofs developed for the BV compactness chain.",
       "redistributed": false,
       "review_status": "selected-passages-checked",
       "checked_passages": [
-        "Chapter 5, hypotheses (5.1) and Theorem 5.2, pp. 145--146"
+        "Chapter 5, hypotheses (5.1) and Theorem 5.2, pp. 145--146",
+        "Chapter 2, Section 2, Lemma 2.5 and Theorem 2.6, pp. 52--55",
+        "Chapter 3, proof of Theorem 4.4, equations (9)--(13), pp. 98--100"
       ]
     },
     {
@@ -886,7 +888,11 @@
       "role": "Selected statements or historical passages checked for this expansion; proofs remain external unless explicitly included.",
       "review_status": "selected-passages-checked",
       "metadata_status": "source-checked",
-      "pdf_pages": 83
+      "pdf_pages": 83,
+      "checked_passages": [
+        "Introduction: scope of the supplied v1",
+        "Sections 2.4--2.6, pp. 10--11: Brakke flow, Gaussian density, unit regularity, cyclicity, and convergence"
+      ]
     },
     {
       "bibliography_key": null,
@@ -1486,6 +1492,59 @@
       "review_status": "catalogued-only",
       "metadata_status": "filename-only",
       "pdf_pages": 32
+    },
+    {
+      "bibliography_key": "HP99",
+      "filename": "Geometric Evolution Equations for Hypersurfaces_Huisken-Polden.pdf",
+      "author": "Gerhard Huisken; Alexander Polden",
+      "title": "Geometric evolution equations for hypersurfaces",
+      "edition": "1999, Lecture Notes in Mathematics 1713, pp. 45--84",
+      "sha256": "1335f1418176ff533199937d62ed6ff83db2bdc94bf3996680f73188959b062e",
+      "pdf_pages": 40,
+      "role": "Primary flow reference from the local library; selected formulas and hypotheses checked for the expanded flow chapters.",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "checked_passages": [
+        "Section 2, Corollary 2.2, p. 49",
+        "Section 3, Theorems 3.1--3.2, pp. 51--52",
+        "Section 4, rescaling and translating models"
+      ]
+    },
+    {
+      "bibliography_key": "Hui90",
+      "filename": "Asymptotic behavior for singularities of the mean curvature flow_Huisken.pdf",
+      "author": "Gerhard Huisken",
+      "title": "Asymptotic behavior for singularities of the mean curvature flow",
+      "edition": "1990, Journal of Differential Geometry 31, pp. 285--299",
+      "sha256": "af9d6ef507e0a0cc47267538c4959a469bea64e6672b85d0d9554994448d334e",
+      "pdf_pages": 16,
+      "role": "Primary flow reference from the local library; selected formulas and hypotheses checked for the expanded flow chapters.",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "checked_passages": [
+        "Theorem 1.1 and Lemma 1.2, p. 286",
+        "Section 2, rescaling conventions, p. 287",
+        "Theorem 3.1 and Corollary 3.2, pp. 288--289"
+      ]
+    },
+    {
+      "bibliography_key": "WhiMCF15",
+      "filename": "MCFnotes_White.pdf",
+      "author": "Brian White; notes by Otis Chodosh",
+      "title": "Mean Curvature Flow (Math 258)",
+      "edition": "June 8, 2015",
+      "sha256": "12269507106825b208440acff514d7cfe147887a6a5cd98b3dd568765fb4152f",
+      "pdf_pages": 44,
+      "role": "Graphical flow, Brakke inequality, mass estimates, compactness, and entropy. Gaussian normalizations are checked against Huisken 1990; broad regularity statements are not imported without their qualifications.",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "checked_passages": [
+        "Sections 3--4, pp. 8--9",
+        "Section 6, pp. 11--12",
+        "Section 9, Definition 9.1 and Theorems 9.3--9.8, pp. 21--24",
+        "Section 10, pp. 29--32",
+        "Section 11, distinction between backward regularity and a two-sided regular point, p. 32"
+      ]
     }
   ],
   "distinct_editions": 21,

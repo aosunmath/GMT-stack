@@ -1,6 +1,6 @@
 # Expanding the regularity summaries
 
-This expansion adds **44 entries**, including **18 local proofs** and **12 cited theorems**. The manuscript now contains 154 mathematical and historical entries in 33 sections and 15 chapters, with 38 local proofs and 40 cited theorems whose proofs remain external. The 187 addressable entries include section headings. These counts do not claim independent human review or formal verification.
+This expansion adds **44 entries**, including **18 local proofs** and **12 cited theorems**. At the completion of that expansion, the manuscript contained 154 mathematical and historical entries in 33 sections and 15 chapters, with 38 local proofs and 40 cited theorems whose proofs remain external. The 187 addressable entries include section headings. These counts do not claim independent human review or formal verification. See the later [flow and BV expansion](flow-bv-expansion.md) and the README for subsequent coverage.
 
 The existing `rem:regularity-program` entry, previously Remark 7.2.2, keeps its label and permanent tag. It now links to explicit statements instead of compressing whole theories into a reading list. Existing chapter and section URLs remain unchanged; new sections are appended to their subject chapters.
 

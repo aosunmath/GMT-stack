@@ -32,8 +32,11 @@
       "title": "Sets of finite perimeter",
       "tag": "25C1B80C34F8",
       "topics": [
-        "finite-perimeter-and-reduced-boundary"
-      ]
+        "finite-perimeter-and-reduced-boundary",
+        "bv-approximation-and-compactness",
+        "perimeter-blow-ups-and-the-direct-method"
+      ],
+      "description": "Distributional perimeter, reduced-boundary structure, BV approximation and compactness, and direct-method existence with volume and bulk terms."
     },
     {
       "slug": "currents-flat-chains",
@@ -135,9 +138,13 @@
       "tag": "A4745CB639A8",
       "topics": [
         "smooth-mean-curvature-flow",
-        "convex-flow-and-shrinking-models"
+        "convex-flow-and-shrinking-models",
+        "evolution-equations-and-comparison",
+        "huisken-monotonicity-and-entropy",
+        "rescaled-flow-and-self-similar-models",
+        "brakke-flows-and-loss-of-mass"
       ],
-      "description": "Smooth flow, convex contraction, shrinking models, and Gaussian area; weak-flow theory is in development."
+      "description": "Smooth evolution and comparison, convex contraction, Gaussian monotonicity and entropy, rescaling, and Brakke flows with explicit mass-loss and regularity distinctions."
     },
     {
       "slug": "history",

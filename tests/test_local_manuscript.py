@@ -71,7 +71,7 @@ class LocalManuscriptTests(unittest.TestCase):
             self.assertEqual(entry['formal_verification'], 'none')
             self.assertFalse(set(entry['dependencies']) - known)
             if entry['kind'] == 'theorem':
-                self.assertEqual(entry['status'], 'cited-theorem')
+                self.assertIn(entry['status'], ('cited-theorem', 'proof-included'))
                 self.assertTrue(entry['citations'])
         self.assertEqual(json.loads((ROOT / 'formalizations.json').read_text())['entries'], [])
 
