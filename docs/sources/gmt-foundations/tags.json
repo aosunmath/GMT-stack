@@ -5479,5 +5479,248 @@
     "page": "tag/63B48B9E/index.html",
     "canonical_tag": "B95481624243",
     "anchor": ""
+  },
+  {
+    "tag": "4A594AE1",
+    "label": "sec:sweepout-concentration",
+    "title": "76 Continuity and concentration in cycle families",
+    "kind": "chapter",
+    "page": "tag/4A594AE1/index.html",
+    "canonical_tag": "F9679CA2C282",
+    "anchor": ""
+  },
+  {
+    "tag": "A5686BC2",
+    "label": "lem:compact-nonatomic-measures",
+    "title": "Lemma 76.1 (Compact families of nonatomic measures have uniform small-ball control)",
+    "kind": "lemma",
+    "page": "tag/A5686BC2/index.html",
+    "canonical_tag": "9C1A64CA147E",
+    "anchor": ""
+  },
+  {
+    "tag": "36369E2F",
+    "label": "prop:f-continuity-no-concentration",
+    "title": "Proposition 76.2 (Compact F-continuous cycle families are admissible analytically)",
+    "kind": "proposition",
+    "page": "tag/36369E2F/index.html",
+    "canonical_tag": "EBBABF0F3388",
+    "anchor": ""
+  },
+  {
+    "tag": "EDFBE55A",
+    "label": "prop:mass-continuity-no-concentration",
+    "title": "Proposition 76.3 (Mass-continuous families have no concentration)",
+    "kind": "proposition",
+    "page": "tag/EDFBE55A/index.html",
+    "canonical_tag": "E324C500C6C8",
+    "anchor": ""
+  },
+  {
+    "tag": "A71775BA",
+    "label": "ex:flat-cycle-concentration",
+    "title": "Example 76.4 (Many small spheres concentrate while converging flatly to zero)",
+    "kind": "example",
+    "page": "tag/A71775BA/index.html",
+    "canonical_tag": "2221D4956C46",
+    "anchor": ""
+  },
+  {
+    "tag": "EB9114A8",
+    "label": "ex:flat-continuous-concentrating-family",
+    "title": "Example 76.5 (A flat-continuous interval family with concentration)",
+    "kind": "example",
+    "page": "tag/EB9114A8/index.html",
+    "canonical_tag": "36CDDADBF38A",
+    "anchor": ""
+  },
+  {
+    "tag": "B7B6D304",
+    "label": "ex:zero-cycle-concentration",
+    "title": "Example 76.6 (Why positive cycle dimension is required)",
+    "kind": "example",
+    "page": "tag/B7B6D304/index.html",
+    "canonical_tag": "48E32BBD5579",
+    "anchor": ""
+  },
+  {
+    "tag": "AE602993",
+    "label": "sec:sweepout-topology",
+    "title": "77 Detecting classes and parameter-space arguments",
+    "kind": "chapter",
+    "page": "tag/AE602993/index.html",
+    "canonical_tag": "E1314E50C892",
+    "anchor": ""
+  },
+  {
+    "tag": "FABFC627",
+    "label": "lem:sweepout-pullback",
+    "title": "Lemma 77.1 (Pulling back a detecting family)",
+    "kind": "lemma",
+    "page": "tag/FABFC627/index.html",
+    "canonical_tag": "E0E6244C817A",
+    "anchor": ""
+  },
+  {
+    "tag": "35A7A485",
+    "label": "prop:sweepout-parameter-dimension",
+    "title": "Proposition 77.2 (A parameter-dimension obstruction)",
+    "kind": "proposition",
+    "page": "tag/35A7A485/index.html",
+    "canonical_tag": "DB13365CEAA2",
+    "anchor": ""
+  },
+  {
+    "tag": "B0EBF715",
+    "label": "prop:sweepout-skeleton",
+    "title": "Proposition 77.3 (The p-skeleton retains a p-sweepout)",
+    "kind": "proposition",
+    "page": "tag/B0EBF715/index.html",
+    "canonical_tag": "61F934F4A7A0",
+    "anchor": ""
+  },
+  {
+    "tag": "7ACCC0BF",
+    "label": "prop:sweepout-homotopy-detection",
+    "title": "Proposition 77.4 (Detection is invariant under flat homotopy)",
+    "kind": "proposition",
+    "page": "tag/7ACCC0BF/index.html",
+    "canonical_tag": "F4C1074C9761",
+    "anchor": ""
+  },
+  {
+    "tag": "A7804F8F",
+    "label": "prop:fixed-class-bounds-spectrum",
+    "title": "Proposition 77.5 (A detecting fixed class bounds the spectral infimum)",
+    "kind": "proposition",
+    "page": "tag/A7804F8F/index.html",
+    "canonical_tag": "46EEAF367871",
+    "anchor": ""
+  },
+  {
+    "tag": "694206EA",
+    "label": "ex:double-traversal-sweepout",
+    "title": "Example 77.6 (The same slices can lose detection after reparametrization)",
+    "kind": "example",
+    "page": "tag/694206EA/index.html",
+    "canonical_tag": "EDF55A1658FD",
+    "anchor": ""
+  },
+  {
+    "tag": "CF32F050",
+    "label": "lem:cup-product-open-cover",
+    "title": "Lemma 77.7 (Cup-product vanishing on an open cover)",
+    "kind": "lemma",
+    "page": "tag/CF32F050/index.html",
+    "canonical_tag": "F7855903756E",
+    "anchor": ""
+  },
+  {
+    "tag": "5AF649F3",
+    "label": "prop:cup-length-cost-thresholds",
+    "title": "Proposition 77.8 (A common parameter above several cost thresholds)",
+    "kind": "proposition",
+    "page": "tag/5AF649F3/index.html",
+    "canonical_tag": "D6C9F6556AEA",
+    "anchor": ""
+  },
+  {
+    "tag": "4272756D",
+    "label": "sec:width-metrics",
+    "title": "78 Metric comparison and uniform Weyl asymptotics",
+    "kind": "chapter",
+    "page": "tag/4272756D/index.html",
+    "canonical_tag": "F939F6D1E165",
+    "anchor": ""
+  },
+  {
+    "tag": "F7F77237",
+    "label": "lem:metric-mass-flat-comparison",
+    "title": "Lemma 78.1 (Mass and flat norms under metric comparison)",
+    "kind": "lemma",
+    "page": "tag/F7F77237/index.html",
+    "canonical_tag": "EFEF93C848C0",
+    "anchor": ""
+  },
+  {
+    "tag": "60F6F908",
+    "label": "prop:metric-sweepout-admissibility",
+    "title": "Proposition 78.2 (Sweepout admissibility is independent of a smooth metric)",
+    "kind": "proposition",
+    "page": "tag/60F6F908/index.html",
+    "canonical_tag": "2F345F35724A",
+    "anchor": ""
+  },
+  {
+    "tag": "0F8E2663",
+    "label": "prop:width-metric-comparison",
+    "title": "Proposition 78.3 (Bilateral metric bounds for every width)",
+    "kind": "proposition",
+    "page": "tag/0F8E2663/index.html",
+    "canonical_tag": "5B976BBC1CB5",
+    "anchor": ""
+  },
+  {
+    "tag": "8270C528",
+    "label": "prop:width-diffeomorphism-invariance",
+    "title": "Proposition 78.4 (Diffeomorphism invariance of the spectrum)",
+    "kind": "proposition",
+    "page": "tag/8270C528/index.html",
+    "canonical_tag": "278B1E4F1245",
+    "anchor": ""
+  },
+  {
+    "tag": "94B7C1CC",
+    "label": "thm:normalized-width-lipschitz",
+    "title": "Theorem 78.5 (Uniform Lipschitz control of normalized widths)",
+    "kind": "theorem",
+    "page": "tag/94B7C1CC/index.html",
+    "canonical_tag": "D72F5ECF16F3",
+    "anchor": ""
+  },
+  {
+    "tag": "BBFB80CC",
+    "label": "thm:compact-metric-uniform-weyl",
+    "title": "Theorem 78.6 (The Weyl limit is uniform on compact metric families)",
+    "kind": "theorem",
+    "page": "tag/BBFB80CC/index.html",
+    "canonical_tag": "9EA7E95DFE3F",
+    "anchor": ""
+  },
+  {
+    "tag": "B14A53A9",
+    "label": "prop:volume-normalized-width",
+    "title": "Proposition 78.7 (Volume normalization removes constant scaling)",
+    "kind": "proposition",
+    "page": "tag/B14A53A9/index.html",
+    "canonical_tag": "1F28B96B56ED",
+    "anchor": ""
+  },
+  {
+    "tag": "AD5E40EC",
+    "label": "prop:metric-area-volume-variation",
+    "title": "Proposition 78.8 (First variation with respect to the ambient metric)",
+    "kind": "proposition",
+    "page": "tag/AD5E40EC/index.html",
+    "canonical_tag": "3129F5895E82",
+    "anchor": ""
+  },
+  {
+    "tag": "9483B5AA",
+    "label": "prop:smooth-width-realizer-derivative",
+    "title": "Proposition 78.9 (Width differentiation along an assumed smooth realizing family)",
+    "kind": "proposition",
+    "page": "tag/9483B5AA/index.html",
+    "canonical_tag": "557132487616",
+    "anchor": ""
+  },
+  {
+    "tag": "6F1CDDA6",
+    "label": "ex:uniform-limit-derivatives",
+    "title": "Example 78.10 (Uniform Weyl convergence does not justify differentiating its limit)",
+    "kind": "example",
+    "page": "tag/6F1CDDA6/index.html",
+    "canonical_tag": "09F3DF8E7EC5",
+    "anchor": ""
   }
 ]

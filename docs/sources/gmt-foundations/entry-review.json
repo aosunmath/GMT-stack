@@ -6943,6 +6943,310 @@
         "thm:spherical-cmc-stability-rigidity"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "lem:compact-nonatomic-measures",
+      "title": "Compact families of nonatomic measures have uniform small-ball control",
+      "kind": "lemma",
+      "file": "sweepout-concentration.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:f-continuity-no-concentration",
+      "title": "Compact F-continuous cycle families are admissible analytically",
+      "kind": "proposition",
+      "file": "sweepout-concentration.tex",
+      "status": "proof-included",
+      "citations": [
+        "MNIndex"
+      ],
+      "dependencies": [
+        "def:minmax-cycles",
+        "lem:compact-nonatomic-measures"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mass-continuity-no-concentration",
+      "title": "Mass-continuous families have no concentration",
+      "kind": "proposition",
+      "file": "sweepout-concentration.tex",
+      "status": "proof-included",
+      "citations": [
+        "LMN"
+      ],
+      "dependencies": [
+        "lem:compact-nonatomic-measures"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:flat-cycle-concentration",
+      "title": "Many small spheres concentrate while converging flatly to zero",
+      "kind": "example",
+      "file": "sweepout-concentration.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:flat-continuous-concentrating-family",
+      "title": "A flat-continuous interval family with concentration",
+      "kind": "example",
+      "file": "sweepout-concentration.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:no-concentration",
+        "ex:flat-cycle-concentration"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:zero-cycle-concentration",
+      "title": "Why positive cycle dimension is required",
+      "kind": "example",
+      "file": "sweepout-concentration.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:mass-continuity-no-concentration"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:sweepout-pullback",
+      "title": "Pulling back a detecting family",
+      "kind": "lemma",
+      "file": "sweepout-topology.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:sweepout-parameter-dimension",
+      "title": "A parameter-dimension obstruction",
+      "kind": "proposition",
+      "file": "sweepout-topology.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:sweepout-skeleton",
+      "title": "The p-skeleton retains a p-sweepout",
+      "kind": "proposition",
+      "file": "sweepout-topology.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:sweepout-pullback"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:sweepout-homotopy-detection",
+      "title": "Detection is invariant under flat homotopy",
+      "kind": "proposition",
+      "file": "sweepout-topology.tex",
+      "status": "proof-included",
+      "citations": [
+        "LMN"
+      ],
+      "dependencies": [
+        "ex:flat-continuous-concentrating-family"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:fixed-class-bounds-spectrum",
+      "title": "A detecting fixed class bounds the spectral infimum",
+      "kind": "proposition",
+      "file": "sweepout-topology.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:homotopy-width",
+        "prop:f-continuity-no-concentration",
+        "prop:sweepout-homotopy-detection"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:double-traversal-sweepout",
+      "title": "The same slices can lose detection after reparametrization",
+      "kind": "example",
+      "file": "sweepout-topology.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:cup-product-open-cover",
+      "title": "Cup-product vanishing on an open cover",
+      "kind": "lemma",
+      "file": "sweepout-topology.tex",
+      "status": "proof-included",
+      "citations": [
+        "LMN"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cup-length-cost-thresholds",
+      "title": "A common parameter above several cost thresholds",
+      "kind": "proposition",
+      "file": "sweepout-topology.tex",
+      "status": "proof-included",
+      "citations": [
+        "LMN"
+      ],
+      "dependencies": [
+        "lem:cup-product-open-cover"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:metric-mass-flat-comparison",
+      "title": "Mass and flat norms under metric comparison",
+      "kind": "lemma",
+      "file": "width-metrics.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:metric-sweepout-admissibility",
+      "title": "Sweepout admissibility is independent of a smooth metric",
+      "kind": "proposition",
+      "file": "width-metrics.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:metric-mass-flat-comparison"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:width-metric-comparison",
+      "title": "Bilateral metric bounds for every width",
+      "kind": "proposition",
+      "file": "width-metrics.tex",
+      "status": "proof-included",
+      "citations": [
+        "MNS19"
+      ],
+      "dependencies": [
+        "lem:width-scaling",
+        "prop:metric-sweepout-admissibility"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:width-diffeomorphism-invariance",
+      "title": "Diffeomorphism invariance of the spectrum",
+      "kind": "proposition",
+      "file": "width-metrics.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:normalized-width-lipschitz",
+      "title": "Uniform Lipschitz control of normalized widths",
+      "kind": "theorem",
+      "file": "width-metrics.tex",
+      "status": "proof-included",
+      "citations": [
+        "LMN",
+        "MNS19"
+      ],
+      "dependencies": [
+        "lem:width-monotonicity",
+        "prop:width-metric-comparison",
+        "thm:weyl-volume"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:compact-metric-uniform-weyl",
+      "title": "The Weyl limit is uniform on compact metric families",
+      "kind": "theorem",
+      "file": "width-metrics.tex",
+      "status": "proof-included",
+      "citations": [
+        "LMN",
+        "MNS19"
+      ],
+      "dependencies": [
+        "thm:normalized-width-lipschitz"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:volume-normalized-width",
+      "title": "Volume normalization removes constant scaling",
+      "kind": "proposition",
+      "file": "width-metrics.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:width-scaling",
+        "prop:width-diffeomorphism-invariance",
+        "thm:compact-metric-uniform-weyl",
+        "thm:normalized-width-lipschitz"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:metric-area-volume-variation",
+      "title": "First variation with respect to the ambient metric",
+      "kind": "proposition",
+      "file": "width-metrics.tex",
+      "status": "proof-included",
+      "citations": [
+        "MNS19"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:smooth-width-realizer-derivative",
+      "title": "Width differentiation along an assumed smooth realizing family",
+      "kind": "proposition",
+      "file": "width-metrics.tex",
+      "status": "proof-included",
+      "citations": [
+        "MNS19"
+      ],
+      "dependencies": [
+        "prop:metric-area-volume-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:uniform-limit-derivatives",
+      "title": "Uniform Weyl convergence does not justify differentiating its limit",
+      "kind": "example",
+      "file": "width-metrics.tex",
+      "status": "proof-included",
+      "citations": [
+        "MNS19"
+      ],
+      "dependencies": [
+        "thm:compact-metric-uniform-weyl"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [

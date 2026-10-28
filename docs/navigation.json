@@ -2179,6 +2179,116 @@
     "tag": "F06EA6D2D607"
   },
   {
+    "route": "sections/continuity-and-concentration-in-cycle-families",
+    "title": "8.3 Continuity and concentration in cycle families",
+    "chapter": "min-max-theory",
+    "section": "continuity-and-concentration-in-cycle-families"
+  },
+  {
+    "route": "tag/9C1A64CA147E",
+    "title": "Lemma 8.3.1 (Compact families of nonatomic measures have uniform small-ball control)",
+    "chapter": "min-max-theory",
+    "section": "continuity-and-concentration-in-cycle-families",
+    "tag": "9C1A64CA147E"
+  },
+  {
+    "route": "tag/EBBABF0F3388",
+    "title": "Proposition 8.3.2 (Compact F-continuous cycle families are admissible analytically)",
+    "chapter": "min-max-theory",
+    "section": "continuity-and-concentration-in-cycle-families",
+    "tag": "EBBABF0F3388"
+  },
+  {
+    "route": "tag/E324C500C6C8",
+    "title": "Proposition 8.3.3 (Mass-continuous families have no concentration)",
+    "chapter": "min-max-theory",
+    "section": "continuity-and-concentration-in-cycle-families",
+    "tag": "E324C500C6C8"
+  },
+  {
+    "route": "tag/2221D4956C46",
+    "title": "Example 8.3.4 (Many small spheres concentrate while converging flatly to zero)",
+    "chapter": "min-max-theory",
+    "section": "continuity-and-concentration-in-cycle-families",
+    "tag": "2221D4956C46"
+  },
+  {
+    "route": "tag/36CDDADBF38A",
+    "title": "Example 8.3.5 (A flat-continuous interval family with concentration)",
+    "chapter": "min-max-theory",
+    "section": "continuity-and-concentration-in-cycle-families",
+    "tag": "36CDDADBF38A"
+  },
+  {
+    "route": "tag/48E32BBD5579",
+    "title": "Example 8.3.6 (Why positive cycle dimension is required)",
+    "chapter": "min-max-theory",
+    "section": "continuity-and-concentration-in-cycle-families",
+    "tag": "48E32BBD5579"
+  },
+  {
+    "route": "sections/detecting-classes-and-parameter-space-arguments",
+    "title": "8.4 Detecting classes and parameter-space arguments",
+    "chapter": "min-max-theory",
+    "section": "detecting-classes-and-parameter-space-arguments"
+  },
+  {
+    "route": "tag/E0E6244C817A",
+    "title": "Lemma 8.4.1 (Pulling back a detecting family)",
+    "chapter": "min-max-theory",
+    "section": "detecting-classes-and-parameter-space-arguments",
+    "tag": "E0E6244C817A"
+  },
+  {
+    "route": "tag/DB13365CEAA2",
+    "title": "Proposition 8.4.2 (A parameter-dimension obstruction)",
+    "chapter": "min-max-theory",
+    "section": "detecting-classes-and-parameter-space-arguments",
+    "tag": "DB13365CEAA2"
+  },
+  {
+    "route": "tag/61F934F4A7A0",
+    "title": "Proposition 8.4.3 (The p-skeleton retains a p-sweepout)",
+    "chapter": "min-max-theory",
+    "section": "detecting-classes-and-parameter-space-arguments",
+    "tag": "61F934F4A7A0"
+  },
+  {
+    "route": "tag/F4C1074C9761",
+    "title": "Proposition 8.4.4 (Detection is invariant under flat homotopy)",
+    "chapter": "min-max-theory",
+    "section": "detecting-classes-and-parameter-space-arguments",
+    "tag": "F4C1074C9761"
+  },
+  {
+    "route": "tag/46EEAF367871",
+    "title": "Proposition 8.4.5 (A detecting fixed class bounds the spectral infimum)",
+    "chapter": "min-max-theory",
+    "section": "detecting-classes-and-parameter-space-arguments",
+    "tag": "46EEAF367871"
+  },
+  {
+    "route": "tag/EDF55A1658FD",
+    "title": "Example 8.4.6 (The same slices can lose detection after reparametrization)",
+    "chapter": "min-max-theory",
+    "section": "detecting-classes-and-parameter-space-arguments",
+    "tag": "EDF55A1658FD"
+  },
+  {
+    "route": "tag/F7855903756E",
+    "title": "Lemma 8.4.7 (Cup-product vanishing on an open cover)",
+    "chapter": "min-max-theory",
+    "section": "detecting-classes-and-parameter-space-arguments",
+    "tag": "F7855903756E"
+  },
+  {
+    "route": "tag/D6C9F6556AEA",
+    "title": "Proposition 8.4.8 (A common parameter above several cost thresholds)",
+    "chapter": "min-max-theory",
+    "section": "detecting-classes-and-parameter-space-arguments",
+    "tag": "D6C9F6556AEA"
+  },
+  {
     "route": "chapters/volume-spectrum",
     "title": "9 Volume spectrum and Morse index",
     "chapter": "volume-spectrum"
@@ -2284,6 +2394,82 @@
     "chapter": "volume-spectrum",
     "section": "bumpy-metrics-multiplicity-and-abundance",
     "tag": "5DAA3668FA8E"
+  },
+  {
+    "route": "sections/metric-comparison-and-uniform-weyl-asymptotics",
+    "title": "9.4 Metric comparison and uniform Weyl asymptotics",
+    "chapter": "volume-spectrum",
+    "section": "metric-comparison-and-uniform-weyl-asymptotics"
+  },
+  {
+    "route": "tag/EFEF93C848C0",
+    "title": "Lemma 9.4.1 (Mass and flat norms under metric comparison)",
+    "chapter": "volume-spectrum",
+    "section": "metric-comparison-and-uniform-weyl-asymptotics",
+    "tag": "EFEF93C848C0"
+  },
+  {
+    "route": "tag/2F345F35724A",
+    "title": "Proposition 9.4.2 (Sweepout admissibility is independent of a smooth metric)",
+    "chapter": "volume-spectrum",
+    "section": "metric-comparison-and-uniform-weyl-asymptotics",
+    "tag": "2F345F35724A"
+  },
+  {
+    "route": "tag/5B976BBC1CB5",
+    "title": "Proposition 9.4.3 (Bilateral metric bounds for every width)",
+    "chapter": "volume-spectrum",
+    "section": "metric-comparison-and-uniform-weyl-asymptotics",
+    "tag": "5B976BBC1CB5"
+  },
+  {
+    "route": "tag/278B1E4F1245",
+    "title": "Proposition 9.4.4 (Diffeomorphism invariance of the spectrum)",
+    "chapter": "volume-spectrum",
+    "section": "metric-comparison-and-uniform-weyl-asymptotics",
+    "tag": "278B1E4F1245"
+  },
+  {
+    "route": "tag/D72F5ECF16F3",
+    "title": "Theorem 9.4.5 (Uniform Lipschitz control of normalized widths)",
+    "chapter": "volume-spectrum",
+    "section": "metric-comparison-and-uniform-weyl-asymptotics",
+    "tag": "D72F5ECF16F3"
+  },
+  {
+    "route": "tag/9EA7E95DFE3F",
+    "title": "Theorem 9.4.6 (The Weyl limit is uniform on compact metric families)",
+    "chapter": "volume-spectrum",
+    "section": "metric-comparison-and-uniform-weyl-asymptotics",
+    "tag": "9EA7E95DFE3F"
+  },
+  {
+    "route": "tag/1F28B96B56ED",
+    "title": "Proposition 9.4.7 (Volume normalization removes constant scaling)",
+    "chapter": "volume-spectrum",
+    "section": "metric-comparison-and-uniform-weyl-asymptotics",
+    "tag": "1F28B96B56ED"
+  },
+  {
+    "route": "tag/3129F5895E82",
+    "title": "Proposition 9.4.8 (First variation with respect to the ambient metric)",
+    "chapter": "volume-spectrum",
+    "section": "metric-comparison-and-uniform-weyl-asymptotics",
+    "tag": "3129F5895E82"
+  },
+  {
+    "route": "tag/557132487616",
+    "title": "Proposition 9.4.9 (Width differentiation along an assumed smooth realizing family)",
+    "chapter": "volume-spectrum",
+    "section": "metric-comparison-and-uniform-weyl-asymptotics",
+    "tag": "557132487616"
+  },
+  {
+    "route": "tag/09F3DF8E7EC5",
+    "title": "Example 9.4.10 (Uniform Weyl convergence does not justify differentiating its limit)",
+    "chapter": "volume-spectrum",
+    "section": "metric-comparison-and-uniform-weyl-asymptotics",
+    "tag": "09F3DF8E7EC5"
   },
   {
     "route": "chapters/geometric-applications",

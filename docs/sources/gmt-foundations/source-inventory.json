@@ -95,7 +95,15 @@
       "sha256": "e177013792a5bd11eee68ece1410b256d75b914eb285bb877b13970b91047ea0",
       "pdf_pages": 30,
       "role": "Primary Weyl-law source, Theorem 1.1; admissibility and widths in Section 2.6. Published version, not an early preprint.",
-      "redistributed": false
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "checked_passages": [
+        "Theorem 1.1, p. 934; Weyl law retained as an external proof input",
+        "Localization overview and restrictions/mass-topology cautions, pp. 935–937",
+        "Sections 2.5–2.6, detecting classes and sweepouts, p. 941",
+        "Lemma 2.7 and its proof, pp. 941–942; local exposition restricts to positive-dimensional cycles",
+        "Theorem 2.8, p. 942, and interpolation results of Section 2.9, pp. 942–943; interpolation remains external"
+      ]
     },
     {
       "bibliography_key": "CDL",
@@ -755,10 +763,16 @@
       "edition": "2019; Inventiones Mathematicae",
       "sha256": "370c58194cbbb559c2f2a41963431b78c2c86f88310b572453d4141d277d7d50",
       "redistributed": false,
-      "role": "Selected statements or historical passages checked for this expansion; proofs remain external unless explicitly included.",
+      "role": "Equidistribution theorem and metric dependence of widths. Local metric comparison and variation calculations are supplied; generic smooth-realizer selection and equidistribution remain external.",
       "review_status": "selected-passages-checked",
       "metadata_status": "source-checked",
-      "pdf_pages": 23
+      "pdf_pages": 23,
+      "checked_passages": [
+        "Main theorem and interpretation of cumulative equidistribution, pp. 421–423",
+        "Lemma 1 and proof, p. 425: uniform Lipschitz control of normalized widths; rendered to verify the formula",
+        "Lemma 2 statement, pp. 425–426: generic-family derivative representation, retained as an external input rather than inferred from elementary metric variation",
+        "Lemma 3 statement and proof, pp. 429–430: nonsmooth gradient selection; its proof is not imported in this batch"
+      ]
     },
     {
       "bibliography_key": null,
