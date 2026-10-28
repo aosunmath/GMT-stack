@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stage": "Initial source comparison and mathematical drafting; no independent human review recorded.",
+  "stage": "Source comparison and mathematical drafting, including the October 2026 library expansion; no independent human review recorded.",
   "entries": [
     {
       "label": "def:allen-cahn-energy",
@@ -1402,17 +1402,26 @@
     "Willmore canonical family and catenoid deformations",
     "Nurser low-width lower bounds and detecting families",
     "Zhou-Zhu CMC and network min-max regularity",
-    "Allen-Cahn compactness, sheet separation, and index comparison"
+    "Allen-Cahn compactness, sheet separation, and index comparison",
+    "Allard integral-varifold compactness and integrality of limits",
+    "White compatibility of varifold and mod-two flat-chain limits",
+    "Sharp bounded-area/index compactness and Schoen-Simon regularity",
+    "Michael-Simon Sobolev inequality and Brendle sharp isoperimetry",
+    "White generic bumpiness for immersed minimal submanifolds",
+    "Zhou multiplicity-one volume-spectrum realization",
+    "Song existence of infinitely many minimal hypersurfaces",
+    "Marques-Neves-Song generic equidistribution",
+    "Huisken convex contraction and convergence after rescaling"
   ],
   "next_development": [
     "Covering and differentiation theorems for measures",
     "Proofs of Rademacher and the area/coarea formulas",
     "BV compactness and De Giorgi blow-up theorem",
     "Deformation theorem and compactness of integral currents",
-    "Varifold monotonicity proof, compactness, then Allard regularity",
+    "Proofs of varifold monotonicity and compactness, followed by Allard regularity",
     "Detailed Pitts proof chain and modern regularity hypotheses",
     "Proofs and comparison of the volume-spectrum conventions",
-    "Dedicated obstacle-problem and mean-curvature-flow source corpora",
+    "Obstacle-problem sources and deeper mean-curvature-flow theory, including weak flows and entropy",
     "Free-boundary, Plateau, capillarity, and prescribed-mean-curvature branches"
   ]
 }
