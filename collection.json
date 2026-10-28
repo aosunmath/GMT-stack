@@ -173,9 +173,12 @@
         "brakke-flows-and-loss-of-mass",
         "gaussian-calculus-on-self-shrinkers",
         "gaussian-second-variation-and-symmetry-modes",
-        "center-and-scale-in-shrinker-stability"
+        "center-and-scale-in-shrinker-stability",
+        "gaussian-tails-and-convergence-of-entropy",
+        "entropy-maximizers-and-translation-symmetries",
+        "entropy-lowering-compact-perturbations"
       ],
-      "description": "Smooth evolution and comparison, Gaussian monotonicity and entropy, rescaling, Brakke flows, weighted shrinker identities, Gaussian variations, symmetry modes, and precise center/scale stability distinctions."
+      "description": "Smooth and weak flows, Gaussian monotonicity, weighted shrinker variations and stability, Gaussian tails and convergence, entropy maximizers, product splitting, and entropy-lowering compact perturbations."
     },
     {
       "slug": "history",
