@@ -1636,6 +1636,44 @@
         "Lemma 7.10 and proof, equations (7.14)--(7.27), pp. 785--788",
         "Lemma 7.28 and proof of Theorem 0.15, pp. 788--792"
       ]
+    },
+    {
+      "bibliography_key": "Wen91",
+      "filename": "pjm-v147-n2-p13-p.pdf",
+      "author": "Henry C. Wente",
+      "title": "A note on the stability theorem of J. L. Barbosa and M. Do Carmo for closed surfaces of constant mean curvature",
+      "edition": "Pacific Journal of Mathematics 147 (1991), 375–379; publisher PDF retrieved October 28, 2026",
+      "sha256": "96ba585878f8b4a414c036eae4c509af71f0aec3fe3a246d28846c8fb9d747e1",
+      "pdf_pages": 8,
+      "url": "https://msp.org/pjm/1991/147-2/pjm-v147-n2-p13-p.pdf",
+      "redistributed": false,
+      "role": "Euclidean CMC stability rigidity and the parallel-displacement/dilation path. Original local divergence and Jacobi proofs use outward unaveraged mean curvature.",
+      "metadata_status": "source-checked",
+      "review_status": "selected-passages-checked",
+      "checked_passages": [
+        "Theorem and introduction, pp. 375–376",
+        "Section II, equations (3)–(11), pp. 376–378",
+        "Appendix, pp. 378–379; printed p. 377 rendered to verify variation and curvature-defect formulas"
+      ]
+    },
+    {
+      "bibliography_key": "BdCE88",
+      "filename": "Barbosa-do-Carmo-Eschenburg-1988.pdf (online reference)",
+      "author": "J. Lucas Barbosa; Manfredo do Carmo; Jost Eschenburg",
+      "title": "Stability of hypersurfaces of constant mean curvature in Riemannian manifolds",
+      "edition": "Mathematische Zeitschrift 197 (1988), 123–138; online published scan read October 28, 2026",
+      "pdf_pages": 16,
+      "url": "https://d-nb.info/1310433194/34",
+      "redistributed": false,
+      "role": "Constrained Jacobi equation, Killing modes, constant-potential stability criterion, and positive-curvature rigidity. Local calculations supply proofs in the project conventions.",
+      "metadata_status": "source-checked",
+      "review_status": "selected-passages-checked",
+      "access_note": "Published scan read through the web PDF text reader. Direct download was unavailable; no local file digest is claimed. DOI and publication metadata also checked against the author university repository cover.",
+      "checked_passages": [
+        "Theorem 1.2, p. 123",
+        "Section 2, pp. 125–129, especially Proposition 2.9, Remark 2.11, Proposition 2.12 and the nontrivial-Killing-mode premise preceding Proposition 2.13",
+        "Section 3, Lemmas 3.3–3.4, Remark 3.5, and the spherical case of Theorem 1.2, pp. 129–131"
+      ]
     }
   ],
   "distinct_editions": 21,

@@ -5236,5 +5236,248 @@
     "page": "tag/5DA2757B/index.html",
     "canonical_tag": "7AABD65517DC",
     "anchor": ""
+  },
+  {
+    "tag": "623A3897",
+    "label": "sec:cmc-minkowski",
+    "title": "73 Minkowski identities and Euclidean CMC rigidity",
+    "kind": "chapter",
+    "page": "tag/623A3897/index.html",
+    "canonical_tag": "3063D1CCB1C7",
+    "anchor": ""
+  },
+  {
+    "tag": "EDE50423",
+    "label": "def:cmc-support-function",
+    "title": "Definition 73.1 (Support function and tangential position)",
+    "kind": "definition",
+    "page": "tag/EDE50423/index.html",
+    "canonical_tag": "752F687F8B39",
+    "anchor": ""
+  },
+  {
+    "tag": "F1359009",
+    "label": "lem:cmc-first-minkowski",
+    "title": "Lemma 73.2 (Tangential position and the first Minkowski identity)",
+    "kind": "lemma",
+    "page": "tag/F1359009/index.html",
+    "canonical_tag": "D97C63B72CB5",
+    "anchor": ""
+  },
+  {
+    "tag": "CED356B7",
+    "label": "lem:cmc-newton-tensor",
+    "title": "Lemma 73.3 (The first Newton tensor has zero divergence)",
+    "kind": "lemma",
+    "page": "tag/CED356B7/index.html",
+    "canonical_tag": "56A52E4D2856",
+    "anchor": ""
+  },
+  {
+    "tag": "B51D9F6A",
+    "label": "prop:cmc-second-minkowski",
+    "title": "Proposition 73.4 (The second Minkowski identity)",
+    "kind": "proposition",
+    "page": "tag/B51D9F6A/index.html",
+    "canonical_tag": "70CDEF2521D0",
+    "anchor": ""
+  },
+  {
+    "tag": "6266AF1A",
+    "label": "prop:cmc-support-jacobi",
+    "title": "Proposition 73.5 (The support function solves an inhomogeneous Jacobi equation)",
+    "kind": "proposition",
+    "page": "tag/6266AF1A/index.html",
+    "canonical_tag": "DA3F5A1EA115",
+    "anchor": ""
+  },
+  {
+    "tag": "BFF00F04",
+    "label": "prop:cmc-area-volume-balance",
+    "title": "Proposition 73.6 (CMC area-volume balance)",
+    "kind": "proposition",
+    "page": "tag/BFF00F04/index.html",
+    "canonical_tag": "631069D9A13E",
+    "anchor": ""
+  },
+  {
+    "tag": "B0FAC8D7",
+    "label": "prop:cmc-umbilicity-test",
+    "title": "Proposition 73.7 (A zero-mean test measures the full umbilicity defect)",
+    "kind": "proposition",
+    "page": "tag/B0FAC8D7/index.html",
+    "canonical_tag": "7077458D4E54",
+    "anchor": ""
+  },
+  {
+    "tag": "AFF1F14D",
+    "label": "prop:cmc-parallel-volume-path",
+    "title": "Proposition 73.8 (Parallel displacement followed by volume correction)",
+    "kind": "proposition",
+    "page": "tag/AFF1F14D/index.html",
+    "canonical_tag": "ECC2BC2CD9E4",
+    "anchor": ""
+  },
+  {
+    "tag": "30C7D7F6",
+    "label": "thm:euclidean-cmc-stability-rigidity",
+    "title": "Theorem 73.9 (Euclidean volume-stability rigidity)",
+    "kind": "theorem",
+    "page": "tag/30C7D7F6/index.html",
+    "canonical_tag": "82E696DEA5C5",
+    "anchor": ""
+  },
+  {
+    "tag": "98F2951A",
+    "label": "sec:cmc-jacobi",
+    "title": "74 Constrained Jacobi fields and spectral tests",
+    "kind": "chapter",
+    "page": "tag/98F2951A/index.html",
+    "canonical_tag": "61B167A3C472",
+    "anchor": ""
+  },
+  {
+    "tag": "791DC12B",
+    "label": "def:constrained-jacobi-nullspace",
+    "title": "Definition 74.1 (The constrained Jacobi nullspace)",
+    "kind": "definition",
+    "page": "tag/791DC12B/index.html",
+    "canonical_tag": "B49559F552E6",
+    "anchor": ""
+  },
+  {
+    "tag": "59F0B004",
+    "label": "prop:constrained-jacobi-constant",
+    "title": "Proposition 74.2 (The constrained Jacobi equation has a constant right-hand side)",
+    "kind": "proposition",
+    "page": "tag/59F0B004/index.html",
+    "canonical_tag": "2927E9BDF88B",
+    "anchor": ""
+  },
+  {
+    "tag": "C6EF92F3",
+    "label": "lem:cmc-zero-form-nullspace",
+    "title": "Lemma 74.3 (Zero quadratic form and stability)",
+    "kind": "lemma",
+    "page": "tag/C6EF92F3/index.html",
+    "canonical_tag": "758BCB624841",
+    "anchor": ""
+  },
+  {
+    "tag": "63627A85",
+    "label": "prop:cmc-family-jacobi",
+    "title": "Proposition 74.4 (Tangents to fixed-volume CMC families)",
+    "kind": "proposition",
+    "page": "tag/63627A85/index.html",
+    "canonical_tag": "8A682F667B82",
+    "anchor": ""
+  },
+  {
+    "tag": "8D68015F",
+    "label": "prop:cmc-killing-jacobi",
+    "title": "Proposition 74.5 (Killing fields give zero-mean Jacobi speeds on boundaries)",
+    "kind": "proposition",
+    "page": "tag/8D68015F/index.html",
+    "canonical_tag": "AABDDC64A629",
+    "anchor": ""
+  },
+  {
+    "tag": "440EB561",
+    "label": "prop:cmc-constant-potential-test",
+    "title": "Proposition 74.6 (The constant-potential stability criterion)",
+    "kind": "proposition",
+    "page": "tag/440EB561/index.html",
+    "canonical_tag": "DFACAFB09577",
+    "anchor": ""
+  },
+  {
+    "tag": "4D77754F",
+    "label": "prop:cmc-constant-potential-index",
+    "title": "Proposition 74.7 (Index and nullity for a constant potential)",
+    "kind": "proposition",
+    "page": "tag/4D77754F/index.html",
+    "canonical_tag": "8A971915C319",
+    "anchor": ""
+  },
+  {
+    "tag": "18D5B4BF",
+    "label": "sec:cmc-spaceforms",
+    "title": "75 Geodesic spheres and spherical CMC rigidity",
+    "kind": "chapter",
+    "page": "tag/18D5B4BF/index.html",
+    "canonical_tag": "7A9645C55242",
+    "anchor": ""
+  },
+  {
+    "tag": "0A7EEAF0",
+    "label": "prop:spaceform-sphere-geometry",
+    "title": "Proposition 75.1 (Geometry of a space-form geodesic sphere)",
+    "kind": "proposition",
+    "page": "tag/0A7EEAF0/index.html",
+    "canonical_tag": "7ED8B4A1932C",
+    "anchor": ""
+  },
+  {
+    "tag": "31A229BF",
+    "label": "thm:spaceform-sphere-stability",
+    "title": "Theorem 75.2 (Stability and unrestricted index of geodesic spheres)",
+    "kind": "theorem",
+    "page": "tag/31A229BF/index.html",
+    "canonical_tag": "CC7BA2BA9BC5",
+    "anchor": ""
+  },
+  {
+    "tag": "E8596F42",
+    "label": "prop:spaceform-sphere-nullity",
+    "title": "Proposition 75.3 (Nullity of a geodesic sphere)",
+    "kind": "proposition",
+    "page": "tag/E8596F42/index.html",
+    "canonical_tag": "4DBCEFBB183C",
+    "anchor": ""
+  },
+  {
+    "tag": "A3B0D5D6",
+    "label": "lem:spherical-cmc-height-equations",
+    "title": "Lemma 75.4 (Position and normal equations in the unit sphere)",
+    "kind": "lemma",
+    "page": "tag/A3B0D5D6/index.html",
+    "canonical_tag": "1562412D4BBC",
+    "anchor": ""
+  },
+  {
+    "tag": "557F26B8",
+    "label": "prop:spherical-cmc-defect-test",
+    "title": "Proposition 75.5 (Spherical coordinate tests and the summed defect)",
+    "kind": "proposition",
+    "page": "tag/557F26B8/index.html",
+    "canonical_tag": "70DBFEAC8FA7",
+    "anchor": ""
+  },
+  {
+    "tag": "14CBDF66",
+    "label": "thm:spherical-cmc-stability-rigidity",
+    "title": "Theorem 75.6 (Volume-stable CMC boundaries in a round sphere)",
+    "kind": "theorem",
+    "page": "tag/14CBDF66/index.html",
+    "canonical_tag": "9679240B53E6",
+    "anchor": ""
+  },
+  {
+    "tag": "59300EA1",
+    "label": "ex:equator-constrained-stability",
+    "title": "Example 75.7 (An equator separates two notions of minimal stability)",
+    "kind": "example",
+    "page": "tag/59300EA1/index.html",
+    "canonical_tag": "8B1EF7479D38",
+    "anchor": ""
+  },
+  {
+    "tag": "63B48B9E",
+    "label": "ex:cmc-product-torus-instability",
+    "title": "Example 75.8 (Product tori have many volume-preserving unstable directions)",
+    "kind": "example",
+    "page": "tag/63B48B9E/index.html",
+    "canonical_tag": "B95481624243",
+    "anchor": ""
   }
 ]

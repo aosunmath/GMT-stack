@@ -2501,6 +2501,192 @@
     "tag": "8D4734A778BF"
   },
   {
+    "route": "sections/minkowski-identities-and-euclidean-cmc-rigidity",
+    "title": "11.4 Minkowski identities and Euclidean CMC rigidity",
+    "chapter": "constant-mean-curvature",
+    "section": "minkowski-identities-and-euclidean-cmc-rigidity"
+  },
+  {
+    "route": "tag/752F687F8B39",
+    "title": "Definition 11.4.1 (Support function and tangential position)",
+    "chapter": "constant-mean-curvature",
+    "section": "minkowski-identities-and-euclidean-cmc-rigidity",
+    "tag": "752F687F8B39"
+  },
+  {
+    "route": "tag/D97C63B72CB5",
+    "title": "Lemma 11.4.2 (Tangential position and the first Minkowski identity)",
+    "chapter": "constant-mean-curvature",
+    "section": "minkowski-identities-and-euclidean-cmc-rigidity",
+    "tag": "D97C63B72CB5"
+  },
+  {
+    "route": "tag/56A52E4D2856",
+    "title": "Lemma 11.4.3 (The first Newton tensor has zero divergence)",
+    "chapter": "constant-mean-curvature",
+    "section": "minkowski-identities-and-euclidean-cmc-rigidity",
+    "tag": "56A52E4D2856"
+  },
+  {
+    "route": "tag/70CDEF2521D0",
+    "title": "Proposition 11.4.4 (The second Minkowski identity)",
+    "chapter": "constant-mean-curvature",
+    "section": "minkowski-identities-and-euclidean-cmc-rigidity",
+    "tag": "70CDEF2521D0"
+  },
+  {
+    "route": "tag/DA3F5A1EA115",
+    "title": "Proposition 11.4.5 (The support function solves an inhomogeneous Jacobi equation)",
+    "chapter": "constant-mean-curvature",
+    "section": "minkowski-identities-and-euclidean-cmc-rigidity",
+    "tag": "DA3F5A1EA115"
+  },
+  {
+    "route": "tag/631069D9A13E",
+    "title": "Proposition 11.4.6 (CMC area-volume balance)",
+    "chapter": "constant-mean-curvature",
+    "section": "minkowski-identities-and-euclidean-cmc-rigidity",
+    "tag": "631069D9A13E"
+  },
+  {
+    "route": "tag/7077458D4E54",
+    "title": "Proposition 11.4.7 (A zero-mean test measures the full umbilicity defect)",
+    "chapter": "constant-mean-curvature",
+    "section": "minkowski-identities-and-euclidean-cmc-rigidity",
+    "tag": "7077458D4E54"
+  },
+  {
+    "route": "tag/ECC2BC2CD9E4",
+    "title": "Proposition 11.4.8 (Parallel displacement followed by volume correction)",
+    "chapter": "constant-mean-curvature",
+    "section": "minkowski-identities-and-euclidean-cmc-rigidity",
+    "tag": "ECC2BC2CD9E4"
+  },
+  {
+    "route": "tag/82E696DEA5C5",
+    "title": "Theorem 11.4.9 (Euclidean volume-stability rigidity)",
+    "chapter": "constant-mean-curvature",
+    "section": "minkowski-identities-and-euclidean-cmc-rigidity",
+    "tag": "82E696DEA5C5"
+  },
+  {
+    "route": "sections/constrained-jacobi-fields-and-spectral-tests",
+    "title": "11.5 Constrained Jacobi fields and spectral tests",
+    "chapter": "constant-mean-curvature",
+    "section": "constrained-jacobi-fields-and-spectral-tests"
+  },
+  {
+    "route": "tag/B49559F552E6",
+    "title": "Definition 11.5.1 (The constrained Jacobi nullspace)",
+    "chapter": "constant-mean-curvature",
+    "section": "constrained-jacobi-fields-and-spectral-tests",
+    "tag": "B49559F552E6"
+  },
+  {
+    "route": "tag/2927E9BDF88B",
+    "title": "Proposition 11.5.2 (The constrained Jacobi equation has a constant right-hand side)",
+    "chapter": "constant-mean-curvature",
+    "section": "constrained-jacobi-fields-and-spectral-tests",
+    "tag": "2927E9BDF88B"
+  },
+  {
+    "route": "tag/758BCB624841",
+    "title": "Lemma 11.5.3 (Zero quadratic form and stability)",
+    "chapter": "constant-mean-curvature",
+    "section": "constrained-jacobi-fields-and-spectral-tests",
+    "tag": "758BCB624841"
+  },
+  {
+    "route": "tag/8A682F667B82",
+    "title": "Proposition 11.5.4 (Tangents to fixed-volume CMC families)",
+    "chapter": "constant-mean-curvature",
+    "section": "constrained-jacobi-fields-and-spectral-tests",
+    "tag": "8A682F667B82"
+  },
+  {
+    "route": "tag/AABDDC64A629",
+    "title": "Proposition 11.5.5 (Killing fields give zero-mean Jacobi speeds on boundaries)",
+    "chapter": "constant-mean-curvature",
+    "section": "constrained-jacobi-fields-and-spectral-tests",
+    "tag": "AABDDC64A629"
+  },
+  {
+    "route": "tag/DFACAFB09577",
+    "title": "Proposition 11.5.6 (The constant-potential stability criterion)",
+    "chapter": "constant-mean-curvature",
+    "section": "constrained-jacobi-fields-and-spectral-tests",
+    "tag": "DFACAFB09577"
+  },
+  {
+    "route": "tag/8A971915C319",
+    "title": "Proposition 11.5.7 (Index and nullity for a constant potential)",
+    "chapter": "constant-mean-curvature",
+    "section": "constrained-jacobi-fields-and-spectral-tests",
+    "tag": "8A971915C319"
+  },
+  {
+    "route": "sections/geodesic-spheres-and-spherical-cmc-rigidity",
+    "title": "11.6 Geodesic spheres and spherical CMC rigidity",
+    "chapter": "constant-mean-curvature",
+    "section": "geodesic-spheres-and-spherical-cmc-rigidity"
+  },
+  {
+    "route": "tag/7ED8B4A1932C",
+    "title": "Proposition 11.6.1 (Geometry of a space-form geodesic sphere)",
+    "chapter": "constant-mean-curvature",
+    "section": "geodesic-spheres-and-spherical-cmc-rigidity",
+    "tag": "7ED8B4A1932C"
+  },
+  {
+    "route": "tag/CC7BA2BA9BC5",
+    "title": "Theorem 11.6.2 (Stability and unrestricted index of geodesic spheres)",
+    "chapter": "constant-mean-curvature",
+    "section": "geodesic-spheres-and-spherical-cmc-rigidity",
+    "tag": "CC7BA2BA9BC5"
+  },
+  {
+    "route": "tag/4DBCEFBB183C",
+    "title": "Proposition 11.6.3 (Nullity of a geodesic sphere)",
+    "chapter": "constant-mean-curvature",
+    "section": "geodesic-spheres-and-spherical-cmc-rigidity",
+    "tag": "4DBCEFBB183C"
+  },
+  {
+    "route": "tag/1562412D4BBC",
+    "title": "Lemma 11.6.4 (Position and normal equations in the unit sphere)",
+    "chapter": "constant-mean-curvature",
+    "section": "geodesic-spheres-and-spherical-cmc-rigidity",
+    "tag": "1562412D4BBC"
+  },
+  {
+    "route": "tag/70DBFEAC8FA7",
+    "title": "Proposition 11.6.5 (Spherical coordinate tests and the summed defect)",
+    "chapter": "constant-mean-curvature",
+    "section": "geodesic-spheres-and-spherical-cmc-rigidity",
+    "tag": "70DBFEAC8FA7"
+  },
+  {
+    "route": "tag/9679240B53E6",
+    "title": "Theorem 11.6.6 (Volume-stable CMC boundaries in a round sphere)",
+    "chapter": "constant-mean-curvature",
+    "section": "geodesic-spheres-and-spherical-cmc-rigidity",
+    "tag": "9679240B53E6"
+  },
+  {
+    "route": "tag/8B1EF7479D38",
+    "title": "Example 11.6.7 (An equator separates two notions of minimal stability)",
+    "chapter": "constant-mean-curvature",
+    "section": "geodesic-spheres-and-spherical-cmc-rigidity",
+    "tag": "8B1EF7479D38"
+  },
+  {
+    "route": "tag/B95481624243",
+    "title": "Example 11.6.8 (Product tori have many volume-preserving unstable directions)",
+    "chapter": "constant-mean-curvature",
+    "section": "geodesic-spheres-and-spherical-cmc-rigidity",
+    "tag": "B95481624243"
+  },
+  {
     "route": "chapters/allen-cahn",
     "title": "12 Allen-Cahn and phase transitions",
     "chapter": "allen-cahn"
