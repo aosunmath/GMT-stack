@@ -741,7 +741,10 @@
       "citations": [
         "Pitts81"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "def:integral-brakke-flow",
+        "thm:plateau-direct-method"
+      ],
       "formal_verification": "none"
     },
     {
@@ -1261,7 +1264,9 @@
         "Fle15"
       ],
       "dependencies": [
-        "prop:minimal-graph-pde"
+        "prop:minimal-graph-pde",
+        "thm:bernstein-plane-graph",
+        "thm:simons-smooth-link-cones"
       ],
       "formal_verification": "none"
     },
@@ -3269,6 +3274,304 @@
         "prop:real-flat-control"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "prop:traced-gauss",
+      "title": "The traced Gauss equation",
+      "kind": "proposition",
+      "file": "stability-applications.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:surface-jacobi-gauss",
+      "title": "The Jacobi potential on a minimal surface",
+      "kind": "corollary",
+      "file": "stability-applications.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:local-stability",
+        "prop:traced-gauss"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:stable-surface-positive-scalar",
+      "title": "Topology and area of a stable surface in positive scalar curvature",
+      "kind": "theorem",
+      "file": "stability-applications.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "cor:surface-jacobi-gauss"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:stable-torus-rigidity",
+      "title": "Rigidity of a stable torus under nonnegative scalar curvature",
+      "kind": "proposition",
+      "file": "stability-applications.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:flat-stable-torus",
+      "title": "A flat stable torus",
+      "kind": "example",
+      "file": "stability-applications.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [
+        "prop:stable-torus-rigidity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:stable-projective-plane",
+      "title": "Why orientability is a separate hypothesis",
+      "kind": "example",
+      "file": "stability-applications.tex",
+      "status": "worked-example",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:zero-capacity-cutoffs",
+      "title": "Exhausting cutoffs with vanishing Dirichlet energy",
+      "kind": "definition",
+      "file": "stability-applications.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:capacity-stability-rigidity",
+      "title": "A nonnegative stability potential vanishes under small-energy cutoffs",
+      "kind": "proposition",
+      "file": "stability-applications.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:zero-capacity-cutoffs"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:quadratic-growth-cutoffs",
+      "title": "Quadratic area growth gives logarithmic cutoffs",
+      "kind": "proposition",
+      "file": "stability-applications.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "def:zero-capacity-cutoffs"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:stable-bernstein-quadratic",
+      "title": "Stable Bernstein with quadratic area growth",
+      "kind": "theorem",
+      "file": "stability-applications.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "prop:capacity-stability-rigidity",
+        "prop:quadratic-growth-cutoffs"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:entire-graph-area-growth",
+      "title": "Uniform area growth for an entire minimal graph",
+      "kind": "proposition",
+      "file": "stability-applications.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "prop:graph-calibration"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:bernstein-plane-graph",
+      "title": "Bernstein's theorem for an entire graph over the plane",
+      "kind": "theorem",
+      "file": "stability-applications.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "cor:graph-positive-jacobi",
+        "prop:classical-graph-bootstrap",
+        "prop:entire-graph-area-growth",
+        "thm:stable-bernstein-quadratic"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:scherk-bernstein-scope",
+      "title": "A stable graph need not be an entire graph",
+      "kind": "example",
+      "file": "stability-applications.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [
+        "ex:scherk-graph",
+        "thm:stable-bernstein-quadratic"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:smooth-link-cone",
+      "title": "The cone over a spherical hypersurface",
+      "kind": "definition",
+      "file": "stable-cones.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cone-geometry",
+      "title": "Metric, curvature, and Laplacian of a cone",
+      "kind": "proposition",
+      "file": "stable-cones.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:cone-punctured-stability",
+      "title": "Stability away from a cone vertex",
+      "kind": "definition",
+      "file": "stable-cones.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:radial-hardy",
+      "title": "The sharp radial Hardy inequality",
+      "kind": "lemma",
+      "file": "stable-cones.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:link-rayleigh",
+      "title": "The spherical link Rayleigh quotient",
+      "kind": "definition",
+      "file": "stable-cones.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cone-spectral-stability",
+      "title": "The spectral criterion for cone stability",
+      "kind": "proposition",
+      "file": "stable-cones.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "def:cone-punctured-stability",
+        "lem:radial-hardy"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:clifford-cone-stability",
+      "title": "Product-sphere links and the dimension-seven threshold",
+      "kind": "example",
+      "file": "stable-cones.tex",
+      "status": "worked-example",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [
+        "prop:cone-spectral-stability"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:spherical-simons",
+      "title": "Simons identity for a minimal spherical hypersurface",
+      "kind": "theorem",
+      "file": "stable-cones.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin",
+        "HP99"
+      ],
+      "dependencies": [
+        "prop:riemannian-mean-curvature-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:nonflat-link-rayleigh",
+      "title": "An upper bound for the nonflat link Rayleigh value",
+      "kind": "proposition",
+      "file": "stable-cones.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:simons-smooth-link-cones",
+      "title": "Stable cones with smooth links are flat in dimensions at most six",
+      "kind": "theorem",
+      "file": "stable-cones.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChMin"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -3315,7 +3618,10 @@
     "Integral Brakke compactness and weak Gaussian monotonicity",
     "Vector-measure representation for finite-mass currents and weak-star measure compactness",
     "Lipschitz pushforward and slicing of integral currents, including rectifiable coarea",
-    "Compact Laplace spectral theorem and Bochner identity"
+    "Compact Laplace spectral theorem and Bochner identity",
+    "Gauss--Bonnet and classification of closed orientable surfaces",
+    "Sard theorem and divergence theorem for transverse piecewise smooth regions",
+    "Compactly supported Sobolev approximation on smooth manifolds"
   ],
   "next_development": [
     "Covering and differentiation theorems for measures",

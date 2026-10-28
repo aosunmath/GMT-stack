@@ -2671,5 +2671,239 @@
     "page": "tag/66C549FE/index.html",
     "canonical_tag": "8D4734A778BF",
     "anchor": ""
+  },
+  {
+    "tag": "F4CC7A1B",
+    "label": "sec:stability-scalar-curvature",
+    "title": "43 Stability and scalar curvature",
+    "kind": "chapter",
+    "page": "tag/F4CC7A1B/index.html",
+    "canonical_tag": "FAABD01A7002",
+    "anchor": ""
+  },
+  {
+    "tag": "3B2EEFEE",
+    "label": "prop:traced-gauss",
+    "title": "Proposition 43.1 (The traced Gauss equation)",
+    "kind": "proposition",
+    "page": "tag/3B2EEFEE/index.html",
+    "canonical_tag": "3E7688AA201F",
+    "anchor": ""
+  },
+  {
+    "tag": "D9EB051D",
+    "label": "cor:surface-jacobi-gauss",
+    "title": "Corollary 43.2 (The Jacobi potential on a minimal surface)",
+    "kind": "corollary",
+    "page": "tag/D9EB051D/index.html",
+    "canonical_tag": "522E4EE726E6",
+    "anchor": ""
+  },
+  {
+    "tag": "635D68BE",
+    "label": "thm:stable-surface-positive-scalar",
+    "title": "Theorem 43.3 (Topology and area of a stable surface in positive scalar curvature)",
+    "kind": "theorem",
+    "page": "tag/635D68BE/index.html",
+    "canonical_tag": "478117A3A30D",
+    "anchor": ""
+  },
+  {
+    "tag": "4565D741",
+    "label": "prop:stable-torus-rigidity",
+    "title": "Proposition 43.4 (Rigidity of a stable torus under nonnegative scalar curvature)",
+    "kind": "proposition",
+    "page": "tag/4565D741/index.html",
+    "canonical_tag": "EBC1C1900387",
+    "anchor": ""
+  },
+  {
+    "tag": "9B7913DC",
+    "label": "ex:flat-stable-torus",
+    "title": "Example 43.5 (A flat stable torus)",
+    "kind": "example",
+    "page": "tag/9B7913DC/index.html",
+    "canonical_tag": "785CBF422ACB",
+    "anchor": ""
+  },
+  {
+    "tag": "D891B149",
+    "label": "ex:stable-projective-plane",
+    "title": "Example 43.6 (Why orientability is a separate hypothesis)",
+    "kind": "example",
+    "page": "tag/D891B149/index.html",
+    "canonical_tag": "1FEFF0FF3A61",
+    "anchor": ""
+  },
+  {
+    "tag": "CBC0D6A2",
+    "label": "sec:log-cutoffs-bernstein",
+    "title": "44 Logarithmic cutoffs and the Bernstein theorem",
+    "kind": "chapter",
+    "page": "tag/CBC0D6A2/index.html",
+    "canonical_tag": "1F07836348F7",
+    "anchor": ""
+  },
+  {
+    "tag": "2F94AAE2",
+    "label": "def:zero-capacity-cutoffs",
+    "title": "Definition 44.1 (Exhausting cutoffs with vanishing Dirichlet energy)",
+    "kind": "definition",
+    "page": "tag/2F94AAE2/index.html",
+    "canonical_tag": "428ADAED15DA",
+    "anchor": ""
+  },
+  {
+    "tag": "1B6FC74A",
+    "label": "prop:capacity-stability-rigidity",
+    "title": "Proposition 44.2 (A nonnegative stability potential vanishes under small-energy cutoffs)",
+    "kind": "proposition",
+    "page": "tag/1B6FC74A/index.html",
+    "canonical_tag": "58F6D1EE7150",
+    "anchor": ""
+  },
+  {
+    "tag": "3551D3D5",
+    "label": "prop:quadratic-growth-cutoffs",
+    "title": "Proposition 44.3 (Quadratic area growth gives logarithmic cutoffs)",
+    "kind": "proposition",
+    "page": "tag/3551D3D5/index.html",
+    "canonical_tag": "80D85FC586A0",
+    "anchor": ""
+  },
+  {
+    "tag": "DE1A0A21",
+    "label": "thm:stable-bernstein-quadratic",
+    "title": "Theorem 44.4 (Stable Bernstein with quadratic area growth)",
+    "kind": "theorem",
+    "page": "tag/DE1A0A21/index.html",
+    "canonical_tag": "A5EAD6B995B6",
+    "anchor": ""
+  },
+  {
+    "tag": "661D988D",
+    "label": "prop:entire-graph-area-growth",
+    "title": "Proposition 44.5 (Uniform area growth for an entire minimal graph)",
+    "kind": "proposition",
+    "page": "tag/661D988D/index.html",
+    "canonical_tag": "2D3AB8786897",
+    "anchor": ""
+  },
+  {
+    "tag": "39F4B208",
+    "label": "thm:bernstein-plane-graph",
+    "title": "Theorem 44.6 (Bernstein's theorem for an entire graph over the plane)",
+    "kind": "theorem",
+    "page": "tag/39F4B208/index.html",
+    "canonical_tag": "1087ACBCE404",
+    "anchor": ""
+  },
+  {
+    "tag": "FDEB9043",
+    "label": "ex:scherk-bernstein-scope",
+    "title": "Example 44.7 (A stable graph need not be an entire graph)",
+    "kind": "example",
+    "page": "tag/FDEB9043/index.html",
+    "canonical_tag": "729C4A9152CC",
+    "anchor": ""
+  },
+  {
+    "tag": "1188E22A",
+    "label": "sec:stable-cones",
+    "title": "45 Smooth links and stable minimal cones",
+    "kind": "chapter",
+    "page": "tag/1188E22A/index.html",
+    "canonical_tag": "0464EFF09404",
+    "anchor": ""
+  },
+  {
+    "tag": "4F48183B",
+    "label": "def:smooth-link-cone",
+    "title": "Definition 45.1 (The cone over a spherical hypersurface)",
+    "kind": "definition",
+    "page": "tag/4F48183B/index.html",
+    "canonical_tag": "016DAF7407ED",
+    "anchor": ""
+  },
+  {
+    "tag": "4C85E892",
+    "label": "prop:cone-geometry",
+    "title": "Proposition 45.2 (Metric, curvature, and Laplacian of a cone)",
+    "kind": "proposition",
+    "page": "tag/4C85E892/index.html",
+    "canonical_tag": "F3105662B738",
+    "anchor": ""
+  },
+  {
+    "tag": "8D72F6E0",
+    "label": "def:cone-punctured-stability",
+    "title": "Definition 45.3 (Stability away from a cone vertex)",
+    "kind": "definition",
+    "page": "tag/8D72F6E0/index.html",
+    "canonical_tag": "7D56079904BC",
+    "anchor": ""
+  },
+  {
+    "tag": "11F19F90",
+    "label": "lem:radial-hardy",
+    "title": "Lemma 45.4 (The sharp radial Hardy inequality)",
+    "kind": "lemma",
+    "page": "tag/11F19F90/index.html",
+    "canonical_tag": "B401AC1A32A6",
+    "anchor": ""
+  },
+  {
+    "tag": "D752C996",
+    "label": "def:link-rayleigh",
+    "title": "Definition 45.5 (The spherical link Rayleigh quotient)",
+    "kind": "definition",
+    "page": "tag/D752C996/index.html",
+    "canonical_tag": "C3BBE589F9AC",
+    "anchor": ""
+  },
+  {
+    "tag": "0F473137",
+    "label": "prop:cone-spectral-stability",
+    "title": "Proposition 45.6 (The spectral criterion for cone stability)",
+    "kind": "proposition",
+    "page": "tag/0F473137/index.html",
+    "canonical_tag": "2C4122B9D586",
+    "anchor": ""
+  },
+  {
+    "tag": "8E9ABD45",
+    "label": "ex:clifford-cone-stability",
+    "title": "Example 45.7 (Product-sphere links and the dimension-seven threshold)",
+    "kind": "example",
+    "page": "tag/8E9ABD45/index.html",
+    "canonical_tag": "BD8080CF7EC4",
+    "anchor": ""
+  },
+  {
+    "tag": "A06B026F",
+    "label": "thm:spherical-simons",
+    "title": "Theorem 45.8 (Simons identity for a minimal spherical hypersurface)",
+    "kind": "theorem",
+    "page": "tag/A06B026F/index.html",
+    "canonical_tag": "8B46D4CA80AE",
+    "anchor": ""
+  },
+  {
+    "tag": "227944E7",
+    "label": "prop:nonflat-link-rayleigh",
+    "title": "Proposition 45.9 (An upper bound for the nonflat link Rayleigh value)",
+    "kind": "proposition",
+    "page": "tag/227944E7/index.html",
+    "canonical_tag": "40C07F2B543A",
+    "anchor": ""
+  },
+  {
+    "tag": "49197434",
+    "label": "thm:simons-smooth-link-cones",
+    "title": "Theorem 45.10 (Stable cones with smooth links are flat in dimensions at most six)",
+    "kind": "theorem",
+    "page": "tag/49197434/index.html",
+    "canonical_tag": "0574E4F9C647",
+    "anchor": ""
   }
 ]

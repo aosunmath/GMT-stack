@@ -1197,6 +1197,185 @@
     "tag": "0B9CCB2E229B"
   },
   {
+    "route": "sections/stability-and-scalar-curvature",
+    "title": "7.7 Stability and scalar curvature",
+    "chapter": "minimal-surfaces",
+    "section": "stability-and-scalar-curvature"
+  },
+  {
+    "route": "tag/3E7688AA201F",
+    "title": "Proposition 7.7.1 (The traced Gauss equation)",
+    "chapter": "minimal-surfaces",
+    "section": "stability-and-scalar-curvature",
+    "tag": "3E7688AA201F"
+  },
+  {
+    "route": "tag/522E4EE726E6",
+    "title": "Corollary 7.7.2 (The Jacobi potential on a minimal surface)",
+    "chapter": "minimal-surfaces",
+    "section": "stability-and-scalar-curvature",
+    "tag": "522E4EE726E6"
+  },
+  {
+    "route": "tag/478117A3A30D",
+    "title": "Theorem 7.7.3 (Topology and area of a stable surface in positive scalar curvature)",
+    "chapter": "minimal-surfaces",
+    "section": "stability-and-scalar-curvature",
+    "tag": "478117A3A30D"
+  },
+  {
+    "route": "tag/EBC1C1900387",
+    "title": "Proposition 7.7.4 (Rigidity of a stable torus under nonnegative scalar curvature)",
+    "chapter": "minimal-surfaces",
+    "section": "stability-and-scalar-curvature",
+    "tag": "EBC1C1900387"
+  },
+  {
+    "route": "tag/785CBF422ACB",
+    "title": "Example 7.7.5 (A flat stable torus)",
+    "chapter": "minimal-surfaces",
+    "section": "stability-and-scalar-curvature",
+    "tag": "785CBF422ACB"
+  },
+  {
+    "route": "tag/1FEFF0FF3A61",
+    "title": "Example 7.7.6 (Why orientability is a separate hypothesis)",
+    "chapter": "minimal-surfaces",
+    "section": "stability-and-scalar-curvature",
+    "tag": "1FEFF0FF3A61"
+  },
+  {
+    "route": "sections/logarithmic-cutoffs-and-the-bernstein-theorem",
+    "title": "7.8 Logarithmic cutoffs and the Bernstein theorem",
+    "chapter": "minimal-surfaces",
+    "section": "logarithmic-cutoffs-and-the-bernstein-theorem"
+  },
+  {
+    "route": "tag/428ADAED15DA",
+    "title": "Definition 7.8.1 (Exhausting cutoffs with vanishing Dirichlet energy)",
+    "chapter": "minimal-surfaces",
+    "section": "logarithmic-cutoffs-and-the-bernstein-theorem",
+    "tag": "428ADAED15DA"
+  },
+  {
+    "route": "tag/58F6D1EE7150",
+    "title": "Proposition 7.8.2 (A nonnegative stability potential vanishes under small-energy cutoffs)",
+    "chapter": "minimal-surfaces",
+    "section": "logarithmic-cutoffs-and-the-bernstein-theorem",
+    "tag": "58F6D1EE7150"
+  },
+  {
+    "route": "tag/80D85FC586A0",
+    "title": "Proposition 7.8.3 (Quadratic area growth gives logarithmic cutoffs)",
+    "chapter": "minimal-surfaces",
+    "section": "logarithmic-cutoffs-and-the-bernstein-theorem",
+    "tag": "80D85FC586A0"
+  },
+  {
+    "route": "tag/A5EAD6B995B6",
+    "title": "Theorem 7.8.4 (Stable Bernstein with quadratic area growth)",
+    "chapter": "minimal-surfaces",
+    "section": "logarithmic-cutoffs-and-the-bernstein-theorem",
+    "tag": "A5EAD6B995B6"
+  },
+  {
+    "route": "tag/2D3AB8786897",
+    "title": "Proposition 7.8.5 (Uniform area growth for an entire minimal graph)",
+    "chapter": "minimal-surfaces",
+    "section": "logarithmic-cutoffs-and-the-bernstein-theorem",
+    "tag": "2D3AB8786897"
+  },
+  {
+    "route": "tag/1087ACBCE404",
+    "title": "Theorem 7.8.6 (Bernstein's theorem for an entire graph over the plane)",
+    "chapter": "minimal-surfaces",
+    "section": "logarithmic-cutoffs-and-the-bernstein-theorem",
+    "tag": "1087ACBCE404"
+  },
+  {
+    "route": "tag/729C4A9152CC",
+    "title": "Example 7.8.7 (A stable graph need not be an entire graph)",
+    "chapter": "minimal-surfaces",
+    "section": "logarithmic-cutoffs-and-the-bernstein-theorem",
+    "tag": "729C4A9152CC"
+  },
+  {
+    "route": "sections/smooth-links-and-stable-minimal-cones",
+    "title": "7.9 Smooth links and stable minimal cones",
+    "chapter": "minimal-surfaces",
+    "section": "smooth-links-and-stable-minimal-cones"
+  },
+  {
+    "route": "tag/016DAF7407ED",
+    "title": "Definition 7.9.1 (The cone over a spherical hypersurface)",
+    "chapter": "minimal-surfaces",
+    "section": "smooth-links-and-stable-minimal-cones",
+    "tag": "016DAF7407ED"
+  },
+  {
+    "route": "tag/F3105662B738",
+    "title": "Proposition 7.9.2 (Metric, curvature, and Laplacian of a cone)",
+    "chapter": "minimal-surfaces",
+    "section": "smooth-links-and-stable-minimal-cones",
+    "tag": "F3105662B738"
+  },
+  {
+    "route": "tag/7D56079904BC",
+    "title": "Definition 7.9.3 (Stability away from a cone vertex)",
+    "chapter": "minimal-surfaces",
+    "section": "smooth-links-and-stable-minimal-cones",
+    "tag": "7D56079904BC"
+  },
+  {
+    "route": "tag/B401AC1A32A6",
+    "title": "Lemma 7.9.4 (The sharp radial Hardy inequality)",
+    "chapter": "minimal-surfaces",
+    "section": "smooth-links-and-stable-minimal-cones",
+    "tag": "B401AC1A32A6"
+  },
+  {
+    "route": "tag/C3BBE589F9AC",
+    "title": "Definition 7.9.5 (The spherical link Rayleigh quotient)",
+    "chapter": "minimal-surfaces",
+    "section": "smooth-links-and-stable-minimal-cones",
+    "tag": "C3BBE589F9AC"
+  },
+  {
+    "route": "tag/2C4122B9D586",
+    "title": "Proposition 7.9.6 (The spectral criterion for cone stability)",
+    "chapter": "minimal-surfaces",
+    "section": "smooth-links-and-stable-minimal-cones",
+    "tag": "2C4122B9D586"
+  },
+  {
+    "route": "tag/BD8080CF7EC4",
+    "title": "Example 7.9.7 (Product-sphere links and the dimension-seven threshold)",
+    "chapter": "minimal-surfaces",
+    "section": "smooth-links-and-stable-minimal-cones",
+    "tag": "BD8080CF7EC4"
+  },
+  {
+    "route": "tag/8B46D4CA80AE",
+    "title": "Theorem 7.9.8 (Simons identity for a minimal spherical hypersurface)",
+    "chapter": "minimal-surfaces",
+    "section": "smooth-links-and-stable-minimal-cones",
+    "tag": "8B46D4CA80AE"
+  },
+  {
+    "route": "tag/40C07F2B543A",
+    "title": "Proposition 7.9.9 (An upper bound for the nonflat link Rayleigh value)",
+    "chapter": "minimal-surfaces",
+    "section": "smooth-links-and-stable-minimal-cones",
+    "tag": "40C07F2B543A"
+  },
+  {
+    "route": "tag/0574E4F9C647",
+    "title": "Theorem 7.9.10 (Stable cones with smooth links are flat in dimensions at most six)",
+    "chapter": "minimal-surfaces",
+    "section": "smooth-links-and-stable-minimal-cones",
+    "tag": "0574E4F9C647"
+  },
+  {
     "route": "chapters/min-max-theory",
     "title": "8 Min-max theory",
     "chapter": "min-max-theory"
