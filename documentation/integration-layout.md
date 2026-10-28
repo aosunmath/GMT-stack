@@ -1,6 +1,6 @@
 # Integration layout and numbering
 
-The active reference is an original local manuscript in `content/gmt-foundations/`. `collection.json` places its 29 subject sections in 15 chapters. See [classical sources](classical-sources.md), [variational sources](variational-sources.md), and [the library expansion](library-expansion.md) for editions, conventions, and proof coverage. Project identity is centralized in `scripts/project.py`; preserve existing tags, source slugs, and URLs when changing display titles.
+The active reference is an original local manuscript in `content/gmt-foundations/`. `collection.json` places its 33 subject sections in 15 chapters. See [classical sources](classical-sources.md), [variational sources](variational-sources.md), [the library expansion](library-expansion.md), and [the regularity expansion](regularity-expansion.md) for editions, conventions, and proof coverage. Project identity is centralized in `scripts/project.py`; preserve existing tags, source slugs, and URLs when changing display titles.
 
 ## Reading structure
 

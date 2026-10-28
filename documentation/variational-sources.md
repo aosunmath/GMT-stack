@@ -2,7 +2,7 @@
 
 The expanded reference is **Stack Project of Geometric Measure Theory and Variational Problems**. It includes the classical GMT foundation and branches for minimal surfaces, min-max theory, the volume spectrum, CMC surfaces, phase transitions, obstacle problems, and mean curvature flows. The Introduction retains the former `orientation` route and all pre-existing tags.
 
-The first variational expansion contained 84 mathematical/editorial entries in 22 sections and 14 chapters. Seventeen entries include local proofs; eighteen are cited theorems with external proofs. Definitions, examples, and editorial dependency maps make up the remainder. No independent human review or formal verification is recorded. That edition's count of 106 addressable entries also included its 22 section headings. See [the later library expansion](library-expansion.md) for current coverage.
+The first variational expansion contained 84 mathematical/editorial entries in 22 sections and 14 chapters. Seventeen entries include local proofs; eighteen are cited theorems with external proofs. Definitions, examples, and editorial dependency maps make up the remainder. No independent human review or formal verification is recorded. That edition's count of 106 addressable entries also included its 22 section headings. See [the library expansion](library-expansion.md) and [the regularity expansion](regularity-expansion.md) for later coverage.
 
 ## The sixteen additional supplied references
 

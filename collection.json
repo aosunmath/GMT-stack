@@ -50,8 +50,11 @@
       "tag": "F862A2ECABE2",
       "topics": [
         "varifolds-and-first-variation",
-        "integral-compactness-and-mod-two-compatibility"
-      ]
+        "integral-compactness-and-mod-two-compatibility",
+        "tangent-cones-and-stratification",
+        "excess-and-allard-regularity"
+      ],
+      "description": "First variation, integral compactness, tangent cones, stratification, excess, and Allard regularity."
     },
     {
       "slug": "minimal-surfaces",
@@ -61,9 +64,11 @@
         "minimal-hypersurfaces-and-stability",
         "minimal-graphs-and-elliptic-regularity",
         "compactness-with-bounded-area-and-index",
-        "sobolev-and-isoperimetric-inequalities"
+        "sobolev-and-isoperimetric-inequalities",
+        "elliptic-estimates-for-weak-solutions",
+        "positive-jacobi-fields-and-graphical-convergence"
       ],
-      "description": "Variations, stability, minimal graphs, compactness with bounded index, and geometric inequalities."
+      "description": "Variations, minimal graphs, elliptic estimates, comparison, calibrations, Jacobi fields, compactness, and geometric inequalities."
     },
     {
       "slug": "min-max-theory",

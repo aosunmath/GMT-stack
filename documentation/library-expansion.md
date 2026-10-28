@@ -1,6 +1,6 @@
 # Library expansion and reader changes
 
-The October 28, 2026 expansion adds 26 entries: ten cited theorems, three local proofs, definitions and examples, and six historical notes. The manuscript now has 110 mathematical and historical entries in 29 sections and 15 chapters. There are 20 local proofs and 28 cited theorems with external proofs. The reader counts 139 addressable entries, including section headings. No independent human review or formal verification is claimed.
+The October 28, 2026 expansion adds 26 entries: ten cited theorems, three local proofs, definitions and examples, and six historical notes. At that stage the manuscript had 110 mathematical and historical entries in 29 sections and 15 chapters. That edition had 20 local proofs and 28 cited theorems with external proofs. The reader counted 139 addressable entries, including section headings. No independent human review or formal verification is claimed.
 
 ## Reader behavior
 
@@ -37,3 +37,5 @@ The latest batch contains 103 files. Thirteen were already registered. Together 
 Unreviewed catalogue metadata is identified as filename-derived. In particular, the nonlinear heat and Schrödinger papers are retained as possible analytic background; their claims are not transferred into geometric flow theory. Hyperbolic surfaces, periodic surfaces, gluing, free-boundary problems, singular constructions, and other branches require subsequent source-specific work.
 
 The additions retain dimensions, topology, coefficient group, curvature and genericity assumptions. Sharp compactness is not asserted from index alone. Zhou's statement concerns an appropriate realization of the mod-two volume spectrum, not every critical varifold. Equidistribution uses total area in its denominator. Brendle's sharp constant is restricted to codimension at most two. The 2020 generic-flow preprint is not represented as a current unconditional classification of all singularities.
+
+The subsequent [regularity expansion](regularity-expansion.md) develops compressed summaries into separate statements and updates the current counts.
