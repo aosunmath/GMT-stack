@@ -31,7 +31,8 @@
         "Chapter 6, Section 4, pp. 180--185: geometric and distributional slicing, orientation, and mass bounds",
         "Chapter 2, Theorem 7.3 and Remark 7.4, pp. 76--79: manifold and weighted coarea",
         "Chapter 3, Section 2, pp. 92--94: tangential differentiation, weighted area/coarea, and rectifiable fibers",
-        "Chapter 8, equations (2.1)--(2.10), pp. 238--240; radial first variation and monotonicity (3.3)--(3.6), pp. 240--241"
+        "Chapter 8, equations (2.1)--(2.10), pp. 238--240; radial first variation and monotonicity (3.3)--(3.6), pp. 240--241",
+        "Chapter 1, Sections 1--2, pp. 1--13: Borel regularity and real-exponent Hausdorff coverings, used for directly proved atomic, concentration, oscillation and Cantor examples."
       ]
     },
     {
@@ -317,7 +318,8 @@
         "Proposition 26.1 and Lemma 26.5--Corollary 26.6, pp. 64--68: spectral cone criterion and Simons dimension restriction, with smooth links and nonflatness made explicit",
         "Section 16, Definition 16.1, Theorem 16.2 and Example 16.5, p. 46: calibration and complex curves",
         "Section 17, Theorem 17.1 and Exercise 17.1, pp. 48--50: subcalibration, signed divergence, and vertex cutoff; p. 49 visually checked",
-        "Section 33, pp. 79--82: normalized gaps, averaged normal-graph linearization, positive Jacobi fields and removable puncture stability; Appendices A--B, pp. 86--87: external Schauder/Harnack inputs. Pages 80 and 87 rendered; nonnegativity and interior margin made explicit in the Harnack statement."
+        "Section 33, pp. 79--82: normalized gaps, averaged normal-graph linearization, positive Jacobi fields and removable puncture stability; Appendices A--B, pp. 86--87: external Schauder/Harnack inputs. Pages 80 and 87 rendered; nonnegativity and interior margin made explicit in the Harnack statement.",
+        "Sections 13--15, pp. 35--45: classical examples, rotational ODE, catenoid, helicoid, conformal harmonic criterion, associate family and period obstruction, Enneper surface. Flux constants and polynomial normalization rederived locally."
       ]
     },
     {
@@ -1614,7 +1616,8 @@
         "Section 6, pp. 11--12",
         "Section 9, Definition 9.1 and Theorems 9.3--9.8, pp. 21--24",
         "Section 10, pp. 29--32",
-        "Section 11, distinction between backward regularity and a two-sided regular point, p. 32"
+        "Section 11, distinction between backward regularity and a two-sided regular point, p. 32",
+        "Section 1.1, Theorem 1.1, pp. 2–3: area derivative for embedded curve shortening, used for the exact ancient oval."
       ]
     },
     {
@@ -1698,6 +1701,74 @@
         "Theorem 1.2, p. 123",
         "Section 2, pp. 125–129, especially Proposition 2.9, Remark 2.11, Proposition 2.12 and the nontrivial-Killing-mode premise preceding Proposition 2.13",
         "Section 3, Lemmas 3.3–3.4, Remark 3.5, and the spherical case of Theorem 1.2, pp. 129–131"
+      ]
+    },
+    {
+      "bibliography_key": "HIMW19",
+      "filename": "notes-tr.pdf",
+      "title": "Notes on Translating Solitons for Mean Curvature Flow",
+      "author": "David Hoffman, Tom Ilmanen, Francisco Martín, Brian White",
+      "edition": "Author-hosted manuscript dated January 15, 2019; retrieved October 28, 2026",
+      "sha256": "5aad674466254508d36d04ed93cc4cf8bae4c5cab13ebe3b78b070c5cd541aa1",
+      "pdf_pages": 20,
+      "url": "https://www.ugr.es/local/fmartin/dvi/notes-tr.pdf",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "metadata_status": "source-checked",
+      "role": "Translator examples, sign conventions and weighted area; explicit local calculations are supplied in the Examples chapter. Global classification theorems are not imported.",
+      "checked_passages": [
+        "Example 1.6, p. 4; Section 3, equation (3.2) and Proposition 3.2, pp. 7--8; Section 4, p. 10: bowl terminology and radial-model context. Downward velocity converted to upward velocity."
+      ]
+    },
+    {
+      "bibliography_key": "CSS07",
+      "filename": "ocs019.pdf",
+      "title": "Stability of Translating Solutions to Mean Curvature Flow",
+      "author": "Julie Clutterbuck, Oliver C. Schnürer, Felix Schulze",
+      "edition": "Author-hosted September 2005 manuscript, 12 pages; later published in Calculus of Variations and PDE 29 (2007), 281–293",
+      "sha256": "d35e2e925175d1eae0789cd0bb230d228082a297916d5c80d5cfdfb0acd4e526",
+      "pdf_pages": 12,
+      "url": "https://www.math.uni-konstanz.de/~schnuere/fub/ocs019.pdf",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "metadata_status": "source-checked",
+      "role": "Rotational translator equation, global bowl construction and asymptotic barriers. Local singular-endpoint existence and the additive height constant are supplied explicitly. Dynamical stability is not imported.",
+      "checked_passages": [
+        "Section 2, equation (2.1), Lemmas 2.1–2.2, pp. 3–5: radial slope equation, continuation, barriers, and asymptotic expansion."
+      ]
+    },
+    {
+      "bibliography_key": "Hal12",
+      "filename": "Hal12.pdf",
+      "title": "Self-similar solutions to the curve shortening flow",
+      "author": "Hoeskuldur P. Halldorsson",
+      "edition": "arXiv:1007.1617v2, December 14, 2012",
+      "sha256": "585906cf9244c5c6fb6176776967ad544bad413f005cb3bd71b7bef95484e953",
+      "pdf_pages": 25,
+      "url": "https://arxiv.org/abs/1007.1617v2",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "metadata_status": "source-checked",
+      "role": "Planar expanding soliton context; graph construction, slope estimates and conical trace are proved directly.",
+      "checked_passages": [
+        "Section 6, pp. 14–15: expanding curves, symmetry, curvature and asymptotic cones; project uses coefficient 1/2 rather than source coefficient 1."
+      ]
+    },
+    {
+      "bibliography_key": "BV11",
+      "filename": "BV11.pdf",
+      "title": "The Role of Symmetry and Separation in Surface Evolution and Curve Shortening",
+      "author": "Philip Broadbridge, Peter Vassiliou",
+      "edition": "SIGMA 7 (2011), 052; published June 1, 2011",
+      "sha256": "dccda1addf859f5bebaaf1071119820e79e0a4918d9aa184ea42c4fc65b8c383",
+      "pdf_pages": 19,
+      "url": "https://www.emis.de/journals/SIGMA/2011/052/sigma11-052.pdf",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "metadata_status": "source-checked",
+      "role": "Exact ancient oval formula and model limits; evolution and asymptotics checked by direct calculation.",
+      "checked_passages": [
+        "Section 3.1, pp. 6–7, especially equation (14): implicit ancient oval, curvature extrema and backward grim-reaper limits. The backward error is rederived as O(e^(2t)) on compact horizontal intervals."
       ]
     }
   ],

@@ -4835,6 +4835,404 @@
     "tag": "C5CCD5D00E73"
   },
   {
+    "route": "chapters/examples",
+    "title": "16 Examples",
+    "chapter": "examples"
+  },
+  {
+    "route": "sections/atomic-diffuse-and-singular-measures",
+    "title": "16.1 Atomic, diffuse, and singular measures",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures"
+  },
+  {
+    "route": "tag/A7AFF33C67FA",
+    "title": "Example 16.1.1 (A measure can be atomic and have an interval as support)",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures",
+    "tag": "A7AFF33C67FA"
+  },
+  {
+    "route": "tag/315BC1BE84A5",
+    "title": "Example 16.1.2 (Concentration of absolutely continuous measures)",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures",
+    "tag": "315BC1BE84A5"
+  },
+  {
+    "route": "tag/72CA99D2039A",
+    "title": "Example 16.1.3 (Mass escapes through infinity or a domain boundary)",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures",
+    "tag": "72CA99D2039A"
+  },
+  {
+    "route": "tag/1CE8BCF4FD05",
+    "title": "Example 16.1.4 (Weak convergence does not imply convergence on every Borel set)",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures",
+    "tag": "1CE8BCF4FD05"
+  },
+  {
+    "route": "tag/60C0FD0D3245",
+    "title": "Example 16.1.5 (Oscillating densities can average without converging in norm)",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures",
+    "tag": "60C0FD0D3245"
+  },
+  {
+    "route": "tag/9D0DB6B0C777",
+    "title": "Definition 16.1.6 (The middle-thirds Cantor set and its probability measure)",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures",
+    "tag": "9D0DB6B0C777"
+  },
+  {
+    "route": "tag/DCBE26BC98C4",
+    "title": "Proposition 16.1.7 (Cylinder masses and singular continuity)",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures",
+    "tag": "DCBE26BC98C4"
+  },
+  {
+    "route": "tag/4C394463E8E0",
+    "title": "Proposition 16.1.8 (Power-law bounds for the Cantor measure)",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures",
+    "tag": "4C394463E8E0"
+  },
+  {
+    "route": "tag/7E12771384C9",
+    "title": "Definition 16.1.9 (Hausdorff dimension via diameter covers)",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures",
+    "tag": "7E12771384C9"
+  },
+  {
+    "route": "tag/E16EF71E7152",
+    "title": "Proposition 16.1.10 (The Cantor set has a noninteger dimension)",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures",
+    "tag": "E16EF71E7152"
+  },
+  {
+    "route": "tag/2C0749FA806B",
+    "title": "Example 16.1.11 (The Cantor function has a singular distributional derivative)",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures",
+    "tag": "2C0749FA806B"
+  },
+  {
+    "route": "tag/26512807DFDC",
+    "title": "Example 16.1.12 (Diffuse approximations to a singular continuous measure)",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures",
+    "tag": "26512807DFDC"
+  },
+  {
+    "route": "tag/8C2551B95ECF",
+    "title": "Example 16.1.13 (Three mutually singular components in one measure)",
+    "chapter": "examples",
+    "section": "atomic-diffuse-and-singular-measures",
+    "tag": "8C2551B95ECF"
+  },
+  {
+    "route": "sections/classical-minimal-surfaces-by-calculation",
+    "title": "16.2 Classical minimal surfaces by calculation",
+    "chapter": "examples",
+    "section": "classical-minimal-surfaces-by-calculation"
+  },
+  {
+    "route": "tag/7EC638CD7556",
+    "title": "Lemma 16.2.1 (A conformal harmonic immersion is minimal)",
+    "chapter": "examples",
+    "section": "classical-minimal-surfaces-by-calculation",
+    "tag": "7EC638CD7556"
+  },
+  {
+    "route": "tag/86A763EE2A08",
+    "title": "Example 16.2.2 (The catenoid: an embedded complete minimal annulus)",
+    "chapter": "examples",
+    "section": "classical-minimal-surfaces-by-calculation",
+    "tag": "86A763EE2A08"
+  },
+  {
+    "route": "tag/EF8AF6254F91",
+    "title": "Lemma 16.2.3 (Gauss curvature in a conformal chart)",
+    "chapter": "examples",
+    "section": "classical-minimal-surfaces-by-calculation",
+    "tag": "EF8AF6254F91"
+  },
+  {
+    "route": "tag/CEB8A54C4892",
+    "title": "Proposition 16.2.4 (Curvature and total curvature of the catenoid)",
+    "chapter": "examples",
+    "section": "classical-minimal-surfaces-by-calculation",
+    "tag": "CEB8A54C4892"
+  },
+  {
+    "route": "tag/4CEC3FE383CD",
+    "title": "Proposition 16.2.5 (The complete catenoid is unstable)",
+    "chapter": "examples",
+    "section": "classical-minimal-surfaces-by-calculation",
+    "tag": "4CEC3FE383CD"
+  },
+  {
+    "route": "tag/242AF4A13F4C",
+    "title": "Proposition 16.2.6 (Rotational minimal hypersurfaces and their first integral)",
+    "chapter": "examples",
+    "section": "classical-minimal-surfaces-by-calculation",
+    "tag": "242AF4A13F4C"
+  },
+  {
+    "route": "tag/E86BB8933722",
+    "title": "Example 16.2.7 (Higher-dimensional catenoids fit in a finite-height slab)",
+    "chapter": "examples",
+    "section": "classical-minimal-surfaces-by-calculation",
+    "tag": "E86BB8933722"
+  },
+  {
+    "route": "tag/FEE5C0B5B785",
+    "title": "Example 16.2.8 (The helicoid: a complete embedded minimal plane)",
+    "chapter": "examples",
+    "section": "classical-minimal-surfaces-by-calculation",
+    "tag": "FEE5C0B5B785"
+  },
+  {
+    "route": "tag/71B33AFD8411",
+    "title": "Proposition 16.2.9 (The catenoid-helicoid association and its period obstruction)",
+    "chapter": "examples",
+    "section": "classical-minimal-surfaces-by-calculation",
+    "tag": "71B33AFD8411"
+  },
+  {
+    "route": "tag/6DA30A5B8CCE",
+    "title": "Example 16.2.10 (Enneper's surface is immersed and complete but not embedded)",
+    "chapter": "examples",
+    "section": "classical-minimal-surfaces-by-calculation",
+    "tag": "6DA30A5B8CCE"
+  },
+  {
+    "route": "tag/0E09360CBF09",
+    "title": "Proposition 16.2.11 (Total curvature counts the parameter surface)",
+    "chapter": "examples",
+    "section": "classical-minimal-surfaces-by-calculation",
+    "tag": "0E09360CBF09"
+  },
+  {
+    "route": "tag/A15C2808E10E",
+    "title": "Remark 16.2.12 (Other explicit models already developed in the project)",
+    "chapter": "examples",
+    "section": "classical-minimal-surfaces-by-calculation",
+    "tag": "A15C2808E10E"
+  },
+  {
+    "route": "sections/explicit-solitons-and-translating-graphs",
+    "title": "16.3 Explicit solitons and translating graphs",
+    "chapter": "examples",
+    "section": "explicit-solitons-and-translating-graphs"
+  },
+  {
+    "route": "tag/9F6515E0EAAB",
+    "title": "Proposition 16.3.1 (The scale and time interval of a homothetic soliton)",
+    "chapter": "examples",
+    "section": "explicit-solitons-and-translating-graphs",
+    "tag": "9F6515E0EAAB"
+  },
+  {
+    "route": "tag/2E8C324BE1EA",
+    "title": "Proposition 16.3.2 (Products preserve a soliton equation)",
+    "chapter": "examples",
+    "section": "explicit-solitons-and-translating-graphs",
+    "tag": "2E8C324BE1EA"
+  },
+  {
+    "route": "tag/094E89C237AF",
+    "title": "Example 16.3.3 (Planes, spheres, and cylinders have different motion laws)",
+    "chapter": "examples",
+    "section": "explicit-solitons-and-translating-graphs",
+    "tag": "094E89C237AF"
+  },
+  {
+    "route": "tag/41D469466CE5",
+    "title": "Proposition 16.3.4 (The upward translator equation for a graph)",
+    "chapter": "examples",
+    "section": "explicit-solitons-and-translating-graphs",
+    "tag": "41D469466CE5"
+  },
+  {
+    "route": "tag/05029F510E01",
+    "title": "Proposition 16.3.5 (All translating graphs of curves with nonzero vertical speed)",
+    "chapter": "examples",
+    "section": "explicit-solitons-and-translating-graphs",
+    "tag": "05029F510E01"
+  },
+  {
+    "route": "tag/F553C58629A6",
+    "title": "Example 16.3.6 (Tilted grim-reaper cylinders)",
+    "chapter": "examples",
+    "section": "explicit-solitons-and-translating-graphs",
+    "tag": "F553C58629A6"
+  },
+  {
+    "route": "tag/8F198CC4372E",
+    "title": "Proposition 16.3.7 (A translator's height is a strict elliptic test)",
+    "chapter": "examples",
+    "section": "explicit-solitons-and-translating-graphs",
+    "tag": "8F198CC4372E"
+  },
+  {
+    "route": "tag/65A833ADF759",
+    "title": "Proposition 16.3.8 (Translation as a weighted area problem)",
+    "chapter": "examples",
+    "section": "explicit-solitons-and-translating-graphs",
+    "tag": "65A833ADF759"
+  },
+  {
+    "route": "tag/728A5B325249",
+    "title": "Proposition 16.3.9 (The radial equation at the tip of a bowl translator)",
+    "chapter": "examples",
+    "section": "explicit-solitons-and-translating-graphs",
+    "tag": "728A5B325249"
+  },
+  {
+    "route": "tag/D5EF84E90E72",
+    "title": "Example 16.3.10 (A paraboloid is not an exact bowl translator)",
+    "chapter": "examples",
+    "section": "explicit-solitons-and-translating-graphs",
+    "tag": "D5EF84E90E72"
+  },
+  {
+    "route": "sections/constructing-the-rotational-bowl-soliton",
+    "title": "16.4 Constructing the rotational bowl soliton",
+    "chapter": "examples",
+    "section": "constructing-the-rotational-bowl-soliton"
+  },
+  {
+    "route": "tag/DD2B8469A5C0",
+    "title": "Lemma 16.4.1 (Resolving the radial equation at zero)",
+    "chapter": "examples",
+    "section": "constructing-the-rotational-bowl-soliton",
+    "tag": "DD2B8469A5C0"
+  },
+  {
+    "route": "tag/79D2E1EDDD98",
+    "title": "Lemma 16.4.2 (Linear barriers prevent finite-radius blow-up)",
+    "chapter": "examples",
+    "section": "constructing-the-rotational-bowl-soliton",
+    "tag": "79D2E1EDDD98"
+  },
+  {
+    "route": "tag/9AE533B778E2",
+    "title": "Theorem 16.4.3 (The complete rotational bowl)",
+    "chapter": "examples",
+    "section": "constructing-the-rotational-bowl-soliton",
+    "tag": "9AE533B778E2"
+  },
+  {
+    "route": "tag/9E5E68B20123",
+    "title": "Proposition 16.4.4 (The quadratic growth coefficient of the bowl)",
+    "chapter": "examples",
+    "section": "constructing-the-rotational-bowl-soliton",
+    "tag": "9E5E68B20123"
+  },
+  {
+    "route": "tag/E35E297F2131",
+    "title": "Lemma 16.4.5 (The first slope correction)",
+    "chapter": "examples",
+    "section": "constructing-the-rotational-bowl-soliton",
+    "tag": "E35E297F2131"
+  },
+  {
+    "route": "tag/4218133DBAA6",
+    "title": "Proposition 16.4.6 (A logarithmic correction to the bowl height)",
+    "chapter": "examples",
+    "section": "constructing-the-rotational-bowl-soliton",
+    "tag": "4218133DBAA6"
+  },
+  {
+    "route": "tag/69FAC94BF385",
+    "title": "Corollary 16.4.7 (Translation speed and dilations of the bowl)",
+    "chapter": "examples",
+    "section": "constructing-the-rotational-bowl-soliton",
+    "tag": "69FAC94BF385"
+  },
+  {
+    "route": "sections/expanding-curves-that-smooth-a-corner",
+    "title": "16.5 Expanding curves that smooth a corner",
+    "chapter": "examples",
+    "section": "expanding-curves-that-smooth-a-corner"
+  },
+  {
+    "route": "tag/19BF76D4A84D",
+    "title": "Proposition 16.5.1 (The expander graph equation and its positive defect)",
+    "chapter": "examples",
+    "section": "expanding-curves-that-smooth-a-corner",
+    "tag": "19BF76D4A84D"
+  },
+  {
+    "route": "tag/959A9F743DAB",
+    "title": "Lemma 16.5.2 (The expanding graph has bounded slope)",
+    "chapter": "examples",
+    "section": "expanding-curves-that-smooth-a-corner",
+    "tag": "959A9F743DAB"
+  },
+  {
+    "route": "tag/56C7AF70B331",
+    "title": "Theorem 16.5.3 (A complete convex expander asymptotic to two rays)",
+    "chapter": "examples",
+    "section": "expanding-curves-that-smooth-a-corner",
+    "tag": "56C7AF70B331"
+  },
+  {
+    "route": "tag/643DB83B70AB",
+    "title": "Proposition 16.5.4 (A smooth flow converging uniformly to a corner)",
+    "chapter": "examples",
+    "section": "expanding-curves-that-smooth-a-corner",
+    "tag": "643DB83B70AB"
+  },
+  {
+    "route": "tag/F456929A84ED",
+    "title": "Proposition 16.5.5 (Total curvature and maximum curvature of the expander)",
+    "chapter": "examples",
+    "section": "expanding-curves-that-smooth-a-corner",
+    "tag": "F456929A84ED"
+  },
+  {
+    "route": "sections/an-explicit-ancient-oval",
+    "title": "16.6 An explicit ancient oval",
+    "chapter": "examples",
+    "section": "an-explicit-ancient-oval"
+  },
+  {
+    "route": "tag/413CCED0D734",
+    "title": "Theorem 16.6.1 (The implicit oval is an ancient curve-shortening flow)",
+    "chapter": "examples",
+    "section": "an-explicit-ancient-oval",
+    "tag": "413CCED0D734"
+  },
+  {
+    "route": "tag/C9B55D368ADD",
+    "title": "Proposition 16.6.2 (The ancient oval changes shape)",
+    "chapter": "examples",
+    "section": "an-explicit-ancient-oval",
+    "tag": "C9B55D368ADD"
+  },
+  {
+    "route": "tag/453E1EC89741",
+    "title": "Proposition 16.6.3 (Area and the shrinking-circle limit)",
+    "chapter": "examples",
+    "section": "an-explicit-ancient-oval",
+    "tag": "453E1EC89741"
+  },
+  {
+    "route": "tag/932BFFC222D3",
+    "title": "Proposition 16.6.4 (The two grim-reaper limits backward in time)",
+    "chapter": "examples",
+    "section": "an-explicit-ancient-oval",
+    "tag": "932BFFC222D3"
+  },
+  {
     "route": "entries",
     "title": "All entries"
   },

@@ -1,10 +1,10 @@
 {
   "source": "https://github.com/aosunmath/GMT-stack",
   "kind": "local-manuscript",
-  "source_sha256": "f17ae7a611095d6ef06d75250284117e5cda7bb9af4c45efde079d8eba2401d6",
+  "source_sha256": "03e41fe9a14c38257d9600c0bb545d38a62c3f9b4fefa8396da69d402c410824",
   "files": {
     "allen-cahn.tex": "e83e29527057db852a886628ed3c458c538c48ad6245618ed5e5b68d2035e36c",
-    "book.tex": "356029abe320a09fbcd546b38cfdffa203c986c785f76a897795f5ff5eabd082",
+    "book.tex": "c3ceed345b617e17723d56e540cbbff35482d1ed810d04255a2181a098b032f0",
     "brakke-flow.tex": "9e8ef5dc76e7a4814d1703566e54ece216f0302c47f2cc9339b61f4e278c0f68",
     "bv-coarea.tex": "79110d4ed8d0630caa45ca1a78530bf626bf4d828c65df35770a02bd25a57eff",
     "bv-compactness.tex": "3820bcb702ed7a0da8c69251b0ae7860a576fc1124a7143e4a105510ba58f4bc",
@@ -26,7 +26,13 @@
     "elliptic-tools.tex": "677f7d1d2531604a17c70adeee1074f3577b855c271613e8651c0366bc52f485",
     "entropy-convergence.tex": "c463af2938b9c31c7246234ca5aa0e51bc846f57726e39216e978820ba63a0a2",
     "entropy-perturbations.tex": "791086299f156ae2ce541b46e14d4de0096198b5172dea57491dee4079ba61c3",
-    "entry-review.json": "e4241b2194c6e14415da377157e584f433f507ab8d8d1fbf43de527e2a9e6c58",
+    "entry-review.json": "1eff93d363c067508f3300e2f8af4b255413648cc6644a0684dd0af650fa948d",
+    "examples-ancient-curves.tex": "1b418c0bd50410f1500b0104db5c97a185f36d6ed3cde2e643a5e0e8dca313c2",
+    "examples-bowl.tex": "a4b657dfded72157afe8c7f891e76a53f17d8e1abae19cf293c28f5c22457f7b",
+    "examples-expanders.tex": "de512ce854006953174e6372a81eb488c5c24238233958f04b0e9ae2224d1b4b",
+    "examples-measures.tex": "2a50c7a17f4808c5c1a68f7e04734142d3e4772130e65b881f624aa3b80ec831",
+    "examples-minimal.tex": "df9d259d85780d95729ad2255df209e304fd360929238e50a0ef2dab131872d3",
+    "examples-solitons.tex": "7e091ad67f9623b32d9c884332ab001aeb4496561532b01bd8d0efcc458a54fa",
     "geometric-inequalities.tex": "b082ed97dffc30ff4b17954f6127135999d4fde7ba55327bcaac999e2f656632",
     "history.tex": "56ceb9c3aa6fe2ef05b4a7e2affea072699de2b72510cf738eea57abed1e535f",
     "index-convergence.tex": "b262178288ca00e247d60f07cb315d9d30171654dcc2a69e4389aa4c5f598667",
@@ -45,7 +51,7 @@
     "obstacle-monotonicity.tex": "f044e300ba04029ebda7bae7ce833739f378bd021349dd714fd83c8a0c573bd9",
     "obstacle-problems.tex": "e5f8b649acadf500e5f2bf2bef9802bb9ce5d02486f9c4ead25717e3955bb6c4",
     "obstacle-variational.tex": "c0f072d03898bdcd171896dd805d740398b7da171a24b9881cf3243f3c7f1789",
-    "orientation.tex": "b06f4f3f6cddf9ba4656128994e12a9179f92d82a59946bc677a93bcb6347c62",
+    "orientation.tex": "3cf3dc8ed65cc67d9449b66f0245536a47495f93289595035c122108b15cb1f3",
     "perimeter.tex": "71da28f0765a9d6d9e2076696c3fe0be46f44a4dba755b57091801d00c1c22fe",
     "phase-compactness.tex": "372ff02467fd5ff429ad1f0931d99232ca89a9dc6329388d751fbc545d32da41",
     "phase-energy.tex": "5385234d882e3b405637d424d170e3624e02c8f80eff75a4f3d784d6755090af",
@@ -57,12 +63,12 @@
     "pulltight-deformation.tex": "da5aadbcb26f56b0b8030f686c0f3cafe252a152af7e3fe5a2a21104cfd522ac",
     "puncture-stability.tex": "3f8fa6284f69389361485b72d9dc50abba21e3d0f0f88943963a60a7550d2c58",
     "rectifiability.tex": "d2dc7fa9136c72205b19ee6e166660204a527eb577b2a36701d004ebadc45dec",
-    "references.bib": "c8a937c40b03fc32cccd589ed82e61d7a8165fce51166919e444a551280a2c3a",
+    "references.bib": "fd33b61c66d5e2b056788ed4846215a03ed163cc54faf488bb6c18d860c76ef3",
     "shrinker-calculus.tex": "ea680cd1ce73bd7629a96a817d0e800010732bc55cde1500a45aa9d2afe243c0",
     "shrinker-entropy.tex": "e01cefce78b02eb699d85995dd7cc3652392205b6be7b4d0f09b6f35f47b2546",
     "shrinker-stability.tex": "ea31b7f6478ea9fe5ef3a898e38417577f79f98324a845d911ffccfdfb97b7fd",
     "shrinker-variation.tex": "3c7316ad322600f5f3fd872c30c98cca2faa1d199adc78e9f474586d429fe2a6",
-    "source-inventory.json": "ec7da6fe5d49f36b8dac21f33962cfd6faa8467003fda463633c9f2797618630",
+    "source-inventory.json": "1a42e7feaa6b2fd9648531d58f062420e1e484c8c8a9ff075f6b458696a9b508",
     "stability-applications.tex": "9a08c2f0c3f6a4114106cfe34c2bfa7b28021922604e586ed71efa46917ae443",
     "stable-cones.tex": "9ecf00a60d578fcc88ddab9423c7be02b4c4d93519ac7cc1bd44603c01bd92d5",
     "stratification-proof.tex": "c78ae8ff617b13960d35a41008a68e6e0d25c74e281b36d319ac22f1cf8278ef",
@@ -79,5 +85,5 @@
     "width-metrics.tex": "f90e11b91192d6b13860db2a680f99584d67646f0fcd9ba72891883fc550f293"
   },
   "renderer": "Gerby",
-  "tags": 691
+  "tags": 748
 }

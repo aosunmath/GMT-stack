@@ -6217,5 +6217,518 @@
     "page": "tag/F7554BBE/index.html",
     "canonical_tag": "D0D8708926B9",
     "anchor": ""
+  },
+  {
+    "tag": "07477933",
+    "label": "sec:examples-measures",
+    "title": "86 Atomic, diffuse, and singular measures",
+    "kind": "chapter",
+    "page": "tag/07477933/index.html",
+    "canonical_tag": "60DF2E469FE5",
+    "anchor": ""
+  },
+  {
+    "tag": "2982D33E",
+    "label": "ex:dense-atomic-measure",
+    "title": "Example 86.1 (A measure can be atomic and have an interval as support)",
+    "kind": "example",
+    "page": "tag/2982D33E/index.html",
+    "canonical_tag": "A7AFF33C67FA",
+    "anchor": ""
+  },
+  {
+    "tag": "F387E005",
+    "label": "ex:approximate-identity-dirac",
+    "title": "Example 86.2 (Concentration of absolutely continuous measures)",
+    "kind": "example",
+    "page": "tag/F387E005/index.html",
+    "canonical_tag": "315BC1BE84A5",
+    "anchor": ""
+  },
+  {
+    "tag": "B49233FD",
+    "label": "ex:escaping-mass",
+    "title": "Example 86.3 (Mass escapes through infinity or a domain boundary)",
+    "kind": "example",
+    "page": "tag/B49233FD/index.html",
+    "canonical_tag": "72CA99D2039A",
+    "anchor": ""
+  },
+  {
+    "tag": "DF28B51C",
+    "label": "ex:weak-borel-discontinuity",
+    "title": "Example 86.4 (Weak convergence does not imply convergence on every Borel set)",
+    "kind": "example",
+    "page": "tag/DF28B51C/index.html",
+    "canonical_tag": "1CE8BCF4FD05",
+    "anchor": ""
+  },
+  {
+    "tag": "FD85FD8A",
+    "label": "ex:oscillating-densities",
+    "title": "Example 86.5 (Oscillating densities can average without converging in norm)",
+    "kind": "example",
+    "page": "tag/FD85FD8A/index.html",
+    "canonical_tag": "60C0FD0D3245",
+    "anchor": ""
+  },
+  {
+    "tag": "D5B73E76",
+    "label": "def:cantor-model",
+    "title": "Definition 86.6 (The middle-thirds Cantor set and its probability measure)",
+    "kind": "definition",
+    "page": "tag/D5B73E76/index.html",
+    "canonical_tag": "9D0DB6B0C777",
+    "anchor": ""
+  },
+  {
+    "tag": "BBFB3247",
+    "label": "prop:cantor-cylinder-mass",
+    "title": "Proposition 86.7 (Cylinder masses and singular continuity)",
+    "kind": "proposition",
+    "page": "tag/BBFB3247/index.html",
+    "canonical_tag": "DCBE26BC98C4",
+    "anchor": ""
+  },
+  {
+    "tag": "2D750F45",
+    "label": "prop:cantor-ball-bounds",
+    "title": "Proposition 86.8 (Power-law bounds for the Cantor measure)",
+    "kind": "proposition",
+    "page": "tag/2D750F45/index.html",
+    "canonical_tag": "4C394463E8E0",
+    "anchor": ""
+  },
+  {
+    "tag": "DFB15E1E",
+    "label": "def:hausdorff-dimension-examples",
+    "title": "Definition 86.9 (Hausdorff dimension via diameter covers)",
+    "kind": "definition",
+    "page": "tag/DFB15E1E/index.html",
+    "canonical_tag": "7E12771384C9",
+    "anchor": ""
+  },
+  {
+    "tag": "27697EC7",
+    "label": "prop:cantor-dimension",
+    "title": "Proposition 86.10 (The Cantor set has a noninteger dimension)",
+    "kind": "proposition",
+    "page": "tag/27697EC7/index.html",
+    "canonical_tag": "E16EF71E7152",
+    "anchor": ""
+  },
+  {
+    "tag": "48CA84A6",
+    "label": "ex:cantor-function-bv",
+    "title": "Example 86.11 (The Cantor function has a singular distributional derivative)",
+    "kind": "example",
+    "page": "tag/48CA84A6/index.html",
+    "canonical_tag": "2C0749FA806B",
+    "anchor": ""
+  },
+  {
+    "tag": "8CCAA47E",
+    "label": "ex:cantor-density-approximation",
+    "title": "Example 86.12 (Diffuse approximations to a singular continuous measure)",
+    "kind": "example",
+    "page": "tag/8CCAA47E/index.html",
+    "canonical_tag": "26512807DFDC",
+    "anchor": ""
+  },
+  {
+    "tag": "296DC682",
+    "label": "ex:three-measure-components",
+    "title": "Example 86.13 (Three mutually singular components in one measure)",
+    "kind": "example",
+    "page": "tag/296DC682/index.html",
+    "canonical_tag": "8C2551B95ECF",
+    "anchor": ""
+  },
+  {
+    "tag": "A23CA14F",
+    "label": "sec:examples-minimal",
+    "title": "87 Classical minimal surfaces by calculation",
+    "kind": "chapter",
+    "page": "tag/A23CA14F/index.html",
+    "canonical_tag": "B2914B1772C2",
+    "anchor": ""
+  },
+  {
+    "tag": "82EF3755",
+    "label": "lem:example-conformal-harmonic",
+    "title": "Lemma 87.1 (A conformal harmonic immersion is minimal)",
+    "kind": "lemma",
+    "page": "tag/82EF3755/index.html",
+    "canonical_tag": "7EC638CD7556",
+    "anchor": ""
+  },
+  {
+    "tag": "2CB87726",
+    "label": "ex:explicit-catenoid",
+    "title": "Example 87.2 (The catenoid: an embedded complete minimal annulus)",
+    "kind": "example",
+    "page": "tag/2CB87726/index.html",
+    "canonical_tag": "86A763EE2A08",
+    "anchor": ""
+  },
+  {
+    "tag": "FC98DA6A",
+    "label": "lem:example-conformal-curvature",
+    "title": "Lemma 87.3 (Gauss curvature in a conformal chart)",
+    "kind": "lemma",
+    "page": "tag/FC98DA6A/index.html",
+    "canonical_tag": "EF8AF6254F91",
+    "anchor": ""
+  },
+  {
+    "tag": "9FDEE4F3",
+    "label": "prop:catenoid-curvature-example",
+    "title": "Proposition 87.4 (Curvature and total curvature of the catenoid)",
+    "kind": "proposition",
+    "page": "tag/9FDEE4F3/index.html",
+    "canonical_tag": "CEB8A54C4892",
+    "anchor": ""
+  },
+  {
+    "tag": "C4485EF7",
+    "label": "prop:catenoid-unstable-example",
+    "title": "Proposition 87.5 (The complete catenoid is unstable)",
+    "kind": "proposition",
+    "page": "tag/C4485EF7/index.html",
+    "canonical_tag": "4CEC3FE383CD",
+    "anchor": ""
+  },
+  {
+    "tag": "7DA99E7C",
+    "label": "prop:rotational-catenoid-ode",
+    "title": "Proposition 87.6 (Rotational minimal hypersurfaces and their first integral)",
+    "kind": "proposition",
+    "page": "tag/7DA99E7C/index.html",
+    "canonical_tag": "242AF4A13F4C",
+    "anchor": ""
+  },
+  {
+    "tag": "30C5DD22",
+    "label": "ex:higher-catenoid-height",
+    "title": "Example 87.7 (Higher-dimensional catenoids fit in a finite-height slab)",
+    "kind": "example",
+    "page": "tag/30C5DD22/index.html",
+    "canonical_tag": "E86BB8933722",
+    "anchor": ""
+  },
+  {
+    "tag": "C25E53B8",
+    "label": "ex:explicit-helicoid",
+    "title": "Example 87.8 (The helicoid: a complete embedded minimal plane)",
+    "kind": "example",
+    "page": "tag/C25E53B8/index.html",
+    "canonical_tag": "FEE5C0B5B785",
+    "anchor": ""
+  },
+  {
+    "tag": "6175C2AF",
+    "label": "prop:catenoid-helicoid-associate",
+    "title": "Proposition 87.9 (The catenoid-helicoid association and its period obstruction)",
+    "kind": "proposition",
+    "page": "tag/6175C2AF/index.html",
+    "canonical_tag": "71B33AFD8411",
+    "anchor": ""
+  },
+  {
+    "tag": "258EAA7D",
+    "label": "ex:explicit-enneper",
+    "title": "Example 87.10 (Enneper's surface is immersed and complete but not embedded)",
+    "kind": "example",
+    "page": "tag/258EAA7D/index.html",
+    "canonical_tag": "6DA30A5B8CCE",
+    "anchor": ""
+  },
+  {
+    "tag": "0249ADDA",
+    "label": "prop:enneper-total-curvature",
+    "title": "Proposition 87.11 (Total curvature counts the parameter surface)",
+    "kind": "proposition",
+    "page": "tag/0249ADDA/index.html",
+    "canonical_tag": "0E09360CBF09",
+    "anchor": ""
+  },
+  {
+    "tag": "2FED67A8",
+    "label": "rem:example-minimal-links",
+    "title": "Remark 87.12 (Other explicit models already developed in the project)",
+    "kind": "remark",
+    "page": "tag/2FED67A8/index.html",
+    "canonical_tag": "A15C2808E10E",
+    "anchor": ""
+  },
+  {
+    "tag": "468F145B",
+    "label": "sec:examples-solitons",
+    "title": "88 Explicit solitons and translating graphs",
+    "kind": "chapter",
+    "page": "tag/468F145B/index.html",
+    "canonical_tag": "6E86F2FFEB78",
+    "anchor": ""
+  },
+  {
+    "tag": "7263F520",
+    "label": "prop:example-homothetic-clock",
+    "title": "Proposition 88.1 (The scale and time interval of a homothetic soliton)",
+    "kind": "proposition",
+    "page": "tag/7263F520/index.html",
+    "canonical_tag": "9F6515E0EAAB",
+    "anchor": ""
+  },
+  {
+    "tag": "90E164AB",
+    "label": "prop:example-soliton-product",
+    "title": "Proposition 88.2 (Products preserve a soliton equation)",
+    "kind": "proposition",
+    "page": "tag/90E164AB/index.html",
+    "canonical_tag": "2E8C324BE1EA",
+    "anchor": ""
+  },
+  {
+    "tag": "8BC8CE11",
+    "label": "ex:soliton-model-comparison",
+    "title": "Example 88.3 (Planes, spheres, and cylinders have different motion laws)",
+    "kind": "example",
+    "page": "tag/8BC8CE11/index.html",
+    "canonical_tag": "094E89C237AF",
+    "anchor": ""
+  },
+  {
+    "tag": "42A6413F",
+    "label": "prop:translator-graph-example",
+    "title": "Proposition 88.4 (The upward translator equation for a graph)",
+    "kind": "proposition",
+    "page": "tag/42A6413F/index.html",
+    "canonical_tag": "41D469466CE5",
+    "anchor": ""
+  },
+  {
+    "tag": "360C80AB",
+    "label": "prop:grim-reaper-speed-family",
+    "title": "Proposition 88.5 (All translating graphs of curves with nonzero vertical speed)",
+    "kind": "proposition",
+    "page": "tag/360C80AB/index.html",
+    "canonical_tag": "05029F510E01",
+    "anchor": ""
+  },
+  {
+    "tag": "424F01B4",
+    "label": "ex:tilted-grim-reaper",
+    "title": "Example 88.6 (Tilted grim-reaper cylinders)",
+    "kind": "example",
+    "page": "tag/424F01B4/index.html",
+    "canonical_tag": "F553C58629A6",
+    "anchor": ""
+  },
+  {
+    "tag": "1444C444",
+    "label": "prop:translator-height-example",
+    "title": "Proposition 88.7 (A translator's height is a strict elliptic test)",
+    "kind": "proposition",
+    "page": "tag/1444C444/index.html",
+    "canonical_tag": "8F198CC4372E",
+    "anchor": ""
+  },
+  {
+    "tag": "777A23BC",
+    "label": "prop:translator-weighted-area-example",
+    "title": "Proposition 88.8 (Translation as a weighted area problem)",
+    "kind": "proposition",
+    "page": "tag/777A23BC/index.html",
+    "canonical_tag": "65A833ADF759",
+    "anchor": ""
+  },
+  {
+    "tag": "89A4A066",
+    "label": "prop:radial-translator-tip",
+    "title": "Proposition 88.9 (The radial equation at the tip of a bowl translator)",
+    "kind": "proposition",
+    "page": "tag/89A4A066/index.html",
+    "canonical_tag": "728A5B325249",
+    "anchor": ""
+  },
+  {
+    "tag": "A499978F",
+    "label": "ex:paraboloid-not-translator",
+    "title": "Example 88.10 (A paraboloid is not an exact bowl translator)",
+    "kind": "example",
+    "page": "tag/A499978F/index.html",
+    "canonical_tag": "D5EF84E90E72",
+    "anchor": ""
+  },
+  {
+    "tag": "DA2C86F6",
+    "label": "sec:examples-bowl",
+    "title": "89 Constructing the rotational bowl soliton",
+    "kind": "chapter",
+    "page": "tag/DA2C86F6/index.html",
+    "canonical_tag": "946260FD50CA",
+    "anchor": ""
+  },
+  {
+    "tag": "7E7C9215",
+    "label": "lem:bowl-smooth-tip-existence",
+    "title": "Lemma 89.1 (Resolving the radial equation at zero)",
+    "kind": "lemma",
+    "page": "tag/7E7C9215/index.html",
+    "canonical_tag": "DD2B8469A5C0",
+    "anchor": ""
+  },
+  {
+    "tag": "861CAB23",
+    "label": "lem:bowl-slope-barriers",
+    "title": "Lemma 89.2 (Linear barriers prevent finite-radius blow-up)",
+    "kind": "lemma",
+    "page": "tag/861CAB23/index.html",
+    "canonical_tag": "79D2E1EDDD98",
+    "anchor": ""
+  },
+  {
+    "tag": "8CBA69BD",
+    "label": "thm:rotational-bowl-construction",
+    "title": "Theorem 89.3 (The complete rotational bowl)",
+    "kind": "theorem",
+    "page": "tag/8CBA69BD/index.html",
+    "canonical_tag": "9AE533B778E2",
+    "anchor": ""
+  },
+  {
+    "tag": "B4D2772B",
+    "label": "prop:bowl-leading-growth",
+    "title": "Proposition 89.4 (The quadratic growth coefficient of the bowl)",
+    "kind": "proposition",
+    "page": "tag/B4D2772B/index.html",
+    "canonical_tag": "9E5E68B20123",
+    "anchor": ""
+  },
+  {
+    "tag": "B301BBD5",
+    "label": "lem:bowl-slope-correction",
+    "title": "Lemma 89.5 (The first slope correction)",
+    "kind": "lemma",
+    "page": "tag/B301BBD5/index.html",
+    "canonical_tag": "E35E297F2131",
+    "anchor": ""
+  },
+  {
+    "tag": "1C9C65EB",
+    "label": "prop:bowl-logarithmic-asymptotic",
+    "title": "Proposition 89.6 (A logarithmic correction to the bowl height)",
+    "kind": "proposition",
+    "page": "tag/1C9C65EB/index.html",
+    "canonical_tag": "4218133DBAA6",
+    "anchor": ""
+  },
+  {
+    "tag": "7237C429",
+    "label": "cor:bowl-speed-scaling",
+    "title": "Corollary 89.7 (Translation speed and dilations of the bowl)",
+    "kind": "corollary",
+    "page": "tag/7237C429/index.html",
+    "canonical_tag": "69FAC94BF385",
+    "anchor": ""
+  },
+  {
+    "tag": "36613530",
+    "label": "sec:examples-expanders",
+    "title": "90 Expanding curves that smooth a corner",
+    "kind": "chapter",
+    "page": "tag/36613530/index.html",
+    "canonical_tag": "EC3FC5C9B6AA",
+    "anchor": ""
+  },
+  {
+    "tag": "7D30142D",
+    "label": "prop:expander-graph-defect",
+    "title": "Proposition 90.1 (The expander graph equation and its positive defect)",
+    "kind": "proposition",
+    "page": "tag/7D30142D/index.html",
+    "canonical_tag": "19BF76D4A84D",
+    "anchor": ""
+  },
+  {
+    "tag": "7E7919BD",
+    "label": "lem:expander-global-slope",
+    "title": "Lemma 90.2 (The expanding graph has bounded slope)",
+    "kind": "lemma",
+    "page": "tag/7E7919BD/index.html",
+    "canonical_tag": "959A9F743DAB",
+    "anchor": ""
+  },
+  {
+    "tag": "C847669E",
+    "label": "thm:convex-graphical-expander",
+    "title": "Theorem 90.3 (A complete convex expander asymptotic to two rays)",
+    "kind": "theorem",
+    "page": "tag/C847669E/index.html",
+    "canonical_tag": "56C7AF70B331",
+    "anchor": ""
+  },
+  {
+    "tag": "26D27396",
+    "label": "prop:expander-corner-initial-trace",
+    "title": "Proposition 90.4 (A smooth flow converging uniformly to a corner)",
+    "kind": "proposition",
+    "page": "tag/26D27396/index.html",
+    "canonical_tag": "643DB83B70AB",
+    "anchor": ""
+  },
+  {
+    "tag": "5BBE4D5F",
+    "label": "prop:expander-curvature-example",
+    "title": "Proposition 90.5 (Total curvature and maximum curvature of the expander)",
+    "kind": "proposition",
+    "page": "tag/5BBE4D5F/index.html",
+    "canonical_tag": "F456929A84ED",
+    "anchor": ""
+  },
+  {
+    "tag": "C55163C2",
+    "label": "sec:examples-ancient-curves",
+    "title": "91 An explicit ancient oval",
+    "kind": "chapter",
+    "page": "tag/C55163C2/index.html",
+    "canonical_tag": "7FACDF82A5B2",
+    "anchor": ""
+  },
+  {
+    "tag": "91D52ECE",
+    "label": "thm:explicit-ancient-oval",
+    "title": "Theorem 91.1 (The implicit oval is an ancient curve-shortening flow)",
+    "kind": "theorem",
+    "page": "tag/91D52ECE/index.html",
+    "canonical_tag": "413CCED0D734",
+    "anchor": ""
+  },
+  {
+    "tag": "78984F49",
+    "label": "prop:ancient-oval-curvature-ratio",
+    "title": "Proposition 91.2 (The ancient oval changes shape)",
+    "kind": "proposition",
+    "page": "tag/78984F49/index.html",
+    "canonical_tag": "C9B55D368ADD",
+    "anchor": ""
+  },
+  {
+    "tag": "0DC92D9F",
+    "label": "prop:ancient-oval-extinction-model",
+    "title": "Proposition 91.3 (Area and the shrinking-circle limit)",
+    "kind": "proposition",
+    "page": "tag/0DC92D9F/index.html",
+    "canonical_tag": "453E1EC89741",
+    "anchor": ""
+  },
+  {
+    "tag": "DA8F7D57",
+    "label": "prop:ancient-oval-translator-limits",
+    "title": "Proposition 91.4 (The two grim-reaper limits backward in time)",
+    "kind": "proposition",
+    "page": "tag/DA8F7D57/index.html",
+    "canonical_tag": "932BFFC222D3",
+    "anchor": ""
   }
 ]
