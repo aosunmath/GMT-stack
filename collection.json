@@ -44,8 +44,11 @@
       "tag": "EEF2CDCFA59E",
       "topics": [
         "currents-and-compactness",
-        "polyhedral-and-flat-chains"
-      ]
+        "polyhedral-and-flat-chains",
+        "operations-on-currents",
+        "slicing-and-the-plateau-direct-method"
+      ],
+      "description": "Mass, compactness, flat chains, pushforwards, homotopies, cones, slicing, and the integral Plateau direct method."
     },
     {
       "slug": "varifolds",
@@ -110,9 +113,10 @@
       "tag": "EED00A67A204",
       "topics": [
         "constant-mean-curvature-and-constrained-area",
-        "constant-geodesic-curvature-networks"
+        "constant-geodesic-curvature-networks",
+        "volume-constraints-and-cmc-stability"
       ],
-      "description": "Area with a volume term, almost embedded CMC hypersurfaces, and curvature networks."
+      "description": "Area minus volume, CMC min-max, curvature networks, exact volume constraints, and strong versus constrained stability."
     },
     {
       "slug": "allen-cahn",

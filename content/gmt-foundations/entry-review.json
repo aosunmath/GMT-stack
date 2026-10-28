@@ -157,7 +157,9 @@
       "kind": "proposition",
       "file": "currents.tex",
       "status": "proof-included",
-      "citations": [],
+      "citations": [
+        "Sim18"
+      ],
       "dependencies": [],
       "formal_verification": "none"
     },
@@ -210,7 +212,9 @@
       "citations": [
         "WhiCho14"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "prop:polyhedral-flat-nondegeneracy"
+      ],
       "formal_verification": "none"
     },
     {
@@ -523,12 +527,14 @@
       "title": "Second variation in the two-sided case",
       "kind": "theorem",
       "file": "minimal-surfaces.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "ChMin",
         "MM"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "prop:riemannian-mean-curvature-variation"
+      ],
       "formal_verification": "none"
     },
     {
@@ -2740,6 +2746,529 @@
         "prop:perimeter-bulk-existence"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "def:normal-current",
+      "title": "Support and normal currents",
+      "kind": "definition",
+      "file": "current-operations.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Fed69",
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:current-mass-representation",
+      "title": "Representation of currents with locally finite mass",
+      "kind": "theorem",
+      "file": "current-operations.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:current-weak-compactness",
+      "title": "Weak compactness from local mass bounds",
+      "kind": "proposition",
+      "file": "current-operations.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:boundary-current",
+        "thm:current-mass-representation",
+        "thm:integral-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:current-restriction",
+      "title": "Restriction and contraction by a differential",
+      "kind": "definition",
+      "file": "current-operations.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:current-cutoff-boundary",
+      "title": "Boundary of a smooth scalar restriction",
+      "kind": "proposition",
+      "file": "current-operations.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:current-pushforward",
+      "title": "Smooth pushforward and properness",
+      "kind": "definition",
+      "file": "current-operations.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:current-pushforward-identities",
+      "title": "Pushforward, boundary, and composition",
+      "kind": "proposition",
+      "file": "current-operations.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:current-pushforward-mass",
+      "title": "Mass bound for a pushforward",
+      "kind": "proposition",
+      "file": "current-operations.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:current-pushforward"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:lipschitz-current-pushforward",
+      "title": "Lipschitz pushforwards of integral currents",
+      "kind": "theorem",
+      "file": "current-operations.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:current-projection-cancellation",
+      "title": "Projection can cancel two sheets",
+      "kind": "example",
+      "file": "current-operations.tex",
+      "status": "worked-example",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:current-interval-product",
+      "title": "The interval product",
+      "kind": "definition",
+      "file": "current-operations.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:current-product-boundary",
+      "title": "Boundary of the interval product",
+      "kind": "proposition",
+      "file": "current-operations.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:current-homotopy",
+      "title": "The homotopy formula",
+      "kind": "proposition",
+      "file": "current-operations.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:current-product-boundary"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:real-current-flat-norm",
+      "title": "A flat norm for real currents",
+      "kind": "definition",
+      "file": "current-operations.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Fed69",
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:flat-norm"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:real-flat-control",
+      "title": "Flat control of test forms and boundaries",
+      "kind": "proposition",
+      "file": "current-operations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:current-homotopy-estimate",
+      "title": "A quantitative affine homotopy estimate",
+      "kind": "proposition",
+      "file": "current-operations.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:current-pushforward-mass"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:current-cone",
+      "title": "The cone over a compactly supported current",
+      "kind": "definition",
+      "file": "current-operations.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:current-cone-bound",
+      "title": "Cone identity and mass estimate",
+      "kind": "proposition",
+      "file": "current-operations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:lipschitz-current-pushforward"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:zero-current-augmentation",
+      "title": "The zero-dimensional augmentation condition",
+      "kind": "example",
+      "file": "current-operations.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:current-slice",
+      "title": "Slice by a scalar function",
+      "kind": "definition",
+      "file": "current-slicing.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:integral-current-slicing",
+      "title": "Slicing of integral currents",
+      "kind": "theorem",
+      "file": "current-slicing.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:current-slice"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:slice-boundary-sign",
+      "title": "Boundary and slicing have opposite signs",
+      "kind": "proposition",
+      "file": "current-slicing.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:current-good-radius",
+      "title": "Choosing a radius with controlled cutting boundary",
+      "kind": "proposition",
+      "file": "current-slicing.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:rectangle-slice",
+      "title": "The slice of an oriented rectangle",
+      "kind": "example",
+      "file": "current-slicing.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [
+        "prop:slice-boundary-sign"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:integral-plateau",
+      "title": "The integral Plateau problem in a compact container",
+      "kind": "definition",
+      "file": "current-slicing.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:plateau-direct-method",
+      "title": "Existence of a mass-minimizing integral filling",
+      "kind": "theorem",
+      "file": "current-slicing.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:integral-plateau",
+        "thm:integral-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:euclidean-plateau",
+      "title": "Compact boundaries have Euclidean minimizers",
+      "kind": "corollary",
+      "file": "current-slicing.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:zero-current-augmentation",
+        "prop:current-cone-bound",
+        "thm:lipschitz-current-pushforward",
+        "thm:plateau-direct-method"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:volume-preserving-speed",
+      "title": "Infinitesimal volume-preserving variations",
+      "kind": "definition",
+      "file": "cmc-stability.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ZZCMC"
+      ],
+      "dependencies": [
+        "prop:cmc-first-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:realize-volume-constraint",
+      "title": "Realizing a zero-mean speed with an exact volume constraint",
+      "kind": "proposition",
+      "file": "cmc-stability.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:fixed-volume-cmc",
+      "title": "Fixed-volume stationarity characterizes constant mean curvature",
+      "kind": "proposition",
+      "file": "cmc-stability.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:riemannian-mean-curvature-variation",
+      "title": "Riemannian normal variation of mean curvature",
+      "kind": "proposition",
+      "file": "cmc-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "HP99"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-second-variation",
+      "title": "Second variation of area minus volume",
+      "kind": "proposition",
+      "file": "cmc-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ZZCMC"
+      ],
+      "dependencies": [
+        "prop:riemannian-mean-curvature-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:cmc-stability-types",
+      "title": "Strong and volume-constrained CMC stability",
+      "kind": "definition",
+      "file": "cmc-stability.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ZZCMC"
+      ],
+      "dependencies": [
+        "prop:realize-volume-constraint"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-constrained-index",
+      "title": "One scalar constraint changes index by at most one",
+      "kind": "proposition",
+      "file": "cmc-stability.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:round-sphere-poincare",
+      "title": "The sharp Poincare inequality on a round sphere",
+      "kind": "proposition",
+      "file": "cmc-stability.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:round-cmc-stability",
+      "title": "A round sphere is weakly stable but strongly unstable",
+      "kind": "example",
+      "file": "cmc-stability.tex",
+      "status": "worked-example",
+      "citations": [],
+      "dependencies": [
+        "prop:cmc-constrained-index",
+        "prop:round-sphere-poincare"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-ricci-strong-instability",
+      "title": "Strong instability under nonnegative Ricci curvature",
+      "kind": "proposition",
+      "file": "cmc-stability.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:ricci-unstable"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-stable-connectedness",
+      "title": "Volume stability forces connectedness when the potential is positive",
+      "kind": "proposition",
+      "file": "cmc-stability.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:prescribed-mean-curvature-energy",
+      "title": "Prescribed-mean-curvature energy",
+      "kind": "definition",
+      "file": "cmc-stability.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "ZZCMC"
+      ],
+      "dependencies": [
+        "prop:perimeter-bulk-existence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:prescribed-mean-curvature-variation",
+      "title": "First and second variation for prescribed mean curvature",
+      "kind": "proposition",
+      "file": "cmc-stability.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:riemannian-mean-curvature-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-graph-contact",
+      "title": "The CMC graph equation and oriented contact",
+      "kind": "proposition",
+      "file": "cmc-stability.tex",
+      "status": "proof-included",
+      "citations": [
+        "ZZCMC"
+      ],
+      "dependencies": [
+        "prop:graph-linearization",
+        "prop:graphical-mcf"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:polyhedral-flat-nondegeneracy",
+      "title": "Nondegeneracy of the integer polyhedral flat metric",
+      "kind": "proposition",
+      "file": "current-operations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:flat-norm",
+        "prop:real-flat-control"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -2752,9 +3281,8 @@
     "De Giorgi structure theorem",
     "Rectifiable current representation and mass formula",
     "Federer--Fleming compactness and closure",
-    "Nondegeneracy of the polyhedral flat norm",
     "Stationary varifold monotonicity",
-    "Smooth second variation and normal-bundle index theory",
+    "Normal-bundle index theory for one-sided hypersurfaces",
     "Almgren cycle-space topology and detecting cohomology classes",
     "Discrete-continuous interpolation with no concentration",
     "Pitts pull-tight and combinatorial almost-minimizing construction",
@@ -2784,7 +3312,10 @@
     "Euclidean Simons identity from the Gauss and Codazzi equations",
     "Smooth mean curvature flow short-time existence and curvature continuation",
     "Weak and strong parabolic maximum principles",
-    "Integral Brakke compactness and weak Gaussian monotonicity"
+    "Integral Brakke compactness and weak Gaussian monotonicity",
+    "Vector-measure representation for finite-mass currents and weak-star measure compactness",
+    "Lipschitz pushforward and slicing of integral currents, including rectifiable coarea",
+    "Compact Laplace spectral theorem and Bochner identity"
   ],
   "next_development": [
     "Covering and differentiation theorems for measures",

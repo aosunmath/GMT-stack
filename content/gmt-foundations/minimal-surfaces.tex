@@ -35,8 +35,11 @@ Let $\Sigma^n\subset(M^{n+1},g)$ be a smooth, closed, two-sided minimal hypersur
 \]
 With $\Delta_\Sigma=\operatorname{div}_\Sigma\nabla_\Sigma$, define
 $J=\Delta_\Sigma+|B|^2+\operatorname{Ric}_M(\nu,\nu)$; then $Q(f,f)=-\int_\Sigma fJf\,dA$.
-Source: \cite{MM}, Theorem 6.2, specialized to a closed hypersurface; also \cite{ChMin}, Section 23. The second-variation computation remains an external proof dependency.
+Source: \cite{MM}, Theorem 6.2, specialized to a closed hypersurface; also \cite{ChMin}, Section 23.
 \end{theorem}
+\begin{proof}
+Differentiate the first-variation formula $\frac d{dt}A(\Sigma_t)=\int_{\Sigma_t}H_tf_t\,dA_t$. At a minimal initial hypersurface, the terms from differentiating $f_t$ and $dA_t$ vanish because $H_0=0$. Thus $A''(0)=\int_\Sigma f\dot H$. The Riemannian calculation in Proposition \ref{prop:riemannian-mean-curvature-variation}, which does not use the second variation, gives $\dot H=-\Delta_\Sigma f-(|B|^2+\operatorname{Ric}(\nu,\nu))f$. Integration by parts on the closed hypersurface proves the formula. A tangential initial velocity contributes the tangential derivative of $H_0=0$, so only the normal speed enters. The same proof works for variations compactly supported away from a boundary.
+\end{proof}
 
 \begin{definition}[Stability and Morse index]\label{def:morse-index}
 For the hypersurface in Theorem \ref{thm:second-variation}, stability means $Q(f,f)\geq0$ for every smooth $f$. The Morse index is the largest dimension of a linear subspace on which $Q$ is negative definite. A Jacobi field is a normal field in the kernel of the Jacobi operator. For a one-sided hypersurface, use sections of its normal line bundle, equivalently the appropriate equivariant functions on the two-sided cover. These are unrestricted area variations; CMC stability will use a volume constraint. See \cite{MM}, Section 9, and \cite{MNIndex}, Section 1.

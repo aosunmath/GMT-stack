@@ -1,6 +1,6 @@
 # Flow and BV foundations
 
-This expansion adds **59 entries** in six new sections: 42 entries on mean curvature flow and 17 on BV functions and finite-perimeter variational problems. It includes **36 local proofs**, **5 externally proved theorem statements**, 11 definitions, and 7 examples. The resulting edition has **213 mathematical and historical entries in 39 sections and 15 chapters**, including 74 local proofs and 45 externally proved theorems. Its 252 addressable entries also count the section headings.
+This expansion adds **59 entries** in six new sections: 42 entries on mean curvature flow and 17 on BV functions and finite-perimeter variational problems. It includes **36 local proofs**, **5 externally proved theorem statements**, 11 definitions, and 7 examples. At this expansion stage, the edition had **213 mathematical and historical entries in 39 sections and 15 chapters**, including 74 local proofs and 45 externally proved theorems. Its 252 addressable entries also count the section headings.
 
 ## Mathematical development
 
