@@ -129,9 +129,12 @@
       "topics": [
         "constant-mean-curvature-and-constrained-area",
         "constant-geodesic-curvature-networks",
-        "volume-constraints-and-cmc-stability"
+        "volume-constraints-and-cmc-stability",
+        "minkowski-identities-and-euclidean-cmc-rigidity",
+        "constrained-jacobi-fields-and-spectral-tests",
+        "geodesic-spheres-and-spherical-cmc-rigidity"
       ],
-      "description": "Area minus volume, CMC min-max, curvature networks, exact volume constraints, and strong versus constrained stability."
+      "description": "Area minus volume, CMC min-max, curvature networks, exact volume constraints, strong versus constrained stability, Minkowski identities, constrained Jacobi fields, and sphere rigidity."
     },
     {
       "slug": "allen-cahn",

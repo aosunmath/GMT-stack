@@ -6627,6 +6627,322 @@
         "thm:shrinker-entropy-lowering"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "def:cmc-support-function",
+      "title": "Support function and tangential position",
+      "kind": "definition",
+      "file": "cmc-minkowski.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Wen91"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:cmc-first-minkowski",
+      "title": "Tangential position and the first Minkowski identity",
+      "kind": "lemma",
+      "file": "cmc-minkowski.tex",
+      "status": "proof-included",
+      "citations": [
+        "Wen91"
+      ],
+      "dependencies": [
+        "def:cmc-support-function"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:cmc-newton-tensor",
+      "title": "The first Newton tensor has zero divergence",
+      "kind": "lemma",
+      "file": "cmc-minkowski.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-second-minkowski",
+      "title": "The second Minkowski identity",
+      "kind": "proposition",
+      "file": "cmc-minkowski.tex",
+      "status": "proof-included",
+      "citations": [
+        "Wen91"
+      ],
+      "dependencies": [
+        "lem:cmc-first-minkowski",
+        "lem:cmc-newton-tensor"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-support-jacobi",
+      "title": "The support function solves an inhomogeneous Jacobi equation",
+      "kind": "proposition",
+      "file": "cmc-minkowski.tex",
+      "status": "proof-included",
+      "citations": [
+        "Wen91"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-area-volume-balance",
+      "title": "CMC area-volume balance",
+      "kind": "proposition",
+      "file": "cmc-minkowski.tex",
+      "status": "proof-included",
+      "citations": [
+        "Wen91"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-umbilicity-test",
+      "title": "A zero-mean test measures the full umbilicity defect",
+      "kind": "proposition",
+      "file": "cmc-minkowski.tex",
+      "status": "proof-included",
+      "citations": [
+        "Wen91"
+      ],
+      "dependencies": [
+        "prop:cmc-second-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-parallel-volume-path",
+      "title": "Parallel displacement followed by volume correction",
+      "kind": "proposition",
+      "file": "cmc-minkowski.tex",
+      "status": "proof-included",
+      "citations": [
+        "Wen91"
+      ],
+      "dependencies": [
+        "prop:cmc-area-volume-balance",
+        "prop:cmc-second-variation",
+        "prop:cmc-umbilicity-test"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:euclidean-cmc-stability-rigidity",
+      "title": "Euclidean volume-stability rigidity",
+      "kind": "theorem",
+      "file": "cmc-minkowski.tex",
+      "status": "proof-included",
+      "citations": [
+        "Wen91"
+      ],
+      "dependencies": [
+        "prop:cmc-area-volume-balance",
+        "prop:cmc-umbilicity-test",
+        "prop:realize-volume-constraint",
+        "prop:round-sphere-poincare"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:constrained-jacobi-nullspace",
+      "title": "The constrained Jacobi nullspace",
+      "kind": "definition",
+      "file": "cmc-jacobi.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "BdCE88"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:constrained-jacobi-constant",
+      "title": "The constrained Jacobi equation has a constant right-hand side",
+      "kind": "proposition",
+      "file": "cmc-jacobi.tex",
+      "status": "proof-included",
+      "citations": [
+        "BdCE88"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:cmc-zero-form-nullspace",
+      "title": "Zero quadratic form and stability",
+      "kind": "lemma",
+      "file": "cmc-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-family-jacobi",
+      "title": "Tangents to fixed-volume CMC families",
+      "kind": "proposition",
+      "file": "cmc-jacobi.tex",
+      "status": "proof-included",
+      "citations": [
+        "BdCE88"
+      ],
+      "dependencies": [
+        "prop:constrained-jacobi-constant",
+        "prop:riemannian-mean-curvature-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-killing-jacobi",
+      "title": "Killing fields give zero-mean Jacobi speeds on boundaries",
+      "kind": "proposition",
+      "file": "cmc-jacobi.tex",
+      "status": "proof-included",
+      "citations": [
+        "BdCE88"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-constant-potential-test",
+      "title": "The constant-potential stability criterion",
+      "kind": "proposition",
+      "file": "cmc-jacobi.tex",
+      "status": "proof-included",
+      "citations": [
+        "BdCE88"
+      ],
+      "dependencies": [
+        "prop:cmc-killing-jacobi"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-constant-potential-index",
+      "title": "Index and nullity for a constant potential",
+      "kind": "proposition",
+      "file": "cmc-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:cmc-constant-potential-test",
+        "prop:constrained-jacobi-constant"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:spaceform-sphere-geometry",
+      "title": "Geometry of a space-form geodesic sphere",
+      "kind": "proposition",
+      "file": "cmc-spaceforms.tex",
+      "status": "proof-included",
+      "citations": [
+        "BdCE88"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:spaceform-sphere-stability",
+      "title": "Stability and unrestricted index of geodesic spheres",
+      "kind": "theorem",
+      "file": "cmc-spaceforms.tex",
+      "status": "proof-included",
+      "citations": [
+        "BdCE88"
+      ],
+      "dependencies": [
+        "prop:cmc-constant-potential-test",
+        "prop:cmc-constrained-index",
+        "prop:round-sphere-poincare",
+        "prop:spaceform-sphere-geometry"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:spaceform-sphere-nullity",
+      "title": "Nullity of a geodesic sphere",
+      "kind": "proposition",
+      "file": "cmc-spaceforms.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:cmc-constant-potential-index"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:spherical-cmc-height-equations",
+      "title": "Position and normal equations in the unit sphere",
+      "kind": "lemma",
+      "file": "cmc-spaceforms.tex",
+      "status": "proof-included",
+      "citations": [
+        "BdCE88"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:spherical-cmc-defect-test",
+      "title": "Spherical coordinate tests and the summed defect",
+      "kind": "proposition",
+      "file": "cmc-spaceforms.tex",
+      "status": "proof-included",
+      "citations": [
+        "BdCE88"
+      ],
+      "dependencies": [
+        "lem:spherical-cmc-height-equations"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:spherical-cmc-stability-rigidity",
+      "title": "Volume-stable CMC boundaries in a round sphere",
+      "kind": "theorem",
+      "file": "cmc-spaceforms.tex",
+      "status": "proof-included",
+      "citations": [
+        "BdCE88"
+      ],
+      "dependencies": [
+        "prop:spherical-cmc-defect-test",
+        "thm:spaceform-sphere-stability"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:equator-constrained-stability",
+      "title": "An equator separates two notions of minimal stability",
+      "kind": "example",
+      "file": "cmc-spaceforms.tex",
+      "status": "proof-included",
+      "citations": [
+        "BdCE88"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:cmc-product-torus-instability",
+      "title": "Product tori have many volume-preserving unstable directions",
+      "kind": "example",
+      "file": "cmc-spaceforms.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:spherical-cmc-stability-rigidity"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
