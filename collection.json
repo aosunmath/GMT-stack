@@ -15,8 +15,12 @@
       "tag": "94502970C691",
       "topics": [
         "radon-measures",
-        "hausdorff-measure-and-density"
-      ]
+        "hausdorff-measure-and-density",
+        "radon-representation-from-positive-functionals",
+        "weak-convergence-continuity-sets-and-tightness",
+        "covering-maximal-estimates-and-lebesgue-points"
+      ],
+      "description": "Radon representation, weak compactness, continuity sets, tightness, smooth and atomic approximation, covering lemmas, maximal estimates, and Lebesgue differentiation."
     },
     {
       "slug": "rectifiability",

@@ -1,6 +1,6 @@
 # Examples with calculations and proofs
 
-This expansion adds an Examples chapter containing 51 entries in six sections: 48 local proofs, two definitions, and one cross-reference remark. The complete edition now contains 657 mathematical and historical entries, 448 local proofs, 47 external theorem statements, 91 sections, and 16 chapters. The 748 addressable tags also count section headings. The chapter is appended after History, preserving every previous tag, source label, URL, anchor, and reader number. Existing examples retain their original locations and receive links rather than unreviewed canonical merges.
+This expansion adds an Examples chapter containing 51 entries in six sections: 48 local proofs, two definitions, and one cross-reference remark. At publication of this expansion, the edition contained 657 mathematical and historical entries, 448 local proofs, 47 external theorem statements, 91 sections, and 16 chapters. The 748 addressable tags also count section headings. The chapter is appended after History, preserving every previous tag, source label, URL, anchor, and reader number. Existing examples retain their original locations and receive links rather than unreviewed canonical merges.
 
 ## Mathematical coverage
 

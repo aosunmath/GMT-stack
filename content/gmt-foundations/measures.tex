@@ -26,8 +26,11 @@ Let $\mu_j$ be nonnegative Radon measures on $U$ and suppose that
 \]
 There are a subsequence $\mu_{j_k}$ and a Radon measure $\mu$ on $U$ such that $\mu_{j_k}\rightharpoonup\mu$ in $U$.
 
-\emph{Cited theorem; proof to be added.} See \cite{Sim18}, Chapter 1, Section 5, Theorem 5.15, pp.~38--39. The construction uses a diagonal subsequence on compact subsets and the Riesz representation theorem, Theorem 5.12 in that section.
+See \cite{Sim18}, Chapter 1, Section 5, Theorem 5.15, pp.~38--39. The Euclidean countable-test argument and positive representation theorem are developed below.
 \end{theorem}
+\begin{proof}
+Lemma \ref{lem:measure-diagonal-functional} extracts a subsequence and a positive linear functional $L$ such that $\int f\,d\mu_{j_k}\to L(f)$ for every $f\in C_c(U)$. Theorem \ref{thm:positive-riesz-representation} gives a Radon measure $\mu$ with $L(f)=\int f\,d\mu$. This is exactly the convergence in Definition \ref{def:weak-measure}. The countable family exists because $U$ is a Euclidean open set; we do not infer sequential extraction from weak-star compactness on a general nonmetrizable space.
+\end{proof}
 
 \begin{proposition}[Lower semicontinuity on open sets]\label{prop:measure-lsc}
 If $\mu_j\rightharpoonup\mu$ in $U$, then
