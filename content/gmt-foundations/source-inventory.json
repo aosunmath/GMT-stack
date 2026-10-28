@@ -315,7 +315,8 @@
         "Section 25, pp. 62--64: logarithmic cutoff proof of Bernstein; squared-gradient estimate checked directly",
         "Proposition 26.1 and Lemma 26.5--Corollary 26.6, pp. 64--68: spectral cone criterion and Simons dimension restriction, with smooth links and nonflatness made explicit",
         "Section 16, Definition 16.1, Theorem 16.2 and Example 16.5, p. 46: calibration and complex curves",
-        "Section 17, Theorem 17.1 and Exercise 17.1, pp. 48--50: subcalibration, signed divergence, and vertex cutoff; p. 49 visually checked"
+        "Section 17, Theorem 17.1 and Exercise 17.1, pp. 48--50: subcalibration, signed divergence, and vertex cutoff; p. 49 visually checked",
+        "Section 33, pp. 79--82: normalized gaps, averaged normal-graph linearization, positive Jacobi fields and removable puncture stability; Appendices A--B, pp. 86--87: external Schauder/Harnack inputs. Pages 80 and 87 rendered; nonnegativity and interior margin made explicit in the Harnack statement."
       ]
     },
     {
@@ -643,7 +644,8 @@
       "pdf_pages": 23,
       "checked_passages": [
         "Theorem 2.1, pp. 320--321",
-        "Theorem 2.3, pp. 321--322"
+        "Theorem 2.3, pp. 321--322",
+        "Printed pp. 322--327: nullity discussion, ambient second-variation continuity (p. 324), Lemma 3.1, nested punctured-neighborhood instability (p. 326), and index persistence (p. 327). Finite-dimensional negative definiteness is proved with all matrix cross terms."
       ]
     },
     {

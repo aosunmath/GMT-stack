@@ -50,8 +50,11 @@ Let $\Sigma$ be a smooth connected two-sided embedded minimal hypersurface in a 
 \[
  v_j=\frac{u_{2,j}-u_{1,j}}{(u_{2,j}-u_{1,j})(p)}
 \]
-converges in $C^\infty$ on compact subsets to a function $v>0$ with $v(p)=1$ and $Jv=0$. Consequently the interior of $\Sigma$ is stable. This is the normal-graph formulation of \cite{ChMin}, Proposition 33.3, including its stated Riemannian extension. Uniform local ellipticity, Harnack, Schauder estimates, and a diagonal subsequence are the analytic proof inputs; that convergence proof remains external. The conclusion assumes two globally ordered sheets on the exhaustion, not merely a numerical multiplicity at one point.
+converges in $C^\infty$ on compact subsets to a function $v>0$ with $v(p)=1$ and $Jv=0$. Consequently the interior of $\Sigma$ is stable. This is the normal-graph formulation of \cite{ChMin}, Proposition 33.3, including its stated Riemannian extension. The local proof below retains Harnack and Schauder estimates as external analytic inputs. The conclusion assumes two globally ordered sheets on the exhaustion, not merely a numerical multiplicity at one point.
 \end{theorem}
+\begin{proof}
+By Lemma \ref{lem:normal-graph-gap-equation}, the positive gaps $w_j=u_{2,j}-u_{1,j}$ solve linear equations $L_jw_j=0$, with smooth coefficients converging on compact subsets to those of $J$. Division by the positive value $w_j(p)$ preserves the equation. Lemma \ref{lem:normalized-positive-solutions} gives a subsequential smooth local limit $v>0$ with $v(p)=1$ and $Jv=0$. Proposition \ref{prop:positive-jacobi-stability} then gives stability on the interior. The exhaustion hypothesis ensures that every compact set used in the Harnack and Schauder arguments is eventually in the domain of both graphs. No conclusion about extension across a singularity is needed for this theorem.
+\end{proof}
 
 \begin{theorem}[Stable curvature estimate in dimensions at most six]\label{thm:stable-curvature-bound}
 Let $2\leq n\leq6$. Suppose $\Sigma^n$ is a smooth properly embedded two-sided minimal hypersurface without boundary in $B_{2R}^{n+1}(a)$, is stable for compactly supported normal variations there, and satisfies

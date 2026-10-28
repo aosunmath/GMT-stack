@@ -87,9 +87,12 @@
         "positive-jacobi-fields-and-graphical-convergence",
         "stability-and-scalar-curvature",
         "logarithmic-cutoffs-and-the-bernstein-theorem",
-        "smooth-links-and-stable-minimal-cones"
+        "smooth-links-and-stable-minimal-cones",
+        "positive-solutions-and-limits-of-normal-graphs",
+        "small-capacity-punctures-and-removable-stability",
+        "localization-of-index-and-weak-convergence-of-variations"
       ],
-      "description": "Variations, graphs, elliptic estimates, comparison, Jacobi fields, compactness, geometric inequalities, scalar curvature, Bernstein arguments, and stable cones."
+      "description": "Variations, graphs, elliptic estimates, Jacobi fields, separated sheets, removable stability, index localization and weak convergence, compactness, geometric inequalities, scalar curvature, Bernstein arguments, and stable cones."
     },
     {
       "slug": "min-max-theory",
