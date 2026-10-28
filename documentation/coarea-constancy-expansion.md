@@ -1,6 +1,6 @@
 # Coarea, level sets, and varifold constancy
 
-This expansion adds **26 entries in three sections**, including **18 local proofs**, one externally proved theorem, one definition, and six examples. The edition now contains **304 mathematical and historical entries in 48 sections and 15 chapters**, including 132 local proofs and 48 externally proved theorems. The 352 addressable entries include section headings.
+This expansion adds **26 entries in three sections**, including **18 local proofs**, one externally proved theorem, one definition, and six examples. At this expansion stage, the edition contained **304 mathematical and historical entries in 48 sections and 15 chapters**, including 132 local proofs and 48 externally proved theorems. The 352 addressable entries include section headings.
 
 ## Integration on rectifiable sets
 

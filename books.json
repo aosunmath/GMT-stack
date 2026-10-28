@@ -8,7 +8,7 @@
       "repository": "https://github.com/aosunmath/GMT-stack",
       "status": "published",
       "local_path": "content/gmt-foundations",
-      "description": "Original exposition connecting classical GMT, BV compactness, coarea, level-set calculus and perimeter minimization, current operations and Plateau existence, smooth-support varifold constancy, minimal surfaces, elliptic and Allard regularity, scalar curvature and stability, Bernstein and smooth-link cone theorems, min-max theory, the volume spectrum, CMC variations and stability, and Allen-Cahn theory. Mean curvature flow includes evolution, comparison, Gaussian monotonicity, entropy, rescaling, and Brakke flow. Obstacle problems remain introductory. Exact source editions, hypotheses, and proof status are recorded."
+      "description": "Original exposition connecting classical GMT, BV compactness, coarea, level-set calculus and perimeter minimization, current operations and Plateau existence, smooth-support varifold constancy, minimal surfaces, elliptic and Allard regularity, scalar curvature and stability, Bernstein and smooth-link cone theorems, min-max theory, the volume spectrum, CMC variations and stability, and Allen-Cahn theory. Mean curvature flow includes evolution, comparison, Gaussian monotonicity, entropy, rescaling, and Brakke flow. Classical obstacle theory includes variational existence, reaction measures, quadratic blow-ups, Weiss and Monneau monotonicity, and singular blow-up uniqueness. Exact source editions, hypotheses, and proof status are recorded."
     }
   ]
 }

@@ -679,9 +679,11 @@
       "title": "The classical scalar obstacle problem",
       "kind": "definition",
       "file": "obstacle-problems.tex",
-      "status": "definition",
+      "status": "definition-with-source",
       "citations": [],
-      "dependencies": [],
+      "dependencies": [
+        "thm:obstacle-existence"
+      ],
       "formal_verification": "none"
     },
     {
@@ -696,12 +698,16 @@
     },
     {
       "label": "rem:obstacle-program",
-      "title": "Planned free-boundary developments",
+      "title": "Scope of the classical obstacle theory",
       "kind": "remark",
       "file": "obstacle-problems.tex",
       "status": "editorial",
       "citations": [],
-      "dependencies": [],
+      "dependencies": [
+        "thm:obstacle-dichotomy",
+        "thm:obstacle-optimal-regularity",
+        "thm:obstacle-singular-stratification"
+      ],
       "formal_verification": "none"
     },
     {
@@ -3899,6 +3905,406 @@
         "def:first-variation"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "thm:obstacle-existence",
+      "title": "Existence and uniqueness for the scalar obstacle problem",
+      "kind": "theorem",
+      "file": "obstacle-variational.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [
+        "def:obstacle-problem"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:obstacle-energy-gap",
+      "title": "The energy gap controls distance to the minimizer",
+      "kind": "proposition",
+      "file": "obstacle-variational.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:obstacle-inequality"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:obstacle-forcing-stability",
+      "title": "Stability with respect to forcing",
+      "kind": "proposition",
+      "file": "obstacle-variational.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:obstacle-comparison",
+      "title": "Comparison for ordered data",
+      "kind": "proposition",
+      "file": "obstacle-variational.tex",
+      "status": "proof-included",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:obstacle-reaction",
+      "title": "The nonnegative reaction measure",
+      "kind": "proposition",
+      "file": "obstacle-variational.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:obstacle-noncontact-equation",
+      "title": "The equation away from contact",
+      "kind": "proposition",
+      "file": "obstacle-variational.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:obstacle-least-supersolution",
+      "title": "The minimizer is the least admissible supersolution",
+      "kind": "proposition",
+      "file": "obstacle-variational.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:obstacle-normalization",
+      "title": "Subtracting the obstacle and fixing the forcing sign",
+      "kind": "proposition",
+      "file": "obstacle-variational.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [
+        "prop:obstacle-noncontact-equation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:obstacle-optimal-regularity",
+      "title": "Interior optimal regularity for a smooth obstacle problem",
+      "kind": "theorem",
+      "file": "obstacle-blowups.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [
+        "def:obstacle-problem"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:contact-hessian-zero",
+      "title": "The Hessian vanishes almost everywhere on contact",
+      "kind": "lemma",
+      "file": "obstacle-blowups.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:obstacle-complementarity",
+      "title": "The strong equation and complementarity",
+      "kind": "proposition",
+      "file": "obstacle-blowups.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [
+        "prop:obstacle-reaction"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:normalized-obstacle",
+      "title": "The normalized classical obstacle equation",
+      "kind": "definition",
+      "file": "obstacle-blowups.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:normalized-obstacle-minimizes",
+      "title": "The normalized equation is a variational obstacle equation",
+      "kind": "proposition",
+      "file": "obstacle-blowups.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:obstacle-complementarity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:obstacle-half-parabola",
+      "title": "The half-parabola model",
+      "kind": "example",
+      "file": "obstacle-blowups.tex",
+      "status": "worked-example",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:obstacle-quadratic-model",
+      "title": "Quadratic models with thin contact sets",
+      "kind": "example",
+      "file": "obstacle-blowups.tex",
+      "status": "worked-example",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:obstacle-upper-growth",
+      "title": "Quadratic upper growth at the free boundary",
+      "kind": "proposition",
+      "file": "obstacle-blowups.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:obstacle-nondegeneracy",
+      "title": "Quadratic nondegeneracy",
+      "kind": "proposition",
+      "file": "obstacle-blowups.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:obstacle-rescaling",
+      "title": "Quadratic rescaling and obstacle blow-ups",
+      "kind": "definition",
+      "file": "obstacle-blowups.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:obstacle-blowup-compactness",
+      "title": "Compactness and nontriviality of obstacle blow-ups",
+      "kind": "theorem",
+      "file": "obstacle-blowups.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [
+        "lem:contact-hessian-zero"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:obstacle-regular-point",
+      "title": "Regular free-boundary points",
+      "kind": "definition",
+      "file": "obstacle-blowups.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [
+        "ex:obstacle-half-parabola"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:obstacle-singular-point",
+      "title": "Singular free-boundary points",
+      "kind": "definition",
+      "file": "obstacle-blowups.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [
+        "ex:obstacle-quadratic-model"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:obstacle-dichotomy",
+      "title": "The classical regular--singular dichotomy",
+      "kind": "theorem",
+      "file": "obstacle-blowups.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:obstacle-weiss-energy",
+      "title": "The Weiss energy",
+      "kind": "definition",
+      "file": "obstacle-monotonicity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:obstacle-weiss-monotonicity",
+      "title": "Weiss monotonicity and its exact derivative",
+      "kind": "theorem",
+      "file": "obstacle-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:obstacle-weiss-equality",
+      "title": "Equality in Weiss monotonicity",
+      "kind": "corollary",
+      "file": "obstacle-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:obstacle-weiss-monotonicity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:obstacle-blowup-homogeneous",
+      "title": "Every obstacle blow-up is quadratic homogeneous",
+      "kind": "proposition",
+      "file": "obstacle-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:obstacle-blowup-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:obstacle-model-weiss",
+      "title": "Weiss energies of the two model families",
+      "kind": "proposition",
+      "file": "obstacle-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:obstacle-monneau",
+      "title": "The Monneau distance to a quadratic model",
+      "kind": "definition",
+      "file": "obstacle-monotonicity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [
+        "ex:obstacle-quadratic-model"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:obstacle-monneau-monotonicity",
+      "title": "Monneau monotonicity at a singular point",
+      "kind": "theorem",
+      "file": "obstacle-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [
+        "prop:obstacle-model-weiss"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:obstacle-singular-uniqueness",
+      "title": "Uniqueness and continuity of singular blow-ups",
+      "kind": "theorem",
+      "file": "obstacle-monotonicity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [
+        "prop:obstacle-blowup-homogeneous"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:obstacle-singular-strata",
+      "title": "Singular strata of the classical obstacle problem",
+      "kind": "definition",
+      "file": "obstacle-monotonicity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:obstacle-singular-stratification",
+      "title": "Classical stratification of singular obstacle points",
+      "kind": "theorem",
+      "file": "obstacle-monotonicity.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -3949,7 +4355,11 @@
     "Gauss--Bonnet and classification of closed orientable surfaces",
     "Sard theorem and divergence theorem for transverse piecewise smooth regions",
     "Compactly supported Sobolev approximation on smooth manifolds",
-    "C1 manifold decomposition and tangential differentiability on rectifiable sets"
+    "C1 manifold decomposition and tangential differentiability on rectifiable sets",
+    "Sobolev positive-part chain rule and trace compatibility with Lipschitz truncation",
+    "Optimal C1,1 interior obstacle regularity",
+    "Caffarelli regular--singular obstacle dichotomy and analytic regular free boundary",
+    "C1 manifold containment for classical obstacle singular strata"
   ],
   "next_development": [
     "Covering and differentiation theorems for measures",
@@ -3959,7 +4369,7 @@
     "Full proofs of varifold monotonicity, compactness, and Allard excess decay",
     "Detailed Pitts proof chain and modern regularity hypotheses",
     "Proofs and comparison of the volume-spectrum conventions",
-    "Obstacle-problem sources, level-set flows, tangent-flow extraction, and finer flow singularity theory",
+    "Proofs of optimal obstacle regularity and classification; thin obstacles; level-set flows, tangent-flow extraction, and finer flow singularity theory",
     "Free-boundary, Plateau, capillarity, and prescribed-mean-curvature branches"
   ]
 }

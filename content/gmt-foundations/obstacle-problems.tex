@@ -1,5 +1,5 @@
 \chapter{Obstacle problems and variational inequalities}\label{sec:obstacle-problems}
-This chapter begins the obstacle-problem branch with a model variational formulation. The Sobolev and weak-solution background is developed in \cite{SimonPDE}, Chapters 5--9. A dedicated source corpus for obstacle regularity has not yet been added; the statements below are elementary calculations, not a survey of that theory.
+This chapter begins the obstacle-problem branch with a model variational formulation. The Sobolev and weak-solution background is developed in \cite{SimonPDE}, Chapters 5--9. The classical free-boundary theory is developed in subsequent sections using \cite{Fig18}, with variational calculations and monotonicity proofs included and the deep regularity inputs identified.
 
 \begin{definition}[The classical scalar obstacle problem]\label{def:obstacle-problem}
 Let $U\subset\mathbb R^d$ be bounded with Lipschitz boundary, $f\in L^2(U)$, and $g,\psi\in H^1(U)$. Assume the convex admissible set
@@ -8,7 +8,7 @@ Let $U\subset\mathbb R^d$ be bounded with Lipschitz boundary, $f\in L^2(U)$, and
 \]
 is nonempty. The obstacle problem is to minimize
 $\mathcal E(v)=\frac12\int_U|Dv|^2-\int_Ufv$
-over $K$. The inequality is a unilateral constraint. This entry defines the model; existence and regularity are separate questions.
+over $K$. The inequality is a unilateral constraint. Existence is proved in Theorem \ref{thm:obstacle-existence}; regularity requires additional assumptions.
 \end{definition}
 
 \begin{proposition}[Variational inequality for the obstacle problem]\label{prop:obstacle-inequality}
@@ -26,6 +26,6 @@ If $u$ minimizes and $v\in K$, convexity gives $u+t(v-u)\in K$ for $0\leq t\leq1
 Every term on the right after combining the first two is nonnegative under the stated inequality. Hence $u$ minimizes.
 \end{proof}
 
-\begin{remark}[Planned free-boundary developments]\label{rem:obstacle-program}
-When $u$ and $\psi$ have continuous representatives, the contact set is $\{u=\psi\}$ and the interior free boundary is $\partial\{u>\psi\}\cap U$. Future sections will develop existence, optimal regularity, blow-ups, nondegeneracy, and the regular and singular parts of the free boundary. Thin-obstacle problems and geometric obstacles require distinct competitor spaces and hypotheses. No free-boundary regularity theorem is claimed at this stage.
+\begin{remark}[Scope of the classical obstacle theory]\label{rem:obstacle-program}
+When $u$ and $\psi$ have continuous representatives, the contact set is $\{u=\psi\}$ and the interior free boundary is $\partial\{u>\psi\}\cap U$. The following sections develop existence, comparison, the reaction measure, quadratic blow-ups, and the Weiss and Monneau formulas. Theorem \ref{thm:obstacle-optimal-regularity}, Theorem \ref{thm:obstacle-dichotomy}, and Theorem \ref{thm:obstacle-singular-stratification} record precise external regularity inputs. Thin obstacles, variable-coefficient free-boundary regularity, and geometric obstacles require different hypotheses and remain future branches.
 \end{remark}

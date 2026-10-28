@@ -1569,6 +1569,28 @@
         "Section 10, pp. 29--32",
         "Section 11, distinction between backward regularity and a two-sided regular point, p. 32"
       ]
+    },
+    {
+      "bibliography_key": "Fig18",
+      "filename": "Free-boundary-regularity-in-obstacle-problems.pdf",
+      "title": "Free boundary regularity in obstacle problems",
+      "author": "Alessio Figalli",
+      "edition": "2018 JEDP lecture notes; author-hosted PDF retrieved October 28, 2026",
+      "sha256": "a71140ab03aadacbae4d7b0c126b962a72fdd1fbfad0962591dd6e61ca87fe02",
+      "redistributed": false,
+      "role": "Classical obstacle existence, optimal regularity, quadratic blow-ups, Weiss and Monneau monotonicity, and singular strata; original local proofs supplied for the variational and monotonicity chains.",
+      "review_status": "selected-passages-checked",
+      "metadata_status": "source-checked",
+      "pdf_pages": 26,
+      "url": "https://people.math.ethz.ch/~afigalli/lecture-notes-pdf/Free-boundary-regularity-in-obstacle-problems.pdf",
+      "checked_passages": [
+        "Proposition 2.1 and Section 3, pp. 2--5: variational existence, superharmonicity, and equation off contact",
+        "Theorem 4.1 and Lemma 4.2, pp. 5--7: optimal interior regularity and quadratic growth",
+        "Sections 5--7, pp. 8--13: normalization, nondegeneracy, rescaling, model points, and Theorem 7.3 dichotomy",
+        "Proposition 8.2 and Lemma 8.4, pp. 17--18: Weiss and Monneau formulas",
+        "Theorem 8.1 and proof, pp. 17--19: uniqueness and continuity; spherical integrals retained in the uniqueness proof",
+        "Theorem 9.1, p. 19: classical singular-stratum containment"
+      ]
     }
   ],
   "distinct_editions": 21,

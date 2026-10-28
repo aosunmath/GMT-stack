@@ -138,9 +138,12 @@
       "title": "Obstacle problems",
       "tag": "3C04711D878F",
       "topics": [
-        "obstacle-problems-and-variational-inequalities"
+        "obstacle-problems-and-variational-inequalities",
+        "obstacle-existence-comparison-and-reaction",
+        "obstacle-regularity-and-quadratic-blow-ups",
+        "weiss-and-monneau-monotonicity"
       ],
-      "description": "Initial model and variational inequality; free-boundary regularity is planned."
+      "description": "Variational existence and comparison, reaction measures, optimal interior regularity, quadratic blow-ups, Weiss and Monneau monotonicity, and classical singular strata."
     },
     {
       "slug": "mean-curvature-flow",
