@@ -61,9 +61,12 @@
         "integral-compactness-and-mod-two-compatibility",
         "tangent-cones-and-stratification",
         "excess-and-allard-regularity",
-        "smooth-support-and-multiplicity"
+        "smooth-support-and-multiplicity",
+        "radial-variation-and-exact-monotonicity",
+        "conical-structure-and-convergence-of-supports",
+        "bounded-curvature-and-corrected-mass-ratios"
       ],
-      "description": "First variation, smooth-support constancy, multiplicity, integral compactness, tangent cones, stratification, excess, and Allard regularity."
+      "description": "First variation, exact monotonicity, bounded curvature, smooth-support constancy, integral compactness, tangent cones, support convergence, stratification, and Allard regularity."
     },
     {
       "slug": "minimal-surfaces",

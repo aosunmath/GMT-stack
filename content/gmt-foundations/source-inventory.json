@@ -30,7 +30,8 @@
         "Chapter 6, Lemma 3.12 and Remark 3.13, pp. 174--175: Lipschitz images and cancellation",
         "Chapter 6, Section 4, pp. 180--185: geometric and distributional slicing, orientation, and mass bounds",
         "Chapter 2, Theorem 7.3 and Remark 7.4, pp. 76--79: manifold and weighted coarea",
-        "Chapter 3, Section 2, pp. 92--94: tangential differentiation, weighted area/coarea, and rectifiable fibers"
+        "Chapter 3, Section 2, pp. 92--94: tangential differentiation, weighted area/coarea, and rectifiable fibers",
+        "Chapter 8, equations (2.1)--(2.10), pp. 238--240; radial first variation and monotonicity (3.3)--(3.6), pp. 240--241"
       ]
     },
     {
@@ -133,7 +134,8 @@
         "Section 0, Lemma 0.6 and Definitions 0.8--0.9",
         "Section 1, Lemmas 1.1--1.5, Definition 1.6, Theorem 1.7",
         "Sections 2--3, scalar graph regularity and Corollary 3.2",
-        "Lemma 0.7 and proof, pp. 8--9: smooth-support constancy; coordinate volume factor made explicit locally"
+        "Lemma 0.7 and proof, pp. 8--9: smooth-support constancy; coordinate volume factor made explicit locally",
+        "Lemmas 1.1--1.2 and proofs, pp. 11--12: continuity-radius limit and rectifiable conical structure"
       ]
     },
     {

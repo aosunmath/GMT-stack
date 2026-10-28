@@ -51,8 +51,23 @@ Let $a\in\operatorname{spt}\|V\|$. For every sequence $r_j\downarrow0$, a subseq
  (\eta_{0,s})_\#C=C\quad(s>0),\qquad
  \|C\|(B_R(0))=\omega_n R^n\Theta^n(\|V\|,a)\quad(R>0).
 \]
-Such limits are called tangent cones; their set is denoted $\operatorname{Tan}(V,a)$. No uniqueness is asserted. Sources: \cite{Minter}, Section 1, Lemmas 1.1--1.2 and Definition 1.3. Compactness supplies a limit; the equality case of stationary monotonicity supplies its conical structure. That structural argument remains external.
+Such limits are called tangent cones; their set is denoted $\operatorname{Tan}(V,a)$. No uniqueness is asserted. Sources: \cite{Minter}, Section 1, Lemmas 1.1--1.2 and Definition 1.3. The compactness input remains external; the conical-structure deduction follows below.
 \end{theorem}
+\begin{proof}
+Choose $r_0>0$ with $\overline{B_{r_0}(a)}\subset U$. For fixed $R$ and all sufficiently large $j$, scaling and stationary monotonicity give
+\[
+ \|V_{a,r_j}\|(B_R)=r_j^{-n}\|V\|(B_{r_jR}(a))
+ \leq R^n r_0^{-n}\|V\|(B_{r_0}(a)).
+\]
+The dilates are integral and stationary by Proposition \ref{prop:varifold-scaling}; hence their first variations vanish on every fixed compact set for large $j$. Allard compactness, Theorem \ref{thm:allard-compactness}, on an exhaustion and a diagonal subsequence give a stationary integral limit $C$ on all of $\mathbb R^{n+k}$. Stationarity also follows directly from Lemma \ref{lem:stationarity-closed}.
+
+At any radius $R$ with $\|C\|(\partial B_R)=0$, weak convergence and scaling imply
+\[
+ \|C\|(B_R)=\lim_j r_j^{-n}\|V\|(B_{r_jR}(a))
+            =\omega_nR^n\Theta^n(\|V\|,a).
+\]
+Only countably many radii fail this continuity condition. Approximating any radius from below by continuity radii and using continuity from below of open-ball masses proves the identity for every $R>0$. Theorem \ref{thm:constant-ratio-cone} now proves dilation invariance, including the tangent-plane distribution. Corollary \ref{cor:integral-support-density} gives $\Theta^n(\|V\|,a)\geq1$, so the limit is nonzero. The construction uses subsequences and supplies no uniqueness statement.
+\end{proof}
 
 \begin{definition}[The spine of a stationary cone]\label{def:cone-spine}
 For a nonzero stationary integral cone $C$ in $\mathbb R^{n+k}$, its spine is the set of translation symmetries
@@ -143,8 +158,12 @@ At a sufficiently small radius the mass ratio is at most $1+\varepsilon$, while 
 \end{proof}
 
 \begin{theorem}[A density gap above one]\label{thm:stationary-density-gap}
-There is $\delta=\delta(n,k)>0$ such that every support point $a$ of a stationary integral $n$-varifold in $\mathbb R^{n+k}$ with $\Theta^n(\|V\|,a)<1+\delta$ is regular with multiplicity one. Equivalently, every singular point has density at least $1+\delta$. This is \cite{Minter}, Corollary 3.2, pp.~44--45. Its compactness argument for cones and application of Allard regularity remain external.
+There is $\delta=\delta(n,k)>0$ such that every support point $a$ of a stationary integral $n$-varifold in $\mathbb R^{n+k}$ with $\Theta^n(\|V\|,a)<1+\delta$ is regular with multiplicity one. Equivalently, every singular point has density at least $1+\delta$. This is \cite{Minter}, Corollary 3.2, pp.~44--45. Its Allard regularity input remains external.
 \end{theorem}
+\begin{proof}
+Let $\varepsilon=\varepsilon(n,k,2n)$ be the mass tolerance in Theorem \ref{thm:allard-lp}, and take $\delta=\varepsilon/2$. At a point with density less than $1+\delta$, the mass ratio is less than $1+\varepsilon$ at all sufficiently small radii. Stationarity gives $H=0$, so the curvature hypothesis holds with $p=2n>n$. Allard regularity gives a multiplicity-one $C^{1,1/2}$ graph near the point. The stationary graph equation and elliptic bootstrapping make it smooth, as in Corollary \ref{cor:unit-density-regularity}. Thus the gap is a local consequence of the already stated Allard theorem.
+\end{proof}
+
 
 \begin{example}[Zero excess does not specify multiplicity]\label{ex:multiple-plane-excess}
 For $V=q|P|$ with integer $q\geq2$, both excesses relative to $P$ vanish at every scale centered on $P$, but the mass ratio and density are $q$. Thus zero height and tilt excess do not imply a single sheet with multiplicity one. This varifold is nevertheless regular under Definition \ref{def:varifold-regular-singular}; high multiplicity and singular support are different issues.
