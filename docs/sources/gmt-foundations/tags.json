@@ -4525,5 +4525,248 @@
     "page": "tag/FA0829B7/index.html",
     "canonical_tag": "67A305ACFB42",
     "anchor": ""
+  },
+  {
+    "tag": "B3FEE9C6",
+    "label": "sec:calibrated-currents",
+    "title": "64 Calibrated currents and mass comparison",
+    "kind": "chapter",
+    "page": "tag/B3FEE9C6/index.html",
+    "canonical_tag": "A06646AFA6FA",
+    "anchor": ""
+  },
+  {
+    "tag": "1FB584AE",
+    "label": "def:calibrated-current",
+    "title": "Definition 64.1 (A current calibrated by a form)",
+    "kind": "definition",
+    "page": "tag/1FB584AE/index.html",
+    "canonical_tag": "5E8055ACA3A7",
+    "anchor": ""
+  },
+  {
+    "tag": "E8665724",
+    "label": "lem:calibration-defect",
+    "title": "Lemma 64.2 (The calibration defect and equality condition)",
+    "kind": "lemma",
+    "page": "tag/E8665724/index.html",
+    "canonical_tag": "0A0C249D90DB",
+    "anchor": ""
+  },
+  {
+    "tag": "BB7454DE",
+    "label": "thm:calibrated-current-minimizes",
+    "title": "Theorem 64.3 (Calibrated currents minimize in their compact homology class)",
+    "kind": "theorem",
+    "page": "tag/BB7454DE/index.html",
+    "canonical_tag": "249A6CDC9F2C",
+    "anchor": ""
+  },
+  {
+    "tag": "3DFE17A2",
+    "label": "cor:calibrated-euclidean-boundary",
+    "title": "Corollary 64.4 (Fixed-boundary minimization in Euclidean space)",
+    "kind": "corollary",
+    "page": "tag/3DFE17A2/index.html",
+    "canonical_tag": "060B7E4721DF",
+    "anchor": ""
+  },
+  {
+    "tag": "3E4CB457",
+    "label": "prop:calibrated-weak-limits",
+    "title": "Proposition 64.5 (Weak limits of calibrated currents retain mass)",
+    "kind": "proposition",
+    "page": "tag/3E4CB457/index.html",
+    "canonical_tag": "4C4FD4B0981B",
+    "anchor": ""
+  },
+  {
+    "tag": "2239E10C",
+    "label": "prop:calibrated-current-stationary",
+    "title": "Proposition 64.6 (Stationarity away from the boundary of a calibrated current)",
+    "kind": "proposition",
+    "page": "tag/2239E10C/index.html",
+    "canonical_tag": "C4108F50C678",
+    "anchor": ""
+  },
+  {
+    "tag": "CE04DEE2",
+    "label": "ex:calibration-homology-condition",
+    "title": "Example 64.7 (Why the homology condition matters)",
+    "kind": "example",
+    "page": "tag/CE04DEE2/index.html",
+    "canonical_tag": "1B4F98280302",
+    "anchor": ""
+  },
+  {
+    "tag": "9C868EF3",
+    "label": "sec:calibrated-complex-curves",
+    "title": "65 Complex curves and singular calibrated minimizers",
+    "kind": "chapter",
+    "page": "tag/9C868EF3/index.html",
+    "canonical_tag": "46B5EC17B55A",
+    "anchor": ""
+  },
+  {
+    "tag": "67F34645",
+    "label": "lem:complex-two-form",
+    "title": "Lemma 65.1 (The Euclidean complex two-form has comass one)",
+    "kind": "lemma",
+    "page": "tag/67F34645/index.html",
+    "canonical_tag": "7DF03FA4481E",
+    "anchor": ""
+  },
+  {
+    "tag": "616A6546",
+    "label": "prop:holomorphic-area-identity",
+    "title": "Proposition 65.2 (Area and orientation of a holomorphic parametrization)",
+    "kind": "proposition",
+    "page": "tag/616A6546/index.html",
+    "canonical_tag": "CFFF3E4138B6",
+    "anchor": ""
+  },
+  {
+    "tag": "42EA4AEC",
+    "label": "prop:holomorphic-current-minimizer",
+    "title": "Proposition 65.3 (Holomorphic disks give calibrated integral currents)",
+    "kind": "proposition",
+    "page": "tag/42EA4AEC/index.html",
+    "canonical_tag": "BDA9EE059317",
+    "anchor": ""
+  },
+  {
+    "tag": "243F3AF9",
+    "label": "ex:complex-cusp-current",
+    "title": "Example 65.4 (The complex cusp as an integral minimizer)",
+    "kind": "example",
+    "page": "tag/243F3AF9/index.html",
+    "canonical_tag": "94391B08C348",
+    "anchor": ""
+  },
+  {
+    "tag": "7ED06A0B",
+    "label": "prop:cusp-density",
+    "title": "Proposition 65.5 (Exact density of the calibrated cusp)",
+    "kind": "proposition",
+    "page": "tag/7ED06A0B/index.html",
+    "canonical_tag": "213862B49C97",
+    "anchor": ""
+  },
+  {
+    "tag": "CFD9F7DE",
+    "label": "prop:cusp-tangent",
+    "title": "Proposition 65.6 (The cusp has a unique double-plane tangent)",
+    "kind": "proposition",
+    "page": "tag/CFD9F7DE/index.html",
+    "canonical_tag": "C6197AF07C02",
+    "anchor": ""
+  },
+  {
+    "tag": "05BBC5AB",
+    "label": "cor:cusp-flat-singular",
+    "title": "Corollary 65.7 (A singular calibrated surface with a flat tangent)",
+    "kind": "corollary",
+    "page": "tag/05BBC5AB/index.html",
+    "canonical_tag": "44CA40B3EEB1",
+    "anchor": ""
+  },
+  {
+    "tag": "1C58C992",
+    "label": "sec:subcalibrations-simons",
+    "title": "66 Subcalibrations and minimizing Simons cones",
+    "kind": "chapter",
+    "page": "tag/1C58C992/index.html",
+    "canonical_tag": "02F5DA2403F0",
+    "anchor": ""
+  },
+  {
+    "tag": "863A737D",
+    "label": "lem:perimeter-perturbation-locality",
+    "title": "Lemma 66.1 (Locality of perimeter under compact perturbations)",
+    "kind": "lemma",
+    "page": "tag/863A737D/index.html",
+    "canonical_tag": "3BAFA27CC6BD",
+    "anchor": ""
+  },
+  {
+    "tag": "BC4720F0",
+    "label": "lem:singular-field-flux",
+    "title": "Lemma 66.2 (Removing one singular point from a flux identity)",
+    "kind": "lemma",
+    "page": "tag/BC4720F0/index.html",
+    "canonical_tag": "E2985F310128",
+    "anchor": ""
+  },
+  {
+    "tag": "A48B9B69",
+    "label": "def:signed-subcalibration",
+    "title": "Definition 66.3 (A signed subcalibration for a perimeter set)",
+    "kind": "definition",
+    "page": "tag/A48B9B69/index.html",
+    "canonical_tag": "97A353BE0D4C",
+    "anchor": ""
+  },
+  {
+    "tag": "0DCA96A0",
+    "label": "prop:subcalibration-gap",
+    "title": "Proposition 66.4 (The exact perimeter-gap identity)",
+    "kind": "proposition",
+    "page": "tag/0DCA96A0/index.html",
+    "canonical_tag": "1F6565B8CB14",
+    "anchor": ""
+  },
+  {
+    "tag": "6459721B",
+    "label": "cor:subcalibration-minimizes",
+    "title": "Corollary 66.5 (Perimeter minimality and strictness from a subcalibration)",
+    "kind": "corollary",
+    "page": "tag/6459721B/index.html",
+    "canonical_tag": "E4164B83C461",
+    "anchor": ""
+  },
+  {
+    "tag": "D974F99C",
+    "label": "prop:simons-cone-perimeter",
+    "title": "Proposition 66.6 (Perimeter and normal of the equal-factor cone)",
+    "kind": "proposition",
+    "page": "tag/D974F99C/index.html",
+    "canonical_tag": "CB56EEE43D23",
+    "anchor": ""
+  },
+  {
+    "tag": "8829F6C7",
+    "label": "prop:simons-subcalibration-divergence",
+    "title": "Proposition 66.7 (The Simons subcalibration and its divergence)",
+    "kind": "proposition",
+    "page": "tag/8829F6C7/index.html",
+    "canonical_tag": "BA5CFE9D5A88",
+    "anchor": ""
+  },
+  {
+    "tag": "31C6A724",
+    "label": "thm:simons-cone-minimizing",
+    "title": "Theorem 66.8 (Strict perimeter minimization by the equal-factor Simons cone)",
+    "kind": "theorem",
+    "page": "tag/31C6A724/index.html",
+    "canonical_tag": "BE9B00DE4A34",
+    "anchor": ""
+  },
+  {
+    "tag": "332C61FC",
+    "label": "cor:simons-eight-dimensional-example",
+    "title": "Corollary 66.9 (A singular perimeter minimizer in ambient dimension eight)",
+    "kind": "corollary",
+    "page": "tag/332C61FC/index.html",
+    "canonical_tag": "7FEE673BAF25",
+    "anchor": ""
+  },
+  {
+    "tag": "99F44613",
+    "label": "cor:simons-minimizer-stationary",
+    "title": "Corollary 66.10 (Stationarity and punctured stability of the minimizing cone)",
+    "kind": "corollary",
+    "page": "tag/99F44613/index.html",
+    "canonical_tag": "28A91C3FE627",
+    "anchor": ""
   }
 ]

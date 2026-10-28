@@ -1,13 +1,15 @@
 {
   "source": "https://github.com/aosunmath/GMT-stack",
   "kind": "local-manuscript",
-  "source_sha256": "7c2a8983a25b5dc7bfa1045b663d3892a49ec3f92a9fe8dab20d52a39a1b53d9",
+  "source_sha256": "9ef8f454657c1ea20d9e7e9ef6fd214a1d5b4d74ea7e847e0a21f40febd75054",
   "files": {
     "allen-cahn.tex": "e83e29527057db852a886628ed3c458c538c48ad6245618ed5e5b68d2035e36c",
-    "book.tex": "6e8330df4d97f2ce9c66d1dc00f501e9bac9a5edad3034afce0f805316d1cf70",
+    "book.tex": "be7777bcc5387feb4308075591dcecd6df5ca6e109d3fb184bcce2dfc581c4bb",
     "brakke-flow.tex": "9e8ef5dc76e7a4814d1703566e54ece216f0302c47f2cc9339b61f4e278c0f68",
     "bv-coarea.tex": "79110d4ed8d0630caa45ca1a78530bf626bf4d828c65df35770a02bd25a57eff",
     "bv-compactness.tex": "3820bcb702ed7a0da8c69251b0ae7860a576fc1124a7143e4a105510ba58f4bc",
+    "calibrated-currents.tex": "516094c24b9a00ddbc1b59a253cb19ac416339e1918c60540baa02154013ae6e",
+    "calibrated-curves.tex": "14cc65fccf2dd95a39c0a8209c7b6c9dcd8c4b698e8eac0c8688bd35c841dc54",
     "cmc-stability.tex": "62ad328710126c241c3bc76fa8af8ac12cd8ee2253c0c604851068e4be6e61f6",
     "cmc.tex": "c45e16edef25721d19e7239b9e01d32e365860dc58656101fb85993ecf87ec5f",
     "coarea-tools.tex": "67d78bbff3a944e504448a359f266c9acd87e97d359fb08579f4afde5755d0ca",
@@ -18,7 +20,7 @@
     "current-slicing.tex": "7e56bc01b29f4a106261d2715e3d3666398ce0adcec14e04cf05cbb88ebac027",
     "currents.tex": "676b01a38af29d135b9c8923fe0380ba6728591f4acf859e8a4463e2242b4a8a",
     "elliptic-tools.tex": "6ba2f6b653e2f5a61bb9ff30191536cd79e8adae5f41e38a0412e5da600a4b49",
-    "entry-review.json": "702f42c635bd63b60f403d1c476e39a6e29645f94ef84f066a1039a97fad270f",
+    "entry-review.json": "5c8255e4d8ef39b7354c7cdfd91498ca4e813bbd99347170b4345fd7f1afbda9",
     "geometric-inequalities.tex": "b082ed97dffc30ff4b17954f6127135999d4fde7ba55327bcaac999e2f656632",
     "history.tex": "56ceb9c3aa6fe2ef05b4a7e2affea072699de2b72510cf738eea57abed1e535f",
     "jacobi-fields.tex": "af6b98456c2db0baa3d94d1249b89d629ea7dd3ab466cda9ba27f75a0c735de0",
@@ -27,7 +29,7 @@
     "mean-curvature-flow.tex": "5a2258e478df118318e3955dbdf6c3c2e71fe52f92eae550432a511bc19f211f",
     "measures.tex": "b8314802a32a8cb4f230c68993d009e5b5277e63303165b59e0e1b64fe4fdbf9",
     "min-max.tex": "1ed88012fa85c55eb9ddb13ae2e52f92dca5f9fb4eca24b85cbdf57de27a848b",
-    "minimal-surfaces.tex": "2bbf1c33cbdb990e19d1a7b3c087e0d090285531a556460b748da9334000cae9",
+    "minimal-surfaces.tex": "e59a9b2a9721ce7611541045e51d98110762a58500f84e257594b6619c11211c",
     "minmax-applications.tex": "d7cd97a7bb4ab00119a606821310405d00161d4b1d8f805f79aff011d64332cf",
     "modern-minmax.tex": "359e4ffb65b6a3a72f41e94fd945ba543ad939c295a47119a1a3692a0c6eb76a",
     "obstacle-blowups.tex": "00e855eda5c5ec9363731aa8a64ccc159a9f9250012d04f85e07f4db5ef67866",
@@ -44,10 +46,11 @@
     "phase-stability.tex": "2b62caf5e05c5183b3600dda7bf5ca04f087767fe47c46eaed7bc83390fce10d",
     "rectifiability.tex": "d2dc7fa9136c72205b19ee6e166660204a527eb577b2a36701d004ebadc45dec",
     "references.bib": "c69dea4057007a4c6d363af055ea0a93652c6036925cdd1a3dd0172f90981994",
-    "source-inventory.json": "14302292acfbdd20b3c7a08be8c7cb74e3c6198d5003a1689b50cc7c9a9220c6",
+    "source-inventory.json": "f6c64432587e60482ab37a1121fbc20bfced39130b8400bc275816913423efa3",
     "stability-applications.tex": "9a08c2f0c3f6a4114106cfe34c2bfa7b28021922604e586ed71efa46917ae443",
-    "stable-cones.tex": "5ecf6dd70abea081efb998912072bbe0ab1a00d61d7bf30a25c64dd4fbb3cc3f",
+    "stable-cones.tex": "9ecf00a60d578fcc88ddab9423c7be02b4c4d93519ac7cc1bd44603c01bd92d5",
     "stratification-proof.tex": "88164b26c35f4f85ad9bbfdaa72be8a684a6b77a9e731e829e69742bacdc206b",
+    "subcalibrations.tex": "6e935dd7f0e3f6cf21ce3252e2eb7c9e223c0954657827a55311448d438733bc",
     "varifold-cones.tex": "5539f3f02cd74b402beefa83c10738799272d6b757fff979e4c13afedbe3a77b",
     "varifold-constancy.tex": "df2b181498660dca742caa91dd474a47c746e93bda4a6cf712261572a73bb38c",
     "varifold-curvature.tex": "23e79d7ab5d394b7c77847c11da58927aca9cc4e24778e3e89059d509efd61d2",
@@ -57,5 +60,5 @@
     "volume-spectrum.tex": "a35d18377d81410425b447e0062f2efffb9b24db3ded0d8e49f80367ff272068"
   },
   "renderer": "Gerby",
-  "tags": 503
+  "tags": 530
 }

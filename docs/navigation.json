@@ -522,6 +522,82 @@
     "tag": "C70596090F29"
   },
   {
+    "route": "sections/subcalibrations-and-minimizing-simons-cones",
+    "title": "4.5 Subcalibrations and minimizing Simons cones",
+    "chapter": "finite-perimeter",
+    "section": "subcalibrations-and-minimizing-simons-cones"
+  },
+  {
+    "route": "tag/3BAFA27CC6BD",
+    "title": "Lemma 4.5.1 (Locality of perimeter under compact perturbations)",
+    "chapter": "finite-perimeter",
+    "section": "subcalibrations-and-minimizing-simons-cones",
+    "tag": "3BAFA27CC6BD"
+  },
+  {
+    "route": "tag/E2985F310128",
+    "title": "Lemma 4.5.2 (Removing one singular point from a flux identity)",
+    "chapter": "finite-perimeter",
+    "section": "subcalibrations-and-minimizing-simons-cones",
+    "tag": "E2985F310128"
+  },
+  {
+    "route": "tag/97A353BE0D4C",
+    "title": "Definition 4.5.3 (A signed subcalibration for a perimeter set)",
+    "chapter": "finite-perimeter",
+    "section": "subcalibrations-and-minimizing-simons-cones",
+    "tag": "97A353BE0D4C"
+  },
+  {
+    "route": "tag/1F6565B8CB14",
+    "title": "Proposition 4.5.4 (The exact perimeter-gap identity)",
+    "chapter": "finite-perimeter",
+    "section": "subcalibrations-and-minimizing-simons-cones",
+    "tag": "1F6565B8CB14"
+  },
+  {
+    "route": "tag/E4164B83C461",
+    "title": "Corollary 4.5.5 (Perimeter minimality and strictness from a subcalibration)",
+    "chapter": "finite-perimeter",
+    "section": "subcalibrations-and-minimizing-simons-cones",
+    "tag": "E4164B83C461"
+  },
+  {
+    "route": "tag/CB56EEE43D23",
+    "title": "Proposition 4.5.6 (Perimeter and normal of the equal-factor cone)",
+    "chapter": "finite-perimeter",
+    "section": "subcalibrations-and-minimizing-simons-cones",
+    "tag": "CB56EEE43D23"
+  },
+  {
+    "route": "tag/BA5CFE9D5A88",
+    "title": "Proposition 4.5.7 (The Simons subcalibration and its divergence)",
+    "chapter": "finite-perimeter",
+    "section": "subcalibrations-and-minimizing-simons-cones",
+    "tag": "BA5CFE9D5A88"
+  },
+  {
+    "route": "tag/BE9B00DE4A34",
+    "title": "Theorem 4.5.8 (Strict perimeter minimization by the equal-factor Simons cone)",
+    "chapter": "finite-perimeter",
+    "section": "subcalibrations-and-minimizing-simons-cones",
+    "tag": "BE9B00DE4A34"
+  },
+  {
+    "route": "tag/7FEE673BAF25",
+    "title": "Corollary 4.5.9 (A singular perimeter minimizer in ambient dimension eight)",
+    "chapter": "finite-perimeter",
+    "section": "subcalibrations-and-minimizing-simons-cones",
+    "tag": "7FEE673BAF25"
+  },
+  {
+    "route": "tag/28A91C3FE627",
+    "title": "Corollary 4.5.10 (Stationarity and punctured stability of the minimizing cone)",
+    "chapter": "finite-perimeter",
+    "section": "subcalibrations-and-minimizing-simons-cones",
+    "tag": "28A91C3FE627"
+  },
+  {
     "route": "chapters/currents-flat-chains",
     "title": "5 Currents and flat chains",
     "chapter": "currents-flat-chains"
@@ -815,6 +891,116 @@
     "chapter": "currents-flat-chains",
     "section": "slicing-and-the-plateau-direct-method",
     "tag": "2DDDF8908CF1"
+  },
+  {
+    "route": "sections/calibrated-currents-and-mass-comparison",
+    "title": "5.5 Calibrated currents and mass comparison",
+    "chapter": "currents-flat-chains",
+    "section": "calibrated-currents-and-mass-comparison"
+  },
+  {
+    "route": "tag/5E8055ACA3A7",
+    "title": "Definition 5.5.1 (A current calibrated by a form)",
+    "chapter": "currents-flat-chains",
+    "section": "calibrated-currents-and-mass-comparison",
+    "tag": "5E8055ACA3A7"
+  },
+  {
+    "route": "tag/0A0C249D90DB",
+    "title": "Lemma 5.5.2 (The calibration defect and equality condition)",
+    "chapter": "currents-flat-chains",
+    "section": "calibrated-currents-and-mass-comparison",
+    "tag": "0A0C249D90DB"
+  },
+  {
+    "route": "tag/249A6CDC9F2C",
+    "title": "Theorem 5.5.3 (Calibrated currents minimize in their compact homology class)",
+    "chapter": "currents-flat-chains",
+    "section": "calibrated-currents-and-mass-comparison",
+    "tag": "249A6CDC9F2C"
+  },
+  {
+    "route": "tag/060B7E4721DF",
+    "title": "Corollary 5.5.4 (Fixed-boundary minimization in Euclidean space)",
+    "chapter": "currents-flat-chains",
+    "section": "calibrated-currents-and-mass-comparison",
+    "tag": "060B7E4721DF"
+  },
+  {
+    "route": "tag/4C4FD4B0981B",
+    "title": "Proposition 5.5.5 (Weak limits of calibrated currents retain mass)",
+    "chapter": "currents-flat-chains",
+    "section": "calibrated-currents-and-mass-comparison",
+    "tag": "4C4FD4B0981B"
+  },
+  {
+    "route": "tag/C4108F50C678",
+    "title": "Proposition 5.5.6 (Stationarity away from the boundary of a calibrated current)",
+    "chapter": "currents-flat-chains",
+    "section": "calibrated-currents-and-mass-comparison",
+    "tag": "C4108F50C678"
+  },
+  {
+    "route": "tag/1B4F98280302",
+    "title": "Example 5.5.7 (Why the homology condition matters)",
+    "chapter": "currents-flat-chains",
+    "section": "calibrated-currents-and-mass-comparison",
+    "tag": "1B4F98280302"
+  },
+  {
+    "route": "sections/complex-curves-and-singular-calibrated-minimizers",
+    "title": "5.6 Complex curves and singular calibrated minimizers",
+    "chapter": "currents-flat-chains",
+    "section": "complex-curves-and-singular-calibrated-minimizers"
+  },
+  {
+    "route": "tag/7DF03FA4481E",
+    "title": "Lemma 5.6.1 (The Euclidean complex two-form has comass one)",
+    "chapter": "currents-flat-chains",
+    "section": "complex-curves-and-singular-calibrated-minimizers",
+    "tag": "7DF03FA4481E"
+  },
+  {
+    "route": "tag/CFFF3E4138B6",
+    "title": "Proposition 5.6.2 (Area and orientation of a holomorphic parametrization)",
+    "chapter": "currents-flat-chains",
+    "section": "complex-curves-and-singular-calibrated-minimizers",
+    "tag": "CFFF3E4138B6"
+  },
+  {
+    "route": "tag/BDA9EE059317",
+    "title": "Proposition 5.6.3 (Holomorphic disks give calibrated integral currents)",
+    "chapter": "currents-flat-chains",
+    "section": "complex-curves-and-singular-calibrated-minimizers",
+    "tag": "BDA9EE059317"
+  },
+  {
+    "route": "tag/94391B08C348",
+    "title": "Example 5.6.4 (The complex cusp as an integral minimizer)",
+    "chapter": "currents-flat-chains",
+    "section": "complex-curves-and-singular-calibrated-minimizers",
+    "tag": "94391B08C348"
+  },
+  {
+    "route": "tag/213862B49C97",
+    "title": "Proposition 5.6.5 (Exact density of the calibrated cusp)",
+    "chapter": "currents-flat-chains",
+    "section": "complex-curves-and-singular-calibrated-minimizers",
+    "tag": "213862B49C97"
+  },
+  {
+    "route": "tag/C6197AF07C02",
+    "title": "Proposition 5.6.6 (The cusp has a unique double-plane tangent)",
+    "chapter": "currents-flat-chains",
+    "section": "complex-curves-and-singular-calibrated-minimizers",
+    "tag": "C6197AF07C02"
+  },
+  {
+    "route": "tag/44CA40B3EEB1",
+    "title": "Corollary 5.6.7 (A singular calibrated surface with a flat tangent)",
+    "chapter": "currents-flat-chains",
+    "section": "complex-curves-and-singular-calibrated-minimizers",
+    "tag": "44CA40B3EEB1"
   },
   {
     "route": "chapters/varifolds",
