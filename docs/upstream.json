@@ -1,12 +1,12 @@
 {
-  "built_at": "2026-10-28T22:06:26.558677+00:00",
-  "publishing_commit": "621a85ed8765a5a520ce48422e4f2a0c6b4c43e7",
+  "built_at": "2026-10-28T22:15:45.366698+00:00",
+  "publishing_commit": "3a4377f52b2bafc4bfae9b5b4719eaad2018fa15",
   "sources": [
     {
       "repository": "https://github.com/aosunmath/GMT-stack",
       "ref": "local:content/gmt-foundations",
       "kind": "local-manuscript",
-      "source_sha256": "f3dcf92726424123b8e3f703049de26381c9dfdfca60d0d696bbcd489a6cb666",
+      "source_sha256": "ca0774a7b4e2c5294a4e2ee4875e9f9040dd618d07d0f19b47ed54906ab7d807",
       "files": {
         "allen-cahn.tex": "e83e29527057db852a886628ed3c458c538c48ad6245618ed5e5b68d2035e36c",
         "book.tex": "356029abe320a09fbcd546b38cfdffa203c986c785f76a897795f5ff5eabd082",
@@ -31,7 +31,7 @@
         "elliptic-tools.tex": "677f7d1d2531604a17c70adeee1074f3577b855c271613e8651c0366bc52f485",
         "entropy-convergence.tex": "c463af2938b9c31c7246234ca5aa0e51bc846f57726e39216e978820ba63a0a2",
         "entropy-perturbations.tex": "791086299f156ae2ce541b46e14d4de0096198b5172dea57491dee4079ba61c3",
-        "entry-review.json": "7e3a365aa17db2d03b5a0744e8a41c89aa93eb4d791fd39caa9347c7f80941db",
+        "entry-review.json": "e4241b2194c6e14415da377157e584f433f507ab8d8d1fbf43de527e2a9e6c58",
         "geometric-inequalities.tex": "b082ed97dffc30ff4b17954f6127135999d4fde7ba55327bcaac999e2f656632",
         "history.tex": "56ceb9c3aa6fe2ef05b4a7e2affea072699de2b72510cf738eea57abed1e535f",
         "index-convergence.tex": "b262178288ca00e247d60f07cb315d9d30171654dcc2a69e4389aa4c5f598667",
