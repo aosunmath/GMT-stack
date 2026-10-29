@@ -1,7 +1,7 @@
 {
   "source": "https://github.com/aosunmath/GMT-stack",
   "kind": "local-manuscript",
-  "source_sha256": "9c2ff6bb690bf71d5e9056490c6f9b4319318c7ae9190832abee94cacf5a8ce1",
+  "source_sha256": "d3a83a1bb27cb2eb692bd229fce6e9bdac9cda437d1bdb52e2e51d6d3b49dd9f",
   "files": {
     "allen-cahn.tex": "e83e29527057db852a886628ed3c458c538c48ad6245618ed5e5b68d2035e36c",
     "book.tex": "225f46a13a94a71ab8656b06696c3c7845e61ec62b225deb8ea331f1f8b06889",
@@ -42,7 +42,7 @@
     "euclidean-coarea-from-area.tex": "dc39ea1e95ffb95138f55be572f7e7d7a06cc0bf54a9d57d5b71897f5e9f41bf",
     "examples-ancient-curves.tex": "1b418c0bd50410f1500b0104db5c97a185f36d6ed3cde2e643a5e0e8dca313c2",
     "examples-area-critical.tex": "d64cc314c247e2376cb0bf2b6b29196ce5e3c446cd38e37ce3766aedccf46242",
-    "examples-bowl.tex": "a4b657dfded72157afe8c7f891e76a53f17d8e1abae19cf293c28f5c22457f7b",
+    "examples-bowl.tex": "b421cb670e6171d34d1445043942f8fcd2de824964aa7b36f84d58866b3991f3",
     "examples-bv-interval.tex": "0023b4f1e05cdd6dc13ff97fd3a04b032ade71a20373cb554278d106de052c3b",
     "examples-cmc-reconstruction.tex": "a882ef83bed1f4830eb029f72a014cc6a99450f7a9d1c9dbd171b8775550437d",
     "examples-coarea-projections.tex": "32c3d1b3eaba4c36bf6ea3fda77d1434fcbda7558caa184449c5010be67f477c",
