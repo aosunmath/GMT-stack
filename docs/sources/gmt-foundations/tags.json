@@ -10915,5 +10915,365 @@
     "page": "tag/CC808776/index.html",
     "canonical_tag": "2F1C6D2E9397",
     "anchor": ""
+  },
+  {
+    "tag": "55364961",
+    "label": "sec:current-test-density",
+    "title": "155 Countable tests for distributional currents",
+    "kind": "chapter",
+    "page": "tag/55364961/index.html",
+    "canonical_tag": "9A89B5257497",
+    "anchor": ""
+  },
+  {
+    "tag": "0BD2BFED",
+    "label": "lem:countable-current-c1-tests",
+    "title": "Lemma 155.1 (Countable tests in the first-derivative topology)",
+    "kind": "lemma",
+    "page": "tag/0BD2BFED/index.html",
+    "canonical_tag": "2CA69E1442BF",
+    "anchor": ""
+  },
+  {
+    "tag": "B3059C86",
+    "label": "prop:order-one-countable-mass",
+    "title": "Proposition 155.2 (Mass as a countable supremum for order-one currents)",
+    "kind": "proposition",
+    "page": "tag/B3059C86/index.html",
+    "canonical_tag": "470B6DE01C14",
+    "anchor": ""
+  },
+  {
+    "tag": "397A51C0",
+    "label": "sec:tangential-lipschitz-calculus",
+    "title": "156 Tangential Lipschitz calculus for currents",
+    "kind": "chapter",
+    "page": "tag/397A51C0/index.html",
+    "canonical_tag": "F8362824DD01",
+    "anchor": ""
+  },
+  {
+    "tag": "BD32B07A",
+    "label": "prop:curve-scalar-coarea",
+    "title": "Proposition 156.1 (Scalar coarea on a rectifiable curve)",
+    "kind": "proposition",
+    "page": "tag/BD32B07A/index.html",
+    "canonical_tag": "36CCCA6345A8",
+    "anchor": ""
+  },
+  {
+    "tag": "AF3677C9",
+    "label": "lem:weak-tangential-mollification",
+    "title": "Lemma 156.2 (Weak tangential convergence of ambient mollifications)",
+    "kind": "lemma",
+    "page": "tag/AF3677C9/index.html",
+    "canonical_tag": "4AAAD381706B",
+    "anchor": ""
+  },
+  {
+    "tag": "9AA31BAB",
+    "label": "lem:tangential-scalar-chain",
+    "title": "Lemma 156.3 (Smooth scalar chain rule on a rectifiable support)",
+    "kind": "lemma",
+    "page": "tag/9AA31BAB/index.html",
+    "canonical_tag": "15EB78009E28",
+    "anchor": ""
+  },
+  {
+    "tag": "250F98BA",
+    "label": "def:tangential-current-contraction",
+    "title": "Definition 156.4 (Tangential contraction of a rectifiable current)",
+    "kind": "definition",
+    "page": "tag/250F98BA/index.html",
+    "canonical_tag": "058A5F0F3915",
+    "anchor": ""
+  },
+  {
+    "tag": "3B46E448",
+    "label": "prop:lipschitz-rectifiable-product-rule",
+    "title": "Proposition 156.5 (Boundary of a Lipschitz scalar restriction)",
+    "kind": "proposition",
+    "page": "tag/3B46E448/index.html",
+    "canonical_tag": "79C5D9AEC72E",
+    "anchor": ""
+  },
+  {
+    "tag": "6CB58815",
+    "label": "sec:geometric-current-slices",
+    "title": "157 Geometric slices and their boundary identity",
+    "kind": "chapter",
+    "page": "tag/6CB58815/index.html",
+    "canonical_tag": "ED01D488E588",
+    "anchor": ""
+  },
+  {
+    "tag": "F33617C7",
+    "label": "lem:slice-unit-orientation",
+    "title": "Lemma 157.1 (Orientation of a codimension-one fiber)",
+    "kind": "lemma",
+    "page": "tag/F33617C7/index.html",
+    "canonical_tag": "BD53F1D000B3",
+    "anchor": ""
+  },
+  {
+    "tag": "E851A574",
+    "label": "def:geometric-level-current",
+    "title": "Definition 157.2 (The geometric level current)",
+    "kind": "definition",
+    "page": "tag/E851A574/index.html",
+    "canonical_tag": "E6A04ADFDFCA",
+    "anchor": ""
+  },
+  {
+    "tag": "E6A5EBA8",
+    "label": "prop:geometric-slice-integration",
+    "title": "Proposition 157.3 (Mass and integration of geometric slices)",
+    "kind": "proposition",
+    "page": "tag/E6A5EBA8/index.html",
+    "canonical_tag": "39945FA00011",
+    "anchor": ""
+  },
+  {
+    "tag": "4C1C1947",
+    "label": "lem:integrated-distributional-slice",
+    "title": "Lemma 157.4 (An integrated identity for the distributional slice)",
+    "kind": "lemma",
+    "page": "tag/4C1C1947/index.html",
+    "canonical_tag": "4D3D3D80B610",
+    "anchor": ""
+  },
+  {
+    "tag": "6C903166",
+    "label": "prop:slice-common-exceptional-set",
+    "title": "Proposition 157.5 (A single exceptional null set for all test forms)",
+    "kind": "proposition",
+    "page": "tag/6C903166/index.html",
+    "canonical_tag": "38E741B69B67",
+    "anchor": ""
+  },
+  {
+    "tag": "1C78125A",
+    "label": "prop:integral-geometric-cut",
+    "title": "Proposition 157.6 (Integral restrictions and integral slice boundaries)",
+    "kind": "proposition",
+    "page": "tag/1C78125A/index.html",
+    "canonical_tag": "8D661A656C0A",
+    "anchor": ""
+  },
+  {
+    "tag": "6BED6077",
+    "label": "sec:slice-flat-continuity",
+    "title": "158 Flat continuity and exceptional slicing levels",
+    "kind": "chapter",
+    "page": "tag/6BED6077/index.html",
+    "canonical_tag": "51856B9B2D29",
+    "anchor": ""
+  },
+  {
+    "tag": "94DC1B5D",
+    "label": "def:two-sided-current-slices",
+    "title": "Definition 158.1 (Lower and upper distributional slices)",
+    "kind": "definition",
+    "page": "tag/94DC1B5D/index.html",
+    "canonical_tag": "2303BA9586EA",
+    "anchor": ""
+  },
+  {
+    "tag": "41F035A5",
+    "label": "prop:all-level-slice-support-flat",
+    "title": "Proposition 158.2 (Support and finite flat norm at every level)",
+    "kind": "proposition",
+    "page": "tag/41F035A5/index.html",
+    "canonical_tag": "775CD4FED890",
+    "anchor": ""
+  },
+  {
+    "tag": "02090A16",
+    "label": "prop:slice-flat-slab-estimate",
+    "title": "Proposition 158.3 (A slab controls the flat change of a slice)",
+    "kind": "proposition",
+    "page": "tag/02090A16/index.html",
+    "canonical_tag": "93AF8799FE31",
+    "anchor": ""
+  },
+  {
+    "tag": "BDA66566",
+    "label": "thm:slice-flat-one-sided",
+    "title": "Theorem 158.4 (One-sided continuity and a countable jump set)",
+    "kind": "theorem",
+    "page": "tag/BDA66566/index.html",
+    "canonical_tag": "A8942ED69FBA",
+    "anchor": ""
+  },
+  {
+    "tag": "80F76CA9",
+    "label": "prop:slice-flat-total-variation",
+    "title": "Proposition 158.5 (Bounded variation of the flat-valued slice map)",
+    "kind": "proposition",
+    "page": "tag/80F76CA9/index.html",
+    "canonical_tag": "7473A8FE1715",
+    "anchor": ""
+  },
+  {
+    "tag": "8C203AE0",
+    "label": "cor:geometric-slice-flat-continuity",
+    "title": "Corollary 158.6 (Flat continuity of almost-everywhere geometric slices)",
+    "kind": "corollary",
+    "page": "tag/8C203AE0/index.html",
+    "canonical_tag": "62CA9DD59508",
+    "anchor": ""
+  },
+  {
+    "tag": "00F342BE",
+    "label": "sec:normal-current-slicing",
+    "title": "159 Mass bounds for slices of normal currents",
+    "kind": "chapter",
+    "page": "tag/00F342BE/index.html",
+    "canonical_tag": "A52D220E6868",
+    "anchor": ""
+  },
+  {
+    "tag": "5756DAA4",
+    "label": "lem:normal-slice-smooth-integrated",
+    "title": "Lemma 159.1 (Integrated smooth slicing for a normal current)",
+    "kind": "lemma",
+    "page": "tag/5756DAA4/index.html",
+    "canonical_tag": "C59EE864BFBB",
+    "anchor": ""
+  },
+  {
+    "tag": "F40C3941",
+    "label": "prop:normal-slice-smooth-mass",
+    "title": "Proposition 159.2 (Smooth slicing bounds the integral of mass)",
+    "kind": "proposition",
+    "page": "tag/F40C3941/index.html",
+    "canonical_tag": "DB4040635707",
+    "anchor": ""
+  },
+  {
+    "tag": "530C1891",
+    "label": "lem:slice-function-uniform-limit",
+    "title": "Lemma 159.3 (Continuity under uniform perturbation of the slicing function)",
+    "kind": "lemma",
+    "page": "tag/530C1891/index.html",
+    "canonical_tag": "945B4DB69E85",
+    "anchor": ""
+  },
+  {
+    "tag": "EBFF8311",
+    "label": "thm:normal-lipschitz-slicing",
+    "title": "Theorem 159.4 (Lipschitz slicing of compact normal currents)",
+    "kind": "theorem",
+    "page": "tag/EBFF8311/index.html",
+    "canonical_tag": "A55702EC34C6",
+    "anchor": ""
+  },
+  {
+    "tag": "7488FE21",
+    "label": "cor:normal-current-good-restriction",
+    "title": "Corollary 159.5 (Almost every restriction of a normal current is normal)",
+    "kind": "corollary",
+    "page": "tag/7488FE21/index.html",
+    "canonical_tag": "AF626DCD5933",
+    "anchor": ""
+  },
+  {
+    "tag": "E265CE57",
+    "label": "cor:normal-slice-interval-mass",
+    "title": "Corollary 159.6 (The mass bound uses only the intervening slab)",
+    "kind": "corollary",
+    "page": "tag/E265CE57/index.html",
+    "canonical_tag": "E8DFE6BF543E",
+    "anchor": ""
+  },
+  {
+    "tag": "83458E5A",
+    "label": "prop:slice-smooth-localization",
+    "title": "Proposition 159.7 (Smooth localization commutes with slicing)",
+    "kind": "proposition",
+    "page": "tag/83458E5A/index.html",
+    "canonical_tag": "EED6DE376EB8",
+    "anchor": ""
+  },
+  {
+    "tag": "4286DA93",
+    "label": "thm:local-normal-current-slicing",
+    "title": "Theorem 159.8 (Local slicing of locally normal currents)",
+    "kind": "theorem",
+    "page": "tag/4286DA93/index.html",
+    "canonical_tag": "963FC6952BFC",
+    "anchor": ""
+  },
+  {
+    "tag": "205B2F68",
+    "label": "sec:examples-current-slice-limits",
+    "title": "160 Examples of slicing, jumps and cancellation",
+    "kind": "chapter",
+    "page": "tag/205B2F68/index.html",
+    "canonical_tag": "DD4C705341B1",
+    "anchor": ""
+  },
+  {
+    "tag": "3350AEF2",
+    "label": "ex:rectangle-slice-endpoints",
+    "title": "Example 160.1 (Endpoint jumps for the rectangle)",
+    "kind": "example",
+    "page": "tag/3350AEF2/index.html",
+    "canonical_tag": "D3422C8E82DC",
+    "anchor": ""
+  },
+  {
+    "tag": "61B2BE70",
+    "label": "ex:closed-current-flat-cap-jump",
+    "title": "Example 160.2 (A closed current can jump at a flat cap)",
+    "kind": "example",
+    "page": "tag/61B2BE70/index.html",
+    "canonical_tag": "32A4AD5A3DA5",
+    "anchor": ""
+  },
+  {
+    "tag": "994D6742",
+    "label": "ex:dense-slice-jumps",
+    "title": "Example 160.3 (An integral current with a dense set of slice jumps)",
+    "kind": "example",
+    "page": "tag/994D6742/index.html",
+    "canonical_tag": "FAA366BBDAFD",
+    "anchor": ""
+  },
+  {
+    "tag": "1205BB32",
+    "label": "prop:two-point-real-flat",
+    "title": "Proposition 160.4 (The exact flat norm of two opposite point masses)",
+    "kind": "proposition",
+    "page": "tag/1205BB32/index.html",
+    "canonical_tag": "A7B2C05EB916",
+    "anchor": ""
+  },
+  {
+    "tag": "93A58ADF",
+    "label": "ex:circle-slice-mass-loss",
+    "title": "Example 160.5 (A circle loses slice mass continuously in flat norm)",
+    "kind": "example",
+    "page": "tag/93A58ADF/index.html",
+    "canonical_tag": "6964E8EEA7B9",
+    "anchor": ""
+  },
+  {
+    "tag": "60C4FF35",
+    "label": "ex:level-atom-no-jump",
+    "title": "Example 160.6 (A level atom need not create a slice jump)",
+    "kind": "example",
+    "page": "tag/60C4FF35/index.html",
+    "canonical_tag": "D7C0B5AAB701",
+    "anchor": ""
+  },
+  {
+    "tag": "DDDE15D6",
+    "label": "ex:diffuse-current-slices",
+    "title": "Example 160.7 (Diffuse slices of a diffuse normal current)",
+    "kind": "example",
+    "page": "tag/DDDE15D6/index.html",
+    "canonical_tag": "B8C720A93B65",
+    "anchor": ""
   }
 ]

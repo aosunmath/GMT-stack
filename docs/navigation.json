@@ -1429,6 +1429,225 @@
     "tag": "F553EACEBF96"
   },
   {
+    "route": "sections/countable-tests-for-distributional-currents",
+    "title": "5.8 Countable tests for distributional currents",
+    "chapter": "currents-flat-chains",
+    "section": "countable-tests-for-distributional-currents"
+  },
+  {
+    "route": "tag/2CA69E1442BF",
+    "title": "Lemma 5.8.1 (Countable tests in the first-derivative topology)",
+    "chapter": "currents-flat-chains",
+    "section": "countable-tests-for-distributional-currents",
+    "tag": "2CA69E1442BF"
+  },
+  {
+    "route": "tag/470B6DE01C14",
+    "title": "Proposition 5.8.2 (Mass as a countable supremum for order-one currents)",
+    "chapter": "currents-flat-chains",
+    "section": "countable-tests-for-distributional-currents",
+    "tag": "470B6DE01C14"
+  },
+  {
+    "route": "sections/tangential-lipschitz-calculus-for-currents",
+    "title": "5.9 Tangential Lipschitz calculus for currents",
+    "chapter": "currents-flat-chains",
+    "section": "tangential-lipschitz-calculus-for-currents"
+  },
+  {
+    "route": "tag/36CCCA6345A8",
+    "title": "Proposition 5.9.1 (Scalar coarea on a rectifiable curve)",
+    "chapter": "currents-flat-chains",
+    "section": "tangential-lipschitz-calculus-for-currents",
+    "tag": "36CCCA6345A8"
+  },
+  {
+    "route": "tag/4AAAD381706B",
+    "title": "Lemma 5.9.2 (Weak tangential convergence of ambient mollifications)",
+    "chapter": "currents-flat-chains",
+    "section": "tangential-lipschitz-calculus-for-currents",
+    "tag": "4AAAD381706B"
+  },
+  {
+    "route": "tag/15EB78009E28",
+    "title": "Lemma 5.9.3 (Smooth scalar chain rule on a rectifiable support)",
+    "chapter": "currents-flat-chains",
+    "section": "tangential-lipschitz-calculus-for-currents",
+    "tag": "15EB78009E28"
+  },
+  {
+    "route": "tag/058A5F0F3915",
+    "title": "Definition 5.9.4 (Tangential contraction of a rectifiable current)",
+    "chapter": "currents-flat-chains",
+    "section": "tangential-lipschitz-calculus-for-currents",
+    "tag": "058A5F0F3915"
+  },
+  {
+    "route": "tag/79C5D9AEC72E",
+    "title": "Proposition 5.9.5 (Boundary of a Lipschitz scalar restriction)",
+    "chapter": "currents-flat-chains",
+    "section": "tangential-lipschitz-calculus-for-currents",
+    "tag": "79C5D9AEC72E"
+  },
+  {
+    "route": "sections/geometric-slices-and-their-boundary-identity",
+    "title": "5.10 Geometric slices and their boundary identity",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-slices-and-their-boundary-identity"
+  },
+  {
+    "route": "tag/BD53F1D000B3",
+    "title": "Lemma 5.10.1 (Orientation of a codimension-one fiber)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-slices-and-their-boundary-identity",
+    "tag": "BD53F1D000B3"
+  },
+  {
+    "route": "tag/E6A04ADFDFCA",
+    "title": "Definition 5.10.2 (The geometric level current)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-slices-and-their-boundary-identity",
+    "tag": "E6A04ADFDFCA"
+  },
+  {
+    "route": "tag/39945FA00011",
+    "title": "Proposition 5.10.3 (Mass and integration of geometric slices)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-slices-and-their-boundary-identity",
+    "tag": "39945FA00011"
+  },
+  {
+    "route": "tag/4D3D3D80B610",
+    "title": "Lemma 5.10.4 (An integrated identity for the distributional slice)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-slices-and-their-boundary-identity",
+    "tag": "4D3D3D80B610"
+  },
+  {
+    "route": "tag/38E741B69B67",
+    "title": "Proposition 5.10.5 (A single exceptional null set for all test forms)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-slices-and-their-boundary-identity",
+    "tag": "38E741B69B67"
+  },
+  {
+    "route": "tag/8D661A656C0A",
+    "title": "Proposition 5.10.6 (Integral restrictions and integral slice boundaries)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-slices-and-their-boundary-identity",
+    "tag": "8D661A656C0A"
+  },
+  {
+    "route": "sections/flat-continuity-and-exceptional-slicing-levels",
+    "title": "5.11 Flat continuity and exceptional slicing levels",
+    "chapter": "currents-flat-chains",
+    "section": "flat-continuity-and-exceptional-slicing-levels"
+  },
+  {
+    "route": "tag/2303BA9586EA",
+    "title": "Definition 5.11.1 (Lower and upper distributional slices)",
+    "chapter": "currents-flat-chains",
+    "section": "flat-continuity-and-exceptional-slicing-levels",
+    "tag": "2303BA9586EA"
+  },
+  {
+    "route": "tag/775CD4FED890",
+    "title": "Proposition 5.11.2 (Support and finite flat norm at every level)",
+    "chapter": "currents-flat-chains",
+    "section": "flat-continuity-and-exceptional-slicing-levels",
+    "tag": "775CD4FED890"
+  },
+  {
+    "route": "tag/93AF8799FE31",
+    "title": "Proposition 5.11.3 (A slab controls the flat change of a slice)",
+    "chapter": "currents-flat-chains",
+    "section": "flat-continuity-and-exceptional-slicing-levels",
+    "tag": "93AF8799FE31"
+  },
+  {
+    "route": "tag/A8942ED69FBA",
+    "title": "Theorem 5.11.4 (One-sided continuity and a countable jump set)",
+    "chapter": "currents-flat-chains",
+    "section": "flat-continuity-and-exceptional-slicing-levels",
+    "tag": "A8942ED69FBA"
+  },
+  {
+    "route": "tag/7473A8FE1715",
+    "title": "Proposition 5.11.5 (Bounded variation of the flat-valued slice map)",
+    "chapter": "currents-flat-chains",
+    "section": "flat-continuity-and-exceptional-slicing-levels",
+    "tag": "7473A8FE1715"
+  },
+  {
+    "route": "tag/62CA9DD59508",
+    "title": "Corollary 5.11.6 (Flat continuity of almost-everywhere geometric slices)",
+    "chapter": "currents-flat-chains",
+    "section": "flat-continuity-and-exceptional-slicing-levels",
+    "tag": "62CA9DD59508"
+  },
+  {
+    "route": "sections/mass-bounds-for-slices-of-normal-currents",
+    "title": "5.12 Mass bounds for slices of normal currents",
+    "chapter": "currents-flat-chains",
+    "section": "mass-bounds-for-slices-of-normal-currents"
+  },
+  {
+    "route": "tag/C59EE864BFBB",
+    "title": "Lemma 5.12.1 (Integrated smooth slicing for a normal current)",
+    "chapter": "currents-flat-chains",
+    "section": "mass-bounds-for-slices-of-normal-currents",
+    "tag": "C59EE864BFBB"
+  },
+  {
+    "route": "tag/DB4040635707",
+    "title": "Proposition 5.12.2 (Smooth slicing bounds the integral of mass)",
+    "chapter": "currents-flat-chains",
+    "section": "mass-bounds-for-slices-of-normal-currents",
+    "tag": "DB4040635707"
+  },
+  {
+    "route": "tag/945B4DB69E85",
+    "title": "Lemma 5.12.3 (Continuity under uniform perturbation of the slicing function)",
+    "chapter": "currents-flat-chains",
+    "section": "mass-bounds-for-slices-of-normal-currents",
+    "tag": "945B4DB69E85"
+  },
+  {
+    "route": "tag/A55702EC34C6",
+    "title": "Theorem 5.12.4 (Lipschitz slicing of compact normal currents)",
+    "chapter": "currents-flat-chains",
+    "section": "mass-bounds-for-slices-of-normal-currents",
+    "tag": "A55702EC34C6"
+  },
+  {
+    "route": "tag/AF626DCD5933",
+    "title": "Corollary 5.12.5 (Almost every restriction of a normal current is normal)",
+    "chapter": "currents-flat-chains",
+    "section": "mass-bounds-for-slices-of-normal-currents",
+    "tag": "AF626DCD5933"
+  },
+  {
+    "route": "tag/E8DFE6BF543E",
+    "title": "Corollary 5.12.6 (The mass bound uses only the intervening slab)",
+    "chapter": "currents-flat-chains",
+    "section": "mass-bounds-for-slices-of-normal-currents",
+    "tag": "E8DFE6BF543E"
+  },
+  {
+    "route": "tag/EED6DE376EB8",
+    "title": "Proposition 5.12.7 (Smooth localization commutes with slicing)",
+    "chapter": "currents-flat-chains",
+    "section": "mass-bounds-for-slices-of-normal-currents",
+    "tag": "EED6DE376EB8"
+  },
+  {
+    "route": "tag/963FC6952BFC",
+    "title": "Theorem 5.12.8 (Local slicing of locally normal currents)",
+    "chapter": "currents-flat-chains",
+    "section": "mass-bounds-for-slices-of-normal-currents",
+    "tag": "963FC6952BFC"
+  },
+  {
     "route": "chapters/varifolds",
     "title": "6 Varifolds",
     "chapter": "varifolds"
@@ -8382,6 +8601,61 @@
     "chapter": "examples",
     "section": "graphical-expanders-from-homogeneous-cones",
     "tag": "2F1C6D2E9397"
+  },
+  {
+    "route": "sections/examples-of-slicing-jumps-and-cancellation",
+    "title": "16.26 Examples of slicing, jumps and cancellation",
+    "chapter": "examples",
+    "section": "examples-of-slicing-jumps-and-cancellation"
+  },
+  {
+    "route": "tag/D3422C8E82DC",
+    "title": "Example 16.26.1 (Endpoint jumps for the rectangle)",
+    "chapter": "examples",
+    "section": "examples-of-slicing-jumps-and-cancellation",
+    "tag": "D3422C8E82DC"
+  },
+  {
+    "route": "tag/32A4AD5A3DA5",
+    "title": "Example 16.26.2 (A closed current can jump at a flat cap)",
+    "chapter": "examples",
+    "section": "examples-of-slicing-jumps-and-cancellation",
+    "tag": "32A4AD5A3DA5"
+  },
+  {
+    "route": "tag/FAA366BBDAFD",
+    "title": "Example 16.26.3 (An integral current with a dense set of slice jumps)",
+    "chapter": "examples",
+    "section": "examples-of-slicing-jumps-and-cancellation",
+    "tag": "FAA366BBDAFD"
+  },
+  {
+    "route": "tag/A7B2C05EB916",
+    "title": "Proposition 16.26.4 (The exact flat norm of two opposite point masses)",
+    "chapter": "examples",
+    "section": "examples-of-slicing-jumps-and-cancellation",
+    "tag": "A7B2C05EB916"
+  },
+  {
+    "route": "tag/6964E8EEA7B9",
+    "title": "Example 16.26.5 (A circle loses slice mass continuously in flat norm)",
+    "chapter": "examples",
+    "section": "examples-of-slicing-jumps-and-cancellation",
+    "tag": "6964E8EEA7B9"
+  },
+  {
+    "route": "tag/D7C0B5AAB701",
+    "title": "Example 16.26.6 (A level atom need not create a slice jump)",
+    "chapter": "examples",
+    "section": "examples-of-slicing-jumps-and-cancellation",
+    "tag": "D7C0B5AAB701"
+  },
+  {
+    "route": "tag/B8C720A93B65",
+    "title": "Example 16.26.7 (Diffuse slices of a diffuse normal current)",
+    "chapter": "examples",
+    "section": "examples-of-slicing-jumps-and-cancellation",
+    "tag": "B8C720A93B65"
   },
   {
     "route": "chapters/harmonic-maps",

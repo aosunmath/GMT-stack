@@ -212,9 +212,7 @@
       "citations": [
         "WhiCho14"
       ],
-      "dependencies": [
-        "prop:polyhedral-flat-nondegeneracy"
-      ],
+      "dependencies": [],
       "formal_verification": "none"
     },
     {
@@ -3080,12 +3078,15 @@
       "title": "Slicing of integral currents",
       "kind": "theorem",
       "file": "current-slicing.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Sim18"
       ],
       "dependencies": [
-        "def:current-slice"
+        "def:current-slice",
+        "prop:geometric-slice-integration",
+        "prop:slice-common-exceptional-set",
+        "prop:integral-geometric-cut"
       ],
       "formal_verification": "none"
     },
@@ -13605,6 +13606,499 @@
         "thm:lipschitz-cone-graphical-expander"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "lem:countable-current-c1-tests",
+      "title": "Countable tests in the first-derivative topology",
+      "kind": "lemma",
+      "file": "current-test-density.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:order-one-countable-mass",
+      "title": "Mass as a countable supremum for order-one currents",
+      "kind": "proposition",
+      "file": "current-test-density.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:countable-current-c1-tests"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:curve-scalar-coarea",
+      "title": "Scalar coarea on a rectifiable curve",
+      "kind": "proposition",
+      "file": "tangential-lipschitz-calculus.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:lipschitz-on-lines",
+        "prop:weighted-area",
+        "thm:rectifiable-coarea"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:weak-tangential-mollification",
+      "title": "Weak tangential convergence of ambient mollifications",
+      "kind": "lemma",
+      "file": "tangential-lipschitz-calculus.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:lipschitz-mollification",
+        "prop:weighted-area",
+        "thm:radon-lp-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:tangential-scalar-chain",
+      "title": "Smooth scalar chain rule on a rectifiable support",
+      "kind": "lemma",
+      "file": "tangential-lipschitz-calculus.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:rademacher"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:tangential-current-contraction",
+      "title": "Tangential contraction of a rectifiable current",
+      "kind": "definition",
+      "file": "tangential-lipschitz-calculus.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:current-restriction"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:lipschitz-rectifiable-product-rule",
+      "title": "Boundary of a Lipschitz scalar restriction",
+      "kind": "proposition",
+      "file": "tangential-lipschitz-calculus.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:weak-tangential-mollification",
+        "prop:current-cutoff-boundary"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:slice-unit-orientation",
+      "title": "Orientation of a codimension-one fiber",
+      "kind": "lemma",
+      "file": "geometric-current-slices.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:geometric-level-current",
+      "title": "The geometric level current",
+      "kind": "definition",
+      "file": "geometric-current-slices.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:geometric-slice-integration",
+      "title": "Mass and integration of geometric slices",
+      "kind": "proposition",
+      "file": "geometric-current-slices.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:weighted-rectifiable-coarea",
+        "def:geometric-level-current",
+        "lem:slice-unit-orientation",
+        "prop:curve-scalar-coarea"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:integrated-distributional-slice",
+      "title": "An integrated identity for the distributional slice",
+      "kind": "lemma",
+      "file": "geometric-current-slices.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:tangential-scalar-chain",
+        "prop:geometric-slice-integration",
+        "prop:lipschitz-rectifiable-product-rule"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:slice-common-exceptional-set",
+      "title": "A single exceptional null set for all test forms",
+      "kind": "proposition",
+      "file": "geometric-current-slices.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:countable-current-c1-tests",
+        "lem:integrated-distributional-slice",
+        "lem:zero-distribution-function"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:integral-geometric-cut",
+      "title": "Integral restrictions and integral slice boundaries",
+      "kind": "proposition",
+      "file": "geometric-current-slices.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:geometric-level-current",
+        "prop:slice-common-exceptional-set"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:two-sided-current-slices",
+      "title": "Lower and upper distributional slices",
+      "kind": "definition",
+      "file": "slice-flat-continuity.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:all-level-slice-support-flat",
+      "title": "Support and finite flat norm at every level",
+      "kind": "proposition",
+      "file": "slice-flat-continuity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:real-current-flat-norm",
+        "def:two-sided-current-slices"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:slice-flat-slab-estimate",
+      "title": "A slab controls the flat change of a slice",
+      "kind": "proposition",
+      "file": "slice-flat-continuity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:real-current-flat-norm",
+        "def:two-sided-current-slices"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:slice-flat-one-sided",
+      "title": "One-sided continuity and a countable jump set",
+      "kind": "theorem",
+      "file": "slice-flat-continuity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:slice-flat-slab-estimate"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:slice-flat-total-variation",
+      "title": "Bounded variation of the flat-valued slice map",
+      "kind": "proposition",
+      "file": "slice-flat-continuity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:geometric-slice-flat-continuity",
+      "title": "Flat continuity of almost-everywhere geometric slices",
+      "kind": "corollary",
+      "file": "slice-flat-continuity.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:integral-geometric-cut",
+        "prop:slice-common-exceptional-set",
+        "thm:slice-flat-one-sided"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:normal-slice-smooth-integrated",
+      "title": "Integrated smooth slicing for a normal current",
+      "kind": "lemma",
+      "file": "normal-current-slicing.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:two-sided-current-slices",
+        "prop:current-cutoff-boundary",
+        "thm:current-mass-representation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:normal-slice-smooth-mass",
+      "title": "Smooth slicing bounds the integral of mass",
+      "kind": "proposition",
+      "file": "normal-current-slicing.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:normal-slice-smooth-integrated",
+        "prop:order-one-countable-mass",
+        "thm:current-mass-representation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:slice-function-uniform-limit",
+      "title": "Continuity under uniform perturbation of the slicing function",
+      "kind": "lemma",
+      "file": "normal-current-slicing.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:real-current-flat-norm",
+        "def:two-sided-current-slices"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:normal-lipschitz-slicing",
+      "title": "Lipschitz slicing of compact normal currents",
+      "kind": "theorem",
+      "file": "normal-current-slicing.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:slice-function-uniform-limit",
+        "prop:all-level-slice-support-flat",
+        "prop:lipschitz-mollification",
+        "prop:normal-slice-smooth-mass",
+        "thm:slice-flat-one-sided"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:normal-current-good-restriction",
+      "title": "Almost every restriction of a normal current is normal",
+      "kind": "corollary",
+      "file": "normal-current-slicing.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:normal-lipschitz-slicing"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:normal-slice-interval-mass",
+      "title": "The mass bound uses only the intervening slab",
+      "kind": "corollary",
+      "file": "normal-current-slicing.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:normal-current-good-restriction",
+        "thm:normal-lipschitz-slicing"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:slice-smooth-localization",
+      "title": "Smooth localization commutes with slicing",
+      "kind": "proposition",
+      "file": "normal-current-slicing.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:two-sided-current-slices",
+        "prop:current-cutoff-boundary"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:local-normal-current-slicing",
+      "title": "Local slicing of locally normal currents",
+      "kind": "theorem",
+      "file": "normal-current-slicing.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:current-cutoff-boundary",
+        "prop:mcshane-extension",
+        "prop:slice-smooth-localization",
+        "thm:normal-lipschitz-slicing"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:rectangle-slice-endpoints",
+      "title": "Endpoint jumps for the rectangle",
+      "kind": "example",
+      "file": "examples-current-slice-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:two-sided-current-slices",
+        "ex:rectangle-slice",
+        "thm:slice-flat-one-sided"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:closed-current-flat-cap-jump",
+      "title": "A closed current can jump at a flat cap",
+      "kind": "example",
+      "file": "examples-current-slice-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:real-flat-control"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:dense-slice-jumps",
+      "title": "An integral current with a dense set of slice jumps",
+      "kind": "example",
+      "file": "examples-current-slice-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:slice-flat-total-variation",
+        "thm:slice-flat-one-sided"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:two-point-real-flat",
+      "title": "The exact flat norm of two opposite point masses",
+      "kind": "proposition",
+      "file": "examples-current-slice-limits.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:real-current-flat-norm",
+        "prop:real-flat-control"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:circle-slice-mass-loss",
+      "title": "A circle loses slice mass continuously in flat norm",
+      "kind": "example",
+      "file": "examples-current-slice-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:slice-unit-orientation",
+        "prop:two-point-real-flat"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:level-atom-no-jump",
+      "title": "A level atom need not create a slice jump",
+      "kind": "example",
+      "file": "examples-current-slice-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:slice-flat-one-sided"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:diffuse-current-slices",
+      "title": "Diffuse slices of a diffuse normal current",
+      "kind": "example",
+      "file": "examples-current-slice-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:diffuse-two-current",
+        "lem:lipschitz-image-ambient-null",
+        "prop:diffuse-current-normal",
+        "prop:diffuse-current-not-rectifiable"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -13641,7 +14135,7 @@
     "Smooth mean curvature flow short-time existence and curvature continuation",
     "Weak and strong parabolic maximum principles",
     "Integral Brakke compactness and weak Gaussian monotonicity",
-    "Lipschitz pushforward and slicing of integral currents, including rectifiable coarea",
+    "Lipschitz pushforwards of integral currents; rectifiable coarea and the almost-everywhere fiber tangent theorem remain external, while slice boundary identification is proved locally.",
     "Compact Laplace spectral theorem and Bochner identity",
     "Gauss--Bonnet and classification of closed orientable surfaces",
     "Sard theorem and divergence theorem for transverse piecewise smooth regions",
@@ -13667,7 +14161,11 @@
     "Classical local scalar parabolic strong maximum principle is background for strict positivity of radial cone expanders.",
     "Smooth finite-dimensional ODE dependence used for continuity of the planar tip-to-slope map.",
     "No uniqueness theorem for unrestricted entire graphs with unbounded slopes or arbitrary weak flows is asserted.",
-    "Finite-dimensional supporting-hyperplane theorem for finite convex functions; local strong maximum principle for strict upward motion from nonaffine convex data."
+    "Finite-dimensional supporting-hyperplane theorem for finite convex functions; local strong maximum principle for strict upward motion from nonaffine convex data.",
+    "Countable C1 decomposition of rectifiable sets.",
+    "Euclidean area formula and rectifiable coarea including the almost-everywhere fiber tangent assertion.",
+    "Elementary smooth convolution, Fubini/Tonelli, finite-measure continuity and Stokes on explicit smooth pieces.",
+    "No Federer-Fleming compactness, deformation theorem or integer flat-norm equivalence is proved here."
   ],
   "next_development": [
     "Covering and differentiation theorems for measures",
