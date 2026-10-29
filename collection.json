@@ -56,9 +56,10 @@
         "operations-on-currents",
         "slicing-and-the-plateau-direct-method",
         "calibrated-currents-and-mass-comparison",
-        "complex-curves-and-singular-calibrated-minimizers"
+        "complex-curves-and-singular-calibrated-minimizers",
+        "vector-measures-and-the-mass-of-a-current"
       ],
-      "description": "Mass, compactness, flat chains, pushforwards, homotopies, slicing, Plateau existence, calibrated currents, and singular complex-curve minimizers."
+      "description": "Mass, compactness, flat chains, pushforwards, homotopies, slicing, Plateau existence, calibrated currents, and singular complex-curve minimizers. Scalar-to-vector Riesz representation, comass duality, and a direct sequential compactness proof."
     },
     {
       "slug": "varifolds",
@@ -204,9 +205,12 @@
         "gaussian-tails-and-convergence-of-entropy",
         "entropy-maximizers-and-translation-symmetries",
         "entropy-lowering-compact-perturbations",
-        "convexity-and-curvature-pinching-along-the-flow"
+        "convexity-and-curvature-pinching-along-the-flow",
+        "weighted-variation-and-stability-of-translators",
+        "the-translator-metric-and-graphical-calibrations",
+        "curvature-ratios-and-local-translator-rigidity"
       ],
-      "description": "Smooth and weak flows, Gaussian monotonicity, weighted shrinker variations and stability, Gaussian tails and convergence, entropy maximizers, product splitting, and entropy-lowering compact perturbations."
+      "description": "Smooth and weak flows, Gaussian monotonicity, weighted shrinker variations and stability, Gaussian tails and convergence, entropy maximizers, product splitting, and entropy-lowering compact perturbations. Translators: weighted variations, ground states, conformal metric, graphical calibration, curvature ratios, and complete rigidity under explicit global hypotheses."
     },
     {
       "slug": "history",
@@ -232,9 +236,11 @@
         "harmonic-map-singularities-and-concentration",
         "unduloids-and-their-geometric-limits",
         "positive-measure-empty-interior-and-infinite-perimeter",
-        "a-one-dimensional-dust-without-tangent-lines"
+        "a-one-dimensional-dust-without-tangent-lines",
+        "weighted-jacobi-fields-on-grim-reapers-and-planes",
+        "a-normal-current-without-rectifiability"
       ],
-      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability."
+      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents."
     },
     {
       "slug": "harmonic-maps",
