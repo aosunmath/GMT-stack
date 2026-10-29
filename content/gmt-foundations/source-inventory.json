@@ -42,7 +42,12 @@
         "Chapter8 equations(2.3)–(2.10), printed239–240/PDF123–124: first variation, absolutely continuous mean curvature and singular boundary part. Quadratic duality and lower semicontinuity derived explicitly from this definition and the local Hilbert representation proof.",
         "Chapter6 Lemma4.1/Definition4.4,printed180–181/PDF94: fiber tangent geometry, orientation and weighted slicing mass; curve endpoint proved separately using weighted area.",
         "Chapter6 Lemma4.5 proof,printed182–183/PDF95,visually inspected: ambient mollification tested weakly on rectifiable supports, Lipschitz product rule and common exceptional set. Integrated test-in-level proof supplied locally.",
-        "Chapter6 equations4.6–4.11,printed184–185/PDF96,visually inspected: lower/upper normal slices, mass bounds and approximation. Countable test selection, uniform level perturbation, local cutoff and interval bounds proved locally."
+        "Chapter6 equations4.6–4.11,printed184–185/PDF96,visually inspected: lower/upper normal slices, mass bounds and approximation. Countable test selection, uniform level perturbation, local cutoff and interval bounds proved locally.",
+        "Chapter 3, Theorem 4.4, printed pp. 96–100 / PDF52–54: polar convention and reduced boundary, flux bounds, two-phase volume, blow-up and measure identification. Printed pp. 98–99 visually checked. Original exposition corrects the inconsistent intermediate signs relative to the stated inward normal by deriving all signs with the project's outward convention.",
+        "Chapter 3, Theorem 1.6 converse proof, printed pp. 88–90 / PDF48–49: cone exclusion and Lipschitz graph covering. Printed pp. 88–89 visually checked. Local proof uses explicit uniform-scale pieces and independent constants instead of an implicit uniform convergence assertion.",
+        "Chapter 1, Remark 4.4(3) and Lemma 4.5, printed pp. 20–22 / PDF14–15: Besicovitch selection is retained as the external geometric input; its symmetric Vitali and maximal-estimate consequences are proved locally.",
+        "Chapter 1, Corollary 4.10, printed pp. 23–24 / PDF15–16: Radon-measure differentiation; printed p. 23 visually checked. Local proof uses Besicovitch maximal estimate and continuous L1 approximation, and explains the closed-to-open-ball and local-domain passages.",
+        "Chapter 1, equation 4.17 and Theorem 4.18, printed pp. 27–28 / PDF17–18: abstract Radon–Nikodym representation and identification by ball ratios. Abstract representation remains a stated background input."
       ]
     },
     {

@@ -141,8 +141,13 @@ and the perimeter measures converge locally to $\mathcal H^{n-1}\llcorner\nu_E(x
  \qquad
  \lim_{r\downarrow0}\frac{P(E;B_r(x))}{\omega_{n-1}r^{n-1}}=1.
 \]
-This is the blow-up conclusion in the proof of \cite{Sim18}, Chapter 3, Theorem 4.4, especially equations (9)--(13), pp.~98--100, with the project's outward-normal convention. The substantial blow-up and density argument remains external. The convergence holds as $r\downarrow0$, not merely for one selected subsequence.
+This is the blow-up conclusion in the proof of \cite{Sim18}, Chapter 3, Theorem 4.4, especially equations (9)--(13), pp.~98--100, with the project's outward-normal convention. The local proof below uses the separately developed polar, compactness, and two-phase estimates. The convergence holds as $r\downarrow0$, not merely for one selected subsequence.
 \end{theorem}
+\begin{proof}
+For $n\geq2$, Theorem \ref{thm:reduced-boundary-full-blowup} gives the characteristic-function convergence at every vanishing scale, with the outward-normal sign stated here. Theorem \ref{thm:reduced-boundary-perimeter-tangent} gives the perimeter-measure limit: its proof uses polar alignment in addition to weak convergence of vector derivatives to rule out cancellation. Corollary \ref{cor:reduced-boundary-exact-densities} gives both normalized densities. The intermediate two-phase bound ensures the limiting half-space passes through the origin rather than being empty, full, or translated. None of these steps invokes the full De Giorgi structure theorem; countable rectifiability and the global measure representation are separate conclusions.
+
+For $n=1$, choose a bounded interval about $x$ with compact closure in $U$. Theorem \ref{thm:interval-finite-perimeter-sets} identifies $E$ there, up to null sets, with a finite union of intervals. A reduced-boundary point must be one of their genuine endpoints; in a sufficiently small neighborhood it is the only endpoint. There the phase is exactly the half-line on the negative side of the outward normal and its perimeter is the unit atom at $x$. After dilation these identities hold on every fixed bounded interval for all sufficiently small scales. The two densities are $1/2$ and $1$, with $\omega_1=2$ and $\omega_0=1$. Thus this case does not require the higher-dimensional Sobolev inequality.
+\end{proof}
 
 \begin{example}[A null modification can change the whole topological boundary]\label{ex:null-modification-boundary}
 The set $E=\mathbb Q^n$ is null and dense, and its complement is also dense. Thus its topological boundary is all of $\mathbb R^n$, while $\chi_E=0$ almost everywhere, $P(E;U)=0$, $E^{(0)}=\mathbb R^n$, and its reduced and essential boundaries are empty. Perimeter measures are therefore attached to measurable sets modulo null sets, not to arbitrary topological representatives.

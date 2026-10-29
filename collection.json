@@ -18,9 +18,10 @@
         "hausdorff-measure-and-density",
         "radon-representation-from-positive-functionals",
         "weak-convergence-continuity-sets-and-tightness",
-        "covering-maximal-estimates-and-lebesgue-points"
+        "covering-maximal-estimates-and-lebesgue-points",
+        "differentiation-for-arbitrary-euclidean-radon-measures"
       ],
-      "description": "Radon representation, weak compactness, continuity sets, tightness, smooth and atomic approximation, covering lemmas, maximal estimates, and Lebesgue differentiation."
+      "description": "Radon representation, weak compactness, continuity sets, tightness, smooth and atomic approximation, covering lemmas, maximal estimates, and Lebesgue differentiation. Differentiation for arbitrary Radon measures from Besicovitch selection."
     },
     {
       "slug": "rectifiability",
@@ -45,9 +46,15 @@
         "subcalibrations-and-minimizing-simons-cones",
         "measure-representation-for-bv-functions",
         "bv-representatives-and-perimeter-on-an-interval",
-        "products-and-nonlinear-jumps-in-one-dimensional-bv"
+        "products-and-nonlinear-jumps-in-one-dimensional-bv",
+        "polar-alignment-and-perimeter-growth",
+        "two-phases-persist-under-perimeter-blow-up",
+        "classifying-the-reduced-boundary-blow-up",
+        "perimeter-tangent-measures-and-density",
+        "from-perimeter-tangents-to-lipschitz-graphs",
+        "identifying-the-perimeter-measure"
       ],
-      "description": "Distributional perimeter, reduced boundary, BV approximation, compactness, coarea, level sets, variational existence, subcalibrations, and minimizing Simons cones. Vector-measure representation, interval traces and finite-perimeter structure, and exact nonlinear jump calculus."
+      "description": "Distributional perimeter, reduced boundary, BV approximation, compactness, coarea, level sets, variational existence, subcalibrations, and minimizing Simons cones. Vector-measure representation, interval traces and finite-perimeter structure, and exact nonlinear jump calculus. Reduced-boundary blow-ups, polar alignment, quantitative phase persistence, graph covering and measure identification."
     },
     {
       "slug": "currents-flat-chains",
@@ -280,9 +287,10 @@
         "mean-values-and-model-checks-for-graphical-flow",
         "corners-and-the-scales-in-graphical-estimates",
         "graphical-expanders-from-homogeneous-cones",
-        "examples-of-slicing-jumps-and-cancellation"
+        "examples-of-slicing-jumps-and-cancellation",
+        "examples-of-phase-density-and-perimeter-blow-ups"
       ],
-      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition. Willmore tori and round surfaces, an inverted catenoid, and curvature concentration, boundary and multiplicity examples. Periodic phase profiles, exact instability modes, circle interfaces and geometric layer energies. Periodic graphical mean conservation and drift, and nonlinear Fourier residuals. Sharp graphical scales and expanders from radial, convex and nonconvex homogeneous cones. Explicit slicing jumps, cancellation and diffuse slices."
+      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition. Willmore tori and round surfaces, an inverted catenoid, and curvature concentration, boundary and multiplicity examples. Periodic phase profiles, exact instability modes, circle interfaces and geometric layer energies. Periodic graphical mean conservation and drift, and nonlinear Fourier residuals. Sharp graphical scales and expanders from radial, convex and nonconvex homogeneous cones. Explicit slicing jumps, cancellation and diffuse slices. Phase densities, sectors, crossing quadrants, collapsing slabs, cusps and null modifications."
     },
     {
       "slug": "harmonic-maps",

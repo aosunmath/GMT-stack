@@ -60,8 +60,13 @@ Consequently, for every $X\in C_c^1(U;\mathbb{R}^n)$,
 \]
 Here $X$ is extended by zero outside $U$. The boundary measures in these identities are taken inside $U$.
 
-\emph{Cited structure theorem; its proof remains to be added.} See \cite{Sim18}, Chapter 3, Theorem 4.4, pp.~97--100. The Gauss--Green identity follows immediately from the measure representation and Definition~\ref{def:bv}. The historical account in \cite{Fle16}, Section 3, uses the same outward-normal convention as this entry.
+The proof below separates blow-up, graph covering, and measure identification. See \cite{Sim18}, Chapter 3, Theorem 4.4, pp.~97--100. The Gauss--Green identity follows immediately from the measure representation and Definition~\ref{def:bv}. The historical account in \cite{Fle16}, Section 3, uses the same outward-normal convention as this entry.
 \end{theorem}
+\begin{proof}
+Theorem \ref{thm:reduced-boundary-graph-cover} proves countable rectifiability from the full pointwise blow-up and density estimates. Theorem \ref{thm:perimeter-hausdorff-identification} identifies the variation measure with Hausdorff measure on the reduced boundary. Its proof explicitly uses Theorem \ref{thm:radon-function-differentiation}, the abstract Radon--Nikodym theorem, and the cited rectifiable-set density theorem; the Besicovitch selection underlying Radon differentiation, the abstract representation theorem and the rectifiable-set density theorem remain explicit external inputs.
+
+To identify the vector derivative, write $D\chi_E=-\nu\,|D\chi_E|$ using its measurable unit polar field. The differentiation argument in Corollary \ref{cor:perimeter-concentrated-reduced-boundary} gives $\nu=\nu_E$ at almost every point for the perimeter measure. Substituting the scalar measure representation proves the second displayed identity. Finally Definition \ref{def:bv} yields $\int_E\operatorname{div}X=-\int X\cdot dD\chi_E$, which is the stated Gauss--Green formula with outward normal. This conclusion depends on the measurable set modulo null sets; no regularity of its chosen topological boundary is required.
+\end{proof}
 
 \begin{example}[Smooth domains]\label{ex:smooth-perimeter}
 Let $E\subset\mathbb{R}^n$ be a bounded open set with compact $C^1$ boundary. The classical divergence theorem identifies
