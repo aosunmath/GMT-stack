@@ -60,9 +60,14 @@
         "slicing-and-the-plateau-direct-method",
         "calibrated-currents-and-mass-comparison",
         "complex-curves-and-singular-calibrated-minimizers",
-        "vector-measures-and-the-mass-of-a-current"
+        "vector-measures-and-the-mass-of-a-current",
+        "countable-tests-for-distributional-currents",
+        "tangential-lipschitz-calculus-for-currents",
+        "geometric-slices-and-their-boundary-identity",
+        "flat-continuity-and-exceptional-slicing-levels",
+        "mass-bounds-for-slices-of-normal-currents"
       ],
-      "description": "Mass, compactness, flat chains, pushforwards, homotopies, slicing, Plateau existence, calibrated currents, and singular complex-curve minimizers. Scalar-to-vector Riesz representation, comass duality, and a direct sequential compactness proof."
+      "description": "Mass, compactness, flat chains, pushforwards, homotopies, slicing, Plateau existence, calibrated currents, and singular complex-curve minimizers. Scalar-to-vector Riesz representation, comass duality, and a direct sequential compactness proof. Tangential Lipschitz calculus, geometric and normal slicing, flat continuity and exceptional levels."
     },
     {
       "slug": "varifolds",
@@ -274,9 +279,10 @@
         "exact-phase-layer-energies-and-geometric-limits",
         "mean-values-and-model-checks-for-graphical-flow",
         "corners-and-the-scales-in-graphical-estimates",
-        "graphical-expanders-from-homogeneous-cones"
+        "graphical-expanders-from-homogeneous-cones",
+        "examples-of-slicing-jumps-and-cancellation"
       ],
-      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition. Willmore tori and round surfaces, an inverted catenoid, and curvature concentration, boundary and multiplicity examples. Periodic phase profiles, exact instability modes, circle interfaces and geometric layer energies. Periodic graphical mean conservation and drift, and nonlinear Fourier residuals. Sharp graphical scales and expanders from radial, convex and nonconvex homogeneous cones."
+      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition. Willmore tori and round surfaces, an inverted catenoid, and curvature concentration, boundary and multiplicity examples. Periodic phase profiles, exact instability modes, circle interfaces and geometric layer energies. Periodic graphical mean conservation and drift, and nonlinear Fourier residuals. Sharp graphical scales and expanders from radial, convex and nonconvex homogeneous cones. Explicit slicing jumps, cancellation and diffuse slices."
     },
     {
       "slug": "harmonic-maps",
