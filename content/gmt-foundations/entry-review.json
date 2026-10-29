@@ -13170,6 +13170,441 @@
         "prop:spherical-harmonic-h1-expansion"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "lem:graphical-compact-cutoff-geometry",
+      "title": "Spatial cutoffs on an entire graphical flow",
+      "kind": "lemma",
+      "file": "graphical-local-cutoffs.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH91"
+      ],
+      "dependencies": [
+        "lem:graphical-heat-coordinate-cancellation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:graphical-local-angle-cutoff",
+      "title": "The localized reciprocal-angle estimate",
+      "kind": "theorem",
+      "file": "graphical-local-cutoffs.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH91"
+      ],
+      "dependencies": [
+        "lem:graphical-compact-cutoff-geometry",
+        "lem:graphical-material-drift"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:entire-slope-without-growth",
+      "title": "Initial bounded slope propagates without a growth assumption",
+      "kind": "corollary",
+      "file": "graphical-local-cutoffs.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH91"
+      ],
+      "dependencies": [
+        "thm:graphical-local-angle-cutoff"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:graphical-rational-curvature-identity",
+      "title": "A rational weight with a negative curvature square",
+      "kind": "proposition",
+      "file": "graphical-local-cutoffs.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH91"
+      ],
+      "dependencies": [
+        "lem:graphical-slope-gradient"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:graphical-base-interior-curvature",
+      "title": "Interior curvature in a fixed base ball",
+      "kind": "theorem",
+      "file": "graphical-local-cutoffs.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH91"
+      ],
+      "dependencies": [
+        "lem:graphical-compact-cutoff-geometry",
+        "prop:graphical-rational-curvature-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:graphical-ambient-interior-curvature",
+      "title": "Curvature in a shrinking ambient ball",
+      "kind": "corollary",
+      "file": "graphical-local-cutoffs.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH91"
+      ],
+      "dependencies": [
+        "lem:graphical-compact-cutoff-geometry",
+        "thm:graphical-base-interior-curvature"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:bounded-slope-automatic-curvature",
+      "title": "Bounded slope gives automatic positive-time curvature control",
+      "kind": "proposition",
+      "file": "graphical-global-refinements.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH91"
+      ],
+      "dependencies": [
+        "cor:entire-slope-without-growth",
+        "thm:entire-graph-curvature-smoothing",
+        "thm:graphical-base-interior-curvature"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:ancient-bounded-slope-plane",
+      "title": "Ancient bounded-slope graphs are affine without a curvature hypothesis",
+      "kind": "corollary",
+      "file": "graphical-global-refinements.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:graph-curvature-hessian-comparison",
+        "prop:bounded-slope-automatic-curvature"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:bounded-gradient-minimal-graph-affine",
+      "title": "A bounded-gradient entire minimal graph is affine in every dimension",
+      "kind": "corollary",
+      "file": "graphical-global-refinements.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH91"
+      ],
+      "dependencies": [
+        "cor:ancient-bounded-slope-plane"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:maximum-integrable-time-drift",
+      "title": "A maximum principle with a time-integrable drift bound",
+      "kind": "lemma",
+      "file": "graphical-global-refinements.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:entire-polynomial-maximum-principle"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:entire-bounded-slope-comparison",
+      "title": "Comparison and uniqueness in the bounded-slope entire class",
+      "kind": "theorem",
+      "file": "graphical-global-refinements.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH91"
+      ],
+      "dependencies": [
+        "lem:graph-curvature-hessian-comparison",
+        "lem:maximum-integrable-time-drift",
+        "prop:bounded-slope-automatic-curvature",
+        "prop:entire-graph-bounded-geometry-uniqueness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:globally-lipschitz-graph-wellposedness",
+      "title": "Uniqueness of the globally Lipschitz-data construction",
+      "kind": "corollary",
+      "file": "graphical-global-refinements.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:ecker-huisken-global-graph-existence",
+        "thm:entire-bounded-slope-comparison"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:convex-graph-data-upward-motion",
+      "title": "Convex initial data give upward motion",
+      "kind": "proposition",
+      "file": "graphical-global-refinements.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [
+        "cor:globally-lipschitz-graph-wellposedness",
+        "thm:entire-bounded-slope-comparison"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:entire-graph-initial-trace-avoidance",
+      "title": "Avoidance from a locally continuous initial graph",
+      "kind": "lemma",
+      "file": "graphical-height-existence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:compact-flow-entire-graph-avoidance"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:entire-graph-local-height-barrier",
+      "title": "Local heights are controlled by a larger initial ball",
+      "kind": "proposition",
+      "file": "graphical-height-existence.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH91"
+      ],
+      "dependencies": [
+        "lem:entire-graph-initial-trace-avoidance"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:graph-lipschitz-half-holder-time",
+      "title": "A quantitative half-Hölder bound from Lipschitz initial data",
+      "kind": "theorem",
+      "file": "graphical-height-existence.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH91"
+      ],
+      "dependencies": [
+        "lem:entire-graph-initial-trace-avoidance",
+        "prop:entire-graph-local-height-barrier"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:graphical-uniform-contraction",
+      "title": "Uniform contraction and a time modulus for bounded-slope solutions",
+      "kind": "proposition",
+      "file": "graphical-height-existence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:globally-lipschitz-graph-wellposedness",
+        "thm:ecker-huisken-global-graph-existence",
+        "thm:entire-bounded-slope-comparison",
+        "thm:graph-lipschitz-half-holder-time"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:ecker-huisken-arbitrary-growth-existence",
+      "title": "Ecker--Huisken existence for entire locally Lipschitz graphs",
+      "kind": "theorem",
+      "file": "graphical-height-existence.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "EH91"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:graph-flow-superexponential-data",
+      "title": "A rapidly growing graph and the divergent heat-kernel integral",
+      "kind": "example",
+      "file": "graphical-height-existence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:ecker-huisken-arbitrary-growth-existence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:graphical-height-cutoff-gradient",
+      "title": "The height-dependent cutoff at a large-angle maximum",
+      "kind": "lemma",
+      "file": "graphical-height-gradient.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:graphical-compact-cutoff-geometry"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:graphical-height-gradient-estimate",
+      "title": "An explicit local height-to-gradient estimate",
+      "kind": "theorem",
+      "file": "graphical-height-gradient.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH91"
+      ],
+      "dependencies": [
+        "lem:graphical-height-cutoff-gradient",
+        "prop:graphical-angle-evolution"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:graphical-initial-local-geometry-control",
+      "title": "Local a priori slope and curvature from a larger initial ball",
+      "kind": "proposition",
+      "file": "graphical-height-gradient.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:entire-graph-local-height-barrier",
+        "thm:graphical-base-interior-curvature",
+        "thm:graphical-height-gradient-estimate"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:graphical-half-time-sharpness",
+      "title": "The time exponent one half cannot be improved for Lipschitz graphs",
+      "kind": "example",
+      "file": "examples-graphical-cutoffs.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:expander-global-slope",
+        "prop:expander-corner-initial-trace",
+        "prop:expander-curvature-example"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:expander-tip-slope-bijection",
+      "title": "The tip height parametrizes all positive symmetric cone slopes",
+      "kind": "lemma",
+      "file": "examples-graphical-cutoffs.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:expander-global-slope",
+        "prop:expander-graph-defect",
+        "thm:entire-bounded-slope-comparison",
+        "thm:graph-lipschitz-half-holder-time"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:prescribed-symmetric-corner-expander",
+      "title": "The unique bounded-slope graphical expander for a symmetric corner",
+      "kind": "theorem",
+      "file": "examples-graphical-cutoffs.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hal12"
+      ],
+      "dependencies": [
+        "lem:expander-tip-slope-bijection",
+        "prop:expander-corner-initial-trace",
+        "thm:convex-graphical-expander",
+        "thm:entire-bounded-slope-comparison"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:scherk-local-curvature-scale",
+      "title": "The spatial-radius term in local curvature estimates is necessary",
+      "kind": "example",
+      "file": "examples-graphical-cutoffs.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:scherk-graph",
+        "thm:graphical-base-interior-curvature"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:lipschitz-cone-graphical-expander",
+      "title": "A unique bounded-slope graphical expander for a Lipschitz cone",
+      "kind": "theorem",
+      "file": "examples-homogeneous-expanders.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [
+        "thm:ecker-huisken-global-graph-existence",
+        "thm:entire-bounded-slope-comparison",
+        "thm:graph-lipschitz-half-holder-time"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cone-expander-order-symmetry",
+      "title": "Order, symmetries and blow-down of cone expanders",
+      "kind": "proposition",
+      "file": "examples-homogeneous-expanders.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:entire-bounded-slope-comparison",
+        "thm:lipschitz-cone-graphical-expander"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:radial-lipschitz-cone-expander",
+      "title": "Rotational expanders from circular graphical cones",
+      "kind": "example",
+      "file": "examples-homogeneous-expanders.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:cone-expander-order-symmetry",
+        "thm:lipschitz-cone-graphical-expander"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:saddle-cone-graphical-expander",
+      "title": "A nonconvex cone with an expander of changing height sign",
+      "kind": "example",
+      "file": "examples-homogeneous-expanders.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:cone-expander-order-symmetry",
+        "thm:lipschitz-cone-graphical-expander"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:convex-cone-positive-expander-defect",
+      "title": "Convex cones have strictly positive expander defect",
+      "kind": "corollary",
+      "file": "examples-homogeneous-expanders.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:convex-graph-data-upward-motion",
+        "thm:lipschitz-cone-graphical-expander"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -13227,7 +13662,12 @@
     "Interior elliptic derivative estimates in the flat Allen–Cahn bounded-kernel decay proof",
     "Elliptic W2p and Schauder bootstrapping for fixed-epsilon Allen–Cahn smoothness and critical-set compactness",
     "Ecker–Huisken1989 entire globally-Lipschitz graphical-flow existence, higher curvature derivative estimates and Lipschitz approximation",
-    "Stone–Weierstrass approximation on a compact sphere; continuous-function density for finite Radon surface measure; Sobolev completeness"
+    "Stone–Weierstrass approximation on a compact sphere; continuous-function density for finite Radon surface measure; Sobolev completeness",
+    "Graphical boundary-value existence,curvature higher derivatives,compact exhaustion and approximation in Ecker–Huisken Theorem5.1 remain external. The height-gradient step is now proved locally.",
+    "Classical local scalar parabolic strong maximum principle is background for strict positivity of radial cone expanders.",
+    "Smooth finite-dimensional ODE dependence used for continuity of the planar tip-to-slope map.",
+    "No uniqueness theorem for unrestricted entire graphs with unbounded slopes or arbitrary weak flows is asserted.",
+    "Finite-dimensional supporting-hyperplane theorem for finite convex functions; local strong maximum principle for strict upward motion from nonaffine convex data."
   ],
   "next_development": [
     "Covering and differentiation theorems for measures",

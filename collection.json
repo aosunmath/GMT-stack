@@ -228,9 +228,13 @@
         "weighted-curvature-and-smoothing-of-periodic-graphs",
         "convergence-and-area-decay-for-periodic-graphs",
         "maximum-principles-and-entire-graphical-flows",
-        "rigidity-of-entire-graphical-self-shrinkers"
+        "rigidity-of-entire-graphical-self-shrinkers",
+        "local-cutoffs-and-interior-graphical-curvature",
+        "automatic-curvature-control-and-bounded-slope-uniqueness",
+        "height-barriers-and-entire-graphs-of-arbitrary-growth",
+        "local-gradient-bounds-from-height-oscillation"
       ],
-      "description": "Smooth and weak flows, Gaussian monotonicity, weighted shrinker variations and stability, Gaussian tails and convergence, entropy maximizers, product splitting, and entropy-lowering compact perturbations. Translators: weighted variations, ground states, conformal metric, graphical calibration, curvature ratios, and complete rigidity under explicit global hypotheses. Self-shrinker curvature gaps with explicit complete-image proofs and Gaussian integrability assumptions. Graphical angle and curvature estimates, periodic long-time convergence, controlled entire-flow maximum principles, and entire graphical self-shrinker rigidity."
+      "description": "Smooth and weak flows, Gaussian monotonicity, weighted shrinker variations and stability, Gaussian tails and convergence, entropy maximizers, product splitting, and entropy-lowering compact perturbations. Translators: weighted variations, ground states, conformal metric, graphical calibration, curvature ratios, and complete rigidity under explicit global hypotheses. Self-shrinker curvature gaps with explicit complete-image proofs and Gaussian integrability assumptions. Graphical angle and curvature estimates, periodic long-time convergence, controlled entire-flow maximum principles, and entire graphical self-shrinker rigidity. Local graphical cutoffs, rough-data comparison, height-gradient estimates and arbitrary-growth existence."
     },
     {
       "slug": "history",
@@ -268,9 +272,11 @@
         "curvature-concentration-and-boundary-energy",
         "periodic-phases-and-the-long-period-transition-limit",
         "exact-phase-layer-energies-and-geometric-limits",
-        "mean-values-and-model-checks-for-graphical-flow"
+        "mean-values-and-model-checks-for-graphical-flow",
+        "corners-and-the-scales-in-graphical-estimates",
+        "graphical-expanders-from-homogeneous-cones"
       ],
-      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition. Willmore tori and round surfaces, an inverted catenoid, and curvature concentration, boundary and multiplicity examples. Periodic phase profiles, exact instability modes, circle interfaces and geometric layer energies. Periodic graphical mean conservation and drift, and nonlinear Fourier residuals."
+      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition. Willmore tori and round surfaces, an inverted catenoid, and curvature concentration, boundary and multiplicity examples. Periodic phase profiles, exact instability modes, circle interfaces and geometric layer energies. Periodic graphical mean conservation and drift, and nonlinear Fourier residuals. Sharp graphical scales and expanders from radial, convex and nonconvex homogeneous cones."
     },
     {
       "slug": "harmonic-maps",
