@@ -618,7 +618,9 @@
         "MNWill"
       ],
       "dependencies": [
-        "def:smooth-minimal"
+        "def:smooth-minimal",
+        "def:willmore-vector-normalization",
+        "prop:stereographic-willmore-identity"
       ],
       "formal_verification": "none"
     },
@@ -631,7 +633,9 @@
       "citations": [
         "MNWill"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cor:immersed-positive-genus-willmore"
+      ],
       "formal_verification": "none"
     },
     {
@@ -643,7 +647,10 @@
       "citations": [
         "KMN"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "prop:unstable-sheet-logarithmic-comparison",
+        "thm:catenoid-logarithmic-excess"
+      ],
       "formal_verification": "none"
     },
     {
@@ -11326,6 +11333,686 @@
       "status": "proof-included",
       "citations": [],
       "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:willmore-vector-normalization",
+      "title": "Vector normalization and the trace-free second fundamental form",
+      "kind": "definition",
+      "file": "willmore-conformal.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "LY82",
+        "SimW93"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:conformal-second-fundamental-form",
+      "title": "Conformal changes of the normal geometry",
+      "kind": "lemma",
+      "file": "willmore-conformal.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:surface-conformal-gauss-density",
+      "title": "The intrinsic curvature density under a conformal change",
+      "kind": "lemma",
+      "file": "willmore-conformal.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:willmore-tracefree-decomposition",
+      "title": "The conformally invariant energy density modulo curvature",
+      "kind": "proposition",
+      "file": "willmore-conformal.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:conformal-second-fundamental-form",
+        "lem:surface-conformal-gauss-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:stereographic-willmore-identity",
+      "title": "Stereographic projection preserves the normalized energy",
+      "kind": "proposition",
+      "file": "willmore-conformal.tex",
+      "status": "proof-included",
+      "citations": [
+        "MNWill"
+      ],
+      "dependencies": [
+        "prop:willmore-tracefree-decomposition"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:willmore-first-variation-spaceform",
+      "title": "First variation of Willmore energy in a three-dimensional space form",
+      "kind": "theorem",
+      "file": "willmore-conformal.tex",
+      "status": "proof-included",
+      "citations": [
+        "MNWill"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:minimal-spherical-willmore",
+      "title": "Minimal spherical surfaces give Euclidean Willmore surfaces",
+      "kind": "corollary",
+      "file": "willmore-conformal.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:stereographic-willmore-identity",
+        "thm:willmore-first-variation-spaceform"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:inversion-mean-curvature-vector",
+      "title": "The differential and curvature of an inversion",
+      "kind": "lemma",
+      "file": "willmore-density.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:conformal-second-fundamental-form"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:willmore-puncture-flux",
+      "title": "The puncture flux at a smooth immersed sheet",
+      "kind": "lemma",
+      "file": "willmore-density.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:willmore-radial-square-identity",
+      "title": "A square identity for a compact immersed surface",
+      "kind": "theorem",
+      "file": "willmore-density.tex",
+      "status": "proof-included",
+      "citations": [
+        "SimW93"
+      ],
+      "dependencies": [
+        "lem:willmore-puncture-flux"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:li-yau-smooth-multiplicity",
+      "title": "The Li--Yau multiplicity bound for smooth immersions",
+      "kind": "theorem",
+      "file": "willmore-density.tex",
+      "status": "proof-included",
+      "citations": [
+        "LY82"
+      ],
+      "dependencies": [
+        "thm:willmore-radial-square-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:willmore-inversion-energy-defect",
+      "title": "The energy lost at an inversion pole",
+      "kind": "proposition",
+      "file": "willmore-density.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:inversion-mean-curvature-vector",
+        "thm:willmore-radial-square-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:willmore-round-sphere-rigidity",
+      "title": "Equality in the universal Willmore bound",
+      "kind": "theorem",
+      "file": "willmore-density.tex",
+      "status": "proof-included",
+      "citations": [
+        "SimW93"
+      ],
+      "dependencies": [
+        "thm:li-yau-smooth-multiplicity",
+        "thm:willmore-radial-square-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:spherical-willmore-multiplicity",
+      "title": "Multiplicity bounds in the unit sphere",
+      "kind": "corollary",
+      "file": "willmore-density.tex",
+      "status": "proof-included",
+      "citations": [
+        "LY82"
+      ],
+      "dependencies": [
+        "prop:stereographic-willmore-identity",
+        "thm:li-yau-smooth-multiplicity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:willmore-flat-disk-boundary",
+      "title": "The boundary flux of a flat disk",
+      "kind": "example",
+      "file": "willmore-density.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:willmore-radial-square-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:immersed-positive-genus-willmore",
+      "title": "From the embedded theorem to all orientable positive-genus immersions",
+      "kind": "corollary",
+      "file": "willmore-density.tex",
+      "status": "proof-included",
+      "citations": [
+        "MNWill"
+      ],
+      "dependencies": [
+        "cor:spherical-willmore-multiplicity",
+        "prop:stereographic-willmore-identity",
+        "thm:li-yau-smooth-multiplicity",
+        "thm:willmore-bound"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:willmore-two-radius-identity",
+      "title": "The two-radius square identity",
+      "kind": "proposition",
+      "file": "willmore-local-estimates.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:willmore-corrected-area-monotonicity",
+      "title": "A corrected area ratio is monotone",
+      "kind": "proposition",
+      "file": "willmore-local-estimates.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:willmore-puncture-flux",
+        "prop:willmore-two-radius-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:willmore-local-area-comparison",
+      "title": "A local comparison with an explicit constant",
+      "kind": "proposition",
+      "file": "willmore-local-estimates.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:willmore-two-radius-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:willmore-uniform-quadratic-area",
+      "title": "Global energy controls every local area ratio",
+      "kind": "theorem",
+      "file": "willmore-local-estimates.tex",
+      "status": "proof-included",
+      "citations": [
+        "SimW93"
+      ],
+      "dependencies": [
+        "prop:willmore-two-radius-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:willmore-gaussian-area-bound",
+      "title": "Willmore energy gives a Gaussian-area bound",
+      "kind": "corollary",
+      "file": "willmore-local-estimates.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:willmore-uniform-quadratic-area"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:willmore-containing-ball",
+      "title": "A containing ball bounds area by energy",
+      "kind": "proposition",
+      "file": "willmore-local-estimates.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:willmore-diameter-estimate",
+      "title": "Area-energy bounds for extrinsic diameter",
+      "kind": "theorem",
+      "file": "willmore-local-estimates.tex",
+      "status": "proof-included",
+      "citations": [
+        "SimW93"
+      ],
+      "dependencies": [
+        "prop:willmore-containing-ball",
+        "prop:willmore-local-area-comparison"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:varifold-quadratic-energy",
+      "title": "An extended quadratic first-variation energy",
+      "kind": "definition",
+      "file": "willmore-weak-energy.tex",
+      "status": "definition-with-source",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:varifold-energy-dual-representation",
+      "title": "Finite quadratic energy is equivalent to square-integrable mean curvature",
+      "kind": "theorem",
+      "file": "willmore-weak-energy.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:hilbert-functional-representation",
+        "thm:radon-lp-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:varifold-quadratic-energy-lsc",
+      "title": "Lower semicontinuity of quadratic varifold energy",
+      "kind": "theorem",
+      "file": "willmore-weak-energy.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:varifold-energy-dual-representation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:smooth-varifold-willmore-comparison",
+      "title": "Comparison with the energy of a smooth immersion",
+      "kind": "proposition",
+      "file": "willmore-weak-energy.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:varifold-energy-dual-representation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:willmore-integral-compactness-conditional",
+      "title": "An integral compactness consequence, with its external input",
+      "kind": "corollary",
+      "file": "willmore-weak-energy.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:smooth-varifold-willmore-comparison",
+        "thm:allard-compactness",
+        "thm:varifold-quadratic-energy-lsc"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:closed-surfaces-willmore-compactness",
+      "title": "A bounded-energy sequence of closed surfaces has local compactness",
+      "kind": "corollary",
+      "file": "willmore-weak-energy.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:willmore-integral-compactness-conditional",
+        "prop:smooth-varifold-willmore-comparison",
+        "thm:allard-compactness",
+        "thm:willmore-uniform-quadratic-area"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:circular-ring-torus-geometry",
+      "title": "Geometry of a circular ring torus",
+      "kind": "proposition",
+      "file": "examples-willmore-tori.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:circular-ring-willmore-energy",
+      "title": "The energy minimum within the circular ring family",
+      "kind": "theorem",
+      "file": "examples-willmore-tori.tex",
+      "status": "proof-included",
+      "citations": [
+        "LY82",
+        "MNWill"
+      ],
+      "dependencies": [
+        "prop:circular-ring-torus-geometry"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:ring-torus-total-curvature",
+      "title": "Total Gauss curvature does not determine the torus energy",
+      "kind": "example",
+      "file": "examples-willmore-tori.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:circular-ring-willmore-energy"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:unit-sphere-product-tori-energy",
+      "title": "Product tori in the unit three-sphere",
+      "kind": "proposition",
+      "file": "examples-willmore-tori.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:clifford-torus-shrinker",
+        "thm:willmore-first-variation-spaceform"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:clifford-stereographic-ring",
+      "title": "Stereographic projection gives the circular minimizer",
+      "kind": "example",
+      "file": "examples-willmore-tori.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:unit-sphere-product-tori-energy",
+        "thm:circular-ring-willmore-energy"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:latitude-willmore-energy",
+      "title": "All round latitudes have the same Willmore energy",
+      "kind": "example",
+      "file": "examples-willmore-tori.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:inversion-affine-plane-sphere",
+      "title": "An affine plane becomes a punctured round sphere",
+      "kind": "example",
+      "file": "examples-willmore-tori.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:willmore-inversion-energy-defect"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:ring-torus-willmore-equation",
+      "title": "The full Willmore equation on a ring torus",
+      "kind": "proposition",
+      "file": "examples-willmore-tori.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:circular-ring-torus-geometry"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:round-sphere-willmore-hessian",
+      "title": "Second variation at a round Euclidean sphere",
+      "kind": "proposition",
+      "file": "examples-willmore-tori.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:willmore-first-variation-spaceform"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:round-sphere-willmore-kernel",
+      "title": "Only dilations and translations lie in the spherical kernel",
+      "kind": "proposition",
+      "file": "examples-willmore-tori.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:round-sphere-willmore-hessian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:inverted-catenoid-energy",
+      "title": "The inverted catenoid has energy eight pi",
+      "kind": "proposition",
+      "file": "examples-inverted-catenoid.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:inversion-mean-curvature-vector",
+        "thm:willmore-radial-square-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:inverted-catenoid-not-c2",
+      "title": "The closing sheets have no twice-differentiable extension",
+      "kind": "proposition",
+      "file": "examples-inverted-catenoid.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:collapsing-sphere-willmore-defect",
+      "title": "A collapsing sphere loses mass and concentrates curvature energy",
+      "kind": "example",
+      "file": "examples-willmore-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:willmore-spheres-escape",
+      "title": "Energy can escape to infinity",
+      "kind": "example",
+      "file": "examples-willmore-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:disk-singular-first-variation-energy",
+      "title": "A disk has zero classical bending energy but infinite full first-variation energy",
+      "kind": "example",
+      "file": "examples-willmore-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:willmore-noninteger-sphere",
+      "title": "Real multiplicity scales the energy",
+      "kind": "example",
+      "file": "examples-willmore-limits.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:li-yau-smooth-multiplicity",
+        "thm:varifold-energy-dual-representation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:history-willmore-circular-candidate",
+      "title": "A family calculation suggested a global conjecture",
+      "kind": "remark",
+      "file": "history-willmore.tex",
+      "status": "editorial",
+      "citations": [
+        "MNWill"
+      ],
+      "dependencies": [
+        "ex:clifford-stereographic-ring",
+        "thm:circular-ring-willmore-energy",
+        "thm:willmore-first-variation-spaceform"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:history-li-yau-multiplicity",
+      "title": "Conformal area separated the multiple-point obstruction",
+      "kind": "remark",
+      "file": "history-willmore.tex",
+      "status": "editorial",
+      "citations": [
+        "LY82"
+      ],
+      "dependencies": [
+        "cor:immersed-positive-genus-willmore",
+        "thm:li-yau-smooth-multiplicity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:history-willmore-existence-value",
+      "title": "Existence and the exact minimum were separate achievements",
+      "kind": "remark",
+      "file": "history-willmore.tex",
+      "status": "editorial",
+      "citations": [
+        "MNWill",
+        "SimW93"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:catenoid-boundary-branches",
+      "title": "Two rotational catenoids with the same circular boundary",
+      "kind": "proposition",
+      "file": "catenoid-neck.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:critical-catenoid",
+        "ex:explicit-catenoid"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:catenoid-exact-disk-excess",
+      "title": "Exact excess over two disks",
+      "kind": "proposition",
+      "file": "catenoid-neck.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:catenoid-logarithmic-excess",
+      "title": "The sharp leading logarithmic neck cost",
+      "kind": "theorem",
+      "file": "catenoid-neck.tex",
+      "status": "proof-included",
+      "citations": [
+        "KMN"
+      ],
+      "dependencies": [
+        "prop:catenoid-boundary-branches",
+        "prop:catenoid-exact-disk-excess"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:cylindrical-neck-cost",
+      "title": "A cylindrical connector has a larger leading cost",
+      "kind": "example",
+      "file": "catenoid-neck.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:catenoid-logarithmic-excess"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:planar-annulus-exact-energy",
+      "title": "The exact planar annulus capacity",
+      "kind": "proposition",
+      "file": "catenoid-neck.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:point-capacity-cutoffs"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:unstable-sheet-logarithmic-comparison",
+      "title": "Quadratic sheet gain dominates a logarithmic error",
+      "kind": "proposition",
+      "file": "catenoid-neck.tex",
+      "status": "proof-included",
+      "citations": [
+        "KMN"
+      ],
+      "dependencies": [
+        "thm:second-variation"
+      ],
       "formal_verification": "none"
     }
   ],

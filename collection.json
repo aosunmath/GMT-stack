@@ -79,9 +79,10 @@
         "bounded-curvature-and-corrected-mass-ratios",
         "spines-and-products-of-stationary-cones",
         "covering-arguments-for-singular-strata",
-        "balanced-junctions-and-flat-singular-examples"
+        "balanced-junctions-and-flat-singular-examples",
+        "quadratic-curvature-energy-under-varifold-convergence"
       ],
-      "description": "First variation, monotonicity, bounded curvature, constancy, integral compactness, tangent cones, spine splitting, support convergence, qualitative stratification, junction models, and Allard regularity."
+      "description": "First variation, monotonicity, bounded curvature, constancy, integral compactness, tangent cones, spine splitting, support convergence, qualitative stratification, junction models, and Allard regularity. Dual first-variation energy, lower semicontinuity and conditional integral compactness."
     },
     {
       "slug": "minimal-surfaces",
@@ -141,9 +142,13 @@
       "tag": "4A6C9675ABE9",
       "topics": [
         "the-willmore-energy-and-the-catenoid-estimate",
-        "low-widths-of-the-round-three-sphere"
+        "low-widths-of-the-round-three-sphere",
+        "conformal-geometry-of-the-willmore-energy",
+        "willmore-energy-multiplicity-and-inversion",
+        "local-area-and-diameter-estimates-from-willmore-energy",
+        "the-logarithmic-cost-of-a-euclidean-catenoidal-neck"
       ],
-      "description": "Willmore energy, neck constructions, and low-width model results."
+      "description": "Willmore energy, neck constructions, and low-width model results. Conformal Willmore calculus, multiplicity and inversion, local energy estimates, and explicit logarithmic neck costs."
     },
     {
       "slug": "constant-mean-curvature",
@@ -221,9 +226,10 @@
       "title": "History",
       "topics": [
         "origins-of-geometric-measure-theory",
-        "from-one-minimal-hypersurface-to-many"
+        "from-one-minimal-hypersurface-to-many",
+        "from-a-circular-torus-to-a-min-max-theorem"
       ],
-      "description": "Sourced historical notes on the origins of GMT and the development of min-max theory."
+      "description": "Sourced historical notes on the origins of GMT and the development of min-max theory. Conformal volume, Willmore minimizers and the distinction between existence and a sharp min-max bound."
     },
     {
       "slug": "examples",
@@ -245,9 +251,12 @@
         "a-normal-current-without-rectifiability",
         "self-shrinkers-in-higher-codimension",
         "jumps-representatives-and-boundary-traces",
-        "a-radial-obstacle-problem-and-its-contact-transition"
+        "a-radial-obstacle-problem-and-its-contact-transition",
+        "round-surfaces-and-circular-willmore-tori",
+        "a-finite-energy-inversion-with-a-nonsmooth-closing-point",
+        "curvature-concentration-and-boundary-energy"
       ],
-      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition."
+      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition. Willmore tori and round surfaces, an inverted catenoid, and curvature concentration, boundary and multiplicity examples."
     },
     {
       "slug": "harmonic-maps",

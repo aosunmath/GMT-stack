@@ -38,7 +38,8 @@
         "Chapter 2, Section 1, pp. 43–46 (PDF pp. 25–27): scalar extension, linewise absolute continuity, weak directional derivatives, and the finite-net proof of Rademacher. One-dimensional absolutely continuous FTC remains explicit background; no Whitney extension imported.",
         "Chapter 1, Theorem 5.14, printed pp. 37--38 (PDF pp. 22--23): positive variation and vector Riesz representation; normed-space extension derived locally with explicit Hilbert and sigma-finite L1 duality proofs.",
         "Chapter 6, Remark 2.7 and equations (2.8)--(2.10), printed pp. 160--161 (PDF p. 84): continuous extension and polar mass representation, with comass and dual mass norms distinguished from the source's initial Euclidean norms. Lemma 2.17, p. 162 (PDF p. 85): compactness developed by the project's countable-test diagonal method.",
-        "Chapter2 Section2 equations(2.1)–(2.4), printed52–53 (PDF30): distributional variation and vector representation. Interval representatives, traces, chain/product rules and counterexamples proved directly from the measure formulation."
+        "Chapter2 Section2 equations(2.1)–(2.4), printed52–53 (PDF30): distributional variation and vector representation. Interval representatives, traces, chain/product rules and counterexamples proved directly from the measure formulation.",
+        "Chapter8 equations(2.3)–(2.10), printed239–240/PDF123–124: first variation, absolutely continuous mean curvature and singular boundary part. Quadratic duality and lower semicontinuity derived explicitly from this definition and the local Hilbert representation proof."
       ]
     },
     {
@@ -132,7 +133,12 @@
       "sha256": "23bf02aecc4d2c7f671ec78bab7593afe5697d083f01108fb1537b6976bea3d8",
       "pdf_pages": 27,
       "role": "Catenoid mechanism, Theorem 2.4; fundamental-class width in positive Ricci curvature, Theorem 1.5.",
-      "redistributed": false
+      "redistributed": false,
+      "checked_passages": [
+        "Section2.1, Proposition2.1 and Remarks2.2–2.3, supplied pp4–6: two catenoid branches, exact area and logarithmic neck cost; printed5 visually inspected.",
+        "Introduction p2 and opening of Section2.2 pp6–7: quadratic sheet gain and the need for a uniform manifold sweepout construction. The latter remains external."
+      ],
+      "review_status": "selected-passages-checked"
     },
     {
       "bibliography_key": "Minter",
@@ -264,7 +270,11 @@
       "sha256": "a006902a44c85e0d806dcc53470e5e6f2527e3a62efcc0d4afab7bc4e5768876",
       "pdf_pages": 100,
       "role": "Averaged-mean-curvature normalization, Definition 1.2, and Theorem A.",
-      "redistributed": false
+      "redistributed": false,
+      "checked_passages": [
+        "Printed684–685/PDF2–3: ring torus, stereographic energy identity, Definition1.2 and TheoremA. New direct proofs retain the trace/average and spherical ambient-curvature conventions.",
+        "Printed686–687/PDF4–5: TheoremB and CorollaryD, five-parameter family and Clifford-torus min-max history."
+      ]
     },
     {
       "bibliography_key": "Nurser",
@@ -1939,6 +1949,45 @@
       "checked_passages": [
         "Equation (1.2) and Theorem 1.1, pp.1–2: normalization and arbitrary-codimension comparison; local gap proof restricted to hypersurfaces with finite Gaussian area.",
         "Propositions 5.1–5.3 and Examples 5.1–5.3, pp.8–9: mean-curvature thresholds, no closed expanders and products of spheres; arbitrary-codimension Gaussian radial identity proved explicitly."
+      ]
+    },
+    {
+      "bibliography_key": "LY82",
+      "filename": "A new conformal invariant and its applications to the Willmore conjecture and the first eigenvalue of compact surfaces_Li-Yau.pdf",
+      "author": "Peter Li; Shing-Tung Yau",
+      "title": "A New Conformal Invariant and Its Applications to the Willmore Conjecture and the First Eigenvalue of Compact Surfaces",
+      "edition": "Inventiones Mathematicae 69 (1982), 269–291; supplied 23-page journal copy",
+      "sha256": "c0344cf21a416d0427fb694c2ca49ee0c69903c027de00cfab6fccf868074346",
+      "pdf_pages": 23,
+      "redistributed": false,
+      "role": "Conformal invariance and multiplicity bound; direct local proofs, normalization conversion and model calculations supplied.",
+      "metadata_status": "source-checked",
+      "review_status": "selected-passages-checked",
+      "url": "https://math.jhu.edu/~js/Math748/li-yau.conformal.pdf",
+      "checked_passages": [
+        "Introduction, printed270/PDF2: circular tori and Willmore history.",
+        "Proposition1 and equations(3.1)–(3.4), printed279/PDF11: conformal trace-free curvature and area comparison.",
+        "Section5 Lemma1, printed285/PDF17; Theorem6 and Corollary10, printed286/PDF18: Euclidean and spherical multiplicity bounds. PDF18 visually inspected."
+      ]
+    },
+    {
+      "bibliography_key": "SimW93",
+      "filename": "Existence of surfaces minimizing the Willmore functional_Simon.pdf",
+      "author": "Leon Simon",
+      "title": "Existence of Surfaces Minimizing the Willmore Functional",
+      "edition": "Communications in Analysis and Geometry 1 (1993), no.2, 281–326; supplied 46-page journal copy",
+      "sha256": "6f7baac5dbf501c1afe6daefbd2c4868407ba69fface044d10b8b518b91d949d",
+      "pdf_pages": 46,
+      "redistributed": false,
+      "role": "Radial square identities, inversion normalization and area-energy diameter mechanism; global existence and regularity theory not imported.",
+      "metadata_status": "source-checked",
+      "review_status": "selected-passages-checked",
+      "url": "https://doi.org/10.4310/CAG.1993.v1.n2.a4",
+      "checked_passages": [
+        "Printed281–282/PDF1–2: trace-vector normalization and round-sphere lower bound.",
+        "Lemma1.1, printed283/PDF3; equations(1.1),(1.2),(1.2'),(1.5), printed284–285/PDF4–5: radial first variation, square completion and boundary term. PDF5 visually inspected.",
+        "Proof of Lemma1.1, printed285–286/PDF5–6: area/energy diameter bounds and disjoint-ball mechanism.",
+        "Printed282/PDF2 visually inspected: existence of a compact embedded real-analytic minimizing torus for every ambient dimension n>=3. Confirms historical scope; the full existence proof remains external."
       ]
     }
   ],
