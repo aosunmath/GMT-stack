@@ -2830,11 +2830,15 @@
       "title": "Representation of currents with locally finite mass",
       "kind": "theorem",
       "file": "current-operations.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Sim18"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "lem:current-continuous-extension",
+        "prop:current-open-mass-variation",
+        "thm:normed-vector-riesz"
+      ],
       "formal_verification": "none"
     },
     {
@@ -2847,9 +2851,9 @@
         "Sim18"
       ],
       "dependencies": [
-        "prop:boundary-current",
-        "thm:current-mass-representation",
-        "thm:integral-compactness"
+        "lem:countable-radon-tests",
+        "lem:current-continuous-extension",
+        "lem:measure-diagonal-functional"
       ],
       "formal_verification": "none"
     },
@@ -10367,12 +10371,509 @@
       "citations": [],
       "dependencies": [],
       "formal_verification": "none"
+    },
+    {
+      "label": "def:translator-jacobi-weight",
+      "title": "Translator weight and Jacobi operator",
+      "kind": "definition",
+      "file": "translator-variation.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "HIMW19"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:translator-weighted-parts",
+      "title": "Translator drift in divergence form",
+      "kind": "lemma",
+      "file": "translator-variation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-jacobi-linearization",
+      "title": "Linearization and second variation for fixed velocity",
+      "kind": "proposition",
+      "file": "translator-variation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:translator-weighted-parts",
+        "prop:riemannian-mean-curvature-variation",
+        "prop:translator-weighted-area-example"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-angle-jacobi",
+      "title": "Translation angles and mean curvature are Jacobi fields",
+      "kind": "proposition",
+      "file": "translator-variation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-jacobi-linearization"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-height-drift",
+      "title": "Height and exponential drift identities",
+      "kind": "proposition",
+      "file": "translator-variation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-ground-state",
+      "title": "A weighted ground-state identity",
+      "kind": "proposition",
+      "file": "translator-variation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:translator-weighted-parts"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:translating-graph-weighted-stability",
+      "title": "Translating graphs are weighted stable",
+      "kind": "corollary",
+      "file": "translator-variation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-angle-jacobi",
+        "prop:translator-ground-state"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-infinite-weighted-area",
+      "title": "A complete translator has infinite translator-weighted area",
+      "kind": "proposition",
+      "file": "translator-variation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-height-drift"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-weighted-gradient-gap",
+      "title": "A weighted gradient gap and boundary-volume inequality",
+      "kind": "proposition",
+      "file": "translator-variation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:translator-l2-kernel-ground-state",
+      "title": "A positive Jacobi field controls the weighted square-integrable kernel",
+      "kind": "lemma",
+      "file": "translator-variation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-ground-state",
+        "prop:translator-infinite-weighted-area"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-conformal-metric",
+      "title": "The conformal translator metric",
+      "kind": "proposition",
+      "file": "translator-calibration.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-weighted-area-example"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-metric-normal-speed",
+      "title": "Normal speeds in the two metrics",
+      "kind": "proposition",
+      "file": "translator-calibration.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-angle-jacobi"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-graph-weighted-calibration",
+      "title": "A closed form calibrates a translating graph",
+      "kind": "proposition",
+      "file": "translator-calibration.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-conformal-metric",
+        "prop:translator-graph-example"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:translator-graph-current-minimization",
+      "title": "Weighted minimization within the graph cylinder",
+      "kind": "theorem",
+      "file": "translator-calibration.tex",
+      "status": "proof-included",
+      "citations": [
+        "HIMW19"
+      ],
+      "dependencies": [
+        "prop:translator-graph-weighted-calibration",
+        "thm:calibrated-current-minimizes"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:translator-fixed-boundary-graph-minimum",
+      "title": "Strict minimizing comparison between graphs with the same boundary",
+      "kind": "corollary",
+      "file": "translator-calibration.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-graph-weighted-calibration"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-graph-local-area-bound",
+      "title": "A local area bound for a translating graph",
+      "kind": "proposition",
+      "file": "translator-calibration.tex",
+      "status": "proof-included",
+      "citations": [
+        "HIMW19"
+      ],
+      "dependencies": [
+        "prop:translator-graph-weighted-calibration"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-tensor-simons",
+      "title": "Height Hessian and the translator Simons equation",
+      "kind": "proposition",
+      "file": "translator-curvature.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-angle-jacobi",
+        "thm:spaceform-simons"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-curvature-ratio",
+      "title": "The normalized shape tensor and curvature ratio",
+      "kind": "proposition",
+      "file": "translator-curvature.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-tensor-simons"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-ratio-maximum",
+      "title": "What a maximum of the ratio implies",
+      "kind": "proposition",
+      "file": "translator-curvature.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-curvature-ratio"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:translator-parallel-shape-rank-one",
+      "title": "A parallel normalized shape tensor has rank one",
+      "kind": "lemma",
+      "file": "translator-curvature.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:translator-local-grim-product",
+      "title": "A local grim-reaper product",
+      "kind": "proposition",
+      "file": "translator-curvature.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:translator-parallel-shape-rank-one",
+        "prop:grim-reaper-speed-family"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:translator-complete-ratio-rigidity",
+      "title": "Complete rigidity with a global curvature-ratio maximum",
+      "kind": "theorem",
+      "file": "translator-curvature.tex",
+      "status": "proof-included",
+      "citations": [
+        "MSHS14"
+      ],
+      "dependencies": [
+        "lem:translator-parallel-shape-rank-one",
+        "prop:grim-reaper-speed-family",
+        "prop:translator-ratio-maximum"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:grim-arclength-weight",
+      "title": "Global arclength coordinates for the unit grim reaper",
+      "kind": "proposition",
+      "file": "examples-translator-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:translator-jacobi-weight"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:grim-jacobi-kernel",
+      "title": "The two translation fields and the weighted square-integrable kernel",
+      "kind": "proposition",
+      "file": "examples-translator-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-angle-jacobi"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:grim-zero-spectral-bottom",
+      "title": "Strict compact stability with zero spectral bottom",
+      "kind": "proposition",
+      "file": "examples-translator-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-ground-state"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:grim-schrodinger-form",
+      "title": "A one-dimensional Schrödinger form",
+      "kind": "proposition",
+      "file": "examples-translator-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:grim-cylinder-l2-kernel",
+      "title": "Grim cylinders have a different square-integrable kernel",
+      "kind": "proposition",
+      "file": "examples-translator-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:translator-l2-kernel-ground-state",
+        "prop:grim-arclength-weight",
+        "prop:grim-zero-spectral-bottom"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:translator-plane-gap",
+      "title": "A translating plane has a positive weighted gradient gap",
+      "kind": "example",
+      "file": "examples-translator-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:translator-conformal-metric"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:hilbert-functional-representation",
+      "title": "Representation of a bounded functional on a real Hilbert space",
+      "kind": "lemma",
+      "file": "vector-representation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:real-lone-duality",
+      "title": "The dual of a sigma-finite real integration space",
+      "kind": "proposition",
+      "file": "vector-representation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:hilbert-functional-representation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:positive-vector-variation",
+      "title": "The positive variation functional",
+      "kind": "lemma",
+      "file": "vector-representation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:normed-vector-riesz",
+      "title": "Polar representation for finite-dimensional tests",
+      "kind": "theorem",
+      "file": "vector-representation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:positive-vector-variation",
+        "prop:real-lone-duality",
+        "thm:positive-riesz-representation",
+        "thm:radon-lp-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:current-continuous-extension",
+      "title": "Extending a finite-mass current to continuous forms",
+      "kind": "lemma",
+      "file": "vector-representation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:current-open-mass-variation",
+      "title": "Open-set mass from the positive variation functional",
+      "kind": "proposition",
+      "file": "vector-representation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:normed-vector-riesz"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:nonsimple-bivector-mass",
+      "title": "A nonsimple bivector and its two norms",
+      "kind": "example",
+      "file": "examples-diffuse-current.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:diffuse-two-current",
+      "title": "A diffuse finite-mass two-current",
+      "kind": "example",
+      "file": "examples-diffuse-current.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:diffuse-current-normal",
+      "title": "The diffuse current has a finite-mass boundary",
+      "kind": "proposition",
+      "file": "examples-diffuse-current.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:diffuse-two-current"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:lipschitz-image-ambient-null",
+      "title": "Lower-dimensional Lipschitz images have zero ambient volume",
+      "kind": "lemma",
+      "file": "examples-diffuse-current.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:diffuse-current-not-rectifiable",
+      "title": "Normality does not imply rectifiability",
+      "kind": "proposition",
+      "file": "examples-diffuse-current.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:diffuse-two-current",
+        "lem:lipschitz-image-ambient-null"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:rectifiable-real-diffuse-limit",
+      "title": "Rectifiable normal currents can converge to a diffuse current",
+      "kind": "proposition",
+      "file": "examples-diffuse-current.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:diffuse-two-current"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:diffuse-current-flat-rate",
+      "title": "The diffuse approximation also converges in the real flat norm",
+      "kind": "proposition",
+      "file": "examples-diffuse-current.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:real-current-flat-norm",
+        "prop:current-homotopy",
+        "prop:current-homotopy-estimate",
+        "prop:rectifiable-real-diffuse-limit"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
-    "Riesz representation and Radon compactness",
     "Borel regularity and Euclidean normalization of Hausdorff measure",
-    "Rademacher differentiability",
     "Rectifiability and approximate tangent characterization",
     "Area and coarea formulas",
     "BV representation by vector measures",
@@ -10403,11 +10904,9 @@
     "Interior Schauder and Sobolev estimates",
     "Smoothness of scalar Lipschitz weak minimal graphs",
     "Allard Lp mean-curvature regularity",
-    "Euclidean Simons identity from the Gauss and Codazzi equations",
     "Smooth mean curvature flow short-time existence and curvature continuation",
     "Weak and strong parabolic maximum principles",
     "Integral Brakke compactness and weak Gaussian monotonicity",
-    "Vector-measure representation for finite-mass currents and weak-star measure compactness",
     "Lipschitz pushforward and slicing of integral currents, including rectifiable coarea",
     "Compact Laplace spectral theorem and Bochner identity",
     "Gauss--Bonnet and classification of closed orientable surfaces",
@@ -10422,7 +10921,6 @@
     "Strong elliptic maximum principle with nonpositive zero-order coefficient",
     "Unique continuation for scalar elliptic equations with smooth potential, used in Allen-Cahn level-set rigidity",
     "Rellich compactness and Poisson boundary regularity on a smooth ball",
-    "Zero-boundary Sobolev gain used in the locally proved Moser iteration",
     "Smooth ODE flow existence and smooth dependence on vector fields",
     "Mod-two current pushforward, products, and homotopy formula",
     "Basic singular and relative cohomology, cup products, and cellular dimension theorem",

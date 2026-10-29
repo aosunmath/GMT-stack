@@ -8260,5 +8260,428 @@
     "page": "tag/1CFA5BAD/index.html",
     "canonical_tag": "2508D7A1F8C5",
     "anchor": ""
+  },
+  {
+    "tag": "10CA7C5B",
+    "label": "sec:translator-variation",
+    "title": "113 Weighted variation and stability of translators",
+    "kind": "chapter",
+    "page": "tag/10CA7C5B/index.html",
+    "canonical_tag": "67EE515CF47A",
+    "anchor": ""
+  },
+  {
+    "tag": "FC36E8B1",
+    "label": "def:translator-jacobi-weight",
+    "title": "Definition 113.1 (Translator weight and Jacobi operator)",
+    "kind": "definition",
+    "page": "tag/FC36E8B1/index.html",
+    "canonical_tag": "02ADA5490A9A",
+    "anchor": ""
+  },
+  {
+    "tag": "AACFDF2C",
+    "label": "lem:translator-weighted-parts",
+    "title": "Lemma 113.2 (Translator drift in divergence form)",
+    "kind": "lemma",
+    "page": "tag/AACFDF2C/index.html",
+    "canonical_tag": "00287673DB05",
+    "anchor": ""
+  },
+  {
+    "tag": "2D80E52B",
+    "label": "prop:translator-jacobi-linearization",
+    "title": "Proposition 113.3 (Linearization and second variation for fixed velocity)",
+    "kind": "proposition",
+    "page": "tag/2D80E52B/index.html",
+    "canonical_tag": "C1C8D24DC3BC",
+    "anchor": ""
+  },
+  {
+    "tag": "3A7DDCBA",
+    "label": "prop:translator-angle-jacobi",
+    "title": "Proposition 113.4 (Translation angles and mean curvature are Jacobi fields)",
+    "kind": "proposition",
+    "page": "tag/3A7DDCBA/index.html",
+    "canonical_tag": "322C9B303954",
+    "anchor": ""
+  },
+  {
+    "tag": "8007222B",
+    "label": "prop:translator-height-drift",
+    "title": "Proposition 113.5 (Height and exponential drift identities)",
+    "kind": "proposition",
+    "page": "tag/8007222B/index.html",
+    "canonical_tag": "B857AAD27409",
+    "anchor": ""
+  },
+  {
+    "tag": "C9762015",
+    "label": "prop:translator-ground-state",
+    "title": "Proposition 113.6 (A weighted ground-state identity)",
+    "kind": "proposition",
+    "page": "tag/C9762015/index.html",
+    "canonical_tag": "6C4FB1EB0F30",
+    "anchor": ""
+  },
+  {
+    "tag": "E8620289",
+    "label": "cor:translating-graph-weighted-stability",
+    "title": "Corollary 113.7 (Translating graphs are weighted stable)",
+    "kind": "corollary",
+    "page": "tag/E8620289/index.html",
+    "canonical_tag": "93A817E936B9",
+    "anchor": ""
+  },
+  {
+    "tag": "FDDAFB02",
+    "label": "prop:translator-infinite-weighted-area",
+    "title": "Proposition 113.8 (A complete translator has infinite translator-weighted area)",
+    "kind": "proposition",
+    "page": "tag/FDDAFB02/index.html",
+    "canonical_tag": "39F6B8FBFB5C",
+    "anchor": ""
+  },
+  {
+    "tag": "F172D325",
+    "label": "prop:translator-weighted-gradient-gap",
+    "title": "Proposition 113.9 (A weighted gradient gap and boundary-volume inequality)",
+    "kind": "proposition",
+    "page": "tag/F172D325/index.html",
+    "canonical_tag": "9DC0106A8973",
+    "anchor": ""
+  },
+  {
+    "tag": "D500A87B",
+    "label": "lem:translator-l2-kernel-ground-state",
+    "title": "Lemma 113.10 (A positive Jacobi field controls the weighted square-integrable kernel)",
+    "kind": "lemma",
+    "page": "tag/D500A87B/index.html",
+    "canonical_tag": "53FAD32E9101",
+    "anchor": ""
+  },
+  {
+    "tag": "AC75FDFC",
+    "label": "sec:translator-metric-calibration",
+    "title": "114 The translator metric and graphical calibrations",
+    "kind": "chapter",
+    "page": "tag/AC75FDFC/index.html",
+    "canonical_tag": "3E434259EEC7",
+    "anchor": ""
+  },
+  {
+    "tag": "FD829819",
+    "label": "prop:translator-conformal-metric",
+    "title": "Proposition 114.1 (The conformal translator metric)",
+    "kind": "proposition",
+    "page": "tag/FD829819/index.html",
+    "canonical_tag": "9EAA75CE20C9",
+    "anchor": ""
+  },
+  {
+    "tag": "C18A2B9B",
+    "label": "prop:translator-metric-normal-speed",
+    "title": "Proposition 114.2 (Normal speeds in the two metrics)",
+    "kind": "proposition",
+    "page": "tag/C18A2B9B/index.html",
+    "canonical_tag": "40A3695B0742",
+    "anchor": ""
+  },
+  {
+    "tag": "E90A32C9",
+    "label": "prop:translator-graph-weighted-calibration",
+    "title": "Proposition 114.3 (A closed form calibrates a translating graph)",
+    "kind": "proposition",
+    "page": "tag/E90A32C9/index.html",
+    "canonical_tag": "F008CC73DD2C",
+    "anchor": ""
+  },
+  {
+    "tag": "F4A1F377",
+    "label": "thm:translator-graph-current-minimization",
+    "title": "Theorem 114.4 (Weighted minimization within the graph cylinder)",
+    "kind": "theorem",
+    "page": "tag/F4A1F377/index.html",
+    "canonical_tag": "8C900F72F8B6",
+    "anchor": ""
+  },
+  {
+    "tag": "DC3F2B87",
+    "label": "cor:translator-fixed-boundary-graph-minimum",
+    "title": "Corollary 114.5 (Strict minimizing comparison between graphs with the same boundary)",
+    "kind": "corollary",
+    "page": "tag/DC3F2B87/index.html",
+    "canonical_tag": "8BE8E33ADABE",
+    "anchor": ""
+  },
+  {
+    "tag": "5CB4A986",
+    "label": "prop:translator-graph-local-area-bound",
+    "title": "Proposition 114.6 (A local area bound for a translating graph)",
+    "kind": "proposition",
+    "page": "tag/5CB4A986/index.html",
+    "canonical_tag": "B8579021D4D7",
+    "anchor": ""
+  },
+  {
+    "tag": "B198EF41",
+    "label": "sec:translator-curvature-rigidity",
+    "title": "115 Curvature ratios and local translator rigidity",
+    "kind": "chapter",
+    "page": "tag/B198EF41/index.html",
+    "canonical_tag": "8B247E8F2E11",
+    "anchor": ""
+  },
+  {
+    "tag": "6142FA1F",
+    "label": "prop:translator-tensor-simons",
+    "title": "Proposition 115.1 (Height Hessian and the translator Simons equation)",
+    "kind": "proposition",
+    "page": "tag/6142FA1F/index.html",
+    "canonical_tag": "01AD4B483F15",
+    "anchor": ""
+  },
+  {
+    "tag": "0DE01516",
+    "label": "prop:translator-curvature-ratio",
+    "title": "Proposition 115.2 (The normalized shape tensor and curvature ratio)",
+    "kind": "proposition",
+    "page": "tag/0DE01516/index.html",
+    "canonical_tag": "7BF914357F9B",
+    "anchor": ""
+  },
+  {
+    "tag": "8789F61B",
+    "label": "prop:translator-ratio-maximum",
+    "title": "Proposition 115.3 (What a maximum of the ratio implies)",
+    "kind": "proposition",
+    "page": "tag/8789F61B/index.html",
+    "canonical_tag": "1CC5369E3654",
+    "anchor": ""
+  },
+  {
+    "tag": "462B9BD7",
+    "label": "lem:translator-parallel-shape-rank-one",
+    "title": "Lemma 115.4 (A parallel normalized shape tensor has rank one)",
+    "kind": "lemma",
+    "page": "tag/462B9BD7/index.html",
+    "canonical_tag": "4280CB2B07C9",
+    "anchor": ""
+  },
+  {
+    "tag": "FF95A402",
+    "label": "prop:translator-local-grim-product",
+    "title": "Proposition 115.5 (A local grim-reaper product)",
+    "kind": "proposition",
+    "page": "tag/FF95A402/index.html",
+    "canonical_tag": "FBFC11EE865A",
+    "anchor": ""
+  },
+  {
+    "tag": "6409ECA3",
+    "label": "thm:translator-complete-ratio-rigidity",
+    "title": "Theorem 115.6 (Complete rigidity with a global curvature-ratio maximum)",
+    "kind": "theorem",
+    "page": "tag/6409ECA3/index.html",
+    "canonical_tag": "4DDD1D6498E3",
+    "anchor": ""
+  },
+  {
+    "tag": "873F141A",
+    "label": "sec:examples-translator-jacobi",
+    "title": "116 Weighted Jacobi fields on grim reapers and planes",
+    "kind": "chapter",
+    "page": "tag/873F141A/index.html",
+    "canonical_tag": "284EDC167E4D",
+    "anchor": ""
+  },
+  {
+    "tag": "1573B18D",
+    "label": "prop:grim-arclength-weight",
+    "title": "Proposition 116.1 (Global arclength coordinates for the unit grim reaper)",
+    "kind": "proposition",
+    "page": "tag/1573B18D/index.html",
+    "canonical_tag": "DA07A2F7D6E1",
+    "anchor": ""
+  },
+  {
+    "tag": "CB3335D2",
+    "label": "prop:grim-jacobi-kernel",
+    "title": "Proposition 116.2 (The two translation fields and the weighted square-integrable kernel)",
+    "kind": "proposition",
+    "page": "tag/CB3335D2/index.html",
+    "canonical_tag": "8C7B738A7944",
+    "anchor": ""
+  },
+  {
+    "tag": "C0B6E2B9",
+    "label": "prop:grim-zero-spectral-bottom",
+    "title": "Proposition 116.3 (Strict compact stability with zero spectral bottom)",
+    "kind": "proposition",
+    "page": "tag/C0B6E2B9/index.html",
+    "canonical_tag": "7B9E16310EBB",
+    "anchor": ""
+  },
+  {
+    "tag": "2EE7F5AC",
+    "label": "prop:grim-schrodinger-form",
+    "title": "Proposition 116.4 (A one-dimensional Schr\u00f6dinger form)",
+    "kind": "proposition",
+    "page": "tag/2EE7F5AC/index.html",
+    "canonical_tag": "752E1E7B14D3",
+    "anchor": ""
+  },
+  {
+    "tag": "5065DE88",
+    "label": "prop:grim-cylinder-l2-kernel",
+    "title": "Proposition 116.5 (Grim cylinders have a different square-integrable kernel)",
+    "kind": "proposition",
+    "page": "tag/5065DE88/index.html",
+    "canonical_tag": "01561F6C5365",
+    "anchor": ""
+  },
+  {
+    "tag": "1F9C2134",
+    "label": "ex:translator-plane-gap",
+    "title": "Example 116.6 (A translating plane has a positive weighted gradient gap)",
+    "kind": "example",
+    "page": "tag/1F9C2134/index.html",
+    "canonical_tag": "84BE9F6FEFFB",
+    "anchor": ""
+  },
+  {
+    "tag": "F7F2B6F6",
+    "label": "sec:vector-measure-representation",
+    "title": "117 Vector measures and the mass of a current",
+    "kind": "chapter",
+    "page": "tag/F7F2B6F6/index.html",
+    "canonical_tag": "386784DC2F73",
+    "anchor": ""
+  },
+  {
+    "tag": "84AE1C99",
+    "label": "lem:hilbert-functional-representation",
+    "title": "Lemma 117.1 (Representation of a bounded functional on a real Hilbert space)",
+    "kind": "lemma",
+    "page": "tag/84AE1C99/index.html",
+    "canonical_tag": "63273388A3B5",
+    "anchor": ""
+  },
+  {
+    "tag": "92E1D3DD",
+    "label": "prop:real-lone-duality",
+    "title": "Proposition 117.2 (The dual of a sigma-finite real integration space)",
+    "kind": "proposition",
+    "page": "tag/92E1D3DD/index.html",
+    "canonical_tag": "A1288D51AB95",
+    "anchor": ""
+  },
+  {
+    "tag": "8F31C27E",
+    "label": "lem:positive-vector-variation",
+    "title": "Lemma 117.3 (The positive variation functional)",
+    "kind": "lemma",
+    "page": "tag/8F31C27E/index.html",
+    "canonical_tag": "A217FEC406E3",
+    "anchor": ""
+  },
+  {
+    "tag": "1604B098",
+    "label": "thm:normed-vector-riesz",
+    "title": "Theorem 117.4 (Polar representation for finite-dimensional tests)",
+    "kind": "theorem",
+    "page": "tag/1604B098/index.html",
+    "canonical_tag": "458374FA534D",
+    "anchor": ""
+  },
+  {
+    "tag": "F32ECBF9",
+    "label": "lem:current-continuous-extension",
+    "title": "Lemma 117.5 (Extending a finite-mass current to continuous forms)",
+    "kind": "lemma",
+    "page": "tag/F32ECBF9/index.html",
+    "canonical_tag": "CC6436C139E1",
+    "anchor": ""
+  },
+  {
+    "tag": "A4A25344",
+    "label": "prop:current-open-mass-variation",
+    "title": "Proposition 117.6 (Open-set mass from the positive variation functional)",
+    "kind": "proposition",
+    "page": "tag/A4A25344/index.html",
+    "canonical_tag": "F553EACEBF96",
+    "anchor": ""
+  },
+  {
+    "tag": "A434E2EE",
+    "label": "sec:examples-diffuse-current",
+    "title": "118 A normal current without rectifiability",
+    "kind": "chapter",
+    "page": "tag/A434E2EE/index.html",
+    "canonical_tag": "AA5865D2C194",
+    "anchor": ""
+  },
+  {
+    "tag": "6084227E",
+    "label": "ex:nonsimple-bivector-mass",
+    "title": "Example 118.1 (A nonsimple bivector and its two norms)",
+    "kind": "example",
+    "page": "tag/6084227E/index.html",
+    "canonical_tag": "5584C114BE31",
+    "anchor": ""
+  },
+  {
+    "tag": "1DF1E200",
+    "label": "ex:diffuse-two-current",
+    "title": "Example 118.2 (A diffuse finite-mass two-current)",
+    "kind": "example",
+    "page": "tag/1DF1E200/index.html",
+    "canonical_tag": "4B74DFD48D85",
+    "anchor": ""
+  },
+  {
+    "tag": "51E69640",
+    "label": "prop:diffuse-current-normal",
+    "title": "Proposition 118.3 (The diffuse current has a finite-mass boundary)",
+    "kind": "proposition",
+    "page": "tag/51E69640/index.html",
+    "canonical_tag": "852428C98493",
+    "anchor": ""
+  },
+  {
+    "tag": "7279D5BA",
+    "label": "lem:lipschitz-image-ambient-null",
+    "title": "Lemma 118.4 (Lower-dimensional Lipschitz images have zero ambient volume)",
+    "kind": "lemma",
+    "page": "tag/7279D5BA/index.html",
+    "canonical_tag": "FF7C6E81ADF7",
+    "anchor": ""
+  },
+  {
+    "tag": "9B6A41AF",
+    "label": "prop:diffuse-current-not-rectifiable",
+    "title": "Proposition 118.5 (Normality does not imply rectifiability)",
+    "kind": "proposition",
+    "page": "tag/9B6A41AF/index.html",
+    "canonical_tag": "D93B08103DE9",
+    "anchor": ""
+  },
+  {
+    "tag": "24C22B55",
+    "label": "prop:rectifiable-real-diffuse-limit",
+    "title": "Proposition 118.6 (Rectifiable normal currents can converge to a diffuse current)",
+    "kind": "proposition",
+    "page": "tag/24C22B55/index.html",
+    "canonical_tag": "7038E9854215",
+    "anchor": ""
+  },
+  {
+    "tag": "C31D36A9",
+    "label": "prop:diffuse-current-flat-rate",
+    "title": "Proposition 118.7 (The diffuse approximation also converges in the real flat norm)",
+    "kind": "proposition",
+    "page": "tag/C31D36A9/index.html",
+    "canonical_tag": "2AAA27455AE0",
+    "anchor": ""
   }
 ]

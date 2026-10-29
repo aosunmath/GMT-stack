@@ -1286,6 +1286,54 @@
     "tag": "44CA40B3EEB1"
   },
   {
+    "route": "sections/vector-measures-and-the-mass-of-a-current",
+    "title": "5.7 Vector measures and the mass of a current",
+    "chapter": "currents-flat-chains",
+    "section": "vector-measures-and-the-mass-of-a-current"
+  },
+  {
+    "route": "tag/63273388A3B5",
+    "title": "Lemma 5.7.1 (Representation of a bounded functional on a real Hilbert space)",
+    "chapter": "currents-flat-chains",
+    "section": "vector-measures-and-the-mass-of-a-current",
+    "tag": "63273388A3B5"
+  },
+  {
+    "route": "tag/A1288D51AB95",
+    "title": "Proposition 5.7.2 (The dual of a sigma-finite real integration space)",
+    "chapter": "currents-flat-chains",
+    "section": "vector-measures-and-the-mass-of-a-current",
+    "tag": "A1288D51AB95"
+  },
+  {
+    "route": "tag/A217FEC406E3",
+    "title": "Lemma 5.7.3 (The positive variation functional)",
+    "chapter": "currents-flat-chains",
+    "section": "vector-measures-and-the-mass-of-a-current",
+    "tag": "A217FEC406E3"
+  },
+  {
+    "route": "tag/458374FA534D",
+    "title": "Theorem 5.7.4 (Polar representation for finite-dimensional tests)",
+    "chapter": "currents-flat-chains",
+    "section": "vector-measures-and-the-mass-of-a-current",
+    "tag": "458374FA534D"
+  },
+  {
+    "route": "tag/CC6436C139E1",
+    "title": "Lemma 5.7.5 (Extending a finite-mass current to continuous forms)",
+    "chapter": "currents-flat-chains",
+    "section": "vector-measures-and-the-mass-of-a-current",
+    "tag": "CC6436C139E1"
+  },
+  {
+    "route": "tag/F553EACEBF96",
+    "title": "Proposition 5.7.6 (Open-set mass from the positive variation functional)",
+    "chapter": "currents-flat-chains",
+    "section": "vector-measures-and-the-mass-of-a-current",
+    "tag": "F553EACEBF96"
+  },
+  {
     "route": "chapters/varifolds",
     "title": "6 Varifolds",
     "chapter": "varifolds"
@@ -5616,6 +5664,178 @@
     "tag": "2BDD686532E1"
   },
   {
+    "route": "sections/weighted-variation-and-stability-of-translators",
+    "title": "14.14 Weighted variation and stability of translators",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-variation-and-stability-of-translators"
+  },
+  {
+    "route": "tag/02ADA5490A9A",
+    "title": "Definition 14.14.1 (Translator weight and Jacobi operator)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-variation-and-stability-of-translators",
+    "tag": "02ADA5490A9A"
+  },
+  {
+    "route": "tag/00287673DB05",
+    "title": "Lemma 14.14.2 (Translator drift in divergence form)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-variation-and-stability-of-translators",
+    "tag": "00287673DB05"
+  },
+  {
+    "route": "tag/C1C8D24DC3BC",
+    "title": "Proposition 14.14.3 (Linearization and second variation for fixed velocity)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-variation-and-stability-of-translators",
+    "tag": "C1C8D24DC3BC"
+  },
+  {
+    "route": "tag/322C9B303954",
+    "title": "Proposition 14.14.4 (Translation angles and mean curvature are Jacobi fields)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-variation-and-stability-of-translators",
+    "tag": "322C9B303954"
+  },
+  {
+    "route": "tag/B857AAD27409",
+    "title": "Proposition 14.14.5 (Height and exponential drift identities)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-variation-and-stability-of-translators",
+    "tag": "B857AAD27409"
+  },
+  {
+    "route": "tag/6C4FB1EB0F30",
+    "title": "Proposition 14.14.6 (A weighted ground-state identity)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-variation-and-stability-of-translators",
+    "tag": "6C4FB1EB0F30"
+  },
+  {
+    "route": "tag/93A817E936B9",
+    "title": "Corollary 14.14.7 (Translating graphs are weighted stable)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-variation-and-stability-of-translators",
+    "tag": "93A817E936B9"
+  },
+  {
+    "route": "tag/39F6B8FBFB5C",
+    "title": "Proposition 14.14.8 (A complete translator has infinite translator-weighted area)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-variation-and-stability-of-translators",
+    "tag": "39F6B8FBFB5C"
+  },
+  {
+    "route": "tag/9DC0106A8973",
+    "title": "Proposition 14.14.9 (A weighted gradient gap and boundary-volume inequality)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-variation-and-stability-of-translators",
+    "tag": "9DC0106A8973"
+  },
+  {
+    "route": "tag/53FAD32E9101",
+    "title": "Lemma 14.14.10 (A positive Jacobi field controls the weighted square-integrable kernel)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-variation-and-stability-of-translators",
+    "tag": "53FAD32E9101"
+  },
+  {
+    "route": "sections/the-translator-metric-and-graphical-calibrations",
+    "title": "14.15 The translator metric and graphical calibrations",
+    "chapter": "mean-curvature-flow",
+    "section": "the-translator-metric-and-graphical-calibrations"
+  },
+  {
+    "route": "tag/9EAA75CE20C9",
+    "title": "Proposition 14.15.1 (The conformal translator metric)",
+    "chapter": "mean-curvature-flow",
+    "section": "the-translator-metric-and-graphical-calibrations",
+    "tag": "9EAA75CE20C9"
+  },
+  {
+    "route": "tag/40A3695B0742",
+    "title": "Proposition 14.15.2 (Normal speeds in the two metrics)",
+    "chapter": "mean-curvature-flow",
+    "section": "the-translator-metric-and-graphical-calibrations",
+    "tag": "40A3695B0742"
+  },
+  {
+    "route": "tag/F008CC73DD2C",
+    "title": "Proposition 14.15.3 (A closed form calibrates a translating graph)",
+    "chapter": "mean-curvature-flow",
+    "section": "the-translator-metric-and-graphical-calibrations",
+    "tag": "F008CC73DD2C"
+  },
+  {
+    "route": "tag/8C900F72F8B6",
+    "title": "Theorem 14.15.4 (Weighted minimization within the graph cylinder)",
+    "chapter": "mean-curvature-flow",
+    "section": "the-translator-metric-and-graphical-calibrations",
+    "tag": "8C900F72F8B6"
+  },
+  {
+    "route": "tag/8BE8E33ADABE",
+    "title": "Corollary 14.15.5 (Strict minimizing comparison between graphs with the same boundary)",
+    "chapter": "mean-curvature-flow",
+    "section": "the-translator-metric-and-graphical-calibrations",
+    "tag": "8BE8E33ADABE"
+  },
+  {
+    "route": "tag/B8579021D4D7",
+    "title": "Proposition 14.15.6 (A local area bound for a translating graph)",
+    "chapter": "mean-curvature-flow",
+    "section": "the-translator-metric-and-graphical-calibrations",
+    "tag": "B8579021D4D7"
+  },
+  {
+    "route": "sections/curvature-ratios-and-local-translator-rigidity",
+    "title": "14.16 Curvature ratios and local translator rigidity",
+    "chapter": "mean-curvature-flow",
+    "section": "curvature-ratios-and-local-translator-rigidity"
+  },
+  {
+    "route": "tag/01AD4B483F15",
+    "title": "Proposition 14.16.1 (Height Hessian and the translator Simons equation)",
+    "chapter": "mean-curvature-flow",
+    "section": "curvature-ratios-and-local-translator-rigidity",
+    "tag": "01AD4B483F15"
+  },
+  {
+    "route": "tag/7BF914357F9B",
+    "title": "Proposition 14.16.2 (The normalized shape tensor and curvature ratio)",
+    "chapter": "mean-curvature-flow",
+    "section": "curvature-ratios-and-local-translator-rigidity",
+    "tag": "7BF914357F9B"
+  },
+  {
+    "route": "tag/1CC5369E3654",
+    "title": "Proposition 14.16.3 (What a maximum of the ratio implies)",
+    "chapter": "mean-curvature-flow",
+    "section": "curvature-ratios-and-local-translator-rigidity",
+    "tag": "1CC5369E3654"
+  },
+  {
+    "route": "tag/4280CB2B07C9",
+    "title": "Lemma 14.16.4 (A parallel normalized shape tensor has rank one)",
+    "chapter": "mean-curvature-flow",
+    "section": "curvature-ratios-and-local-translator-rigidity",
+    "tag": "4280CB2B07C9"
+  },
+  {
+    "route": "tag/FBFC11EE865A",
+    "title": "Proposition 14.16.5 (A local grim-reaper product)",
+    "chapter": "mean-curvature-flow",
+    "section": "curvature-ratios-and-local-translator-rigidity",
+    "tag": "FBFC11EE865A"
+  },
+  {
+    "route": "tag/4DDD1D6498E3",
+    "title": "Theorem 14.16.6 (Complete rigidity with a global curvature-ratio maximum)",
+    "chapter": "mean-curvature-flow",
+    "section": "curvature-ratios-and-local-translator-rigidity",
+    "tag": "4DDD1D6498E3"
+  },
+  {
     "route": "chapters/history",
     "title": "15 History",
     "chapter": "history"
@@ -6359,6 +6579,109 @@
     "chapter": "examples",
     "section": "a-one-dimensional-dust-without-tangent-lines",
     "tag": "2508D7A1F8C5"
+  },
+  {
+    "route": "sections/weighted-jacobi-fields-on-grim-reapers-and-planes",
+    "title": "16.13 Weighted Jacobi fields on grim reapers and planes",
+    "chapter": "examples",
+    "section": "weighted-jacobi-fields-on-grim-reapers-and-planes"
+  },
+  {
+    "route": "tag/DA07A2F7D6E1",
+    "title": "Proposition 16.13.1 (Global arclength coordinates for the unit grim reaper)",
+    "chapter": "examples",
+    "section": "weighted-jacobi-fields-on-grim-reapers-and-planes",
+    "tag": "DA07A2F7D6E1"
+  },
+  {
+    "route": "tag/8C7B738A7944",
+    "title": "Proposition 16.13.2 (The two translation fields and the weighted square-integrable kernel)",
+    "chapter": "examples",
+    "section": "weighted-jacobi-fields-on-grim-reapers-and-planes",
+    "tag": "8C7B738A7944"
+  },
+  {
+    "route": "tag/7B9E16310EBB",
+    "title": "Proposition 16.13.3 (Strict compact stability with zero spectral bottom)",
+    "chapter": "examples",
+    "section": "weighted-jacobi-fields-on-grim-reapers-and-planes",
+    "tag": "7B9E16310EBB"
+  },
+  {
+    "route": "tag/752E1E7B14D3",
+    "title": "Proposition 16.13.4 (A one-dimensional Schrödinger form)",
+    "chapter": "examples",
+    "section": "weighted-jacobi-fields-on-grim-reapers-and-planes",
+    "tag": "752E1E7B14D3"
+  },
+  {
+    "route": "tag/01561F6C5365",
+    "title": "Proposition 16.13.5 (Grim cylinders have a different square-integrable kernel)",
+    "chapter": "examples",
+    "section": "weighted-jacobi-fields-on-grim-reapers-and-planes",
+    "tag": "01561F6C5365"
+  },
+  {
+    "route": "tag/84BE9F6FEFFB",
+    "title": "Example 16.13.6 (A translating plane has a positive weighted gradient gap)",
+    "chapter": "examples",
+    "section": "weighted-jacobi-fields-on-grim-reapers-and-planes",
+    "tag": "84BE9F6FEFFB"
+  },
+  {
+    "route": "sections/a-normal-current-without-rectifiability",
+    "title": "16.14 A normal current without rectifiability",
+    "chapter": "examples",
+    "section": "a-normal-current-without-rectifiability"
+  },
+  {
+    "route": "tag/5584C114BE31",
+    "title": "Example 16.14.1 (A nonsimple bivector and its two norms)",
+    "chapter": "examples",
+    "section": "a-normal-current-without-rectifiability",
+    "tag": "5584C114BE31"
+  },
+  {
+    "route": "tag/4B74DFD48D85",
+    "title": "Example 16.14.2 (A diffuse finite-mass two-current)",
+    "chapter": "examples",
+    "section": "a-normal-current-without-rectifiability",
+    "tag": "4B74DFD48D85"
+  },
+  {
+    "route": "tag/852428C98493",
+    "title": "Proposition 16.14.3 (The diffuse current has a finite-mass boundary)",
+    "chapter": "examples",
+    "section": "a-normal-current-without-rectifiability",
+    "tag": "852428C98493"
+  },
+  {
+    "route": "tag/FF7C6E81ADF7",
+    "title": "Lemma 16.14.4 (Lower-dimensional Lipschitz images have zero ambient volume)",
+    "chapter": "examples",
+    "section": "a-normal-current-without-rectifiability",
+    "tag": "FF7C6E81ADF7"
+  },
+  {
+    "route": "tag/D93B08103DE9",
+    "title": "Proposition 16.14.5 (Normality does not imply rectifiability)",
+    "chapter": "examples",
+    "section": "a-normal-current-without-rectifiability",
+    "tag": "D93B08103DE9"
+  },
+  {
+    "route": "tag/7038E9854215",
+    "title": "Proposition 16.14.6 (Rectifiable normal currents can converge to a diffuse current)",
+    "chapter": "examples",
+    "section": "a-normal-current-without-rectifiability",
+    "tag": "7038E9854215"
+  },
+  {
+    "route": "tag/2AAA27455AE0",
+    "title": "Proposition 16.14.7 (The diffuse approximation also converges in the real flat norm)",
+    "chapter": "examples",
+    "section": "a-normal-current-without-rectifiability",
+    "tag": "2AAA27455AE0"
   },
   {
     "route": "chapters/harmonic-maps",
