@@ -9070,5 +9070,572 @@
     "page": "tag/8388CD2F/index.html",
     "canonical_tag": "AEA8FAF2A27B",
     "anchor": ""
+  },
+  {
+    "tag": "1C012AF2",
+    "label": "sec:willmore-conformal-calculus",
+    "title": "126 Conformal geometry of the Willmore energy",
+    "kind": "chapter",
+    "page": "tag/1C012AF2/index.html",
+    "canonical_tag": "347C4070BBBB",
+    "anchor": ""
+  },
+  {
+    "tag": "08F858CB",
+    "label": "def:willmore-vector-normalization",
+    "title": "Definition 126.1 (Vector normalization and the trace-free second fundamental form)",
+    "kind": "definition",
+    "page": "tag/08F858CB/index.html",
+    "canonical_tag": "6C2509083AF7",
+    "anchor": ""
+  },
+  {
+    "tag": "7E57390B",
+    "label": "lem:conformal-second-fundamental-form",
+    "title": "Lemma 126.2 (Conformal changes of the normal geometry)",
+    "kind": "lemma",
+    "page": "tag/7E57390B/index.html",
+    "canonical_tag": "147F594395A4",
+    "anchor": ""
+  },
+  {
+    "tag": "5C701EFE",
+    "label": "lem:surface-conformal-gauss-density",
+    "title": "Lemma 126.3 (The intrinsic curvature density under a conformal change)",
+    "kind": "lemma",
+    "page": "tag/5C701EFE/index.html",
+    "canonical_tag": "6DBF2123A3DF",
+    "anchor": ""
+  },
+  {
+    "tag": "36807A8D",
+    "label": "prop:willmore-tracefree-decomposition",
+    "title": "Proposition 126.4 (The conformally invariant energy density modulo curvature)",
+    "kind": "proposition",
+    "page": "tag/36807A8D/index.html",
+    "canonical_tag": "BACD0400946D",
+    "anchor": ""
+  },
+  {
+    "tag": "B5935E2D",
+    "label": "prop:stereographic-willmore-identity",
+    "title": "Proposition 126.5 (Stereographic projection preserves the normalized energy)",
+    "kind": "proposition",
+    "page": "tag/B5935E2D/index.html",
+    "canonical_tag": "72FC663C3366",
+    "anchor": ""
+  },
+  {
+    "tag": "E2B3E404",
+    "label": "thm:willmore-first-variation-spaceform",
+    "title": "Theorem 126.6 (First variation of Willmore energy in a three-dimensional space form)",
+    "kind": "theorem",
+    "page": "tag/E2B3E404/index.html",
+    "canonical_tag": "439BE1C2C30D",
+    "anchor": ""
+  },
+  {
+    "tag": "E8578D9F",
+    "label": "cor:minimal-spherical-willmore",
+    "title": "Corollary 126.7 (Minimal spherical surfaces give Euclidean Willmore surfaces)",
+    "kind": "corollary",
+    "page": "tag/E8578D9F/index.html",
+    "canonical_tag": "9A078B2B51E7",
+    "anchor": ""
+  },
+  {
+    "tag": "45AC0FC0",
+    "label": "sec:willmore-multiplicity-inversion",
+    "title": "127 Willmore energy, multiplicity and inversion",
+    "kind": "chapter",
+    "page": "tag/45AC0FC0/index.html",
+    "canonical_tag": "AB7F9C1053A0",
+    "anchor": ""
+  },
+  {
+    "tag": "BB322357",
+    "label": "lem:inversion-mean-curvature-vector",
+    "title": "Lemma 127.1 (The differential and curvature of an inversion)",
+    "kind": "lemma",
+    "page": "tag/BB322357/index.html",
+    "canonical_tag": "86AC490C5917",
+    "anchor": ""
+  },
+  {
+    "tag": "26B06110",
+    "label": "lem:willmore-puncture-flux",
+    "title": "Lemma 127.2 (The puncture flux at a smooth immersed sheet)",
+    "kind": "lemma",
+    "page": "tag/26B06110/index.html",
+    "canonical_tag": "3C733C121AC2",
+    "anchor": ""
+  },
+  {
+    "tag": "23112B9B",
+    "label": "thm:willmore-radial-square-identity",
+    "title": "Theorem 127.3 (A square identity for a compact immersed surface)",
+    "kind": "theorem",
+    "page": "tag/23112B9B/index.html",
+    "canonical_tag": "A6413522A6DE",
+    "anchor": ""
+  },
+  {
+    "tag": "7B8BFDB2",
+    "label": "thm:li-yau-smooth-multiplicity",
+    "title": "Theorem 127.4 (The Li\u2013Yau multiplicity bound for smooth immersions)",
+    "kind": "theorem",
+    "page": "tag/7B8BFDB2/index.html",
+    "canonical_tag": "572AC3C13DF8",
+    "anchor": ""
+  },
+  {
+    "tag": "5F0A9A10",
+    "label": "prop:willmore-inversion-energy-defect",
+    "title": "Proposition 127.5 (The energy lost at an inversion pole)",
+    "kind": "proposition",
+    "page": "tag/5F0A9A10/index.html",
+    "canonical_tag": "447BFBA2C2DD",
+    "anchor": ""
+  },
+  {
+    "tag": "CEC41A60",
+    "label": "thm:willmore-round-sphere-rigidity",
+    "title": "Theorem 127.6 (Equality in the universal Willmore bound)",
+    "kind": "theorem",
+    "page": "tag/CEC41A60/index.html",
+    "canonical_tag": "19BB9C12AF07",
+    "anchor": ""
+  },
+  {
+    "tag": "2FD37F3D",
+    "label": "cor:spherical-willmore-multiplicity",
+    "title": "Corollary 127.7 (Multiplicity bounds in the unit sphere)",
+    "kind": "corollary",
+    "page": "tag/2FD37F3D/index.html",
+    "canonical_tag": "E284F9A1175C",
+    "anchor": ""
+  },
+  {
+    "tag": "AE667532",
+    "label": "ex:willmore-flat-disk-boundary",
+    "title": "Example 127.8 (The boundary flux of a flat disk)",
+    "kind": "example",
+    "page": "tag/AE667532/index.html",
+    "canonical_tag": "4CF7F912975D",
+    "anchor": ""
+  },
+  {
+    "tag": "4005A283",
+    "label": "cor:immersed-positive-genus-willmore",
+    "title": "Corollary 127.9 (From the embedded theorem to all orientable positive-genus immersions)",
+    "kind": "corollary",
+    "page": "tag/4005A283/index.html",
+    "canonical_tag": "9065CAA9C92F",
+    "anchor": ""
+  },
+  {
+    "tag": "25E04F5D",
+    "label": "sec:willmore-local-area-estimates",
+    "title": "128 Local area and diameter estimates from Willmore energy",
+    "kind": "chapter",
+    "page": "tag/25E04F5D/index.html",
+    "canonical_tag": "4FBE44263383",
+    "anchor": ""
+  },
+  {
+    "tag": "F08E8375",
+    "label": "prop:willmore-two-radius-identity",
+    "title": "Proposition 128.1 (The two-radius square identity)",
+    "kind": "proposition",
+    "page": "tag/F08E8375/index.html",
+    "canonical_tag": "1EB2A47C45B3",
+    "anchor": ""
+  },
+  {
+    "tag": "C92CA609",
+    "label": "prop:willmore-corrected-area-monotonicity",
+    "title": "Proposition 128.2 (A corrected area ratio is monotone)",
+    "kind": "proposition",
+    "page": "tag/C92CA609/index.html",
+    "canonical_tag": "06FDAA574FA5",
+    "anchor": ""
+  },
+  {
+    "tag": "3469F0E7",
+    "label": "prop:willmore-local-area-comparison",
+    "title": "Proposition 128.3 (A local comparison with an explicit constant)",
+    "kind": "proposition",
+    "page": "tag/3469F0E7/index.html",
+    "canonical_tag": "2124DA17B73F",
+    "anchor": ""
+  },
+  {
+    "tag": "ECEB3773",
+    "label": "thm:willmore-uniform-quadratic-area",
+    "title": "Theorem 128.4 (Global energy controls every local area ratio)",
+    "kind": "theorem",
+    "page": "tag/ECEB3773/index.html",
+    "canonical_tag": "6850DAD0C60F",
+    "anchor": ""
+  },
+  {
+    "tag": "AB5915F2",
+    "label": "cor:willmore-gaussian-area-bound",
+    "title": "Corollary 128.5 (Willmore energy gives a Gaussian-area bound)",
+    "kind": "corollary",
+    "page": "tag/AB5915F2/index.html",
+    "canonical_tag": "779189C9B6ED",
+    "anchor": ""
+  },
+  {
+    "tag": "F972E8E6",
+    "label": "prop:willmore-containing-ball",
+    "title": "Proposition 128.6 (A containing ball bounds area by energy)",
+    "kind": "proposition",
+    "page": "tag/F972E8E6/index.html",
+    "canonical_tag": "D11A3941C16D",
+    "anchor": ""
+  },
+  {
+    "tag": "F87E2368",
+    "label": "thm:willmore-diameter-estimate",
+    "title": "Theorem 128.7 (Area-energy bounds for extrinsic diameter)",
+    "kind": "theorem",
+    "page": "tag/F87E2368/index.html",
+    "canonical_tag": "2289A5287A63",
+    "anchor": ""
+  },
+  {
+    "tag": "5429B0EB",
+    "label": "sec:willmore-varifold-energy",
+    "title": "129 Quadratic curvature energy under varifold convergence",
+    "kind": "chapter",
+    "page": "tag/5429B0EB/index.html",
+    "canonical_tag": "ED93D2FED53A",
+    "anchor": ""
+  },
+  {
+    "tag": "4BA9F502",
+    "label": "def:varifold-quadratic-energy",
+    "title": "Definition 129.1 (An extended quadratic first-variation energy)",
+    "kind": "definition",
+    "page": "tag/4BA9F502/index.html",
+    "canonical_tag": "A25C61F4660D",
+    "anchor": ""
+  },
+  {
+    "tag": "DE6AA809",
+    "label": "thm:varifold-energy-dual-representation",
+    "title": "Theorem 129.2 (Finite quadratic energy is equivalent to square-integrable mean curvature)",
+    "kind": "theorem",
+    "page": "tag/DE6AA809/index.html",
+    "canonical_tag": "03E7797CCA57",
+    "anchor": ""
+  },
+  {
+    "tag": "48A80E00",
+    "label": "thm:varifold-quadratic-energy-lsc",
+    "title": "Theorem 129.3 (Lower semicontinuity of quadratic varifold energy)",
+    "kind": "theorem",
+    "page": "tag/48A80E00/index.html",
+    "canonical_tag": "365150F73639",
+    "anchor": ""
+  },
+  {
+    "tag": "0B4C1B34",
+    "label": "prop:smooth-varifold-willmore-comparison",
+    "title": "Proposition 129.4 (Comparison with the energy of a smooth immersion)",
+    "kind": "proposition",
+    "page": "tag/0B4C1B34/index.html",
+    "canonical_tag": "DF57C01B9F0F",
+    "anchor": ""
+  },
+  {
+    "tag": "499D39FA",
+    "label": "cor:willmore-integral-compactness-conditional",
+    "title": "Corollary 129.5 (An integral compactness consequence, with its external input)",
+    "kind": "corollary",
+    "page": "tag/499D39FA/index.html",
+    "canonical_tag": "71DC1770F6D7",
+    "anchor": ""
+  },
+  {
+    "tag": "886B711C",
+    "label": "cor:closed-surfaces-willmore-compactness",
+    "title": "Corollary 129.6 (A bounded-energy sequence of closed surfaces has local compactness)",
+    "kind": "corollary",
+    "page": "tag/886B711C/index.html",
+    "canonical_tag": "12AB1072F745",
+    "anchor": ""
+  },
+  {
+    "tag": "D3B42FEF",
+    "label": "sec:examples-willmore-tori",
+    "title": "130 Round surfaces and circular Willmore tori",
+    "kind": "chapter",
+    "page": "tag/D3B42FEF/index.html",
+    "canonical_tag": "BC6F5B672660",
+    "anchor": ""
+  },
+  {
+    "tag": "305F0BA4",
+    "label": "prop:circular-ring-torus-geometry",
+    "title": "Proposition 130.1 (Geometry of a circular ring torus)",
+    "kind": "proposition",
+    "page": "tag/305F0BA4/index.html",
+    "canonical_tag": "737F11A69F2E",
+    "anchor": ""
+  },
+  {
+    "tag": "D9A800CF",
+    "label": "thm:circular-ring-willmore-energy",
+    "title": "Theorem 130.2 (The energy minimum within the circular ring family)",
+    "kind": "theorem",
+    "page": "tag/D9A800CF/index.html",
+    "canonical_tag": "CC8C3F901960",
+    "anchor": ""
+  },
+  {
+    "tag": "7217B6BA",
+    "label": "ex:ring-torus-total-curvature",
+    "title": "Example 130.3 (Total Gauss curvature does not determine the torus energy)",
+    "kind": "example",
+    "page": "tag/7217B6BA/index.html",
+    "canonical_tag": "70E5321ABD3C",
+    "anchor": ""
+  },
+  {
+    "tag": "5E7A86C9",
+    "label": "prop:unit-sphere-product-tori-energy",
+    "title": "Proposition 130.4 (Product tori in the unit three-sphere)",
+    "kind": "proposition",
+    "page": "tag/5E7A86C9/index.html",
+    "canonical_tag": "F65993A50A9F",
+    "anchor": ""
+  },
+  {
+    "tag": "1426DE20",
+    "label": "ex:clifford-stereographic-ring",
+    "title": "Example 130.5 (Stereographic projection gives the circular minimizer)",
+    "kind": "example",
+    "page": "tag/1426DE20/index.html",
+    "canonical_tag": "12ADEC1AC317",
+    "anchor": ""
+  },
+  {
+    "tag": "79A9C330",
+    "label": "ex:latitude-willmore-energy",
+    "title": "Example 130.6 (All round latitudes have the same Willmore energy)",
+    "kind": "example",
+    "page": "tag/79A9C330/index.html",
+    "canonical_tag": "46E3ED8F4006",
+    "anchor": ""
+  },
+  {
+    "tag": "6CA90BD6",
+    "label": "ex:inversion-affine-plane-sphere",
+    "title": "Example 130.7 (An affine plane becomes a punctured round sphere)",
+    "kind": "example",
+    "page": "tag/6CA90BD6/index.html",
+    "canonical_tag": "E2F8CCE1C5C6",
+    "anchor": ""
+  },
+  {
+    "tag": "A85E6FE6",
+    "label": "prop:ring-torus-willmore-equation",
+    "title": "Proposition 130.8 (The full Willmore equation on a ring torus)",
+    "kind": "proposition",
+    "page": "tag/A85E6FE6/index.html",
+    "canonical_tag": "3F8B80E15359",
+    "anchor": ""
+  },
+  {
+    "tag": "BA23F637",
+    "label": "prop:round-sphere-willmore-hessian",
+    "title": "Proposition 130.9 (Second variation at a round Euclidean sphere)",
+    "kind": "proposition",
+    "page": "tag/BA23F637/index.html",
+    "canonical_tag": "24AEED595178",
+    "anchor": ""
+  },
+  {
+    "tag": "AD7A561D",
+    "label": "prop:round-sphere-willmore-kernel",
+    "title": "Proposition 130.10 (Only dilations and translations lie in the spherical kernel)",
+    "kind": "proposition",
+    "page": "tag/AD7A561D/index.html",
+    "canonical_tag": "FF20FCA045C5",
+    "anchor": ""
+  },
+  {
+    "tag": "67A846C8",
+    "label": "sec:examples-inverted-catenoid",
+    "title": "131 A finite-energy inversion with a nonsmooth closing point",
+    "kind": "chapter",
+    "page": "tag/67A846C8/index.html",
+    "canonical_tag": "8D6FD9E71E17",
+    "anchor": ""
+  },
+  {
+    "tag": "C5007F9C",
+    "label": "prop:inverted-catenoid-energy",
+    "title": "Proposition 131.1 (The inverted catenoid has energy eight pi)",
+    "kind": "proposition",
+    "page": "tag/C5007F9C/index.html",
+    "canonical_tag": "A26F36C721D5",
+    "anchor": ""
+  },
+  {
+    "tag": "0A7A2761",
+    "label": "prop:inverted-catenoid-not-c2",
+    "title": "Proposition 131.2 (The closing sheets have no twice-differentiable extension)",
+    "kind": "proposition",
+    "page": "tag/0A7A2761/index.html",
+    "canonical_tag": "D49D00FDACD8",
+    "anchor": ""
+  },
+  {
+    "tag": "2F5CF9D9",
+    "label": "sec:examples-willmore-weak-limits",
+    "title": "132 Curvature concentration and boundary energy",
+    "kind": "chapter",
+    "page": "tag/2F5CF9D9/index.html",
+    "canonical_tag": "6B0F4CEB2E24",
+    "anchor": ""
+  },
+  {
+    "tag": "2B4050A9",
+    "label": "ex:collapsing-sphere-willmore-defect",
+    "title": "Example 132.1 (A collapsing sphere loses mass and concentrates curvature energy)",
+    "kind": "example",
+    "page": "tag/2B4050A9/index.html",
+    "canonical_tag": "BA6CFF390155",
+    "anchor": ""
+  },
+  {
+    "tag": "E29CE80B",
+    "label": "ex:willmore-spheres-escape",
+    "title": "Example 132.2 (Energy can escape to infinity)",
+    "kind": "example",
+    "page": "tag/E29CE80B/index.html",
+    "canonical_tag": "01D295A558FF",
+    "anchor": ""
+  },
+  {
+    "tag": "E2EF4E14",
+    "label": "ex:disk-singular-first-variation-energy",
+    "title": "Example 132.3 (A disk has zero classical bending energy but infinite full first-variation energy)",
+    "kind": "example",
+    "page": "tag/E2EF4E14/index.html",
+    "canonical_tag": "1A05A5759283",
+    "anchor": ""
+  },
+  {
+    "tag": "26C6635F",
+    "label": "ex:willmore-noninteger-sphere",
+    "title": "Example 132.4 (Real multiplicity scales the energy)",
+    "kind": "example",
+    "page": "tag/26C6635F/index.html",
+    "canonical_tag": "7B753EE4AB09",
+    "anchor": ""
+  },
+  {
+    "tag": "02962F7D",
+    "label": "sec:history-willmore-development",
+    "title": "133 From a circular torus to a min-max theorem",
+    "kind": "chapter",
+    "page": "tag/02962F7D/index.html",
+    "canonical_tag": "B44199ED186F",
+    "anchor": ""
+  },
+  {
+    "tag": "37CDF4FE",
+    "label": "rem:history-willmore-circular-candidate",
+    "title": "Remark 133.1 (A family calculation suggested a global conjecture)",
+    "kind": "remark",
+    "page": "tag/37CDF4FE/index.html",
+    "canonical_tag": "E15742E4F29E",
+    "anchor": ""
+  },
+  {
+    "tag": "CE3051B1",
+    "label": "rem:history-li-yau-multiplicity",
+    "title": "Remark 133.2 (Conformal area separated the multiple-point obstruction)",
+    "kind": "remark",
+    "page": "tag/CE3051B1/index.html",
+    "canonical_tag": "07DE29ED0FC2",
+    "anchor": ""
+  },
+  {
+    "tag": "61C6B228",
+    "label": "rem:history-willmore-existence-value",
+    "title": "Remark 133.3 (Existence and the exact minimum were separate achievements)",
+    "kind": "remark",
+    "page": "tag/61C6B228/index.html",
+    "canonical_tag": "F2980A8D4351",
+    "anchor": ""
+  },
+  {
+    "tag": "0421ED87",
+    "label": "sec:catenoidal-neck-models",
+    "title": "134 The logarithmic cost of a Euclidean catenoidal neck",
+    "kind": "chapter",
+    "page": "tag/0421ED87/index.html",
+    "canonical_tag": "D769746506C0",
+    "anchor": ""
+  },
+  {
+    "tag": "EB5F9D19",
+    "label": "prop:catenoid-boundary-branches",
+    "title": "Proposition 134.1 (Two rotational catenoids with the same circular boundary)",
+    "kind": "proposition",
+    "page": "tag/EB5F9D19/index.html",
+    "canonical_tag": "81AF723B08AA",
+    "anchor": ""
+  },
+  {
+    "tag": "E0AD0FBF",
+    "label": "prop:catenoid-exact-disk-excess",
+    "title": "Proposition 134.2 (Exact excess over two disks)",
+    "kind": "proposition",
+    "page": "tag/E0AD0FBF/index.html",
+    "canonical_tag": "6672A8E926D4",
+    "anchor": ""
+  },
+  {
+    "tag": "303CE892",
+    "label": "thm:catenoid-logarithmic-excess",
+    "title": "Theorem 134.3 (The sharp leading logarithmic neck cost)",
+    "kind": "theorem",
+    "page": "tag/303CE892/index.html",
+    "canonical_tag": "AB484D5A03C6",
+    "anchor": ""
+  },
+  {
+    "tag": "EE649985",
+    "label": "ex:cylindrical-neck-cost",
+    "title": "Example 134.4 (A cylindrical connector has a larger leading cost)",
+    "kind": "example",
+    "page": "tag/EE649985/index.html",
+    "canonical_tag": "2AE5C3C55721",
+    "anchor": ""
+  },
+  {
+    "tag": "14E21F7D",
+    "label": "prop:planar-annulus-exact-energy",
+    "title": "Proposition 134.5 (The exact planar annulus capacity)",
+    "kind": "proposition",
+    "page": "tag/14E21F7D/index.html",
+    "canonical_tag": "C9FC5ED9776D",
+    "anchor": ""
+  },
+  {
+    "tag": "9A806C3B",
+    "label": "prop:unstable-sheet-logarithmic-comparison",
+    "title": "Proposition 134.6 (Quadratic sheet gain dominates a logarithmic error)",
+    "kind": "proposition",
+    "page": "tag/9A806C3B/index.html",
+    "canonical_tag": "4A98911260BF",
+    "anchor": ""
   }
 ]

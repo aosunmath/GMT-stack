@@ -2032,6 +2032,54 @@
     "tag": "67A305ACFB42"
   },
   {
+    "route": "sections/quadratic-curvature-energy-under-varifold-convergence",
+    "title": "6.12 Quadratic curvature energy under varifold convergence",
+    "chapter": "varifolds",
+    "section": "quadratic-curvature-energy-under-varifold-convergence"
+  },
+  {
+    "route": "tag/A25C61F4660D",
+    "title": "Definition 6.12.1 (An extended quadratic first-variation energy)",
+    "chapter": "varifolds",
+    "section": "quadratic-curvature-energy-under-varifold-convergence",
+    "tag": "A25C61F4660D"
+  },
+  {
+    "route": "tag/03E7797CCA57",
+    "title": "Theorem 6.12.2 (Finite quadratic energy is equivalent to square-integrable mean curvature)",
+    "chapter": "varifolds",
+    "section": "quadratic-curvature-energy-under-varifold-convergence",
+    "tag": "03E7797CCA57"
+  },
+  {
+    "route": "tag/365150F73639",
+    "title": "Theorem 6.12.3 (Lower semicontinuity of quadratic varifold energy)",
+    "chapter": "varifolds",
+    "section": "quadratic-curvature-energy-under-varifold-convergence",
+    "tag": "365150F73639"
+  },
+  {
+    "route": "tag/DF57C01B9F0F",
+    "title": "Proposition 6.12.4 (Comparison with the energy of a smooth immersion)",
+    "chapter": "varifolds",
+    "section": "quadratic-curvature-energy-under-varifold-convergence",
+    "tag": "DF57C01B9F0F"
+  },
+  {
+    "route": "tag/71DC1770F6D7",
+    "title": "Corollary 6.12.5 (An integral compactness consequence, with its external input)",
+    "chapter": "varifolds",
+    "section": "quadratic-curvature-energy-under-varifold-convergence",
+    "tag": "71DC1770F6D7"
+  },
+  {
+    "route": "tag/12AB1072F745",
+    "title": "Corollary 6.12.6 (A bounded-energy sequence of closed surfaces has local compactness)",
+    "chapter": "varifolds",
+    "section": "quadratic-curvature-energy-under-varifold-convergence",
+    "tag": "12AB1072F745"
+  },
+  {
     "route": "chapters/minimal-surfaces",
     "title": "7 Minimal surfaces",
     "chapter": "minimal-surfaces"
@@ -3588,6 +3636,233 @@
     "chapter": "geometric-applications",
     "section": "low-widths-of-the-round-three-sphere",
     "tag": "A2692E8AF721"
+  },
+  {
+    "route": "sections/conformal-geometry-of-the-willmore-energy",
+    "title": "10.3 Conformal geometry of the Willmore energy",
+    "chapter": "geometric-applications",
+    "section": "conformal-geometry-of-the-willmore-energy"
+  },
+  {
+    "route": "tag/6C2509083AF7",
+    "title": "Definition 10.3.1 (Vector normalization and the trace-free second fundamental form)",
+    "chapter": "geometric-applications",
+    "section": "conformal-geometry-of-the-willmore-energy",
+    "tag": "6C2509083AF7"
+  },
+  {
+    "route": "tag/147F594395A4",
+    "title": "Lemma 10.3.2 (Conformal changes of the normal geometry)",
+    "chapter": "geometric-applications",
+    "section": "conformal-geometry-of-the-willmore-energy",
+    "tag": "147F594395A4"
+  },
+  {
+    "route": "tag/6DBF2123A3DF",
+    "title": "Lemma 10.3.3 (The intrinsic curvature density under a conformal change)",
+    "chapter": "geometric-applications",
+    "section": "conformal-geometry-of-the-willmore-energy",
+    "tag": "6DBF2123A3DF"
+  },
+  {
+    "route": "tag/BACD0400946D",
+    "title": "Proposition 10.3.4 (The conformally invariant energy density modulo curvature)",
+    "chapter": "geometric-applications",
+    "section": "conformal-geometry-of-the-willmore-energy",
+    "tag": "BACD0400946D"
+  },
+  {
+    "route": "tag/72FC663C3366",
+    "title": "Proposition 10.3.5 (Stereographic projection preserves the normalized energy)",
+    "chapter": "geometric-applications",
+    "section": "conformal-geometry-of-the-willmore-energy",
+    "tag": "72FC663C3366"
+  },
+  {
+    "route": "tag/439BE1C2C30D",
+    "title": "Theorem 10.3.6 (First variation of Willmore energy in a three-dimensional space form)",
+    "chapter": "geometric-applications",
+    "section": "conformal-geometry-of-the-willmore-energy",
+    "tag": "439BE1C2C30D"
+  },
+  {
+    "route": "tag/9A078B2B51E7",
+    "title": "Corollary 10.3.7 (Minimal spherical surfaces give Euclidean Willmore surfaces)",
+    "chapter": "geometric-applications",
+    "section": "conformal-geometry-of-the-willmore-energy",
+    "tag": "9A078B2B51E7"
+  },
+  {
+    "route": "sections/willmore-energy-multiplicity-and-inversion",
+    "title": "10.4 Willmore energy, multiplicity and inversion",
+    "chapter": "geometric-applications",
+    "section": "willmore-energy-multiplicity-and-inversion"
+  },
+  {
+    "route": "tag/86AC490C5917",
+    "title": "Lemma 10.4.1 (The differential and curvature of an inversion)",
+    "chapter": "geometric-applications",
+    "section": "willmore-energy-multiplicity-and-inversion",
+    "tag": "86AC490C5917"
+  },
+  {
+    "route": "tag/3C733C121AC2",
+    "title": "Lemma 10.4.2 (The puncture flux at a smooth immersed sheet)",
+    "chapter": "geometric-applications",
+    "section": "willmore-energy-multiplicity-and-inversion",
+    "tag": "3C733C121AC2"
+  },
+  {
+    "route": "tag/A6413522A6DE",
+    "title": "Theorem 10.4.3 (A square identity for a compact immersed surface)",
+    "chapter": "geometric-applications",
+    "section": "willmore-energy-multiplicity-and-inversion",
+    "tag": "A6413522A6DE"
+  },
+  {
+    "route": "tag/572AC3C13DF8",
+    "title": "Theorem 10.4.4 (The Li–Yau multiplicity bound for smooth immersions)",
+    "chapter": "geometric-applications",
+    "section": "willmore-energy-multiplicity-and-inversion",
+    "tag": "572AC3C13DF8"
+  },
+  {
+    "route": "tag/447BFBA2C2DD",
+    "title": "Proposition 10.4.5 (The energy lost at an inversion pole)",
+    "chapter": "geometric-applications",
+    "section": "willmore-energy-multiplicity-and-inversion",
+    "tag": "447BFBA2C2DD"
+  },
+  {
+    "route": "tag/19BB9C12AF07",
+    "title": "Theorem 10.4.6 (Equality in the universal Willmore bound)",
+    "chapter": "geometric-applications",
+    "section": "willmore-energy-multiplicity-and-inversion",
+    "tag": "19BB9C12AF07"
+  },
+  {
+    "route": "tag/E284F9A1175C",
+    "title": "Corollary 10.4.7 (Multiplicity bounds in the unit sphere)",
+    "chapter": "geometric-applications",
+    "section": "willmore-energy-multiplicity-and-inversion",
+    "tag": "E284F9A1175C"
+  },
+  {
+    "route": "tag/4CF7F912975D",
+    "title": "Example 10.4.8 (The boundary flux of a flat disk)",
+    "chapter": "geometric-applications",
+    "section": "willmore-energy-multiplicity-and-inversion",
+    "tag": "4CF7F912975D"
+  },
+  {
+    "route": "tag/9065CAA9C92F",
+    "title": "Corollary 10.4.9 (From the embedded theorem to all orientable positive-genus immersions)",
+    "chapter": "geometric-applications",
+    "section": "willmore-energy-multiplicity-and-inversion",
+    "tag": "9065CAA9C92F"
+  },
+  {
+    "route": "sections/local-area-and-diameter-estimates-from-willmore-energy",
+    "title": "10.5 Local area and diameter estimates from Willmore energy",
+    "chapter": "geometric-applications",
+    "section": "local-area-and-diameter-estimates-from-willmore-energy"
+  },
+  {
+    "route": "tag/1EB2A47C45B3",
+    "title": "Proposition 10.5.1 (The two-radius square identity)",
+    "chapter": "geometric-applications",
+    "section": "local-area-and-diameter-estimates-from-willmore-energy",
+    "tag": "1EB2A47C45B3"
+  },
+  {
+    "route": "tag/06FDAA574FA5",
+    "title": "Proposition 10.5.2 (A corrected area ratio is monotone)",
+    "chapter": "geometric-applications",
+    "section": "local-area-and-diameter-estimates-from-willmore-energy",
+    "tag": "06FDAA574FA5"
+  },
+  {
+    "route": "tag/2124DA17B73F",
+    "title": "Proposition 10.5.3 (A local comparison with an explicit constant)",
+    "chapter": "geometric-applications",
+    "section": "local-area-and-diameter-estimates-from-willmore-energy",
+    "tag": "2124DA17B73F"
+  },
+  {
+    "route": "tag/6850DAD0C60F",
+    "title": "Theorem 10.5.4 (Global energy controls every local area ratio)",
+    "chapter": "geometric-applications",
+    "section": "local-area-and-diameter-estimates-from-willmore-energy",
+    "tag": "6850DAD0C60F"
+  },
+  {
+    "route": "tag/779189C9B6ED",
+    "title": "Corollary 10.5.5 (Willmore energy gives a Gaussian-area bound)",
+    "chapter": "geometric-applications",
+    "section": "local-area-and-diameter-estimates-from-willmore-energy",
+    "tag": "779189C9B6ED"
+  },
+  {
+    "route": "tag/D11A3941C16D",
+    "title": "Proposition 10.5.6 (A containing ball bounds area by energy)",
+    "chapter": "geometric-applications",
+    "section": "local-area-and-diameter-estimates-from-willmore-energy",
+    "tag": "D11A3941C16D"
+  },
+  {
+    "route": "tag/2289A5287A63",
+    "title": "Theorem 10.5.7 (Area-energy bounds for extrinsic diameter)",
+    "chapter": "geometric-applications",
+    "section": "local-area-and-diameter-estimates-from-willmore-energy",
+    "tag": "2289A5287A63"
+  },
+  {
+    "route": "sections/the-logarithmic-cost-of-a-euclidean-catenoidal-neck",
+    "title": "10.6 The logarithmic cost of a Euclidean catenoidal neck",
+    "chapter": "geometric-applications",
+    "section": "the-logarithmic-cost-of-a-euclidean-catenoidal-neck"
+  },
+  {
+    "route": "tag/81AF723B08AA",
+    "title": "Proposition 10.6.1 (Two rotational catenoids with the same circular boundary)",
+    "chapter": "geometric-applications",
+    "section": "the-logarithmic-cost-of-a-euclidean-catenoidal-neck",
+    "tag": "81AF723B08AA"
+  },
+  {
+    "route": "tag/6672A8E926D4",
+    "title": "Proposition 10.6.2 (Exact excess over two disks)",
+    "chapter": "geometric-applications",
+    "section": "the-logarithmic-cost-of-a-euclidean-catenoidal-neck",
+    "tag": "6672A8E926D4"
+  },
+  {
+    "route": "tag/AB484D5A03C6",
+    "title": "Theorem 10.6.3 (The sharp leading logarithmic neck cost)",
+    "chapter": "geometric-applications",
+    "section": "the-logarithmic-cost-of-a-euclidean-catenoidal-neck",
+    "tag": "AB484D5A03C6"
+  },
+  {
+    "route": "tag/2AE5C3C55721",
+    "title": "Example 10.6.4 (A cylindrical connector has a larger leading cost)",
+    "chapter": "geometric-applications",
+    "section": "the-logarithmic-cost-of-a-euclidean-catenoidal-neck",
+    "tag": "2AE5C3C55721"
+  },
+  {
+    "route": "tag/C9FC5ED9776D",
+    "title": "Proposition 10.6.5 (The exact planar annulus capacity)",
+    "chapter": "geometric-applications",
+    "section": "the-logarithmic-cost-of-a-euclidean-catenoidal-neck",
+    "tag": "C9FC5ED9776D"
+  },
+  {
+    "route": "tag/4A98911260BF",
+    "title": "Proposition 10.6.6 (Quadratic sheet gain dominates a logarithmic error)",
+    "chapter": "geometric-applications",
+    "section": "the-logarithmic-cost-of-a-euclidean-catenoidal-neck",
+    "tag": "4A98911260BF"
   },
   {
     "route": "chapters/constant-mean-curvature",
@@ -6045,6 +6320,33 @@
     "tag": "C5CCD5D00E73"
   },
   {
+    "route": "sections/from-a-circular-torus-to-a-min-max-theorem",
+    "title": "15.3 From a circular torus to a min-max theorem",
+    "chapter": "history",
+    "section": "from-a-circular-torus-to-a-min-max-theorem"
+  },
+  {
+    "route": "tag/E15742E4F29E",
+    "title": "Remark 15.3.1 (A family calculation suggested a global conjecture)",
+    "chapter": "history",
+    "section": "from-a-circular-torus-to-a-min-max-theorem",
+    "tag": "E15742E4F29E"
+  },
+  {
+    "route": "tag/07DE29ED0FC2",
+    "title": "Remark 15.3.2 (Conformal area separated the multiple-point obstruction)",
+    "chapter": "history",
+    "section": "from-a-circular-torus-to-a-min-max-theorem",
+    "tag": "07DE29ED0FC2"
+  },
+  {
+    "route": "tag/F2980A8D4351",
+    "title": "Remark 15.3.3 (Existence and the exact minimum were separate achievements)",
+    "chapter": "history",
+    "section": "from-a-circular-torus-to-a-min-max-theorem",
+    "tag": "F2980A8D4351"
+  },
+  {
     "route": "chapters/examples",
     "title": "16 Examples",
     "chapter": "examples"
@@ -6976,6 +7278,136 @@
     "chapter": "examples",
     "section": "a-radial-obstacle-problem-and-its-contact-transition",
     "tag": "AEA8FAF2A27B"
+  },
+  {
+    "route": "sections/round-surfaces-and-circular-willmore-tori",
+    "title": "16.18 Round surfaces and circular Willmore tori",
+    "chapter": "examples",
+    "section": "round-surfaces-and-circular-willmore-tori"
+  },
+  {
+    "route": "tag/737F11A69F2E",
+    "title": "Proposition 16.18.1 (Geometry of a circular ring torus)",
+    "chapter": "examples",
+    "section": "round-surfaces-and-circular-willmore-tori",
+    "tag": "737F11A69F2E"
+  },
+  {
+    "route": "tag/CC8C3F901960",
+    "title": "Theorem 16.18.2 (The energy minimum within the circular ring family)",
+    "chapter": "examples",
+    "section": "round-surfaces-and-circular-willmore-tori",
+    "tag": "CC8C3F901960"
+  },
+  {
+    "route": "tag/70E5321ABD3C",
+    "title": "Example 16.18.3 (Total Gauss curvature does not determine the torus energy)",
+    "chapter": "examples",
+    "section": "round-surfaces-and-circular-willmore-tori",
+    "tag": "70E5321ABD3C"
+  },
+  {
+    "route": "tag/F65993A50A9F",
+    "title": "Proposition 16.18.4 (Product tori in the unit three-sphere)",
+    "chapter": "examples",
+    "section": "round-surfaces-and-circular-willmore-tori",
+    "tag": "F65993A50A9F"
+  },
+  {
+    "route": "tag/12ADEC1AC317",
+    "title": "Example 16.18.5 (Stereographic projection gives the circular minimizer)",
+    "chapter": "examples",
+    "section": "round-surfaces-and-circular-willmore-tori",
+    "tag": "12ADEC1AC317"
+  },
+  {
+    "route": "tag/46E3ED8F4006",
+    "title": "Example 16.18.6 (All round latitudes have the same Willmore energy)",
+    "chapter": "examples",
+    "section": "round-surfaces-and-circular-willmore-tori",
+    "tag": "46E3ED8F4006"
+  },
+  {
+    "route": "tag/E2F8CCE1C5C6",
+    "title": "Example 16.18.7 (An affine plane becomes a punctured round sphere)",
+    "chapter": "examples",
+    "section": "round-surfaces-and-circular-willmore-tori",
+    "tag": "E2F8CCE1C5C6"
+  },
+  {
+    "route": "tag/3F8B80E15359",
+    "title": "Proposition 16.18.8 (The full Willmore equation on a ring torus)",
+    "chapter": "examples",
+    "section": "round-surfaces-and-circular-willmore-tori",
+    "tag": "3F8B80E15359"
+  },
+  {
+    "route": "tag/24AEED595178",
+    "title": "Proposition 16.18.9 (Second variation at a round Euclidean sphere)",
+    "chapter": "examples",
+    "section": "round-surfaces-and-circular-willmore-tori",
+    "tag": "24AEED595178"
+  },
+  {
+    "route": "tag/FF20FCA045C5",
+    "title": "Proposition 16.18.10 (Only dilations and translations lie in the spherical kernel)",
+    "chapter": "examples",
+    "section": "round-surfaces-and-circular-willmore-tori",
+    "tag": "FF20FCA045C5"
+  },
+  {
+    "route": "sections/a-finite-energy-inversion-with-a-nonsmooth-closing-point",
+    "title": "16.19 A finite-energy inversion with a nonsmooth closing point",
+    "chapter": "examples",
+    "section": "a-finite-energy-inversion-with-a-nonsmooth-closing-point"
+  },
+  {
+    "route": "tag/A26F36C721D5",
+    "title": "Proposition 16.19.1 (The inverted catenoid has energy eight pi)",
+    "chapter": "examples",
+    "section": "a-finite-energy-inversion-with-a-nonsmooth-closing-point",
+    "tag": "A26F36C721D5"
+  },
+  {
+    "route": "tag/D49D00FDACD8",
+    "title": "Proposition 16.19.2 (The closing sheets have no twice-differentiable extension)",
+    "chapter": "examples",
+    "section": "a-finite-energy-inversion-with-a-nonsmooth-closing-point",
+    "tag": "D49D00FDACD8"
+  },
+  {
+    "route": "sections/curvature-concentration-and-boundary-energy",
+    "title": "16.20 Curvature concentration and boundary energy",
+    "chapter": "examples",
+    "section": "curvature-concentration-and-boundary-energy"
+  },
+  {
+    "route": "tag/BA6CFF390155",
+    "title": "Example 16.20.1 (A collapsing sphere loses mass and concentrates curvature energy)",
+    "chapter": "examples",
+    "section": "curvature-concentration-and-boundary-energy",
+    "tag": "BA6CFF390155"
+  },
+  {
+    "route": "tag/01D295A558FF",
+    "title": "Example 16.20.2 (Energy can escape to infinity)",
+    "chapter": "examples",
+    "section": "curvature-concentration-and-boundary-energy",
+    "tag": "01D295A558FF"
+  },
+  {
+    "route": "tag/1A05A5759283",
+    "title": "Example 16.20.3 (A disk has zero classical bending energy but infinite full first-variation energy)",
+    "chapter": "examples",
+    "section": "curvature-concentration-and-boundary-energy",
+    "tag": "1A05A5759283"
+  },
+  {
+    "route": "tag/7B753EE4AB09",
+    "title": "Example 16.20.4 (Real multiplicity scales the energy)",
+    "chapter": "examples",
+    "section": "curvature-concentration-and-boundary-energy",
+    "tag": "7B753EE4AB09"
   },
   {
     "route": "chapters/harmonic-maps",
