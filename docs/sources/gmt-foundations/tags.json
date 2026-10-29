@@ -7018,5 +7018,464 @@
     "page": "tag/B594CD7C/index.html",
     "canonical_tag": "798D622C77F0",
     "anchor": ""
+  },
+  {
+    "tag": "06495D44",
+    "label": "sec:lipschitz-tools",
+    "title": "95 Lipschitz extension and almost-everywhere differentiation",
+    "kind": "chapter",
+    "page": "tag/06495D44/index.html",
+    "canonical_tag": "D037636165B7",
+    "anchor": ""
+  },
+  {
+    "tag": "3B68EF8E",
+    "label": "def:lipschitz-constants",
+    "title": "Definition 95.1 (Lipschitz constants and local Lipschitz regularity)",
+    "kind": "definition",
+    "page": "tag/3B68EF8E/index.html",
+    "canonical_tag": "8407129C252B",
+    "anchor": ""
+  },
+  {
+    "tag": "D9A83DF4",
+    "label": "prop:mcshane-extension",
+    "title": "Proposition 95.2 (Scalar Lipschitz extension by cones)",
+    "kind": "proposition",
+    "page": "tag/D9A83DF4/index.html",
+    "canonical_tag": "B50E35CF5709",
+    "anchor": ""
+  },
+  {
+    "tag": "BC99AC68",
+    "label": "lem:lipschitz-on-lines",
+    "title": "Lemma 95.3 (Lipschitz functions on lines are absolutely continuous)",
+    "kind": "lemma",
+    "page": "tag/BC99AC68/index.html",
+    "canonical_tag": "B908FEC6A058",
+    "anchor": ""
+  },
+  {
+    "tag": "74EE26AF",
+    "label": "lem:zero-distribution-function",
+    "title": "Lemma 95.4 (Vanishing distribution tests determine a locally integrable function)",
+    "kind": "lemma",
+    "page": "tag/74EE26AF/index.html",
+    "canonical_tag": "7737EDA4D935",
+    "anchor": ""
+  },
+  {
+    "tag": "CFBB09BB",
+    "label": "lem:directional-weak-linearity",
+    "title": "Lemma 95.5 (Directional derivatives are linear almost everywhere in each fixed direction)",
+    "kind": "lemma",
+    "page": "tag/CFBB09BB/index.html",
+    "canonical_tag": "3FD822798C95",
+    "anchor": ""
+  },
+  {
+    "tag": "E69A759E",
+    "label": "lem:angular-net-differentiability",
+    "title": "Lemma 95.6 (A finite angular net upgrades directional limits)",
+    "kind": "lemma",
+    "page": "tag/E69A759E/index.html",
+    "canonical_tag": "0A24DB832853",
+    "anchor": ""
+  },
+  {
+    "tag": "A8647ABB",
+    "label": "prop:lipschitz-mollification",
+    "title": "Proposition 95.7 (Smooth approximation preserves a scalar Lipschitz bound)",
+    "kind": "proposition",
+    "page": "tag/A8647ABB/index.html",
+    "canonical_tag": "D281915E3D7D",
+    "anchor": ""
+  },
+  {
+    "tag": "E0E57ECA",
+    "label": "ex:directional-not-differentiable",
+    "title": "Example 95.8 (All directional derivatives need not give differentiability)",
+    "kind": "example",
+    "page": "tag/E0E57ECA/index.html",
+    "canonical_tag": "DF295D29EE84",
+    "anchor": ""
+  },
+  {
+    "tag": "EDEDCA40",
+    "label": "sec:sobolev-foundations",
+    "title": "96 Euclidean Sobolev inequalities and their endpoints",
+    "kind": "chapter",
+    "page": "tag/EDEDCA40/index.html",
+    "canonical_tag": "974214D5CBD8",
+    "anchor": ""
+  },
+  {
+    "tag": "9E58931D",
+    "label": "lem:coordinate-projection-holder",
+    "title": "Lemma 96.1 (An iterated Holder inequality for coordinate projections)",
+    "kind": "lemma",
+    "page": "tag/9E58931D/index.html",
+    "canonical_tag": "56D0A07041F8",
+    "anchor": ""
+  },
+  {
+    "tag": "E6589CCE",
+    "label": "thm:sobolev-first-power",
+    "title": "Theorem 96.2 (The first-power Sobolev inequality)",
+    "kind": "theorem",
+    "page": "tag/E6589CCE/index.html",
+    "canonical_tag": "3E1913FF6CC7",
+    "anchor": ""
+  },
+  {
+    "tag": "6F78D332",
+    "label": "thm:euclidean-sobolev-gain",
+    "title": "Theorem 96.3 (Sobolev gain below the critical derivative exponent)",
+    "kind": "theorem",
+    "page": "tag/6F78D332/index.html",
+    "canonical_tag": "FB6C58CDB2CE",
+    "anchor": ""
+  },
+  {
+    "tag": "C2F5F497",
+    "label": "cor:volume-poincare",
+    "title": "Corollary 96.4 (A volume-dependent zero-boundary Poincare estimate)",
+    "kind": "corollary",
+    "page": "tag/C2F5F497/index.html",
+    "canonical_tag": "5B3E68252599",
+    "anchor": ""
+  },
+  {
+    "tag": "3EEB0C48",
+    "label": "thm:two-dimensional-sobolev",
+    "title": "Theorem 96.5 (Every finite integrability gain in dimension two)",
+    "kind": "theorem",
+    "page": "tag/3EEB0C48/index.html",
+    "canonical_tag": "B277B3E87BF9",
+    "anchor": ""
+  },
+  {
+    "tag": "FDCA66D2",
+    "label": "cor:scaled-sobolev-ball",
+    "title": "Corollary 96.6 (The scaled gain on balls)",
+    "kind": "corollary",
+    "page": "tag/FDCA66D2/index.html",
+    "canonical_tag": "15335E40C520",
+    "anchor": ""
+  },
+  {
+    "tag": "C56FDAB5",
+    "label": "ex:sobolev-exponent-obstruction",
+    "title": "Example 96.7 (Concentration forbids a larger Sobolev exponent)",
+    "kind": "example",
+    "page": "tag/C56FDAB5/index.html",
+    "canonical_tag": "474B02EE1263",
+    "anchor": ""
+  },
+  {
+    "tag": "E7E67793",
+    "label": "ex:critical-sobolev-unbounded",
+    "title": "Example 96.8 (An unbounded function at the critical derivative exponent)",
+    "kind": "example",
+    "page": "tag/E7E67793/index.html",
+    "canonical_tag": "87FC32996CA8",
+    "anchor": ""
+  },
+  {
+    "tag": "10D9B30A",
+    "label": "sec:gauss-simons",
+    "title": "97 Gauss equations and curvature inequalities",
+    "kind": "chapter",
+    "page": "tag/10D9B30A/index.html",
+    "canonical_tag": "111C9C633F05",
+    "anchor": ""
+  },
+  {
+    "tag": "7A75D18C",
+    "label": "prop:spaceform-gauss-codazzi",
+    "title": "Proposition 97.1 (Gauss and Codazzi in a space form)",
+    "kind": "proposition",
+    "page": "tag/7A75D18C/index.html",
+    "canonical_tag": "A09878109DD9",
+    "anchor": ""
+  },
+  {
+    "tag": "9216B935",
+    "label": "lem:two-tensor-commutation",
+    "title": "Lemma 97.2 (Commuting derivatives of a covariant two-tensor)",
+    "kind": "lemma",
+    "page": "tag/9216B935/index.html",
+    "canonical_tag": "25DCA2C10AD1",
+    "anchor": ""
+  },
+  {
+    "tag": "BD761C1C",
+    "label": "thm:spaceform-simons",
+    "title": "Theorem 97.3 (Simons identity in a space form)",
+    "kind": "theorem",
+    "page": "tag/BD761C1C/index.html",
+    "canonical_tag": "047F68506D63",
+    "anchor": ""
+  },
+  {
+    "tag": "1E2058BB",
+    "label": "cor:simons-norm-variable",
+    "title": "Corollary 97.4 (The norm identity with variable mean curvature)",
+    "kind": "corollary",
+    "page": "tag/1E2058BB/index.html",
+    "canonical_tag": "ECCB9C94F2BD",
+    "anchor": ""
+  },
+  {
+    "tag": "DA9B40C3",
+    "label": "lem:tensor-kato",
+    "title": "Lemma 97.5 (Kato inequality and zeros of a tensor)",
+    "kind": "lemma",
+    "page": "tag/DA9B40C3/index.html",
+    "canonical_tag": "57E6D28D069F",
+    "anchor": ""
+  },
+  {
+    "tag": "A0173CCD",
+    "label": "lem:cmc-improved-kato",
+    "title": "Lemma 97.6 (Improved Kato inequality for constant mean curvature)",
+    "kind": "lemma",
+    "page": "tag/A0173CCD/index.html",
+    "canonical_tag": "0EF6E41BEE7B",
+    "anchor": ""
+  },
+  {
+    "tag": "DE3EC6D2",
+    "label": "prop:minimal-simons-inequality",
+    "title": "Proposition 97.7 (Simons inequality away from flat points)",
+    "kind": "proposition",
+    "page": "tag/DE3EC6D2/index.html",
+    "canonical_tag": "68EF2704335B",
+    "anchor": ""
+  },
+  {
+    "tag": "6CD1F184",
+    "label": "prop:weak-curvature-subsolution",
+    "title": "Proposition 97.8 (A weak curvature inequality through flat points)",
+    "kind": "proposition",
+    "page": "tag/6CD1F184/index.html",
+    "canonical_tag": "1CD67FF48B1B",
+    "anchor": ""
+  },
+  {
+    "tag": "7D05B1A0",
+    "label": "prop:curvature-caccioppoli",
+    "title": "Proposition 97.9 (A curvature Caccioppoli estimate)",
+    "kind": "proposition",
+    "page": "tag/7D05B1A0/index.html",
+    "canonical_tag": "CCCBD9EA9FEF",
+    "anchor": ""
+  },
+  {
+    "tag": "ACEA7C50",
+    "label": "sec:cmc-pinching",
+    "title": "98 Trace-free curvature and CMC pinching",
+    "kind": "chapter",
+    "page": "tag/ACEA7C50/index.html",
+    "canonical_tag": "0915D85CEE26",
+    "anchor": ""
+  },
+  {
+    "tag": "2F48BB08",
+    "label": "def:tracefree-second-form",
+    "title": "Definition 98.1 (Trace-free second fundamental form)",
+    "kind": "definition",
+    "page": "tag/2F48BB08/index.html",
+    "canonical_tag": "5CFC5E1C6CBF",
+    "anchor": ""
+  },
+  {
+    "tag": "A69524BB",
+    "label": "prop:cmc-tracefree-simons",
+    "title": "Proposition 98.2 (The trace-free Simons equation for CMC hypersurfaces)",
+    "kind": "proposition",
+    "page": "tag/A69524BB/index.html",
+    "canonical_tag": "CDBF4FCC1085",
+    "anchor": ""
+  },
+  {
+    "tag": "92B4B0C4",
+    "label": "lem:tracefree-cubic-bound",
+    "title": "Lemma 98.3 (The sharp cubic bound for a trace-free symmetric operator)",
+    "kind": "lemma",
+    "page": "tag/92B4B0C4/index.html",
+    "canonical_tag": "71A17FBA686F",
+    "anchor": ""
+  },
+  {
+    "tag": "58E68271",
+    "label": "thm:cmc-pinching-gap",
+    "title": "Theorem 98.4 (A pinching gap for closed CMC hypersurfaces)",
+    "kind": "theorem",
+    "page": "tag/58E68271/index.html",
+    "canonical_tag": "08262020D02C",
+    "anchor": ""
+  },
+  {
+    "tag": "C24315D5",
+    "label": "cor:minimal-sphere-curvature-gap",
+    "title": "Corollary 98.5 (The first curvature gap for a spherical minimal hypersurface)",
+    "kind": "corollary",
+    "page": "tag/C24315D5/index.html",
+    "canonical_tag": "3CF4022E5000",
+    "anchor": ""
+  },
+  {
+    "tag": "E87B3553",
+    "label": "ex:cmc-product-pinching",
+    "title": "Example 98.6 (Products of spheres at and beyond the pinching threshold)",
+    "kind": "example",
+    "page": "tag/E87B3553/index.html",
+    "canonical_tag": "BE780D70334A",
+    "anchor": ""
+  },
+  {
+    "tag": "F0D71567",
+    "label": "sec:stable-curvature-integrals",
+    "title": "99 Stability and integral curvature estimates",
+    "kind": "chapter",
+    "page": "tag/F0D71567/index.html",
+    "canonical_tag": "76F16BC9EFED",
+    "anchor": ""
+  },
+  {
+    "tag": "BBF9196A",
+    "label": "lem:regularized-simons",
+    "title": "Lemma 99.1 (Regularized Simons inequality)",
+    "kind": "lemma",
+    "page": "tag/BBF9196A/index.html",
+    "canonical_tag": "A320E850D5B3",
+    "anchor": ""
+  },
+  {
+    "tag": "BC103332",
+    "label": "prop:stable-weighted-curvature",
+    "title": "Proposition 99.2 (The weighted curvature estimate from stability)",
+    "kind": "proposition",
+    "page": "tag/BC103332/index.html",
+    "canonical_tag": "BC774BF683CF",
+    "anchor": ""
+  },
+  {
+    "tag": "438B139C",
+    "label": "thm:ssy-integral-curvature",
+    "title": "Theorem 99.3 (The Schoen\u2013Simon\u2013Yau integral estimate in Euclidean space)",
+    "kind": "theorem",
+    "page": "tag/438B139C/index.html",
+    "canonical_tag": "3037157543A0",
+    "anchor": ""
+  },
+  {
+    "tag": "EBCA3B70",
+    "label": "cor:stable-curvature-ball-integral",
+    "title": "Corollary 99.4 (Curvature integrals on intrinsic or extrinsic balls)",
+    "kind": "corollary",
+    "page": "tag/EBCA3B70/index.html",
+    "canonical_tag": "1B8F304D3097",
+    "anchor": ""
+  },
+  {
+    "tag": "1CAEC004",
+    "label": "thm:stable-subcritical-growth",
+    "title": "Theorem 99.5 (Subcritical volume growth forces flatness)",
+    "kind": "theorem",
+    "page": "tag/1CAEC004/index.html",
+    "canonical_tag": "234C91B2EA0D",
+    "anchor": ""
+  },
+  {
+    "tag": "62B3B9C0",
+    "label": "cor:stable-euclidean-growth-five",
+    "title": "Corollary 99.6 (Euclidean-growth rigidity in dimensions at most five)",
+    "kind": "corollary",
+    "page": "tag/62B3B9C0/index.html",
+    "canonical_tag": "F5B9D5F2225E",
+    "anchor": ""
+  },
+  {
+    "tag": "15B03C43",
+    "label": "cor:bernstein-through-five",
+    "title": "Corollary 99.7 (Entire minimal graphs through dimension five)",
+    "kind": "corollary",
+    "page": "tag/15B03C43/index.html",
+    "canonical_tag": "A3416192BC63",
+    "anchor": ""
+  },
+  {
+    "tag": "AD1918A3",
+    "label": "sec:mcf-pinching",
+    "title": "100 Convexity and curvature pinching along the flow",
+    "kind": "chapter",
+    "page": "tag/AD1918A3/index.html",
+    "canonical_tag": "C6172D7FDBBC",
+    "anchor": ""
+  },
+  {
+    "tag": "6A43B471",
+    "label": "lem:evolving-metric-positive-tensor",
+    "title": "Lemma 100.1 (Preserving a nonnegative endomorphism with scalar reaction)",
+    "kind": "lemma",
+    "page": "tag/6A43B471/index.html",
+    "canonical_tag": "F00A2BFCC2AF",
+    "anchor": ""
+  },
+  {
+    "tag": "F6ADE6E3",
+    "label": "prop:mcf-linear-pinching",
+    "title": "Proposition 100.2 (Preservation of convexity and linear pinching)",
+    "kind": "proposition",
+    "page": "tag/F6ADE6E3/index.html",
+    "canonical_tag": "483108BB132E",
+    "anchor": ""
+  },
+  {
+    "tag": "C755AF97",
+    "label": "prop:mcf-curvature-ratio",
+    "title": "Proposition 100.3 (Evolution of the normalized curvature ratio)",
+    "kind": "proposition",
+    "page": "tag/C755AF97/index.html",
+    "canonical_tag": "F7704EEF0D6B",
+    "anchor": ""
+  },
+  {
+    "tag": "7C61B1DE",
+    "label": "cor:mcf-ratio-bound",
+    "title": "Corollary 100.4 (A nonincreasing curvature-ratio bound)",
+    "kind": "corollary",
+    "page": "tag/7C61B1DE/index.html",
+    "canonical_tag": "401B923E6A7C",
+    "anchor": ""
+  },
+  {
+    "tag": "E9B36CAB",
+    "label": "lem:parallel-normalized-shape",
+    "title": "Lemma 100.5 (Parallel normalized curvature under strict convexity)",
+    "kind": "lemma",
+    "page": "tag/E9B36CAB/index.html",
+    "canonical_tag": "B53165434118",
+    "anchor": ""
+  },
+  {
+    "tag": "2E3011E4",
+    "label": "thm:mcf-ratio-rigidity",
+    "title": "Theorem 100.6 (Rigidity when the maximum curvature ratio stops decreasing)",
+    "kind": "theorem",
+    "page": "tag/2E3011E4/index.html",
+    "canonical_tag": "10AE2686A175",
+    "anchor": ""
+  },
+  {
+    "tag": "490129F5",
+    "label": "ex:cylinder-curvature-ratio",
+    "title": "Example 100.7 (Cylinders have constant ratio without being umbilic)",
+    "kind": "example",
+    "page": "tag/490129F5/index.html",
+    "canonical_tag": "2BDD686532E1",
+    "anchor": ""
   }
 ]

@@ -858,11 +858,15 @@
       "title": "Rademacher",
       "kind": "theorem",
       "file": "rectifiability.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Sim18"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "lem:angular-net-differentiability",
+        "lem:directional-weak-linearity",
+        "lem:lipschitz-on-lines"
+      ],
       "formal_verification": "none"
     },
     {
@@ -2063,12 +2067,13 @@
       "title": "Euclidean Simons identity",
       "kind": "theorem",
       "file": "mcf-evolution.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "HP99"
       ],
       "dependencies": [
-        "def:mcf-scalar-second-form"
+        "def:mcf-scalar-second-form",
+        "thm:spaceform-simons"
       ],
       "formal_verification": "none"
     },
@@ -4072,7 +4077,10 @@
       "citations": [
         "Fig18"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cor:lebesgue-density-theorem",
+        "thm:rademacher"
+      ],
       "formal_verification": "none"
     },
     {
@@ -7788,11 +7796,14 @@
       "title": "The Sobolev gain used in iteration",
       "kind": "theorem",
       "file": "moser-iteration.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "SimonPDE"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cor:scaled-sobolev-ball",
+        "thm:two-dimensional-sobolev"
+      ],
       "formal_verification": "none"
     },
     {
@@ -8882,6 +8893,595 @@
       "dependencies": [
         "prop:measure-maximal-weak",
         "thm:maximal-strong-lp"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:lipschitz-constants",
+      "title": "Lipschitz constants and local Lipschitz regularity",
+      "kind": "definition",
+      "file": "lipschitz-tools.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcshane-extension",
+      "title": "Scalar Lipschitz extension by cones",
+      "kind": "proposition",
+      "file": "lipschitz-tools.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:lipschitz-on-lines",
+      "title": "Lipschitz functions on lines are absolutely continuous",
+      "kind": "lemma",
+      "file": "lipschitz-tools.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:zero-distribution-function",
+      "title": "Vanishing distribution tests determine a locally integrable function",
+      "kind": "lemma",
+      "file": "lipschitz-tools.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:mollifiers-at-lebesgue-points",
+        "thm:lebesgue-differentiation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:directional-weak-linearity",
+      "title": "Directional derivatives are linear almost everywhere in each fixed direction",
+      "kind": "lemma",
+      "file": "lipschitz-tools.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:lipschitz-on-lines",
+        "lem:zero-distribution-function"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:angular-net-differentiability",
+      "title": "A finite angular net upgrades directional limits",
+      "kind": "lemma",
+      "file": "lipschitz-tools.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:lipschitz-mollification",
+      "title": "Smooth approximation preserves a scalar Lipschitz bound",
+      "kind": "proposition",
+      "file": "lipschitz-tools.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:directional-weak-linearity",
+        "thm:rademacher"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:directional-not-differentiable",
+      "title": "All directional derivatives need not give differentiability",
+      "kind": "example",
+      "file": "lipschitz-tools.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:angular-net-differentiability"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:coordinate-projection-holder",
+      "title": "An iterated Holder inequality for coordinate projections",
+      "kind": "lemma",
+      "file": "sobolev-foundations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:sobolev-first-power",
+      "title": "The first-power Sobolev inequality",
+      "kind": "theorem",
+      "file": "sobolev-foundations.tex",
+      "status": "proof-included",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [
+        "lem:coordinate-projection-holder"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:euclidean-sobolev-gain",
+      "title": "Sobolev gain below the critical derivative exponent",
+      "kind": "theorem",
+      "file": "sobolev-foundations.tex",
+      "status": "proof-included",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [
+        "thm:sobolev-first-power"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:volume-poincare",
+      "title": "A volume-dependent zero-boundary Poincare estimate",
+      "kind": "corollary",
+      "file": "sobolev-foundations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:euclidean-sobolev-gain"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:two-dimensional-sobolev",
+      "title": "Every finite integrability gain in dimension two",
+      "kind": "theorem",
+      "file": "sobolev-foundations.tex",
+      "status": "proof-included",
+      "citations": [
+        "SimonPDE"
+      ],
+      "dependencies": [
+        "thm:euclidean-sobolev-gain"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:scaled-sobolev-ball",
+      "title": "The scaled gain on balls",
+      "kind": "corollary",
+      "file": "sobolev-foundations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:euclidean-sobolev-gain",
+        "thm:two-dimensional-sobolev"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:sobolev-exponent-obstruction",
+      "title": "Concentration forbids a larger Sobolev exponent",
+      "kind": "example",
+      "file": "sobolev-foundations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:critical-sobolev-unbounded",
+      "title": "An unbounded function at the critical derivative exponent",
+      "kind": "example",
+      "file": "sobolev-foundations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:two-dimensional-sobolev"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:spaceform-gauss-codazzi",
+      "title": "Gauss and Codazzi in a space form",
+      "kind": "proposition",
+      "file": "gauss-simons.tex",
+      "status": "proof-included",
+      "citations": [
+        "HP99"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:two-tensor-commutation",
+      "title": "Commuting derivatives of a covariant two-tensor",
+      "kind": "lemma",
+      "file": "gauss-simons.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:spaceform-simons",
+      "title": "Simons identity in a space form",
+      "kind": "theorem",
+      "file": "gauss-simons.tex",
+      "status": "proof-included",
+      "citations": [
+        "HP99"
+      ],
+      "dependencies": [
+        "lem:two-tensor-commutation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:simons-norm-variable",
+      "title": "The norm identity with variable mean curvature",
+      "kind": "corollary",
+      "file": "gauss-simons.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:spaceform-simons"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:tensor-kato",
+      "title": "Kato inequality and zeros of a tensor",
+      "kind": "lemma",
+      "file": "gauss-simons.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:rademacher"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:cmc-improved-kato",
+      "title": "Improved Kato inequality for constant mean curvature",
+      "kind": "lemma",
+      "file": "gauss-simons.tex",
+      "status": "proof-included",
+      "citations": [
+        "SSY75"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:minimal-simons-inequality",
+      "title": "Simons inequality away from flat points",
+      "kind": "proposition",
+      "file": "gauss-simons.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:simons-norm-variable",
+        "lem:cmc-improved-kato"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:weak-curvature-subsolution",
+      "title": "A weak curvature inequality through flat points",
+      "kind": "proposition",
+      "file": "gauss-simons.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:tensor-kato"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:curvature-caccioppoli",
+      "title": "A curvature Caccioppoli estimate",
+      "kind": "proposition",
+      "file": "gauss-simons.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:tensor-kato"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:tracefree-second-form",
+      "title": "Trace-free second fundamental form",
+      "kind": "definition",
+      "file": "cmc-pinching.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "AdC94"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-tracefree-simons",
+      "title": "The trace-free Simons equation for CMC hypersurfaces",
+      "kind": "proposition",
+      "file": "cmc-pinching.tex",
+      "status": "proof-included",
+      "citations": [
+        "AdC94"
+      ],
+      "dependencies": [
+        "thm:spaceform-simons"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:tracefree-cubic-bound",
+      "title": "The sharp cubic bound for a trace-free symmetric operator",
+      "kind": "lemma",
+      "file": "cmc-pinching.tex",
+      "status": "proof-included",
+      "citations": [
+        "AdC94"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:cmc-pinching-gap",
+      "title": "A pinching gap for closed CMC hypersurfaces",
+      "kind": "theorem",
+      "file": "cmc-pinching.tex",
+      "status": "proof-included",
+      "citations": [
+        "AdC94"
+      ],
+      "dependencies": [
+        "lem:tracefree-cubic-bound",
+        "prop:cmc-tracefree-simons"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:minimal-sphere-curvature-gap",
+      "title": "The first curvature gap for a spherical minimal hypersurface",
+      "kind": "corollary",
+      "file": "cmc-pinching.tex",
+      "status": "proof-included",
+      "citations": [
+        "AdC94"
+      ],
+      "dependencies": [
+        "thm:cmc-pinching-gap"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:cmc-product-pinching",
+      "title": "Products of spheres at and beyond the pinching threshold",
+      "kind": "example",
+      "file": "cmc-pinching.tex",
+      "status": "proof-included",
+      "citations": [
+        "AdC94"
+      ],
+      "dependencies": [
+        "thm:cmc-pinching-gap"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:regularized-simons",
+      "title": "Regularized Simons inequality",
+      "kind": "lemma",
+      "file": "stable-curvature-integrals.tex",
+      "status": "proof-included",
+      "citations": [
+        "SSY75"
+      ],
+      "dependencies": [
+        "lem:cmc-improved-kato"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:stable-weighted-curvature",
+      "title": "The weighted curvature estimate from stability",
+      "kind": "proposition",
+      "file": "stable-curvature-integrals.tex",
+      "status": "proof-included",
+      "citations": [
+        "SSY75"
+      ],
+      "dependencies": [
+        "lem:regularized-simons"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:ssy-integral-curvature",
+      "title": "The Schoen--Simon--Yau integral estimate in Euclidean space",
+      "kind": "theorem",
+      "file": "stable-curvature-integrals.tex",
+      "status": "proof-included",
+      "citations": [
+        "SSY75"
+      ],
+      "dependencies": [
+        "prop:stable-weighted-curvature"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:stable-curvature-ball-integral",
+      "title": "Curvature integrals on intrinsic or extrinsic balls",
+      "kind": "corollary",
+      "file": "stable-curvature-integrals.tex",
+      "status": "proof-included",
+      "citations": [
+        "SSY75"
+      ],
+      "dependencies": [
+        "thm:ssy-integral-curvature"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:stable-subcritical-growth",
+      "title": "Subcritical volume growth forces flatness",
+      "kind": "theorem",
+      "file": "stable-curvature-integrals.tex",
+      "status": "proof-included",
+      "citations": [
+        "SSY75"
+      ],
+      "dependencies": [
+        "cor:stable-curvature-ball-integral"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:stable-euclidean-growth-five",
+      "title": "Euclidean-growth rigidity in dimensions at most five",
+      "kind": "corollary",
+      "file": "stable-curvature-integrals.tex",
+      "status": "proof-included",
+      "citations": [
+        "SSY75"
+      ],
+      "dependencies": [
+        "thm:stable-subcritical-growth"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:bernstein-through-five",
+      "title": "Entire minimal graphs through dimension five",
+      "kind": "corollary",
+      "file": "stable-curvature-integrals.tex",
+      "status": "proof-included",
+      "citations": [
+        "SSY75"
+      ],
+      "dependencies": [
+        "cor:graph-positive-jacobi",
+        "cor:stable-euclidean-growth-five",
+        "prop:classical-graph-bootstrap",
+        "prop:entire-graph-area-growth",
+        "thm:bernstein-plane-graph"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:evolving-metric-positive-tensor",
+      "title": "Preserving a nonnegative endomorphism with scalar reaction",
+      "kind": "lemma",
+      "file": "mcf-pinching.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hui84"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-linear-pinching",
+      "title": "Preservation of convexity and linear pinching",
+      "kind": "proposition",
+      "file": "mcf-pinching.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hui84"
+      ],
+      "dependencies": [
+        "cor:mcf-mean-convexity",
+        "lem:evolving-metric-positive-tensor",
+        "prop:mcf-curvature-evolution"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:mcf-curvature-ratio",
+      "title": "Evolution of the normalized curvature ratio",
+      "kind": "proposition",
+      "file": "mcf-pinching.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hui84"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:mcf-ratio-bound",
+      "title": "A nonincreasing curvature-ratio bound",
+      "kind": "corollary",
+      "file": "mcf-pinching.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hui84"
+      ],
+      "dependencies": [
+        "prop:mcf-curvature-ratio"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:parallel-normalized-shape",
+      "title": "Parallel normalized curvature under strict convexity",
+      "kind": "lemma",
+      "file": "mcf-pinching.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:two-tensor-commutation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:mcf-ratio-rigidity",
+      "title": "Rigidity when the maximum curvature ratio stops decreasing",
+      "kind": "theorem",
+      "file": "mcf-pinching.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hui84"
+      ],
+      "dependencies": [
+        "cor:mcf-ratio-bound",
+        "lem:parallel-normalized-shape",
+        "prop:mcf-curvature-ratio",
+        "prop:mcf-linear-pinching"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:cylinder-curvature-ratio",
+      "title": "Cylinders have constant ratio without being umbilic",
+      "kind": "example",
+      "file": "mcf-pinching.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:parallel-normalized-shape",
+        "prop:mcf-curvature-ratio",
+        "thm:mcf-ratio-rigidity"
       ],
       "formal_verification": "none"
     }
