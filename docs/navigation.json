@@ -3055,6 +3055,33 @@
     "tag": "4E8A8B534883"
   },
   {
+    "route": "sections/sobolev-compactness-on-closed-manifolds",
+    "title": "7.18 Sobolev compactness on closed manifolds",
+    "chapter": "minimal-surfaces",
+    "section": "sobolev-compactness-on-closed-manifolds"
+  },
+  {
+    "route": "tag/14BA3E3305C8",
+    "title": "Lemma 7.18.1 (The quadratic translation estimate)",
+    "chapter": "minimal-surfaces",
+    "section": "sobolev-compactness-on-closed-manifolds",
+    "tag": "14BA3E3305C8"
+  },
+  {
+    "route": "tag/F7C78AA7EF28",
+    "title": "Theorem 7.18.2 (Strong L2 compactness on a closed manifold)",
+    "chapter": "minimal-surfaces",
+    "section": "sobolev-compactness-on-closed-manifolds",
+    "tag": "F7C78AA7EF28"
+  },
+  {
+    "route": "tag/92C2144D9701",
+    "title": "Corollary 7.18.3 (A positive Poincare constant on a connected closed manifold)",
+    "chapter": "minimal-surfaces",
+    "section": "sobolev-compactness-on-closed-manifolds",
+    "tag": "92C2144D9701"
+  },
+  {
     "route": "chapters/min-max-theory",
     "title": "8 Min-max theory",
     "chapter": "min-max-theory"
@@ -4947,6 +4974,205 @@
     "chapter": "allen-cahn",
     "section": "monotone-solutions-and-minimizing-properties",
     "tag": "DB82FE46F8E6"
+  },
+  {
+    "route": "sections/the-linearized-operator-of-a-single-transition",
+    "title": "12.8 The linearized operator of a single transition",
+    "chapter": "allen-cahn",
+    "section": "the-linearized-operator-of-a-single-transition"
+  },
+  {
+    "route": "tag/AFBF4999E313",
+    "title": "Lemma 12.8.1 (Two first-order factorizations)",
+    "chapter": "allen-cahn",
+    "section": "the-linearized-operator-of-a-single-transition",
+    "tag": "AFBF4999E313"
+  },
+  {
+    "route": "tag/CF5564CA311E",
+    "title": "Proposition 12.8.2 (The bounded kernel on the line)",
+    "chapter": "allen-cahn",
+    "section": "the-linearized-operator-of-a-single-transition",
+    "tag": "CF5564CA311E"
+  },
+  {
+    "route": "tag/DF91D11FE50F",
+    "title": "Lemma 12.8.3 (An adjoint primitive for compact orthogonal data)",
+    "chapter": "allen-cahn",
+    "section": "the-linearized-operator-of-a-single-transition",
+    "tag": "DF91D11FE50F"
+  },
+  {
+    "route": "tag/864856B2C443",
+    "title": "Theorem 12.8.4 (The exact gap away from translation)",
+    "chapter": "allen-cahn",
+    "section": "the-linearized-operator-of-a-single-transition",
+    "tag": "864856B2C443"
+  },
+  {
+    "route": "tag/0D25EFCEBA69",
+    "title": "Proposition 12.8.5 (All square-integrable eigenfunctions of the normal operator)",
+    "chapter": "allen-cahn",
+    "section": "the-linearized-operator-of-a-single-transition",
+    "tag": "0D25EFCEBA69"
+  },
+  {
+    "route": "tag/3BF96C4734D7",
+    "title": "Theorem 12.8.6 (A normal inverse after fixing translation)",
+    "chapter": "allen-cahn",
+    "section": "the-linearized-operator-of-a-single-transition",
+    "tag": "3BF96C4734D7"
+  },
+  {
+    "route": "tag/FCE16961822E",
+    "title": "Corollary 12.8.7 (The gap at a physical interface scale)",
+    "chapter": "allen-cahn",
+    "section": "the-linearized-operator-of-a-single-transition",
+    "tag": "FCE16961822E"
+  },
+  {
+    "route": "sections/the-bounded-kernel-along-a-flat-phase-interface",
+    "title": "12.9 The bounded kernel along a flat phase interface",
+    "chapter": "allen-cahn",
+    "section": "the-bounded-kernel-along-a-flat-phase-interface"
+  },
+  {
+    "route": "tag/0A781005EAC2",
+    "title": "Lemma 12.9.1 (A bounded positive subsolution cannot persist on all of Euclidean space)",
+    "chapter": "allen-cahn",
+    "section": "the-bounded-kernel-along-a-flat-phase-interface",
+    "tag": "0A781005EAC2"
+  },
+  {
+    "route": "tag/53B06602A64D",
+    "title": "Lemma 12.9.2 (Uniform decay in the normal direction)",
+    "chapter": "allen-cahn",
+    "section": "the-bounded-kernel-along-a-flat-phase-interface",
+    "tag": "53B06602A64D"
+  },
+  {
+    "route": "tag/8FC283F8B3D2",
+    "title": "Proposition 12.9.3 (The translation coefficient is constant)",
+    "chapter": "allen-cahn",
+    "section": "the-bounded-kernel-along-a-flat-phase-interface",
+    "tag": "8FC283F8B3D2"
+  },
+  {
+    "route": "tag/4372C7E46BA5",
+    "title": "Theorem 12.9.4 (Bounded solutions of the flat linearized equation)",
+    "chapter": "allen-cahn",
+    "section": "the-bounded-kernel-along-a-flat-phase-interface",
+    "tag": "4372C7E46BA5"
+  },
+  {
+    "route": "tag/4A01EE1BF148",
+    "title": "Proposition 12.9.5 (Splitting the full quadratic form into translation and normal parts)",
+    "chapter": "allen-cahn",
+    "section": "the-bounded-kernel-along-a-flat-phase-interface",
+    "tag": "4A01EE1BF148"
+  },
+  {
+    "route": "tag/09EF9F42AC39",
+    "title": "Example 12.9.6 (A normal gap does not give a full-space spectral gap)",
+    "chapter": "allen-cahn",
+    "section": "the-bounded-kernel-along-a-flat-phase-interface",
+    "tag": "09EF9F42AC39"
+  },
+  {
+    "route": "sections/curved-transition-layers-and-the-jacobi-obstruction",
+    "title": "12.10 Curved transition layers and the Jacobi obstruction",
+    "chapter": "allen-cahn",
+    "section": "curved-transition-layers-and-the-jacobi-obstruction"
+  },
+  {
+    "route": "tag/5C6FEA2AE720",
+    "title": "Lemma 12.10.1 (The exact metric, Jacobian and parallel curvature)",
+    "chapter": "allen-cahn",
+    "section": "curved-transition-layers-and-the-jacobi-obstruction",
+    "tag": "5C6FEA2AE720"
+  },
+  {
+    "route": "tag/022784D6AABA",
+    "title": "Proposition 12.10.2 (The Laplacian and the special cancellation for minimal surfaces)",
+    "chapter": "allen-cahn",
+    "section": "curved-transition-layers-and-the-jacobi-obstruction",
+    "tag": "022784D6AABA"
+  },
+  {
+    "route": "tag/8A22C57A90B9",
+    "title": "Proposition 12.10.3 (When the distance profile is an exact solution)",
+    "chapter": "allen-cahn",
+    "section": "curved-transition-layers-and-the-jacobi-obstruction",
+    "tag": "8A22C57A90B9"
+  },
+  {
+    "route": "tag/C4389C0124F3",
+    "title": "Lemma 12.10.4 (The bounded odd normal corrector)",
+    "chapter": "allen-cahn",
+    "section": "curved-transition-layers-and-the-jacobi-obstruction",
+    "tag": "C4389C0124F3"
+  },
+  {
+    "route": "tag/D44443082E59",
+    "title": "Proposition 12.10.5 (A fourth-order residual for the unshifted corrected layer)",
+    "chapter": "allen-cahn",
+    "section": "curved-transition-layers-and-the-jacobi-obstruction",
+    "tag": "D44443082E59"
+  },
+  {
+    "route": "tag/B460B0616D6E",
+    "title": "Lemma 12.10.6 (Shifted layers and the cubic error)",
+    "chapter": "allen-cahn",
+    "section": "curved-transition-layers-and-the-jacobi-obstruction",
+    "tag": "B460B0616D6E"
+  },
+  {
+    "route": "tag/3B888F82739D",
+    "title": "Proposition 12.10.7 (Projection onto translation produces the surface Jacobi operator)",
+    "chapter": "allen-cahn",
+    "section": "curved-transition-layers-and-the-jacobi-obstruction",
+    "tag": "3B888F82739D"
+  },
+  {
+    "route": "sections/compactness-at-a-fixed-phase-field-parameter",
+    "title": "12.11 Compactness at a fixed phase-field parameter",
+    "chapter": "allen-cahn",
+    "section": "compactness-at-a-fixed-phase-field-parameter"
+  },
+  {
+    "route": "tag/1605E7AF7DC3",
+    "title": "Proposition 12.11.1 (An energy identity for every closed critical point)",
+    "chapter": "allen-cahn",
+    "section": "compactness-at-a-fixed-phase-field-parameter",
+    "tag": "1605E7AF7DC3"
+  },
+  {
+    "route": "tag/A1F06EA746A2",
+    "title": "Theorem 12.11.2 (Strong compactness for a bounded residual sequence)",
+    "chapter": "allen-cahn",
+    "section": "compactness-at-a-fixed-phase-field-parameter",
+    "tag": "A1F06EA746A2"
+  },
+  {
+    "route": "tag/AC5DCB969E47",
+    "title": "Corollary 12.11.3 (The entire critical set is compact for fixed epsilon)",
+    "chapter": "allen-cahn",
+    "section": "compactness-at-a-fixed-phase-field-parameter",
+    "tag": "AC5DCB969E47"
+  },
+  {
+    "route": "tag/30298CFE6EFF",
+    "title": "Proposition 12.11.4 (Index cannot increase in a bounded-range strong limit)",
+    "chapter": "allen-cahn",
+    "section": "compactness-at-a-fixed-phase-field-parameter",
+    "tag": "30298CFE6EFF"
+  },
+  {
+    "route": "tag/8EFAD482DAF6",
+    "title": "Proposition 12.11.5 (A sharp necessary parameter range for nonconstant solutions)",
+    "chapter": "allen-cahn",
+    "section": "compactness-at-a-fixed-phase-field-parameter",
+    "tag": "8EFAD482DAF6"
   },
   {
     "route": "chapters/obstacle-problems",
@@ -7408,6 +7634,109 @@
     "chapter": "examples",
     "section": "curvature-concentration-and-boundary-energy",
     "tag": "7B753EE4AB09"
+  },
+  {
+    "route": "sections/periodic-phases-and-the-long-period-transition-limit",
+    "title": "16.21 Periodic phases and the long-period transition limit",
+    "chapter": "examples",
+    "section": "periodic-phases-and-the-long-period-transition-limit"
+  },
+  {
+    "route": "tag/828FD329FEDF",
+    "title": "Proposition 16.21.1 (Every bounded entire profile stays between the wells)",
+    "chapter": "examples",
+    "section": "periodic-phases-and-the-long-period-transition-limit",
+    "tag": "828FD329FEDF"
+  },
+  {
+    "route": "tag/C7DBCCB764C2",
+    "title": "Theorem 16.21.2 (Classification of bounded entire profiles)",
+    "chapter": "examples",
+    "section": "periodic-phases-and-the-long-period-transition-limit",
+    "tag": "C7DBCCB764C2"
+  },
+  {
+    "route": "tag/BF7D7DE9DC38",
+    "title": "Proposition 16.21.3 (The fundamental period is strictly increasing)",
+    "chapter": "examples",
+    "section": "periodic-phases-and-the-long-period-transition-limit",
+    "tag": "BF7D7DE9DC38"
+  },
+  {
+    "route": "tag/257BC8D7226F",
+    "title": "Example 16.21.4 (Small oscillations and a single long-period layer)",
+    "chapter": "examples",
+    "section": "periodic-phases-and-the-long-period-transition-limit",
+    "tag": "257BC8D7226F"
+  },
+  {
+    "route": "tag/29FB8961950E",
+    "title": "Proposition 16.21.5 (Energy of one periodic cell)",
+    "chapter": "examples",
+    "section": "periodic-phases-and-the-long-period-transition-limit",
+    "tag": "29FB8961950E"
+  },
+  {
+    "route": "tag/9C4D3AAD2ECB",
+    "title": "Example 16.21.6 (All nonconstant phases on a circle)",
+    "chapter": "examples",
+    "section": "periodic-phases-and-the-long-period-transition-limit",
+    "tag": "9C4D3AAD2ECB"
+  },
+  {
+    "route": "tag/6F88FAC155AE",
+    "title": "Example 16.21.7 (An explicit negative eigenfunction in every periodic cell)",
+    "chapter": "examples",
+    "section": "periodic-phases-and-the-long-period-transition-limit",
+    "tag": "6F88FAC155AE"
+  },
+  {
+    "route": "tag/49D79826FC5E",
+    "title": "Proposition 16.21.8 (Periodic profiles have infinite index on the line)",
+    "chapter": "examples",
+    "section": "periodic-phases-and-the-long-period-transition-limit",
+    "tag": "49D79826FC5E"
+  },
+  {
+    "route": "sections/exact-phase-layer-energies-and-geometric-limits",
+    "title": "16.22 Exact phase-layer energies and geometric limits",
+    "chapter": "examples",
+    "section": "exact-phase-layer-energies-and-geometric-limits"
+  },
+  {
+    "route": "tag/CB8ACA2FE3D2",
+    "title": "Example 16.22.1 (Vertical graph layers retain an area excess)",
+    "chapter": "examples",
+    "section": "exact-phase-layer-energies-and-geometric-limits",
+    "tag": "CB8ACA2FE3D2"
+  },
+  {
+    "route": "tag/F91CC32ACDDD",
+    "title": "Example 16.22.2 (The residual detects the same normalization error)",
+    "chapter": "examples",
+    "section": "exact-phase-layer-energies-and-geometric-limits",
+    "tag": "F91CC32ACDDD"
+  },
+  {
+    "route": "tag/DEB92BC85E40",
+    "title": "Proposition 16.22.3 (The second-order energy of a distance layer in three-space)",
+    "chapter": "examples",
+    "section": "exact-phase-layer-energies-and-geometric-limits",
+    "tag": "DEB92BC85E40"
+  },
+  {
+    "route": "tag/C3A0BCB3BC29",
+    "title": "Example 16.22.4 (Spherical and toroidal corrections)",
+    "chapter": "examples",
+    "section": "exact-phase-layer-energies-and-geometric-limits",
+    "tag": "C3A0BCB3BC29"
+  },
+  {
+    "route": "tag/E2F3056BDF26",
+    "title": "Example 16.22.5 (An exact periodic solution converges to two interfaces)",
+    "chapter": "examples",
+    "section": "exact-phase-layer-energies-and-geometric-limits",
+    "tag": "E2F3056BDF26"
   },
   {
     "route": "chapters/harmonic-maps",

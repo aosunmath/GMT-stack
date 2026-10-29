@@ -633,9 +633,7 @@
       "citations": [
         "MNWill"
       ],
-      "dependencies": [
-        "cor:immersed-positive-genus-willmore"
-      ],
+      "dependencies": [],
       "formal_verification": "none"
     },
     {
@@ -12014,6 +12012,501 @@
         "thm:second-variation"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-two-factorizations",
+      "title": "Two first-order factorizations",
+      "kind": "lemma",
+      "file": "phase-linear.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-bounded-normal-kernel",
+      "title": "The bounded kernel on the line",
+      "kind": "proposition",
+      "file": "phase-linear.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-adjoint-primitive",
+      "title": "An adjoint primitive for compact orthogonal data",
+      "kind": "lemma",
+      "file": "phase-linear.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-sharp-normal-gap",
+      "title": "The exact gap away from translation",
+      "kind": "theorem",
+      "file": "phase-linear.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-adjoint-primitive"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-normal-point-spectrum",
+      "title": "All square-integrable eigenfunctions of the normal operator",
+      "kind": "proposition",
+      "file": "phase-linear.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:phase-two-factorizations"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-orthogonal-normal-inverse",
+      "title": "A normal inverse after fixing translation",
+      "kind": "theorem",
+      "file": "phase-linear.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:hilbert-functional-representation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:phase-scaled-normal-gap",
+      "title": "The gap at a physical interface scale",
+      "kind": "corollary",
+      "file": "phase-linear.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:phase-sharp-normal-gap"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:positive-potential-bounded-subsolution",
+      "title": "A bounded positive subsolution cannot persist on all of Euclidean space",
+      "kind": "lemma",
+      "file": "phase-bounded-kernel.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-bounded-kernel-normal-decay",
+      "title": "Uniform decay in the normal direction",
+      "kind": "lemma",
+      "file": "phase-bounded-kernel.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-kernel-translation-projection",
+      "title": "The translation coefficient is constant",
+      "kind": "proposition",
+      "file": "phase-bounded-kernel.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:phase-bounded-kernel-normal-decay"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-flat-bounded-kernel",
+      "title": "Bounded solutions of the flat linearized equation",
+      "kind": "theorem",
+      "file": "phase-bounded-kernel.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-bounded-kernel-normal-decay",
+        "lem:positive-potential-bounded-subsolution",
+        "prop:phase-bounded-normal-kernel",
+        "prop:phase-kernel-translation-projection",
+        "thm:phase-sharp-normal-gap"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-flat-quadratic-splitting",
+      "title": "Splitting the full quadratic form into translation and normal parts",
+      "kind": "proposition",
+      "file": "phase-bounded-kernel.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:phase-flat-zero-spectral-bottom",
+      "title": "A normal gap does not give a full-space spectral gap",
+      "kind": "example",
+      "file": "phase-bounded-kernel.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:phase-flat-quadratic-splitting"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-exact-fermi-geometry",
+      "title": "The exact metric, Jacobian and parallel curvature",
+      "kind": "lemma",
+      "file": "phase-fermi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-fermi-laplacian",
+      "title": "The Laplacian and the special cancellation for minimal surfaces",
+      "kind": "proposition",
+      "file": "phase-fermi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:phase-exact-fermi-geometry"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-distance-profile-flatness",
+      "title": "When the distance profile is an exact solution",
+      "kind": "proposition",
+      "file": "phase-fermi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:phase-exact-fermi-geometry",
+        "prop:phase-recovery-residual"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-normal-curvature-corrector",
+      "title": "The bounded odd normal corrector",
+      "kind": "lemma",
+      "file": "phase-fermi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:phase-bounded-normal-kernel"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-corrected-layer-residual",
+      "title": "A fourth-order residual for the unshifted corrected layer",
+      "kind": "proposition",
+      "file": "phase-fermi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:phase-normal-curvature-corrector"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-shifted-layer-error",
+      "title": "Shifted layers and the cubic error",
+      "kind": "lemma",
+      "file": "phase-fermi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-jacobi-obstruction",
+      "title": "Projection onto translation produces the surface Jacobi operator",
+      "kind": "proposition",
+      "file": "phase-fermi.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:phase-shifted-layer-error"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-critical-energy-identity",
+      "title": "An energy identity for every closed critical point",
+      "kind": "proposition",
+      "file": "phase-fixed-parameter.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:phase-maximum-bound"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-fixed-parameter-compactness",
+      "title": "Strong compactness for a bounded residual sequence",
+      "kind": "theorem",
+      "file": "phase-fixed-parameter.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "thm:sobolev-closed-l2-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:phase-fixed-critical-set",
+      "title": "The entire critical set is compact for fixed epsilon",
+      "kind": "corollary",
+      "file": "phase-fixed-parameter.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:phase-critical-energy-identity",
+        "thm:phase-fixed-parameter-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-index-lower-semicontinuity",
+      "title": "Index cannot increase in a bounded-range strong limit",
+      "kind": "proposition",
+      "file": "phase-fixed-parameter.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:phase-fixed-parameter-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-poincare-threshold",
+      "title": "A sharp necessary parameter range for nonconstant solutions",
+      "kind": "proposition",
+      "file": "phase-fixed-parameter.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:closed-manifold-poincare",
+        "ex:phase-circle-periods"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-bounded-ode-range",
+      "title": "Every bounded entire profile stays between the wells",
+      "kind": "proposition",
+      "file": "examples-phase-periodic.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:phase-bounded-ode-classification",
+      "title": "Classification of bounded entire profiles",
+      "kind": "theorem",
+      "file": "examples-phase-periodic.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "prop:phase-bounded-ode-range",
+        "thm:phase-ode-classification"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-period-function",
+      "title": "The fundamental period is strictly increasing",
+      "kind": "proposition",
+      "file": "examples-phase-periodic.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:phase-periodic-limits",
+      "title": "Small oscillations and a single long-period layer",
+      "kind": "example",
+      "file": "examples-phase-periodic.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:phase-period-function"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-periodic-cell-energy",
+      "title": "Energy of one periodic cell",
+      "kind": "proposition",
+      "file": "examples-phase-periodic.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:phase-circle-periods",
+      "title": "All nonconstant phases on a circle",
+      "kind": "example",
+      "file": "examples-phase-periodic.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:phase-period-function"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:phase-periodic-negative-mode",
+      "title": "An explicit negative eigenfunction in every periodic cell",
+      "kind": "example",
+      "file": "examples-phase-periodic.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-periodic-infinite-index",
+      "title": "Periodic profiles have infinite index on the line",
+      "kind": "proposition",
+      "file": "examples-phase-periodic.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:phase-periodic-negative-mode",
+        "lem:phase-stable-ode"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:phase-vertical-graph-energy",
+      "title": "Vertical graph layers retain an area excess",
+      "kind": "example",
+      "file": "examples-phase-geometry.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:phase-vertical-graph-residual",
+      "title": "The residual detects the same normalization error",
+      "kind": "example",
+      "file": "examples-phase-geometry.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:phase-flat-interface"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-tube-energy-correction",
+      "title": "The second-order energy of a distance layer in three-space",
+      "kind": "proposition",
+      "file": "examples-phase-geometry.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:phase-exact-fermi-geometry",
+        "thm:phase-smooth-recovery"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:phase-sphere-torus-corrections",
+      "title": "Spherical and toroidal corrections",
+      "kind": "example",
+      "file": "examples-phase-geometry.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:ring-torus-total-curvature",
+        "prop:phase-tube-energy-correction",
+        "thm:circular-ring-willmore-energy"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:phase-circle-two-interface-limit",
+      "title": "An exact periodic solution converges to two interfaces",
+      "kind": "example",
+      "file": "examples-phase-geometry.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:phase-periodic-cell-energy"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:sobolev-l2-translations",
+      "title": "The quadratic translation estimate",
+      "kind": "lemma",
+      "file": "compactness-sobolev.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:sobolev-closed-l2-compactness",
+      "title": "Strong L2 compactness on a closed manifold",
+      "kind": "theorem",
+      "file": "compactness-sobolev.tex",
+      "status": "proof-included",
+      "citations": [
+        "ChAC"
+      ],
+      "dependencies": [
+        "lem:sobolev-l2-translations"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:closed-manifold-poincare",
+      "title": "A positive Poincare constant on a connected closed manifold",
+      "kind": "corollary",
+      "file": "compactness-sobolev.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:weak-gradient-zero",
+        "thm:sobolev-closed-l2-compactness"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -12067,7 +12560,9 @@
     "Smooth ODE flow existence and smooth dependence on vector fields",
     "Mod-two current pushforward, products, and homotopy formula",
     "Basic singular and relative cohomology, cup products, and cellular dimension theorem",
-    "Principal eigenfunction theorem for compact uniformly elliptic self-adjoint operators"
+    "Principal eigenfunction theorem for compact uniformly elliptic self-adjoint operators",
+    "Interior elliptic derivative estimates in the flat Allen–Cahn bounded-kernel decay proof",
+    "Elliptic W2p and Schauder bootstrapping for fixed-epsilon Allen–Cahn smoothness and critical-set compactness"
   ],
   "next_development": [
     "Covering and differentiation theorems for measures",

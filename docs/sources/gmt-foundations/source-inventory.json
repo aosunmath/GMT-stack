@@ -309,7 +309,12 @@
         "Lemmas 5.6--5.7, Proposition 5.8 and Exercises 5.2--5.4, pp. 16--18: positive linearized solutions, ordered contact, Dirichlet minimizers and sliding",
         "Theorems 5.9--5.10, Exercise 5.5 and Sections 5.3--5.4, pp. 19--21: level-set defect, logarithmic cutoffs and stable classification; constant wells retained",
         "Section 5.5 and Exercise 5.8, pp. 21--22: lower-dimensional end-limit stability, translation-energy comparison and three-dimensional monotone rigidity",
-        "Appendix B Problem 1(a)--(g), p. 27: Modica gradient bound and equality, diffuse monotonicity; source defect factor and radius powers corrected by direct calculation"
+        "Appendix B Problem 1(a)--(g), p. 27: Modica gradient bound and equality, diffuse monotonicity; source defect factor and radius powers corrected by direct calculation",
+        "Section2.2, pp3–5, including Exercise2.2: bounded ODE orbits and infinite-energy examples. Period, cell-energy, explicit negative eigenmode and circle limits are derived locally rather than attributed as separately stated source theorems.",
+        "AppendixB Problem2(a)–(g), pp28–29: linearized heteroclinic kernel, positive normal gap, decay barrier and tangential projection. Printed28 visually inspected. The displayed potential term in(c) is missing a square; the local quadratic form uses u² and is independently factored. The full-space energy identity explicitly separates tangential and normal derivatives.",
+        "AppendixB Problem3(a)–(p), pp29–31: Fermi coordinates, minimal-surface parallel curvature, corrector and projected Jacobi equation. Printed30–31 visually inspected. The equation in(n) is corrected to W-double-prime, boundedness is included for uniqueness, and all residual error orders refer to C0 on a fixed tube. No unscaled all-derivatives assertion is imported.",
+        "Exercise4.4 and surrounding discussion, printed14, visually inspected: bounded fixed-parameter compactness. The residual is normalized as minus epsilon² times Laplacian plus W-prime; the printed exercise omits epsilon². A local proof extends convergence from L² residual to H-minus-one residual. Full mountain-pass and Pacard–Ritore existence are not inferred.",
+        "Section3.1 smooth recovery, pp9–10, reused for higher-order distance-layer energy and graph-normalization examples. Exact Gauss-curvature correction and periodic two-interface measure convergence are local derivations."
       ]
     },
     {

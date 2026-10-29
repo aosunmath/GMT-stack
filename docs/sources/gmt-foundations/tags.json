@@ -9637,5 +9637,437 @@
     "page": "tag/9A806C3B/index.html",
     "canonical_tag": "4A98911260BF",
     "anchor": ""
+  },
+  {
+    "tag": "88FF74AB",
+    "label": "sec:phase-linearized-transition",
+    "title": "135 The linearized operator of a single transition",
+    "kind": "chapter",
+    "page": "tag/88FF74AB/index.html",
+    "canonical_tag": "F2423ADFBBD3",
+    "anchor": ""
+  },
+  {
+    "tag": "123C01E2",
+    "label": "lem:phase-two-factorizations",
+    "title": "Lemma 135.1 (Two first-order factorizations)",
+    "kind": "lemma",
+    "page": "tag/123C01E2/index.html",
+    "canonical_tag": "AFBF4999E313",
+    "anchor": ""
+  },
+  {
+    "tag": "06C7CE2F",
+    "label": "prop:phase-bounded-normal-kernel",
+    "title": "Proposition 135.2 (The bounded kernel on the line)",
+    "kind": "proposition",
+    "page": "tag/06C7CE2F/index.html",
+    "canonical_tag": "CF5564CA311E",
+    "anchor": ""
+  },
+  {
+    "tag": "17C34EEE",
+    "label": "lem:phase-adjoint-primitive",
+    "title": "Lemma 135.3 (An adjoint primitive for compact orthogonal data)",
+    "kind": "lemma",
+    "page": "tag/17C34EEE/index.html",
+    "canonical_tag": "DF91D11FE50F",
+    "anchor": ""
+  },
+  {
+    "tag": "EA087116",
+    "label": "thm:phase-sharp-normal-gap",
+    "title": "Theorem 135.4 (The exact gap away from translation)",
+    "kind": "theorem",
+    "page": "tag/EA087116/index.html",
+    "canonical_tag": "864856B2C443",
+    "anchor": ""
+  },
+  {
+    "tag": "E721EB94",
+    "label": "prop:phase-normal-point-spectrum",
+    "title": "Proposition 135.5 (All square-integrable eigenfunctions of the normal operator)",
+    "kind": "proposition",
+    "page": "tag/E721EB94/index.html",
+    "canonical_tag": "0D25EFCEBA69",
+    "anchor": ""
+  },
+  {
+    "tag": "D48D1F1C",
+    "label": "thm:phase-orthogonal-normal-inverse",
+    "title": "Theorem 135.6 (A normal inverse after fixing translation)",
+    "kind": "theorem",
+    "page": "tag/D48D1F1C/index.html",
+    "canonical_tag": "3BF96C4734D7",
+    "anchor": ""
+  },
+  {
+    "tag": "BA1C1527",
+    "label": "cor:phase-scaled-normal-gap",
+    "title": "Corollary 135.7 (The gap at a physical interface scale)",
+    "kind": "corollary",
+    "page": "tag/BA1C1527/index.html",
+    "canonical_tag": "FCE16961822E",
+    "anchor": ""
+  },
+  {
+    "tag": "EDE8C381",
+    "label": "sec:phase-flat-bounded-kernel",
+    "title": "136 The bounded kernel along a flat phase interface",
+    "kind": "chapter",
+    "page": "tag/EDE8C381/index.html",
+    "canonical_tag": "1A650FD2D1D2",
+    "anchor": ""
+  },
+  {
+    "tag": "7F9B3FE3",
+    "label": "lem:positive-potential-bounded-subsolution",
+    "title": "Lemma 136.1 (A bounded positive subsolution cannot persist on all of Euclidean space)",
+    "kind": "lemma",
+    "page": "tag/7F9B3FE3/index.html",
+    "canonical_tag": "0A781005EAC2",
+    "anchor": ""
+  },
+  {
+    "tag": "EDF59B98",
+    "label": "lem:phase-bounded-kernel-normal-decay",
+    "title": "Lemma 136.2 (Uniform decay in the normal direction)",
+    "kind": "lemma",
+    "page": "tag/EDF59B98/index.html",
+    "canonical_tag": "53B06602A64D",
+    "anchor": ""
+  },
+  {
+    "tag": "FBE819A5",
+    "label": "prop:phase-kernel-translation-projection",
+    "title": "Proposition 136.3 (The translation coefficient is constant)",
+    "kind": "proposition",
+    "page": "tag/FBE819A5/index.html",
+    "canonical_tag": "8FC283F8B3D2",
+    "anchor": ""
+  },
+  {
+    "tag": "66F4D895",
+    "label": "thm:phase-flat-bounded-kernel",
+    "title": "Theorem 136.4 (Bounded solutions of the flat linearized equation)",
+    "kind": "theorem",
+    "page": "tag/66F4D895/index.html",
+    "canonical_tag": "4372C7E46BA5",
+    "anchor": ""
+  },
+  {
+    "tag": "CF9B2938",
+    "label": "prop:phase-flat-quadratic-splitting",
+    "title": "Proposition 136.5 (Splitting the full quadratic form into translation and normal parts)",
+    "kind": "proposition",
+    "page": "tag/CF9B2938/index.html",
+    "canonical_tag": "4A01EE1BF148",
+    "anchor": ""
+  },
+  {
+    "tag": "A9C45850",
+    "label": "ex:phase-flat-zero-spectral-bottom",
+    "title": "Example 136.6 (A normal gap does not give a full-space spectral gap)",
+    "kind": "example",
+    "page": "tag/A9C45850/index.html",
+    "canonical_tag": "09EF9F42AC39",
+    "anchor": ""
+  },
+  {
+    "tag": "EB522CAF",
+    "label": "sec:phase-curved-transition",
+    "title": "137 Curved transition layers and the Jacobi obstruction",
+    "kind": "chapter",
+    "page": "tag/EB522CAF/index.html",
+    "canonical_tag": "BB020B823488",
+    "anchor": ""
+  },
+  {
+    "tag": "367D9AD1",
+    "label": "lem:phase-exact-fermi-geometry",
+    "title": "Lemma 137.1 (The exact metric, Jacobian and parallel curvature)",
+    "kind": "lemma",
+    "page": "tag/367D9AD1/index.html",
+    "canonical_tag": "5C6FEA2AE720",
+    "anchor": ""
+  },
+  {
+    "tag": "8F4B3BEA",
+    "label": "prop:phase-fermi-laplacian",
+    "title": "Proposition 137.2 (The Laplacian and the special cancellation for minimal surfaces)",
+    "kind": "proposition",
+    "page": "tag/8F4B3BEA/index.html",
+    "canonical_tag": "022784D6AABA",
+    "anchor": ""
+  },
+  {
+    "tag": "583BEBC8",
+    "label": "prop:phase-distance-profile-flatness",
+    "title": "Proposition 137.3 (When the distance profile is an exact solution)",
+    "kind": "proposition",
+    "page": "tag/583BEBC8/index.html",
+    "canonical_tag": "8A22C57A90B9",
+    "anchor": ""
+  },
+  {
+    "tag": "118DF438",
+    "label": "lem:phase-normal-curvature-corrector",
+    "title": "Lemma 137.4 (The bounded odd normal corrector)",
+    "kind": "lemma",
+    "page": "tag/118DF438/index.html",
+    "canonical_tag": "C4389C0124F3",
+    "anchor": ""
+  },
+  {
+    "tag": "17994210",
+    "label": "prop:phase-corrected-layer-residual",
+    "title": "Proposition 137.5 (A fourth-order residual for the unshifted corrected layer)",
+    "kind": "proposition",
+    "page": "tag/17994210/index.html",
+    "canonical_tag": "D44443082E59",
+    "anchor": ""
+  },
+  {
+    "tag": "7B95D617",
+    "label": "lem:phase-shifted-layer-error",
+    "title": "Lemma 137.6 (Shifted layers and the cubic error)",
+    "kind": "lemma",
+    "page": "tag/7B95D617/index.html",
+    "canonical_tag": "B460B0616D6E",
+    "anchor": ""
+  },
+  {
+    "tag": "EEB400C0",
+    "label": "prop:phase-jacobi-obstruction",
+    "title": "Proposition 137.7 (Projection onto translation produces the surface Jacobi operator)",
+    "kind": "proposition",
+    "page": "tag/EEB400C0/index.html",
+    "canonical_tag": "3B888F82739D",
+    "anchor": ""
+  },
+  {
+    "tag": "7A099D2B",
+    "label": "sec:phase-fixed-parameter",
+    "title": "138 Compactness at a fixed phase-field parameter",
+    "kind": "chapter",
+    "page": "tag/7A099D2B/index.html",
+    "canonical_tag": "383398F166B3",
+    "anchor": ""
+  },
+  {
+    "tag": "D0EA540B",
+    "label": "prop:phase-critical-energy-identity",
+    "title": "Proposition 138.1 (An energy identity for every closed critical point)",
+    "kind": "proposition",
+    "page": "tag/D0EA540B/index.html",
+    "canonical_tag": "1605E7AF7DC3",
+    "anchor": ""
+  },
+  {
+    "tag": "B2B9914A",
+    "label": "thm:phase-fixed-parameter-compactness",
+    "title": "Theorem 138.2 (Strong compactness for a bounded residual sequence)",
+    "kind": "theorem",
+    "page": "tag/B2B9914A/index.html",
+    "canonical_tag": "A1F06EA746A2",
+    "anchor": ""
+  },
+  {
+    "tag": "2D1D5059",
+    "label": "cor:phase-fixed-critical-set",
+    "title": "Corollary 138.3 (The entire critical set is compact for fixed epsilon)",
+    "kind": "corollary",
+    "page": "tag/2D1D5059/index.html",
+    "canonical_tag": "AC5DCB969E47",
+    "anchor": ""
+  },
+  {
+    "tag": "D6F36AAB",
+    "label": "prop:phase-index-lower-semicontinuity",
+    "title": "Proposition 138.4 (Index cannot increase in a bounded-range strong limit)",
+    "kind": "proposition",
+    "page": "tag/D6F36AAB/index.html",
+    "canonical_tag": "30298CFE6EFF",
+    "anchor": ""
+  },
+  {
+    "tag": "96595190",
+    "label": "prop:phase-poincare-threshold",
+    "title": "Proposition 138.5 (A sharp necessary parameter range for nonconstant solutions)",
+    "kind": "proposition",
+    "page": "tag/96595190/index.html",
+    "canonical_tag": "8EFAD482DAF6",
+    "anchor": ""
+  },
+  {
+    "tag": "78DB8CCA",
+    "label": "sec:examples-phase-periodic",
+    "title": "139 Periodic phases and the long-period transition limit",
+    "kind": "chapter",
+    "page": "tag/78DB8CCA/index.html",
+    "canonical_tag": "38F6194BD3D5",
+    "anchor": ""
+  },
+  {
+    "tag": "50F1FDEB",
+    "label": "prop:phase-bounded-ode-range",
+    "title": "Proposition 139.1 (Every bounded entire profile stays between the wells)",
+    "kind": "proposition",
+    "page": "tag/50F1FDEB/index.html",
+    "canonical_tag": "828FD329FEDF",
+    "anchor": ""
+  },
+  {
+    "tag": "78B64AAF",
+    "label": "thm:phase-bounded-ode-classification",
+    "title": "Theorem 139.2 (Classification of bounded entire profiles)",
+    "kind": "theorem",
+    "page": "tag/78B64AAF/index.html",
+    "canonical_tag": "C7DBCCB764C2",
+    "anchor": ""
+  },
+  {
+    "tag": "3A3F8907",
+    "label": "prop:phase-period-function",
+    "title": "Proposition 139.3 (The fundamental period is strictly increasing)",
+    "kind": "proposition",
+    "page": "tag/3A3F8907/index.html",
+    "canonical_tag": "BF7D7DE9DC38",
+    "anchor": ""
+  },
+  {
+    "tag": "868EE95F",
+    "label": "ex:phase-periodic-limits",
+    "title": "Example 139.4 (Small oscillations and a single long-period layer)",
+    "kind": "example",
+    "page": "tag/868EE95F/index.html",
+    "canonical_tag": "257BC8D7226F",
+    "anchor": ""
+  },
+  {
+    "tag": "BA6C544C",
+    "label": "prop:phase-periodic-cell-energy",
+    "title": "Proposition 139.5 (Energy of one periodic cell)",
+    "kind": "proposition",
+    "page": "tag/BA6C544C/index.html",
+    "canonical_tag": "29FB8961950E",
+    "anchor": ""
+  },
+  {
+    "tag": "C44D2CD9",
+    "label": "ex:phase-circle-periods",
+    "title": "Example 139.6 (All nonconstant phases on a circle)",
+    "kind": "example",
+    "page": "tag/C44D2CD9/index.html",
+    "canonical_tag": "9C4D3AAD2ECB",
+    "anchor": ""
+  },
+  {
+    "tag": "8319373E",
+    "label": "ex:phase-periodic-negative-mode",
+    "title": "Example 139.7 (An explicit negative eigenfunction in every periodic cell)",
+    "kind": "example",
+    "page": "tag/8319373E/index.html",
+    "canonical_tag": "6F88FAC155AE",
+    "anchor": ""
+  },
+  {
+    "tag": "371BCF91",
+    "label": "prop:phase-periodic-infinite-index",
+    "title": "Proposition 139.8 (Periodic profiles have infinite index on the line)",
+    "kind": "proposition",
+    "page": "tag/371BCF91/index.html",
+    "canonical_tag": "49D79826FC5E",
+    "anchor": ""
+  },
+  {
+    "tag": "F5125694",
+    "label": "sec:examples-phase-geometry",
+    "title": "140 Exact phase-layer energies and geometric limits",
+    "kind": "chapter",
+    "page": "tag/F5125694/index.html",
+    "canonical_tag": "DE459252A261",
+    "anchor": ""
+  },
+  {
+    "tag": "D647BB32",
+    "label": "ex:phase-vertical-graph-energy",
+    "title": "Example 140.1 (Vertical graph layers retain an area excess)",
+    "kind": "example",
+    "page": "tag/D647BB32/index.html",
+    "canonical_tag": "CB8ACA2FE3D2",
+    "anchor": ""
+  },
+  {
+    "tag": "02165771",
+    "label": "ex:phase-vertical-graph-residual",
+    "title": "Example 140.2 (The residual detects the same normalization error)",
+    "kind": "example",
+    "page": "tag/02165771/index.html",
+    "canonical_tag": "F91CC32ACDDD",
+    "anchor": ""
+  },
+  {
+    "tag": "0A362A3C",
+    "label": "prop:phase-tube-energy-correction",
+    "title": "Proposition 140.3 (The second-order energy of a distance layer in three-space)",
+    "kind": "proposition",
+    "page": "tag/0A362A3C/index.html",
+    "canonical_tag": "DEB92BC85E40",
+    "anchor": ""
+  },
+  {
+    "tag": "7018D965",
+    "label": "ex:phase-sphere-torus-corrections",
+    "title": "Example 140.4 (Spherical and toroidal corrections)",
+    "kind": "example",
+    "page": "tag/7018D965/index.html",
+    "canonical_tag": "C3A0BCB3BC29",
+    "anchor": ""
+  },
+  {
+    "tag": "E2F1FEC6",
+    "label": "ex:phase-circle-two-interface-limit",
+    "title": "Example 140.5 (An exact periodic solution converges to two interfaces)",
+    "kind": "example",
+    "page": "tag/E2F1FEC6/index.html",
+    "canonical_tag": "E2F3056BDF26",
+    "anchor": ""
+  },
+  {
+    "tag": "11D306C3",
+    "label": "sec:sobolev-closed-compactness",
+    "title": "141 Sobolev compactness on closed manifolds",
+    "kind": "chapter",
+    "page": "tag/11D306C3/index.html",
+    "canonical_tag": "47645FA91217",
+    "anchor": ""
+  },
+  {
+    "tag": "8EC4424A",
+    "label": "lem:sobolev-l2-translations",
+    "title": "Lemma 141.1 (The quadratic translation estimate)",
+    "kind": "lemma",
+    "page": "tag/8EC4424A/index.html",
+    "canonical_tag": "14BA3E3305C8",
+    "anchor": ""
+  },
+  {
+    "tag": "59BF5610",
+    "label": "thm:sobolev-closed-l2-compactness",
+    "title": "Theorem 141.2 (Strong L2 compactness on a closed manifold)",
+    "kind": "theorem",
+    "page": "tag/59BF5610/index.html",
+    "canonical_tag": "F7C78AA7EF28",
+    "anchor": ""
+  },
+  {
+    "tag": "4BBAC869",
+    "label": "cor:closed-manifold-poincare",
+    "title": "Corollary 141.3 (A positive Poincare constant on a connected closed manifold)",
+    "kind": "corollary",
+    "page": "tag/4BBAC869/index.html",
+    "canonical_tag": "92C2144D9701",
+    "anchor": ""
   }
 ]

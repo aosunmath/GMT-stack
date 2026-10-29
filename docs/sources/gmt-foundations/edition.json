@@ -1,10 +1,10 @@
 {
   "source": "https://github.com/aosunmath/GMT-stack",
   "kind": "local-manuscript",
-  "source_sha256": "e4958d30e4f6764f3cdc570fa33ac06664aa79c167e47e4d63bb09cb048c4536",
+  "source_sha256": "5c9bf827b289843f293081873462da924130ff231aea9be2fd6eb7f247dd7047",
   "files": {
     "allen-cahn.tex": "e83e29527057db852a886628ed3c458c538c48ad6245618ed5e5b68d2035e36c",
-    "book.tex": "6ba5874039667407aae48f2feb587289bdf0f1e2b9bd8ce12029dab501b5f950",
+    "book.tex": "2542002e30ab33011820ae89e01624b97600ffb8da798e8482d4d368b168c080",
     "brakke-flow.tex": "9e8ef5dc76e7a4814d1703566e54ece216f0302c47f2cc9339b61f4e278c0f68",
     "bv-coarea.tex": "79110d4ed8d0630caa45ca1a78530bf626bf4d828c65df35770a02bd25a57eff",
     "bv-compactness.tex": "3820bcb702ed7a0da8c69251b0ae7860a576fc1124a7143e4a105510ba58f4bc",
@@ -23,6 +23,7 @@
     "cmc.tex": "c45e16edef25721d19e7239b9e01d32e365860dc58656101fb85993ecf87ec5f",
     "coarea-tools.tex": "67d78bbff3a944e504448a359f266c9acd87e97d359fb08579f4afde5755d0ca",
     "compactness-regularity.tex": "43156400e3769e8d04a39daa18451ba67a2c903186338a33c16761d0a9fb1390",
+    "compactness-sobolev.tex": "a73cef615788e751cf70da1c7780ca29bc22bbb7f587d001f1d97d290060fbb8",
     "cone-junctions.tex": "9412cc6c233cc62f9396638189efab1c3603e0258edc5f9460b516ddb3f26807",
     "cone-spines.tex": "ef6ed7b32f41c2ae7f0f42345d1bbf931d2f690bf41681fddf7a0a4658a5dc8a",
     "critical-sets.tex": "04bdfc579c167cc871ae042c2dcde46dcabc48e87bf61073ecfaf9a8feee2792",
@@ -34,7 +35,7 @@
     "elliptic-tools.tex": "677f7d1d2531604a17c70adeee1074f3577b855c271613e8651c0366bc52f485",
     "entropy-convergence.tex": "c463af2938b9c31c7246234ca5aa0e51bc846f57726e39216e978820ba63a0a2",
     "entropy-perturbations.tex": "791086299f156ae2ce541b46e14d4de0096198b5172dea57491dee4079ba61c3",
-    "entry-review.json": "b5068abcbfc13f9a8d4d073d624c2ff4bf94bcb883be3d59e975a9659a2a22aa",
+    "entry-review.json": "7b319b74d89f60bc30191b819dd08ad6b580a6a47dd38b5a61ca2cd385adaa7c",
     "examples-ancient-curves.tex": "1b418c0bd50410f1500b0104db5c97a185f36d6ed3cde2e643a5e0e8dca313c2",
     "examples-bowl.tex": "a4b657dfded72157afe8c7f891e76a53f17d8e1abae19cf293c28f5c22457f7b",
     "examples-bv-interval.tex": "0023b4f1e05cdd6dc13ff97fd3a04b032ade71a20373cb554278d106de052c3b",
@@ -49,6 +50,8 @@
     "examples-inverted-catenoid.tex": "563a822bb7793bb168a4b3e310a8b5f8e600902f330583c6814e5546d35a1a4e",
     "examples-measures.tex": "2a50c7a17f4808c5c1a68f7e04734142d3e4772130e65b881f624aa3b80ec831",
     "examples-minimal.tex": "df9d259d85780d95729ad2255df209e304fd360929238e50a0ef2dab131872d3",
+    "examples-phase-geometry.tex": "b2ed886c2103fc5e55783f2859d110501e8979dbc77f984d201853541eebe8f6",
+    "examples-phase-periodic.tex": "a9a3a1468ab3d6cb38d0d65f05ef46974964854ffb61183e366da572b170f438",
     "examples-radial-obstacle.tex": "6ee5479938ababcbf3e4a179ea6303c0819b304f295875a2941d03da0cfe7d4a",
     "examples-solitons.tex": "7e091ad67f9623b32d9c884332ab001aeb4496561532b01bd8d0efcc458a54fa",
     "examples-translator-jacobi.tex": "4e5c9b9d7b0eeacd8ff4349fbf3897ca40040edb049b42a89cea120ca462428b",
@@ -84,8 +87,12 @@
     "obstacle-variational.tex": "c0f072d03898bdcd171896dd805d740398b7da171a24b9881cf3243f3c7f1789",
     "orientation.tex": "874c016224a4ad05295b2e02830a95f6f26b615ab6c7e43f930c0b2ad340511d",
     "perimeter.tex": "9d342fbe0d9bb3b34c6a729bbd1273ea2b44bcc40e4477f58eb2b7c7c0db9f4f",
+    "phase-bounded-kernel.tex": "636bcd3461af47356f43915724aa9ce435a4b03750cb5fdee0d6aba5926deb3c",
     "phase-compactness.tex": "372ff02467fd5ff429ad1f0931d99232ca89a9dc6329388d751fbc545d32da41",
     "phase-energy.tex": "5385234d882e3b405637d424d170e3624e02c8f80eff75a4f3d784d6755090af",
+    "phase-fermi.tex": "e5a2bcba8fb5c514269ffa6cb7ff0f47effbcc4ece741e2a6b4d3c4c917534af",
+    "phase-fixed-parameter.tex": "40f2db44bb3e7ddd014fb49cd759b2ed061ab5f3da58ecfc8d33ba820220b9f7",
+    "phase-linear.tex": "3d9f1e80135919992bdbd6613568e97a1b8117ceed96b7adb2138fa854afcd7c",
     "phase-minimizers.tex": "5ef1847b2a2261a36be34ca42defbbfbc75df8dec146daf4ddd263d068182054",
     "phase-monotonicity.tex": "47963e9d89f79418c8b452140b75fac3fe48a2267da47df6849611704efc3d7f",
     "phase-recovery.tex": "830fc640158614373370cb8a8fff43fed37f347fecb67bebf31e97f32ddc6d7e",
@@ -102,7 +109,7 @@
     "shrinker-stability.tex": "ea31b7f6478ea9fe5ef3a898e38417577f79f98324a845d911ffccfdfb97b7fd",
     "shrinker-variation.tex": "3c7316ad322600f5f3fd872c30c98cca2faa1d199adc78e9f474586d429fe2a6",
     "sobolev-foundations.tex": "25c07e13bab1ea2d558f49e8b9f4999f795898778c8e251431214056012e9a6e",
-    "source-inventory.json": "95b2400b2ecf01b0ba0c968651da47c203024799b034c5d2a4227c1561d01493",
+    "source-inventory.json": "acd3729f97f010fa98f72bff89409882ab7b5d4ed13068be028c41ecd9067ce5",
     "stability-applications.tex": "9a08c2f0c3f6a4114106cfe34c2bfa7b28021922604e586ed71efa46917ae443",
     "stable-cones.tex": "9ecf00a60d578fcc88ddab9423c7be02b4c4d93519ac7cc1bd44603c01bd92d5",
     "stable-curvature-integrals.tex": "03787ef24dd76ac3cde492624efb11f68c7ca6858918e64536df0aace5ca7c45",
@@ -128,5 +135,5 @@
     "willmore-weak-energy.tex": "5a43d5726a8e4fbaef1c12bb0583b0f1ce371493fdea5c9f4179c638f046618b"
   },
   "renderer": "Gerby",
-  "tags": 1071
+  "tags": 1119
 }
