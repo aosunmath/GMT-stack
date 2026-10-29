@@ -3082,6 +3082,82 @@
     "tag": "92C2144D9701"
   },
   {
+    "route": "sections/spherical-harmonics-and-higher-spectral-gaps",
+    "title": "7.19 Spherical harmonics and higher spectral gaps",
+    "chapter": "minimal-surfaces",
+    "section": "spherical-harmonics-and-higher-spectral-gaps"
+  },
+  {
+    "route": "tag/EEE6F4DCD817",
+    "title": "Definition 7.19.1 (Homogeneous and harmonic polynomial spaces)",
+    "chapter": "minimal-surfaces",
+    "section": "spherical-harmonics-and-higher-spectral-gaps",
+    "tag": "EEE6F4DCD817"
+  },
+  {
+    "route": "tag/1C67A786BB08",
+    "title": "Lemma 7.19.2 (Algebraic harmonic decomposition and dimensions)",
+    "chapter": "minimal-surfaces",
+    "section": "spherical-harmonics-and-higher-spectral-gaps",
+    "tag": "1C67A786BB08"
+  },
+  {
+    "route": "tag/E224C5AACDBB",
+    "title": "Proposition 7.19.3 (Eigenvalues and orthogonality of harmonic restrictions)",
+    "chapter": "minimal-surfaces",
+    "section": "spherical-harmonics-and-higher-spectral-gaps",
+    "tag": "E224C5AACDBB"
+  },
+  {
+    "route": "tag/FFB6AE9DC8D6",
+    "title": "Theorem 7.19.4 (Complete spherical harmonic expansion in L2)",
+    "chapter": "minimal-surfaces",
+    "section": "spherical-harmonics-and-higher-spectral-gaps",
+    "tag": "FFB6AE9DC8D6"
+  },
+  {
+    "route": "tag/287B98104936",
+    "title": "Proposition 7.19.5 (Sobolev energy expansion and exhaustion of weak eigenfunctions)",
+    "chapter": "minimal-surfaces",
+    "section": "spherical-harmonics-and-higher-spectral-gaps",
+    "tag": "287B98104936"
+  },
+  {
+    "route": "tag/7F84341D55E6",
+    "title": "Corollary 7.19.6 (Sharp spectral gaps after removing low modes)",
+    "chapter": "minimal-surfaces",
+    "section": "spherical-harmonics-and-higher-spectral-gaps",
+    "tag": "7F84341D55E6"
+  },
+  {
+    "route": "tag/9FC9725766AE",
+    "title": "Example 7.19.7 (Linear and trace-free quadratic modes)",
+    "chapter": "minimal-surfaces",
+    "section": "spherical-harmonics-and-higher-spectral-gaps",
+    "tag": "9FC9725766AE"
+  },
+  {
+    "route": "tag/82AE4994F11E",
+    "title": "Lemma 7.19.8 (Second and fourth coordinate moments)",
+    "chapter": "minimal-surfaces",
+    "section": "spherical-harmonics-and-higher-spectral-gaps",
+    "tag": "82AE4994F11E"
+  },
+  {
+    "route": "tag/9181E022E9FD",
+    "title": "Proposition 7.19.9 (Explicit projections onto the first three harmonic spaces)",
+    "chapter": "minimal-surfaces",
+    "section": "spherical-harmonics-and-higher-spectral-gaps",
+    "tag": "9181E022E9FD"
+  },
+  {
+    "route": "tag/E2BC35DE5144",
+    "title": "Proposition 7.19.10 (A mean-zero weak Poisson inverse on a round sphere)",
+    "chapter": "minimal-surfaces",
+    "section": "spherical-harmonics-and-higher-spectral-gaps",
+    "tag": "E2BC35DE5144"
+  },
+  {
     "route": "chapters/min-max-theory",
     "title": "8 Min-max theory",
     "chapter": "min-max-theory"
@@ -6487,6 +6563,295 @@
     "tag": "3C8B302A0B67"
   },
   {
+    "route": "sections/the-angle-and-slope-of-a-graphical-flow",
+    "title": "14.18 The angle and slope of a graphical flow",
+    "chapter": "mean-curvature-flow",
+    "section": "the-angle-and-slope-of-a-graphical-flow"
+  },
+  {
+    "route": "tag/D5F2CC03369E",
+    "title": "Definition 14.18.1 (Periodic graphs and normal material time)",
+    "chapter": "mean-curvature-flow",
+    "section": "the-angle-and-slope-of-a-graphical-flow",
+    "tag": "D5F2CC03369E"
+  },
+  {
+    "route": "tag/7D398B6399E3",
+    "title": "Proposition 14.18.2 (Angle, reciprocal angle and their powers)",
+    "chapter": "mean-curvature-flow",
+    "section": "the-angle-and-slope-of-a-graphical-flow",
+    "tag": "7D398B6399E3"
+  },
+  {
+    "route": "tag/3B25B7CBF648",
+    "title": "Lemma 14.18.3 (The drift introduced by graph coordinates)",
+    "chapter": "mean-curvature-flow",
+    "section": "the-angle-and-slope-of-a-graphical-flow",
+    "tag": "3B25B7CBF648"
+  },
+  {
+    "route": "tag/87959CB5E839",
+    "title": "Proposition 14.18.4 (Slope cannot grow on a periodic graph)",
+    "chapter": "mean-curvature-flow",
+    "section": "the-angle-and-slope-of-a-graphical-flow",
+    "tag": "87959CB5E839"
+  },
+  {
+    "route": "tag/525F397210CA",
+    "title": "Lemma 14.18.5 (The gradient of the reciprocal angle)",
+    "chapter": "mean-curvature-flow",
+    "section": "the-angle-and-slope-of-a-graphical-flow",
+    "tag": "525F397210CA"
+  },
+  {
+    "route": "sections/weighted-curvature-and-smoothing-of-periodic-graphs",
+    "title": "14.19 Weighted curvature and smoothing of periodic graphs",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-curvature-and-smoothing-of-periodic-graphs"
+  },
+  {
+    "route": "tag/58A177F796D2",
+    "title": "Proposition 14.19.1 (An exact square identity for slope-weighted curvature)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-curvature-and-smoothing-of-periodic-graphs",
+    "tag": "58A177F796D2"
+  },
+  {
+    "route": "tag/977128E4C159",
+    "title": "Corollary 14.19.2 (Weighted curvature cannot grow on a periodic flow)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-curvature-and-smoothing-of-periodic-graphs",
+    "tag": "977128E4C159"
+  },
+  {
+    "route": "tag/282A096EB8B0",
+    "title": "Lemma 14.19.3 (A quantity that eliminates the initial curvature bound)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-curvature-and-smoothing-of-periodic-graphs",
+    "tag": "282A096EB8B0"
+  },
+  {
+    "route": "tag/4496EC9ABA4B",
+    "title": "Theorem 14.19.4 (Curvature smoothing from slope alone)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-curvature-and-smoothing-of-periodic-graphs",
+    "tag": "4496EC9ABA4B"
+  },
+  {
+    "route": "tag/F763227908EE",
+    "title": "Corollary 14.19.5 (Uniformly bounded ancient periodic slopes are rigid)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-curvature-and-smoothing-of-periodic-graphs",
+    "tag": "F763227908EE"
+  },
+  {
+    "route": "tag/A7AD2D7C46AE",
+    "title": "Example 14.19.6 (Why the grim reaper does not violate ancient rigidity)",
+    "chapter": "mean-curvature-flow",
+    "section": "weighted-curvature-and-smoothing-of-periodic-graphs",
+    "tag": "A7AD2D7C46AE"
+  },
+  {
+    "route": "sections/convergence-and-area-decay-for-periodic-graphs",
+    "title": "14.20 Convergence and area decay for periodic graphs",
+    "chapter": "mean-curvature-flow",
+    "section": "convergence-and-area-decay-for-periodic-graphs"
+  },
+  {
+    "route": "tag/DC18B9C427CF",
+    "title": "Lemma 14.20.1 (Converting graph curvature to Euclidean Hessian bounds)",
+    "chapter": "mean-curvature-flow",
+    "section": "convergence-and-area-decay-for-periodic-graphs",
+    "tag": "DC18B9C427CF"
+  },
+  {
+    "route": "tag/DC81EF33765D",
+    "title": "Lemma 14.20.2 (Periodicity controls slope and oscillation by the Hessian)",
+    "chapter": "mean-curvature-flow",
+    "section": "convergence-and-area-decay-for-periodic-graphs",
+    "tag": "DC81EF33765D"
+  },
+  {
+    "route": "tag/120F6F89BEF2",
+    "title": "Proposition 14.20.3 (Height intervals are nested)",
+    "chapter": "mean-curvature-flow",
+    "section": "convergence-and-area-decay-for-periodic-graphs",
+    "tag": "120F6F89BEF2"
+  },
+  {
+    "route": "tag/033EF6B85768",
+    "title": "Theorem 14.20.4 (Conditional convergence to one horizontal slice)",
+    "chapter": "mean-curvature-flow",
+    "section": "convergence-and-area-decay-for-periodic-graphs",
+    "tag": "033EF6B85768"
+  },
+  {
+    "route": "tag/87BC139616A5",
+    "title": "Proposition 14.20.5 (Graphical flow is an area gradient flow with variable mobility)",
+    "chapter": "mean-curvature-flow",
+    "section": "convergence-and-area-decay-for-periodic-graphs",
+    "tag": "87BC139616A5"
+  },
+  {
+    "route": "tag/3D1A546B94E7",
+    "title": "Lemma 14.20.6 (An area-excess dissipation inequality)",
+    "chapter": "mean-curvature-flow",
+    "section": "convergence-and-area-decay-for-periodic-graphs",
+    "tag": "3D1A546B94E7"
+  },
+  {
+    "route": "tag/DFA20B22D3F3",
+    "title": "Theorem 14.20.7 (Exponential decay of periodic graph area and gradient energy)",
+    "chapter": "mean-curvature-flow",
+    "section": "convergence-and-area-decay-for-periodic-graphs",
+    "tag": "DFA20B22D3F3"
+  },
+  {
+    "route": "tag/0DA0D08FCC08",
+    "title": "Lemma 14.20.8 (A Lipschitz-to-uniform interpolation estimate on the torus)",
+    "chapter": "mean-curvature-flow",
+    "section": "convergence-and-area-decay-for-periodic-graphs",
+    "tag": "0DA0D08FCC08"
+  },
+  {
+    "route": "tag/A9521FCD1263",
+    "title": "Corollary 14.20.9 (Exponential convergence of height and slope)",
+    "chapter": "mean-curvature-flow",
+    "section": "convergence-and-area-decay-for-periodic-graphs",
+    "tag": "A9521FCD1263"
+  },
+  {
+    "route": "tag/D29C250B9C03",
+    "title": "Corollary 14.20.10 (The total curvature dissipation equals the initial area excess)",
+    "chapter": "mean-curvature-flow",
+    "section": "convergence-and-area-decay-for-periodic-graphs",
+    "tag": "D29C250B9C03"
+  },
+  {
+    "route": "sections/maximum-principles-and-entire-graphical-flows",
+    "title": "14.21 Maximum principles and entire graphical flows",
+    "chapter": "mean-curvature-flow",
+    "section": "maximum-principles-and-entire-graphical-flows"
+  },
+  {
+    "route": "tag/DBBE715C49A2",
+    "title": "Lemma 14.21.1 (Normal material heat equals the graph nondivergence operator)",
+    "chapter": "mean-curvature-flow",
+    "section": "maximum-principles-and-entire-graphical-flows",
+    "tag": "DBBE715C49A2"
+  },
+  {
+    "route": "tag/2C31DF28D132",
+    "title": "Lemma 14.21.2 (A maximum principle with an explicit polynomial growth condition)",
+    "chapter": "mean-curvature-flow",
+    "section": "maximum-principles-and-entire-graphical-flows",
+    "tag": "2C31DF28D132"
+  },
+  {
+    "route": "tag/1D248E4A03EF",
+    "title": "Proposition 14.21.3 (Slope preservation for an entire graph with controlled growth)",
+    "chapter": "mean-curvature-flow",
+    "section": "maximum-principles-and-entire-graphical-flows",
+    "tag": "1D248E4A03EF"
+  },
+  {
+    "route": "tag/CA23D8CDDE36",
+    "title": "Theorem 14.21.4 (Entire-graph curvature smoothing with slab bounds)",
+    "chapter": "mean-curvature-flow",
+    "section": "maximum-principles-and-entire-graphical-flows",
+    "tag": "CA23D8CDDE36"
+  },
+  {
+    "route": "tag/54D00AF5AF92",
+    "title": "Corollary 14.21.5 (A bounded-slope ancient entire graph is a plane under slab curvature control)",
+    "chapter": "mean-curvature-flow",
+    "section": "maximum-principles-and-entire-graphical-flows",
+    "tag": "54D00AF5AF92"
+  },
+  {
+    "route": "tag/A8788BD1ACF4",
+    "title": "Proposition 14.21.6 (Uniqueness for entire flows with bounded slope and curvature)",
+    "chapter": "mean-curvature-flow",
+    "section": "maximum-principles-and-entire-graphical-flows",
+    "tag": "A8788BD1ACF4"
+  },
+  {
+    "route": "tag/FC44FD2231EF",
+    "title": "Theorem 14.21.7 (Ecker–Huisken existence for globally Lipschitz entire graphs)",
+    "chapter": "mean-curvature-flow",
+    "section": "maximum-principles-and-entire-graphical-flows",
+    "tag": "FC44FD2231EF"
+  },
+  {
+    "route": "tag/EFBA67013512",
+    "title": "Corollary 14.21.8 (Smooth periodic initial graphs exist globally and converge)",
+    "chapter": "mean-curvature-flow",
+    "section": "maximum-principles-and-entire-graphical-flows",
+    "tag": "EFBA67013512"
+  },
+  {
+    "route": "sections/rigidity-of-entire-graphical-self-shrinkers",
+    "title": "14.22 Rigidity of entire graphical self-shrinkers",
+    "chapter": "mean-curvature-flow",
+    "section": "rigidity-of-entire-graphical-self-shrinkers"
+  },
+  {
+    "route": "tag/BDC6D0AB928E",
+    "title": "Proposition 14.22.1 (Positive angle gives a shifted Gaussian stability identity)",
+    "chapter": "mean-curvature-flow",
+    "section": "rigidity-of-entire-graphical-self-shrinkers",
+    "tag": "BDC6D0AB928E"
+  },
+  {
+    "route": "tag/4E4E69A64BFD",
+    "title": "Theorem 14.22.2 (Finite Gaussian area and a strict Gauss-map hemisphere force a plane)",
+    "chapter": "mean-curvature-flow",
+    "section": "rigidity-of-entire-graphical-self-shrinkers",
+    "tag": "4E4E69A64BFD"
+  },
+  {
+    "route": "tag/A1596CA93D6C",
+    "title": "Lemma 14.22.3 (A compact flow avoids a smooth entire graph without growth bounds)",
+    "chapter": "mean-curvature-flow",
+    "section": "rigidity-of-entire-graphical-self-shrinkers",
+    "tag": "A1596CA93D6C"
+  },
+  {
+    "route": "tag/13001A154199",
+    "title": "Lemma 14.22.4 (Shrinker graphs have a linear height bound)",
+    "chapter": "mean-curvature-flow",
+    "section": "rigidity-of-entire-graphical-self-shrinkers",
+    "tag": "13001A154199"
+  },
+  {
+    "route": "tag/1050E3D1AB6F",
+    "title": "Proposition 14.22.5 (A cylinder area estimate for a graph with bounded mean curvature)",
+    "chapter": "mean-curvature-flow",
+    "section": "rigidity-of-entire-graphical-self-shrinkers",
+    "tag": "1050E3D1AB6F"
+  },
+  {
+    "route": "tag/FB8BB735866B",
+    "title": "Corollary 14.22.6 (Polynomial area and finite Gaussian area are automatic for shrinker graphs)",
+    "chapter": "mean-curvature-flow",
+    "section": "rigidity-of-entire-graphical-self-shrinkers",
+    "tag": "FB8BB735866B"
+  },
+  {
+    "route": "tag/E47F718ACB71",
+    "title": "Theorem 14.22.7 (Every smooth entire graphical self-shrinker is a linear hyperplane)",
+    "chapter": "mean-curvature-flow",
+    "section": "rigidity-of-entire-graphical-self-shrinkers",
+    "tag": "E47F718ACB71"
+  },
+  {
+    "route": "tag/FFAD885D1136",
+    "title": "Example 14.22.8 (A spherical cap has positive angle but is incomplete)",
+    "chapter": "mean-curvature-flow",
+    "section": "rigidity-of-entire-graphical-self-shrinkers",
+    "tag": "FFAD885D1136"
+  },
+  {
     "route": "chapters/history",
     "title": "15 History",
     "chapter": "history"
@@ -7737,6 +8102,33 @@
     "chapter": "examples",
     "section": "exact-phase-layer-energies-and-geometric-limits",
     "tag": "E2F3056BDF26"
+  },
+  {
+    "route": "sections/mean-values-and-model-checks-for-graphical-flow",
+    "title": "16.23 Mean values and model checks for graphical flow",
+    "chapter": "examples",
+    "section": "mean-values-and-model-checks-for-graphical-flow"
+  },
+  {
+    "route": "tag/16419E95AD1A",
+    "title": "Example 16.23.1 (Curve graphs preserve their ordinary spatial average)",
+    "chapter": "examples",
+    "section": "mean-values-and-model-checks-for-graphical-flow",
+    "tag": "16419E95AD1A"
+  },
+  {
+    "route": "tag/A90A63365A59",
+    "title": "Example 16.23.2 (A two-dimensional graph changes its spatial average)",
+    "chapter": "examples",
+    "section": "mean-values-and-model-checks-for-graphical-flow",
+    "tag": "A90A63365A59"
+  },
+  {
+    "route": "tag/F41C1B96CB07",
+    "title": "Example 16.23.3 (A single Fourier mode is not an exact nonlinear flow)",
+    "chapter": "examples",
+    "section": "mean-values-and-model-checks-for-graphical-flow",
+    "tag": "F41C1B96CB07"
   },
   {
     "route": "chapters/harmonic-maps",

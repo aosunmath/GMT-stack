@@ -1994,6 +1994,68 @@
         "Proof of Lemma1.1, printed285–286/PDF5–6: area/energy diameter bounds and disjoint-ball mechanism.",
         "Printed282/PDF2 visually inspected: existence of a compact embedded real-analytic minimizing torus for every ambient dimension n>=3. Confirms historical scope; the full existence proof remains external."
       ]
+    },
+    {
+      "bibliography_key": "EH89",
+      "filename": "Mean Curvature Evolution of Entire Graphs_Ecker-Huisken.pdf",
+      "author": "Klaus Ecker; Gerhard Huisken",
+      "title": "Mean curvature evolution of entire graphs",
+      "edition": "Annals of Mathematics130(1989),no.3,453–471; supplied20-page journal copy including archive cover",
+      "sha256": "7c57249225f879fcd01c93ba5723d170d448fe6b518d4d9eea583511880bcfe5",
+      "pdf_pages": 20,
+      "redistributed": false,
+      "role": "Angle and weighted-curvature evolution; graphical smoothing; global globally-Lipschitz-data existence retained as an external theorem. Periodic decay estimates and examples derived locally.",
+      "metadata_status": "source-checked",
+      "review_status": "selected-passages-checked",
+      "url": "https://annals.math.princeton.edu/1989/130-3/p01",
+      "checked_passages": [
+        "Sections1–3,printed453–459/PDF2–8: graph equation,noncompact maximum principle,height and angle estimates;printed458–459 visually inspected.",
+        "Section4 Lemma4.1,Corollary4.2,Propositions4.3–4.4,printed459–462/PDF8–11: weighted curvature and smoothing;printed459–461 visually inspected. Exact tensor-square identity derived locally.",
+        "Theorem4.6 and its proof,printed464/PDF13,visually inspected: globally Lipschitz entire-data existence; smooth bounded-geometry initial data and approximation distinguished.",
+        "Appendix,printed471/PDF20: entire self-shrinker graph rigidity under polynomial growth. Its H=<X,nu> normalization is not confused with the projects H=<X,nu>/2.",
+        "Publisher bibliographic record checked2026-10-29:https://annals.math.princeton.edu/1989/130-3/p01;DOI10.2307/1971452."
+      ]
+    },
+    {
+      "bibliography_key": "Wang09",
+      "filename": "A Bernstein Type Theorem For Self-similar Shrinkers_Wang_arXiv0912.1809v1.pdf",
+      "author": "Lu Wang",
+      "title": "A Bernstein Type Theorem For Self-similar Shrinkers",
+      "edition": "arXiv:0912.1809v1,December9,2009;7-page preprint",
+      "sha256": "c3abd0c3ed6febd5b591b53b925b401c585e3a6138c441d840dba40e8bcdf444",
+      "pdf_pages": 7,
+      "redistributed": false,
+      "role": "Graphical self-shrinker Bernstein theorem without growth assumptions; positive-angle quadratic identity, sphere barrier and polynomial area bound developed locally.",
+      "metadata_status": "source-checked",
+      "review_status": "selected-passages-checked",
+      "url": "https://arxiv.org/abs/0912.1809",
+      "checked_passages": [
+        "Theorem1.1 and Remark1.2,p2: all dimensions,entire smooth graph,no growth hypothesis,scale-one-half normalization.",
+        "Lemma2.1,pp3–4: positive angle and shifted Gaussian stability; reused existing translation-mode identity and gave exact ground-state formula.",
+        "Lemma2.2,pp4–5: bounded-divergence area comparison. Replaced the sphere-cap topology argument by a cylinder flux calculation giving a sufficient polynomial bound. The R^n term in displayed(2.7) is not copied; (2.15) displays R².",
+        "Lemma2.3 and completion,pp5–6,visually inspected: time-rescaled graph,sphere barriers,linear height growth and Gaussian cutoff. Correct squared-radius comparison and explicit compactness of closest pairs used; a coarser valid height constant is derived.",
+        "The historical statement about the minimal-graph dimension threshold in this preprints introduction is not imported. Existing project distinction n<=7 versus counterexamples from8 remains."
+      ]
+    },
+    {
+      "bibliography_key": "ABR01",
+      "filename": "Harmonic Function Theory_Axler-Bourdon-Ramey_2020-author-edition.pdf",
+      "author": "Sheldon Axler; Paul Bourdon; Wade Ramey",
+      "title": "Harmonic Function Theory",
+      "edition": "Second edition, Springer copyright 2001; author-hosted PDF dated July 17, 2020",
+      "sha256": "4e64124f7e36993ee784e575a024505f99d484ccf959d2d3864eae9232af8bf1",
+      "pdf_pages": 260,
+      "url": "https://www.axler.net/HFT.pdf",
+      "redistributed": false,
+      "metadata_status": "source-checked",
+      "review_status": "selected-passages-checked",
+      "checked_passages": [
+        "Cover: exact edition, authors, copyright and author PDF date.",
+        "Chapter 5, printed 74–78/PDF80–84: homogeneous spaces, Proposition5.5, Theorem5.7 and Proposition5.8.",
+        "Printed79–81/PDF85–87: Proposition5.9 orthogonality and Theorem5.12 L2 decomposition; printed81 visually inspected.",
+        "Project uses sphere dimension n and ambient n+1; source uses ambient n. Local coefficient-inner-product proof replaces source Dirichlet-problem argument."
+      ],
+      "role": "Local spherical harmonic decomposition and dimensions, Sobolev expansion, higher gaps, low-mode moments/projections and weak Poisson inverse."
     }
   ],
   "pagination": "Citations use printed source pages and original theorem numbers. Pitts printed page 1 is PDF page 11; LMN printed page 933 is PDF page 2. Simon PDFs generally contain two-page spreads. Reader numbering is generated independently.",

@@ -10069,5 +10069,518 @@
     "page": "tag/4BBAC869/index.html",
     "canonical_tag": "92C2144D9701",
     "anchor": ""
+  },
+  {
+    "tag": "2461325C",
+    "label": "sec:graphical-flow-angle",
+    "title": "142 The angle and slope of a graphical flow",
+    "kind": "chapter",
+    "page": "tag/2461325C/index.html",
+    "canonical_tag": "05F805A9EA8C",
+    "anchor": ""
+  },
+  {
+    "tag": "DC52B49F",
+    "label": "def:periodic-graph-flow",
+    "title": "Definition 142.1 (Periodic graphs and normal material time)",
+    "kind": "definition",
+    "page": "tag/DC52B49F/index.html",
+    "canonical_tag": "D5F2CC03369E",
+    "anchor": ""
+  },
+  {
+    "tag": "5BEAFDA9",
+    "label": "prop:graphical-angle-evolution",
+    "title": "Proposition 142.2 (Angle, reciprocal angle and their powers)",
+    "kind": "proposition",
+    "page": "tag/5BEAFDA9/index.html",
+    "canonical_tag": "7D398B6399E3",
+    "anchor": ""
+  },
+  {
+    "tag": "7F4EE271",
+    "label": "lem:graphical-material-drift",
+    "title": "Lemma 142.3 (The drift introduced by graph coordinates)",
+    "kind": "lemma",
+    "page": "tag/7F4EE271/index.html",
+    "canonical_tag": "3B25B7CBF648",
+    "anchor": ""
+  },
+  {
+    "tag": "6AB3BA12",
+    "label": "prop:periodic-graph-slope-bound",
+    "title": "Proposition 142.4 (Slope cannot grow on a periodic graph)",
+    "kind": "proposition",
+    "page": "tag/6AB3BA12/index.html",
+    "canonical_tag": "87959CB5E839",
+    "anchor": ""
+  },
+  {
+    "tag": "A3CF65FA",
+    "label": "lem:graphical-slope-gradient",
+    "title": "Lemma 142.5 (The gradient of the reciprocal angle)",
+    "kind": "lemma",
+    "page": "tag/A3CF65FA/index.html",
+    "canonical_tag": "525F397210CA",
+    "anchor": ""
+  },
+  {
+    "tag": "D15FA559",
+    "label": "sec:graphical-weighted-curvature",
+    "title": "143 Weighted curvature and smoothing of periodic graphs",
+    "kind": "chapter",
+    "page": "tag/D15FA559/index.html",
+    "canonical_tag": "0882E0CF2368",
+    "anchor": ""
+  },
+  {
+    "tag": "919FA1AB",
+    "label": "prop:graphical-curvature-square",
+    "title": "Proposition 143.1 (An exact square identity for slope-weighted curvature)",
+    "kind": "proposition",
+    "page": "tag/919FA1AB/index.html",
+    "canonical_tag": "58A177F796D2",
+    "anchor": ""
+  },
+  {
+    "tag": "9B3F0C19",
+    "label": "cor:periodic-weighted-curvature-bound",
+    "title": "Corollary 143.2 (Weighted curvature cannot grow on a periodic flow)",
+    "kind": "corollary",
+    "page": "tag/9B3F0C19/index.html",
+    "canonical_tag": "977128E4C159",
+    "anchor": ""
+  },
+  {
+    "tag": "D742567D",
+    "label": "lem:graphical-smoothing-quantity",
+    "title": "Lemma 143.3 (A quantity that eliminates the initial curvature bound)",
+    "kind": "lemma",
+    "page": "tag/D742567D/index.html",
+    "canonical_tag": "282A096EB8B0",
+    "anchor": ""
+  },
+  {
+    "tag": "CBFBFADD",
+    "label": "thm:periodic-graph-curvature-smoothing",
+    "title": "Theorem 143.4 (Curvature smoothing from slope alone)",
+    "kind": "theorem",
+    "page": "tag/CBFBFADD/index.html",
+    "canonical_tag": "4496EC9ABA4B",
+    "anchor": ""
+  },
+  {
+    "tag": "7DDA87C6",
+    "label": "cor:ancient-periodic-graph-rigidity",
+    "title": "Corollary 143.5 (Uniformly bounded ancient periodic slopes are rigid)",
+    "kind": "corollary",
+    "page": "tag/7DDA87C6/index.html",
+    "canonical_tag": "F763227908EE",
+    "anchor": ""
+  },
+  {
+    "tag": "85C5E7A3",
+    "label": "ex:grim-slope-curvature-identity",
+    "title": "Example 143.6 (Why the grim reaper does not violate ancient rigidity)",
+    "kind": "example",
+    "page": "tag/85C5E7A3/index.html",
+    "canonical_tag": "A7AD2D7C46AE",
+    "anchor": ""
+  },
+  {
+    "tag": "BA3A4FD3",
+    "label": "sec:periodic-graph-convergence",
+    "title": "144 Convergence and area decay for periodic graphs",
+    "kind": "chapter",
+    "page": "tag/BA3A4FD3/index.html",
+    "canonical_tag": "B6C8CF57EDAB",
+    "anchor": ""
+  },
+  {
+    "tag": "8F478349",
+    "label": "lem:graph-curvature-hessian-comparison",
+    "title": "Lemma 144.1 (Converting graph curvature to Euclidean Hessian bounds)",
+    "kind": "lemma",
+    "page": "tag/8F478349/index.html",
+    "canonical_tag": "DC18B9C427CF",
+    "anchor": ""
+  },
+  {
+    "tag": "712FDF12",
+    "label": "lem:periodic-hessian-oscillation",
+    "title": "Lemma 144.2 (Periodicity controls slope and oscillation by the Hessian)",
+    "kind": "lemma",
+    "page": "tag/712FDF12/index.html",
+    "canonical_tag": "DC81EF33765D",
+    "anchor": ""
+  },
+  {
+    "tag": "B4F4C692",
+    "label": "prop:periodic-height-intervals",
+    "title": "Proposition 144.3 (Height intervals are nested)",
+    "kind": "proposition",
+    "page": "tag/B4F4C692/index.html",
+    "canonical_tag": "120F6F89BEF2",
+    "anchor": ""
+  },
+  {
+    "tag": "C70D3A4E",
+    "label": "thm:periodic-graph-conditional-convergence",
+    "title": "Theorem 144.4 (Conditional convergence to one horizontal slice)",
+    "kind": "theorem",
+    "page": "tag/C70D3A4E/index.html",
+    "canonical_tag": "033EF6B85768",
+    "anchor": ""
+  },
+  {
+    "tag": "4DD6F73E",
+    "label": "prop:graph-area-mobility",
+    "title": "Proposition 144.5 (Graphical flow is an area gradient flow with variable mobility)",
+    "kind": "proposition",
+    "page": "tag/4DD6F73E/index.html",
+    "canonical_tag": "87BC139616A5",
+    "anchor": ""
+  },
+  {
+    "tag": "01CFB81F",
+    "label": "lem:periodic-area-dissipation-gap",
+    "title": "Lemma 144.6 (An area-excess dissipation inequality)",
+    "kind": "lemma",
+    "page": "tag/01CFB81F/index.html",
+    "canonical_tag": "3D1A546B94E7",
+    "anchor": ""
+  },
+  {
+    "tag": "C7CE64FA",
+    "label": "thm:periodic-area-exponential-decay",
+    "title": "Theorem 144.7 (Exponential decay of periodic graph area and gradient energy)",
+    "kind": "theorem",
+    "page": "tag/C7CE64FA/index.html",
+    "canonical_tag": "DFA20B22D3F3",
+    "anchor": ""
+  },
+  {
+    "tag": "1155B70A",
+    "label": "lem:torus-lipschitz-l2-interpolation",
+    "title": "Lemma 144.8 (A Lipschitz-to-uniform interpolation estimate on the torus)",
+    "kind": "lemma",
+    "page": "tag/1155B70A/index.html",
+    "canonical_tag": "0DA0D08FCC08",
+    "anchor": ""
+  },
+  {
+    "tag": "905F41B4",
+    "label": "cor:periodic-graph-exponential-c1",
+    "title": "Corollary 144.9 (Exponential convergence of height and slope)",
+    "kind": "corollary",
+    "page": "tag/905F41B4/index.html",
+    "canonical_tag": "A9521FCD1263",
+    "anchor": ""
+  },
+  {
+    "tag": "7D99C2F8",
+    "label": "cor:periodic-total-area-dissipation",
+    "title": "Corollary 144.10 (The total curvature dissipation equals the initial area excess)",
+    "kind": "corollary",
+    "page": "tag/7D99C2F8/index.html",
+    "canonical_tag": "D29C250B9C03",
+    "anchor": ""
+  },
+  {
+    "tag": "EB218359",
+    "label": "sec:entire-graphical-flow",
+    "title": "145 Maximum principles and entire graphical flows",
+    "kind": "chapter",
+    "page": "tag/EB218359/index.html",
+    "canonical_tag": "E2D89828C9A3",
+    "anchor": ""
+  },
+  {
+    "tag": "1B15C756",
+    "label": "lem:graphical-heat-coordinate-cancellation",
+    "title": "Lemma 145.1 (Normal material heat equals the graph nondivergence operator)",
+    "kind": "lemma",
+    "page": "tag/1B15C756/index.html",
+    "canonical_tag": "DBBE715C49A2",
+    "anchor": ""
+  },
+  {
+    "tag": "BCA65855",
+    "label": "lem:entire-polynomial-maximum-principle",
+    "title": "Lemma 145.2 (A maximum principle with an explicit polynomial growth condition)",
+    "kind": "lemma",
+    "page": "tag/BCA65855/index.html",
+    "canonical_tag": "2C31DF28D132",
+    "anchor": ""
+  },
+  {
+    "tag": "A587C602",
+    "label": "prop:entire-graph-slope-preservation",
+    "title": "Proposition 145.3 (Slope preservation for an entire graph with controlled growth)",
+    "kind": "proposition",
+    "page": "tag/A587C602/index.html",
+    "canonical_tag": "1D248E4A03EF",
+    "anchor": ""
+  },
+  {
+    "tag": "FFF0F12D",
+    "label": "thm:entire-graph-curvature-smoothing",
+    "title": "Theorem 145.4 (Entire-graph curvature smoothing with slab bounds)",
+    "kind": "theorem",
+    "page": "tag/FFF0F12D/index.html",
+    "canonical_tag": "CA23D8CDDE36",
+    "anchor": ""
+  },
+  {
+    "tag": "1D02DAC3",
+    "label": "cor:ancient-entire-graph-rigidity",
+    "title": "Corollary 145.5 (A bounded-slope ancient entire graph is a plane under slab curvature control)",
+    "kind": "corollary",
+    "page": "tag/1D02DAC3/index.html",
+    "canonical_tag": "54D00AF5AF92",
+    "anchor": ""
+  },
+  {
+    "tag": "60A2984D",
+    "label": "prop:entire-graph-bounded-geometry-uniqueness",
+    "title": "Proposition 145.6 (Uniqueness for entire flows with bounded slope and curvature)",
+    "kind": "proposition",
+    "page": "tag/60A2984D/index.html",
+    "canonical_tag": "A8788BD1ACF4",
+    "anchor": ""
+  },
+  {
+    "tag": "9117F951",
+    "label": "thm:ecker-huisken-global-graph-existence",
+    "title": "Theorem 145.7 (Ecker\u2013Huisken existence for globally Lipschitz entire graphs)",
+    "kind": "theorem",
+    "page": "tag/9117F951/index.html",
+    "canonical_tag": "FC44FD2231EF",
+    "anchor": ""
+  },
+  {
+    "tag": "2D10EFA5",
+    "label": "cor:periodic-graph-global-existence-convergence",
+    "title": "Corollary 145.8 (Smooth periodic initial graphs exist globally and converge)",
+    "kind": "corollary",
+    "page": "tag/2D10EFA5/index.html",
+    "canonical_tag": "EFBA67013512",
+    "anchor": ""
+  },
+  {
+    "tag": "7D4B8F11",
+    "label": "sec:examples-periodic-graph-flow",
+    "title": "146 Mean values and model checks for graphical flow",
+    "kind": "chapter",
+    "page": "tag/7D4B8F11/index.html",
+    "canonical_tag": "0FC8A463CC1C",
+    "anchor": ""
+  },
+  {
+    "tag": "CD81E144",
+    "label": "ex:curve-graph-mean-conservation",
+    "title": "Example 146.1 (Curve graphs preserve their ordinary spatial average)",
+    "kind": "example",
+    "page": "tag/CD81E144/index.html",
+    "canonical_tag": "16419E95AD1A",
+    "anchor": ""
+  },
+  {
+    "tag": "EDC6F5D9",
+    "label": "ex:surface-graph-changing-mean",
+    "title": "Example 146.2 (A two-dimensional graph changes its spatial average)",
+    "kind": "example",
+    "page": "tag/EDC6F5D9/index.html",
+    "canonical_tag": "A90A63365A59",
+    "anchor": ""
+  },
+  {
+    "tag": "ADB35050",
+    "label": "ex:graphical-single-mode-not-solution",
+    "title": "Example 146.3 (A single Fourier mode is not an exact nonlinear flow)",
+    "kind": "example",
+    "page": "tag/ADB35050/index.html",
+    "canonical_tag": "F41C1B96CB07",
+    "anchor": ""
+  },
+  {
+    "tag": "4D173653",
+    "label": "sec:entire-graphical-shrinkers",
+    "title": "147 Rigidity of entire graphical self-shrinkers",
+    "kind": "chapter",
+    "page": "tag/4D173653/index.html",
+    "canonical_tag": "93D3ACBDBC7E",
+    "anchor": ""
+  },
+  {
+    "tag": "535AAFDF",
+    "label": "prop:shrinker-positive-angle-ground-state",
+    "title": "Proposition 147.1 (Positive angle gives a shifted Gaussian stability identity)",
+    "kind": "proposition",
+    "page": "tag/535AAFDF/index.html",
+    "canonical_tag": "BDC6D0AB928E",
+    "anchor": ""
+  },
+  {
+    "tag": "BDAC7F1C",
+    "label": "thm:shrinker-positive-angle-rigidity",
+    "title": "Theorem 147.2 (Finite Gaussian area and a strict Gauss-map hemisphere force a plane)",
+    "kind": "theorem",
+    "page": "tag/BDAC7F1C/index.html",
+    "canonical_tag": "4E4E69A64BFD",
+    "anchor": ""
+  },
+  {
+    "tag": "76EA3A47",
+    "label": "lem:compact-flow-entire-graph-avoidance",
+    "title": "Lemma 147.3 (A compact flow avoids a smooth entire graph without growth bounds)",
+    "kind": "lemma",
+    "page": "tag/76EA3A47/index.html",
+    "canonical_tag": "A1596CA93D6C",
+    "anchor": ""
+  },
+  {
+    "tag": "CDA47329",
+    "label": "lem:shrinker-graph-linear-height",
+    "title": "Lemma 147.4 (Shrinker graphs have a linear height bound)",
+    "kind": "lemma",
+    "page": "tag/CDA47329/index.html",
+    "canonical_tag": "13001A154199",
+    "anchor": ""
+  },
+  {
+    "tag": "95BDD1AC",
+    "label": "prop:graph-area-height-mean-curvature",
+    "title": "Proposition 147.5 (A cylinder area estimate for a graph with bounded mean curvature)",
+    "kind": "proposition",
+    "page": "tag/95BDD1AC/index.html",
+    "canonical_tag": "1050E3D1AB6F",
+    "anchor": ""
+  },
+  {
+    "tag": "4473DEC1",
+    "label": "cor:shrinker-graph-polynomial-area",
+    "title": "Corollary 147.6 (Polynomial area and finite Gaussian area are automatic for shrinker graphs)",
+    "kind": "corollary",
+    "page": "tag/4473DEC1/index.html",
+    "canonical_tag": "FB8BB735866B",
+    "anchor": ""
+  },
+  {
+    "tag": "BEA5F957",
+    "label": "thm:entire-shrinker-graph-bernstein",
+    "title": "Theorem 147.7 (Every smooth entire graphical self-shrinker is a linear hyperplane)",
+    "kind": "theorem",
+    "page": "tag/BEA5F957/index.html",
+    "canonical_tag": "E47F718ACB71",
+    "anchor": ""
+  },
+  {
+    "tag": "55C0A1D6",
+    "label": "ex:shrinker-hemisphere-incomplete",
+    "title": "Example 147.8 (A spherical cap has positive angle but is incomplete)",
+    "kind": "example",
+    "page": "tag/55C0A1D6/index.html",
+    "canonical_tag": "FFAD885D1136",
+    "anchor": ""
+  },
+  {
+    "tag": "695788FC",
+    "label": "sec:spherical-harmonics-local",
+    "title": "148 Spherical harmonics and higher spectral gaps",
+    "kind": "chapter",
+    "page": "tag/695788FC/index.html",
+    "canonical_tag": "0FCDBDC9585E",
+    "anchor": ""
+  },
+  {
+    "tag": "90885370",
+    "label": "def:homogeneous-harmonic-spaces",
+    "title": "Definition 148.1 (Homogeneous and harmonic polynomial spaces)",
+    "kind": "definition",
+    "page": "tag/90885370/index.html",
+    "canonical_tag": "EEE6F4DCD817",
+    "anchor": ""
+  },
+  {
+    "tag": "4243FB00",
+    "label": "lem:harmonic-polynomial-fischer-decomposition",
+    "title": "Lemma 148.2 (Algebraic harmonic decomposition and dimensions)",
+    "kind": "lemma",
+    "page": "tag/4243FB00/index.html",
+    "canonical_tag": "1C67A786BB08",
+    "anchor": ""
+  },
+  {
+    "tag": "9F1418F4",
+    "label": "prop:harmonic-restriction-eigenvalues",
+    "title": "Proposition 148.3 (Eigenvalues and orthogonality of harmonic restrictions)",
+    "kind": "proposition",
+    "page": "tag/9F1418F4/index.html",
+    "canonical_tag": "E224C5AACDBB",
+    "anchor": ""
+  },
+  {
+    "tag": "42125C3F",
+    "label": "thm:spherical-harmonic-l2-expansion",
+    "title": "Theorem 148.4 (Complete spherical harmonic expansion in L2)",
+    "kind": "theorem",
+    "page": "tag/42125C3F/index.html",
+    "canonical_tag": "FFB6AE9DC8D6",
+    "anchor": ""
+  },
+  {
+    "tag": "849E8A04",
+    "label": "prop:spherical-harmonic-h1-expansion",
+    "title": "Proposition 148.5 (Sobolev energy expansion and exhaustion of weak eigenfunctions)",
+    "kind": "proposition",
+    "page": "tag/849E8A04/index.html",
+    "canonical_tag": "287B98104936",
+    "anchor": ""
+  },
+  {
+    "tag": "85F05E92",
+    "label": "cor:sphere-higher-mode-gap",
+    "title": "Corollary 148.6 (Sharp spectral gaps after removing low modes)",
+    "kind": "corollary",
+    "page": "tag/85F05E92/index.html",
+    "canonical_tag": "7F84341D55E6",
+    "anchor": ""
+  },
+  {
+    "tag": "95E83B88",
+    "label": "ex:sphere-low-harmonic-modes",
+    "title": "Example 148.7 (Linear and trace-free quadratic modes)",
+    "kind": "example",
+    "page": "tag/95E83B88/index.html",
+    "canonical_tag": "9FC9725766AE",
+    "anchor": ""
+  },
+  {
+    "tag": "727C595C",
+    "label": "lem:sphere-coordinate-moments",
+    "title": "Lemma 148.8 (Second and fourth coordinate moments)",
+    "kind": "lemma",
+    "page": "tag/727C595C/index.html",
+    "canonical_tag": "82AE4994F11E",
+    "anchor": ""
+  },
+  {
+    "tag": "9959138B",
+    "label": "prop:sphere-low-mode-projections",
+    "title": "Proposition 148.9 (Explicit projections onto the first three harmonic spaces)",
+    "kind": "proposition",
+    "page": "tag/9959138B/index.html",
+    "canonical_tag": "9181E022E9FD",
+    "anchor": ""
+  },
+  {
+    "tag": "C8845166",
+    "label": "prop:sphere-poisson-inverse",
+    "title": "Proposition 148.10 (A mean-zero weak Poisson inverse on a round sphere)",
+    "kind": "proposition",
+    "page": "tag/C8845166/index.html",
+    "canonical_tag": "E2BC35DE5144",
+    "anchor": ""
   }
 ]
