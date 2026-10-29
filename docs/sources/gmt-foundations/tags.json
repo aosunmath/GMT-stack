@@ -8703,15 +8703,6 @@
     "anchor": ""
   },
   {
-    "tag": "B740C505",
-    "label": "lem:zero-distributional-gradient",
-    "title": "Lemma 119.2 (A vanishing distributional gradient)",
-    "kind": "lemma",
-    "page": "tag/B740C505/index.html",
-    "canonical_tag": "BCB828137772",
-    "anchor": ""
-  },
-  {
     "tag": "CBAC7B37",
     "label": "sec:bv-interval-structure",
     "title": "120 BV representatives and perimeter on an interval",

@@ -894,13 +894,6 @@
     "tag": "B3DA56F70CE7"
   },
   {
-    "route": "tag/BCB828137772",
-    "title": "Lemma 4.6.2 (A vanishing distributional gradient)",
-    "chapter": "finite-perimeter",
-    "section": "measure-representation-for-bv-functions",
-    "tag": "BCB828137772"
-  },
-  {
     "route": "sections/bv-representatives-and-perimeter-on-an-interval",
     "title": "4.7 BV representatives and perimeter on an interval",
     "chapter": "finite-perimeter",

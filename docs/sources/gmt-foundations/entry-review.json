@@ -10890,16 +10890,6 @@
       "formal_verification": "none"
     },
     {
-      "label": "lem:zero-distributional-gradient",
-      "title": "A vanishing distributional gradient",
-      "kind": "lemma",
-      "file": "bv-representation.tex",
-      "status": "proof-included",
-      "citations": [],
-      "dependencies": [],
-      "formal_verification": "none"
-    },
-    {
       "label": "lem:interval-measure-primitive",
       "title": "The cumulative function of a signed measure",
       "kind": "lemma",
@@ -10920,7 +10910,7 @@
       ],
       "dependencies": [
         "lem:interval-measure-primitive",
-        "lem:zero-distributional-gradient",
+        "lem:weak-gradient-zero",
         "prop:bv-vector-representation"
       ],
       "formal_verification": "none"
