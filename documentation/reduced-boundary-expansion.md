@@ -12,7 +12,7 @@ Polar alignment yields radial perimeter bounds. A compactly supported BV Sobolev
 
 Polar alignment also prevents cancellation of the vector derivative, yielding the scalar perimeter tangent and exact densities. Uniform-scale cone pieces give Lipschitz graphs. Separate Hausdorff/Radon comparisons establish local finiteness and mutual absolute continuity before differentiation identifies the measure exactly. The Gauss–Green identity then follows from distributional integration by parts.
 
-The measure-theory section states Besicovitch selection as an external theorem and proves its symmetric Vitali consequence, a nondoubling maximal estimate, absolute-oscillation differentiation, and the local open-ball version. The remaining inputs are Besicovitch selection, abstract Radon–Nikodym representation, the existing rectifiable-set density theorem, and the standard normalization of Hausdorff measure on a plane. A local proof does not assert that these dependencies have also been proved here.
+The measure-theory section states Besicovitch selection as an external theorem and proves its symmetric Vitali consequence, a nondoubling maximal estimate, absolute-oscillation differentiation, and the local open-ball version. The remaining inputs are Besicovitch selection, abstract Radon–Nikodym representation, Whitney extension, the Euclidean area formula and the standard normalization of Hausdorff measure on a plane. The rectifiable density theorem is now proved through C1 decomposition; see [rectifiable tangents](rectifiable-tangents-expansion.md). A local proof does not assert that these dependencies have also been proved here.
 
 ## Examples and limitations
 

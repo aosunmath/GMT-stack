@@ -31,8 +31,14 @@
         "rectifiable-sets-and-tangent-planes",
         "area-and-coarea",
         "tangential-jacobians-and-weighted-coarea",
-        "lipschitz-extension-and-almost-everywhere-differentiation"
-      ]
+        "lipschitz-extension-and-almost-everywhere-differentiation",
+        "continuously-differentiable-pieces-of-lipschitz-images",
+        "tangent-measures-of-rectifiable-pieces",
+        "cone-criteria-in-arbitrary-codimension",
+        "weights-and-tangent-measures",
+        "tangential-derivatives-on-overlapping-pieces"
+      ],
+      "description": "Rectifiable sets, area and coarea, Lipschitz differentiation, C1 decomposition, full tangent characterization, positive weights and intrinsic chart differentials."
     },
     {
       "slug": "finite-perimeter",
@@ -92,9 +98,10 @@
         "spines-and-products-of-stationary-cones",
         "covering-arguments-for-singular-strata",
         "balanced-junctions-and-flat-singular-examples",
-        "quadratic-curvature-energy-under-varifold-convergence"
+        "quadratic-curvature-energy-under-varifold-convergence",
+        "almost-everywhere-varifold-blow-ups"
       ],
-      "description": "First variation, monotonicity, bounded curvature, constancy, integral compactness, tangent cones, spine splitting, support convergence, qualitative stratification, junction models, and Allard regularity. Dual first-variation energy, lower semicontinuity and conditional integral compactness."
+      "description": "First variation, monotonicity, bounded curvature, constancy, integral compactness, tangent cones, spine splitting, support convergence, qualitative stratification, junction models, and Allard regularity. Dual first-variation energy, lower semicontinuity and conditional integral compactness. Almost-everywhere planar blow-ups with explicit multiplicity and plane-coordinate control."
     },
     {
       "slug": "minimal-surfaces",
@@ -288,9 +295,10 @@
         "corners-and-the-scales-in-graphical-estimates",
         "graphical-expanders-from-homogeneous-cones",
         "examples-of-slicing-jumps-and-cancellation",
-        "examples-of-phase-density-and-perimeter-blow-ups"
+        "examples-of-phase-density-and-perimeter-blow-ups",
+        "examples-that-distinguish-tangents-and-supports"
       ],
-      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition. Willmore tori and round surfaces, an inverted catenoid, and curvature concentration, boundary and multiplicity examples. Periodic phase profiles, exact instability modes, circle interfaces and geometric layer energies. Periodic graphical mean conservation and drift, and nonlinear Fourier residuals. Sharp graphical scales and expanders from radial, convex and nonconvex homogeneous cones. Explicit slicing jumps, cancellation and diffuse slices. Phase densities, sectors, crossing quadrants, collapsing slabs, cusps and null modifications."
+      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition. Willmore tori and round surfaces, an inverted catenoid, and curvature concentration, boundary and multiplicity examples. Periodic phase profiles, exact instability modes, circle interfaces and geometric layer energies. Periodic graphical mean conservation and drift, and nonlinear Fourier residuals. Sharp graphical scales and expanders from radial, convex and nonconvex homogeneous cones. Explicit slicing jumps, cancellation and diffuse slices. Phase densities, sectors, crossing quadrants, collapsing slabs, cusps and null modifications. Tangent limits, positive weights, dense supports and exceptional representatives."
     },
     {
       "slug": "harmonic-maps",

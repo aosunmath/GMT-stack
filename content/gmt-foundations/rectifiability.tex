@@ -37,8 +37,13 @@ Let $M\subset\mathbb{R}^n$ be $\mathcal{H}^m$-measurable and satisfy $\mathcal{H
  \Theta^m(\mathcal{H}^m\llcorner M,x)=1
  \quad\text{for }\mathcal{H}^m\text{-almost every }x\in M.
 \]
-\emph{Cited theorem; proof to be added.} See \cite{Sim18}, Chapter 3, Theorem 1.6 and Remark 1.5(3), p.~87. The density conclusion follows from the tangent-measure limit by approximating the indicator of the unit ball with continuous test functions. Local finiteness is essential to this formulation.
+The proof is supplied below from the separately developed decomposition, differentiation and cone arguments. See \cite{Sim18}, Chapter 3, Theorem 1.6 and Remark 1.5(3), p.~87. The density conclusion follows from the tangent-measure limit by approximating the indicator of the unit ball with continuous test functions. Local finiteness is essential to this formulation.
 \end{theorem}
+\begin{proof}
+For $1\leq m<n$, Theorem \ref{thm:rectifiable-forward-tangents} gives the forward implication and Theorem \ref{thm:rectifiable-converse-tangents} gives the converse. Corollary \ref{cor:rectifiable-local-unit-density} gives the density assertion. The forward argument uses the local proof of the $C^1$ decomposition, which retains Whitney extension and the Euclidean area formula as external inputs. It also uses Radon differentiation from Besicovitch selection. The converse follows from pointwise density and cone decay through uniform-scale graph pieces; it does not assume a quantitative separation between different pieces.
+
+For $m=n$, every measurable subset of $\mathbb R^n$ is countably $n$-rectifiable under Definition \ref{def:rectifiable-set}, since the identity map covers the whole space. Lebesgue differentiation gives density one at almost every point of $M$. At such a point, the scaled missing volume in each fixed ball tends to zero, so compactly supported test integrals converge to those of $\mathcal L^n=\mathcal H^n\llcorner\mathbb R^n$. This proves the tangent and density assertions. If the zero-dimensional case is included, local finiteness of $\mathcal H^0\llcorner M$ makes $M$ finite in every bounded ball, hence countable with each point isolated. Near each of its points the measure is a single unit atom, whose dilations have tangent $\mathcal H^0\llcorner\{0\}$ and density one with $\omega_0=1$. Thus the endpoint cases require no cone argument.
+\end{proof}
 
 \chapter{Area and coarea}\label{sec:area-coarea}
 The area formula counts points in the fibers of a parametrization. The coarea formula integrates the measures of higher-dimensional fibers. We state Euclidean versions first, with different Jacobians made explicit.

@@ -1,5 +1,5 @@
 \chapter{Identifying the perimeter measure}\label{sec:perimeter-measure-identification}
-The graph cover and the pointwise density limit still have to be connected to the perimeter measure. We separate the needed measure comparisons and state the remaining differentiation input explicitly. This completes the structure proof from \cite{Sim18}, Chapter 3, Theorem 4.4, printed pp.~97--100, relative to the Radon differentiation theorem proved from the cited Besicovitch covering input and the existing rectifiable-set density theorem.
+The graph cover and the pointwise density limit still have to be connected to the perimeter measure. We separate the needed measure comparisons and state the remaining differentiation input explicitly. This completes the structure proof from \cite{Sim18}, Chapter 3, Theorem 4.4, printed pp.~97--100, relative to the Radon differentiation theorem proved from the cited Besicovitch covering input and the rectifiable-set density theorem proved through $C^1$ pieces.
 
 \begin{corollary}[The perimeter measure is concentrated on the reduced boundary]\label{cor:perimeter-concentrated-reduced-boundary}
 For a locally finite-perimeter set $E$ in $U$,
@@ -84,7 +84,7 @@ For $E$ of locally finite perimeter in $U\subset\mathbb R^n$, $n\geq2$,
 \[
  |D\chi_E|=\mathcal H^{n-1}\llcorner(\partial^*E\cap U).
 \]
-The proof uses the arbitrary-Radon differentiation theorem proved from Besicovitch selection and the cited density theorem for rectifiable sets, in addition to the local arguments developed above. This is the final measure-identification step of \cite{Sim18}, Theorem 4.4, p.~100.
+The proof uses the arbitrary-Radon differentiation theorem proved from Besicovitch selection and the locally proved density theorem for rectifiable sets, in addition to the local arguments developed above. This is the final measure-identification step of \cite{Sim18}, Theorem 4.4, p.~100.
 \end{theorem}
 \begin{proof}
 Put $\mu=|D\chi_E|$, $S=\partial^*E\cap U$ and $\sigma=\mathcal H^{n-1}\llcorner S$. Corollary \ref{cor:perimeter-hausdorff-equivalence} gives locally finite mutually absolutely continuous measures. The abstract Radon--Nikodym theorem gives $\mu=f\sigma$ for a nonnegative locally $\sigma$-integrable function $f$; one may apply it on a countable finite-measure exhaustion and use uniqueness on overlaps. This abstract representation is recalled in \cite{Sim18}, Chapter 1, equation (4.17), p.~27.
@@ -94,5 +94,5 @@ By Theorem \ref{thm:radon-function-differentiation},
  f(x)=\lim_{r\downarrow0}\frac{\mu(B_r(x))}{\sigma(B_r(x))}
  \quad\text{for }\sigma\text{-almost every }x.
 \]
-Theorem \ref{thm:reduced-boundary-graph-cover} makes $S$ countably rectifiable, and the preceding corollary supplies the required local Hausdorff finiteness. The cited Theorem \ref{thm:rectifiable-tangents} therefore gives $\sigma(B_r(x))/(\omega_{n-1}r^{n-1})\to1$ at $\sigma$-almost every point. At every point of $S$, Corollary \ref{cor:reduced-boundary-exact-densities} gives the same unit limit for $\mu$. Dividing the two limits yields $f=1$ almost everywhere for $\sigma$, proving the measure identity. The density theorem is used only after its rectifiability and local-finiteness hypotheses have been established, so this step does not assume the perimeter representation it is proving.
+Theorem \ref{thm:reduced-boundary-graph-cover} makes $S$ countably rectifiable, and the preceding corollary supplies the required local Hausdorff finiteness. Corollary \ref{cor:rectifiable-local-unit-density} therefore gives $\sigma(B_r(x))/(\omega_{n-1}r^{n-1})\to1$ at $\sigma$-almost every point. At every point of $S$, Corollary \ref{cor:reduced-boundary-exact-densities} gives the same unit limit for $\mu$. Dividing the two limits yields $f=1$ almost everywhere for $\sigma$, proving the measure identity. The density theorem is used only after its rectifiability and local-finiteness hypotheses have been established, so this step does not assume the perimeter representation it is proving.
 \end{proof}

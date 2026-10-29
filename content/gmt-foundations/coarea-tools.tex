@@ -19,7 +19,7 @@ Let $M\subset U\subset\mathbb R^N$ be countably $m$-rectifiable, $\mathcal H^m$-
  d^Mf_x:T_xM\to\mathbb R^k,\qquad
  J^M_kf(x)=\sqrt{\det\bigl(d^Mf_x(d^Mf_x)^*\bigr)}.
 \]
-Set the Jacobian to zero on the exceptional null set. If $k=1$, the tangential gradient represents the differential and $J^M_1f=|\nabla^Mf|$. The existence of the manifold decomposition and the almost-everywhere independence are rectifiability results recorded in \cite{Sim18}, Chapter 3, Definition 2.1 and equations (2.2), (2.7); their proofs remain external here. At a point where the ambient differential exists, the tangential differential is its restriction to $T_xM$.
+Set the Jacobian to zero on the exceptional null set. If $k=1$, the tangential gradient represents the differential and $J^M_1f=|\nabla^Mf|$. The existence of the manifold decomposition and the almost-everywhere independence are rectifiability results recorded in \cite{Sim18}, Chapter 3, Definition 2.1 and equations (2.2), (2.7); their local proof chain is given by Theorems \ref{thm:rectifiable-c1-decomposition} and \ref{thm:rectifiable-tangential-differential}, with Whitney extension and the Euclidean area formula retained as inputs. At a point where the ambient differential exists, the tangential differential is its restriction to $T_xM$.
 \end{definition}
 
 \begin{theorem}[Coarea on a rectifiable set]\label{thm:rectifiable-coarea}
@@ -30,7 +30,7 @@ With $M,f,m,k$ as in Definition \ref{def:tangential-coarea-jacobian}, for every 
 \]
 The fiber measure is measurable and the equality allows infinite values. For almost every $y$, the fiber $M\cap f^{-1}(y)$ is countably $(m-k)$-rectifiable and has locally finite $\mathcal H^{m-k}$ measure in $U$.
 
-The coarea and rectifiability assertions are \cite{Sim18}, Chapter 3, equation (2.8) and Remark 2.10(2), pp.~93--94. Their proofs use manifold decomposition, the manifold coarea theorem, and approximation of Lipschitz maps; those arguments remain external. Local finiteness of the fibers follows from the formula on a countable compact exhaustion and local Lipschitz bounds, which bound $J^M_kf$ there.
+The coarea and rectifiability assertions are \cite{Sim18}, Chapter 3, equation (2.8) and Remark 2.10(2), pp.~93--94. Their proofs use manifold decomposition, the manifold coarea theorem, and approximation of Lipschitz maps. The decomposition and approximation are now developed in Section \ref{sec:rectifiable-c1-decomposition}; the rectifiable coarea and fiber-geometry arguments remain external. Local finiteness of the fibers follows from the formula on a countable compact exhaustion and local Lipschitz bounds, which bound $J^M_kf$ there.
 \end{theorem}
 
 \begin{corollary}[Weighted rectifiable coarea]\label{cor:weighted-rectifiable-coarea}
