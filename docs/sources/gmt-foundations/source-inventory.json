@@ -2013,7 +2013,8 @@
         "Section4 Lemma4.1,Corollary4.2,Propositions4.3–4.4,printed459–462/PDF8–11: weighted curvature and smoothing;printed459–461 visually inspected. Exact tensor-square identity derived locally.",
         "Theorem4.6 and its proof,printed464/PDF13,visually inspected: globally Lipschitz entire-data existence; smooth bounded-geometry initial data and approximation distinguished.",
         "Appendix,printed471/PDF20: entire self-shrinker graph rigidity under polynomial growth. Its H=<X,nu> normalization is not confused with the projects H=<X,nu>/2.",
-        "Publisher bibliographic record checked2026-10-29:https://annals.math.princeton.edu/1989/130-3/p01;DOI10.2307/1971452."
+        "Publisher bibliographic record checked2026-10-29:https://annals.math.princeton.edu/1989/130-3/p01;DOI10.2307/1971452.",
+        "Theorem4.6,printed464: globally Lipschitz-data existence and slope bound reused as external input for homogeneous-cone expanders;self-similarity and bounded-slope uniqueness derived from project comparison."
       ]
     },
     {
@@ -2056,6 +2057,28 @@
         "Project uses sphere dimension n and ambient n+1; source uses ambient n. Local coefficient-inner-product proof replaces source Dirichlet-problem argument."
       ],
       "role": "Local spherical harmonic decomposition and dimensions, Sobolev expansion, higher gaps, low-mode moments/projections and weak Poisson inverse."
+    },
+    {
+      "bibliography_key": "EH91",
+      "filename": "Interior estimates for hypersurfaces moving by mean curvature_Ecker-Huisken.pdf",
+      "author": "Klaus Ecker; Gerhard Huisken",
+      "title": "Interior estimates for hypersurfaces moving by mean curvature",
+      "edition": "Inventiones Mathematicae 105 (1991), 547–569; supplied 23-page journal copy",
+      "sha256": "20994acbbe9575a8436f8ed1e106f20d77beafd25f245de8002a37690b7d0123",
+      "pdf_pages": 23,
+      "redistributed": false,
+      "metadata_status": "source-checked",
+      "review_status": "selected-passages-checked",
+      "url": "https://link.springer.com/article/10.1007/BF01232278",
+      "role": "Local graphical angle, height-to-gradient and curvature estimates developed with proofs; existence for arbitrary locally Lipschitz entire initial graphs explicitly external. Comparison and cone-expander consequences derived locally.",
+      "checked_passages": [
+        "Sections1–2,printed547–553/PDF1–7: conventions,Theorem2.1/Remark2.2,Theorem2.3 height-dependent gradient proof;printed550 visually inspected.",
+        "Section3,printed554–558/PDF8–12: Theorem3.1,Corollary3.2,Remark3.3 and rational weight equation(20);printed555 visually inspected. Exact tensor-square identity derived locally instead of differentiating |A| at its zero set.",
+        "Theorem3.4/Corollary3.5/Remark3.6,printed557: higher derivative estimates retained as external input where required; bounded-gradient stationary consequence distinguished from unrestricted Bernstein.",
+        "Theorem5.1/Remark5.2(i),printed567/PDF21,visually inspected;exhaustion/approximation proof printed568/PDF22. Initial time merely locally Lipschitz; uniform higher derivatives are not asserted down to initial time.",
+        "Publisher metadata and DOI10.1007/BF01232278 checked2026-10-29;volume105,pages547–569,1991. No issue number inferred from secondary records.",
+        "Theorem2.3 proof,printed552–553/PDF6–7,visually inspected:intrinsic gradient cross term,64n beta² exponential weight,positive support and center lower bound. Explicit constants derived locally with beta>=1."
+      ]
     }
   ],
   "pagination": "Citations use printed source pages and original theorem numbers. Pitts printed page 1 is PDF page 11; LMN printed page 933 is PDF page 2. Simon PDFs generally contain two-page spreads. Reader numbering is generated independently.",

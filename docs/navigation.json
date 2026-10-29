@@ -6852,6 +6852,184 @@
     "tag": "FFAD885D1136"
   },
   {
+    "route": "sections/local-cutoffs-and-interior-graphical-curvature",
+    "title": "14.23 Local cutoffs and interior graphical curvature",
+    "chapter": "mean-curvature-flow",
+    "section": "local-cutoffs-and-interior-graphical-curvature"
+  },
+  {
+    "route": "tag/20F0F94E8D82",
+    "title": "Lemma 14.23.1 (Spatial cutoffs on an entire graphical flow)",
+    "chapter": "mean-curvature-flow",
+    "section": "local-cutoffs-and-interior-graphical-curvature",
+    "tag": "20F0F94E8D82"
+  },
+  {
+    "route": "tag/60A54E588296",
+    "title": "Theorem 14.23.2 (The localized reciprocal-angle estimate)",
+    "chapter": "mean-curvature-flow",
+    "section": "local-cutoffs-and-interior-graphical-curvature",
+    "tag": "60A54E588296"
+  },
+  {
+    "route": "tag/5E550BBAE54B",
+    "title": "Corollary 14.23.3 (Initial bounded slope propagates without a growth assumption)",
+    "chapter": "mean-curvature-flow",
+    "section": "local-cutoffs-and-interior-graphical-curvature",
+    "tag": "5E550BBAE54B"
+  },
+  {
+    "route": "tag/69C4CB78E7CB",
+    "title": "Proposition 14.23.4 (A rational weight with a negative curvature square)",
+    "chapter": "mean-curvature-flow",
+    "section": "local-cutoffs-and-interior-graphical-curvature",
+    "tag": "69C4CB78E7CB"
+  },
+  {
+    "route": "tag/6788333FC6C7",
+    "title": "Theorem 14.23.5 (Interior curvature in a fixed base ball)",
+    "chapter": "mean-curvature-flow",
+    "section": "local-cutoffs-and-interior-graphical-curvature",
+    "tag": "6788333FC6C7"
+  },
+  {
+    "route": "tag/1CC399978AD7",
+    "title": "Corollary 14.23.6 (Curvature in a shrinking ambient ball)",
+    "chapter": "mean-curvature-flow",
+    "section": "local-cutoffs-and-interior-graphical-curvature",
+    "tag": "1CC399978AD7"
+  },
+  {
+    "route": "sections/automatic-curvature-control-and-bounded-slope-uniqueness",
+    "title": "14.24 Automatic curvature control and bounded-slope uniqueness",
+    "chapter": "mean-curvature-flow",
+    "section": "automatic-curvature-control-and-bounded-slope-uniqueness"
+  },
+  {
+    "route": "tag/7C534FE9C79D",
+    "title": "Proposition 14.24.1 (Bounded slope gives automatic positive-time curvature control)",
+    "chapter": "mean-curvature-flow",
+    "section": "automatic-curvature-control-and-bounded-slope-uniqueness",
+    "tag": "7C534FE9C79D"
+  },
+  {
+    "route": "tag/F0843648ED91",
+    "title": "Corollary 14.24.2 (Ancient bounded-slope graphs are affine without a curvature hypothesis)",
+    "chapter": "mean-curvature-flow",
+    "section": "automatic-curvature-control-and-bounded-slope-uniqueness",
+    "tag": "F0843648ED91"
+  },
+  {
+    "route": "tag/E506656B488A",
+    "title": "Corollary 14.24.3 (A bounded-gradient entire minimal graph is affine in every dimension)",
+    "chapter": "mean-curvature-flow",
+    "section": "automatic-curvature-control-and-bounded-slope-uniqueness",
+    "tag": "E506656B488A"
+  },
+  {
+    "route": "tag/2F5B0A379ED2",
+    "title": "Lemma 14.24.4 (A maximum principle with a time-integrable drift bound)",
+    "chapter": "mean-curvature-flow",
+    "section": "automatic-curvature-control-and-bounded-slope-uniqueness",
+    "tag": "2F5B0A379ED2"
+  },
+  {
+    "route": "tag/F14A47368365",
+    "title": "Theorem 14.24.5 (Comparison and uniqueness in the bounded-slope entire class)",
+    "chapter": "mean-curvature-flow",
+    "section": "automatic-curvature-control-and-bounded-slope-uniqueness",
+    "tag": "F14A47368365"
+  },
+  {
+    "route": "tag/A53230A383ED",
+    "title": "Corollary 14.24.6 (Uniqueness of the globally Lipschitz-data construction)",
+    "chapter": "mean-curvature-flow",
+    "section": "automatic-curvature-control-and-bounded-slope-uniqueness",
+    "tag": "A53230A383ED"
+  },
+  {
+    "route": "tag/E7087D5665CF",
+    "title": "Proposition 14.24.7 (Convex initial data give upward motion)",
+    "chapter": "mean-curvature-flow",
+    "section": "automatic-curvature-control-and-bounded-slope-uniqueness",
+    "tag": "E7087D5665CF"
+  },
+  {
+    "route": "sections/height-barriers-and-entire-graphs-of-arbitrary-growth",
+    "title": "14.25 Height barriers and entire graphs of arbitrary growth",
+    "chapter": "mean-curvature-flow",
+    "section": "height-barriers-and-entire-graphs-of-arbitrary-growth"
+  },
+  {
+    "route": "tag/33446AAE0706",
+    "title": "Lemma 14.25.1 (Avoidance from a locally continuous initial graph)",
+    "chapter": "mean-curvature-flow",
+    "section": "height-barriers-and-entire-graphs-of-arbitrary-growth",
+    "tag": "33446AAE0706"
+  },
+  {
+    "route": "tag/0D43F66B768D",
+    "title": "Proposition 14.25.2 (Local heights are controlled by a larger initial ball)",
+    "chapter": "mean-curvature-flow",
+    "section": "height-barriers-and-entire-graphs-of-arbitrary-growth",
+    "tag": "0D43F66B768D"
+  },
+  {
+    "route": "tag/33DD4BC0E6D3",
+    "title": "Theorem 14.25.3 (A quantitative half-Hölder bound from Lipschitz initial data)",
+    "chapter": "mean-curvature-flow",
+    "section": "height-barriers-and-entire-graphs-of-arbitrary-growth",
+    "tag": "33DD4BC0E6D3"
+  },
+  {
+    "route": "tag/A80F3D97491F",
+    "title": "Proposition 14.25.4 (Uniform contraction and a time modulus for bounded-slope solutions)",
+    "chapter": "mean-curvature-flow",
+    "section": "height-barriers-and-entire-graphs-of-arbitrary-growth",
+    "tag": "A80F3D97491F"
+  },
+  {
+    "route": "tag/8E39161717CC",
+    "title": "Theorem 14.25.5 (Ecker–Huisken existence for entire locally Lipschitz graphs)",
+    "chapter": "mean-curvature-flow",
+    "section": "height-barriers-and-entire-graphs-of-arbitrary-growth",
+    "tag": "8E39161717CC"
+  },
+  {
+    "route": "tag/6A6EB891C64F",
+    "title": "Example 14.25.6 (A rapidly growing graph and the divergent heat-kernel integral)",
+    "chapter": "mean-curvature-flow",
+    "section": "height-barriers-and-entire-graphs-of-arbitrary-growth",
+    "tag": "6A6EB891C64F"
+  },
+  {
+    "route": "sections/local-gradient-bounds-from-height-oscillation",
+    "title": "14.26 Local gradient bounds from height oscillation",
+    "chapter": "mean-curvature-flow",
+    "section": "local-gradient-bounds-from-height-oscillation"
+  },
+  {
+    "route": "tag/15ECD7CEFB78",
+    "title": "Lemma 14.26.1 (The height-dependent cutoff at a large-angle maximum)",
+    "chapter": "mean-curvature-flow",
+    "section": "local-gradient-bounds-from-height-oscillation",
+    "tag": "15ECD7CEFB78"
+  },
+  {
+    "route": "tag/1439A7E413CC",
+    "title": "Theorem 14.26.2 (An explicit local height-to-gradient estimate)",
+    "chapter": "mean-curvature-flow",
+    "section": "local-gradient-bounds-from-height-oscillation",
+    "tag": "1439A7E413CC"
+  },
+  {
+    "route": "tag/3286EE2A5DA1",
+    "title": "Proposition 14.26.3 (Local a priori slope and curvature from a larger initial ball)",
+    "chapter": "mean-curvature-flow",
+    "section": "local-gradient-bounds-from-height-oscillation",
+    "tag": "3286EE2A5DA1"
+  },
+  {
     "route": "chapters/history",
     "title": "15 History",
     "chapter": "history"
@@ -8129,6 +8307,81 @@
     "chapter": "examples",
     "section": "mean-values-and-model-checks-for-graphical-flow",
     "tag": "F41C1B96CB07"
+  },
+  {
+    "route": "sections/corners-and-the-scales-in-graphical-estimates",
+    "title": "16.24 Corners and the scales in graphical estimates",
+    "chapter": "examples",
+    "section": "corners-and-the-scales-in-graphical-estimates"
+  },
+  {
+    "route": "tag/D3370A33F891",
+    "title": "Example 16.24.1 (The time exponent one half cannot be improved for Lipschitz graphs)",
+    "chapter": "examples",
+    "section": "corners-and-the-scales-in-graphical-estimates",
+    "tag": "D3370A33F891"
+  },
+  {
+    "route": "tag/6200E72780B0",
+    "title": "Lemma 16.24.2 (The tip height parametrizes all positive symmetric cone slopes)",
+    "chapter": "examples",
+    "section": "corners-and-the-scales-in-graphical-estimates",
+    "tag": "6200E72780B0"
+  },
+  {
+    "route": "tag/88EC1DC4D011",
+    "title": "Theorem 16.24.3 (The unique bounded-slope graphical expander for a symmetric corner)",
+    "chapter": "examples",
+    "section": "corners-and-the-scales-in-graphical-estimates",
+    "tag": "88EC1DC4D011"
+  },
+  {
+    "route": "tag/87E95B631E65",
+    "title": "Example 16.24.4 (The spatial-radius term in local curvature estimates is necessary)",
+    "chapter": "examples",
+    "section": "corners-and-the-scales-in-graphical-estimates",
+    "tag": "87E95B631E65"
+  },
+  {
+    "route": "sections/graphical-expanders-from-homogeneous-cones",
+    "title": "16.25 Graphical expanders from homogeneous cones",
+    "chapter": "examples",
+    "section": "graphical-expanders-from-homogeneous-cones"
+  },
+  {
+    "route": "tag/9EC09394BFF2",
+    "title": "Theorem 16.25.1 (A unique bounded-slope graphical expander for a Lipschitz cone)",
+    "chapter": "examples",
+    "section": "graphical-expanders-from-homogeneous-cones",
+    "tag": "9EC09394BFF2"
+  },
+  {
+    "route": "tag/35C79DC18B68",
+    "title": "Proposition 16.25.2 (Order, symmetries and blow-down of cone expanders)",
+    "chapter": "examples",
+    "section": "graphical-expanders-from-homogeneous-cones",
+    "tag": "35C79DC18B68"
+  },
+  {
+    "route": "tag/E19F15FD3062",
+    "title": "Example 16.25.3 (Rotational expanders from circular graphical cones)",
+    "chapter": "examples",
+    "section": "graphical-expanders-from-homogeneous-cones",
+    "tag": "E19F15FD3062"
+  },
+  {
+    "route": "tag/AB32BF435231",
+    "title": "Example 16.25.4 (A nonconvex cone with an expander of changing height sign)",
+    "chapter": "examples",
+    "section": "graphical-expanders-from-homogeneous-cones",
+    "tag": "AB32BF435231"
+  },
+  {
+    "route": "tag/2F1C6D2E9397",
+    "title": "Corollary 16.25.5 (Convex cones have strictly positive expander defect)",
+    "chapter": "examples",
+    "section": "graphical-expanders-from-homogeneous-cones",
+    "tag": "2F1C6D2E9397"
   },
   {
     "route": "chapters/harmonic-maps",

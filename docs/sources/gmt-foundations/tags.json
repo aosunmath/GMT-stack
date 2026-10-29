@@ -10582,5 +10582,338 @@
     "page": "tag/C8845166/index.html",
     "canonical_tag": "E2BC35DE5144",
     "anchor": ""
+  },
+  {
+    "tag": "81E17F36",
+    "label": "sec:graphical-local-cutoffs",
+    "title": "149 Local cutoffs and interior graphical curvature",
+    "kind": "chapter",
+    "page": "tag/81E17F36/index.html",
+    "canonical_tag": "A0EAE5D9AAC6",
+    "anchor": ""
+  },
+  {
+    "tag": "95E56C09",
+    "label": "lem:graphical-compact-cutoff-geometry",
+    "title": "Lemma 149.1 (Spatial cutoffs on an entire graphical flow)",
+    "kind": "lemma",
+    "page": "tag/95E56C09/index.html",
+    "canonical_tag": "20F0F94E8D82",
+    "anchor": ""
+  },
+  {
+    "tag": "471568F5",
+    "label": "thm:graphical-local-angle-cutoff",
+    "title": "Theorem 149.2 (The localized reciprocal-angle estimate)",
+    "kind": "theorem",
+    "page": "tag/471568F5/index.html",
+    "canonical_tag": "60A54E588296",
+    "anchor": ""
+  },
+  {
+    "tag": "B82E2A79",
+    "label": "cor:entire-slope-without-growth",
+    "title": "Corollary 149.3 (Initial bounded slope propagates without a growth assumption)",
+    "kind": "corollary",
+    "page": "tag/B82E2A79/index.html",
+    "canonical_tag": "5E550BBAE54B",
+    "anchor": ""
+  },
+  {
+    "tag": "4FFC3617",
+    "label": "prop:graphical-rational-curvature-identity",
+    "title": "Proposition 149.4 (A rational weight with a negative curvature square)",
+    "kind": "proposition",
+    "page": "tag/4FFC3617/index.html",
+    "canonical_tag": "69C4CB78E7CB",
+    "anchor": ""
+  },
+  {
+    "tag": "3A7933BF",
+    "label": "thm:graphical-base-interior-curvature",
+    "title": "Theorem 149.5 (Interior curvature in a fixed base ball)",
+    "kind": "theorem",
+    "page": "tag/3A7933BF/index.html",
+    "canonical_tag": "6788333FC6C7",
+    "anchor": ""
+  },
+  {
+    "tag": "38A22BFC",
+    "label": "cor:graphical-ambient-interior-curvature",
+    "title": "Corollary 149.6 (Curvature in a shrinking ambient ball)",
+    "kind": "corollary",
+    "page": "tag/38A22BFC/index.html",
+    "canonical_tag": "1CC399978AD7",
+    "anchor": ""
+  },
+  {
+    "tag": "DE846FF3",
+    "label": "sec:graphical-global-refinements",
+    "title": "150 Automatic curvature control and bounded-slope uniqueness",
+    "kind": "chapter",
+    "page": "tag/DE846FF3/index.html",
+    "canonical_tag": "2F1B92D48E58",
+    "anchor": ""
+  },
+  {
+    "tag": "A27E3C75",
+    "label": "prop:bounded-slope-automatic-curvature",
+    "title": "Proposition 150.1 (Bounded slope gives automatic positive-time curvature control)",
+    "kind": "proposition",
+    "page": "tag/A27E3C75/index.html",
+    "canonical_tag": "7C534FE9C79D",
+    "anchor": ""
+  },
+  {
+    "tag": "7BAE6144",
+    "label": "cor:ancient-bounded-slope-plane",
+    "title": "Corollary 150.2 (Ancient bounded-slope graphs are affine without a curvature hypothesis)",
+    "kind": "corollary",
+    "page": "tag/7BAE6144/index.html",
+    "canonical_tag": "F0843648ED91",
+    "anchor": ""
+  },
+  {
+    "tag": "A84DF4E3",
+    "label": "cor:bounded-gradient-minimal-graph-affine",
+    "title": "Corollary 150.3 (A bounded-gradient entire minimal graph is affine in every dimension)",
+    "kind": "corollary",
+    "page": "tag/A84DF4E3/index.html",
+    "canonical_tag": "E506656B488A",
+    "anchor": ""
+  },
+  {
+    "tag": "03EC16B8",
+    "label": "lem:maximum-integrable-time-drift",
+    "title": "Lemma 150.4 (A maximum principle with a time-integrable drift bound)",
+    "kind": "lemma",
+    "page": "tag/03EC16B8/index.html",
+    "canonical_tag": "2F5B0A379ED2",
+    "anchor": ""
+  },
+  {
+    "tag": "E1BAD410",
+    "label": "thm:entire-bounded-slope-comparison",
+    "title": "Theorem 150.5 (Comparison and uniqueness in the bounded-slope entire class)",
+    "kind": "theorem",
+    "page": "tag/E1BAD410/index.html",
+    "canonical_tag": "F14A47368365",
+    "anchor": ""
+  },
+  {
+    "tag": "4FC8DC08",
+    "label": "cor:globally-lipschitz-graph-wellposedness",
+    "title": "Corollary 150.6 (Uniqueness of the globally Lipschitz-data construction)",
+    "kind": "corollary",
+    "page": "tag/4FC8DC08/index.html",
+    "canonical_tag": "A53230A383ED",
+    "anchor": ""
+  },
+  {
+    "tag": "EC6F17E6",
+    "label": "prop:convex-graph-data-upward-motion",
+    "title": "Proposition 150.7 (Convex initial data give upward motion)",
+    "kind": "proposition",
+    "page": "tag/EC6F17E6/index.html",
+    "canonical_tag": "E7087D5665CF",
+    "anchor": ""
+  },
+  {
+    "tag": "D63B253B",
+    "label": "sec:graphical-height-existence",
+    "title": "151 Height barriers and entire graphs of arbitrary growth",
+    "kind": "chapter",
+    "page": "tag/D63B253B/index.html",
+    "canonical_tag": "E8BE661DC37A",
+    "anchor": ""
+  },
+  {
+    "tag": "912272C3",
+    "label": "lem:entire-graph-initial-trace-avoidance",
+    "title": "Lemma 151.1 (Avoidance from a locally continuous initial graph)",
+    "kind": "lemma",
+    "page": "tag/912272C3/index.html",
+    "canonical_tag": "33446AAE0706",
+    "anchor": ""
+  },
+  {
+    "tag": "25305C1D",
+    "label": "prop:entire-graph-local-height-barrier",
+    "title": "Proposition 151.2 (Local heights are controlled by a larger initial ball)",
+    "kind": "proposition",
+    "page": "tag/25305C1D/index.html",
+    "canonical_tag": "0D43F66B768D",
+    "anchor": ""
+  },
+  {
+    "tag": "5AC4C39F",
+    "label": "thm:graph-lipschitz-half-holder-time",
+    "title": "Theorem 151.3 (A quantitative half-H\u00f6lder bound from Lipschitz initial data)",
+    "kind": "theorem",
+    "page": "tag/5AC4C39F/index.html",
+    "canonical_tag": "33DD4BC0E6D3",
+    "anchor": ""
+  },
+  {
+    "tag": "151F24D7",
+    "label": "prop:graphical-uniform-contraction",
+    "title": "Proposition 151.4 (Uniform contraction and a time modulus for bounded-slope solutions)",
+    "kind": "proposition",
+    "page": "tag/151F24D7/index.html",
+    "canonical_tag": "A80F3D97491F",
+    "anchor": ""
+  },
+  {
+    "tag": "C6A28B00",
+    "label": "thm:ecker-huisken-arbitrary-growth-existence",
+    "title": "Theorem 151.5 (Ecker\u2013Huisken existence for entire locally Lipschitz graphs)",
+    "kind": "theorem",
+    "page": "tag/C6A28B00/index.html",
+    "canonical_tag": "8E39161717CC",
+    "anchor": ""
+  },
+  {
+    "tag": "42D854A9",
+    "label": "ex:graph-flow-superexponential-data",
+    "title": "Example 151.6 (A rapidly growing graph and the divergent heat-kernel integral)",
+    "kind": "example",
+    "page": "tag/42D854A9/index.html",
+    "canonical_tag": "6A6EB891C64F",
+    "anchor": ""
+  },
+  {
+    "tag": "1253277C",
+    "label": "sec:graphical-height-gradient",
+    "title": "152 Local gradient bounds from height oscillation",
+    "kind": "chapter",
+    "page": "tag/1253277C/index.html",
+    "canonical_tag": "C3D084C93309",
+    "anchor": ""
+  },
+  {
+    "tag": "A6AED434",
+    "label": "lem:graphical-height-cutoff-gradient",
+    "title": "Lemma 152.1 (The height-dependent cutoff at a large-angle maximum)",
+    "kind": "lemma",
+    "page": "tag/A6AED434/index.html",
+    "canonical_tag": "15ECD7CEFB78",
+    "anchor": ""
+  },
+  {
+    "tag": "C903ABFC",
+    "label": "thm:graphical-height-gradient-estimate",
+    "title": "Theorem 152.2 (An explicit local height-to-gradient estimate)",
+    "kind": "theorem",
+    "page": "tag/C903ABFC/index.html",
+    "canonical_tag": "1439A7E413CC",
+    "anchor": ""
+  },
+  {
+    "tag": "AF59EC47",
+    "label": "prop:graphical-initial-local-geometry-control",
+    "title": "Proposition 152.3 (Local a priori slope and curvature from a larger initial ball)",
+    "kind": "proposition",
+    "page": "tag/AF59EC47/index.html",
+    "canonical_tag": "3286EE2A5DA1",
+    "anchor": ""
+  },
+  {
+    "tag": "4423869F",
+    "label": "sec:examples-graphical-cutoff-scales",
+    "title": "153 Corners and the scales in graphical estimates",
+    "kind": "chapter",
+    "page": "tag/4423869F/index.html",
+    "canonical_tag": "66A59ABFB12D",
+    "anchor": ""
+  },
+  {
+    "tag": "0522D70B",
+    "label": "ex:graphical-half-time-sharpness",
+    "title": "Example 153.1 (The time exponent one half cannot be improved for Lipschitz graphs)",
+    "kind": "example",
+    "page": "tag/0522D70B/index.html",
+    "canonical_tag": "D3370A33F891",
+    "anchor": ""
+  },
+  {
+    "tag": "D30C9F60",
+    "label": "lem:expander-tip-slope-bijection",
+    "title": "Lemma 153.2 (The tip height parametrizes all positive symmetric cone slopes)",
+    "kind": "lemma",
+    "page": "tag/D30C9F60/index.html",
+    "canonical_tag": "6200E72780B0",
+    "anchor": ""
+  },
+  {
+    "tag": "70A264D0",
+    "label": "thm:prescribed-symmetric-corner-expander",
+    "title": "Theorem 153.3 (The unique bounded-slope graphical expander for a symmetric corner)",
+    "kind": "theorem",
+    "page": "tag/70A264D0/index.html",
+    "canonical_tag": "88EC1DC4D011",
+    "anchor": ""
+  },
+  {
+    "tag": "1BD7BE28",
+    "label": "ex:scherk-local-curvature-scale",
+    "title": "Example 153.4 (The spatial-radius term in local curvature estimates is necessary)",
+    "kind": "example",
+    "page": "tag/1BD7BE28/index.html",
+    "canonical_tag": "87E95B631E65",
+    "anchor": ""
+  },
+  {
+    "tag": "90E0B9B1",
+    "label": "sec:examples-homogeneous-expanders",
+    "title": "154 Graphical expanders from homogeneous cones",
+    "kind": "chapter",
+    "page": "tag/90E0B9B1/index.html",
+    "canonical_tag": "828E77EB129A",
+    "anchor": ""
+  },
+  {
+    "tag": "FB5C271A",
+    "label": "thm:lipschitz-cone-graphical-expander",
+    "title": "Theorem 154.1 (A unique bounded-slope graphical expander for a Lipschitz cone)",
+    "kind": "theorem",
+    "page": "tag/FB5C271A/index.html",
+    "canonical_tag": "9EC09394BFF2",
+    "anchor": ""
+  },
+  {
+    "tag": "14246E7A",
+    "label": "prop:cone-expander-order-symmetry",
+    "title": "Proposition 154.2 (Order, symmetries and blow-down of cone expanders)",
+    "kind": "proposition",
+    "page": "tag/14246E7A/index.html",
+    "canonical_tag": "35C79DC18B68",
+    "anchor": ""
+  },
+  {
+    "tag": "9E0A5ED2",
+    "label": "ex:radial-lipschitz-cone-expander",
+    "title": "Example 154.3 (Rotational expanders from circular graphical cones)",
+    "kind": "example",
+    "page": "tag/9E0A5ED2/index.html",
+    "canonical_tag": "E19F15FD3062",
+    "anchor": ""
+  },
+  {
+    "tag": "C52CE1F0",
+    "label": "ex:saddle-cone-graphical-expander",
+    "title": "Example 154.4 (A nonconvex cone with an expander of changing height sign)",
+    "kind": "example",
+    "page": "tag/C52CE1F0/index.html",
+    "canonical_tag": "AB32BF435231",
+    "anchor": ""
+  },
+  {
+    "tag": "CC808776",
+    "label": "cor:convex-cone-positive-expander-defect",
+    "title": "Corollary 154.5 (Convex cones have strictly positive expander defect)",
+    "kind": "corollary",
+    "page": "tag/CC808776/index.html",
+    "canonical_tag": "2F1C6D2E9397",
+    "anchor": ""
   }
 ]
