@@ -12544,5 +12544,302 @@
     "page": "tag/05116BDA/index.html",
     "canonical_tag": "0B1ACA8FF719",
     "anchor": ""
+  },
+  {
+    "tag": "7DC6D57F",
+    "label": "sec:euclidean-area-metric-proof",
+    "title": "180 The area formula from metric pieces",
+    "kind": "chapter",
+    "page": "tag/7DC6D57F/index.html",
+    "canonical_tag": "B74FEBA5FCE4",
+    "anchor": ""
+  },
+  {
+    "tag": "BE8FE1A2",
+    "label": "lem:area-positive-metric-factor",
+    "title": "Lemma 180.1 (An injective linear map determines a positive domain metric)",
+    "kind": "lemma",
+    "page": "tag/BE8FE1A2/index.html",
+    "canonical_tag": "249B82161066",
+    "anchor": ""
+  },
+  {
+    "tag": "28CF372F",
+    "label": "lem:finite-volume-lipschitz-image-measurable",
+    "title": "Lemma 180.2 (Measurability of a finite-volume Lipschitz image)",
+    "kind": "lemma",
+    "page": "tag/28CF372F/index.html",
+    "canonical_tag": "E5CA65543835",
+    "anchor": ""
+  },
+  {
+    "tag": "ACA3CD2E",
+    "label": "prop:area-full-rank-metric-pieces",
+    "title": "Proposition 180.3 (A countable partition with controlled linear metric)",
+    "kind": "proposition",
+    "page": "tag/ACA3CD2E/index.html",
+    "canonical_tag": "8A21EBE8AE53",
+    "anchor": ""
+  },
+  {
+    "tag": "0594F1DD",
+    "label": "lem:area-one-metric-piece",
+    "title": "Lemma 180.4 (Area bounds on one metric piece)",
+    "kind": "lemma",
+    "page": "tag/0594F1DD/index.html",
+    "canonical_tag": "36D6E8A409D9",
+    "anchor": ""
+  },
+  {
+    "tag": "B428E18D",
+    "label": "prop:area-full-rank-lipschitz",
+    "title": "Proposition 180.5 (The area identity on the full-rank differentiability set)",
+    "kind": "proposition",
+    "page": "tag/B428E18D/index.html",
+    "canonical_tag": "64CD4DD34AB0",
+    "anchor": ""
+  },
+  {
+    "tag": "FCD979DB",
+    "label": "lem:area-graph-regularization",
+    "title": "Lemma 180.6 (An injective graph regularization of a rank-deficient map)",
+    "kind": "lemma",
+    "page": "tag/FCD979DB/index.html",
+    "canonical_tag": "34F8CC476DF4",
+    "anchor": ""
+  },
+  {
+    "tag": "5F794056",
+    "label": "prop:area-critical-image-null",
+    "title": "Proposition 180.7 (The critical differentiability set has a null image)",
+    "kind": "proposition",
+    "page": "tag/5F794056/index.html",
+    "canonical_tag": "0A1766CE1A05",
+    "anchor": ""
+  },
+  {
+    "tag": "9D9D80A6",
+    "label": "thm:euclidean-area-local-proof",
+    "title": "Theorem 180.8 (Euclidean area with measurable multiplicity)",
+    "kind": "theorem",
+    "page": "tag/9D9D80A6/index.html",
+    "canonical_tag": "6695035EB27D",
+    "anchor": ""
+  },
+  {
+    "tag": "089A915C",
+    "label": "cor:area-null-image-criterion",
+    "title": "Corollary 180.9 (A null image is equivalent to a vanishing area Jacobian)",
+    "kind": "corollary",
+    "page": "tag/089A915C/index.html",
+    "canonical_tag": "C5AE6A4945BD",
+    "anchor": ""
+  },
+  {
+    "tag": "7A7B7F9E",
+    "label": "prop:area-integrable-multiplicity",
+    "title": "Proposition 180.10 (Finite-volume domains have finite multiplicity almost everywhere)",
+    "kind": "proposition",
+    "page": "tag/7A7B7F9E/index.html",
+    "canonical_tag": "3AE746AD9F73",
+    "anchor": ""
+  },
+  {
+    "tag": "099CFAA9",
+    "label": "sec:euclidean-coarea-from-area",
+    "title": "181 A proof of Euclidean coarea from area",
+    "kind": "chapter",
+    "page": "tag/099CFAA9/index.html",
+    "canonical_tag": "3D058D63E82F",
+    "anchor": ""
+  },
+  {
+    "tag": "CDA113F9",
+    "label": "lem:compact-fiber-measure-borel",
+    "title": "Lemma 181.1 (Measurability of the measure of a compact fiber)",
+    "kind": "lemma",
+    "page": "tag/CDA113F9/index.html",
+    "canonical_tag": "A4D9D83AD84A",
+    "anchor": ""
+  },
+  {
+    "tag": "E4064164",
+    "label": "lem:finite-hausdorff-fiber-measurable",
+    "title": "Lemma 181.2 (Measurable fibers for a finite Hausdorff-measure set)",
+    "kind": "lemma",
+    "page": "tag/E4064164/index.html",
+    "canonical_tag": "B3307B7EDAFF",
+    "anchor": ""
+  },
+  {
+    "tag": "0229B818",
+    "label": "prop:coarse-lipschitz-slicing",
+    "title": "Proposition 181.3 (A coarse Lipschitz slicing estimate)",
+    "kind": "proposition",
+    "page": "tag/0229B818/index.html",
+    "canonical_tag": "34A5B7462AAA",
+    "anchor": ""
+  },
+  {
+    "tag": "25296771",
+    "label": "prop:full-rank-c1-coarea",
+    "title": "Proposition 181.4 (Coarea for a C1 map of full rank)",
+    "kind": "proposition",
+    "page": "tag/25296771/index.html",
+    "canonical_tag": "487D5A52497A",
+    "anchor": ""
+  },
+  {
+    "tag": "262E9444",
+    "label": "lem:critical-coarea-regularization-jacobian",
+    "title": "Lemma 181.5 (Adding small target directions makes a critical map regular)",
+    "kind": "lemma",
+    "page": "tag/262E9444/index.html",
+    "canonical_tag": "E4AAF448FD9F",
+    "anchor": ""
+  },
+  {
+    "tag": "CB076DFF",
+    "label": "prop:c1-critical-fibers-null",
+    "title": "Proposition 181.6 (The critical set of a C1 map has null almost-everywhere fibers)",
+    "kind": "proposition",
+    "page": "tag/CB076DFF/index.html",
+    "canonical_tag": "DAFD441F176A",
+    "anchor": ""
+  },
+  {
+    "tag": "62162004",
+    "label": "thm:c1-euclidean-coarea-local",
+    "title": "Theorem 181.7 (Euclidean coarea for a C1 map)",
+    "kind": "theorem",
+    "page": "tag/62162004/index.html",
+    "canonical_tag": "0D599A7625BD",
+    "anchor": ""
+  },
+  {
+    "tag": "DF986CD2",
+    "label": "prop:lipschitz-coarea-c1-reduction",
+    "title": "Proposition 181.8 (C1 agreement reduces a Lipschitz map to smooth coarea)",
+    "kind": "proposition",
+    "page": "tag/DF986CD2/index.html",
+    "canonical_tag": "336B57437B6F",
+    "anchor": ""
+  },
+  {
+    "tag": "5D241DE3",
+    "label": "sec:examples-area-critical",
+    "title": "182 Examples of area, critical sets and pushforward densities",
+    "kind": "chapter",
+    "page": "tag/5D241DE3/index.html",
+    "canonical_tag": "E5DA0D44BF73",
+    "anchor": ""
+  },
+  {
+    "tag": "6438E05C",
+    "label": "ex:area-nonorthogonal-linear-map",
+    "title": "Example 182.1 (A nonorthogonal linear parametrization has a Gram determinant)",
+    "kind": "example",
+    "page": "tag/6438E05C/index.html",
+    "canonical_tag": "F1CF07E63C19",
+    "anchor": ""
+  },
+  {
+    "tag": "BBD2203F",
+    "label": "ex:area-multiple-circle-traversal",
+    "title": "Example 182.2 (A circle traversed several times counts every sheet)",
+    "kind": "example",
+    "page": "tag/BBD2203F/index.html",
+    "canonical_tag": "2834169DC9FF",
+    "anchor": ""
+  },
+  {
+    "tag": "988C31C5",
+    "label": "ex:area-real-cusp-length",
+    "title": "Example 182.3 (A cusp has a harmless isolated critical parameter)",
+    "kind": "example",
+    "page": "tag/988C31C5/index.html",
+    "canonical_tag": "E40769F1A941",
+    "anchor": ""
+  },
+  {
+    "tag": "00562F55",
+    "label": "ex:area-fat-cantor-critical-map",
+    "title": "Example 182.4 (A strictly increasing Lipschitz map can collapse a positive-measure set)",
+    "kind": "example",
+    "page": "tag/00562F55/index.html",
+    "canonical_tag": "A0852DCD693D",
+    "anchor": ""
+  },
+  {
+    "tag": "51EFD59D",
+    "label": "ex:area-fat-cantor-graph",
+    "title": "Example 182.5 (The graph retains the area that a scalar image loses)",
+    "kind": "example",
+    "page": "tag/51EFD59D/index.html",
+    "canonical_tag": "6D7A40B6E600",
+    "anchor": ""
+  },
+  {
+    "tag": "1B6AD151",
+    "label": "ex:area-linear-regularization-rate",
+    "title": "Example 182.6 (Graph regularization can have a linear Jacobian error)",
+    "kind": "example",
+    "page": "tag/1B6AD151/index.html",
+    "canonical_tag": "61971AD697D0",
+    "anchor": ""
+  },
+  {
+    "tag": "2531CF77",
+    "label": "ex:area-infinite-exceptional-fiber",
+    "title": "Example 182.7 (A Lipschitz interval map has an infinite exceptional fiber)",
+    "kind": "example",
+    "page": "tag/2531CF77/index.html",
+    "canonical_tag": "E9BF0D2FEB22",
+    "anchor": ""
+  },
+  {
+    "tag": "AB5F0FCE",
+    "label": "ex:area-projection-infinite-fibers",
+    "title": "Example 182.8 (Rank loss can give infinite fibers on a null image)",
+    "kind": "example",
+    "page": "tag/AB5F0FCE/index.html",
+    "canonical_tag": "61CF60B70046",
+    "anchor": ""
+  },
+  {
+    "tag": "77D6BA6B",
+    "label": "ex:area-complex-power-map",
+    "title": "Example 182.9 (A branched power map counts degree in its area)",
+    "kind": "example",
+    "page": "tag/77D6BA6B/index.html",
+    "canonical_tag": "65DF2FEAFF73",
+    "anchor": ""
+  },
+  {
+    "tag": "EEF901FB",
+    "label": "ex:coarea-product-log-density",
+    "title": "Example 182.10 (A product map has a logarithmically unbounded density)",
+    "kind": "example",
+    "page": "tag/EEF901FB/index.html",
+    "canonical_tag": "716A1D1732A4",
+    "anchor": ""
+  },
+  {
+    "tag": "E2A2CDDA",
+    "label": "ex:coarea-radial-power-density",
+    "title": "Example 182.11 (Radial powers give integrable power singularities)",
+    "kind": "example",
+    "page": "tag/E2A2CDDA/index.html",
+    "canonical_tag": "777E36C53AD3",
+    "anchor": ""
+  },
+  {
+    "tag": "E152E255",
+    "label": "ex:coarea-offset-plane-distance",
+    "title": "Example 182.12 (Distance slices of an offset affine plane)",
+    "kind": "example",
+    "page": "tag/E152E255/index.html",
+    "canonical_tag": "93DDA071D85B",
+    "anchor": ""
   }
 ]

@@ -1012,6 +1012,144 @@
     "tag": "DE97D6ADACDB"
   },
   {
+    "route": "sections/the-area-formula-from-metric-pieces",
+    "title": "3.13 The area formula from metric pieces",
+    "chapter": "rectifiability",
+    "section": "the-area-formula-from-metric-pieces"
+  },
+  {
+    "route": "tag/249B82161066",
+    "title": "Lemma 3.13.1 (An injective linear map determines a positive domain metric)",
+    "chapter": "rectifiability",
+    "section": "the-area-formula-from-metric-pieces",
+    "tag": "249B82161066"
+  },
+  {
+    "route": "tag/E5CA65543835",
+    "title": "Lemma 3.13.2 (Measurability of a finite-volume Lipschitz image)",
+    "chapter": "rectifiability",
+    "section": "the-area-formula-from-metric-pieces",
+    "tag": "E5CA65543835"
+  },
+  {
+    "route": "tag/8A21EBE8AE53",
+    "title": "Proposition 3.13.3 (A countable partition with controlled linear metric)",
+    "chapter": "rectifiability",
+    "section": "the-area-formula-from-metric-pieces",
+    "tag": "8A21EBE8AE53"
+  },
+  {
+    "route": "tag/36D6E8A409D9",
+    "title": "Lemma 3.13.4 (Area bounds on one metric piece)",
+    "chapter": "rectifiability",
+    "section": "the-area-formula-from-metric-pieces",
+    "tag": "36D6E8A409D9"
+  },
+  {
+    "route": "tag/64CD4DD34AB0",
+    "title": "Proposition 3.13.5 (The area identity on the full-rank differentiability set)",
+    "chapter": "rectifiability",
+    "section": "the-area-formula-from-metric-pieces",
+    "tag": "64CD4DD34AB0"
+  },
+  {
+    "route": "tag/34F8CC476DF4",
+    "title": "Lemma 3.13.6 (An injective graph regularization of a rank-deficient map)",
+    "chapter": "rectifiability",
+    "section": "the-area-formula-from-metric-pieces",
+    "tag": "34F8CC476DF4"
+  },
+  {
+    "route": "tag/0A1766CE1A05",
+    "title": "Proposition 3.13.7 (The critical differentiability set has a null image)",
+    "chapter": "rectifiability",
+    "section": "the-area-formula-from-metric-pieces",
+    "tag": "0A1766CE1A05"
+  },
+  {
+    "route": "tag/6695035EB27D",
+    "title": "Theorem 3.13.8 (Euclidean area with measurable multiplicity)",
+    "chapter": "rectifiability",
+    "section": "the-area-formula-from-metric-pieces",
+    "tag": "6695035EB27D"
+  },
+  {
+    "route": "tag/C5AE6A4945BD",
+    "title": "Corollary 3.13.9 (A null image is equivalent to a vanishing area Jacobian)",
+    "chapter": "rectifiability",
+    "section": "the-area-formula-from-metric-pieces",
+    "tag": "C5AE6A4945BD"
+  },
+  {
+    "route": "tag/3AE746AD9F73",
+    "title": "Proposition 3.13.10 (Finite-volume domains have finite multiplicity almost everywhere)",
+    "chapter": "rectifiability",
+    "section": "the-area-formula-from-metric-pieces",
+    "tag": "3AE746AD9F73"
+  },
+  {
+    "route": "sections/a-proof-of-euclidean-coarea-from-area",
+    "title": "3.14 A proof of Euclidean coarea from area",
+    "chapter": "rectifiability",
+    "section": "a-proof-of-euclidean-coarea-from-area"
+  },
+  {
+    "route": "tag/A4D9D83AD84A",
+    "title": "Lemma 3.14.1 (Measurability of the measure of a compact fiber)",
+    "chapter": "rectifiability",
+    "section": "a-proof-of-euclidean-coarea-from-area",
+    "tag": "A4D9D83AD84A"
+  },
+  {
+    "route": "tag/B3307B7EDAFF",
+    "title": "Lemma 3.14.2 (Measurable fibers for a finite Hausdorff-measure set)",
+    "chapter": "rectifiability",
+    "section": "a-proof-of-euclidean-coarea-from-area",
+    "tag": "B3307B7EDAFF"
+  },
+  {
+    "route": "tag/34A5B7462AAA",
+    "title": "Proposition 3.14.3 (A coarse Lipschitz slicing estimate)",
+    "chapter": "rectifiability",
+    "section": "a-proof-of-euclidean-coarea-from-area",
+    "tag": "34A5B7462AAA"
+  },
+  {
+    "route": "tag/487D5A52497A",
+    "title": "Proposition 3.14.4 (Coarea for a C1 map of full rank)",
+    "chapter": "rectifiability",
+    "section": "a-proof-of-euclidean-coarea-from-area",
+    "tag": "487D5A52497A"
+  },
+  {
+    "route": "tag/E4AAF448FD9F",
+    "title": "Lemma 3.14.5 (Adding small target directions makes a critical map regular)",
+    "chapter": "rectifiability",
+    "section": "a-proof-of-euclidean-coarea-from-area",
+    "tag": "E4AAF448FD9F"
+  },
+  {
+    "route": "tag/DAFD441F176A",
+    "title": "Proposition 3.14.6 (The critical set of a C1 map has null almost-everywhere fibers)",
+    "chapter": "rectifiability",
+    "section": "a-proof-of-euclidean-coarea-from-area",
+    "tag": "DAFD441F176A"
+  },
+  {
+    "route": "tag/0D599A7625BD",
+    "title": "Theorem 3.14.7 (Euclidean coarea for a C1 map)",
+    "chapter": "rectifiability",
+    "section": "a-proof-of-euclidean-coarea-from-area",
+    "tag": "0D599A7625BD"
+  },
+  {
+    "route": "tag/336B57437B6F",
+    "title": "Proposition 3.14.8 (C1 agreement reduces a Lipschitz map to smooth coarea)",
+    "chapter": "rectifiability",
+    "section": "a-proof-of-euclidean-coarea-from-area",
+    "tag": "336B57437B6F"
+  },
+  {
     "route": "chapters/finite-perimeter",
     "title": "4 Sets of finite perimeter",
     "chapter": "finite-perimeter"
@@ -9624,6 +9762,96 @@
     "chapter": "examples",
     "section": "examples-of-coarea-multiplicity-and-projection",
     "tag": "0B1ACA8FF719"
+  },
+  {
+    "route": "sections/examples-of-area-critical-sets-and-pushforward-densities",
+    "title": "16.30 Examples of area, critical sets and pushforward densities",
+    "chapter": "examples",
+    "section": "examples-of-area-critical-sets-and-pushforward-densities"
+  },
+  {
+    "route": "tag/F1CF07E63C19",
+    "title": "Example 16.30.1 (A nonorthogonal linear parametrization has a Gram determinant)",
+    "chapter": "examples",
+    "section": "examples-of-area-critical-sets-and-pushforward-densities",
+    "tag": "F1CF07E63C19"
+  },
+  {
+    "route": "tag/2834169DC9FF",
+    "title": "Example 16.30.2 (A circle traversed several times counts every sheet)",
+    "chapter": "examples",
+    "section": "examples-of-area-critical-sets-and-pushforward-densities",
+    "tag": "2834169DC9FF"
+  },
+  {
+    "route": "tag/E40769F1A941",
+    "title": "Example 16.30.3 (A cusp has a harmless isolated critical parameter)",
+    "chapter": "examples",
+    "section": "examples-of-area-critical-sets-and-pushforward-densities",
+    "tag": "E40769F1A941"
+  },
+  {
+    "route": "tag/A0852DCD693D",
+    "title": "Example 16.30.4 (A strictly increasing Lipschitz map can collapse a positive-measure set)",
+    "chapter": "examples",
+    "section": "examples-of-area-critical-sets-and-pushforward-densities",
+    "tag": "A0852DCD693D"
+  },
+  {
+    "route": "tag/6D7A40B6E600",
+    "title": "Example 16.30.5 (The graph retains the area that a scalar image loses)",
+    "chapter": "examples",
+    "section": "examples-of-area-critical-sets-and-pushforward-densities",
+    "tag": "6D7A40B6E600"
+  },
+  {
+    "route": "tag/61971AD697D0",
+    "title": "Example 16.30.6 (Graph regularization can have a linear Jacobian error)",
+    "chapter": "examples",
+    "section": "examples-of-area-critical-sets-and-pushforward-densities",
+    "tag": "61971AD697D0"
+  },
+  {
+    "route": "tag/E9BF0D2FEB22",
+    "title": "Example 16.30.7 (A Lipschitz interval map has an infinite exceptional fiber)",
+    "chapter": "examples",
+    "section": "examples-of-area-critical-sets-and-pushforward-densities",
+    "tag": "E9BF0D2FEB22"
+  },
+  {
+    "route": "tag/61CF60B70046",
+    "title": "Example 16.30.8 (Rank loss can give infinite fibers on a null image)",
+    "chapter": "examples",
+    "section": "examples-of-area-critical-sets-and-pushforward-densities",
+    "tag": "61CF60B70046"
+  },
+  {
+    "route": "tag/65DF2FEAFF73",
+    "title": "Example 16.30.9 (A branched power map counts degree in its area)",
+    "chapter": "examples",
+    "section": "examples-of-area-critical-sets-and-pushforward-densities",
+    "tag": "65DF2FEAFF73"
+  },
+  {
+    "route": "tag/716A1D1732A4",
+    "title": "Example 16.30.10 (A product map has a logarithmically unbounded density)",
+    "chapter": "examples",
+    "section": "examples-of-area-critical-sets-and-pushforward-densities",
+    "tag": "716A1D1732A4"
+  },
+  {
+    "route": "tag/777E36C53AD3",
+    "title": "Example 16.30.11 (Radial powers give integrable power singularities)",
+    "chapter": "examples",
+    "section": "examples-of-area-critical-sets-and-pushforward-densities",
+    "tag": "777E36C53AD3"
+  },
+  {
+    "route": "tag/93DDA071D85B",
+    "title": "Example 16.30.12 (Distance slices of an offset affine plane)",
+    "chapter": "examples",
+    "section": "examples-of-area-critical-sets-and-pushforward-densities",
+    "tag": "93DDA071D85B"
   },
   {
     "route": "chapters/harmonic-maps",

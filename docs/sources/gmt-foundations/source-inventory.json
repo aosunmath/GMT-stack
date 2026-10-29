@@ -57,7 +57,10 @@
         "Chapter2 Theorem1.10 and proof, printed pp.49–51 / PDF29–30: diameter-cover slicing estimate. Null-set fiber lemma supplied directly; general sharp Eilenberg inequality is not claimed.",
         "Chapter2 Theorem7.3 and proof, Theorem7.5 and Remarks7.7, printed pp.76–81 / PDF42–44: chart coarea, critical fibers and level/subsequence selection. Printed78–81 visually checked. Euclidean coarea remains an explicit input to the local rectifiable-domain proof.",
         "Chapter3 Section2, equations(2.4)–(2.9) and Remark2.10, printed pp.92–94 / PDF50–51: weighted rectifiable area/coarea and fiber geometry. Printed94 visually checked.",
-        "Chapter3 Definition3.1 and Lemmas3.2–3.3, printed pp.94–95 / PDF51: rectifiable/pure decomposition and coordinate-projection test. Both printed pages visually checked. Local refinements include uniqueness modulo null sets and multiplicity bounds."
+        "Chapter3 Definition3.1 and Lemmas3.2–3.3, printed pp.94–95 / PDF51: rectifiable/pure decomposition and coordinate-projection test. Both printed pages visually checked. Local refinements include uniqueness modulo null sets and multiplicity bounds.",
+        "Chapter2 Theorem3.3, Remark3.4 and proof, printed57–60 / PDF32–34: full-rank metric partition, multiplicity, critical graph regularization and null images. Printed58–61 visually checked. Local proof gives exact comparison ratios and an O(epsilon) rank-deficient Jacobian bound; a diagonal example checks the required order.",
+        "Chapter2 Theorem1.10, printed49–51, and Theorem7.3 proof, printed76–79 / PDF42–43: direct coarse slicing, full-rank coordinate coarea, critical regularization and C1/Lipschitz reduction. Previous source inspection extended to an acyclic local proof of the Euclidean formula.",
+        "Chapter2 Example3.5, printed60–61: curve and graph interpretation. New worked examples are original deductions from the formulas, including multiplicity, critical mass and singular pushforwards."
       ]
     },
     {
