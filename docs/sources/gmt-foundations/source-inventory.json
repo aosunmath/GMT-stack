@@ -37,7 +37,8 @@
         "Chapter 1, Sections 3–4, printed pp. 15–28 (PDF pp. 11–18): fivefold covering, upper densities, Lebesgue density and differentiation, and identification of the density in a given absolutely continuous/singular decomposition. Local maximal estimates derived explicitly; arbitrary-Radon differentiation not imported.",
         "Chapter 2, Section 1, pp. 43–46 (PDF pp. 25–27): scalar extension, linewise absolute continuity, weak directional derivatives, and the finite-net proof of Rademacher. One-dimensional absolutely continuous FTC remains explicit background; no Whitney extension imported.",
         "Chapter 1, Theorem 5.14, printed pp. 37--38 (PDF pp. 22--23): positive variation and vector Riesz representation; normed-space extension derived locally with explicit Hilbert and sigma-finite L1 duality proofs.",
-        "Chapter 6, Remark 2.7 and equations (2.8)--(2.10), printed pp. 160--161 (PDF p. 84): continuous extension and polar mass representation, with comass and dual mass norms distinguished from the source's initial Euclidean norms. Lemma 2.17, p. 162 (PDF p. 85): compactness developed by the project's countable-test diagonal method."
+        "Chapter 6, Remark 2.7 and equations (2.8)--(2.10), printed pp. 160--161 (PDF p. 84): continuous extension and polar mass representation, with comass and dual mass norms distinguished from the source's initial Euclidean norms. Lemma 2.17, p. 162 (PDF p. 85): compactness developed by the project's countable-test diagonal method.",
+        "Chapter2 Section2 equations(2.1)–(2.4), printed52–53 (PDF30): distributional variation and vector representation. Interval representatives, traces, chain/product rules and counterexamples proved directly from the measure formulation."
       ]
     },
     {
@@ -1661,7 +1662,8 @@
         "Sections 5--7, pp. 8--13: normalization, nondegeneracy, rescaling, model points, and Theorem 7.3 dichotomy",
         "Proposition 8.2 and Lemma 8.4, pp. 17--18: Weiss and Monneau formulas",
         "Theorem 8.1 and proof, pp. 17--19: uniqueness and continuity; spherical integrals retained in the uniqueness proof",
-        "Theorem 9.1, p. 19: classical singular-stratum containment"
+        "Theorem 9.1, p. 19: classical singular-stratum containment",
+        "Section5 equation(5.2), p.9, and Definitions7.1–7.2, pp.11–12: normalized equation and model blow-ups. Radial contact-ball profiles, constant-height Dirichlet cases, reaction, asymptotics and energy response computed directly."
       ]
     },
     {
@@ -1684,7 +1686,8 @@
         "Theorem 0.15 and compact normal variation convention, p. 763",
         "Lemma 7.2 and Gaussian scale derivative, pp. 783--785",
         "Lemma 7.10 and proof, equations (7.14)--(7.27), pp. 785--788",
-        "Lemma 7.28 and proof of Theorem 0.15, pp. 788--792"
+        "Lemma 7.28 and proof of Theorem 0.15, pp. 788--792",
+        "Lemma10.8 and proof, printed808–809 (PDF54–55): tensor shrinker Simons. Equations(10.15)–(10.17), p.809: log-H compact-test estimate; the full global conclusion of Proposition10.14 is not imported."
       ]
     },
     {
@@ -1918,6 +1921,24 @@
       "checked_passages": [
         "Lemma 2.1, pp. 5--7: height, curvature and drift identities; pp. 5--6 visually checked.",
         "Theorem A, pp. 10--12: normalized shape tensor, ratio maximum and rank-one structure; all three pages visually checked. The complete project statement is deliberately restricted and has a separate bounded-flow continuation proof."
+      ]
+    },
+    {
+      "bibliography_key": "CL12",
+      "filename": "1101.0516v2.pdf",
+      "title": "A Gap Theorem for Self-shrinkers of the Mean Curvature Flow in Arbitrary Codimension",
+      "author": "Huai-Dong Cao; Haizhong Li",
+      "edition": "arXiv:1101.0516v2, February 2, 2012",
+      "sha256": "786b53a616ff6c88893a7207674142cc868ff2bac4b9def1cdb37e8b353ecb3c",
+      "pdf_pages": 11,
+      "redistributed": false,
+      "role": "Source comparison for the curvature gap and explicitly calculated higher-codimension self-shrinker models; normalization converted and local proofs supplied.",
+      "review_status": "selected-passages-checked",
+      "metadata_status": "source-checked",
+      "url": "https://arxiv.org/abs/1101.0516v2",
+      "checked_passages": [
+        "Equation (1.2) and Theorem 1.1, pp.1–2: normalization and arbitrary-codimension comparison; local gap proof restricted to hypersurfaces with finite Gaussian area.",
+        "Propositions 5.1–5.3 and Examples 5.1–5.3, pp.8–9: mean-curvature thresholds, no closed expanders and products of spheres; arbitrary-codimension Gaussian radial identity proved explicitly."
       ]
     }
   ],

@@ -8683,5 +8683,401 @@
     "page": "tag/C31D36A9/index.html",
     "canonical_tag": "2AAA27455AE0",
     "anchor": ""
+  },
+  {
+    "tag": "2BA374CE",
+    "label": "sec:bv-representation-calculus",
+    "title": "119 Measure representation for BV functions",
+    "kind": "chapter",
+    "page": "tag/2BA374CE/index.html",
+    "canonical_tag": "61AE43D24EF3",
+    "anchor": ""
+  },
+  {
+    "tag": "834EFC9A",
+    "label": "prop:bv-vector-representation",
+    "title": "Proposition 119.1 (Distributional derivatives as vector measures)",
+    "kind": "proposition",
+    "page": "tag/834EFC9A/index.html",
+    "canonical_tag": "B3DA56F70CE7",
+    "anchor": ""
+  },
+  {
+    "tag": "B740C505",
+    "label": "lem:zero-distributional-gradient",
+    "title": "Lemma 119.2 (A vanishing distributional gradient)",
+    "kind": "lemma",
+    "page": "tag/B740C505/index.html",
+    "canonical_tag": "BCB828137772",
+    "anchor": ""
+  },
+  {
+    "tag": "CBAC7B37",
+    "label": "sec:bv-interval-structure",
+    "title": "120 BV representatives and perimeter on an interval",
+    "kind": "chapter",
+    "page": "tag/CBAC7B37/index.html",
+    "canonical_tag": "94B364CA1C3A",
+    "anchor": ""
+  },
+  {
+    "tag": "A1E4CC9D",
+    "label": "lem:interval-measure-primitive",
+    "title": "Lemma 120.1 (The cumulative function of a signed measure)",
+    "kind": "lemma",
+    "page": "tag/A1E4CC9D/index.html",
+    "canonical_tag": "155DCE2632C6",
+    "anchor": ""
+  },
+  {
+    "tag": "41DA679A",
+    "label": "thm:interval-bv-representative",
+    "title": "Theorem 120.2 (The regulated representative of an interval BV function)",
+    "kind": "theorem",
+    "page": "tag/41DA679A/index.html",
+    "canonical_tag": "6B835FA933C4",
+    "anchor": ""
+  },
+  {
+    "tag": "6DE692A9",
+    "label": "prop:interval-bv-ac-lipschitz",
+    "title": "Proposition 120.3 (Absolute continuity and Lipschitz bounds)",
+    "kind": "proposition",
+    "page": "tag/6DE692A9/index.html",
+    "canonical_tag": "EFDCA0BE54A1",
+    "anchor": ""
+  },
+  {
+    "tag": "32067E86",
+    "label": "thm:interval-finite-perimeter-sets",
+    "title": "Theorem 120.4 (Finite-perimeter sets in an interval)",
+    "kind": "theorem",
+    "page": "tag/32067E86/index.html",
+    "canonical_tag": "D5E9F98A6434",
+    "anchor": ""
+  },
+  {
+    "tag": "6F847866",
+    "label": "prop:interval-bv-zero-extension",
+    "title": "Proposition 120.5 (Zero extension and endpoint traces)",
+    "kind": "proposition",
+    "page": "tag/6F847866/index.html",
+    "canonical_tag": "33F783392B7C",
+    "anchor": ""
+  },
+  {
+    "tag": "0DEDDDDC",
+    "label": "sec:bv-interval-jump-calculus",
+    "title": "121 Products and nonlinear jumps in one-dimensional BV",
+    "kind": "chapter",
+    "page": "tag/0DEDDDDC/index.html",
+    "canonical_tag": "AD92E313BC2A",
+    "anchor": ""
+  },
+  {
+    "tag": "0C7C7407",
+    "label": "thm:interval-bv-chain-rule",
+    "title": "Theorem 121.1 (The divided-difference chain rule on an interval)",
+    "kind": "theorem",
+    "page": "tag/0C7C7407/index.html",
+    "canonical_tag": "24962712EC88",
+    "anchor": ""
+  },
+  {
+    "tag": "35A1D42E",
+    "label": "prop:interval-bv-product-rule",
+    "title": "Proposition 121.2 (The midpoint product rule)",
+    "kind": "proposition",
+    "page": "tag/35A1D42E/index.html",
+    "canonical_tag": "AAACCD4144D2",
+    "anchor": ""
+  },
+  {
+    "tag": "654F2C8C",
+    "label": "cor:interval-bv-stieltjes-parts",
+    "title": "Corollary 121.3 (Stieltjes integration by parts with traces)",
+    "kind": "corollary",
+    "page": "tag/654F2C8C/index.html",
+    "canonical_tag": "87F88951FED0",
+    "anchor": ""
+  },
+  {
+    "tag": "8D9BD5E4",
+    "label": "ex:cantor-square-derivative",
+    "title": "Example 121.4 (Squaring a singular-continuous function)",
+    "kind": "example",
+    "page": "tag/8D9BD5E4/index.html",
+    "canonical_tag": "691370FB4A4D",
+    "anchor": ""
+  },
+  {
+    "tag": "34971D04",
+    "label": "ex:nonlinear-bv-jump-coefficient",
+    "title": "Example 121.5 (Why a one-sided derivative is wrong at a jump)",
+    "kind": "example",
+    "page": "tag/34971D04/index.html",
+    "canonical_tag": "531B009B734F",
+    "anchor": ""
+  },
+  {
+    "tag": "3A8346CD",
+    "label": "sec:shrinker-curvature-gap",
+    "title": "122 Curvature gaps and parallel self-shrinkers",
+    "kind": "chapter",
+    "page": "tag/3A8346CD/index.html",
+    "canonical_tag": "848E86003EC0",
+    "anchor": ""
+  },
+  {
+    "tag": "91EFCA26",
+    "label": "prop:shrinker-tensor-simons",
+    "title": "Proposition 122.1 (Tensor Simons equation on a shrinker)",
+    "kind": "proposition",
+    "page": "tag/91EFCA26/index.html",
+    "canonical_tag": "B8B380906F8F",
+    "anchor": ""
+  },
+  {
+    "tag": "EAA715E1",
+    "label": "lem:shrinker-gap-caccioppoli",
+    "title": "Lemma 122.2 (A weighted curvature Caccioppoli inequality)",
+    "kind": "lemma",
+    "page": "tag/EAA715E1/index.html",
+    "canonical_tag": "8C41334CC845",
+    "anchor": ""
+  },
+  {
+    "tag": "337161E3",
+    "label": "prop:shrinker-gap-parallel",
+    "title": "Proposition 122.3 (Finite Gaussian area forces parallel curvature at the gap)",
+    "kind": "proposition",
+    "page": "tag/337161E3/index.html",
+    "canonical_tag": "66389D683640",
+    "anchor": ""
+  },
+  {
+    "tag": "32C40C70",
+    "label": "lem:complete-parallel-hypersurface",
+    "title": "Lemma 122.4 (The image of a complete parallel hypersurface)",
+    "kind": "lemma",
+    "page": "tag/32C40C70/index.html",
+    "canonical_tag": "69CCB32B46CE",
+    "anchor": ""
+  },
+  {
+    "tag": "FFA50C48",
+    "label": "thm:shrinker-half-curvature-gap",
+    "title": "Theorem 122.5 (The hypersurface curvature gap)",
+    "kind": "theorem",
+    "page": "tag/FFA50C48/index.html",
+    "canonical_tag": "7A3314CE0A68",
+    "anchor": ""
+  },
+  {
+    "tag": "F4E7A94D",
+    "label": "cor:compact-shrinker-curvature-gap",
+    "title": "Corollary 122.6 (Compact and strict versions of the gap)",
+    "kind": "corollary",
+    "page": "tag/F4E7A94D/index.html",
+    "canonical_tag": "D43AD8A2E6A9",
+    "anchor": ""
+  },
+  {
+    "tag": "1CC6B167",
+    "label": "prop:meanconvex-shrinker-weighted-estimate",
+    "title": "Proposition 122.7 (A mean-convex weighted curvature estimate)",
+    "kind": "proposition",
+    "page": "tag/1CC6B167/index.html",
+    "canonical_tag": "3C8B302A0B67",
+    "anchor": ""
+  },
+  {
+    "tag": "75DE5AB7",
+    "label": "sec:examples-higher-codimension-shrinkers",
+    "title": "123 Self-shrinkers in higher codimension",
+    "kind": "chapter",
+    "page": "tag/75DE5AB7/index.html",
+    "canonical_tag": "67B67A857CA0",
+    "anchor": ""
+  },
+  {
+    "tag": "C9ECB4A8",
+    "label": "prop:spherical-minimal-shrinker-equivalence",
+    "title": "Proposition 123.1 (Minimal submanifolds of a sphere give shrinkers)",
+    "kind": "proposition",
+    "page": "tag/C9ECB4A8/index.html",
+    "canonical_tag": "F8D9EB520CEE",
+    "anchor": ""
+  },
+  {
+    "tag": "6A54E408",
+    "label": "ex:product-sphere-shrinkers",
+    "title": "Example 123.2 (Products of round factors and a Euclidean factor)",
+    "kind": "example",
+    "page": "tag/6A54E408/index.html",
+    "canonical_tag": "1069828FDBF6",
+    "anchor": ""
+  },
+  {
+    "tag": "9214441E",
+    "label": "prop:product-shrinker-gaussian-area",
+    "title": "Proposition 123.3 (Gaussian area of the product models)",
+    "kind": "proposition",
+    "page": "tag/9214441E/index.html",
+    "canonical_tag": "A67A81338F21",
+    "anchor": ""
+  },
+  {
+    "tag": "2619BC50",
+    "label": "ex:clifford-torus-shrinker",
+    "title": "Example 123.4 (The Clifford torus shrinker in four dimensions)",
+    "kind": "example",
+    "page": "tag/2619BC50/index.html",
+    "canonical_tag": "2E92C8C6AAA0",
+    "anchor": ""
+  },
+  {
+    "tag": "1E24805F",
+    "label": "prop:compact-shrinker-mean-curvature-threshold",
+    "title": "Proposition 123.5 (The compact mean-curvature threshold)",
+    "kind": "proposition",
+    "page": "tag/1E24805F/index.html",
+    "canonical_tag": "5BF54675E5EE",
+    "anchor": ""
+  },
+  {
+    "tag": "6C0D356B",
+    "label": "prop:no-closed-higher-codimension-expander",
+    "title": "Proposition 123.6 (There is no closed Euclidean self-expander)",
+    "kind": "proposition",
+    "page": "tag/6C0D356B/index.html",
+    "canonical_tag": "3A94265F2B89",
+    "anchor": ""
+  },
+  {
+    "tag": "0980F693",
+    "label": "lem:higher-codimension-shrinker-radial-moment",
+    "title": "Lemma 123.7 (The Gaussian radial identity in any codimension)",
+    "kind": "lemma",
+    "page": "tag/0980F693/index.html",
+    "canonical_tag": "36F00EED1081",
+    "anchor": ""
+  },
+  {
+    "tag": "2E10E249",
+    "label": "prop:complete-shrinker-mean-curvature-threshold",
+    "title": "Proposition 123.8 (A complete mean-curvature bound forces spherical containment)",
+    "kind": "proposition",
+    "page": "tag/2E10E249/index.html",
+    "canonical_tag": "97FDF140143F",
+    "anchor": ""
+  },
+  {
+    "tag": "EFB6C4ED",
+    "label": "sec:examples-bv-interval",
+    "title": "124 Jumps, representatives, and boundary traces",
+    "kind": "chapter",
+    "page": "tag/EFB6C4ED/index.html",
+    "canonical_tag": "13BB9FCBE26B",
+    "anchor": ""
+  },
+  {
+    "tag": "23DFF6CD",
+    "label": "ex:bv-dense-jumps",
+    "title": "Example 124.1 (A BV function with dense jumps)",
+    "kind": "example",
+    "page": "tag/23DFF6CD/index.html",
+    "canonical_tag": "CBACB926FFB5",
+    "anchor": ""
+  },
+  {
+    "tag": "3CFE0EA4",
+    "label": "ex:dirichlet-function-bv-representative",
+    "title": "Example 124.2 (Pointwise variation depends on the representative)",
+    "kind": "example",
+    "page": "tag/3CFE0EA4/index.html",
+    "canonical_tag": "78C1D3DF08E9",
+    "anchor": ""
+  },
+  {
+    "tag": "D6AE1099",
+    "label": "ex:bv-boundary-layer-trace",
+    "title": "Example 124.3 (A boundary layer can retain a trace while disappearing in the interior)",
+    "kind": "example",
+    "page": "tag/D6AE1099/index.html",
+    "canonical_tag": "3A54E25A86CC",
+    "anchor": ""
+  },
+  {
+    "tag": "4F3122AB",
+    "label": "ex:bv-three-derivative-types",
+    "title": "Example 124.4 (Three derivative types in one BV function)",
+    "kind": "example",
+    "page": "tag/4F3122AB/index.html",
+    "canonical_tag": "49385BB539FF",
+    "anchor": ""
+  },
+  {
+    "tag": "D9EC2CB5",
+    "label": "sec:examples-radial-obstacle",
+    "title": "125 A radial obstacle problem and its contact transition",
+    "kind": "chapter",
+    "page": "tag/D9EC2CB5/index.html",
+    "canonical_tag": "6DA2E1045E08",
+    "anchor": ""
+  },
+  {
+    "tag": "4C8312FE",
+    "label": "prop:radial-obstacle-profile",
+    "title": "Proposition 125.1 (A radial profile with a prescribed contact ball)",
+    "kind": "proposition",
+    "page": "tag/4C8312FE/index.html",
+    "canonical_tag": "3A54999BC942",
+    "anchor": ""
+  },
+  {
+    "tag": "DF3774FD",
+    "label": "thm:radial-obstacle-dirichlet",
+    "title": "Theorem 125.2 (All constant-height Dirichlet cases in a ball)",
+    "kind": "theorem",
+    "page": "tag/DF3774FD/index.html",
+    "canonical_tag": "C9817DF3B271",
+    "anchor": ""
+  },
+  {
+    "tag": "1EC9BA10",
+    "label": "prop:radial-obstacle-reaction",
+    "title": "Proposition 125.3 (Contact is not the same as positive reaction mass)",
+    "kind": "proposition",
+    "page": "tag/1EC9BA10/index.html",
+    "canonical_tag": "20576B580998",
+    "anchor": ""
+  },
+  {
+    "tag": "49CA8B31",
+    "label": "prop:radial-obstacle-blowups",
+    "title": "Proposition 125.4 (The regular sphere and the singular point have different blow-ups)",
+    "kind": "proposition",
+    "page": "tag/49CA8B31/index.html",
+    "canonical_tag": "DE855AC5E65E",
+    "anchor": ""
+  },
+  {
+    "tag": "D24A2885",
+    "label": "prop:radial-obstacle-contact-asymptotics",
+    "title": "Proposition 125.5 (How the contact radius approaches its endpoints)",
+    "kind": "proposition",
+    "page": "tag/D24A2885/index.html",
+    "canonical_tag": "EED8D8469AD3",
+    "anchor": ""
+  },
+  {
+    "tag": "8388CD2F",
+    "label": "prop:radial-obstacle-energy-response",
+    "title": "Proposition 125.6 (The derivative of the minimized energy)",
+    "kind": "proposition",
+    "page": "tag/8388CD2F/index.html",
+    "canonical_tag": "AEA8FAF2A27B",
+    "anchor": ""
   }
 ]

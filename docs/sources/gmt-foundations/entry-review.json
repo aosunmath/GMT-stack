@@ -776,7 +776,9 @@
       "citations": [
         "Sim18"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "prop:bv-vector-representation"
+      ],
       "formal_verification": "none"
     },
     {
@@ -797,7 +799,9 @@
       "kind": "proposition",
       "file": "perimeter.tex",
       "status": "proof-included",
-      "citations": [],
+      "citations": [
+        "Sim18"
+      ],
       "dependencies": [],
       "formal_verification": "none"
     },
@@ -10870,13 +10874,475 @@
         "prop:rectifiable-real-diffuse-limit"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "prop:bv-vector-representation",
+      "title": "Distributional derivatives as vector measures",
+      "kind": "proposition",
+      "file": "bv-representation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:bv",
+        "lem:positive-vector-variation",
+        "thm:normed-vector-riesz"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:zero-distributional-gradient",
+      "title": "A vanishing distributional gradient",
+      "kind": "lemma",
+      "file": "bv-representation.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:interval-measure-primitive",
+      "title": "The cumulative function of a signed measure",
+      "kind": "lemma",
+      "file": "bv-interval.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:interval-bv-representative",
+      "title": "The regulated representative of an interval BV function",
+      "kind": "theorem",
+      "file": "bv-interval.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:interval-measure-primitive",
+        "lem:zero-distributional-gradient",
+        "prop:bv-vector-representation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:interval-bv-ac-lipschitz",
+      "title": "Absolute continuity and Lipschitz bounds",
+      "kind": "proposition",
+      "file": "bv-interval.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:interval-bv-representative"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:interval-finite-perimeter-sets",
+      "title": "Finite-perimeter sets in an interval",
+      "kind": "theorem",
+      "file": "bv-interval.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:interval-bv-zero-extension",
+      "title": "Zero extension and endpoint traces",
+      "kind": "proposition",
+      "file": "bv-interval.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:interval-measure-primitive"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:interval-bv-chain-rule",
+      "title": "The divided-difference chain rule on an interval",
+      "kind": "theorem",
+      "file": "bv-jump-calculus.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:bv-lipschitz-composition",
+        "thm:interval-bv-representative"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:interval-bv-product-rule",
+      "title": "The midpoint product rule",
+      "kind": "proposition",
+      "file": "bv-jump-calculus.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:interval-bv-chain-rule"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:interval-bv-stieltjes-parts",
+      "title": "Stieltjes integration by parts with traces",
+      "kind": "corollary",
+      "file": "bv-jump-calculus.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:interval-bv-product-rule"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:cantor-square-derivative",
+      "title": "Squaring a singular-continuous function",
+      "kind": "example",
+      "file": "bv-jump-calculus.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:cantor-function-bv",
+        "thm:interval-bv-chain-rule"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:nonlinear-bv-jump-coefficient",
+      "title": "Why a one-sided derivative is wrong at a jump",
+      "kind": "example",
+      "file": "bv-jump-calculus.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:interval-bv-chain-rule"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-tensor-simons",
+      "title": "Tensor Simons equation on a shrinker",
+      "kind": "proposition",
+      "file": "shrinker-gap.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:spaceform-simons"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:shrinker-gap-caccioppoli",
+      "title": "A weighted curvature Caccioppoli inequality",
+      "kind": "lemma",
+      "file": "shrinker-gap.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:gaussian-integration-parts",
+        "prop:shrinker-tensor-simons"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-gap-parallel",
+      "title": "Finite Gaussian area forces parallel curvature at the gap",
+      "kind": "proposition",
+      "file": "shrinker-gap.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:shrinker-gap-caccioppoli"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:complete-parallel-hypersurface",
+      "title": "The image of a complete parallel hypersurface",
+      "kind": "lemma",
+      "file": "shrinker-gap.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:shrinker-half-curvature-gap",
+      "title": "The hypersurface curvature gap",
+      "kind": "theorem",
+      "file": "shrinker-gap.tex",
+      "status": "proof-included",
+      "citations": [
+        "CL12"
+      ],
+      "dependencies": [
+        "lem:complete-parallel-hypersurface",
+        "lem:gaussian-polynomial-moments",
+        "prop:shrinker-gap-parallel"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:compact-shrinker-curvature-gap",
+      "title": "Compact and strict versions of the gap",
+      "kind": "corollary",
+      "file": "shrinker-gap.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:shrinker-half-curvature-gap"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:meanconvex-shrinker-weighted-estimate",
+      "title": "A mean-convex weighted curvature estimate",
+      "kind": "proposition",
+      "file": "shrinker-gap.tex",
+      "status": "proof-included",
+      "citations": [
+        "CM12"
+      ],
+      "dependencies": [
+        "prop:shrinker-tensor-simons"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:spherical-minimal-shrinker-equivalence",
+      "title": "Minimal submanifolds of a sphere give shrinkers",
+      "kind": "proposition",
+      "file": "examples-higher-shrinkers.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:product-sphere-shrinkers",
+      "title": "Products of round factors and a Euclidean factor",
+      "kind": "example",
+      "file": "examples-higher-shrinkers.tex",
+      "status": "proof-included",
+      "citations": [
+        "CL12"
+      ],
+      "dependencies": [
+        "prop:spherical-minimal-shrinker-equivalence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:product-shrinker-gaussian-area",
+      "title": "Gaussian area of the product models",
+      "kind": "proposition",
+      "file": "examples-higher-shrinkers.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:product-sphere-shrinkers"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:clifford-torus-shrinker",
+      "title": "The Clifford torus shrinker in four dimensions",
+      "kind": "example",
+      "file": "examples-higher-shrinkers.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:product-sphere-shrinkers",
+        "prop:spherical-minimal-shrinker-equivalence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:compact-shrinker-mean-curvature-threshold",
+      "title": "The compact mean-curvature threshold",
+      "kind": "proposition",
+      "file": "examples-higher-shrinkers.tex",
+      "status": "proof-included",
+      "citations": [
+        "CL12"
+      ],
+      "dependencies": [
+        "prop:spherical-minimal-shrinker-equivalence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:no-closed-higher-codimension-expander",
+      "title": "There is no closed Euclidean self-expander",
+      "kind": "proposition",
+      "file": "examples-higher-shrinkers.tex",
+      "status": "proof-included",
+      "citations": [
+        "CL12"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:higher-codimension-shrinker-radial-moment",
+      "title": "The Gaussian radial identity in any codimension",
+      "kind": "lemma",
+      "file": "examples-higher-shrinkers.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:gaussian-polynomial-moments"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:complete-shrinker-mean-curvature-threshold",
+      "title": "A complete mean-curvature bound forces spherical containment",
+      "kind": "proposition",
+      "file": "examples-higher-shrinkers.tex",
+      "status": "proof-included",
+      "citations": [
+        "CL12"
+      ],
+      "dependencies": [
+        "ex:product-sphere-shrinkers",
+        "lem:higher-codimension-shrinker-radial-moment",
+        "prop:spherical-minimal-shrinker-equivalence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:bv-dense-jumps",
+      "title": "A BV function with dense jumps",
+      "kind": "example",
+      "file": "examples-bv-interval.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:dense-atomic-measure",
+        "lem:interval-measure-primitive",
+        "thm:interval-bv-representative"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:dirichlet-function-bv-representative",
+      "title": "Pointwise variation depends on the representative",
+      "kind": "example",
+      "file": "examples-bv-interval.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:bv-boundary-layer-trace",
+      "title": "A boundary layer can retain a trace while disappearing in the interior",
+      "kind": "example",
+      "file": "examples-bv-interval.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:interval-bv-zero-extension",
+        "thm:interval-finite-perimeter-sets"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:bv-three-derivative-types",
+      "title": "Three derivative types in one BV function",
+      "kind": "example",
+      "file": "examples-bv-interval.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:cantor-function-bv"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:radial-obstacle-profile",
+      "title": "A radial profile with a prescribed contact ball",
+      "kind": "proposition",
+      "file": "examples-radial-obstacle.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:radial-obstacle-dirichlet",
+      "title": "All constant-height Dirichlet cases in a ball",
+      "kind": "theorem",
+      "file": "examples-radial-obstacle.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fig18"
+      ],
+      "dependencies": [
+        "thm:obstacle-existence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:radial-obstacle-reaction",
+      "title": "Contact is not the same as positive reaction mass",
+      "kind": "proposition",
+      "file": "examples-radial-obstacle.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:obstacle-reaction",
+        "thm:radial-obstacle-dirichlet"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:radial-obstacle-blowups",
+      "title": "The regular sphere and the singular point have different blow-ups",
+      "kind": "proposition",
+      "file": "examples-radial-obstacle.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:obstacle-regular-point",
+        "def:obstacle-singular-point"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:radial-obstacle-contact-asymptotics",
+      "title": "How the contact radius approaches its endpoints",
+      "kind": "proposition",
+      "file": "examples-radial-obstacle.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:radial-obstacle-dirichlet"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:radial-obstacle-energy-response",
+      "title": "The derivative of the minimized energy",
+      "kind": "proposition",
+      "file": "examples-radial-obstacle.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
     "Borel regularity and Euclidean normalization of Hausdorff measure",
     "Rectifiability and approximate tangent characterization",
     "Area and coarea formulas",
-    "BV representation by vector measures",
     "De Giorgi structure theorem",
     "Rectifiable current representation and mass formula",
     "Federer--Fleming compactness and closure",
