@@ -6315,7 +6315,10 @@
         "CM12"
       ],
       "dependencies": [
-        "prop:shrinker-optimized-hessian"
+        "cor:sphere-higher-mode-gap",
+        "ex:sphere-low-harmonic-modes",
+        "prop:shrinker-optimized-hessian",
+        "thm:spherical-harmonic-l2-expansion"
       ],
       "formal_verification": "none"
     },
@@ -6919,7 +6922,10 @@
       "status": "proof-included",
       "citations": [],
       "dependencies": [
-        "prop:cmc-constant-potential-index"
+        "cor:sphere-higher-mode-gap",
+        "ex:sphere-low-harmonic-modes",
+        "prop:cmc-constant-potential-index",
+        "prop:spherical-harmonic-h1-expansion"
       ],
       "formal_verification": "none"
     },
@@ -12507,6 +12513,663 @@
         "thm:sobolev-closed-l2-compactness"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "def:periodic-graph-flow",
+      "title": "Periodic graphs and normal material time",
+      "kind": "definition",
+      "file": "graphical-angle.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [
+        "prop:graphical-mcf"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:graphical-angle-evolution",
+      "title": "Angle, reciprocal angle and their powers",
+      "kind": "proposition",
+      "file": "graphical-angle.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [
+        "prop:gauss-map-tension",
+        "prop:normal-variation-formulas"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:graphical-material-drift",
+      "title": "The drift introduced by graph coordinates",
+      "kind": "lemma",
+      "file": "graphical-angle.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:periodic-graph-slope-bound",
+      "title": "Slope cannot grow on a periodic graph",
+      "kind": "proposition",
+      "file": "graphical-angle.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [
+        "lem:graphical-material-drift",
+        "prop:graphical-mcf"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:graphical-slope-gradient",
+      "title": "The gradient of the reciprocal angle",
+      "kind": "lemma",
+      "file": "graphical-angle.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:graphical-curvature-square",
+      "title": "An exact square identity for slope-weighted curvature",
+      "kind": "proposition",
+      "file": "graphical-curvature.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [
+        "prop:graphical-angle-evolution",
+        "prop:mcf-curvature-evolution"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:periodic-weighted-curvature-bound",
+      "title": "Weighted curvature cannot grow on a periodic flow",
+      "kind": "corollary",
+      "file": "graphical-curvature.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [
+        "lem:graphical-material-drift",
+        "prop:graphical-curvature-square",
+        "prop:periodic-graph-slope-bound"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:graphical-smoothing-quantity",
+      "title": "A quantity that eliminates the initial curvature bound",
+      "kind": "lemma",
+      "file": "graphical-curvature.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [
+        "prop:graphical-curvature-square"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:periodic-graph-curvature-smoothing",
+      "title": "Curvature smoothing from slope alone",
+      "kind": "theorem",
+      "file": "graphical-curvature.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [
+        "lem:graphical-smoothing-quantity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:ancient-periodic-graph-rigidity",
+      "title": "Uniformly bounded ancient periodic slopes are rigid",
+      "kind": "corollary",
+      "file": "graphical-curvature.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:periodic-graph-curvature-smoothing"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:grim-slope-curvature-identity",
+      "title": "Why the grim reaper does not violate ancient rigidity",
+      "kind": "example",
+      "file": "graphical-curvature.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:ancient-periodic-graph-rigidity",
+        "prop:graphical-curvature-square"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:graph-curvature-hessian-comparison",
+      "title": "Converting graph curvature to Euclidean Hessian bounds",
+      "kind": "lemma",
+      "file": "graphical-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:periodic-hessian-oscillation",
+      "title": "Periodicity controls slope and oscillation by the Hessian",
+      "kind": "lemma",
+      "file": "graphical-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:periodic-height-intervals",
+      "title": "Height intervals are nested",
+      "kind": "proposition",
+      "file": "graphical-convergence.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:periodic-graph-conditional-convergence",
+      "title": "Conditional convergence to one horizontal slice",
+      "kind": "theorem",
+      "file": "graphical-convergence.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [
+        "lem:graph-curvature-hessian-comparison",
+        "lem:periodic-hessian-oscillation",
+        "prop:periodic-graph-slope-bound",
+        "prop:periodic-height-intervals",
+        "thm:periodic-graph-curvature-smoothing"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:graph-area-mobility",
+      "title": "Graphical flow is an area gradient flow with variable mobility",
+      "kind": "proposition",
+      "file": "graphical-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:mcf-area-dissipation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:periodic-area-dissipation-gap",
+      "title": "An area-excess dissipation inequality",
+      "kind": "lemma",
+      "file": "graphical-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:closed-manifold-poincare"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:periodic-area-exponential-decay",
+      "title": "Exponential decay of periodic graph area and gradient energy",
+      "kind": "theorem",
+      "file": "graphical-convergence.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [
+        "lem:periodic-area-dissipation-gap",
+        "prop:graph-area-mobility",
+        "thm:periodic-graph-conditional-convergence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:torus-lipschitz-l2-interpolation",
+      "title": "A Lipschitz-to-uniform interpolation estimate on the torus",
+      "kind": "lemma",
+      "file": "graphical-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:periodic-graph-exponential-c1",
+      "title": "Exponential convergence of height and slope",
+      "kind": "corollary",
+      "file": "graphical-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:periodic-hessian-oscillation",
+        "lem:torus-lipschitz-l2-interpolation",
+        "thm:periodic-area-exponential-decay",
+        "thm:periodic-graph-conditional-convergence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:periodic-total-area-dissipation",
+      "title": "The total curvature dissipation equals the initial area excess",
+      "kind": "corollary",
+      "file": "graphical-convergence.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:graph-area-mobility",
+        "thm:periodic-area-exponential-decay"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:graphical-heat-coordinate-cancellation",
+      "title": "Normal material heat equals the graph nondivergence operator",
+      "kind": "lemma",
+      "file": "graphical-entire.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:graphical-material-drift"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:entire-polynomial-maximum-principle",
+      "title": "A maximum principle with an explicit polynomial growth condition",
+      "kind": "lemma",
+      "file": "graphical-entire.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:entire-graph-slope-preservation",
+      "title": "Slope preservation for an entire graph with controlled growth",
+      "kind": "proposition",
+      "file": "graphical-entire.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [
+        "lem:entire-polynomial-maximum-principle",
+        "lem:graphical-heat-coordinate-cancellation",
+        "prop:graphical-angle-evolution"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:entire-graph-curvature-smoothing",
+      "title": "Entire-graph curvature smoothing with slab bounds",
+      "kind": "theorem",
+      "file": "graphical-entire.tex",
+      "status": "proof-included",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [
+        "lem:entire-polynomial-maximum-principle",
+        "lem:graphical-heat-coordinate-cancellation",
+        "lem:graphical-slope-gradient",
+        "lem:graphical-smoothing-quantity",
+        "prop:graphical-curvature-square"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:ancient-entire-graph-rigidity",
+      "title": "A bounded-slope ancient entire graph is a plane under slab curvature control",
+      "kind": "corollary",
+      "file": "graphical-entire.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:graph-curvature-hessian-comparison",
+        "thm:entire-graph-curvature-smoothing"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:entire-graph-bounded-geometry-uniqueness",
+      "title": "Uniqueness for entire flows with bounded slope and curvature",
+      "kind": "proposition",
+      "file": "graphical-entire.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:entire-polynomial-maximum-principle",
+        "lem:graph-curvature-hessian-comparison",
+        "prop:graphical-mcf-comparison"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:ecker-huisken-global-graph-existence",
+      "title": "Ecker--Huisken existence for globally Lipschitz entire graphs",
+      "kind": "theorem",
+      "file": "graphical-entire.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "EH89"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:periodic-graph-global-existence-convergence",
+      "title": "Smooth periodic initial graphs exist globally and converge",
+      "kind": "corollary",
+      "file": "graphical-entire.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:periodic-graph-exponential-c1",
+        "cor:periodic-total-area-dissipation",
+        "prop:entire-graph-bounded-geometry-uniqueness",
+        "thm:ecker-huisken-global-graph-existence",
+        "thm:periodic-area-exponential-decay",
+        "thm:periodic-graph-conditional-convergence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:curve-graph-mean-conservation",
+      "title": "Curve graphs preserve their ordinary spatial average",
+      "kind": "example",
+      "file": "examples-graphical-flow.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:graphical-mcf",
+        "thm:periodic-graph-conditional-convergence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:surface-graph-changing-mean",
+      "title": "A two-dimensional graph changes its spatial average",
+      "kind": "example",
+      "file": "examples-graphical-flow.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:graphical-single-mode-not-solution",
+      "title": "A single Fourier mode is not an exact nonlinear flow",
+      "kind": "example",
+      "file": "examples-graphical-flow.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:shrinker-positive-angle-ground-state",
+      "title": "Positive angle gives a shifted Gaussian stability identity",
+      "kind": "proposition",
+      "file": "graphical-shrinker.tex",
+      "status": "proof-included",
+      "citations": [
+        "Wang09"
+      ],
+      "dependencies": [
+        "lem:gaussian-integration-parts",
+        "prop:shrinker-translation-dilation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:shrinker-positive-angle-rigidity",
+      "title": "Finite Gaussian area and a strict Gauss-map hemisphere force a plane",
+      "kind": "theorem",
+      "file": "graphical-shrinker.tex",
+      "status": "proof-included",
+      "citations": [
+        "Wang09"
+      ],
+      "dependencies": [
+        "lem:complete-parallel-hypersurface",
+        "prop:shrinker-positive-angle-ground-state"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:compact-flow-entire-graph-avoidance",
+      "title": "A compact flow avoids a smooth entire graph without growth bounds",
+      "kind": "lemma",
+      "file": "graphical-shrinker.tex",
+      "status": "proof-included",
+      "citations": [
+        "Wang09"
+      ],
+      "dependencies": [
+        "prop:mcf-avoidance"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:shrinker-graph-linear-height",
+      "title": "Shrinker graphs have a linear height bound",
+      "kind": "lemma",
+      "file": "graphical-shrinker.tex",
+      "status": "proof-included",
+      "citations": [
+        "Wang09"
+      ],
+      "dependencies": [
+        "lem:compact-flow-entire-graph-avoidance"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:graph-area-height-mean-curvature",
+      "title": "A cylinder area estimate for a graph with bounded mean curvature",
+      "kind": "proposition",
+      "file": "graphical-shrinker.tex",
+      "status": "proof-included",
+      "citations": [
+        "Wang09"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:shrinker-graph-polynomial-area",
+      "title": "Polynomial area and finite Gaussian area are automatic for shrinker graphs",
+      "kind": "corollary",
+      "file": "graphical-shrinker.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:gaussian-polynomial-moments",
+        "lem:shrinker-graph-linear-height",
+        "prop:graph-area-height-mean-curvature"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:entire-shrinker-graph-bernstein",
+      "title": "Every smooth entire graphical self-shrinker is a linear hyperplane",
+      "kind": "theorem",
+      "file": "graphical-shrinker.tex",
+      "status": "proof-included",
+      "citations": [
+        "Wang09"
+      ],
+      "dependencies": [
+        "cor:shrinker-graph-polynomial-area",
+        "thm:shrinker-positive-angle-rigidity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:shrinker-hemisphere-incomplete",
+      "title": "A spherical cap has positive angle but is incomplete",
+      "kind": "example",
+      "file": "graphical-shrinker.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:shrinking-cylinders",
+        "thm:entire-shrinker-graph-bernstein",
+        "thm:shrinker-positive-angle-rigidity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:homogeneous-harmonic-spaces",
+      "title": "Homogeneous and harmonic polynomial spaces",
+      "kind": "definition",
+      "file": "spherical-harmonics.tex",
+      "status": "definition-with-source",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:harmonic-polynomial-fischer-decomposition",
+      "title": "Algebraic harmonic decomposition and dimensions",
+      "kind": "lemma",
+      "file": "spherical-harmonics.tex",
+      "status": "proof-included",
+      "citations": [
+        "ABR01"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:harmonic-restriction-eigenvalues",
+      "title": "Eigenvalues and orthogonality of harmonic restrictions",
+      "kind": "proposition",
+      "file": "spherical-harmonics.tex",
+      "status": "proof-included",
+      "citations": [
+        "ABR01"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:spherical-harmonic-l2-expansion",
+      "title": "Complete spherical harmonic expansion in L2",
+      "kind": "theorem",
+      "file": "spherical-harmonics.tex",
+      "status": "proof-included",
+      "citations": [
+        "ABR01"
+      ],
+      "dependencies": [
+        "lem:harmonic-polynomial-fischer-decomposition"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:spherical-harmonic-h1-expansion",
+      "title": "Sobolev energy expansion and exhaustion of weak eigenfunctions",
+      "kind": "proposition",
+      "file": "spherical-harmonics.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:spherical-harmonic-l2-expansion"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:sphere-higher-mode-gap",
+      "title": "Sharp spectral gaps after removing low modes",
+      "kind": "corollary",
+      "file": "spherical-harmonics.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:spherical-harmonic-h1-expansion"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:sphere-low-harmonic-modes",
+      "title": "Linear and trace-free quadratic modes",
+      "kind": "example",
+      "file": "spherical-harmonics.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:sphere-higher-mode-gap"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:sphere-coordinate-moments",
+      "title": "Second and fourth coordinate moments",
+      "kind": "lemma",
+      "file": "spherical-harmonics.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:sphere-low-mode-projections",
+      "title": "Explicit projections onto the first three harmonic spaces",
+      "kind": "proposition",
+      "file": "spherical-harmonics.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:sphere-coordinate-moments"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:sphere-poisson-inverse",
+      "title": "A mean-zero weak Poisson inverse on a round sphere",
+      "kind": "proposition",
+      "file": "spherical-harmonics.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "cor:sphere-higher-mode-gap",
+        "prop:spherical-harmonic-h1-expansion"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -12562,7 +13225,9 @@
     "Basic singular and relative cohomology, cup products, and cellular dimension theorem",
     "Principal eigenfunction theorem for compact uniformly elliptic self-adjoint operators",
     "Interior elliptic derivative estimates in the flat Allen–Cahn bounded-kernel decay proof",
-    "Elliptic W2p and Schauder bootstrapping for fixed-epsilon Allen–Cahn smoothness and critical-set compactness"
+    "Elliptic W2p and Schauder bootstrapping for fixed-epsilon Allen–Cahn smoothness and critical-set compactness",
+    "Ecker–Huisken1989 entire globally-Lipschitz graphical-flow existence, higher curvature derivative estimates and Lipschitz approximation",
+    "Stone–Weierstrass approximation on a compact sphere; continuous-function density for finite Radon surface measure; Sobolev completeness"
   ],
   "next_development": [
     "Covering and differentiation theorems for measures",

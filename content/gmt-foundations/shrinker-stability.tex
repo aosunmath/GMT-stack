@@ -71,10 +71,15 @@ The sphere $S^n(\sqrt{2n})\subset\mathbb R^{n+1}$, $n\geq1$, is $F$-stable. For 
 \[
  Q(g)\geq\frac1n[g^2].
 \]
-The estimate uses the classical spherical harmonic spectrum as an external spectral input, as in \cite{CM12}, Lemma 4.23.
+The estimate follows from the locally proved higher spherical harmonic gap in Corollary \ref{cor:sphere-higher-mode-gap}, and agrees with \cite{CM12}, Lemma 4.23.
 \end{proposition}
 \begin{proof}
-Here $x^T=0$, $|A|^2=1/2$, $H=\sqrt{n/2}$, and $L=\Delta+1$. The external spherical harmonic decomposition gives eigenvalues $k(k+n-1)/(2n)$ of $-\Delta$, $k=0,1,\ldots$. Constants are the $k=0$ space; the $k=1$ space consists of restrictions of linear functions, precisely the normal translation modes up to a constant factor. On their orthogonal complement the eigenvalues are at least $(n+1)/n$. Expansion in the orthogonal spherical harmonics therefore gives $[|\nabla g|^2]-[g^2]\geq[g^2]/n$. Proposition \ref{prop:shrinker-optimized-hessian} supplies center and scale adjustments making the full Hessian nonnegative. The proof does not contradict fixed-center instability.
+Here $x^T=0$, $|A|^2=1/2$, $H=\sqrt{n/2}$, and $L=\Delta+1$. The normal translation modes are the restrictions of linear functions, up to the fixed radius factor. Thus the remainder $g$ is orthogonal to degrees zero and one in the harmonic decomposition proved in Theorem \ref{thm:spherical-harmonic-l2-expansion}. On a centered sphere the Gaussian density is a positive constant, so this is also ordinary surface orthogonality. Corollary \ref{cor:sphere-higher-mode-gap} at radius $\sqrt{2n}$ gives
+\[
+ [|\nabla g|^2]\geq\frac{n+1}{n}[g^2],
+ \qquad Q(g)=[|\nabla g|^2-g^2]\geq\frac1n[g^2].
+\]
+Proposition \ref{prop:shrinker-optimized-hessian} supplies center and scale adjustments making the full Hessian nonnegative. The sharp equality modes are the trace-free quadratics in Example \ref{ex:sphere-low-harmonic-modes}. This proof uses the local harmonic and Sobolev expansions, with their stated approximation background, and does not contradict fixed-center instability.
 \end{proof}
 
 \begin{theorem}[Sign-changing mean curvature gives closed F-instability]\label{thm:shrinker-changing-sign-instability}
