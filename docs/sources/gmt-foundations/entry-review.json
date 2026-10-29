@@ -779,9 +779,7 @@
       "citations": [
         "Sim18"
       ],
-      "dependencies": [
-        "prop:bv-vector-representation"
-      ],
+      "dependencies": [],
       "formal_verification": "none"
     },
     {
@@ -825,13 +823,17 @@
       "title": "De Giorgi structure and Gauss--Green",
       "kind": "theorem",
       "file": "perimeter.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Fle16",
         "Sim18"
       ],
       "dependencies": [
-        "def:bv"
+        "cor:perimeter-concentrated-reduced-boundary",
+        "def:bv",
+        "thm:perimeter-hausdorff-identification",
+        "thm:radon-function-differentiation",
+        "thm:reduced-boundary-graph-cover"
       ],
       "formal_verification": "none"
     },
@@ -842,9 +844,7 @@
       "file": "perimeter.tex",
       "status": "worked-example",
       "citations": [],
-      "dependencies": [
-        "thm:de-giorgi"
-      ],
+      "dependencies": [],
       "formal_verification": "none"
     },
     {
@@ -2761,11 +2761,16 @@
       "title": "Half-space blow-up at a reduced-boundary point",
       "kind": "theorem",
       "file": "bv-compactness.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Sim18"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "cor:reduced-boundary-exact-densities",
+        "thm:interval-finite-perimeter-sets",
+        "thm:reduced-boundary-full-blowup",
+        "thm:reduced-boundary-perimeter-tangent"
+      ],
       "formal_verification": "none"
     },
     {
@@ -14099,13 +14104,673 @@
         "prop:diffuse-current-not-rectifiable"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "thm:besicovitch-ball-selection",
+      "title": "Besicovitch selection for Euclidean balls",
+      "kind": "theorem",
+      "file": "radon-differentiation.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Fed69",
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:radon-symmetric-vitali",
+      "title": "A finite-measure fine cover has an almost-everywhere disjoint selection",
+      "kind": "proposition",
+      "file": "radon-differentiation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:besicovitch-ball-selection"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:radon-maximal-weak",
+      "title": "A maximal estimate without a doubling hypothesis",
+      "kind": "proposition",
+      "file": "radon-differentiation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:besicovitch-ball-selection"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:radon-absolute-oscillation",
+      "title": "Absolute oscillation vanishes at almost every Radon-measure point",
+      "kind": "theorem",
+      "file": "radon-differentiation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:radon-maximal-weak",
+        "thm:radon-lp-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:radon-function-differentiation",
+      "title": "Differentiation of functions relative to a Euclidean Radon measure",
+      "kind": "theorem",
+      "file": "radon-differentiation.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:besicovitch-ball-selection",
+        "thm:radon-absolute-oscillation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:perimeter-polar-excess",
+      "title": "The squared polar excess is an average defect",
+      "kind": "lemma",
+      "file": "perimeter-polar.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:perimeter-polar-components",
+      "title": "Tangential and negative polar components disappear",
+      "kind": "corollary",
+      "file": "perimeter-polar.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:perimeter-polar-excess"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:radial-phase-volume",
+      "title": "Radial phase volumes are absolutely continuous",
+      "kind": "lemma",
+      "file": "perimeter-polar.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:perimeter-radial-flux",
+      "title": "A radial flux bound without a smooth boundary",
+      "kind": "lemma",
+      "file": "perimeter-polar.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:radial-phase-volume"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:reduced-boundary-perimeter-growth",
+      "title": "Perimeter growth at a reduced-boundary point",
+      "kind": "proposition",
+      "file": "perimeter-polar.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:perimeter-polar-excess",
+        "lem:radial-phase-volume"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:perimeter-blowup-scaling",
+      "title": "Scaling the distributional derivative and its variation",
+      "kind": "lemma",
+      "file": "perimeter-polar.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:bv-first-power-sobolev",
+      "title": "The first-power inequality for compactly supported BV functions",
+      "kind": "proposition",
+      "file": "perimeter-volume.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:bv-mollification",
+        "thm:sobolev-first-power"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:phase-cutoff-sobolev",
+      "title": "A cutoff Sobolev estimate for a phase",
+      "kind": "corollary",
+      "file": "perimeter-volume.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:bv-cutoff-product",
+        "prop:bv-first-power-sobolev"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:phase-radial-sobolev",
+      "title": "A radial volume-perimeter inequality",
+      "kind": "proposition",
+      "file": "perimeter-volume.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:phase-cutoff-sobolev",
+        "lem:perimeter-radial-flux"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:perimeter-support-two-phases",
+      "title": "A perimeter-support point sees positive volume of both phases",
+      "kind": "lemma",
+      "file": "perimeter-volume.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:phase-volume-ode",
+      "title": "Integrating a positive radial differential inequality",
+      "kind": "lemma",
+      "file": "perimeter-volume.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:reduced-boundary-two-phase-volume",
+      "title": "Two-sided phase volume at a reduced-boundary point",
+      "kind": "theorem",
+      "file": "perimeter-volume.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:perimeter-support-two-phases",
+        "lem:phase-volume-ode",
+        "lem:radial-phase-volume",
+        "prop:phase-radial-sobolev",
+        "prop:reduced-boundary-perimeter-growth"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:distributional-one-direction",
+      "title": "Zero tangential derivatives imply one-dimensional dependence",
+      "kind": "lemma",
+      "file": "perimeter-halfspace.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:monotone-phase-halfspace",
+      "title": "A one-dimensional monotone phase is a half-space",
+      "kind": "lemma",
+      "file": "perimeter-halfspace.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:distributional-one-direction"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:reduced-boundary-blowup-compactness",
+      "title": "Compactness of every sequence of reduced-boundary dilations",
+      "kind": "proposition",
+      "file": "perimeter-halfspace.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:perimeter-compactness",
+        "lem:perimeter-blowup-scaling",
+        "prop:reduced-boundary-perimeter-growth"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:reduced-boundary-limit-direction",
+      "title": "Polar alignment determines the direction and sign of a limit",
+      "kind": "proposition",
+      "file": "perimeter-halfspace.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:perimeter-polar-components",
+        "lem:monotone-phase-halfspace",
+        "prop:bv-derivative-convergence",
+        "prop:reduced-boundary-blowup-compactness"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:reduced-boundary-centered-limit",
+      "title": "The two-phase bounds center the limiting half-space",
+      "kind": "proposition",
+      "file": "perimeter-halfspace.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:reduced-boundary-limit-direction",
+        "thm:reduced-boundary-two-phase-volume"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:reduced-boundary-full-blowup",
+      "title": "Full local convergence to the oriented half-space",
+      "kind": "theorem",
+      "file": "perimeter-halfspace.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:reduced-boundary-blowup-compactness",
+        "prop:reduced-boundary-centered-limit",
+        "prop:reduced-boundary-limit-direction"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:halfspace-derivative-measure",
+      "title": "The distributional derivative of an oriented half-space",
+      "kind": "lemma",
+      "file": "perimeter-tangent-measures.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:aligned-vector-variation-limit",
+      "title": "Aligned polar vectors prevent loss of variation",
+      "kind": "proposition",
+      "file": "perimeter-tangent-measures.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:reduced-boundary-perimeter-tangent",
+      "title": "The unique perimeter tangent measure at a reduced-boundary point",
+      "kind": "theorem",
+      "file": "perimeter-tangent-measures.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:halfspace-derivative-measure",
+        "lem:perimeter-blowup-scaling",
+        "lem:perimeter-polar-excess",
+        "prop:aligned-vector-variation-limit",
+        "prop:bv-derivative-convergence",
+        "prop:reduced-boundary-perimeter-growth",
+        "thm:reduced-boundary-full-blowup"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:reduced-boundary-exact-densities",
+      "title": "Exact phase and perimeter densities",
+      "kind": "corollary",
+      "file": "perimeter-tangent-measures.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:reduced-boundary-full-blowup",
+        "thm:reduced-boundary-perimeter-tangent"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:reduced-boundary-cone-concentration",
+      "title": "Perimeter mass outside the tangent cone is negligible",
+      "kind": "corollary",
+      "file": "perimeter-tangent-measures.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:reduced-boundary-perimeter-tangent"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:reduced-boundary-normal-tests",
+      "title": "The outward normal converges with the perimeter measure",
+      "kind": "proposition",
+      "file": "perimeter-tangent-measures.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:reduced-boundary-perimeter-tangent"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:normal-double-cone",
+      "title": "Mass outside a candidate tangent plane",
+      "kind": "definition",
+      "file": "perimeter-graph-cover.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:reduced-boundary-borel",
+      "title": "The reduced boundary and its normal are Borel",
+      "kind": "lemma",
+      "file": "perimeter-graph-cover.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:reduced-boundary"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:normal-cone-ball-inclusion",
+      "title": "A pair of points in a normal direction forces cone mass",
+      "kind": "lemma",
+      "file": "perimeter-graph-cover.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:uniform-cone-lipschitz-graph",
+      "title": "Uniform density and cone bounds give one Lipschitz graph",
+      "kind": "proposition",
+      "file": "perimeter-graph-cover.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:normal-cone-ball-inclusion",
+        "prop:mcshane-extension"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:pointwise-cone-graph-cover",
+      "title": "A pointwise density-and-cone criterion for a countable graph cover",
+      "kind": "theorem",
+      "file": "perimeter-graph-cover.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:uniform-cone-lipschitz-graph"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:reduced-boundary-graph-cover",
+      "title": "Countable rectifiability of the reduced boundary",
+      "kind": "theorem",
+      "file": "perimeter-graph-cover.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:reduced-boundary-cone-concentration",
+        "cor:reduced-boundary-exact-densities",
+        "def:rectifiable-set",
+        "lem:reduced-boundary-borel",
+        "thm:pointwise-cone-graph-cover"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:perimeter-concentrated-reduced-boundary",
+      "title": "The perimeter measure is concentrated on the reduced boundary",
+      "kind": "corollary",
+      "file": "perimeter-measure-identification.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:reduced-boundary-borel",
+        "thm:radon-function-differentiation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:lower-density-hausdorff-comparison",
+      "title": "A lower density bound controls Hausdorff measure",
+      "kind": "proposition",
+      "file": "perimeter-measure-identification.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:hausdorff-measure",
+        "lem:bounded-fivefold-covering"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:upper-density-radon-comparison",
+      "title": "An upper density bound controls the restricted Radon measure",
+      "kind": "proposition",
+      "file": "perimeter-measure-identification.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:perimeter-hausdorff-equivalence",
+      "title": "Perimeter and reduced-boundary Hausdorff measure have the same null sets",
+      "kind": "corollary",
+      "file": "perimeter-measure-identification.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:perimeter-concentrated-reduced-boundary",
+        "cor:reduced-boundary-exact-densities",
+        "prop:lower-density-hausdorff-comparison",
+        "prop:upper-density-radon-comparison"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:perimeter-hausdorff-identification",
+      "title": "Unit density identifies the perimeter measure exactly",
+      "kind": "theorem",
+      "file": "perimeter-measure-identification.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:perimeter-hausdorff-equivalence",
+        "cor:reduced-boundary-exact-densities",
+        "thm:radon-function-differentiation",
+        "thm:rectifiable-tangents",
+        "thm:reduced-boundary-graph-cover"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:smooth-subgraph-blowup",
+      "title": "A smooth subgraph has the expected oriented blow-up",
+      "kind": "example",
+      "file": "examples-perimeter-blowups.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "ex:smooth-perimeter"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:sector-reduced-boundary",
+      "title": "A planar sector has unit perimeter density at every vertex angle",
+      "kind": "example",
+      "file": "examples-perimeter-blowups.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:reduced-boundary"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:checkerboard-density-half",
+      "title": "Density one half does not characterize the reduced boundary",
+      "kind": "example",
+      "file": "examples-perimeter-blowups.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "ex:sector-reduced-boundary"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:collapsing-slab-perimeter",
+      "title": "A thin slab loses all phase volume but retains two sheets of perimeter",
+      "kind": "example",
+      "file": "examples-perimeter-blowups.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:aligned-vector-variation-limit"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:quadratic-cusp-perimeter",
+      "title": "A quadratic cusp has a double-line perimeter tangent and an empty phase tangent",
+      "kind": "example",
+      "file": "examples-perimeter-blowups.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "ex:complex-cusp-current"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:halfspace-dense-modification",
+      "title": "A negligible dense modification preserves every perimeter blow-up",
+      "kind": "example",
+      "file": "examples-perimeter-blowups.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "ex:null-modification-boundary",
+        "lem:halfspace-derivative-measure"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
     "Borel regularity and Euclidean normalization of Hausdorff measure",
     "Rectifiability and approximate tangent characterization",
     "Area and coarea formulas",
-    "De Giorgi structure theorem",
     "Rectifiable current representation and mass formula",
     "Federer--Fleming compactness and closure",
     "Normal-bundle index theory for one-sided hypersurfaces",
@@ -14165,12 +14830,17 @@
     "Countable C1 decomposition of rectifiable sets.",
     "Euclidean area formula and rectifiable coarea including the almost-everywhere fiber tangent assertion.",
     "Elementary smooth convolution, Fubini/Tonelli, finite-measure continuity and Stokes on explicit smooth pieces.",
-    "No Federer-Fleming compactness, deformation theorem or integer flat-norm equivalence is proved here."
+    "No Federer-Fleming compactness, deformation theorem or integer flat-norm equivalence is proved here.",
+    "Besicovitch Euclidean ball selection, newly recorded as a cited theorem. Its proof remains external.",
+    "The existing cited density-one theorem for locally finite rectifiable sets, thm:rectifiable-tangents.",
+    "Abstract Radon–Nikodym representation and standard Euclidean integration, convolution and one-dimensional calculus.",
+    "No sharp isoperimetric constant, uniform rate for arbitrary perimeter blow-ups, or smoothness of an arbitrary topological boundary is asserted.",
+    "The standard normalization identifying Hausdorff measure on a Euclidean plane with its Lebesgue measure, already cited in def:hausdorff-measure."
   ],
   "next_development": [
-    "Covering and differentiation theorems for measures",
-    "Proofs of Rademacher and the area/coarea formulas",
-    "Sharp isoperimetry, traces, and the full De Giorgi blow-up proof",
+    "Proof of the Besicovitch covering theorem; refined measure differentiation",
+    "Proofs of the area/coarea formulas and rectifiable-set density",
+    "Sharp isoperimetry, BV traces and quantitative perimeter estimates",
     "Deformation theorem and compactness of integral currents",
     "Full proofs of integral-varifold compactness and Allard excess decay; quantitative stratification and rectifiability of strata",
     "Discrete interpolation, almost-minimizing selection, replacement regularity, and modern Pitts hypotheses",

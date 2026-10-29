@@ -11275,5 +11275,491 @@
     "page": "tag/DDDE15D6/index.html",
     "canonical_tag": "B8C720A93B65",
     "anchor": ""
+  },
+  {
+    "tag": "C67E9B56",
+    "label": "sec:radon-measure-differentiation",
+    "title": "161 Differentiation for arbitrary Euclidean Radon measures",
+    "kind": "chapter",
+    "page": "tag/C67E9B56/index.html",
+    "canonical_tag": "3D0835D7EEF7",
+    "anchor": ""
+  },
+  {
+    "tag": "27B6D2E0",
+    "label": "thm:besicovitch-ball-selection",
+    "title": "Theorem 161.1 (Besicovitch selection for Euclidean balls)",
+    "kind": "theorem",
+    "page": "tag/27B6D2E0/index.html",
+    "canonical_tag": "D6286EBDCB63",
+    "anchor": ""
+  },
+  {
+    "tag": "C95D01F8",
+    "label": "prop:radon-symmetric-vitali",
+    "title": "Proposition 161.2 (A finite-measure fine cover has an almost-everywhere disjoint selection)",
+    "kind": "proposition",
+    "page": "tag/C95D01F8/index.html",
+    "canonical_tag": "954642522D63",
+    "anchor": ""
+  },
+  {
+    "tag": "5B5C712A",
+    "label": "prop:radon-maximal-weak",
+    "title": "Proposition 161.3 (A maximal estimate without a doubling hypothesis)",
+    "kind": "proposition",
+    "page": "tag/5B5C712A/index.html",
+    "canonical_tag": "B0AF5D98AEEC",
+    "anchor": ""
+  },
+  {
+    "tag": "B2CFED51",
+    "label": "thm:radon-absolute-oscillation",
+    "title": "Theorem 161.4 (Absolute oscillation vanishes at almost every Radon-measure point)",
+    "kind": "theorem",
+    "page": "tag/B2CFED51/index.html",
+    "canonical_tag": "96707809DDCF",
+    "anchor": ""
+  },
+  {
+    "tag": "DDA887D7",
+    "label": "thm:radon-function-differentiation",
+    "title": "Theorem 161.5 (Differentiation of functions relative to a Euclidean Radon measure)",
+    "kind": "theorem",
+    "page": "tag/DDA887D7/index.html",
+    "canonical_tag": "E9D501868A2F",
+    "anchor": ""
+  },
+  {
+    "tag": "CA34928D",
+    "label": "sec:perimeter-polar-growth",
+    "title": "162 Polar alignment and perimeter growth",
+    "kind": "chapter",
+    "page": "tag/CA34928D/index.html",
+    "canonical_tag": "AA1E42250DFB",
+    "anchor": ""
+  },
+  {
+    "tag": "1620EFE8",
+    "label": "lem:perimeter-polar-excess",
+    "title": "Lemma 162.1 (The squared polar excess is an average defect)",
+    "kind": "lemma",
+    "page": "tag/1620EFE8/index.html",
+    "canonical_tag": "667EA6E6C7BA",
+    "anchor": ""
+  },
+  {
+    "tag": "24952E8B",
+    "label": "cor:perimeter-polar-components",
+    "title": "Corollary 162.2 (Tangential and negative polar components disappear)",
+    "kind": "corollary",
+    "page": "tag/24952E8B/index.html",
+    "canonical_tag": "E35EC14C05C1",
+    "anchor": ""
+  },
+  {
+    "tag": "3035C332",
+    "label": "lem:radial-phase-volume",
+    "title": "Lemma 162.3 (Radial phase volumes are absolutely continuous)",
+    "kind": "lemma",
+    "page": "tag/3035C332/index.html",
+    "canonical_tag": "8CD253C511F3",
+    "anchor": ""
+  },
+  {
+    "tag": "8E1977C9",
+    "label": "lem:perimeter-radial-flux",
+    "title": "Lemma 162.4 (A radial flux bound without a smooth boundary)",
+    "kind": "lemma",
+    "page": "tag/8E1977C9/index.html",
+    "canonical_tag": "714C12C35564",
+    "anchor": ""
+  },
+  {
+    "tag": "248E3C98",
+    "label": "prop:reduced-boundary-perimeter-growth",
+    "title": "Proposition 162.5 (Perimeter growth at a reduced-boundary point)",
+    "kind": "proposition",
+    "page": "tag/248E3C98/index.html",
+    "canonical_tag": "D17532795B67",
+    "anchor": ""
+  },
+  {
+    "tag": "A3D54FA9",
+    "label": "lem:perimeter-blowup-scaling",
+    "title": "Lemma 162.6 (Scaling the distributional derivative and its variation)",
+    "kind": "lemma",
+    "page": "tag/A3D54FA9/index.html",
+    "canonical_tag": "A0C5D3D85441",
+    "anchor": ""
+  },
+  {
+    "tag": "F682E174",
+    "label": "sec:perimeter-two-phase",
+    "title": "163 Two phases persist under perimeter blow-up",
+    "kind": "chapter",
+    "page": "tag/F682E174/index.html",
+    "canonical_tag": "90C626A5512D",
+    "anchor": ""
+  },
+  {
+    "tag": "B3883C7C",
+    "label": "prop:bv-first-power-sobolev",
+    "title": "Proposition 163.1 (The first-power inequality for compactly supported BV functions)",
+    "kind": "proposition",
+    "page": "tag/B3883C7C/index.html",
+    "canonical_tag": "5D94D6D39FA5",
+    "anchor": ""
+  },
+  {
+    "tag": "126F0506",
+    "label": "cor:phase-cutoff-sobolev",
+    "title": "Corollary 163.2 (A cutoff Sobolev estimate for a phase)",
+    "kind": "corollary",
+    "page": "tag/126F0506/index.html",
+    "canonical_tag": "620C34C97991",
+    "anchor": ""
+  },
+  {
+    "tag": "61EE2AB1",
+    "label": "prop:phase-radial-sobolev",
+    "title": "Proposition 163.3 (A radial volume-perimeter inequality)",
+    "kind": "proposition",
+    "page": "tag/61EE2AB1/index.html",
+    "canonical_tag": "A8AC237B1A7E",
+    "anchor": ""
+  },
+  {
+    "tag": "D6F1EBAD",
+    "label": "lem:perimeter-support-two-phases",
+    "title": "Lemma 163.4 (A perimeter-support point sees positive volume of both phases)",
+    "kind": "lemma",
+    "page": "tag/D6F1EBAD/index.html",
+    "canonical_tag": "863266B2B394",
+    "anchor": ""
+  },
+  {
+    "tag": "2223F42A",
+    "label": "lem:phase-volume-ode",
+    "title": "Lemma 163.5 (Integrating a positive radial differential inequality)",
+    "kind": "lemma",
+    "page": "tag/2223F42A/index.html",
+    "canonical_tag": "CC9DD078E7CD",
+    "anchor": ""
+  },
+  {
+    "tag": "6EF8AC5E",
+    "label": "thm:reduced-boundary-two-phase-volume",
+    "title": "Theorem 163.6 (Two-sided phase volume at a reduced-boundary point)",
+    "kind": "theorem",
+    "page": "tag/6EF8AC5E/index.html",
+    "canonical_tag": "C37DA08B0091",
+    "anchor": ""
+  },
+  {
+    "tag": "293B6645",
+    "label": "sec:perimeter-halfspace-classification",
+    "title": "164 Classifying the reduced-boundary blow-up",
+    "kind": "chapter",
+    "page": "tag/293B6645/index.html",
+    "canonical_tag": "BAD4D47C7417",
+    "anchor": ""
+  },
+  {
+    "tag": "3CD82AD6",
+    "label": "lem:distributional-one-direction",
+    "title": "Lemma 164.1 (Zero tangential derivatives imply one-dimensional dependence)",
+    "kind": "lemma",
+    "page": "tag/3CD82AD6/index.html",
+    "canonical_tag": "FABC4798AB51",
+    "anchor": ""
+  },
+  {
+    "tag": "80CA6545",
+    "label": "lem:monotone-phase-halfspace",
+    "title": "Lemma 164.2 (A one-dimensional monotone phase is a half-space)",
+    "kind": "lemma",
+    "page": "tag/80CA6545/index.html",
+    "canonical_tag": "A77606036837",
+    "anchor": ""
+  },
+  {
+    "tag": "1EE7E037",
+    "label": "prop:reduced-boundary-blowup-compactness",
+    "title": "Proposition 164.3 (Compactness of every sequence of reduced-boundary dilations)",
+    "kind": "proposition",
+    "page": "tag/1EE7E037/index.html",
+    "canonical_tag": "FB1F9CB663FD",
+    "anchor": ""
+  },
+  {
+    "tag": "B064E4A9",
+    "label": "prop:reduced-boundary-limit-direction",
+    "title": "Proposition 164.4 (Polar alignment determines the direction and sign of a limit)",
+    "kind": "proposition",
+    "page": "tag/B064E4A9/index.html",
+    "canonical_tag": "CCD9DCAE0C36",
+    "anchor": ""
+  },
+  {
+    "tag": "8AE56500",
+    "label": "prop:reduced-boundary-centered-limit",
+    "title": "Proposition 164.5 (The two-phase bounds center the limiting half-space)",
+    "kind": "proposition",
+    "page": "tag/8AE56500/index.html",
+    "canonical_tag": "5B2F3EE1FEFC",
+    "anchor": ""
+  },
+  {
+    "tag": "83996A32",
+    "label": "thm:reduced-boundary-full-blowup",
+    "title": "Theorem 164.6 (Full local convergence to the oriented half-space)",
+    "kind": "theorem",
+    "page": "tag/83996A32/index.html",
+    "canonical_tag": "BA59CAB499AC",
+    "anchor": ""
+  },
+  {
+    "tag": "2D693FCF",
+    "label": "sec:perimeter-tangent-measures",
+    "title": "165 Perimeter tangent measures and density",
+    "kind": "chapter",
+    "page": "tag/2D693FCF/index.html",
+    "canonical_tag": "17D513F1B36E",
+    "anchor": ""
+  },
+  {
+    "tag": "3A39DB24",
+    "label": "lem:halfspace-derivative-measure",
+    "title": "Lemma 165.1 (The distributional derivative of an oriented half-space)",
+    "kind": "lemma",
+    "page": "tag/3A39DB24/index.html",
+    "canonical_tag": "D302EA7F7BB9",
+    "anchor": ""
+  },
+  {
+    "tag": "8BCF37A1",
+    "label": "prop:aligned-vector-variation-limit",
+    "title": "Proposition 165.2 (Aligned polar vectors prevent loss of variation)",
+    "kind": "proposition",
+    "page": "tag/8BCF37A1/index.html",
+    "canonical_tag": "48D884ABF86A",
+    "anchor": ""
+  },
+  {
+    "tag": "441C2E68",
+    "label": "thm:reduced-boundary-perimeter-tangent",
+    "title": "Theorem 165.3 (The unique perimeter tangent measure at a reduced-boundary point)",
+    "kind": "theorem",
+    "page": "tag/441C2E68/index.html",
+    "canonical_tag": "5B5E0ED1D82A",
+    "anchor": ""
+  },
+  {
+    "tag": "88B4CE3A",
+    "label": "cor:reduced-boundary-exact-densities",
+    "title": "Corollary 165.4 (Exact phase and perimeter densities)",
+    "kind": "corollary",
+    "page": "tag/88B4CE3A/index.html",
+    "canonical_tag": "F29DEC9B2073",
+    "anchor": ""
+  },
+  {
+    "tag": "BB70D9FE",
+    "label": "cor:reduced-boundary-cone-concentration",
+    "title": "Corollary 165.5 (Perimeter mass outside the tangent cone is negligible)",
+    "kind": "corollary",
+    "page": "tag/BB70D9FE/index.html",
+    "canonical_tag": "B79E0A9D9C47",
+    "anchor": ""
+  },
+  {
+    "tag": "6E4616AC",
+    "label": "prop:reduced-boundary-normal-tests",
+    "title": "Proposition 165.6 (The outward normal converges with the perimeter measure)",
+    "kind": "proposition",
+    "page": "tag/6E4616AC/index.html",
+    "canonical_tag": "BC6FF44C4CE9",
+    "anchor": ""
+  },
+  {
+    "tag": "A03C375A",
+    "label": "sec:perimeter-graph-cover",
+    "title": "166 From perimeter tangents to Lipschitz graphs",
+    "kind": "chapter",
+    "page": "tag/A03C375A/index.html",
+    "canonical_tag": "ECD05DFBEA2A",
+    "anchor": ""
+  },
+  {
+    "tag": "CBA8C059",
+    "label": "def:normal-double-cone",
+    "title": "Definition 166.1 (Mass outside a candidate tangent plane)",
+    "kind": "definition",
+    "page": "tag/CBA8C059/index.html",
+    "canonical_tag": "1657E1668A52",
+    "anchor": ""
+  },
+  {
+    "tag": "5FFDBE59",
+    "label": "lem:reduced-boundary-borel",
+    "title": "Lemma 166.2 (The reduced boundary and its normal are Borel)",
+    "kind": "lemma",
+    "page": "tag/5FFDBE59/index.html",
+    "canonical_tag": "713ECED9181E",
+    "anchor": ""
+  },
+  {
+    "tag": "376946BC",
+    "label": "lem:normal-cone-ball-inclusion",
+    "title": "Lemma 166.3 (A pair of points in a normal direction forces cone mass)",
+    "kind": "lemma",
+    "page": "tag/376946BC/index.html",
+    "canonical_tag": "9E356A954D5F",
+    "anchor": ""
+  },
+  {
+    "tag": "2C954172",
+    "label": "prop:uniform-cone-lipschitz-graph",
+    "title": "Proposition 166.4 (Uniform density and cone bounds give one Lipschitz graph)",
+    "kind": "proposition",
+    "page": "tag/2C954172/index.html",
+    "canonical_tag": "CF5202CEB133",
+    "anchor": ""
+  },
+  {
+    "tag": "25CB8E01",
+    "label": "thm:pointwise-cone-graph-cover",
+    "title": "Theorem 166.5 (A pointwise density-and-cone criterion for a countable graph cover)",
+    "kind": "theorem",
+    "page": "tag/25CB8E01/index.html",
+    "canonical_tag": "8B6161F902E6",
+    "anchor": ""
+  },
+  {
+    "tag": "B2121317",
+    "label": "thm:reduced-boundary-graph-cover",
+    "title": "Theorem 166.6 (Countable rectifiability of the reduced boundary)",
+    "kind": "theorem",
+    "page": "tag/B2121317/index.html",
+    "canonical_tag": "C02EADB4998C",
+    "anchor": ""
+  },
+  {
+    "tag": "AF6BB8B0",
+    "label": "sec:perimeter-measure-identification",
+    "title": "167 Identifying the perimeter measure",
+    "kind": "chapter",
+    "page": "tag/AF6BB8B0/index.html",
+    "canonical_tag": "0125F1E08E69",
+    "anchor": ""
+  },
+  {
+    "tag": "F7FF9305",
+    "label": "cor:perimeter-concentrated-reduced-boundary",
+    "title": "Corollary 167.1 (The perimeter measure is concentrated on the reduced boundary)",
+    "kind": "corollary",
+    "page": "tag/F7FF9305/index.html",
+    "canonical_tag": "4654F1F7DB1D",
+    "anchor": ""
+  },
+  {
+    "tag": "CAF5A4CA",
+    "label": "prop:lower-density-hausdorff-comparison",
+    "title": "Proposition 167.2 (A lower density bound controls Hausdorff measure)",
+    "kind": "proposition",
+    "page": "tag/CAF5A4CA/index.html",
+    "canonical_tag": "4AC44593129C",
+    "anchor": ""
+  },
+  {
+    "tag": "D34263DA",
+    "label": "prop:upper-density-radon-comparison",
+    "title": "Proposition 167.3 (An upper density bound controls the restricted Radon measure)",
+    "kind": "proposition",
+    "page": "tag/D34263DA/index.html",
+    "canonical_tag": "77C1DB68F24B",
+    "anchor": ""
+  },
+  {
+    "tag": "9F495D98",
+    "label": "cor:perimeter-hausdorff-equivalence",
+    "title": "Corollary 167.4 (Perimeter and reduced-boundary Hausdorff measure have the same null sets)",
+    "kind": "corollary",
+    "page": "tag/9F495D98/index.html",
+    "canonical_tag": "F3C9C1933555",
+    "anchor": ""
+  },
+  {
+    "tag": "6C354430",
+    "label": "thm:perimeter-hausdorff-identification",
+    "title": "Theorem 167.5 (Unit density identifies the perimeter measure exactly)",
+    "kind": "theorem",
+    "page": "tag/6C354430/index.html",
+    "canonical_tag": "DCBDD31CBE35",
+    "anchor": ""
+  },
+  {
+    "tag": "A0A92E3C",
+    "label": "sec:examples-perimeter-blowups",
+    "title": "168 Examples of phase density and perimeter blow-ups",
+    "kind": "chapter",
+    "page": "tag/A0A92E3C/index.html",
+    "canonical_tag": "803F610AA9A0",
+    "anchor": ""
+  },
+  {
+    "tag": "C243CD20",
+    "label": "ex:smooth-subgraph-blowup",
+    "title": "Example 168.1 (A smooth subgraph has the expected oriented blow-up)",
+    "kind": "example",
+    "page": "tag/C243CD20/index.html",
+    "canonical_tag": "E5E731EAB307",
+    "anchor": ""
+  },
+  {
+    "tag": "B0CEACF9",
+    "label": "ex:sector-reduced-boundary",
+    "title": "Example 168.2 (A planar sector has unit perimeter density at every vertex angle)",
+    "kind": "example",
+    "page": "tag/B0CEACF9/index.html",
+    "canonical_tag": "7CF1D190561A",
+    "anchor": ""
+  },
+  {
+    "tag": "0D2ECCF3",
+    "label": "ex:checkerboard-density-half",
+    "title": "Example 168.3 (Density one half does not characterize the reduced boundary)",
+    "kind": "example",
+    "page": "tag/0D2ECCF3/index.html",
+    "canonical_tag": "7708B31F27FA",
+    "anchor": ""
+  },
+  {
+    "tag": "8C179330",
+    "label": "ex:collapsing-slab-perimeter",
+    "title": "Example 168.4 (A thin slab loses all phase volume but retains two sheets of perimeter)",
+    "kind": "example",
+    "page": "tag/8C179330/index.html",
+    "canonical_tag": "C719FA3BCD61",
+    "anchor": ""
+  },
+  {
+    "tag": "39099EA9",
+    "label": "ex:quadratic-cusp-perimeter",
+    "title": "Example 168.5 (A quadratic cusp has a double-line perimeter tangent and an empty phase tangent)",
+    "kind": "example",
+    "page": "tag/39099EA9/index.html",
+    "canonical_tag": "490DFC3EF874",
+    "anchor": ""
+  },
+  {
+    "tag": "4288F0E6",
+    "label": "ex:halfspace-dense-modification",
+    "title": "Example 168.6 (A negligible dense modification preserves every perimeter blow-up)",
+    "kind": "example",
+    "page": "tag/4288F0E6/index.html",
+    "canonical_tag": "DA161D3EEA56",
+    "anchor": ""
   }
 ]
