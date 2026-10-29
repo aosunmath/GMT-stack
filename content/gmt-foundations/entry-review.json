@@ -1923,7 +1923,8 @@
       "dependencies": [
         "cor:full-spine-plane",
         "prop:cone-product-splitting",
-        "prop:spine-maximal-density"
+        "prop:spine-maximal-density",
+        "thm:rectifiable-coarea-chart-proof"
       ],
       "formal_verification": "none"
     },
@@ -3097,7 +3098,8 @@
         "prop:geometric-slice-integration",
         "prop:integral-geometric-cut",
         "prop:slice-common-exceptional-set",
-        "thm:rectifiable-c1-decomposition"
+        "thm:rectifiable-c1-decomposition",
+        "thm:rectifiable-coarea-chart-proof"
       ],
       "formal_verification": "none"
     },
@@ -3693,12 +3695,13 @@
       "title": "Coarea on a rectifiable set",
       "kind": "theorem",
       "file": "coarea-tools.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Sim18"
       ],
       "dependencies": [
-        "def:tangential-coarea-jacobian"
+        "def:tangential-coarea-jacobian",
+        "thm:rectifiable-coarea-chart-proof"
       ],
       "formal_verification": "none"
     },
@@ -13759,7 +13762,8 @@
         "cor:weighted-rectifiable-coarea",
         "def:geometric-level-current",
         "lem:slice-unit-orientation",
-        "prop:curve-scalar-coarea"
+        "prop:curve-scalar-coarea",
+        "thm:rectifiable-coarea-chart-proof"
       ],
       "formal_verification": "none"
     },
@@ -15456,6 +15460,427 @@
         "def:approximate-tangent"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "lem:tangent-area-jacobian-chain",
+      "title": "Area Jacobians under a change of tangent coordinates",
+      "kind": "lemma",
+      "file": "rectifiable-chart-integration.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:rectifiable-weighted-area-local",
+      "title": "Weighted area on a rectifiable domain",
+      "kind": "theorem",
+      "file": "rectifiable-chart-integration.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:finite-area-c1-patches",
+        "lem:tangent-area-jacobian-chain",
+        "prop:weighted-area",
+        "thm:rectifiable-tangential-differential"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:null-set-lipschitz-fibers",
+      "title": "A Hausdorff-null set has null lower-dimensional fibers",
+      "kind": "lemma",
+      "file": "rectifiable-chart-integration.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:euclidean-lipschitz-fiber-geometry",
+      "title": "Regular geometry of almost every Euclidean Lipschitz fiber",
+      "kind": "theorem",
+      "file": "rectifiable-chart-integration.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:vector-c1-lusin-approximation",
+        "prop:mcshane-extension",
+        "thm:coarea-formula",
+        "thm:rectifiable-forward-tangents"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:coarea-chart-jacobian-identity",
+      "title": "The Jacobian identity separating a fiber from its normal directions",
+      "kind": "lemma",
+      "file": "rectifiable-chart-integration.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:rectifiable-coarea-chart-proof",
+      "title": "Rectifiable coarea and the tangent of almost every fiber",
+      "kind": "theorem",
+      "file": "rectifiable-chart-integration.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:rectifiable-common-tangents",
+        "lem:coarea-chart-jacobian-identity",
+        "lem:null-set-lipschitz-fibers",
+        "thm:euclidean-lipschitz-fiber-geometry",
+        "thm:rectifiable-weighted-area-local"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:pure-unrectifiable-set",
+      "title": "Pure unrectifiability",
+      "kind": "definition",
+      "file": "rectifiable-projection-structure.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:rectifiable-set"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:hausdorff-borel-core",
+      "title": "Borel cores for a sigma-finite Hausdorff measure",
+      "kind": "lemma",
+      "file": "rectifiable-projection-structure.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:pure-unrectifiable-patch-test",
+      "title": "Testing pure unrectifiability on smooth patches",
+      "kind": "proposition",
+      "file": "rectifiable-projection-structure.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:pure-unrectifiable-set",
+        "lem:finite-area-c1-patches",
+        "thm:rectifiable-c1-decomposition"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:finite-maximal-rectifiable-part",
+      "title": "A maximal rectifiable part of a finite-measure set",
+      "kind": "proposition",
+      "file": "rectifiable-projection-structure.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:pure-unrectifiable-set",
+        "lem:hausdorff-borel-core"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:rectifiable-pure-decomposition",
+      "title": "Decomposition into rectifiable and purely unrectifiable parts",
+      "kind": "theorem",
+      "file": "rectifiable-projection-structure.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:hausdorff-borel-core",
+        "prop:finite-maximal-rectifiable-part"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:rectifiable-part-maximal-null",
+      "title": "The rectifiable part captures every rectifiable subset",
+      "kind": "corollary",
+      "file": "rectifiable-projection-structure.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:rectifiable-pure-decomposition"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:coordinate-projection-detects-area",
+      "title": "A regular coordinate projection detects positive area locally",
+      "kind": "lemma",
+      "file": "rectifiable-projection-structure.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:null-coordinate-projections-pure",
+      "title": "Null coordinate projections imply pure unrectifiability",
+      "kind": "theorem",
+      "file": "rectifiable-projection-structure.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:coordinate-projection-detects-area",
+        "prop:pure-unrectifiable-patch-test"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:coordinate-projection-area-bounds",
+      "title": "Coordinate projection Jacobians control rectifiable area with multiplicity",
+      "kind": "proposition",
+      "file": "rectifiable-projection-structure.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:rectifiable-weighted-area-local"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:coarea-weighted-pushforward",
+      "title": "The pushforward of Jacobian-weighted area",
+      "kind": "proposition",
+      "file": "coarea-selection-disintegration.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:rectifiable-coarea-chart-proof"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:coarea-inverse-jacobian",
+      "title": "Dividing by the Jacobian on the regular part",
+      "kind": "proposition",
+      "file": "coarea-selection-disintegration.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:coarea-weighted-pushforward"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:c1-sard-fiberwise",
+      "title": "The fiberwise Sard conclusion at C1 regularity",
+      "kind": "theorem",
+      "file": "coarea-selection-disintegration.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:finite-area-c1-patches",
+        "thm:rectifiable-coarea-chart-proof"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:coarea-simultaneous-level-selection",
+      "title": "Selecting levels that satisfy finitely many bounds",
+      "kind": "proposition",
+      "file": "coarea-selection-disintegration.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:coarea-subsequence-good-levels",
+      "title": "Good levels along a level-dependent subsequence",
+      "kind": "proposition",
+      "file": "coarea-selection-disintegration.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:coarea-summable-fiber-errors",
+      "title": "Summable errors vanish on almost every fiber",
+      "kind": "proposition",
+      "file": "coarea-selection-disintegration.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:coarea-subsequence-good-levels"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:rectifiable-distance-volume-derivative",
+      "title": "The distance-volume function is absolutely continuous off its critical part",
+      "kind": "proposition",
+      "file": "coarea-selection-disintegration.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:coarea-inverse-jacobian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:coarea-tilted-plane",
+      "title": "A tilted plane checks the coarea metric factor",
+      "kind": "example",
+      "file": "examples-coarea-projections.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:coarea-sphere-height",
+      "title": "Height on a round two-sphere has a constant area density",
+      "kind": "example",
+      "file": "examples-coarea-projections.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:coarea-inverse-jacobian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:coarea-squared-radius-disk",
+      "title": "Squared radius on a disk gives a uniform pushforward",
+      "kind": "example",
+      "file": "examples-coarea-projections.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:coarea-inverse-jacobian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:coarea-flat-plateau-atom",
+      "title": "A flat plateau produces a critical atom",
+      "kind": "example",
+      "file": "examples-coarea-projections.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:coarea-inverse-jacobian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:coarea-spherical-critical-level",
+      "title": "Distance is constant on a sphere and its volume function jumps",
+      "kind": "example",
+      "file": "examples-coarea-projections.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "ex:coarea-flat-plateau-atom",
+        "ex:coarea-sphere-height",
+        "prop:rectifiable-distance-volume-derivative"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:area-fold-multiplicity",
+      "title": "A fold counts two preimages rather than one image",
+      "kind": "example",
+      "file": "examples-coarea-projections.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:rectifiable-part-segment-dust",
+      "title": "A segment and a separated dust realize both decomposition parts",
+      "kind": "example",
+      "file": "examples-coarea-projections.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:four-corner-pure-unrectifiability",
+        "thm:rectifiable-pure-decomposition"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:one-null-projection-insufficient",
+      "title": "One null coordinate projection does not imply pure unrectifiability",
+      "kind": "example",
+      "file": "examples-coarea-projections.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:null-coordinate-projections-pure"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -15490,7 +15915,6 @@
     "Smooth mean curvature flow short-time existence and curvature continuation",
     "Weak and strong parabolic maximum principles",
     "Integral Brakke compactness and weak Gaussian monotonicity",
-    "Lipschitz pushforwards of integral currents; rectifiable coarea and the almost-everywhere fiber tangent theorem remain external, while slice boundary identification is proved locally.",
     "Compact Laplace spectral theorem and Bochner identity",
     "Gauss--Bonnet and classification of closed orientable surfaces",
     "Sard theorem and divergence theorem for transverse piecewise smooth regions",
@@ -15516,7 +15940,6 @@
     "Smooth finite-dimensional ODE dependence used for continuity of the planar tip-to-slope map.",
     "No uniqueness theorem for unrestricted entire graphs with unbounded slopes or arbitrary weak flows is asserted.",
     "Finite-dimensional supporting-hyperplane theorem for finite convex functions; local strong maximum principle for strict upward motion from nonaffine convex data.",
-    "Euclidean area formula and rectifiable coarea including the almost-everywhere fiber tangent assertion.",
     "Elementary smooth convolution, Fubini/Tonelli, finite-measure continuity and Stokes on explicit smooth pieces.",
     "No Federer-Fleming compactness, deformation theorem or integer flat-norm equivalence is proved here.",
     "Besicovitch Euclidean ball selection, newly recorded as a cited theorem. Its proof remains external.",
@@ -15524,13 +15947,14 @@
     "No sharp isoperimetric constant, uniform rate for arbitrary perimeter blow-ups, or smoothness of an arbitrary topological boundary is asserted.",
     "The standard normalization identifying Hausdorff measure on a Euclidean plane with its Lebesgue measure, already cited in def:hausdorff-measure.",
     "Whitney C1 extension theorem, newly recorded as a cited theorem.",
-    "Euclidean area and coarea formulas; rectifiable coarea and fiber geometry remain external at the end of batch14.",
     "Besicovitch Euclidean ball selection and abstract Radon–Nikodym representation.",
-    "Borel regularity and Euclidean normalization of Hausdorff measure; finite-measure Egoroff and Lusin theorems; inverse function theorem; standard Euclidean integration and linear algebra."
+    "Borel regularity and Euclidean normalization of Hausdorff measure; finite-measure Egoroff and Lusin theorems; inverse function theorem; standard Euclidean integration and linear algebra.",
+    "Lipschitz pushforwards of integral currents remain external; rectifiable coarea, fiber tangent geometry and slice boundary identification are proved locally.",
+    "Fundamental Euclidean area and coarea formulas; Whitney extension. Rectifiable-domain formulas are proved through these inputs."
   ],
   "next_development": [
     "Proof of the Besicovitch covering theorem; refined measure differentiation",
-    "Euclidean area/coarea proofs; rectifiable coarea and almost-everywhere fiber geometry",
+    "Proofs of fundamental Euclidean area/coarea; sharp projection and slicing estimates",
     "Sharp isoperimetry, BV traces and quantitative perimeter estimates",
     "Deformation theorem and compactness of integral currents",
     "Full proofs of integral-varifold compactness and Allard excess decay; quantitative stratification and rectifiability of strata",

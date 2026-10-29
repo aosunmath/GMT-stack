@@ -1,0 +1,13 @@
+# Rectifiable coarea, projection tests and useful levels
+
+This expansion adds 30 entries with 29 new proofs in four sections and supplies a proof of the existing rectifiable coarea theorem. The supplied Simon Tsinghua/NTU edition (`Sim18`) is the primary source: Chapter 2, pages 49–51 and 76–81, and Chapter 3, pages 92–95. All exposition is original; source files and private extracts are not redistributed.
+
+The chart proof separates the area-Jacobian chain rule, a direct null-fiber estimate, Euclidean fiber geometry, and the coarea Jacobian identity. It then proves weighted area and coarea on rectifiable sets, including the tangent of almost every fiber. Borel representatives and their null remainders are handled explicitly. This supplies the fiber geometry used in current slicing and cone splitting, while retaining Whitney extension and the fundamental Euclidean area/coarea formulas as inputs.
+
+The projection section proves a measurable decomposition into rectifiable and purely unrectifiable parts and its uniqueness modulo null sets. It shows why all coordinate projections, rather than just one, detect pure unrectifiability. A Cauchy–Binet calculation bounds rectifiable area by the sum of projected multiplicities. The deeper Besicovitch–Federer almost-everywhere projection theorem is not claimed.
+
+Coarea applications distinguish Jacobian-weighted pushforwards from unweighted measures. Dividing by the Jacobian identifies the regular contribution; a critical contribution may remain. The fiberwise C1 Sard conclusion does not assert that almost every fiber has no critical points. Separate selection statements cover finitely many simultaneous bounds, level-dependent subsequences, and one common subsequence under vanishing-integral hypotheses. The distance-volume derivative is stated only for its regular part.
+
+Eight worked examples cover a tilted plane, height on a sphere, squared radius on a disk, a plateau atom, a spherical critical level, a fold with multiplicity two, a segment-plus-dust decomposition, and a rank-deficient coordinate projection. They show how the hypotheses and Jacobians enter actual calculations.
+
+Remaining inputs include Whitney extension; Euclidean area/coarea; the Besicovitch and Radon–Nikodym inputs in the earlier differentiation chain; Hausdorff regularity and normalization; inverse/implicit function calculus; and standard integration and linear algebra. No independent human review or formal verification is claimed. Proofs remain collapsed, and citations link to page-local references.
