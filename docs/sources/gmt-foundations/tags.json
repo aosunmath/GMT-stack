@@ -12238,5 +12238,311 @@
     "page": "tag/7F9A4AE5/index.html",
     "canonical_tag": "68876AF1BB63",
     "anchor": ""
+  },
+  {
+    "tag": "E8640D98",
+    "label": "sec:rectifiable-chart-integration",
+    "title": "176 Chart proofs of rectifiable area and coarea",
+    "kind": "chapter",
+    "page": "tag/E8640D98/index.html",
+    "canonical_tag": "61D72A80657C",
+    "anchor": ""
+  },
+  {
+    "tag": "8204F1A9",
+    "label": "lem:tangent-area-jacobian-chain",
+    "title": "Lemma 176.1 (Area Jacobians under a change of tangent coordinates)",
+    "kind": "lemma",
+    "page": "tag/8204F1A9/index.html",
+    "canonical_tag": "29B22C797308",
+    "anchor": ""
+  },
+  {
+    "tag": "88D65A5B",
+    "label": "thm:rectifiable-weighted-area-local",
+    "title": "Theorem 176.2 (Weighted area on a rectifiable domain)",
+    "kind": "theorem",
+    "page": "tag/88D65A5B/index.html",
+    "canonical_tag": "1AFF9641C00C",
+    "anchor": ""
+  },
+  {
+    "tag": "7B3F7201",
+    "label": "lem:null-set-lipschitz-fibers",
+    "title": "Lemma 176.3 (A Hausdorff-null set has null lower-dimensional fibers)",
+    "kind": "lemma",
+    "page": "tag/7B3F7201/index.html",
+    "canonical_tag": "1250D3393B38",
+    "anchor": ""
+  },
+  {
+    "tag": "8C4003F4",
+    "label": "thm:euclidean-lipschitz-fiber-geometry",
+    "title": "Theorem 176.4 (Regular geometry of almost every Euclidean Lipschitz fiber)",
+    "kind": "theorem",
+    "page": "tag/8C4003F4/index.html",
+    "canonical_tag": "04B518A13580",
+    "anchor": ""
+  },
+  {
+    "tag": "9C0918A2",
+    "label": "lem:coarea-chart-jacobian-identity",
+    "title": "Lemma 176.5 (The Jacobian identity separating a fiber from its normal directions)",
+    "kind": "lemma",
+    "page": "tag/9C0918A2/index.html",
+    "canonical_tag": "5D79F192098C",
+    "anchor": ""
+  },
+  {
+    "tag": "5A85E672",
+    "label": "thm:rectifiable-coarea-chart-proof",
+    "title": "Theorem 176.6 (Rectifiable coarea and the tangent of almost every fiber)",
+    "kind": "theorem",
+    "page": "tag/5A85E672/index.html",
+    "canonical_tag": "8318DBBE96A5",
+    "anchor": ""
+  },
+  {
+    "tag": "C391863A",
+    "label": "sec:rectifiable-projection-structure",
+    "title": "177 Rectifiable parts and projection tests",
+    "kind": "chapter",
+    "page": "tag/C391863A/index.html",
+    "canonical_tag": "D9DD0FE92395",
+    "anchor": ""
+  },
+  {
+    "tag": "638E9AF3",
+    "label": "def:pure-unrectifiable-set",
+    "title": "Definition 177.1 (Pure unrectifiability)",
+    "kind": "definition",
+    "page": "tag/638E9AF3/index.html",
+    "canonical_tag": "89B12245E801",
+    "anchor": ""
+  },
+  {
+    "tag": "ACE443BA",
+    "label": "lem:hausdorff-borel-core",
+    "title": "Lemma 177.2 (Borel cores for a sigma-finite Hausdorff measure)",
+    "kind": "lemma",
+    "page": "tag/ACE443BA/index.html",
+    "canonical_tag": "515E86DC0050",
+    "anchor": ""
+  },
+  {
+    "tag": "16B42E81",
+    "label": "prop:pure-unrectifiable-patch-test",
+    "title": "Proposition 177.3 (Testing pure unrectifiability on smooth patches)",
+    "kind": "proposition",
+    "page": "tag/16B42E81/index.html",
+    "canonical_tag": "6C6ABE5BBDD1",
+    "anchor": ""
+  },
+  {
+    "tag": "436FB0E2",
+    "label": "prop:finite-maximal-rectifiable-part",
+    "title": "Proposition 177.4 (A maximal rectifiable part of a finite-measure set)",
+    "kind": "proposition",
+    "page": "tag/436FB0E2/index.html",
+    "canonical_tag": "252D1E4D029C",
+    "anchor": ""
+  },
+  {
+    "tag": "E868FC63",
+    "label": "thm:rectifiable-pure-decomposition",
+    "title": "Theorem 177.5 (Decomposition into rectifiable and purely unrectifiable parts)",
+    "kind": "theorem",
+    "page": "tag/E868FC63/index.html",
+    "canonical_tag": "3DEAC4B1091B",
+    "anchor": ""
+  },
+  {
+    "tag": "B3491019",
+    "label": "cor:rectifiable-part-maximal-null",
+    "title": "Corollary 177.6 (The rectifiable part captures every rectifiable subset)",
+    "kind": "corollary",
+    "page": "tag/B3491019/index.html",
+    "canonical_tag": "D3E05BFEA686",
+    "anchor": ""
+  },
+  {
+    "tag": "373D9AAA",
+    "label": "lem:coordinate-projection-detects-area",
+    "title": "Lemma 177.7 (A regular coordinate projection detects positive area locally)",
+    "kind": "lemma",
+    "page": "tag/373D9AAA/index.html",
+    "canonical_tag": "42BE02CF01D1",
+    "anchor": ""
+  },
+  {
+    "tag": "EB29733B",
+    "label": "thm:null-coordinate-projections-pure",
+    "title": "Theorem 177.8 (Null coordinate projections imply pure unrectifiability)",
+    "kind": "theorem",
+    "page": "tag/EB29733B/index.html",
+    "canonical_tag": "56DDB002413B",
+    "anchor": ""
+  },
+  {
+    "tag": "A7124BEC",
+    "label": "prop:coordinate-projection-area-bounds",
+    "title": "Proposition 177.9 (Coordinate projection Jacobians control rectifiable area with multiplicity)",
+    "kind": "proposition",
+    "page": "tag/A7124BEC/index.html",
+    "canonical_tag": "7C39343F0486",
+    "anchor": ""
+  },
+  {
+    "tag": "B73A5822",
+    "label": "sec:coarea-selection-disintegration",
+    "title": "178 Fiber integration and selecting useful levels",
+    "kind": "chapter",
+    "page": "tag/B73A5822/index.html",
+    "canonical_tag": "E8955841EEAF",
+    "anchor": ""
+  },
+  {
+    "tag": "08711826",
+    "label": "prop:coarea-weighted-pushforward",
+    "title": "Proposition 178.1 (The pushforward of Jacobian-weighted area)",
+    "kind": "proposition",
+    "page": "tag/08711826/index.html",
+    "canonical_tag": "F0DB5F917E61",
+    "anchor": ""
+  },
+  {
+    "tag": "645FBDAB",
+    "label": "prop:coarea-inverse-jacobian",
+    "title": "Proposition 178.2 (Dividing by the Jacobian on the regular part)",
+    "kind": "proposition",
+    "page": "tag/645FBDAB/index.html",
+    "canonical_tag": "3CECBDFC419F",
+    "anchor": ""
+  },
+  {
+    "tag": "D03A5394",
+    "label": "thm:c1-sard-fiberwise",
+    "title": "Theorem 178.3 (The fiberwise Sard conclusion at C1 regularity)",
+    "kind": "theorem",
+    "page": "tag/D03A5394/index.html",
+    "canonical_tag": "2626EBF3C6FC",
+    "anchor": ""
+  },
+  {
+    "tag": "24B1031B",
+    "label": "prop:coarea-simultaneous-level-selection",
+    "title": "Proposition 178.4 (Selecting levels that satisfy finitely many bounds)",
+    "kind": "proposition",
+    "page": "tag/24B1031B/index.html",
+    "canonical_tag": "AB01DD7A7444",
+    "anchor": ""
+  },
+  {
+    "tag": "253675D9",
+    "label": "prop:coarea-subsequence-good-levels",
+    "title": "Proposition 178.5 (Good levels along a level-dependent subsequence)",
+    "kind": "proposition",
+    "page": "tag/253675D9/index.html",
+    "canonical_tag": "DC9B0DCFE731",
+    "anchor": ""
+  },
+  {
+    "tag": "02008C85",
+    "label": "prop:coarea-summable-fiber-errors",
+    "title": "Proposition 178.6 (Summable errors vanish on almost every fiber)",
+    "kind": "proposition",
+    "page": "tag/02008C85/index.html",
+    "canonical_tag": "3F1F6A59BCFB",
+    "anchor": ""
+  },
+  {
+    "tag": "AD72C991",
+    "label": "prop:rectifiable-distance-volume-derivative",
+    "title": "Proposition 178.7 (The distance-volume function is absolutely continuous off its critical part)",
+    "kind": "proposition",
+    "page": "tag/AD72C991/index.html",
+    "canonical_tag": "DE97D6ADACDB",
+    "anchor": ""
+  },
+  {
+    "tag": "234187D1",
+    "label": "sec:examples-coarea-projections",
+    "title": "179 Examples of coarea, multiplicity and projection",
+    "kind": "chapter",
+    "page": "tag/234187D1/index.html",
+    "canonical_tag": "8BCCB5A75445",
+    "anchor": ""
+  },
+  {
+    "tag": "7F91BF54",
+    "label": "ex:coarea-tilted-plane",
+    "title": "Example 179.1 (A tilted plane checks the coarea metric factor)",
+    "kind": "example",
+    "page": "tag/7F91BF54/index.html",
+    "canonical_tag": "49CF1B83DAE5",
+    "anchor": ""
+  },
+  {
+    "tag": "4913E853",
+    "label": "ex:coarea-sphere-height",
+    "title": "Example 179.2 (Height on a round two-sphere has a constant area density)",
+    "kind": "example",
+    "page": "tag/4913E853/index.html",
+    "canonical_tag": "E66117D1B5C1",
+    "anchor": ""
+  },
+  {
+    "tag": "AC70DE51",
+    "label": "ex:coarea-squared-radius-disk",
+    "title": "Example 179.3 (Squared radius on a disk gives a uniform pushforward)",
+    "kind": "example",
+    "page": "tag/AC70DE51/index.html",
+    "canonical_tag": "0D4EEA37173E",
+    "anchor": ""
+  },
+  {
+    "tag": "1D9C67E1",
+    "label": "ex:coarea-flat-plateau-atom",
+    "title": "Example 179.4 (A flat plateau produces a critical atom)",
+    "kind": "example",
+    "page": "tag/1D9C67E1/index.html",
+    "canonical_tag": "EB1FFD21A1B7",
+    "anchor": ""
+  },
+  {
+    "tag": "A5162C69",
+    "label": "ex:coarea-spherical-critical-level",
+    "title": "Example 179.5 (Distance is constant on a sphere and its volume function jumps)",
+    "kind": "example",
+    "page": "tag/A5162C69/index.html",
+    "canonical_tag": "812BD5E64F51",
+    "anchor": ""
+  },
+  {
+    "tag": "1FF1DE02",
+    "label": "ex:area-fold-multiplicity",
+    "title": "Example 179.6 (A fold counts two preimages rather than one image)",
+    "kind": "example",
+    "page": "tag/1FF1DE02/index.html",
+    "canonical_tag": "36E81AC368FB",
+    "anchor": ""
+  },
+  {
+    "tag": "E3391509",
+    "label": "ex:rectifiable-part-segment-dust",
+    "title": "Example 179.7 (A segment and a separated dust realize both decomposition parts)",
+    "kind": "example",
+    "page": "tag/E3391509/index.html",
+    "canonical_tag": "508F24AC4E8F",
+    "anchor": ""
+  },
+  {
+    "tag": "05116BDA",
+    "label": "ex:one-null-projection-insufficient",
+    "title": "Example 179.8 (One null coordinate projection does not imply pure unrectifiability)",
+    "kind": "example",
+    "page": "tag/05116BDA/index.html",
+    "canonical_tag": "0B1ACA8FF719",
+    "anchor": ""
   }
 ]

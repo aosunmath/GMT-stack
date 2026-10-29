@@ -840,6 +840,178 @@
     "tag": "20072C3F5DC1"
   },
   {
+    "route": "sections/chart-proofs-of-rectifiable-area-and-coarea",
+    "title": "3.10 Chart proofs of rectifiable area and coarea",
+    "chapter": "rectifiability",
+    "section": "chart-proofs-of-rectifiable-area-and-coarea"
+  },
+  {
+    "route": "tag/29B22C797308",
+    "title": "Lemma 3.10.1 (Area Jacobians under a change of tangent coordinates)",
+    "chapter": "rectifiability",
+    "section": "chart-proofs-of-rectifiable-area-and-coarea",
+    "tag": "29B22C797308"
+  },
+  {
+    "route": "tag/1AFF9641C00C",
+    "title": "Theorem 3.10.2 (Weighted area on a rectifiable domain)",
+    "chapter": "rectifiability",
+    "section": "chart-proofs-of-rectifiable-area-and-coarea",
+    "tag": "1AFF9641C00C"
+  },
+  {
+    "route": "tag/1250D3393B38",
+    "title": "Lemma 3.10.3 (A Hausdorff-null set has null lower-dimensional fibers)",
+    "chapter": "rectifiability",
+    "section": "chart-proofs-of-rectifiable-area-and-coarea",
+    "tag": "1250D3393B38"
+  },
+  {
+    "route": "tag/04B518A13580",
+    "title": "Theorem 3.10.4 (Regular geometry of almost every Euclidean Lipschitz fiber)",
+    "chapter": "rectifiability",
+    "section": "chart-proofs-of-rectifiable-area-and-coarea",
+    "tag": "04B518A13580"
+  },
+  {
+    "route": "tag/5D79F192098C",
+    "title": "Lemma 3.10.5 (The Jacobian identity separating a fiber from its normal directions)",
+    "chapter": "rectifiability",
+    "section": "chart-proofs-of-rectifiable-area-and-coarea",
+    "tag": "5D79F192098C"
+  },
+  {
+    "route": "tag/8318DBBE96A5",
+    "title": "Theorem 3.10.6 (Rectifiable coarea and the tangent of almost every fiber)",
+    "chapter": "rectifiability",
+    "section": "chart-proofs-of-rectifiable-area-and-coarea",
+    "tag": "8318DBBE96A5"
+  },
+  {
+    "route": "sections/rectifiable-parts-and-projection-tests",
+    "title": "3.11 Rectifiable parts and projection tests",
+    "chapter": "rectifiability",
+    "section": "rectifiable-parts-and-projection-tests"
+  },
+  {
+    "route": "tag/89B12245E801",
+    "title": "Definition 3.11.1 (Pure unrectifiability)",
+    "chapter": "rectifiability",
+    "section": "rectifiable-parts-and-projection-tests",
+    "tag": "89B12245E801"
+  },
+  {
+    "route": "tag/515E86DC0050",
+    "title": "Lemma 3.11.2 (Borel cores for a sigma-finite Hausdorff measure)",
+    "chapter": "rectifiability",
+    "section": "rectifiable-parts-and-projection-tests",
+    "tag": "515E86DC0050"
+  },
+  {
+    "route": "tag/6C6ABE5BBDD1",
+    "title": "Proposition 3.11.3 (Testing pure unrectifiability on smooth patches)",
+    "chapter": "rectifiability",
+    "section": "rectifiable-parts-and-projection-tests",
+    "tag": "6C6ABE5BBDD1"
+  },
+  {
+    "route": "tag/252D1E4D029C",
+    "title": "Proposition 3.11.4 (A maximal rectifiable part of a finite-measure set)",
+    "chapter": "rectifiability",
+    "section": "rectifiable-parts-and-projection-tests",
+    "tag": "252D1E4D029C"
+  },
+  {
+    "route": "tag/3DEAC4B1091B",
+    "title": "Theorem 3.11.5 (Decomposition into rectifiable and purely unrectifiable parts)",
+    "chapter": "rectifiability",
+    "section": "rectifiable-parts-and-projection-tests",
+    "tag": "3DEAC4B1091B"
+  },
+  {
+    "route": "tag/D3E05BFEA686",
+    "title": "Corollary 3.11.6 (The rectifiable part captures every rectifiable subset)",
+    "chapter": "rectifiability",
+    "section": "rectifiable-parts-and-projection-tests",
+    "tag": "D3E05BFEA686"
+  },
+  {
+    "route": "tag/42BE02CF01D1",
+    "title": "Lemma 3.11.7 (A regular coordinate projection detects positive area locally)",
+    "chapter": "rectifiability",
+    "section": "rectifiable-parts-and-projection-tests",
+    "tag": "42BE02CF01D1"
+  },
+  {
+    "route": "tag/56DDB002413B",
+    "title": "Theorem 3.11.8 (Null coordinate projections imply pure unrectifiability)",
+    "chapter": "rectifiability",
+    "section": "rectifiable-parts-and-projection-tests",
+    "tag": "56DDB002413B"
+  },
+  {
+    "route": "tag/7C39343F0486",
+    "title": "Proposition 3.11.9 (Coordinate projection Jacobians control rectifiable area with multiplicity)",
+    "chapter": "rectifiability",
+    "section": "rectifiable-parts-and-projection-tests",
+    "tag": "7C39343F0486"
+  },
+  {
+    "route": "sections/fiber-integration-and-selecting-useful-levels",
+    "title": "3.12 Fiber integration and selecting useful levels",
+    "chapter": "rectifiability",
+    "section": "fiber-integration-and-selecting-useful-levels"
+  },
+  {
+    "route": "tag/F0DB5F917E61",
+    "title": "Proposition 3.12.1 (The pushforward of Jacobian-weighted area)",
+    "chapter": "rectifiability",
+    "section": "fiber-integration-and-selecting-useful-levels",
+    "tag": "F0DB5F917E61"
+  },
+  {
+    "route": "tag/3CECBDFC419F",
+    "title": "Proposition 3.12.2 (Dividing by the Jacobian on the regular part)",
+    "chapter": "rectifiability",
+    "section": "fiber-integration-and-selecting-useful-levels",
+    "tag": "3CECBDFC419F"
+  },
+  {
+    "route": "tag/2626EBF3C6FC",
+    "title": "Theorem 3.12.3 (The fiberwise Sard conclusion at C1 regularity)",
+    "chapter": "rectifiability",
+    "section": "fiber-integration-and-selecting-useful-levels",
+    "tag": "2626EBF3C6FC"
+  },
+  {
+    "route": "tag/AB01DD7A7444",
+    "title": "Proposition 3.12.4 (Selecting levels that satisfy finitely many bounds)",
+    "chapter": "rectifiability",
+    "section": "fiber-integration-and-selecting-useful-levels",
+    "tag": "AB01DD7A7444"
+  },
+  {
+    "route": "tag/DC9B0DCFE731",
+    "title": "Proposition 3.12.5 (Good levels along a level-dependent subsequence)",
+    "chapter": "rectifiability",
+    "section": "fiber-integration-and-selecting-useful-levels",
+    "tag": "DC9B0DCFE731"
+  },
+  {
+    "route": "tag/3F1F6A59BCFB",
+    "title": "Proposition 3.12.6 (Summable errors vanish on almost every fiber)",
+    "chapter": "rectifiability",
+    "section": "fiber-integration-and-selecting-useful-levels",
+    "tag": "3F1F6A59BCFB"
+  },
+  {
+    "route": "tag/DE97D6ADACDB",
+    "title": "Proposition 3.12.7 (The distance-volume function is absolutely continuous off its critical part)",
+    "chapter": "rectifiability",
+    "section": "fiber-integration-and-selecting-useful-levels",
+    "tag": "DE97D6ADACDB"
+  },
+  {
     "route": "chapters/finite-perimeter",
     "title": "4 Sets of finite perimeter",
     "chapter": "finite-perimeter"
@@ -9390,6 +9562,68 @@
     "chapter": "examples",
     "section": "examples-that-distinguish-tangents-and-supports",
     "tag": "68876AF1BB63"
+  },
+  {
+    "route": "sections/examples-of-coarea-multiplicity-and-projection",
+    "title": "16.29 Examples of coarea, multiplicity and projection",
+    "chapter": "examples",
+    "section": "examples-of-coarea-multiplicity-and-projection"
+  },
+  {
+    "route": "tag/49CF1B83DAE5",
+    "title": "Example 16.29.1 (A tilted plane checks the coarea metric factor)",
+    "chapter": "examples",
+    "section": "examples-of-coarea-multiplicity-and-projection",
+    "tag": "49CF1B83DAE5"
+  },
+  {
+    "route": "tag/E66117D1B5C1",
+    "title": "Example 16.29.2 (Height on a round two-sphere has a constant area density)",
+    "chapter": "examples",
+    "section": "examples-of-coarea-multiplicity-and-projection",
+    "tag": "E66117D1B5C1"
+  },
+  {
+    "route": "tag/0D4EEA37173E",
+    "title": "Example 16.29.3 (Squared radius on a disk gives a uniform pushforward)",
+    "chapter": "examples",
+    "section": "examples-of-coarea-multiplicity-and-projection",
+    "tag": "0D4EEA37173E"
+  },
+  {
+    "route": "tag/EB1FFD21A1B7",
+    "title": "Example 16.29.4 (A flat plateau produces a critical atom)",
+    "chapter": "examples",
+    "section": "examples-of-coarea-multiplicity-and-projection",
+    "tag": "EB1FFD21A1B7"
+  },
+  {
+    "route": "tag/812BD5E64F51",
+    "title": "Example 16.29.5 (Distance is constant on a sphere and its volume function jumps)",
+    "chapter": "examples",
+    "section": "examples-of-coarea-multiplicity-and-projection",
+    "tag": "812BD5E64F51"
+  },
+  {
+    "route": "tag/36E81AC368FB",
+    "title": "Example 16.29.6 (A fold counts two preimages rather than one image)",
+    "chapter": "examples",
+    "section": "examples-of-coarea-multiplicity-and-projection",
+    "tag": "36E81AC368FB"
+  },
+  {
+    "route": "tag/508F24AC4E8F",
+    "title": "Example 16.29.7 (A segment and a separated dust realize both decomposition parts)",
+    "chapter": "examples",
+    "section": "examples-of-coarea-multiplicity-and-projection",
+    "tag": "508F24AC4E8F"
+  },
+  {
+    "route": "tag/0B1ACA8FF719",
+    "title": "Example 16.29.8 (One null coordinate projection does not imply pure unrectifiability)",
+    "chapter": "examples",
+    "section": "examples-of-coarea-multiplicity-and-projection",
+    "tag": "0B1ACA8FF719"
   },
   {
     "route": "chapters/harmonic-maps",
