@@ -9975,6 +9975,398 @@
         "ex:stereographic-energy-concentration"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "prop:rotational-arclength-curvature",
+      "title": "Geometry of an arclength surface of revolution",
+      "kind": "proposition",
+      "file": "delaunay-equations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:rotational-cmc-system",
+      "title": "The rotational CMC system and local uniqueness",
+      "kind": "proposition",
+      "file": "delaunay-equations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-cylindrical-graph-ode",
+      "title": "The cylindrical graph equation",
+      "kind": "proposition",
+      "file": "delaunay-equations.tex",
+      "status": "proof-included",
+      "citations": [
+        "Maz02"
+      ],
+      "dependencies": [
+        "prop:rotational-arclength-curvature"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:rotational-cmc-beltrami",
+      "title": "The first integral from area minus volume",
+      "kind": "proposition",
+      "file": "delaunay-equations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:cmc-cylindrical-graph-ode"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:unduloid-radius-factorization",
+      "title": "Factoring the positive-flux radius equation",
+      "kind": "lemma",
+      "file": "delaunay-equations.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:rotational-cmc-system"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:explicit-unduloid-construction",
+      "title": "An explicit arclength construction of unduloids",
+      "kind": "theorem",
+      "file": "examples-unduloids.tex",
+      "status": "proof-included",
+      "citations": [
+        "Maz02"
+      ],
+      "dependencies": [
+        "lem:unduloid-radius-factorization",
+        "prop:rotational-arclength-curvature"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:unduloid-global-geometry",
+      "title": "Periodicity, completeness, and embeddedness",
+      "kind": "proposition",
+      "file": "examples-unduloids.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:explicit-unduloid-construction"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:unduloid-cylinder-limit",
+      "title": "The cylinder limit",
+      "kind": "proposition",
+      "file": "examples-unduloids.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:unduloid-sphere-chain-limit",
+      "title": "The chain-of-spheres limit",
+      "kind": "proposition",
+      "file": "examples-unduloids.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:unduloid-neck-catenoid-limit",
+      "title": "A shrinking neck converges to a catenoid after dilation",
+      "kind": "proposition",
+      "file": "examples-unduloids.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:explicit-catenoid"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:sphere-zero-flux-graph",
+      "title": "A round sphere is only a local positive cylindrical graph",
+      "kind": "example",
+      "file": "examples-unduloids.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:periodic-cylinder-cmc-index",
+      "title": "The stability threshold for a periodic cylinder",
+      "kind": "proposition",
+      "file": "examples-unduloids.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:infinite-cylinder-volume-instability",
+      "title": "The infinite cylinder is unstable under compactly supported volume constraints",
+      "kind": "example",
+      "file": "examples-unduloids.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:realize-volume-constraint"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:unduloid-period-derivative",
+      "title": "The axial period is strictly increasing with neck radius",
+      "kind": "proposition",
+      "file": "delaunay-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:unduloid-cylinder-limit",
+        "prop:unduloid-global-geometry",
+        "prop:unduloid-sphere-chain-limit"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:unduloid-geometric-jacobi",
+      "title": "Six geometric Jacobi fields",
+      "kind": "proposition",
+      "file": "delaunay-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:riemannian-mean-curvature-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:unduloid-neck-jacobi-drift",
+      "title": "The neck Jacobi field has linear drift",
+      "kind": "proposition",
+      "file": "delaunay-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:unduloid-period-derivative"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:positive-ode-no-bounded-solution",
+      "title": "A bounded solution of a strictly positive one-dimensional potential vanishes",
+      "kind": "lemma",
+      "file": "delaunay-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:unduloid-jacobi-potential",
+      "title": "The conformal Jacobi potential has a uniform bound",
+      "kind": "proposition",
+      "file": "delaunay-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:positive-ode-no-bounded-solution"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:unduloid-bounded-jacobi",
+      "title": "Bounded Jacobi fields on a noncylindrical unduloid",
+      "kind": "theorem",
+      "file": "delaunay-jacobi.tex",
+      "status": "proof-included",
+      "citations": [
+        "Maz02"
+      ],
+      "dependencies": [
+        "prop:unduloid-geometric-jacobi",
+        "prop:unduloid-jacobi-potential",
+        "prop:unduloid-neck-jacobi-drift"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:unduloid-no-l2-jacobi",
+      "title": "No square-integrable Jacobi field on a complete unduloid",
+      "kind": "proposition",
+      "file": "delaunay-jacobi.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:unduloid-geometric-jacobi",
+        "prop:unduloid-jacobi-potential"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:fat-cantor-set",
+      "title": "A fat Cantor construction",
+      "kind": "definition",
+      "file": "examples-fat-cantor.tex",
+      "status": "definition-with-source",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:fat-cantor-length-topology",
+      "title": "Length and topology of the fat Cantor set",
+      "kind": "proposition",
+      "file": "examples-fat-cantor.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:fat-cantor-set"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:fat-cantor-approximate-continuity",
+      "title": "Ordinary continuity and approximate continuity differ",
+      "kind": "example",
+      "file": "examples-fat-cantor.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:fat-cantor-infinite-variation",
+      "title": "The characteristic function has infinite variation",
+      "kind": "proposition",
+      "file": "examples-fat-cantor.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:bv-mollification",
+        "prop:fat-cantor-length-topology"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:fat-cantor-nonnormal-current",
+      "title": "A finite-mass rectifiable current with infinite boundary mass",
+      "kind": "example",
+      "file": "examples-fat-cantor.tex",
+      "status": "proof-included",
+      "citations": [
+        "Mor16"
+      ],
+      "dependencies": [
+        "prop:fat-cantor-infinite-variation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:four-corner-cantor",
+      "title": "The four-corner set and cylinder measure",
+      "kind": "definition",
+      "file": "examples-four-corner.tex",
+      "status": "definition-with-source",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:four-corner-linear-measure",
+      "title": "Linear ball bounds and finite positive length",
+      "kind": "proposition",
+      "file": "examples-four-corner.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:four-corner-hausdorff-measure",
+      "title": "The cylinder measure is normalized Hausdorff measure",
+      "kind": "proposition",
+      "file": "examples-four-corner.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:four-corner-cylinder-differentiation",
+      "title": "Differentiation along the Cantor cylinders",
+      "kind": "lemma",
+      "file": "examples-four-corner.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:radon-lp-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:four-corner-line-obstruction",
+      "title": "Every line misses a substantial corner",
+      "kind": "lemma",
+      "file": "examples-four-corner.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:four-corner-hausdorff-measure"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:four-corner-no-tangent",
+      "title": "No approximate tangent line at any point",
+      "kind": "proposition",
+      "file": "examples-four-corner.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "def:approximate-tangent",
+        "lem:four-corner-line-obstruction"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:four-corner-pure-unrectifiability",
+      "title": "Pure unrectifiability of the four-corner set",
+      "kind": "theorem",
+      "file": "examples-four-corner.tex",
+      "status": "proof-included",
+      "citations": [
+        "Mor16"
+      ],
+      "dependencies": [
+        "lem:four-corner-cylinder-differentiation",
+        "lem:four-corner-line-obstruction",
+        "prop:four-corner-hausdorff-measure",
+        "prop:four-corner-no-tangent",
+        "thm:rectifiable-tangents"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:four-corner-projection-interval",
+      "title": "An exceptional projection contains an interval",
+      "kind": "example",
+      "file": "examples-four-corner.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [

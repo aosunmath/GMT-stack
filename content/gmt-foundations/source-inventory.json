@@ -366,17 +366,23 @@
       "pdf_pages": 8
     },
     {
-      "bibliography_key": null,
+      "bibliography_key": "Mor16",
       "filename": "Geometric Measure Theory A Beginner's Guide_Morgan.pdf",
-      "title": "Geometric Measure Theory A Beginner's Guide",
-      "author": "Morgan",
-      "edition": "Supplied file; edition not yet reviewed",
+      "title": "Geometric Measure Theory: A Beginner's Guide",
+      "author": "Frank Morgan",
+      "edition": "Fifth edition, Academic Press, 2016",
       "sha256": "edbcc81b72ff2bbc32fb0d61bff2a665a8265a1dc9cba275556826a1b3c1f1b5",
       "redistributed": false,
-      "role": "Catalogued for later subject-specific study; no mathematical claims imported from this file.",
-      "review_status": "catalogued-only",
-      "metadata_status": "filename-only",
-      "pdf_pages": 258
+      "role": "Positive-length Cantor sets, four-corner pure unrectifiability, and a rectifiable current with infinite boundary mass; local proofs distinguish coarse length bounds from the exact Hausdorff measure.",
+      "review_status": "selected-passages-checked",
+      "metadata_status": "title-and-passage-checked",
+      "pdf_pages": 258,
+      "checked_passages": [
+        "Title and copyright; fifth edition, 2016, ISBN 978-0-12-804489-6.",
+        "Printed p. 33 (PDF p. 35), example after Proposition 3.12: positive-length Cantor set; visually checked.",
+        "Printed pp. 36–37 (PDF pp. 38–39), example after Theorem 3.17: four-corner set; visually checked. The local proof establishes finite positive length, not the exact value asserted by the source.",
+        "Exercise 4.17, printed p. 59 (PDF p. 61): rectifiable nonintegral current; visually checked."
+      ]
     },
     {
       "bibliography_key": "Fle15",
@@ -1855,6 +1861,42 @@
       "checked_passages": [
         "Sections 1 and 3, PDF pp. 1–2 and 6–9: coordinate eigenfunctions, separated modes and Theorem 3.1. PDF p. 8 visually checked: the concluding t=cosh(t) is a typesetting error; the premise, proof and direct boundary calculation give t=coth(t).",
         "Journal metadata verified at the publisher ScienceDirect page S0001870810004251; the checked mathematical text is arXiv v2 with its own pagination."
+      ]
+    },
+    {
+      "bibliography_key": "Maz02",
+      "filename": "Mazzeo-CMC-survey-math-0209330v1.pdf",
+      "title": "Recent advances in the global theory of constant mean curvature surfaces",
+      "author": "Rafe Mazzeo",
+      "edition": "arXiv:math/0209330v1, September 24, 2002",
+      "sha256": "6116896e5aa76d9eb34ff7e672f1a206e7b0024ddced20c7a1fcb8370639a995",
+      "pdf_pages": 29,
+      "url": "https://arxiv.org/abs/math/0209330v1",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "metadata_status": "title-and-passage-checked",
+      "role": "Delaunay equations, flux and geometric Jacobi fields. Local derivations prove unduloid limits, period monotonicity and the bounded and L2 kernels; no weighted Fredholm theorem imported.",
+      "checked_passages": [
+        "Section 2.1, pp. 4–5: graph ODE, first integral and conformal parametrization; visually checked. Trace mean curvature normalized to one in the source.",
+        "Sections 2.2–2.3, pp. 6–10: flux, geometric Jacobi fields, growth and the distinction between decaying kernel and unweighted mapping properties. Global structure results remain outside the imported content."
+      ]
+    },
+    {
+      "bibliography_key": "BBM13",
+      "filename": "Bendito-Bowick-Medina-Delaunay-1305.5681v1.pdf",
+      "title": "Delaunay Surfaces",
+      "author": "Enrique Bendito, Mark J. Bowick, and Agustín Medina",
+      "edition": "arXiv:1305.5681v1, May 24, 2013",
+      "sha256": "84cc0a692897a79e1a11ed3eb553bee42817f5b25c647944bef3cb4fb42ffdaa",
+      "pdf_pages": 16,
+      "url": "https://arxiv.org/abs/1305.5681v1",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "metadata_status": "title-and-passage-checked",
+      "role": "Rotational metric and curvature calculations and the Delaunay roulette family; signs and trace normalization derived directly in the local manuscript.",
+      "checked_passages": [
+        "Title and pp. 1–6; pp. 2–3 rotational metric and curvature formulas visually checked.",
+        "Unduloid roulette and arclength, pp. 5–6. The local manuscript uses derivative-of-normal second fundamental form and trace mean curvature."
       ]
     }
   ],

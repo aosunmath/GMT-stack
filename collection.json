@@ -154,9 +154,11 @@
         "geodesic-spheres-and-spherical-cmc-rigidity",
         "trace-free-curvature-and-cmc-pinching",
         "gauss-maps-and-hopf-differentials",
-        "reconstructing-cmc-surfaces-from-harmonic-maps"
+        "reconstructing-cmc-surfaces-from-harmonic-maps",
+        "rotational-cmc-equations-and-their-first-integral",
+        "jacobi-fields-on-a-delaunay-unduloid"
       ],
-      "description": "Area minus volume, CMC min-max, curvature networks, exact volume constraints, strong versus constrained stability, Minkowski identities, constrained Jacobi fields, and sphere rigidity. Harmonic Gauss maps, Hopf differentials, and CMC spheres. CMC reconstruction with period and immersion conditions."
+      "description": "Area minus volume, CMC min-max, curvature networks, exact volume constraints, strong versus constrained stability, Minkowski identities, constrained Jacobi fields, and sphere rigidity. Harmonic Gauss maps, Hopf differentials, and CMC spheres. CMC reconstruction with period and immersion conditions. Rotational equations, Delaunay flux, period variation, and bounded and square-integrable Jacobi kernels."
     },
     {
       "slug": "allen-cahn",
@@ -227,9 +229,12 @@
         "an-explicit-ancient-oval",
         "the-equatorial-disk-and-critical-catenoid",
         "cylinders-spheres-and-a-period-obstruction",
-        "harmonic-map-singularities-and-concentration"
+        "harmonic-map-singularities-and-concentration",
+        "unduloids-and-their-geometric-limits",
+        "positive-measure-empty-interior-and-infinite-perimeter",
+        "a-one-dimensional-dust-without-tangent-lines"
       ],
-      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures."
+      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability."
     },
     {
       "slug": "harmonic-maps",
