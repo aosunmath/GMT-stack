@@ -7918,5 +7918,347 @@
     "page": "tag/D1F834C2/index.html",
     "canonical_tag": "2A3E375B030F",
     "anchor": ""
+  },
+  {
+    "tag": "22EBB723",
+    "label": "sec:rotational-cmc-equations",
+    "title": "108 Rotational CMC equations and their first integral",
+    "kind": "chapter",
+    "page": "tag/22EBB723/index.html",
+    "canonical_tag": "2650A51A7E9F",
+    "anchor": ""
+  },
+  {
+    "tag": "E4A321F7",
+    "label": "prop:rotational-arclength-curvature",
+    "title": "Proposition 108.1 (Geometry of an arclength surface of revolution)",
+    "kind": "proposition",
+    "page": "tag/E4A321F7/index.html",
+    "canonical_tag": "321B1FEAB359",
+    "anchor": ""
+  },
+  {
+    "tag": "13A3926A",
+    "label": "prop:rotational-cmc-system",
+    "title": "Proposition 108.2 (The rotational CMC system and local uniqueness)",
+    "kind": "proposition",
+    "page": "tag/13A3926A/index.html",
+    "canonical_tag": "875DC79A9E8E",
+    "anchor": ""
+  },
+  {
+    "tag": "AFD7CB02",
+    "label": "prop:cmc-cylindrical-graph-ode",
+    "title": "Proposition 108.3 (The cylindrical graph equation)",
+    "kind": "proposition",
+    "page": "tag/AFD7CB02/index.html",
+    "canonical_tag": "B7727F541343",
+    "anchor": ""
+  },
+  {
+    "tag": "9D3E83C6",
+    "label": "prop:rotational-cmc-beltrami",
+    "title": "Proposition 108.4 (The first integral from area minus volume)",
+    "kind": "proposition",
+    "page": "tag/9D3E83C6/index.html",
+    "canonical_tag": "70AC5E706A80",
+    "anchor": ""
+  },
+  {
+    "tag": "6D31DDAF",
+    "label": "lem:unduloid-radius-factorization",
+    "title": "Lemma 108.5 (Factoring the positive-flux radius equation)",
+    "kind": "lemma",
+    "page": "tag/6D31DDAF/index.html",
+    "canonical_tag": "739CD651E3E2",
+    "anchor": ""
+  },
+  {
+    "tag": "6BF55D8A",
+    "label": "sec:unduloid-examples",
+    "title": "109 Unduloids and their geometric limits",
+    "kind": "chapter",
+    "page": "tag/6BF55D8A/index.html",
+    "canonical_tag": "2B8A8234A40D",
+    "anchor": ""
+  },
+  {
+    "tag": "4AD2ECA4",
+    "label": "thm:explicit-unduloid-construction",
+    "title": "Theorem 109.1 (An explicit arclength construction of unduloids)",
+    "kind": "theorem",
+    "page": "tag/4AD2ECA4/index.html",
+    "canonical_tag": "BE8597CDC05A",
+    "anchor": ""
+  },
+  {
+    "tag": "C6398813",
+    "label": "prop:unduloid-global-geometry",
+    "title": "Proposition 109.2 (Periodicity, completeness, and embeddedness)",
+    "kind": "proposition",
+    "page": "tag/C6398813/index.html",
+    "canonical_tag": "90B100F75094",
+    "anchor": ""
+  },
+  {
+    "tag": "3D37D854",
+    "label": "prop:unduloid-cylinder-limit",
+    "title": "Proposition 109.3 (The cylinder limit)",
+    "kind": "proposition",
+    "page": "tag/3D37D854/index.html",
+    "canonical_tag": "F8523D2477AD",
+    "anchor": ""
+  },
+  {
+    "tag": "67F1D5DC",
+    "label": "prop:unduloid-sphere-chain-limit",
+    "title": "Proposition 109.4 (The chain-of-spheres limit)",
+    "kind": "proposition",
+    "page": "tag/67F1D5DC/index.html",
+    "canonical_tag": "05473488A6C3",
+    "anchor": ""
+  },
+  {
+    "tag": "D35972D8",
+    "label": "prop:unduloid-neck-catenoid-limit",
+    "title": "Proposition 109.5 (A shrinking neck converges to a catenoid after dilation)",
+    "kind": "proposition",
+    "page": "tag/D35972D8/index.html",
+    "canonical_tag": "FFB833611784",
+    "anchor": ""
+  },
+  {
+    "tag": "986EB64D",
+    "label": "ex:sphere-zero-flux-graph",
+    "title": "Example 109.6 (A round sphere is only a local positive cylindrical graph)",
+    "kind": "example",
+    "page": "tag/986EB64D/index.html",
+    "canonical_tag": "217BEE2C9F5E",
+    "anchor": ""
+  },
+  {
+    "tag": "50BD2313",
+    "label": "prop:periodic-cylinder-cmc-index",
+    "title": "Proposition 109.7 (The stability threshold for a periodic cylinder)",
+    "kind": "proposition",
+    "page": "tag/50BD2313/index.html",
+    "canonical_tag": "7E7A8D1960C5",
+    "anchor": ""
+  },
+  {
+    "tag": "6B0EDDEF",
+    "label": "ex:infinite-cylinder-volume-instability",
+    "title": "Example 109.8 (The infinite cylinder is unstable under compactly supported volume constraints)",
+    "kind": "example",
+    "page": "tag/6B0EDDEF/index.html",
+    "canonical_tag": "AAED8665BA97",
+    "anchor": ""
+  },
+  {
+    "tag": "A3055924",
+    "label": "sec:delaunay-jacobi",
+    "title": "110 Jacobi fields on a Delaunay unduloid",
+    "kind": "chapter",
+    "page": "tag/A3055924/index.html",
+    "canonical_tag": "5B14558D7D35",
+    "anchor": ""
+  },
+  {
+    "tag": "BBD6E2A9",
+    "label": "prop:unduloid-period-derivative",
+    "title": "Proposition 110.1 (The axial period is strictly increasing with neck radius)",
+    "kind": "proposition",
+    "page": "tag/BBD6E2A9/index.html",
+    "canonical_tag": "00F65396A131",
+    "anchor": ""
+  },
+  {
+    "tag": "D893C4B8",
+    "label": "prop:unduloid-geometric-jacobi",
+    "title": "Proposition 110.2 (Six geometric Jacobi fields)",
+    "kind": "proposition",
+    "page": "tag/D893C4B8/index.html",
+    "canonical_tag": "0F900FF85ECD",
+    "anchor": ""
+  },
+  {
+    "tag": "7D1B46FD",
+    "label": "prop:unduloid-neck-jacobi-drift",
+    "title": "Proposition 110.3 (The neck Jacobi field has linear drift)",
+    "kind": "proposition",
+    "page": "tag/7D1B46FD/index.html",
+    "canonical_tag": "2E8835106506",
+    "anchor": ""
+  },
+  {
+    "tag": "E8204BDC",
+    "label": "lem:positive-ode-no-bounded-solution",
+    "title": "Lemma 110.4 (A bounded solution of a strictly positive one-dimensional potential vanishes)",
+    "kind": "lemma",
+    "page": "tag/E8204BDC/index.html",
+    "canonical_tag": "669EC3E1F072",
+    "anchor": ""
+  },
+  {
+    "tag": "20C99609",
+    "label": "prop:unduloid-jacobi-potential",
+    "title": "Proposition 110.5 (The conformal Jacobi potential has a uniform bound)",
+    "kind": "proposition",
+    "page": "tag/20C99609/index.html",
+    "canonical_tag": "DF4F7144B270",
+    "anchor": ""
+  },
+  {
+    "tag": "B7D99FDA",
+    "label": "thm:unduloid-bounded-jacobi",
+    "title": "Theorem 110.6 (Bounded Jacobi fields on a noncylindrical unduloid)",
+    "kind": "theorem",
+    "page": "tag/B7D99FDA/index.html",
+    "canonical_tag": "88B3A10F8389",
+    "anchor": ""
+  },
+  {
+    "tag": "4174531B",
+    "label": "prop:unduloid-no-l2-jacobi",
+    "title": "Proposition 110.7 (No square-integrable Jacobi field on a complete unduloid)",
+    "kind": "proposition",
+    "page": "tag/4174531B/index.html",
+    "canonical_tag": "3C28FE1AC8E1",
+    "anchor": ""
+  },
+  {
+    "tag": "29047799",
+    "label": "sec:fat-cantor-examples",
+    "title": "111 Positive measure, empty interior and infinite perimeter",
+    "kind": "chapter",
+    "page": "tag/29047799/index.html",
+    "canonical_tag": "F473CA4D4F14",
+    "anchor": ""
+  },
+  {
+    "tag": "1FFA1618",
+    "label": "def:fat-cantor-set",
+    "title": "Definition 111.1 (A fat Cantor construction)",
+    "kind": "definition",
+    "page": "tag/1FFA1618/index.html",
+    "canonical_tag": "2F0A87D1DCB7",
+    "anchor": ""
+  },
+  {
+    "tag": "017C7B0C",
+    "label": "prop:fat-cantor-length-topology",
+    "title": "Proposition 111.2 (Length and topology of the fat Cantor set)",
+    "kind": "proposition",
+    "page": "tag/017C7B0C/index.html",
+    "canonical_tag": "51F772C179A3",
+    "anchor": ""
+  },
+  {
+    "tag": "098FB17B",
+    "label": "ex:fat-cantor-approximate-continuity",
+    "title": "Example 111.3 (Ordinary continuity and approximate continuity differ)",
+    "kind": "example",
+    "page": "tag/098FB17B/index.html",
+    "canonical_tag": "C6F344E46714",
+    "anchor": ""
+  },
+  {
+    "tag": "343BD24F",
+    "label": "prop:fat-cantor-infinite-variation",
+    "title": "Proposition 111.4 (The characteristic function has infinite variation)",
+    "kind": "proposition",
+    "page": "tag/343BD24F/index.html",
+    "canonical_tag": "203445E7552B",
+    "anchor": ""
+  },
+  {
+    "tag": "797BD91F",
+    "label": "ex:fat-cantor-nonnormal-current",
+    "title": "Example 111.5 (A finite-mass rectifiable current with infinite boundary mass)",
+    "kind": "example",
+    "page": "tag/797BD91F/index.html",
+    "canonical_tag": "EDA509B2D116",
+    "anchor": ""
+  },
+  {
+    "tag": "AB684E56",
+    "label": "sec:four-corner-examples",
+    "title": "112 A one-dimensional dust without tangent lines",
+    "kind": "chapter",
+    "page": "tag/AB684E56/index.html",
+    "canonical_tag": "7B305BAC5FA6",
+    "anchor": ""
+  },
+  {
+    "tag": "771E6385",
+    "label": "def:four-corner-cantor",
+    "title": "Definition 112.1 (The four-corner set and cylinder measure)",
+    "kind": "definition",
+    "page": "tag/771E6385/index.html",
+    "canonical_tag": "F9CBD348B9C0",
+    "anchor": ""
+  },
+  {
+    "tag": "11C3A832",
+    "label": "prop:four-corner-linear-measure",
+    "title": "Proposition 112.2 (Linear ball bounds and finite positive length)",
+    "kind": "proposition",
+    "page": "tag/11C3A832/index.html",
+    "canonical_tag": "51869A534A53",
+    "anchor": ""
+  },
+  {
+    "tag": "CAB45178",
+    "label": "prop:four-corner-hausdorff-measure",
+    "title": "Proposition 112.3 (The cylinder measure is normalized Hausdorff measure)",
+    "kind": "proposition",
+    "page": "tag/CAB45178/index.html",
+    "canonical_tag": "8A4F1392293E",
+    "anchor": ""
+  },
+  {
+    "tag": "EB6DC1D5",
+    "label": "lem:four-corner-cylinder-differentiation",
+    "title": "Lemma 112.4 (Differentiation along the Cantor cylinders)",
+    "kind": "lemma",
+    "page": "tag/EB6DC1D5/index.html",
+    "canonical_tag": "2FE1FC9C5147",
+    "anchor": ""
+  },
+  {
+    "tag": "7464CD7A",
+    "label": "lem:four-corner-line-obstruction",
+    "title": "Lemma 112.5 (Every line misses a substantial corner)",
+    "kind": "lemma",
+    "page": "tag/7464CD7A/index.html",
+    "canonical_tag": "8A401CAA49F4",
+    "anchor": ""
+  },
+  {
+    "tag": "E73CBB4B",
+    "label": "prop:four-corner-no-tangent",
+    "title": "Proposition 112.6 (No approximate tangent line at any point)",
+    "kind": "proposition",
+    "page": "tag/E73CBB4B/index.html",
+    "canonical_tag": "E41DED080922",
+    "anchor": ""
+  },
+  {
+    "tag": "F89855EB",
+    "label": "thm:four-corner-pure-unrectifiability",
+    "title": "Theorem 112.7 (Pure unrectifiability of the four-corner set)",
+    "kind": "theorem",
+    "page": "tag/F89855EB/index.html",
+    "canonical_tag": "30075247956C",
+    "anchor": ""
+  },
+  {
+    "tag": "1CFA5BAD",
+    "label": "ex:four-corner-projection-interval",
+    "title": "Example 112.8 (An exceptional projection contains an interval)",
+    "kind": "example",
+    "page": "tag/1CFA5BAD/index.html",
+    "canonical_tag": "2508D7A1F8C5",
+    "anchor": ""
   }
 ]
