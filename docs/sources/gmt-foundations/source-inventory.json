@@ -695,17 +695,22 @@
       "pdf_pages": 44
     },
     {
-      "bibliography_key": null,
+      "bibliography_key": "Hel01",
       "filename": "Constant Mean Curvature Surfaces, Harmonic Maps and Integrable Systems_Helein.pdf",
       "title": "Constant Mean Curvature Surfaces, Harmonic Maps and Integrable Systems",
-      "author": "Helein",
-      "edition": "Supplied file; edition not yet reviewed",
+      "author": "Frédéric Hélein; notes by Roger Moser",
+      "edition": "Birkhäuser, Lectures in Mathematics ETH Zürich, 2001",
       "sha256": "d27d26c08d41933f29ba7e88ef9f4dfee01adf8862f42990303796ecb129b87b",
       "redistributed": false,
-      "role": "Catalogued for later subject-specific study; no mathematical claims imported from this file.",
-      "review_status": "catalogued-only",
-      "metadata_status": "filename-only",
-      "pdf_pages": 123
+      "role": "Gauss-map tension, conformal harmonic maps, Hopf differentials and CMC sphere rigidity; signs converted from averaged opposite-sign mean curvature. Uniformization retained as an external background input. CMC reconstruction, periods, degeneration, stress-energy domain variations, and explicit harmonic-map examples; radial monotonicity and concentration developed by local calculations.",
+      "review_status": "selected-passages-checked",
+      "metadata_status": "title-and-passage-checked",
+      "pdf_pages": 123,
+      "checked_passages": [
+        "Title and copyright pages; printed pp. 18–21 (PDF pp. 19–22), Theorem 2.1 and equations (2.5)–(2.7), visually read.",
+        "Chapter 4, printed pp. 34–37 (PDF pp. 35–38): Hopf differentials, Theorem 4.1 and Theorem 4.2, visually read.",
+        "Printed pp. 22–33 (PDF pp. 23–34), visually read: variational formulation, target symmetries, domain variation, Theorem 3.2 and the Hamiltonian tensor; radial energy consequences and weak examples derived locally."
+      ]
     },
     {
       "bibliography_key": null,
@@ -1205,17 +1210,21 @@
       "pdf_pages": 20
     },
     {
-      "bibliography_key": null,
+      "bibliography_key": "Fraser00",
       "filename": "On the free boundary variational problem for minimal disks_Fraser.pdf",
       "title": "On the free boundary variational problem for minimal disks",
-      "author": "Fraser",
-      "edition": "Supplied file; edition not yet reviewed",
+      "author": "Ailana Fraser",
+      "edition": "Communications on Pure and Applied Mathematics 53 (2000), 931–971",
       "sha256": "b5b464672550508ec0ee790632f0d9c76e63c2555c4e3cb176fb8d7c35ad870f",
       "redistributed": false,
-      "role": "Catalogued for later subject-specific study; no mathematical claims imported from this file.",
-      "review_status": "catalogued-only",
-      "metadata_status": "filename-only",
-      "pdf_pages": 41
+      "role": "Free-boundary variation, normal quadratic form and all-codimension instability; proofs developed locally with explicit conormal and ambient-flow calculations.",
+      "review_status": "selected-passages-checked",
+      "metadata_status": "title-and-passage-checked",
+      "pdf_pages": 41,
+      "checked_passages": [
+        "Section 2.1, p. 960: second variation with boundary motion on the supporting sphere.",
+        "Section 2.4, Theorem 2.9, pp. 967–970: conformal fields and instability in positive codimension; p. 970 visually checked."
+      ]
     },
     {
       "bibliography_key": null,
@@ -1828,6 +1837,24 @@
       "checked_passages": [
         "Sections 3--4, pp. 242--245, especially Theorem 3.4, Corollary 3.5, Corollary 4.2 and Theorem 4.3: curvature evolution and pinching preservation. A direct scalar-reaction endomorphism maximum principle is proved locally.",
         "Section 5, Lemma 5.2, pp. 246--247: quotient evolution; sigma=0 specialized and rederived with the evolving-metric norm. Printed p. 246 rendered to check the formula."
+      ]
+    },
+    {
+      "bibliography_key": "FS11",
+      "filename": "Fraser-Schoen-first-Steklov-0912.5392v2.pdf",
+      "title": "The first Steklov eigenvalue, conformal geometry, and minimal surfaces",
+      "author": "Ailana Fraser and Richard Schoen",
+      "edition": "arXiv:0912.5392v2, December 3, 2010; published in Advances in Mathematics 226 (2011), 4011–4030",
+      "sha256": "29eed5116c7d40e0552d82b87f727f8b4f2d6693789d6bd613570867dc4ae5ac",
+      "url": "https://arxiv.org/abs/0912.5392v2",
+      "redistributed": false,
+      "pdf_pages": 18,
+      "review_status": "selected-passages-checked",
+      "metadata_status": "title-and-passage-checked",
+      "role": "Steklov equation and the critical catenoid, with geometry and separated spectrum proved directly; no unrestricted annulus extremal or classification theorem imported.",
+      "checked_passages": [
+        "Sections 1 and 3, PDF pp. 1–2 and 6–9: coordinate eigenfunctions, separated modes and Theorem 3.1. PDF p. 8 visually checked: the concluding t=cosh(t) is a typesetting error; the premise, proof and direct boundary calculation give t=coth(t).",
+        "Journal metadata verified at the publisher ScienceDirect page S0001870810004251; the checked mathematical text is arXiv v2 with its own pagination."
       ]
     }
   ],

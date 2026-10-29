@@ -2795,6 +2795,75 @@
     "tag": "A3416192BC63"
   },
   {
+    "route": "sections/free-boundary-geometry-in-the-ball",
+    "title": "7.17 Free-boundary geometry in the ball",
+    "chapter": "minimal-surfaces",
+    "section": "free-boundary-geometry-in-the-ball"
+  },
+  {
+    "route": "tag/1784BEE5B22B",
+    "title": "Definition 7.17.1 (Free boundary in a Euclidean ball)",
+    "chapter": "minimal-surfaces",
+    "section": "free-boundary-geometry-in-the-ball",
+    "tag": "1784BEE5B22B"
+  },
+  {
+    "route": "tag/BB9DE49F72CD",
+    "title": "Proposition 7.17.2 (Stationarity for boundary-preserving variations)",
+    "chapter": "minimal-surfaces",
+    "section": "free-boundary-geometry-in-the-ball",
+    "tag": "BB9DE49F72CD"
+  },
+  {
+    "route": "tag/07F94EB3FBAA",
+    "title": "Proposition 7.17.3 (Coordinate functions and the area identity)",
+    "chapter": "minimal-surfaces",
+    "section": "free-boundary-geometry-in-the-ball",
+    "tag": "07F94EB3FBAA"
+  },
+  {
+    "route": "tag/69B553D39714",
+    "title": "Definition 7.17.4 (The Steklov equation)",
+    "chapter": "minimal-surfaces",
+    "section": "free-boundary-geometry-in-the-ball",
+    "tag": "69B553D39714"
+  },
+  {
+    "route": "tag/8775B4161BF5",
+    "title": "Proposition 7.17.5 (Energy, sign, orthogonality, and scaling)",
+    "chapter": "minimal-surfaces",
+    "section": "free-boundary-geometry-in-the-ball",
+    "tag": "8775B4161BF5"
+  },
+  {
+    "route": "tag/42F70AD9838F",
+    "title": "Corollary 7.17.6 (A geometric Steklov eigenvalue)",
+    "chapter": "minimal-surfaces",
+    "section": "free-boundary-geometry-in-the-ball",
+    "tag": "42F70AD9838F"
+  },
+  {
+    "route": "tag/E50D256363DA",
+    "title": "Lemma 7.17.7 (Area acceleration under an ambient flow)",
+    "chapter": "minimal-surfaces",
+    "section": "free-boundary-geometry-in-the-ball",
+    "tag": "E50D256363DA"
+  },
+  {
+    "route": "tag/19C6839A4C10",
+    "title": "Theorem 7.17.8 (Instability in every positive codimension)",
+    "chapter": "minimal-surfaces",
+    "section": "free-boundary-geometry-in-the-ball",
+    "tag": "19C6839A4C10"
+  },
+  {
+    "route": "tag/4E8A8B534883",
+    "title": "Proposition 7.17.9 (Normal second variation at a free boundary)",
+    "chapter": "minimal-surfaces",
+    "section": "free-boundary-geometry-in-the-ball",
+    "tag": "4E8A8B534883"
+  },
+  {
     "route": "chapters/min-max-theory",
     "title": "8 Min-max theory",
     "chapter": "min-max-theory"
@@ -3766,6 +3835,109 @@
     "chapter": "constant-mean-curvature",
     "section": "trace-free-curvature-and-cmc-pinching",
     "tag": "BE780D70334A"
+  },
+  {
+    "route": "sections/gauss-maps-and-hopf-differentials",
+    "title": "11.8 Gauss maps and Hopf differentials",
+    "chapter": "constant-mean-curvature",
+    "section": "gauss-maps-and-hopf-differentials"
+  },
+  {
+    "route": "tag/5F0BF2179EDD",
+    "title": "Definition 11.8.1 (Harmonic maps to a unit sphere)",
+    "chapter": "constant-mean-curvature",
+    "section": "gauss-maps-and-hopf-differentials",
+    "tag": "5F0BF2179EDD"
+  },
+  {
+    "route": "tag/DB2FAFFE267A",
+    "title": "Proposition 11.8.2 (The sphere-valued energy equation)",
+    "chapter": "constant-mean-curvature",
+    "section": "gauss-maps-and-hopf-differentials",
+    "tag": "DB2FAFFE267A"
+  },
+  {
+    "route": "tag/70AB98B22DB0",
+    "title": "Proposition 11.8.3 (The Gauss-map tension of a Euclidean hypersurface)",
+    "chapter": "constant-mean-curvature",
+    "section": "gauss-maps-and-hopf-differentials",
+    "tag": "70AB98B22DB0"
+  },
+  {
+    "route": "tag/1896C8DC240D",
+    "title": "Lemma 11.8.4 (Conformal invariance of the harmonic-map equation in two dimensions)",
+    "chapter": "constant-mean-curvature",
+    "section": "gauss-maps-and-hopf-differentials",
+    "tag": "1896C8DC240D"
+  },
+  {
+    "route": "tag/C6B4DB72F83C",
+    "title": "Proposition 11.8.5 (The Hopf differential of a harmonic map)",
+    "chapter": "constant-mean-curvature",
+    "section": "gauss-maps-and-hopf-differentials",
+    "tag": "C6B4DB72F83C"
+  },
+  {
+    "route": "tag/41369D5435BF",
+    "title": "Lemma 11.8.6 (No nonzero holomorphic quadratic differential on the Riemann sphere)",
+    "chapter": "constant-mean-curvature",
+    "section": "gauss-maps-and-hopf-differentials",
+    "tag": "41369D5435BF"
+  },
+  {
+    "route": "tag/BB55E1795C93",
+    "title": "Theorem 11.8.7 (Hopf rigidity for a conformally parametrized CMC sphere)",
+    "chapter": "constant-mean-curvature",
+    "section": "gauss-maps-and-hopf-differentials",
+    "tag": "BB55E1795C93"
+  },
+  {
+    "route": "tag/E258EB566499",
+    "title": "Remark 11.8.8 (The topological-sphere formulation and its analytic input)",
+    "chapter": "constant-mean-curvature",
+    "section": "gauss-maps-and-hopf-differentials",
+    "tag": "E258EB566499"
+  },
+  {
+    "route": "sections/reconstructing-cmc-surfaces-from-harmonic-maps",
+    "title": "11.9 Reconstructing CMC surfaces from harmonic maps",
+    "chapter": "constant-mean-curvature",
+    "section": "reconstructing-cmc-surfaces-from-harmonic-maps"
+  },
+  {
+    "route": "tag/28CB34BE815C",
+    "title": "Lemma 11.9.1 (The closed reconstruction form)",
+    "chapter": "constant-mean-curvature",
+    "section": "reconstructing-cmc-surfaces-from-harmonic-maps",
+    "tag": "28CB34BE815C"
+  },
+  {
+    "route": "tag/0F5256B6DCF4",
+    "title": "Proposition 11.9.2 (The global period obstruction)",
+    "chapter": "constant-mean-curvature",
+    "section": "reconstructing-cmc-surfaces-from-harmonic-maps",
+    "tag": "0F5256B6DCF4"
+  },
+  {
+    "route": "tag/7DBEE7E31AA0",
+    "title": "Lemma 11.9.3 (The algebra of the two reconstructed maps)",
+    "chapter": "constant-mean-curvature",
+    "section": "reconstructing-cmc-surfaces-from-harmonic-maps",
+    "tag": "7DBEE7E31AA0"
+  },
+  {
+    "route": "tag/E1BAF4699366",
+    "title": "Theorem 11.9.4 (CMC reconstruction on the immersion locus)",
+    "chapter": "constant-mean-curvature",
+    "section": "reconstructing-cmc-surfaces-from-harmonic-maps",
+    "tag": "E1BAF4699366"
+  },
+  {
+    "route": "tag/A418F2471861",
+    "title": "Proposition 11.9.5 (Hopf differential and degeneracy of reconstruction)",
+    "chapter": "constant-mean-curvature",
+    "section": "reconstructing-cmc-surfaces-from-harmonic-maps",
+    "tag": "A418F2471861"
   },
   {
     "route": "chapters/allen-cahn",
@@ -5803,6 +5975,175 @@
     "chapter": "examples",
     "section": "an-explicit-ancient-oval",
     "tag": "932BFFC222D3"
+  },
+  {
+    "route": "sections/the-equatorial-disk-and-critical-catenoid",
+    "title": "16.7 The equatorial disk and critical catenoid",
+    "chapter": "examples",
+    "section": "the-equatorial-disk-and-critical-catenoid"
+  },
+  {
+    "route": "tag/8918496434FC",
+    "title": "Example 16.7.1 (The equatorial ball)",
+    "chapter": "examples",
+    "section": "the-equatorial-disk-and-critical-catenoid",
+    "tag": "8918496434FC"
+  },
+  {
+    "route": "tag/6EFFF85D2747",
+    "title": "Proposition 16.7.2 (The Steklov spectrum of the flat disk)",
+    "chapter": "examples",
+    "section": "the-equatorial-disk-and-critical-catenoid",
+    "tag": "6EFFF85D2747"
+  },
+  {
+    "route": "tag/492DCAF81B02",
+    "title": "Proposition 16.7.3 (Index one and nullity two for the equatorial disk)",
+    "chapter": "examples",
+    "section": "the-equatorial-disk-and-critical-catenoid",
+    "tag": "492DCAF81B02"
+  },
+  {
+    "route": "tag/9BF4DE659360",
+    "title": "Lemma 16.7.4 (The critical catenoid parameter)",
+    "chapter": "examples",
+    "section": "the-equatorial-disk-and-critical-catenoid",
+    "tag": "9BF4DE659360"
+  },
+  {
+    "route": "tag/DD8FCA5146D1",
+    "title": "Example 16.7.5 (A free-boundary catenoidal annulus)",
+    "chapter": "examples",
+    "section": "the-equatorial-disk-and-critical-catenoid",
+    "tag": "DD8FCA5146D1"
+  },
+  {
+    "route": "tag/521D410B62DA",
+    "title": "Proposition 16.7.6 (Area, boundary length, and an unstable direction)",
+    "chapter": "examples",
+    "section": "the-equatorial-disk-and-critical-catenoid",
+    "tag": "521D410B62DA"
+  },
+  {
+    "route": "tag/0D411F8E126C",
+    "title": "Proposition 16.7.7 (First Steklov eigenspace of the critical catenoid)",
+    "chapter": "examples",
+    "section": "the-equatorial-disk-and-critical-catenoid",
+    "tag": "0D411F8E126C"
+  },
+  {
+    "route": "sections/cylinders-spheres-and-a-period-obstruction",
+    "title": "16.8 Cylinders, spheres and a period obstruction",
+    "chapter": "examples",
+    "section": "cylinders-spheres-and-a-period-obstruction"
+  },
+  {
+    "route": "tag/964FA842F974",
+    "title": "Example 16.8.1 (An equatorial harmonic map gives a cylinder)",
+    "chapter": "examples",
+    "section": "cylinders-spheres-and-a-period-obstruction",
+    "tag": "964FA842F974"
+  },
+  {
+    "route": "tag/6BD94503E233",
+    "title": "Example 16.8.2 (Harmonic phases and cylinder parametrizations)",
+    "chapter": "examples",
+    "section": "cylinders-spheres-and-a-period-obstruction",
+    "tag": "6BD94503E233"
+  },
+  {
+    "route": "tag/741A30DF8826",
+    "title": "Example 16.8.3 (One stereographic map gives a sphere and a constant map)",
+    "chapter": "examples",
+    "section": "cylinders-spheres-and-a-period-obstruction",
+    "tag": "741A30DF8826"
+  },
+  {
+    "route": "tag/87EFE28EE2D2",
+    "title": "Example 16.8.4 (A logarithmic phase with a nonzero reconstruction period)",
+    "chapter": "examples",
+    "section": "cylinders-spheres-and-a-period-obstruction",
+    "tag": "87EFE28EE2D2"
+  },
+  {
+    "route": "sections/harmonic-map-singularities-and-concentration",
+    "title": "16.9 Harmonic-map singularities and concentration",
+    "chapter": "examples",
+    "section": "harmonic-map-singularities-and-concentration"
+  },
+  {
+    "route": "tag/6F437F387AA3",
+    "title": "Example 16.9.1 (The radial projection is a singular stationary map)",
+    "chapter": "examples",
+    "section": "harmonic-map-singularities-and-concentration",
+    "tag": "6F437F387AA3"
+  },
+  {
+    "route": "tag/94F25D3E2F67",
+    "title": "Example 16.9.2 (The planar vortex fails the finite-energy hypothesis)",
+    "chapter": "examples",
+    "section": "harmonic-map-singularities-and-concentration",
+    "tag": "94F25D3E2F67"
+  },
+  {
+    "route": "tag/F069D399A85D",
+    "title": "Example 16.9.3 (A spherical bubble concentrates its energy at one point)",
+    "chapter": "examples",
+    "section": "harmonic-map-singularities-and-concentration",
+    "tag": "F069D399A85D"
+  },
+  {
+    "route": "tag/2A3E375B030F",
+    "title": "Example 16.9.4 (Higher-degree spherical bubbles)",
+    "chapter": "examples",
+    "section": "harmonic-map-singularities-and-concentration",
+    "tag": "2A3E375B030F"
+  },
+  {
+    "route": "chapters/harmonic-maps",
+    "title": "17 Harmonic maps and variational systems",
+    "chapter": "harmonic-maps"
+  },
+  {
+    "route": "sections/stationarity-and-harmonic-map-energy",
+    "title": "17.1 Stationarity and harmonic-map energy",
+    "chapter": "harmonic-maps",
+    "section": "stationarity-and-harmonic-map-energy"
+  },
+  {
+    "route": "tag/21BC46F055B1",
+    "title": "Definition 17.1.1 (Weak harmonicity and domain stationarity)",
+    "chapter": "harmonic-maps",
+    "section": "stationarity-and-harmonic-map-energy",
+    "tag": "21BC46F055B1"
+  },
+  {
+    "route": "tag/33F433CCE84A",
+    "title": "Proposition 17.1.2 (The stress tensor and inner variations)",
+    "chapter": "harmonic-maps",
+    "section": "stationarity-and-harmonic-map-energy",
+    "tag": "33F433CCE84A"
+  },
+  {
+    "route": "tag/7B92D7E65AAC",
+    "title": "Theorem 17.1.3 (Radial energy monotonicity)",
+    "chapter": "harmonic-maps",
+    "section": "stationarity-and-harmonic-map-energy",
+    "tag": "7B92D7E65AAC"
+  },
+  {
+    "route": "tag/D01FDB2147F5",
+    "title": "Proposition 17.1.4 (Equality, homogeneity and smooth-point density)",
+    "chapter": "harmonic-maps",
+    "section": "stationarity-and-harmonic-map-energy",
+    "tag": "D01FDB2147F5"
+  },
+  {
+    "route": "tag/C271105F6A04",
+    "title": "Corollary 17.1.5 (Finite total energy in dimensions above two)",
+    "chapter": "harmonic-maps",
+    "section": "stationarity-and-harmonic-map-energy",
+    "tag": "C271105F6A04"
   },
   {
     "route": "entries",

@@ -7477,5 +7477,446 @@
     "page": "tag/490129F5/index.html",
     "canonical_tag": "2BDD686532E1",
     "anchor": ""
+  },
+  {
+    "tag": "93AAF2B5",
+    "label": "sec:free-boundary-ball",
+    "title": "101 Free-boundary geometry in the ball",
+    "kind": "chapter",
+    "page": "tag/93AAF2B5/index.html",
+    "canonical_tag": "DFF832B16393",
+    "anchor": ""
+  },
+  {
+    "tag": "8A0979E1",
+    "label": "def:ball-free-boundary",
+    "title": "Definition 101.1 (Free boundary in a Euclidean ball)",
+    "kind": "definition",
+    "page": "tag/8A0979E1/index.html",
+    "canonical_tag": "1784BEE5B22B",
+    "anchor": ""
+  },
+  {
+    "tag": "52358E13",
+    "label": "prop:ball-free-boundary-stationarity",
+    "title": "Proposition 101.2 (Stationarity for boundary-preserving variations)",
+    "kind": "proposition",
+    "page": "tag/52358E13/index.html",
+    "canonical_tag": "BB9DE49F72CD",
+    "anchor": ""
+  },
+  {
+    "tag": "03C8C57B",
+    "label": "prop:free-boundary-coordinate-identities",
+    "title": "Proposition 101.3 (Coordinate functions and the area identity)",
+    "kind": "proposition",
+    "page": "tag/03C8C57B/index.html",
+    "canonical_tag": "07F94EB3FBAA",
+    "anchor": ""
+  },
+  {
+    "tag": "CD40972C",
+    "label": "def:steklov-equation",
+    "title": "Definition 101.4 (The Steklov equation)",
+    "kind": "definition",
+    "page": "tag/CD40972C/index.html",
+    "canonical_tag": "69B553D39714",
+    "anchor": ""
+  },
+  {
+    "tag": "B6A009BD",
+    "label": "prop:steklov-elementary-identities",
+    "title": "Proposition 101.5 (Energy, sign, orthogonality, and scaling)",
+    "kind": "proposition",
+    "page": "tag/B6A009BD/index.html",
+    "canonical_tag": "8775B4161BF5",
+    "anchor": ""
+  },
+  {
+    "tag": "7A20D215",
+    "label": "cor:free-boundary-steklov-one",
+    "title": "Corollary 101.6 (A geometric Steklov eigenvalue)",
+    "kind": "corollary",
+    "page": "tag/7A20D215/index.html",
+    "canonical_tag": "42F70AD9838F",
+    "anchor": ""
+  },
+  {
+    "tag": "B116B335",
+    "label": "lem:free-boundary-flow-acceleration",
+    "title": "Lemma 101.7 (Area acceleration under an ambient flow)",
+    "kind": "lemma",
+    "page": "tag/B116B335/index.html",
+    "canonical_tag": "E50D256363DA",
+    "anchor": ""
+  },
+  {
+    "tag": "9F9711BF",
+    "label": "thm:free-boundary-ball-instability",
+    "title": "Theorem 101.8 (Instability in every positive codimension)",
+    "kind": "theorem",
+    "page": "tag/9F9711BF/index.html",
+    "canonical_tag": "19C6839A4C10",
+    "anchor": ""
+  },
+  {
+    "tag": "D264813A",
+    "label": "prop:free-boundary-normal-form",
+    "title": "Proposition 101.9 (Normal second variation at a free boundary)",
+    "kind": "proposition",
+    "page": "tag/D264813A/index.html",
+    "canonical_tag": "4E8A8B534883",
+    "anchor": ""
+  },
+  {
+    "tag": "37A1356D",
+    "label": "sec:examples-free-boundary",
+    "title": "102 The equatorial disk and critical catenoid",
+    "kind": "chapter",
+    "page": "tag/37A1356D/index.html",
+    "canonical_tag": "B94F09743301",
+    "anchor": ""
+  },
+  {
+    "tag": "1E8533E1",
+    "label": "ex:equatorial-free-boundary-ball",
+    "title": "Example 102.1 (The equatorial ball)",
+    "kind": "example",
+    "page": "tag/1E8533E1/index.html",
+    "canonical_tag": "8918496434FC",
+    "anchor": ""
+  },
+  {
+    "tag": "041834CE",
+    "label": "prop:disk-steklov-spectrum",
+    "title": "Proposition 102.2 (The Steklov spectrum of the flat disk)",
+    "kind": "proposition",
+    "page": "tag/041834CE/index.html",
+    "canonical_tag": "6EFFF85D2747",
+    "anchor": ""
+  },
+  {
+    "tag": "1F6F50F6",
+    "label": "prop:equatorial-disk-index",
+    "title": "Proposition 102.3 (Index one and nullity two for the equatorial disk)",
+    "kind": "proposition",
+    "page": "tag/1F6F50F6/index.html",
+    "canonical_tag": "492DCAF81B02",
+    "anchor": ""
+  },
+  {
+    "tag": "86D71D58",
+    "label": "lem:critical-catenoid-parameter",
+    "title": "Lemma 102.4 (The critical catenoid parameter)",
+    "kind": "lemma",
+    "page": "tag/86D71D58/index.html",
+    "canonical_tag": "9BF4DE659360",
+    "anchor": ""
+  },
+  {
+    "tag": "3424F5AD",
+    "label": "ex:critical-catenoid",
+    "title": "Example 102.5 (A free-boundary catenoidal annulus)",
+    "kind": "example",
+    "page": "tag/3424F5AD/index.html",
+    "canonical_tag": "DD8FCA5146D1",
+    "anchor": ""
+  },
+  {
+    "tag": "A9B84169",
+    "label": "prop:critical-catenoid-integrals",
+    "title": "Proposition 102.6 (Area, boundary length, and an unstable direction)",
+    "kind": "proposition",
+    "page": "tag/A9B84169/index.html",
+    "canonical_tag": "521D410B62DA",
+    "anchor": ""
+  },
+  {
+    "tag": "235595E8",
+    "label": "prop:critical-catenoid-steklov",
+    "title": "Proposition 102.7 (First Steklov eigenspace of the critical catenoid)",
+    "kind": "proposition",
+    "page": "tag/235595E8/index.html",
+    "canonical_tag": "0D411F8E126C",
+    "anchor": ""
+  },
+  {
+    "tag": "BCA32CA3",
+    "label": "sec:gauss-map-hopf",
+    "title": "103 Gauss maps and Hopf differentials",
+    "kind": "chapter",
+    "page": "tag/BCA32CA3/index.html",
+    "canonical_tag": "F402186F356A",
+    "anchor": ""
+  },
+  {
+    "tag": "2CD28A8B",
+    "label": "def:sphere-valued-harmonic-map",
+    "title": "Definition 103.1 (Harmonic maps to a unit sphere)",
+    "kind": "definition",
+    "page": "tag/2CD28A8B/index.html",
+    "canonical_tag": "5F0BF2179EDD",
+    "anchor": ""
+  },
+  {
+    "tag": "35605833",
+    "label": "prop:sphere-energy-equation",
+    "title": "Proposition 103.2 (The sphere-valued energy equation)",
+    "kind": "proposition",
+    "page": "tag/35605833/index.html",
+    "canonical_tag": "DB2FAFFE267A",
+    "anchor": ""
+  },
+  {
+    "tag": "D4987953",
+    "label": "prop:gauss-map-tension",
+    "title": "Proposition 103.3 (The Gauss-map tension of a Euclidean hypersurface)",
+    "kind": "proposition",
+    "page": "tag/D4987953/index.html",
+    "canonical_tag": "70AB98B22DB0",
+    "anchor": ""
+  },
+  {
+    "tag": "9490A168",
+    "label": "lem:surface-harmonic-conformal-invariance",
+    "title": "Lemma 103.4 (Conformal invariance of the harmonic-map equation in two dimensions)",
+    "kind": "lemma",
+    "page": "tag/9490A168/index.html",
+    "canonical_tag": "1896C8DC240D",
+    "anchor": ""
+  },
+  {
+    "tag": "7CE8DE5F",
+    "label": "prop:harmonic-hopf-differential",
+    "title": "Proposition 103.5 (The Hopf differential of a harmonic map)",
+    "kind": "proposition",
+    "page": "tag/7CE8DE5F/index.html",
+    "canonical_tag": "C6B4DB72F83C",
+    "anchor": ""
+  },
+  {
+    "tag": "27049576",
+    "label": "lem:sphere-quadratic-differential-zero",
+    "title": "Lemma 103.6 (No nonzero holomorphic quadratic differential on the Riemann sphere)",
+    "kind": "lemma",
+    "page": "tag/27049576/index.html",
+    "canonical_tag": "41369D5435BF",
+    "anchor": ""
+  },
+  {
+    "tag": "44922B24",
+    "label": "thm:hopf-cmc-conformal-sphere",
+    "title": "Theorem 103.7 (Hopf rigidity for a conformally parametrized CMC sphere)",
+    "kind": "theorem",
+    "page": "tag/44922B24/index.html",
+    "canonical_tag": "BB55E1795C93",
+    "anchor": ""
+  },
+  {
+    "tag": "86417834",
+    "label": "rem:hopf-uniformization-input",
+    "title": "Remark 103.8 (The topological-sphere formulation and its analytic input)",
+    "kind": "remark",
+    "page": "tag/86417834/index.html",
+    "canonical_tag": "E258EB566499",
+    "anchor": ""
+  },
+  {
+    "tag": "5674C24A",
+    "label": "sec:cmc-reconstruction",
+    "title": "104 Reconstructing CMC surfaces from harmonic maps",
+    "kind": "chapter",
+    "page": "tag/5674C24A/index.html",
+    "canonical_tag": "70665B2BAC39",
+    "anchor": ""
+  },
+  {
+    "tag": "AE997416",
+    "label": "lem:cmc-reconstruction-closed-form",
+    "title": "Lemma 104.1 (The closed reconstruction form)",
+    "kind": "lemma",
+    "page": "tag/AE997416/index.html",
+    "canonical_tag": "28CB34BE815C",
+    "anchor": ""
+  },
+  {
+    "tag": "D414BFCE",
+    "label": "prop:cmc-reconstruction-periods",
+    "title": "Proposition 104.2 (The global period obstruction)",
+    "kind": "proposition",
+    "page": "tag/D414BFCE/index.html",
+    "canonical_tag": "0F5256B6DCF4",
+    "anchor": ""
+  },
+  {
+    "tag": "75498983",
+    "label": "lem:cmc-reconstruction-algebra",
+    "title": "Lemma 104.3 (The algebra of the two reconstructed maps)",
+    "kind": "lemma",
+    "page": "tag/75498983/index.html",
+    "canonical_tag": "7DBEE7E31AA0",
+    "anchor": ""
+  },
+  {
+    "tag": "80E2E827",
+    "label": "thm:cmc-harmonic-reconstruction",
+    "title": "Theorem 104.4 (CMC reconstruction on the immersion locus)",
+    "kind": "theorem",
+    "page": "tag/80E2E827/index.html",
+    "canonical_tag": "E1BAF4699366",
+    "anchor": ""
+  },
+  {
+    "tag": "61944ACF",
+    "label": "prop:cmc-reconstruction-hopf",
+    "title": "Proposition 104.5 (Hopf differential and degeneracy of reconstruction)",
+    "kind": "proposition",
+    "page": "tag/61944ACF/index.html",
+    "canonical_tag": "A418F2471861",
+    "anchor": ""
+  },
+  {
+    "tag": "B57869DE",
+    "label": "sec:examples-cmc-reconstruction",
+    "title": "105 Cylinders, spheres and a period obstruction",
+    "kind": "chapter",
+    "page": "tag/B57869DE/index.html",
+    "canonical_tag": "845C5A1F3702",
+    "anchor": ""
+  },
+  {
+    "tag": "5FCD4943",
+    "label": "ex:equatorial-harmonic-cylinder",
+    "title": "Example 105.1 (An equatorial harmonic map gives a cylinder)",
+    "kind": "example",
+    "page": "tag/5FCD4943/index.html",
+    "canonical_tag": "964FA842F974",
+    "anchor": ""
+  },
+  {
+    "tag": "55360A1B",
+    "label": "ex:harmonic-phase-cylinder",
+    "title": "Example 105.2 (Harmonic phases and cylinder parametrizations)",
+    "kind": "example",
+    "page": "tag/55360A1B/index.html",
+    "canonical_tag": "6BD94503E233",
+    "anchor": ""
+  },
+  {
+    "tag": "E288AAF4",
+    "label": "ex:stereographic-cmc-reconstruction",
+    "title": "Example 105.3 (One stereographic map gives a sphere and a constant map)",
+    "kind": "example",
+    "page": "tag/E288AAF4/index.html",
+    "canonical_tag": "741A30DF8826",
+    "anchor": ""
+  },
+  {
+    "tag": "81BA1F78",
+    "label": "ex:cmc-logarithmic-period",
+    "title": "Example 105.4 (A logarithmic phase with a nonzero reconstruction period)",
+    "kind": "example",
+    "page": "tag/81BA1F78/index.html",
+    "canonical_tag": "87EFE28EE2D2",
+    "anchor": ""
+  },
+  {
+    "tag": "D38260C7",
+    "label": "sec:harmonic-map-energy",
+    "title": "106 Stationarity and harmonic-map energy",
+    "kind": "chapter",
+    "page": "tag/D38260C7/index.html",
+    "canonical_tag": "44BE0D94ADD5",
+    "anchor": ""
+  },
+  {
+    "tag": "CF9C5614",
+    "label": "def:stationary-weak-harmonic-map",
+    "title": "Definition 106.1 (Weak harmonicity and domain stationarity)",
+    "kind": "definition",
+    "page": "tag/CF9C5614/index.html",
+    "canonical_tag": "21BC46F055B1",
+    "anchor": ""
+  },
+  {
+    "tag": "6290E323",
+    "label": "prop:harmonic-map-stress-tensor",
+    "title": "Proposition 106.2 (The stress tensor and inner variations)",
+    "kind": "proposition",
+    "page": "tag/6290E323/index.html",
+    "canonical_tag": "33F433CCE84A",
+    "anchor": ""
+  },
+  {
+    "tag": "9A9CE12A",
+    "label": "thm:stationary-harmonic-energy-monotonicity",
+    "title": "Theorem 106.3 (Radial energy monotonicity)",
+    "kind": "theorem",
+    "page": "tag/9A9CE12A/index.html",
+    "canonical_tag": "7B92D7E65AAC",
+    "anchor": ""
+  },
+  {
+    "tag": "9DFE31B9",
+    "label": "prop:harmonic-energy-equality",
+    "title": "Proposition 106.4 (Equality, homogeneity and smooth-point density)",
+    "kind": "proposition",
+    "page": "tag/9DFE31B9/index.html",
+    "canonical_tag": "D01FDB2147F5",
+    "anchor": ""
+  },
+  {
+    "tag": "3067177F",
+    "label": "cor:finite-energy-harmonic-liouville",
+    "title": "Corollary 106.5 (Finite total energy in dimensions above two)",
+    "kind": "corollary",
+    "page": "tag/3067177F/index.html",
+    "canonical_tag": "C271105F6A04",
+    "anchor": ""
+  },
+  {
+    "tag": "787A1DDB",
+    "label": "sec:examples-harmonic-energy",
+    "title": "107 Harmonic-map singularities and concentration",
+    "kind": "chapter",
+    "page": "tag/787A1DDB/index.html",
+    "canonical_tag": "96C0FFC6BD8C",
+    "anchor": ""
+  },
+  {
+    "tag": "1ACD7235",
+    "label": "ex:radial-harmonic-hedgehog",
+    "title": "Example 107.1 (The radial projection is a singular stationary map)",
+    "kind": "example",
+    "page": "tag/1ACD7235/index.html",
+    "canonical_tag": "6F437F387AA3",
+    "anchor": ""
+  },
+  {
+    "tag": "C35820DC",
+    "label": "ex:planar-vortex-infinite-energy",
+    "title": "Example 107.2 (The planar vortex fails the finite-energy hypothesis)",
+    "kind": "example",
+    "page": "tag/C35820DC/index.html",
+    "canonical_tag": "94F25D3E2F67",
+    "anchor": ""
+  },
+  {
+    "tag": "D19EDE23",
+    "label": "ex:stereographic-energy-concentration",
+    "title": "Example 107.3 (A spherical bubble concentrates its energy at one point)",
+    "kind": "example",
+    "page": "tag/D19EDE23/index.html",
+    "canonical_tag": "F069D399A85D",
+    "anchor": ""
+  },
+  {
+    "tag": "D1F834C2",
+    "label": "ex:higher-degree-spherical-bubble",
+    "title": "Example 107.4 (Higher-degree spherical bubbles)",
+    "kind": "example",
+    "page": "tag/D1F834C2/index.html",
+    "canonical_tag": "2A3E375B030F",
+    "anchor": ""
   }
 ]

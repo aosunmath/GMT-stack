@@ -288,6 +288,7 @@
       "status": "editorial",
       "citations": [],
       "dependencies": [
+        "def:ball-free-boundary",
         "def:integral-brakke-flow",
         "ex:brakke-density-one-drop",
         "prop:mcf-avoidance",
@@ -9482,6 +9483,496 @@
         "lem:parallel-normalized-shape",
         "prop:mcf-curvature-ratio",
         "thm:mcf-ratio-rigidity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:ball-free-boundary",
+      "title": "Free boundary in a Euclidean ball",
+      "kind": "definition",
+      "file": "free-boundary-ball.tex",
+      "status": "definition-with-source",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:ball-free-boundary-stationarity",
+      "title": "Stationarity for boundary-preserving variations",
+      "kind": "proposition",
+      "file": "free-boundary-ball.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:free-boundary-coordinate-identities",
+      "title": "Coordinate functions and the area identity",
+      "kind": "proposition",
+      "file": "free-boundary-ball.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:steklov-equation",
+      "title": "The Steklov equation",
+      "kind": "definition",
+      "file": "free-boundary-ball.tex",
+      "status": "definition-with-source",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:steklov-elementary-identities",
+      "title": "Energy, sign, orthogonality, and scaling",
+      "kind": "proposition",
+      "file": "free-boundary-ball.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:free-boundary-steklov-one",
+      "title": "A geometric Steklov eigenvalue",
+      "kind": "corollary",
+      "file": "free-boundary-ball.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:free-boundary-coordinate-identities"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:free-boundary-flow-acceleration",
+      "title": "Area acceleration under an ambient flow",
+      "kind": "lemma",
+      "file": "free-boundary-ball.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:free-boundary-ball-instability",
+      "title": "Instability in every positive codimension",
+      "kind": "theorem",
+      "file": "free-boundary-ball.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fraser00"
+      ],
+      "dependencies": [
+        "lem:free-boundary-flow-acceleration"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:free-boundary-normal-form",
+      "title": "Normal second variation at a free boundary",
+      "kind": "proposition",
+      "file": "free-boundary-ball.tex",
+      "status": "proof-included",
+      "citations": [
+        "Fraser00"
+      ],
+      "dependencies": [
+        "lem:free-boundary-flow-acceleration"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:equatorial-free-boundary-ball",
+      "title": "The equatorial ball",
+      "kind": "example",
+      "file": "examples-free-boundary.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:free-boundary-normal-form"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:disk-steklov-spectrum",
+      "title": "The Steklov spectrum of the flat disk",
+      "kind": "proposition",
+      "file": "examples-free-boundary.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:equatorial-disk-index",
+      "title": "Index one and nullity two for the equatorial disk",
+      "kind": "proposition",
+      "file": "examples-free-boundary.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:equatorial-free-boundary-ball",
+        "prop:disk-steklov-spectrum"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:critical-catenoid-parameter",
+      "title": "The critical catenoid parameter",
+      "kind": "lemma",
+      "file": "examples-free-boundary.tex",
+      "status": "proof-included",
+      "citations": [
+        "FS11"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:critical-catenoid",
+      "title": "A free-boundary catenoidal annulus",
+      "kind": "example",
+      "file": "examples-free-boundary.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:explicit-catenoid"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:critical-catenoid-integrals",
+      "title": "Area, boundary length, and an unstable direction",
+      "kind": "proposition",
+      "file": "examples-free-boundary.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "prop:catenoid-curvature-example"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:critical-catenoid-steklov",
+      "title": "First Steklov eigenspace of the critical catenoid",
+      "kind": "proposition",
+      "file": "examples-free-boundary.tex",
+      "status": "proof-included",
+      "citations": [
+        "FS11"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:sphere-valued-harmonic-map",
+      "title": "Harmonic maps to a unit sphere",
+      "kind": "definition",
+      "file": "gauss-map-hopf.tex",
+      "status": "definition-with-source",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:sphere-energy-equation",
+      "title": "The sphere-valued energy equation",
+      "kind": "proposition",
+      "file": "gauss-map-hopf.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:gauss-map-tension",
+      "title": "The Gauss-map tension of a Euclidean hypersurface",
+      "kind": "proposition",
+      "file": "gauss-map-hopf.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hel01"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:surface-harmonic-conformal-invariance",
+      "title": "Conformal invariance of the harmonic-map equation in two dimensions",
+      "kind": "lemma",
+      "file": "gauss-map-hopf.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:harmonic-hopf-differential",
+      "title": "The Hopf differential of a harmonic map",
+      "kind": "proposition",
+      "file": "gauss-map-hopf.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hel01"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:sphere-quadratic-differential-zero",
+      "title": "No nonzero holomorphic quadratic differential on the Riemann sphere",
+      "kind": "lemma",
+      "file": "gauss-map-hopf.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hel01"
+      ],
+      "dependencies": [
+        "prop:harmonic-hopf-differential"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:hopf-cmc-conformal-sphere",
+      "title": "Hopf rigidity for a conformally parametrized CMC sphere",
+      "kind": "theorem",
+      "file": "gauss-map-hopf.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hel01"
+      ],
+      "dependencies": [
+        "lem:sphere-quadratic-differential-zero",
+        "lem:surface-harmonic-conformal-invariance",
+        "prop:gauss-map-tension"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "rem:hopf-uniformization-input",
+      "title": "The topological-sphere formulation and its analytic input",
+      "kind": "remark",
+      "file": "gauss-map-hopf.tex",
+      "status": "editorial",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:cmc-reconstruction-closed-form",
+      "title": "The closed reconstruction form",
+      "kind": "lemma",
+      "file": "cmc-reconstruction.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-reconstruction-periods",
+      "title": "The global period obstruction",
+      "kind": "proposition",
+      "file": "cmc-reconstruction.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "lem:cmc-reconstruction-closed-form"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:cmc-reconstruction-algebra",
+      "title": "The algebra of the two reconstructed maps",
+      "kind": "lemma",
+      "file": "cmc-reconstruction.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:cmc-harmonic-reconstruction",
+      "title": "CMC reconstruction on the immersion locus",
+      "kind": "theorem",
+      "file": "cmc-reconstruction.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hel01"
+      ],
+      "dependencies": [
+        "lem:cmc-reconstruction-algebra"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:cmc-reconstruction-hopf",
+      "title": "Hopf differential and degeneracy of reconstruction",
+      "kind": "proposition",
+      "file": "cmc-reconstruction.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:stereographic-cmc-reconstruction",
+        "prop:harmonic-hopf-differential"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:equatorial-harmonic-cylinder",
+      "title": "An equatorial harmonic map gives a cylinder",
+      "kind": "example",
+      "file": "examples-cmc-reconstruction.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:cmc-harmonic-reconstruction"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:harmonic-phase-cylinder",
+      "title": "Harmonic phases and cylinder parametrizations",
+      "kind": "example",
+      "file": "examples-cmc-reconstruction.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:stereographic-cmc-reconstruction",
+      "title": "One stereographic map gives a sphere and a constant map",
+      "kind": "example",
+      "file": "examples-cmc-reconstruction.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:cmc-harmonic-reconstruction"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:cmc-logarithmic-period",
+      "title": "A logarithmic phase with a nonzero reconstruction period",
+      "kind": "example",
+      "file": "examples-cmc-reconstruction.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:harmonic-phase-cylinder",
+        "prop:cmc-reconstruction-periods"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:stationary-weak-harmonic-map",
+      "title": "Weak harmonicity and domain stationarity",
+      "kind": "definition",
+      "file": "harmonic-map-energy.tex",
+      "status": "definition-with-source",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:harmonic-map-stress-tensor",
+      "title": "The stress tensor and inner variations",
+      "kind": "proposition",
+      "file": "harmonic-map-energy.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hel01"
+      ],
+      "dependencies": [
+        "def:stationary-weak-harmonic-map"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:stationary-harmonic-energy-monotonicity",
+      "title": "Radial energy monotonicity",
+      "kind": "theorem",
+      "file": "harmonic-map-energy.tex",
+      "status": "proof-included",
+      "citations": [
+        "Hel01"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:harmonic-energy-equality",
+      "title": "Equality, homogeneity and smooth-point density",
+      "kind": "proposition",
+      "file": "harmonic-map-energy.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "thm:stationary-harmonic-energy-monotonicity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:finite-energy-harmonic-liouville",
+      "title": "Finite total energy in dimensions above two",
+      "kind": "corollary",
+      "file": "harmonic-map-energy.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:stereographic-energy-concentration",
+        "prop:harmonic-map-stress-tensor"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:radial-harmonic-hedgehog",
+      "title": "The radial projection is a singular stationary map",
+      "kind": "example",
+      "file": "examples-harmonic-energy.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:planar-vortex-infinite-energy",
+      "title": "The planar vortex fails the finite-energy hypothesis",
+      "kind": "example",
+      "file": "examples-harmonic-energy.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:radial-harmonic-hedgehog"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:stereographic-energy-concentration",
+      "title": "A spherical bubble concentrates its energy at one point",
+      "kind": "example",
+      "file": "examples-harmonic-energy.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:stereographic-cmc-reconstruction"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:higher-degree-spherical-bubble",
+      "title": "Higher-degree spherical bubbles",
+      "kind": "example",
+      "file": "examples-harmonic-energy.tex",
+      "status": "proof-included",
+      "citations": [],
+      "dependencies": [
+        "ex:stereographic-energy-concentration"
       ],
       "formal_verification": "none"
     }
