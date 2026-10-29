@@ -99,9 +99,10 @@
         "power-tests-and-moser-iteration",
         "euclidean-sobolev-inequalities-and-their-endpoints",
         "gauss-equations-and-curvature-inequalities",
-        "stability-and-integral-curvature-estimates"
+        "stability-and-integral-curvature-estimates",
+        "free-boundary-geometry-in-the-ball"
       ],
-      "description": "Variations, graphs, elliptic estimates, truncated power tests and Moser iteration, Jacobi fields, separated sheets, removable stability, index localization and weak convergence, compactness, geometric inequalities, scalar curvature, Bernstein arguments, and stable cones."
+      "description": "Variations, graphs, elliptic estimates, truncated power tests and Moser iteration, Jacobi fields, separated sheets, removable stability, index localization and weak convergence, compactness, geometric inequalities, scalar curvature, Bernstein arguments, and stable cones. Free-boundary stationarity, Steklov coordinates, and instability in the unit ball."
     },
     {
       "slug": "min-max-theory",
@@ -151,9 +152,11 @@
         "minkowski-identities-and-euclidean-cmc-rigidity",
         "constrained-jacobi-fields-and-spectral-tests",
         "geodesic-spheres-and-spherical-cmc-rigidity",
-        "trace-free-curvature-and-cmc-pinching"
+        "trace-free-curvature-and-cmc-pinching",
+        "gauss-maps-and-hopf-differentials",
+        "reconstructing-cmc-surfaces-from-harmonic-maps"
       ],
-      "description": "Area minus volume, CMC min-max, curvature networks, exact volume constraints, strong versus constrained stability, Minkowski identities, constrained Jacobi fields, and sphere rigidity."
+      "description": "Area minus volume, CMC min-max, curvature networks, exact volume constraints, strong versus constrained stability, Minkowski identities, constrained Jacobi fields, and sphere rigidity. Harmonic Gauss maps, Hopf differentials, and CMC spheres. CMC reconstruction with period and immersion conditions."
     },
     {
       "slug": "allen-cahn",
@@ -221,9 +224,20 @@
         "explicit-solitons-and-translating-graphs",
         "constructing-the-rotational-bowl-soliton",
         "expanding-curves-that-smooth-a-corner",
-        "an-explicit-ancient-oval"
+        "an-explicit-ancient-oval",
+        "the-equatorial-disk-and-critical-catenoid",
+        "cylinders-spheres-and-a-period-obstruction",
+        "harmonic-map-singularities-and-concentration"
       ],
-      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs."
+      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures."
+    },
+    {
+      "slug": "harmonic-maps",
+      "title": "Harmonic maps and variational systems",
+      "topics": [
+        "stationarity-and-harmonic-map-energy"
+      ],
+      "description": "Domain stationarity, stress-energy conservation, radial monotonicity, homogeneity, and finite-energy rigidity, linked to CMC Gauss maps and explicit concentration examples."
     }
   ],
   "topics": [],
