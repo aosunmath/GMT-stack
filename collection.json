@@ -105,9 +105,10 @@
         "euclidean-sobolev-inequalities-and-their-endpoints",
         "gauss-equations-and-curvature-inequalities",
         "stability-and-integral-curvature-estimates",
-        "free-boundary-geometry-in-the-ball"
+        "free-boundary-geometry-in-the-ball",
+        "sobolev-compactness-on-closed-manifolds"
       ],
-      "description": "Variations, graphs, elliptic estimates, truncated power tests and Moser iteration, Jacobi fields, separated sheets, removable stability, index localization and weak convergence, compactness, geometric inequalities, scalar curvature, Bernstein arguments, and stable cones. Free-boundary stationarity, Steklov coordinates, and instability in the unit ball."
+      "description": "Variations, graphs, elliptic estimates, truncated power tests and Moser iteration, Jacobi fields, separated sheets, removable stability, index localization and weak convergence, compactness, geometric inequalities, scalar curvature, Bernstein arguments, and stable cones. Free-boundary stationarity, Steklov coordinates, and instability in the unit ball. Sobolev compactness and the positive Poincare constant on a connected closed manifold."
     },
     {
       "slug": "min-max-theory",
@@ -180,9 +181,13 @@
         "recovery-layers-and-variational-limits",
         "gradient-bounds-and-diffuse-monotonicity",
         "stability-and-level-set-geometry",
-        "monotone-solutions-and-minimizing-properties"
+        "monotone-solutions-and-minimizing-properties",
+        "the-linearized-operator-of-a-single-transition",
+        "the-bounded-kernel-along-a-flat-phase-interface",
+        "curved-transition-layers-and-the-jacobi-obstruction",
+        "compactness-at-a-fixed-phase-field-parameter"
       ],
-      "description": "Transition profiles, BV compactness and perimeter limits, recovery layers, Modica bounds, stress-energy monotonicity, stability and level geometry, sliding minimization, and planar and three-dimensional rigidity."
+      "description": "Transition profiles, BV compactness and perimeter limits, recovery layers, Modica bounds, stress-energy monotonicity, stability and level geometry, sliding minimization, and planar and three-dimensional rigidity. Sharp normal coercivity, bounded flat kernels, curved-interface Jacobi obstructions and fixed-parameter compactness."
     },
     {
       "slug": "obstacle-problems",
@@ -254,9 +259,11 @@
         "a-radial-obstacle-problem-and-its-contact-transition",
         "round-surfaces-and-circular-willmore-tori",
         "a-finite-energy-inversion-with-a-nonsmooth-closing-point",
-        "curvature-concentration-and-boundary-energy"
+        "curvature-concentration-and-boundary-energy",
+        "periodic-phases-and-the-long-period-transition-limit",
+        "exact-phase-layer-energies-and-geometric-limits"
       ],
-      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition. Willmore tori and round surfaces, an inverted catenoid, and curvature concentration, boundary and multiplicity examples."
+      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition. Willmore tori and round surfaces, an inverted catenoid, and curvature concentration, boundary and multiplicity examples. Periodic phase profiles, exact instability modes, circle interfaces and geometric layer energies."
     },
     {
       "slug": "harmonic-maps",
