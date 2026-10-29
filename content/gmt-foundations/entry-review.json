@@ -925,12 +925,14 @@
       "title": "Area formula",
       "kind": "theorem",
       "file": "rectifiability.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Fed69",
         "Sim18"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "thm:euclidean-area-local-proof"
+      ],
       "formal_verification": "none"
     },
     {
@@ -950,12 +952,16 @@
       "title": "Coarea formula",
       "kind": "theorem",
       "file": "rectifiability.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Fed69",
         "Sim18"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "lem:finite-hausdorff-fiber-measurable",
+        "prop:lipschitz-coarea-c1-reduction",
+        "prop:mcshane-extension"
+      ],
       "formal_verification": "none"
     },
     {
@@ -15881,11 +15887,438 @@
         "thm:null-coordinate-projections-pure"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "lem:area-positive-metric-factor",
+      "title": "An injective linear map determines a positive domain metric",
+      "kind": "lemma",
+      "file": "euclidean-area-metric-proof.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:hausdorff-measure"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:finite-volume-lipschitz-image-measurable",
+      "title": "Measurability of a finite-volume Lipschitz image",
+      "kind": "lemma",
+      "file": "euclidean-area-metric-proof.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:lipschitz-measure"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:area-full-rank-metric-pieces",
+      "title": "A countable partition with controlled linear metric",
+      "kind": "proposition",
+      "file": "euclidean-area-metric-proof.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:area-one-metric-piece",
+      "title": "Area bounds on one metric piece",
+      "kind": "lemma",
+      "file": "euclidean-area-metric-proof.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:area-positive-metric-factor",
+        "lem:finite-volume-lipschitz-image-measurable",
+        "prop:area-full-rank-metric-pieces",
+        "prop:lipschitz-measure"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:area-full-rank-lipschitz",
+      "title": "The area identity on the full-rank differentiability set",
+      "kind": "proposition",
+      "file": "euclidean-area-metric-proof.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:area-one-metric-piece",
+        "lem:finite-volume-lipschitz-image-measurable",
+        "prop:area-full-rank-metric-pieces"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:area-graph-regularization",
+      "title": "An injective graph regularization of a rank-deficient map",
+      "kind": "lemma",
+      "file": "euclidean-area-metric-proof.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:area-critical-image-null",
+      "title": "The critical differentiability set has a null image",
+      "kind": "proposition",
+      "file": "euclidean-area-metric-proof.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:area-graph-regularization",
+        "prop:area-full-rank-lipschitz"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:euclidean-area-local-proof",
+      "title": "Euclidean area with measurable multiplicity",
+      "kind": "theorem",
+      "file": "euclidean-area-metric-proof.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:finite-volume-lipschitz-image-measurable",
+        "prop:area-critical-image-null",
+        "prop:area-full-rank-lipschitz",
+        "prop:mcshane-extension",
+        "thm:rademacher"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:area-null-image-criterion",
+      "title": "A null image is equivalent to a vanishing area Jacobian",
+      "kind": "corollary",
+      "file": "euclidean-area-metric-proof.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:finite-volume-lipschitz-image-measurable",
+        "thm:euclidean-area-local-proof"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:area-integrable-multiplicity",
+      "title": "Finite-volume domains have finite multiplicity almost everywhere",
+      "kind": "proposition",
+      "file": "euclidean-area-metric-proof.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:euclidean-area-local-proof"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:compact-fiber-measure-borel",
+      "title": "Measurability of the measure of a compact fiber",
+      "kind": "lemma",
+      "file": "euclidean-coarea-from-area.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:finite-hausdorff-fiber-measurable",
+      "title": "Measurable fibers for a finite Hausdorff-measure set",
+      "kind": "lemma",
+      "file": "euclidean-coarea-from-area.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:compact-fiber-measure-borel",
+        "lem:hausdorff-borel-core",
+        "lem:null-set-lipschitz-fibers"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:coarse-lipschitz-slicing",
+      "title": "A coarse Lipschitz slicing estimate",
+      "kind": "proposition",
+      "file": "euclidean-coarea-from-area.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:finite-hausdorff-fiber-measurable"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:full-rank-c1-coarea",
+      "title": "Coarea for a C1 map of full rank",
+      "kind": "proposition",
+      "file": "euclidean-coarea-from-area.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:coarea-chart-jacobian-identity",
+        "lem:null-set-lipschitz-fibers",
+        "thm:area-formula"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:critical-coarea-regularization-jacobian",
+      "title": "Adding small target directions makes a critical map regular",
+      "kind": "lemma",
+      "file": "euclidean-coarea-from-area.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:c1-critical-fibers-null",
+      "title": "The critical set of a C1 map has null almost-everywhere fibers",
+      "kind": "proposition",
+      "file": "euclidean-coarea-from-area.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:critical-coarea-regularization-jacobian",
+        "lem:finite-hausdorff-fiber-measurable",
+        "prop:coarse-lipschitz-slicing",
+        "prop:full-rank-c1-coarea"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:c1-euclidean-coarea-local",
+      "title": "Euclidean coarea for a C1 map",
+      "kind": "theorem",
+      "file": "euclidean-coarea-from-area.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:finite-hausdorff-fiber-measurable",
+        "prop:c1-critical-fibers-null",
+        "prop:full-rank-c1-coarea"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:lipschitz-coarea-c1-reduction",
+      "title": "C1 agreement reduces a Lipschitz map to smooth coarea",
+      "kind": "proposition",
+      "file": "euclidean-coarea-from-area.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:vector-c1-lusin-approximation",
+        "lem:null-set-lipschitz-fibers",
+        "thm:c1-euclidean-coarea-local"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:area-nonorthogonal-linear-map",
+      "title": "A nonorthogonal linear parametrization has a Gram determinant",
+      "kind": "example",
+      "file": "examples-area-critical.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:area-positive-metric-factor"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:area-multiple-circle-traversal",
+      "title": "A circle traversed several times counts every sheet",
+      "kind": "example",
+      "file": "examples-area-critical.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:euclidean-area-local-proof"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:area-real-cusp-length",
+      "title": "A cusp has a harmless isolated critical parameter",
+      "kind": "example",
+      "file": "examples-area-critical.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:area-fat-cantor-critical-map",
+      "title": "A strictly increasing Lipschitz map can collapse a positive-measure set",
+      "kind": "example",
+      "file": "examples-area-critical.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:area-null-image-criterion",
+        "prop:fat-cantor-length-topology",
+        "prop:weighted-area"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:area-fat-cantor-graph",
+      "title": "The graph retains the area that a scalar image loses",
+      "kind": "example",
+      "file": "examples-area-critical.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "ex:area-fat-cantor-critical-map"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:area-linear-regularization-rate",
+      "title": "Graph regularization can have a linear Jacobian error",
+      "kind": "example",
+      "file": "examples-area-critical.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:area-graph-regularization"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:area-infinite-exceptional-fiber",
+      "title": "A Lipschitz interval map has an infinite exceptional fiber",
+      "kind": "example",
+      "file": "examples-area-critical.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:area-integrable-multiplicity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:area-projection-infinite-fibers",
+      "title": "Rank loss can give infinite fibers on a null image",
+      "kind": "example",
+      "file": "examples-area-critical.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:area-complex-power-map",
+      "title": "A branched power map counts degree in its area",
+      "kind": "example",
+      "file": "examples-area-critical.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:coarea-product-log-density",
+      "title": "A product map has a logarithmically unbounded density",
+      "kind": "example",
+      "file": "examples-area-critical.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:coarea-inverse-jacobian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:coarea-radial-power-density",
+      "title": "Radial powers give integrable power singularities",
+      "kind": "example",
+      "file": "examples-area-critical.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:coarea-inverse-jacobian"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:coarea-offset-plane-distance",
+      "title": "Distance slices of an offset affine plane",
+      "kind": "example",
+      "file": "examples-area-critical.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
     "Borel regularity and Euclidean normalization of Hausdorff measure",
-    "Area and coarea formulas",
     "Rectifiable current representation and mass formula",
     "Federer--Fleming compactness and closure",
     "Normal-bundle index theory for one-sided hypersurfaces",
@@ -15950,11 +16383,11 @@
     "Besicovitch Euclidean ball selection and abstract Radon–Nikodym representation.",
     "Borel regularity and Euclidean normalization of Hausdorff measure; finite-measure Egoroff and Lusin theorems; inverse function theorem; standard Euclidean integration and linear algebra.",
     "Lipschitz pushforwards of integral currents remain external; rectifiable coarea, fiber tangent geometry and slice boundary identification are proved locally.",
-    "Fundamental Euclidean area and coarea formulas; Whitney extension. Rectifiable-domain formulas are proved through these inputs."
+    "Euclidean area/coarea now have local proofs. Whitney extension remains external for the C1-agreement coarea reduction; Hausdorff regularity and normalization remain background inputs."
   ],
   "next_development": [
     "Proof of the Besicovitch covering theorem; refined measure differentiation",
-    "Proofs of fundamental Euclidean area/coarea; sharp projection and slicing estimates",
+    "Whitney extension proof; sharp projection and slicing estimates",
     "Sharp isoperimetry, BV traces and quantitative perimeter estimates",
     "Deformation theorem and compactness of integral currents",
     "Full proofs of integral-varifold compactness and Allard excess decay; quantitative stratification and rectifiability of strata",

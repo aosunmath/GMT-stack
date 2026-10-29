@@ -18,7 +18,7 @@ A mollification lemma proves that a vanishing distributional gradient forces con
 
 ## Source audit
 
-- **Simon, supplied 2017/2018 edition:** Chapter 2, Theorem 7.3 and Remark 7.4, pp. 76–79; Chapter 3, Section 2, pp. 92–94. Manifold decomposition and tangential differentiability are now proved in the [rectifiable tangent expansion](rectifiable-tangents-expansion.md). The general rectifiable coarea theorem now has a local proof with the Euclidean area/coarea formulas retained as inputs.
+- **Simon, supplied 2017/2018 edition:** Chapter 2, Theorem 7.3 and Remark 7.4, pp. 76–79; Chapter 3, Section 2, pp. 92–94. Manifold decomposition and tangential differentiability are now proved in the [rectifiable tangent expansion](rectifiable-tangents-expansion.md). The general rectifiable coarea theorem now has a local proof; its [Euclidean area/coarea inputs](euclidean-integration-expansion.md) are also proved locally.
 - **Giusti, Minimal Surfaces and Functions of Bounded Variation (1984):** Theorem 1.23, pp. 20–22, and Theorem 1.24 / Lemma 1.25, pp. 22–23. The supplied reprint's title, copyright, and DOI were checked. This is the first mathematical use of this previously catalogued file; the library now cites 39 works or editions, with 119 files still catalogued in total.
 - **Minter, Spring 2024 notes:** Lemma 0.7 and its proof, pp. 8–9. The project supplies the distributional-constancy argument, the coordinate volume factor, and the local defining-function test for tangent planes.
 
