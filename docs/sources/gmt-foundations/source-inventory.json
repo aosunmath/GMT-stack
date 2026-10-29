@@ -47,7 +47,13 @@
         "Chapter 3, Theorem 1.6 converse proof, printed pp. 88–90 / PDF48–49: cone exclusion and Lipschitz graph covering. Printed pp. 88–89 visually checked. Local proof uses explicit uniform-scale pieces and independent constants instead of an implicit uniform convergence assertion.",
         "Chapter 1, Remark 4.4(3) and Lemma 4.5, printed pp. 20–22 / PDF14–15: Besicovitch selection is retained as the external geometric input; its symmetric Vitali and maximal-estimate consequences are proved locally.",
         "Chapter 1, Corollary 4.10, printed pp. 23–24 / PDF15–16: Radon-measure differentiation; printed p. 23 visually checked. Local proof uses Besicovitch maximal estimate and continuous L1 approximation, and explains the closed-to-open-ball and local-domain passages.",
-        "Chapter 1, equation 4.17 and Theorem 4.18, printed pp. 27–28 / PDF17–18: abstract Radon–Nikodym representation and identification by ball ratios. Abstract representation remains a stated background input."
+        "Chapter 1, equation 4.17 and Theorem 4.18, printed pp. 27–28 / PDF17–18: abstract Radon–Nikodym representation and identification by ball ratios. Abstract representation remains a stated background input.",
+        "Chapter 2, Theorems1.5–1.6 and Remark1.7, printed pp.46–48 / PDF27–28: C1 approximation, Whitney compatibility and the nonuniform-jet example. Printed48 visually checked. Whitney extension remains cited; approximation and decomposition are proved locally.",
+        "Chapter 3, Lemma1.2 and Remark1.3, printed pp.85–86 / PDF46–47: C1 manifold decomposition, critical-image use of Euclidean area, and disjoint measurable pieces. Printed86 visually checked.",
+        "Chapter 3, Definition1.4, Remarks1.5 and Theorem1.6, printed pp.86–90 / PDF47–49: tangent characterization, density, graph-cover converse. Printed86–87 and90 visually checked. The local proof uses union-measure differentiation and explicit scale classes.",
+        "Chapter 3, Definition1.7 and Theorem1.9, printed pp.90–92 / PDF49–50: weighted tangents and positive finite weights. Printed91 visually checked. The local proof uses bounded-weight pieces and Radon differentiation to transfer restrictions.",
+        "Chapter 3, Section2, printed p.92 / PDF50: tangential differential and independence. Local chart, density-point and overlap proofs are supplied.",
+        "Chapter 8, Section1, printed pp.235–236 / PDF121–122: projection topology, rectifiable varifold lift and normalized tangent definition. Almost-everywhere planar varifold convergence is derived locally from scalar weighted tangents and matrix-field differentiation."
       ]
     },
     {

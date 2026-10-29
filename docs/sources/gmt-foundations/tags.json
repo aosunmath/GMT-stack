@@ -11761,5 +11761,482 @@
     "page": "tag/4288F0E6/index.html",
     "canonical_tag": "DA161D3EEA56",
     "anchor": ""
+  },
+  {
+    "tag": "AB535C43",
+    "label": "sec:rectifiable-c1-decomposition",
+    "title": "169 Continuously differentiable pieces of Lipschitz images",
+    "kind": "chapter",
+    "page": "tag/AB535C43/index.html",
+    "canonical_tag": "C98C27899A20",
+    "anchor": ""
+  },
+  {
+    "tag": "C55AEC61",
+    "label": "def:whitney-first-jet",
+    "title": "Definition 169.1 (A compatible first-order jet on a closed set)",
+    "kind": "definition",
+    "page": "tag/C55AEC61/index.html",
+    "canonical_tag": "DA25DC227B60",
+    "anchor": ""
+  },
+  {
+    "tag": "42FF0583",
+    "label": "thm:whitney-c1-extension",
+    "title": "Theorem 169.2 (Whitney extension for first-order jets)",
+    "kind": "theorem",
+    "page": "tag/42FF0583/index.html",
+    "canonical_tag": "57E484726390",
+    "anchor": ""
+  },
+  {
+    "tag": "F55BE653",
+    "label": "lem:measurable-differentiability-defect",
+    "title": "Lemma 169.3 (Measurable differentiability defects)",
+    "kind": "lemma",
+    "page": "tag/F55BE653/index.html",
+    "canonical_tag": "12007A5574B9",
+    "anchor": ""
+  },
+  {
+    "tag": "7627B7A0",
+    "label": "lem:compact-good-lipschitz-jets",
+    "title": "Lemma 169.4 (Compact subsets with continuous and uniform jets)",
+    "kind": "lemma",
+    "page": "tag/7627B7A0/index.html",
+    "canonical_tag": "5CF7F513FF12",
+    "anchor": ""
+  },
+  {
+    "tag": "8B7C363B",
+    "label": "thm:lipschitz-c1-lusin-approximation",
+    "title": "Theorem 169.5 (Lipschitz functions agree with a smooth function off a small set)",
+    "kind": "theorem",
+    "page": "tag/8B7C363B/index.html",
+    "canonical_tag": "23ACEA4A9DD0",
+    "anchor": ""
+  },
+  {
+    "tag": "5BBA28DA",
+    "label": "cor:vector-c1-lusin-approximation",
+    "title": "Corollary 169.6 (Vector-valued agreement on one common good set)",
+    "kind": "corollary",
+    "page": "tag/5BBA28DA/index.html",
+    "canonical_tag": "7AC9CD6B4783",
+    "anchor": ""
+  },
+  {
+    "tag": "5F53DC64",
+    "label": "thm:rectifiable-c1-decomposition",
+    "title": "Theorem 169.7 (Countable decomposition into embedded smooth manifolds)",
+    "kind": "theorem",
+    "page": "tag/5F53DC64/index.html",
+    "canonical_tag": "E0F7CAFA3215",
+    "anchor": ""
+  },
+  {
+    "tag": "BF56424C",
+    "label": "lem:finite-area-c1-patches",
+    "title": "Lemma 169.8 (A countable cover by finite-area graph patches)",
+    "kind": "lemma",
+    "page": "tag/BF56424C/index.html",
+    "canonical_tag": "9430ACAC50F7",
+    "anchor": ""
+  },
+  {
+    "tag": "C36A60D3",
+    "label": "sec:rectifiable-tangent-transfer",
+    "title": "170 Tangent measures of rectifiable pieces",
+    "kind": "chapter",
+    "page": "tag/C36A60D3/index.html",
+    "canonical_tag": "E1D0058D9E71",
+    "anchor": ""
+  },
+  {
+    "tag": "9FF1E5D2",
+    "label": "lem:rectifiable-borel-representative",
+    "title": "Lemma 170.1 (Borel representatives for locally finite Hausdorff measure)",
+    "kind": "lemma",
+    "page": "tag/9FF1E5D2/index.html",
+    "canonical_tag": "3C9EA6CE752A",
+    "anchor": ""
+  },
+  {
+    "tag": "29DDB7ED",
+    "label": "prop:c1-graph-tangent-measure",
+    "title": "Proposition 170.2 (The tangent measure of a continuously differentiable graph)",
+    "kind": "proposition",
+    "page": "tag/29DDB7ED/index.html",
+    "canonical_tag": "19A8BA237DE1",
+    "anchor": ""
+  },
+  {
+    "tag": "93F2F658",
+    "label": "cor:c1-patch-unit-density",
+    "title": "Corollary 170.3 (Unit density at an interior point of a graph patch)",
+    "kind": "corollary",
+    "page": "tag/93F2F658/index.html",
+    "canonical_tag": "FA97E756FBFC",
+    "anchor": ""
+  },
+  {
+    "tag": "8230BFA2",
+    "label": "lem:union-measure-symmetric-difference",
+    "title": "Lemma 170.4 (Differentiation on the union of two measurable sets)",
+    "kind": "lemma",
+    "page": "tag/8230BFA2/index.html",
+    "canonical_tag": "8A605F7E5FCD",
+    "anchor": ""
+  },
+  {
+    "tag": "F9D4A040",
+    "label": "prop:rectifiable-patch-tangent-transfer",
+    "title": "Proposition 170.5 (Transfer of a tangent across an almost-full common part)",
+    "kind": "proposition",
+    "page": "tag/F9D4A040/index.html",
+    "canonical_tag": "E0BE88808391",
+    "anchor": ""
+  },
+  {
+    "tag": "996AE1A2",
+    "label": "thm:rectifiable-forward-tangents",
+    "title": "Theorem 170.6 (Rectifiable sets have approximate tangent planes)",
+    "kind": "theorem",
+    "page": "tag/996AE1A2/index.html",
+    "canonical_tag": "508BF16A8066",
+    "anchor": ""
+  },
+  {
+    "tag": "54D226DE",
+    "label": "cor:rectifiable-local-unit-density",
+    "title": "Corollary 170.7 (Density one on a locally finite rectifiable set)",
+    "kind": "corollary",
+    "page": "tag/54D226DE/index.html",
+    "canonical_tag": "FA919827E4FB",
+    "anchor": ""
+  },
+  {
+    "tag": "DEF8604F",
+    "label": "cor:rectifiable-common-tangents",
+    "title": "Corollary 170.8 (Tangent agreement on intersections)",
+    "kind": "corollary",
+    "page": "tag/DEF8604F/index.html",
+    "canonical_tag": "4E4D4F977258",
+    "anchor": ""
+  },
+  {
+    "tag": "9D9B6405",
+    "label": "sec:rectifiable-cone-characterization",
+    "title": "171 Cone criteria in arbitrary codimension",
+    "kind": "chapter",
+    "page": "tag/9D9B6405/index.html",
+    "canonical_tag": "531296D48743",
+    "anchor": ""
+  },
+  {
+    "tag": "97E3AF10",
+    "label": "def:plane-projection-cone",
+    "title": "Definition 171.1 (Projection distance and the cone outside a plane)",
+    "kind": "definition",
+    "page": "tag/97E3AF10/index.html",
+    "canonical_tag": "FC9C64E80FA4",
+    "anchor": ""
+  },
+  {
+    "tag": "CE49F211",
+    "label": "lem:grassmann-finite-nets",
+    "title": "Lemma 171.2 (Finite nets of planes)",
+    "kind": "lemma",
+    "page": "tag/CE49F211/index.html",
+    "canonical_tag": "286A09C1E40A",
+    "anchor": ""
+  },
+  {
+    "tag": "5B3BBCC1",
+    "label": "lem:plane-cone-ball-inclusion",
+    "title": "Lemma 171.3 (A ball forced outside a nearby plane)",
+    "kind": "lemma",
+    "page": "tag/5B3BBCC1/index.html",
+    "canonical_tag": "78A96A322A6D",
+    "anchor": ""
+  },
+  {
+    "tag": "B83A454C",
+    "label": "prop:uniform-plane-cone-graph",
+    "title": "Proposition 171.4 (Uniform plane-cone bounds imply a vector-valued graph)",
+    "kind": "proposition",
+    "page": "tag/B83A454C/index.html",
+    "canonical_tag": "3D34669B9F06",
+    "anchor": ""
+  },
+  {
+    "tag": "B7A32415",
+    "label": "thm:pointwise-plane-cone-cover",
+    "title": "Theorem 171.5 (Pointwise plane-cone bounds give a countable graph cover)",
+    "kind": "theorem",
+    "page": "tag/B7A32415/index.html",
+    "canonical_tag": "0535AECAFAE7",
+    "anchor": ""
+  },
+  {
+    "tag": "92D39178",
+    "label": "lem:plane-tangent-density-cone",
+    "title": "Lemma 171.6 (A plane tangent supplies density and cone decay)",
+    "kind": "lemma",
+    "page": "tag/92D39178/index.html",
+    "canonical_tag": "487ED9476A1A",
+    "anchor": ""
+  },
+  {
+    "tag": "8BF9B0E0",
+    "label": "thm:rectifiable-converse-tangents",
+    "title": "Theorem 171.7 (Almost-everywhere plane tangents imply rectifiability)",
+    "kind": "theorem",
+    "page": "tag/8BF9B0E0/index.html",
+    "canonical_tag": "1C1255DA63AF",
+    "anchor": ""
+  },
+  {
+    "tag": "42E292AE",
+    "label": "sec:weighted-rectifiable-tangents",
+    "title": "172 Weights and tangent measures",
+    "kind": "chapter",
+    "page": "tag/42E292AE/index.html",
+    "canonical_tag": "62798D27DF95",
+    "anchor": ""
+  },
+  {
+    "tag": "448D63E6",
+    "label": "prop:weighted-tangent-local-area",
+    "title": "Proposition 172.1 (Multiplying a unit-density tangent by an integrable weight)",
+    "kind": "proposition",
+    "page": "tag/448D63E6/index.html",
+    "canonical_tag": "D3D6B64F4764",
+    "anchor": ""
+  },
+  {
+    "tag": "D1D25E0B",
+    "label": "def:weighted-approximate-tangent",
+    "title": "Definition 172.2 (A tangent plane with respect to a positive weight)",
+    "kind": "definition",
+    "page": "tag/D1D25E0B/index.html",
+    "canonical_tag": "8AE36515BAA5",
+    "anchor": ""
+  },
+  {
+    "tag": "7B445118",
+    "label": "lem:positive-weight-area-exhaustion",
+    "title": "Lemma 172.3 (Positive weights give finite-area pieces and the same null sets)",
+    "kind": "lemma",
+    "page": "tag/7B445118/index.html",
+    "canonical_tag": "21236CD2BB9C",
+    "anchor": ""
+  },
+  {
+    "tag": "ADB84DEF",
+    "label": "lem:tangent-full-density-restriction",
+    "title": "Lemma 172.4 (Recovering a tangent from a full-density restriction)",
+    "kind": "lemma",
+    "page": "tag/ADB84DEF/index.html",
+    "canonical_tag": "173F37205E7D",
+    "anchor": ""
+  },
+  {
+    "tag": "BF42106E",
+    "label": "thm:weighted-rectifiable-forward",
+    "title": "Theorem 172.5 (Weighted tangents without locally finite unweighted area)",
+    "kind": "theorem",
+    "page": "tag/BF42106E/index.html",
+    "canonical_tag": "97F1676D4605",
+    "anchor": ""
+  },
+  {
+    "tag": "B67028A7",
+    "label": "thm:weighted-rectifiable-converse",
+    "title": "Theorem 172.6 (Positive weighted plane tangents imply rectifiability)",
+    "kind": "theorem",
+    "page": "tag/B67028A7/index.html",
+    "canonical_tag": "BC73C8D035CF",
+    "anchor": ""
+  },
+  {
+    "tag": "8D545D9A",
+    "label": "cor:weighted-tangent-independent",
+    "title": "Corollary 172.7 (The tangent plane is independent of a positive weight)",
+    "kind": "corollary",
+    "page": "tag/8D545D9A/index.html",
+    "canonical_tag": "EC2DBE512FEA",
+    "anchor": ""
+  },
+  {
+    "tag": "B81FF491",
+    "label": "sec:rectifiable-varifold-tangents",
+    "title": "173 Almost-everywhere varifold blow-ups",
+    "kind": "chapter",
+    "page": "tag/B81FF491/index.html",
+    "canonical_tag": "6D799A136CE1",
+    "anchor": ""
+  },
+  {
+    "tag": "AAFA5014",
+    "label": "lem:rectifiable-tangent-field-borel",
+    "title": "Lemma 173.1 (A Borel representative of the tangent-plane field)",
+    "kind": "lemma",
+    "page": "tag/AAFA5014/index.html",
+    "canonical_tag": "A187938F7549",
+    "anchor": ""
+  },
+  {
+    "tag": "D667693A",
+    "label": "prop:rectifiable-weighted-tangent-oscillation",
+    "title": "Proposition 173.2 (The tangent field is approximately continuous for the weight)",
+    "kind": "proposition",
+    "page": "tag/D667693A/index.html",
+    "canonical_tag": "FF593142B481",
+    "anchor": ""
+  },
+  {
+    "tag": "33447970",
+    "label": "thm:rectifiable-varifold-ae-blowup",
+    "title": "Theorem 173.3 (A rectifiable varifold has a unique planar blow-up almost everywhere)",
+    "kind": "theorem",
+    "page": "tag/33447970/index.html",
+    "canonical_tag": "C6A2923AF38D",
+    "anchor": ""
+  },
+  {
+    "tag": "7E130D2B",
+    "label": "cor:integral-varifold-density-multiplicity",
+    "title": "Corollary 173.4 (Integral multiplicity equals almost-everywhere density)",
+    "kind": "corollary",
+    "page": "tag/7E130D2B/index.html",
+    "canonical_tag": "6B56A3A5A65B",
+    "anchor": ""
+  },
+  {
+    "tag": "18B8EA3F",
+    "label": "sec:tangential-differential-independence",
+    "title": "174 Tangential derivatives on overlapping pieces",
+    "kind": "chapter",
+    "page": "tag/18B8EA3F/index.html",
+    "canonical_tag": "E643FB6237E3",
+    "anchor": ""
+  },
+  {
+    "tag": "BC599059",
+    "label": "lem:density-one-direction-approximation",
+    "title": "Lemma 174.1 (A density-one set approaches every direction)",
+    "kind": "lemma",
+    "page": "tag/BC599059/index.html",
+    "canonical_tag": "2296D505996A",
+    "anchor": ""
+  },
+  {
+    "tag": "0F2DAE73",
+    "label": "prop:agreement-set-equal-derivatives",
+    "title": "Proposition 174.2 (Differentiable functions agreeing on a measurable set have the same derivative there)",
+    "kind": "proposition",
+    "page": "tag/0F2DAE73/index.html",
+    "canonical_tag": "B495767E329D",
+    "anchor": ""
+  },
+  {
+    "tag": "E3562065",
+    "label": "lem:chart-tangential-differential",
+    "title": "Lemma 174.3 (Restriction to a regular chart defines a tangential differential)",
+    "kind": "lemma",
+    "page": "tag/E3562065/index.html",
+    "canonical_tag": "5A50F9921DE6",
+    "anchor": ""
+  },
+  {
+    "tag": "4F447444",
+    "label": "prop:overlap-tangential-differentials",
+    "title": "Proposition 174.4 (Tangential differentials agree on two overlapping manifolds)",
+    "kind": "proposition",
+    "page": "tag/4F447444/index.html",
+    "canonical_tag": "2ED1B228648C",
+    "anchor": ""
+  },
+  {
+    "tag": "9196F193",
+    "label": "thm:rectifiable-tangential-differential",
+    "title": "Theorem 174.5 (An intrinsic tangential differential on a rectifiable set)",
+    "kind": "theorem",
+    "page": "tag/9196F193/index.html",
+    "canonical_tag": "20072C3F5DC1",
+    "anchor": ""
+  },
+  {
+    "tag": "9E7B1321",
+    "label": "sec:examples-rectifiable-tangents",
+    "title": "175 Examples that distinguish tangents and supports",
+    "kind": "chapter",
+    "page": "tag/9E7B1321/index.html",
+    "canonical_tag": "5E91C999DE66",
+    "anchor": ""
+  },
+  {
+    "tag": "3AD5A411",
+    "label": "ex:whitney-nonuniform-jet",
+    "title": "Example 175.1 (Pointwise jet remainders do not suffice for a smooth extension)",
+    "kind": "example",
+    "page": "tag/3AD5A411/index.html",
+    "canonical_tag": "1314ED4D7847",
+    "anchor": ""
+  },
+  {
+    "tag": "95A46E9E",
+    "label": "ex:parabola-weak-not-variation",
+    "title": "Example 175.2 (A parabola converges weakly to its tangent but not in variation)",
+    "kind": "example",
+    "page": "tag/95A46E9E/index.html",
+    "canonical_tag": "6C1B14714CC2",
+    "anchor": ""
+  },
+  {
+    "tag": "A7288871",
+    "label": "ex:weighted-accumulating-circles",
+    "title": "Example 175.3 (Weighted circles with infinite unweighted area near their limit)",
+    "kind": "example",
+    "page": "tag/A7288871/index.html",
+    "canonical_tag": "688BAE194A4B",
+    "anchor": ""
+  },
+  {
+    "tag": "5C8BAB1E",
+    "label": "ex:dense-circle-rectifiable-support",
+    "title": "Example 175.4 (A finite rectifiable length measure can have a two-dimensional support)",
+    "kind": "example",
+    "page": "tag/5C8BAB1E/index.html",
+    "canonical_tag": "266B0CFDCAC6",
+    "anchor": ""
+  },
+  {
+    "tag": "19D61510",
+    "label": "ex:zero-weight-hides-dust",
+    "title": "Example 175.5 (A zero weight can hide an unrectifiable component)",
+    "kind": "example",
+    "page": "tag/19D61510/index.html",
+    "canonical_tag": "6133EE47A2AE",
+    "anchor": ""
+  },
+  {
+    "tag": "256FD1E7",
+    "label": "ex:null-weight-value-tangent",
+    "title": "Example 175.6 (Changing one value of a weight changes a pointwise tangent formula)",
+    "kind": "example",
+    "page": "tag/256FD1E7/index.html",
+    "canonical_tag": "F80607FDF014",
+    "anchor": ""
+  },
+  {
+    "tag": "7F9A4AE5",
+    "label": "ex:halfplane-patch-edge",
+    "title": "Example 175.7 (An artificial patch edge has half the plane density)",
+    "kind": "example",
+    "page": "tag/7F9A4AE5/index.html",
+    "canonical_tag": "68876AF1BB63",
+    "anchor": ""
   }
 ]

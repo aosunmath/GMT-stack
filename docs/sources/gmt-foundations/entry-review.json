@@ -830,6 +830,7 @@
       ],
       "dependencies": [
         "cor:perimeter-concentrated-reduced-boundary",
+        "cor:rectifiable-local-unit-density",
         "def:bv",
         "thm:perimeter-hausdorff-identification",
         "thm:radon-function-differentiation",
@@ -894,12 +895,16 @@
       "title": "Tangent planes on rectifiable sets",
       "kind": "theorem",
       "file": "rectifiability.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Sim18"
       ],
       "dependencies": [
-        "def:approximate-tangent"
+        "cor:rectifiable-local-unit-density",
+        "def:approximate-tangent",
+        "def:rectifiable-set",
+        "thm:rectifiable-converse-tangents",
+        "thm:rectifiable-forward-tangents"
       ],
       "formal_verification": "none"
     },
@@ -3090,8 +3095,9 @@
       "dependencies": [
         "def:current-slice",
         "prop:geometric-slice-integration",
+        "prop:integral-geometric-cut",
         "prop:slice-common-exceptional-set",
-        "prop:integral-geometric-cut"
+        "thm:rectifiable-c1-decomposition"
       ],
       "formal_verification": "none"
     },
@@ -3676,7 +3682,10 @@
       "citations": [
         "Sim18"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "thm:rectifiable-c1-decomposition",
+        "thm:rectifiable-tangential-differential"
+      ],
       "formal_verification": "none"
     },
     {
@@ -14674,9 +14683,9 @@
       ],
       "dependencies": [
         "cor:perimeter-hausdorff-equivalence",
+        "cor:rectifiable-local-unit-density",
         "cor:reduced-boundary-exact-densities",
         "thm:radon-function-differentiation",
-        "thm:rectifiable-tangents",
         "thm:reduced-boundary-graph-cover"
       ],
       "formal_verification": "none"
@@ -14765,11 +14774,692 @@
         "lem:halfspace-derivative-measure"
       ],
       "formal_verification": "none"
+    },
+    {
+      "label": "def:whitney-first-jet",
+      "title": "A compatible first-order jet on a closed set",
+      "kind": "definition",
+      "file": "rectifiable-c1-decomposition.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:whitney-c1-extension",
+      "title": "Whitney extension for first-order jets",
+      "kind": "theorem",
+      "file": "rectifiable-c1-decomposition.tex",
+      "status": "cited-theorem",
+      "citations": [
+        "Fed69",
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:whitney-first-jet"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:measurable-differentiability-defect",
+      "title": "Measurable differentiability defects",
+      "kind": "lemma",
+      "file": "rectifiable-c1-decomposition.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:rademacher"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:compact-good-lipschitz-jets",
+      "title": "Compact subsets with continuous and uniform jets",
+      "kind": "lemma",
+      "file": "rectifiable-c1-decomposition.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:measurable-differentiability-defect"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:lipschitz-c1-lusin-approximation",
+      "title": "Lipschitz functions agree with a smooth function off a small set",
+      "kind": "theorem",
+      "file": "rectifiable-c1-decomposition.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:compact-good-lipschitz-jets",
+        "thm:whitney-c1-extension"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:vector-c1-lusin-approximation",
+      "title": "Vector-valued agreement on one common good set",
+      "kind": "corollary",
+      "file": "rectifiable-c1-decomposition.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:lipschitz-c1-lusin-approximation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:rectifiable-c1-decomposition",
+      "title": "Countable decomposition into embedded smooth manifolds",
+      "kind": "theorem",
+      "file": "rectifiable-c1-decomposition.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:vector-c1-lusin-approximation",
+        "def:rectifiable-set",
+        "prop:mcshane-extension",
+        "thm:area-formula"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:finite-area-c1-patches",
+      "title": "A countable cover by finite-area graph patches",
+      "kind": "lemma",
+      "file": "rectifiable-c1-decomposition.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:rectifiable-c1-decomposition"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:rectifiable-borel-representative",
+      "title": "Borel representatives for locally finite Hausdorff measure",
+      "kind": "lemma",
+      "file": "rectifiable-tangent-transfer.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:hausdorff-measure"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:c1-graph-tangent-measure",
+      "title": "The tangent measure of a continuously differentiable graph",
+      "kind": "proposition",
+      "file": "rectifiable-tangent-transfer.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:weighted-area"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:c1-patch-unit-density",
+      "title": "Unit density at an interior point of a graph patch",
+      "kind": "corollary",
+      "file": "rectifiable-tangent-transfer.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:finite-area-c1-patches",
+        "prop:c1-graph-tangent-measure"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:union-measure-symmetric-difference",
+      "title": "Differentiation on the union of two measurable sets",
+      "kind": "lemma",
+      "file": "rectifiable-tangent-transfer.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:radon-function-differentiation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:rectifiable-patch-tangent-transfer",
+      "title": "Transfer of a tangent across an almost-full common part",
+      "kind": "proposition",
+      "file": "rectifiable-tangent-transfer.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:c1-patch-unit-density",
+        "def:approximate-tangent",
+        "lem:union-measure-symmetric-difference",
+        "prop:c1-graph-tangent-measure"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:rectifiable-forward-tangents",
+      "title": "Rectifiable sets have approximate tangent planes",
+      "kind": "theorem",
+      "file": "rectifiable-tangent-transfer.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:finite-area-c1-patches",
+        "lem:rectifiable-borel-representative",
+        "prop:rectifiable-patch-tangent-transfer",
+        "thm:rectifiable-c1-decomposition"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:rectifiable-local-unit-density",
+      "title": "Density one on a locally finite rectifiable set",
+      "kind": "corollary",
+      "file": "rectifiable-tangent-transfer.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:c1-patch-unit-density",
+        "def:approximate-tangent",
+        "thm:rectifiable-forward-tangents"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:rectifiable-common-tangents",
+      "title": "Tangent agreement on intersections",
+      "kind": "corollary",
+      "file": "rectifiable-tangent-transfer.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:rectifiable-local-unit-density",
+        "lem:union-measure-symmetric-difference",
+        "prop:rectifiable-patch-tangent-transfer"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:plane-projection-cone",
+      "title": "Projection distance and the cone outside a plane",
+      "kind": "definition",
+      "file": "rectifiable-cone-characterization.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:normal-double-cone"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:grassmann-finite-nets",
+      "title": "Finite nets of planes",
+      "kind": "lemma",
+      "file": "rectifiable-cone-characterization.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:plane-cone-ball-inclusion",
+      "title": "A ball forced outside a nearby plane",
+      "kind": "lemma",
+      "file": "rectifiable-cone-characterization.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:normal-cone-ball-inclusion"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:uniform-plane-cone-graph",
+      "title": "Uniform plane-cone bounds imply a vector-valued graph",
+      "kind": "proposition",
+      "file": "rectifiable-cone-characterization.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:plane-cone-ball-inclusion",
+        "prop:mcshane-extension"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:pointwise-plane-cone-cover",
+      "title": "Pointwise plane-cone bounds give a countable graph cover",
+      "kind": "theorem",
+      "file": "rectifiable-cone-characterization.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:grassmann-finite-nets",
+        "prop:uniform-plane-cone-graph"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:plane-tangent-density-cone",
+      "title": "A plane tangent supplies density and cone decay",
+      "kind": "lemma",
+      "file": "rectifiable-cone-characterization.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:c1-patch-unit-density"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:rectifiable-converse-tangents",
+      "title": "Almost-everywhere plane tangents imply rectifiability",
+      "kind": "theorem",
+      "file": "rectifiable-cone-characterization.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:approximate-tangent",
+        "def:rectifiable-set",
+        "lem:plane-tangent-density-cone",
+        "lem:rectifiable-borel-representative",
+        "thm:pointwise-plane-cone-cover"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:weighted-tangent-local-area",
+      "title": "Multiplying a unit-density tangent by an integrable weight",
+      "kind": "proposition",
+      "file": "weighted-rectifiable-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:rectifiable-local-unit-density",
+        "thm:radon-function-differentiation",
+        "thm:rectifiable-forward-tangents"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "def:weighted-approximate-tangent",
+      "title": "A tangent plane with respect to a positive weight",
+      "kind": "definition",
+      "file": "weighted-rectifiable-tangents.tex",
+      "status": "definition-with-source",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:positive-weight-area-exhaustion",
+      "title": "Positive weights give finite-area pieces and the same null sets",
+      "kind": "lemma",
+      "file": "weighted-rectifiable-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:weighted-approximate-tangent",
+        "lem:rectifiable-borel-representative"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:tangent-full-density-restriction",
+      "title": "Recovering a tangent from a full-density restriction",
+      "kind": "lemma",
+      "file": "weighted-rectifiable-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:weighted-rectifiable-forward",
+      "title": "Weighted tangents without locally finite unweighted area",
+      "kind": "theorem",
+      "file": "weighted-rectifiable-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:weighted-approximate-tangent",
+        "lem:positive-weight-area-exhaustion",
+        "lem:tangent-full-density-restriction",
+        "prop:weighted-tangent-local-area",
+        "thm:radon-function-differentiation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:weighted-rectifiable-converse",
+      "title": "Positive weighted plane tangents imply rectifiability",
+      "kind": "theorem",
+      "file": "weighted-rectifiable-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:weighted-approximate-tangent",
+        "lem:plane-tangent-density-cone",
+        "lem:positive-weight-area-exhaustion",
+        "thm:pointwise-plane-cone-cover",
+        "thm:weighted-rectifiable-forward"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:weighted-tangent-independent",
+      "title": "The tangent plane is independent of a positive weight",
+      "kind": "corollary",
+      "file": "weighted-rectifiable-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:tangent-full-density-restriction",
+        "prop:weighted-tangent-local-area"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:rectifiable-tangent-field-borel",
+      "title": "A Borel representative of the tangent-plane field",
+      "kind": "lemma",
+      "file": "rectifiable-varifold-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:finite-area-c1-patches",
+        "thm:rectifiable-c1-decomposition",
+        "thm:rectifiable-forward-tangents"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:rectifiable-weighted-tangent-oscillation",
+      "title": "The tangent field is approximately continuous for the weight",
+      "kind": "proposition",
+      "file": "rectifiable-varifold-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:rectifiable-tangent-field-borel",
+        "thm:radon-function-differentiation",
+        "thm:weighted-rectifiable-forward"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:rectifiable-varifold-ae-blowup",
+      "title": "A rectifiable varifold has a unique planar blow-up almost everywhere",
+      "kind": "theorem",
+      "file": "rectifiable-varifold-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:rectifiable-varifold",
+        "def:varifold-dilation",
+        "prop:rectifiable-weighted-tangent-oscillation",
+        "prop:weighted-tangent-local-area"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:integral-varifold-density-multiplicity",
+      "title": "Integral multiplicity equals almost-everywhere density",
+      "kind": "corollary",
+      "file": "rectifiable-varifold-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:weighted-tangent-local-area",
+        "thm:rectifiable-varifold-ae-blowup"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:density-one-direction-approximation",
+      "title": "A density-one set approaches every direction",
+      "kind": "lemma",
+      "file": "tangential-differential-independence.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:agreement-set-equal-derivatives",
+      "title": "Differentiable functions agreeing on a measurable set have the same derivative there",
+      "kind": "proposition",
+      "file": "tangential-differential-independence.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:density-one-direction-approximation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:chart-tangential-differential",
+      "title": "Restriction to a regular chart defines a tangential differential",
+      "kind": "lemma",
+      "file": "tangential-differential-independence.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:overlap-tangential-differentials",
+      "title": "Tangential differentials agree on two overlapping manifolds",
+      "kind": "proposition",
+      "file": "tangential-differential-independence.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:rectifiable-common-tangents",
+        "lem:chart-tangential-differential",
+        "lem:density-one-direction-approximation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:rectifiable-tangential-differential",
+      "title": "An intrinsic tangential differential on a rectifiable set",
+      "kind": "theorem",
+      "file": "tangential-differential-independence.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:chart-tangential-differential",
+        "lem:finite-area-c1-patches",
+        "prop:overlap-tangential-differentials",
+        "thm:rectifiable-c1-decomposition",
+        "thm:rectifiable-forward-tangents"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:whitney-nonuniform-jet",
+      "title": "Pointwise jet remainders do not suffice for a smooth extension",
+      "kind": "example",
+      "file": "examples-rectifiable-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:whitney-first-jet"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:parabola-weak-not-variation",
+      "title": "A parabola converges weakly to its tangent but not in variation",
+      "kind": "example",
+      "file": "examples-rectifiable-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:c1-graph-tangent-measure"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:weighted-accumulating-circles",
+      "title": "Weighted circles with infinite unweighted area near their limit",
+      "kind": "example",
+      "file": "examples-rectifiable-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:c1-graph-tangent-measure"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:dense-circle-rectifiable-support",
+      "title": "A finite rectifiable length measure can have a two-dimensional support",
+      "kind": "example",
+      "file": "examples-rectifiable-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:rectifiable-local-unit-density",
+        "thm:rectifiable-forward-tangents"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:zero-weight-hides-dust",
+      "title": "A zero weight can hide an unrectifiable component",
+      "kind": "example",
+      "file": "examples-rectifiable-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Mor16",
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:four-corner-cantor",
+        "def:weighted-approximate-tangent",
+        "thm:four-corner-pure-unrectifiability"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:null-weight-value-tangent",
+      "title": "Changing one value of a weight changes a pointwise tangent formula",
+      "kind": "example",
+      "file": "examples-rectifiable-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:halfplane-patch-edge",
+      "title": "An artificial patch edge has half the plane density",
+      "kind": "example",
+      "file": "examples-rectifiable-tangents.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "def:approximate-tangent"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
     "Borel regularity and Euclidean normalization of Hausdorff measure",
-    "Rectifiability and approximate tangent characterization",
     "Area and coarea formulas",
     "Rectifiable current representation and mass formula",
     "Federer--Fleming compactness and closure",
@@ -14805,7 +15495,6 @@
     "Gauss--Bonnet and classification of closed orientable surfaces",
     "Sard theorem and divergence theorem for transverse piecewise smooth regions",
     "Compactly supported Sobolev approximation on smooth manifolds",
-    "C1 manifold decomposition and tangential differentiability on rectifiable sets",
     "Sobolev positive-part chain rule and trace compatibility with Lipschitz truncation",
     "Optimal C1,1 interior obstacle regularity",
     "Caffarelli regular--singular obstacle dichotomy and analytic regular free boundary",
@@ -14827,19 +15516,21 @@
     "Smooth finite-dimensional ODE dependence used for continuity of the planar tip-to-slope map.",
     "No uniqueness theorem for unrestricted entire graphs with unbounded slopes or arbitrary weak flows is asserted.",
     "Finite-dimensional supporting-hyperplane theorem for finite convex functions; local strong maximum principle for strict upward motion from nonaffine convex data.",
-    "Countable C1 decomposition of rectifiable sets.",
     "Euclidean area formula and rectifiable coarea including the almost-everywhere fiber tangent assertion.",
     "Elementary smooth convolution, Fubini/Tonelli, finite-measure continuity and Stokes on explicit smooth pieces.",
     "No Federer-Fleming compactness, deformation theorem or integer flat-norm equivalence is proved here.",
     "Besicovitch Euclidean ball selection, newly recorded as a cited theorem. Its proof remains external.",
-    "The existing cited density-one theorem for locally finite rectifiable sets, thm:rectifiable-tangents.",
     "Abstract Radon–Nikodym representation and standard Euclidean integration, convolution and one-dimensional calculus.",
     "No sharp isoperimetric constant, uniform rate for arbitrary perimeter blow-ups, or smoothness of an arbitrary topological boundary is asserted.",
-    "The standard normalization identifying Hausdorff measure on a Euclidean plane with its Lebesgue measure, already cited in def:hausdorff-measure."
+    "The standard normalization identifying Hausdorff measure on a Euclidean plane with its Lebesgue measure, already cited in def:hausdorff-measure.",
+    "Whitney C1 extension theorem, newly recorded as a cited theorem.",
+    "Euclidean area and coarea formulas; rectifiable coarea and fiber geometry remain external at the end of batch14.",
+    "Besicovitch Euclidean ball selection and abstract Radon–Nikodym representation.",
+    "Borel regularity and Euclidean normalization of Hausdorff measure; finite-measure Egoroff and Lusin theorems; inverse function theorem; standard Euclidean integration and linear algebra."
   ],
   "next_development": [
     "Proof of the Besicovitch covering theorem; refined measure differentiation",
-    "Proofs of the area/coarea formulas and rectifiable-set density",
+    "Euclidean area/coarea proofs; rectifiable coarea and almost-everywhere fiber geometry",
     "Sharp isoperimetry, BV traces and quantitative perimeter estimates",
     "Deformation theorem and compactness of integral currents",
     "Full proofs of integral-varifold compactness and Allard excess decay; quantitative stratification and rectifiability of strata",
