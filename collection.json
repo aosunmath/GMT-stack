@@ -63,9 +63,10 @@
         "classifying-the-reduced-boundary-blow-up",
         "perimeter-tangent-measures-and-density",
         "from-perimeter-tangents-to-lipschitz-graphs",
-        "identifying-the-perimeter-measure"
+        "identifying-the-perimeter-measure",
+        "monotone-maps-and-singular-inverse-derivatives"
       ],
-      "description": "Distributional perimeter, reduced boundary, BV approximation, compactness, coarea, level sets, variational existence, subcalibrations, and minimizing Simons cones. Vector-measure representation, interval traces and finite-perimeter structure, and exact nonlinear jump calculus. Reduced-boundary blow-ups, polar alignment, quantitative phase persistence, graph covering and measure identification."
+      "description": "Distributional perimeter, reduced boundary, BV approximation, compactness, coarea, level sets, variational existence, subcalibrations, and minimizing Simons cones. Vector-measure representation, interval traces and finite-perimeter structure, and exact nonlinear jump calculus. Reduced-boundary blow-ups, polar alignment, quantitative phase persistence, graph covering and measure identification. Monotone inverse derivative measures and singular continuous concentration."
     },
     {
       "slug": "currents-flat-chains",
@@ -83,9 +84,12 @@
         "tangential-lipschitz-calculus-for-currents",
         "geometric-slices-and-their-boundary-identity",
         "flat-continuity-and-exceptional-slicing-levels",
-        "mass-bounds-for-slices-of-normal-currents"
+        "mass-bounds-for-slices-of-normal-currents",
+        "lipschitz-maps-acting-on-compact-normal-currents",
+        "geometric-pushforwards-and-integer-multiplicities",
+        "integer-rectifiability-under-convergence-in-mass"
       ],
-      "description": "Mass, compactness, flat chains, pushforwards, homotopies, slicing, Plateau existence, calibrated currents, and singular complex-curve minimizers. Scalar-to-vector Riesz representation, comass duality, and a direct sequential compactness proof. Tangential Lipschitz calculus, geometric and normal slicing, flat continuity and exceptional levels."
+      "description": "Mass, compactness, flat chains, pushforwards, homotopies, slicing, Plateau existence, calibrated currents, and singular complex-curve minimizers. Scalar-to-vector Riesz representation, comass duality, and a direct sequential compactness proof. Tangential Lipschitz calculus, geometric and normal slicing, flat continuity and exceptional levels. Analytic and geometric Lipschitz images, signed multiplicities, and integer rectifiability under convergence in mass."
     },
     {
       "slug": "varifolds",
@@ -303,9 +307,10 @@
         "examples-of-phase-density-and-perimeter-blow-ups",
         "examples-that-distinguish-tangents-and-supports",
         "examples-of-coarea-multiplicity-and-projection",
-        "examples-of-area-critical-sets-and-pushforward-densities"
+        "examples-of-area-critical-sets-and-pushforward-densities",
+        "examples-of-oriented-images-and-weak-derivatives"
       ],
-      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition. Willmore tori and round surfaces, an inverted catenoid, and curvature concentration, boundary and multiplicity examples. Periodic phase profiles, exact instability modes, circle interfaces and geometric layer energies. Periodic graphical mean conservation and drift, and nonlinear Fourier residuals. Sharp graphical scales and expanders from radial, convex and nonconvex homogeneous cones. Explicit slicing jumps, cancellation and diffuse slices. Phase densities, sectors, crossing quadrants, collapsing slabs, cusps and null modifications. Tangent limits, positive weights, dense supports and exceptional representatives. Coarea metric factors, critical atoms and levels, folded multiplicities and projection tests. Multiplicity, critical maps and singular pushforward densities."
+      "description": "Worked examples of measures, fractal dimension, classical minimal surfaces, stability, and mean curvature flow solitons, with explicit calculations and proofs. The equatorial disk and critical catenoid include boundary spectra and second variations. Harmonic-map constructions, singularities, and concentrating energy measures. Unduloid limits and cylinder stability, positive-length Cantor sets and nonnormal currents, and four-corner pure unrectifiability. Exact weighted Jacobi calculations on grim reapers and planes, and diffuse normal currents as flat limits of real rectifiable currents. Higher-codimension shrinkers, BV representatives and jumps, and an explicit obstacle contact transition. Willmore tori and round surfaces, an inverted catenoid, and curvature concentration, boundary and multiplicity examples. Periodic phase profiles, exact instability modes, circle interfaces and geometric layer energies. Periodic graphical mean conservation and drift, and nonlinear Fourier residuals. Sharp graphical scales and expanders from radial, convex and nonconvex homogeneous cones. Explicit slicing jumps, cancellation and diffuse slices. Phase densities, sectors, crossing quadrants, collapsing slabs, cusps and null modifications. Tangent limits, positive weights, dense supports and exceptional representatives. Coarea metric factors, critical atoms and levels, folded multiplicities and projection tests. Multiplicity, critical maps and singular pushforward densities. Oriented folds, branched disk multiplicity and weak derivative oscillations."
     },
     {
       "slug": "harmonic-maps",

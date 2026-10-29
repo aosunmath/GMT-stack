@@ -692,9 +692,7 @@
       "file": "obstacle-problems.tex",
       "status": "definition-with-source",
       "citations": [],
-      "dependencies": [
-        "thm:obstacle-existence"
-      ],
+      "dependencies": [],
       "formal_verification": "none"
     },
     {
@@ -1191,8 +1189,7 @@
         "CCMS20"
       ],
       "dependencies": [
-        "prop:gaussian-compact-variation",
-        "thm:shrinker-joint-hessian"
+        "prop:normal-variation-formulas"
       ],
       "formal_verification": "none"
     },
@@ -2948,11 +2945,15 @@
       "title": "Lipschitz pushforwards of integral currents",
       "kind": "theorem",
       "file": "current-operations.tex",
-      "status": "cited-theorem",
+      "status": "proof-included",
       "citations": [
         "Sim18"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "lem:local-proper-normal-pushforward",
+        "prop:normal-geometric-pushforward-agreement",
+        "thm:integer-rectifiable-geometric-image"
+      ],
       "formal_verification": "none"
     },
     {
@@ -6165,7 +6166,6 @@
       "status": "proof-included",
       "citations": [],
       "dependencies": [
-        "prop:gaussian-first-variation",
         "prop:normal-variation-formulas"
       ],
       "formal_verification": "none"
@@ -6262,7 +6262,7 @@
         "CM12"
       ],
       "dependencies": [
-        "def:shrinker-f-stability"
+        "def:shrinker-jacobi"
       ],
       "formal_verification": "none"
     },
@@ -6310,8 +6310,6 @@
       ],
       "dependencies": [
         "def:mcf-entropy",
-        "thm:shrinker-entropy-lowering",
-        "thm:shrinker-fixed-instability",
         "thm:shrinker-joint-hessian"
       ],
       "formal_verification": "none"
@@ -16315,6 +16313,463 @@
       ],
       "dependencies": [],
       "formal_verification": "none"
+    },
+    {
+      "label": "lem:vector-map-lipschitz-mollification",
+      "title": "Vector mollification preserves the operator Lipschitz bound",
+      "kind": "lemma",
+      "file": "normal-lipschitz-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:lipschitz-mollification"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:compact-normal-lipschitz-pushforward",
+      "title": "Analytic pushforward of a compact normal current",
+      "kind": "theorem",
+      "file": "normal-lipschitz-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:vector-map-lipschitz-mollification",
+        "prop:current-homotopy-estimate",
+        "prop:current-pushforward-identities",
+        "prop:current-pushforward-mass",
+        "prop:real-flat-control",
+        "thm:current-mass-representation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:normal-pushforward-approximation-independence",
+      "title": "Independence of approximation and agreement on the support",
+      "kind": "proposition",
+      "file": "normal-lipschitz-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:compact-normal-lipschitz-pushforward"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:normal-lipschitz-map-flat-stability",
+      "title": "Flat stability under a change of Lipschitz map",
+      "kind": "proposition",
+      "file": "normal-lipschitz-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:current-weak-compactness",
+        "prop:normal-pushforward-approximation-independence",
+        "thm:compact-normal-lipschitz-pushforward"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:smooth-map-real-flat-bound",
+      "title": "A smooth globally Lipschitz map bounds the real flat norm",
+      "kind": "lemma",
+      "file": "normal-lipschitz-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:current-pushforward-mass"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:normal-lipschitz-pushforward-composition",
+      "title": "Composition for compact normal Lipschitz pushforwards",
+      "kind": "proposition",
+      "file": "normal-lipschitz-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:smooth-map-real-flat-bound",
+        "prop:current-pushforward-identities",
+        "prop:normal-lipschitz-map-flat-stability",
+        "prop:normal-pushforward-approximation-independence",
+        "thm:compact-normal-lipschitz-pushforward"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:transverse-current-support-values",
+      "title": "Finite mass without normality does not determine pushforward from support values",
+      "kind": "example",
+      "file": "normal-lipschitz-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:nonproper-periodic-current-map",
+      "title": "A nonproper parametrization can make the proposed pushforward infinite",
+      "kind": "example",
+      "file": "normal-lipschitz-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:lipschitz-differential-wedge-identity",
+      "title": "Distributional exterior products of Lipschitz differentials",
+      "kind": "lemma",
+      "file": "geometric-integer-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:uniform-lipschitz-weak-minors",
+      "title": "Weak continuity of minors under a uniform Lipschitz bound",
+      "kind": "proposition",
+      "file": "geometric-integer-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:lipschitz-differential-wedge-identity"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:weighted-pullback-weak-convergence",
+      "title": "Pullback integrals converge against a fixed integrable weight",
+      "kind": "lemma",
+      "file": "geometric-integer-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:uniform-lipschitz-weak-minors"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:rectifiable-full-rank-image-tangent",
+      "title": "Full-rank image tangents agree with the image of the differential",
+      "kind": "lemma",
+      "file": "geometric-integer-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:rectifiable-common-tangents",
+        "cor:vector-c1-lusin-approximation",
+        "thm:rectifiable-tangential-differential",
+        "thm:rectifiable-weighted-area-local"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:integer-rectifiable-geometric-image",
+      "title": "Signed image multiplicity of an integer rectifiable current",
+      "kind": "theorem",
+      "file": "geometric-integer-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:rectifiable-full-rank-image-tangent"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:normal-geometric-pushforward-agreement",
+      "title": "The analytic and tangential pushforward formulas agree",
+      "kind": "proposition",
+      "file": "geometric-integer-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:weighted-pullback-weak-convergence",
+        "thm:compact-normal-lipschitz-pushforward"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:local-proper-normal-pushforward",
+      "title": "Localization of a proper Lipschitz map on a normal current",
+      "kind": "lemma",
+      "file": "geometric-integer-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:current-cutoff-boundary",
+        "prop:normal-pushforward-approximation-independence"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:pushforward-cancellation-mass",
+      "title": "The exact mass lost by cancellation",
+      "kind": "proposition",
+      "file": "geometric-integer-pushforward.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:integer-rectifiable-geometric-image"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:monotone-inverse-pushforward",
+      "title": "The inverse derivative is a pushforward of interval length",
+      "kind": "lemma",
+      "file": "monotone-inverse-derivatives.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:interval-measure-primitive"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:monotone-inverse-derivative-decomposition",
+      "title": "Regular and singular parts of a monotone inverse",
+      "kind": "theorem",
+      "file": "monotone-inverse-derivatives.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:area-null-image-criterion",
+        "lem:monotone-inverse-pushforward",
+        "prop:weighted-area"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:monotone-inverse-ac-criterion",
+      "title": "An exact criterion for absolute continuity of the inverse",
+      "kind": "corollary",
+      "file": "monotone-inverse-derivatives.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:interval-measure-primitive",
+        "prop:interval-bv-ac-lipschitz",
+        "thm:monotone-inverse-derivative-decomposition"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:monotone-inverse-lipschitz-criterion",
+      "title": "A lower derivative bound is exactly an inverse Lipschitz bound",
+      "kind": "corollary",
+      "file": "monotone-inverse-derivatives.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:monotone-inverse-ac-criterion"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:fat-cantor-inverse-singular-part",
+      "title": "An inverse has derivative one almost everywhere and a singular remainder",
+      "kind": "example",
+      "file": "monotone-inverse-derivatives.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "ex:area-fat-cantor-critical-map",
+        "lem:monotone-inverse-pushforward",
+        "prop:interval-bv-ac-lipschitz"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "prop:fat-cantor-regularized-critical-density",
+      "title": "Densities can concentrate into this singular continuous measure",
+      "kind": "proposition",
+      "file": "monotone-inverse-derivatives.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:monotone-inverse-lipschitz-criterion",
+        "ex:area-fat-cantor-critical-map"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:current-folded-rectangle",
+      "title": "Folding a rectangle cancels its oriented image",
+      "kind": "example",
+      "file": "examples-current-images.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:lipschitz-current-pushforward"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:current-complex-power-disk",
+      "title": "A power map preserves orientation and multiplies disk multiplicity",
+      "kind": "example",
+      "file": "examples-current-images.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "ex:area-complex-power-map",
+        "thm:integer-rectifiable-geometric-image",
+        "thm:lipschitz-current-pushforward"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:weak-minors-oscillating-maps",
+      "title": "Uniformly small oscillations retain nonconvergent derivatives",
+      "kind": "example",
+      "file": "examples-current-images.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "prop:uniform-lipschitz-weak-minors",
+        "thm:integer-rectifiable-geometric-image"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:current-fat-cantor-measure-distinction",
+      "title": "An injective map distinguishes pushed length from pushed current mass",
+      "kind": "example",
+      "file": "examples-current-images.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "ex:area-fat-cantor-critical-map"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "ex:mass-convergence-infinite-carrier-union",
+      "title": "Mass convergence can have an infinite-length union of carriers",
+      "kind": "example",
+      "file": "examples-current-images.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:integral-current-local-normal-completeness",
+        "lem:common-countable-current-carrier"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:common-countable-current-carrier",
+      "title": "A common orientation on a countable union of rectifiable carriers",
+      "kind": "lemma",
+      "file": "integer-current-mass-closure.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "cor:rectifiable-common-tangents"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "lem:current-common-carrier-mass-distance",
+      "title": "Mass distance equals the L1 distance of signed multiplicities",
+      "kind": "lemma",
+      "file": "integer-current-mass-closure.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:common-countable-current-carrier",
+        "prop:current-open-mass-variation",
+        "thm:current-mass-representation"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "thm:integer-rectifiable-local-mass-completeness",
+      "title": "Completeness of integer rectifiable currents in local mass",
+      "kind": "theorem",
+      "file": "integer-current-mass-closure.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "lem:current-common-carrier-mass-distance"
+      ],
+      "formal_verification": "none"
+    },
+    {
+      "label": "cor:integral-current-local-normal-completeness",
+      "title": "Completeness when both a current and its boundary converge in mass",
+      "kind": "corollary",
+      "file": "integer-current-mass-closure.tex",
+      "status": "proof-included",
+      "citations": [
+        "Sim18"
+      ],
+      "dependencies": [
+        "thm:integer-rectifiable-local-mass-completeness"
+      ],
+      "formal_verification": "none"
     }
   ],
   "external_proof_dependencies": [
@@ -16382,8 +16837,8 @@
     "Whitney C1 extension theorem, newly recorded as a cited theorem.",
     "Besicovitch Euclidean ball selection and abstract Radon–Nikodym representation.",
     "Borel regularity and Euclidean normalization of Hausdorff measure; finite-measure Egoroff and Lusin theorems; inverse function theorem; standard Euclidean integration and linear algebra.",
-    "Lipschitz pushforwards of integral currents remain external; rectifiable coarea, fiber tangent geometry and slice boundary identification are proved locally.",
-    "Euclidean area/coarea now have local proofs. Whitney extension remains external for the C1-agreement coarea reduction; Hausdorff regularity and normalization remain background inputs."
+    "Euclidean area/coarea now have local proofs. Whitney extension remains external for the C1-agreement coarea reduction; Hausdorff regularity and normalization remain background inputs.",
+    "Locally proper Lipschitz pushforwards and closure under local mass convergence now have local proofs. Whitney extension and the recorded measure-representation inputs remain; Federer--Fleming weak compactness, deformation and mod-two constructions are separate."
   ],
   "next_development": [
     "Proof of the Besicovitch covering theorem; refined measure differentiation",

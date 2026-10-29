@@ -89,13 +89,27 @@ On an orthonormal $m$-frame, the pullback evaluates $\omega$ on its image under 
 \end{proof}
 
 \begin{theorem}[Lipschitz pushforwards of integral currents]\label{thm:lipschitz-current-pushforward}
-For a locally integral current $T$ and a locally Lipschitz map $f$ proper on its support, the pushforward is well defined and locally integral. It commutes with boundary. If $f$ is globally $L$-Lipschitz, then
+Let $U\subset\mathbb R^N$ and $W\subset\mathbb R^q$ be open. For a locally integral $m$-current $T$ in $U$, $m\geq0$, and a locally Lipschitz map $f:U\to W$ proper on $\operatorname{spt}T$, the pushforward is well defined and locally integral. It commutes with boundary. If $f$ is globally $L$-Lipschitz, then
 \[
  \mathbf M(f_\#T)\leq L^m\mathbf M(T),\qquad
  \mathbf M(\partial f_\#T)\leq L^{m-1}\mathbf M(\partial T)\quad(m\geq1).
 \]
-For $T=\llbracket M,\theta,\tau\rrbracket$, its action is the integral of the test form against $\Lambda^m D^Mf(\tau)\theta$ on $M$, where $D^Mf$ is the approximate tangential derivative. The signed multiplicities of overlapping images are added before taking mass. Sources: \cite{Sim18}, Lemma 2.36, pp.~166--167, and Lemma 3.12 with Remark 3.13, pp.~174--175. The Lipschitz extension and integer-rectifiability arguments remain external; they are not a consequence of differentiability at ambient Lebesgue-almost every point alone.
+For $T=\llbracket M,\theta,\tau\rrbracket$, its action is the integral of the test form against $\Lambda^m D^Mf(\tau)\theta$ on $M$, where $D^Mf$ is the approximate tangential derivative. The signed multiplicities of overlapping images are added before taking mass. Sources: \cite{Sim18}, Lemma 2.36, pp.~166--167, and Lemma 3.12 with Remark 3.13, pp.~174--175. The analytic construction, its tangential identification, and preservation of integer multiplicity are now proved below. They require chart pullback convergence and signed image multiplicities; ambient almost-everywhere differentiability alone is insufficient.
 \end{theorem}
+\begin{proof}
+Discard the Hausdorff-null part of the rectifiable carrier lying outside $\operatorname{spt}T$, which is permitted by its positive integer mass density. First construct the locally normal analytic pushforward by Lemma \ref{lem:local-proper-normal-pushforward}. A locally integral current is locally normal because both it and its boundary have locally finite mass. Fix a compact target set $K$ and choose the cutoff $\chi$ and global extension $F$ as in that lemma. Proposition \ref{prop:normal-geometric-pushforward-agreement} applies to $T\llcorner\chi$, whose multiplicity is real and whose underlying rectifiable set still has locally finite Hausdorff measure. Since $\chi=1$ near the part of the support mapping into $K$, its geometric formula on tests supported in $K$ is exactly
+\[
+ \int_M\theta(x)\langle\omega(f(x)),
+       \Lambda^m d^Mf_x(\tau(x))\rangle\,d\mathcal H^m(x).
+\]
+For $m=0$ this is the ordinary pushforward of the locally finite signed atomic measure. Properness makes the number of source atoms over each compact target set finite.
+
+The zero-dimensional case is therefore already locally integer rectifiable. For $m\geq1$, choose a compact source neighborhood $B\Subset U$ containing the support of $\chi$ and on a neighborhood of which the extension $F$ agrees with $f$. The restricted current $R=T\llcorner B$ is integer rectifiable and has finite mass; its boundary need not have finite mass, and no normality is used for $R$. Theorem \ref{thm:integer-rectifiable-geometric-image} makes $G_FR$ integer rectifiable. Its tangential formula agrees with that of the analytic pushforward on $K$: every source point contributing to a test supported in $K$ lies where $\chi=1$ and hence belongs to $B$. The same argument on a slightly larger compact target neighborhood gives a local integer rectifiable representation near $K$. The signed multiplicity formula in that theorem is the claimed addition of overlapping sheets. A countable target cover gives local integer rectifiability throughout $W$.
+
+Boundary commutation holds by Lemma \ref{lem:local-proper-normal-pushforward}. Apply the preceding integer-image argument also to $\partial T$, whose support lies in $\operatorname{spt}T$ and inherits properness. Thus the boundary image is locally integer rectifiable as well, proving local integrality. If the target dimension is smaller than the current dimension, the corresponding exterior vector and current are zero; boundary commutation remains supplied by the analytic construction.
+
+If $f$ is globally $L$-Lipschitz, its intrinsic differential has norm at most $L$. The geometric formula therefore gives $\|f_\#T\|(K)\leq L^m\|T\|(f^{-1}(K))$ for compact target sets, or the same estimate first on open neighborhoods and then by regularity. Exhaustion yields the stated total mass estimate, allowing infinite values. Apply the same argument to $\partial T$ for its bound. Use the convention $L^0=1$ in dimension zero. The proof uses the local area/tangent chain and the normal-current construction, without appealing to Federer--Fleming compactness or claiming that a smooth cutoff has integer multiplicity.
+\end{proof}
 
 \begin{example}[Projection can cancel two sheets]\label{ex:current-projection-cancellation}
 Let $I_+$ and $I_-$ be the horizontal segments $[0,1]\times\{1\}$ and $[0,1]\times\{-1\}$, both oriented toward increasing first coordinate. Set $T=\llbracket I_+\rrbracket-\llbracket I_-\rrbracket$, and let $p(x,y)=x$. Then $\mathbf M(T)=2$ while $p_\#T=0$: both segment integrals become the same integral over $[0,1]$ with opposite signs. The associated unoriented varifold has pushforward of mass $2$ instead. This illustrates the signed-multiplicity distinction in \cite{Sim18}, Remark 3.13.

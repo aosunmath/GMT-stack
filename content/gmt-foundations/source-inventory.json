@@ -60,7 +60,11 @@
         "Chapter3 Definition3.1 and Lemmas3.2–3.3, printed pp.94–95 / PDF51: rectifiable/pure decomposition and coordinate-projection test. Both printed pages visually checked. Local refinements include uniqueness modulo null sets and multiplicity bounds.",
         "Chapter2 Theorem3.3, Remark3.4 and proof, printed57–60 / PDF32–34: full-rank metric partition, multiplicity, critical graph regularization and null images. Printed58–61 visually checked. Local proof gives exact comparison ratios and an O(epsilon) rank-deficient Jacobian bound; a diagonal example checks the required order.",
         "Chapter2 Theorem1.10, printed49–51, and Theorem7.3 proof, printed76–79 / PDF42–43: direct coarse slicing, full-rank coordinate coarea, critical regularization and C1/Lipschitz reduction. Previous source inspection extended to an acyclic local proof of the Euclidean formula.",
-        "Chapter2 Example3.5, printed60–61: curve and graph interpretation. New worked examples are original deductions from the formulas, including multiplicity, critical mass and singular pushforwards."
+        "Chapter2 Example3.5, printed60–61: curve and graph interpretation. New worked examples are original deductions from the formulas, including multiplicity, critical mass and singular pushforwards.",
+        "Chapter6 Lemmas2.35–2.36, printed166–167: compact normal Lipschitz pushforward, approximation independence and support dependence. Previously visually inspected; expanded here with explicit flat residual/filling limits and composition.",
+        "Chapter6 Lemma3.12 and Remark3.13, printed174–175 / physical PDF page91: tangential image formula, signed integer sums and cancellation. Pixels inspected; the unit-orientation formula is derived directly, keeping the original multiplicity exactly once rather than transcribing the extra factor in intermediate equation3.6. Chart weak-minor convergence and proper localization are expanded explicitly.",
+        "Chapter6 Lemma3.17 and proof, printed175–176 / physical PDF pages91–92: integer rectifiability under local mass convergence. Pixels inspected; common-carrier argument allows sigma-finite union measure and treats the zero-dimensional endpoint.",
+        "Chapter2 area formula, printed57–60, applied to monotone inverse derivative measures and singular continuous concentration; these are original deductions linked to the local interval BV theory."
       ]
     },
     {

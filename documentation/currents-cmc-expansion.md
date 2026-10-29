@@ -4,7 +4,7 @@ This expansion adds **42 entries** in three sections, with **24 new local proofs
 
 ## Current operations and Plateau theory
 
-The development separates locally finite-mass currents, normal currents, and integral currents. It introduces vector-measure representation, Borel restrictions, smooth cutoff boundary identities, proper pushforwards, mass bounds, Lipschitz images, and cancellation. The vector-measure representation and the Lipschitz extension retain explicit external proof dependencies.
+The development separates locally finite-mass currents, normal currents, and integral currents. It introduces vector-measure representation, Borel restrictions, smooth cutoff boundary identities, proper pushforwards, mass bounds, Lipschitz images, and cancellation. The vector-measure representation now has a [local proof](translator-current-expansion.md). The [Lipschitz image development](pushforward-inverse-expansion.md) supplies the analytic construction, geometric identification and preservation of integer multiplicity; its remaining background inputs are recorded separately.
 
 The interval product leads to the homotopy identity and a quantitative affine-homotopy estimate. Cone fillings include their mass bound and a separate explanation of the zero-dimensional augmentation condition. A real-current flat norm is distinguished from the previously defined integer polyhedral flat norm; their infima are not identified. The test-form estimate proves nondegeneracy of both constructions in their stated categories.
 
