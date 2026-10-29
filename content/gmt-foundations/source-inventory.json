@@ -34,7 +34,8 @@
         "Chapter 8, equations (2.1)--(2.10), pp. 238--240; radial first variation and monotonicity (3.3)--(3.6), pp. 240--241",
         "Chapter 1, Sections 1--2, pp. 1--13: Borel regularity and real-exponent Hausdorff coverings, used for directly proved atomic, concentration, oscillation and Cantor examples.",
         "Chapter 1, Section 5, printed pp. 29–39 (PDF pp. 18–23): compact cutoffs, partition of unity, Radon regularity, Lp density, positive Riesz representation, and local measure compactness. Sequential extraction restricted to Euclidean open sets and justified with countable tests.",
-        "Chapter 1, Sections 3–4, printed pp. 15–28 (PDF pp. 11–18): fivefold covering, upper densities, Lebesgue density and differentiation, and identification of the density in a given absolutely continuous/singular decomposition. Local maximal estimates derived explicitly; arbitrary-Radon differentiation not imported."
+        "Chapter 1, Sections 3–4, printed pp. 15–28 (PDF pp. 11–18): fivefold covering, upper densities, Lebesgue density and differentiation, and identification of the density in a given absolutely continuous/singular decomposition. Local maximal estimates derived explicitly; arbitrary-Radon differentiation not imported.",
+        "Chapter 2, Section 1, pp. 43–46 (PDF pp. 25–27): scalar extension, linewise absolute continuity, weak directional derivatives, and the finite-net proof of Rademacher. One-dimensional absolutely continuous FTC remains explicit background; no Whitney extension imported."
       ]
     },
     {
@@ -167,7 +168,8 @@
         "Chapters 5--6 and 12",
         "Chapter 18, Theorems 1--2, printed pp. 211--212",
         "Chapters 18--19",
-        "Lecture 17, pp. 199--205: Theorem 1, the Sobolev gain in Lemma 2/Corollary 1, truncated power tests and iteration; Lecture 18, p. 211: nonnegative Harnack statement with interior margin. PDF spreads 103--104 (printed pp. 200--203) rendered to check damaged-font formulas. Truncations are used in H1, without assuming bounded gradients."
+        "Lecture 17, pp. 199--205: Theorem 1, the Sobolev gain in Lemma 2/Corollary 1, truncated power tests and iteration; Lecture 18, p. 211: nonnegative Harnack statement with interior margin. PDF spreads 103--104 (printed pp. 200--203) rendered to check damaged-font formulas. Truncations are used in H1, without assuming bounded gradients.",
+        "Lecture 17, pp. 200–202 (PDF pp. 103–104), rechecked for a local Sobolev proof; pp.200–201 visually rendered. First-power inequality, power substitution, and two-dimensional finite exponents. Coordinate-projection Holder proof and endpoint examples supplied explicitly."
       ]
     },
     {
@@ -1582,7 +1584,8 @@
         "Section 2, Corollary 2.2, p. 49",
         "Section 3, Theorems 3.1--3.2, pp. 51--52",
         "Section 4, rescaling and translating models",
-        "Corollary 2.2, p. 49: minimal spherical specialization; a local Gauss--Codazzi commutation proof is supplied"
+        "Corollary 2.2, p. 49: minimal spherical specialization; a local Gauss--Codazzi commutation proof is supplied",
+        "Section 2, pp. 47--49: normal convention, tensor commutators, Gauss--Codazzi, and the space-form Simons specialization; local component proofs and norm inequalities supplied."
       ]
     },
     {
@@ -1772,9 +1775,62 @@
       "checked_passages": [
         "Section 3.1, pp. 6–7, especially equation (14): implicit ancient oval, curvature extrema and backward grim-reaper limits. The backward error is rederived as O(e^(2t)) on compact horizontal intervals."
       ]
+    },
+    {
+      "bibliography_key": "AdC94",
+      "filename": "Hypersurfaces-With-Constant-Mean-Curvature-in-Spheres.pdf",
+      "author": "Hilário Alencar; Manfredo do Carmo",
+      "title": "Hypersurfaces with constant mean curvature in spheres",
+      "edition": "Author-hosted 9-page typeset manuscript, retrieved October 29, 2026; journal article: Proceedings of the AMS 120 (1994), 1223--1229",
+      "sha256": "8cafbf146d51a7376025da9ad3144c6bf2d391ce45909087a6eb03f37eea9042",
+      "pdf_pages": 9,
+      "url": "https://im.ufal.br/professor/hilario/wp-content/uploads/delightful-downloads/2016/03/Hypersurfaces-With-Constant-Mean-Curvature-in-Spheres.pdf",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "metadata_status": "source-checked",
+      "role": "CMC trace-free Simons equation, Okumura algebraic inequality, and first pinching gap. Original local calculations use unnormalized scalar mean curvature and extend the gap argument to space forms with positive alpha. Equality classification is not imported.",
+      "checked_passages": [
+        "Author manuscript Section 1, pp. 1--3: mean-curvature normalization, product examples, Theorems 1.1--1.2; Section 2, pp. 4--6: equation (2.4), Lemma 1 and integral gap proof. Intermediate typographical errors in manuscript formulas are resolved by direct derivation rather than copied."
+      ]
+    },
+    {
+      "bibliography_key": "SSY75",
+      "filename": "Curvature estimates for minimal hypersurfaces_Schoen-Simon-Yau.pdf",
+      "author": "Richard Schoen; Leon Simon; Shing-Tung Yau",
+      "title": "Curvature estimates for minimal hypersurfaces",
+      "edition": "Acta Mathematica 134 (1975), pp. 275--288; supplied local PDF",
+      "sha256": "97690e8995181afd7db3b713a59546f3c9f5ba4a7b5089fb7c85649a73403280",
+      "pdf_pages": 14,
+      "url": "https://archive.ymsc.tsinghua.edu.cn/pacm_download/117/6188-11511_2006_Article_BF02392104.pdf",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "metadata_status": "source-checked",
+      "role": "Euclidean Simons and improved Kato inequalities, stability power tests, integral curvature estimates, and rigidity under volume growth. Pointwise curvature estimates and general ambient-curvature versions are not imported.",
+      "checked_passages": [
+        "Section 1, pp. 277--281, especially (1.27)--(1.38): Gauss--Codazzi, improved Kato and stability; p. 281 rendered to verify exponent range.",
+        "Section 2, Theorems 1--2 and equation (2.9), pp. 281--283: compact-support integral estimate and growth rigidity; zero-curvature regularization is supplied explicitly.",
+        "Section 2, pp. 284--285: pointwise estimates require a geometric Sobolev input; these results are deferred rather than inferred from the Euclidean Sobolev section."
+      ]
+    },
+    {
+      "bibliography_key": "Hui84",
+      "filename": "Flow by mean curvature of convex surfaces into spheres_Huisken.pdf",
+      "author": "Gerhard Huisken",
+      "title": "Flow by mean curvature of convex surfaces into spheres",
+      "edition": "Journal of Differential Geometry 20 (1984), pp. 237--266; supplied local PDF",
+      "sha256": "88051eb9fd231d379b559d5589c28207cec8b8b636cfd2ac7fb5c47d1c930163",
+      "pdf_pages": 30,
+      "url": "https://math.jhu.edu/~js/Math646/huisken.convexflow.pdf",
+      "redistributed": false,
+      "review_status": "selected-passages-checked",
+      "metadata_status": "source-checked",
+      "role": "Closed-flow preservation of convexity and linear pinching, normalized curvature quotient, and a strong-maximum-principle equality consequence. The full convex round-point convergence theorem is not proved by this batch.",
+      "checked_passages": [
+        "Sections 3--4, pp. 242--245, especially Theorem 3.4, Corollary 3.5, Corollary 4.2 and Theorem 4.3: curvature evolution and pinching preservation. A direct scalar-reaction endomorphism maximum principle is proved locally.",
+        "Section 5, Lemma 5.2, pp. 246--247: quotient evolution; sigma=0 specialized and rederived with the evolving-metric norm. Printed p. 246 rendered to check the formula."
+      ]
     }
   ],
-  "distinct_editions": 21,
   "pagination": "Citations use printed source pages and original theorem numbers. Pitts printed page 1 is PDF page 11; LMN printed page 933 is PDF page 2. Simon PDFs generally contain two-page spreads. Reader numbering is generated independently.",
   "source_rights": "Supplied reference files retain their original copyrights. They and their extracted text are not included in the site or repository content.",
   "exposition": "Original exposition for the Stack Project of Geometric Measure Theory and Variational Problems; initial draft, not an exhaustive transcription or a formally verified library."

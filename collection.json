@@ -29,7 +29,8 @@
       "topics": [
         "rectifiable-sets-and-tangent-planes",
         "area-and-coarea",
-        "tangential-jacobians-and-weighted-coarea"
+        "tangential-jacobians-and-weighted-coarea",
+        "lipschitz-extension-and-almost-everywhere-differentiation"
       ]
     },
     {
@@ -95,7 +96,10 @@
         "positive-solutions-and-limits-of-normal-graphs",
         "small-capacity-punctures-and-removable-stability",
         "localization-of-index-and-weak-convergence-of-variations",
-        "power-tests-and-moser-iteration"
+        "power-tests-and-moser-iteration",
+        "euclidean-sobolev-inequalities-and-their-endpoints",
+        "gauss-equations-and-curvature-inequalities",
+        "stability-and-integral-curvature-estimates"
       ],
       "description": "Variations, graphs, elliptic estimates, truncated power tests and Moser iteration, Jacobi fields, separated sheets, removable stability, index localization and weak convergence, compactness, geometric inequalities, scalar curvature, Bernstein arguments, and stable cones."
     },
@@ -146,7 +150,8 @@
         "volume-constraints-and-cmc-stability",
         "minkowski-identities-and-euclidean-cmc-rigidity",
         "constrained-jacobi-fields-and-spectral-tests",
-        "geodesic-spheres-and-spherical-cmc-rigidity"
+        "geodesic-spheres-and-spherical-cmc-rigidity",
+        "trace-free-curvature-and-cmc-pinching"
       ],
       "description": "Area minus volume, CMC min-max, curvature networks, exact volume constraints, strong versus constrained stability, Minkowski identities, constrained Jacobi fields, and sphere rigidity."
     },
@@ -193,7 +198,8 @@
         "center-and-scale-in-shrinker-stability",
         "gaussian-tails-and-convergence-of-entropy",
         "entropy-maximizers-and-translation-symmetries",
-        "entropy-lowering-compact-perturbations"
+        "entropy-lowering-compact-perturbations",
+        "convexity-and-curvature-pinching-along-the-flow"
       ],
       "description": "Smooth and weak flows, Gaussian monotonicity, weighted shrinker variations and stability, Gaussian tails and convergence, entropy maximizers, product splitting, and entropy-lowering compact perturbations."
     },

@@ -34,8 +34,11 @@ For a smooth Euclidean hypersurface with the convention in Definition \ref{def:m
 \[
  \Delta h_{ij}=\nabla_i\nabla_jH+Hh_i{}^kh_{kj}-|A|^2h_{ij}.
 \]
-This is the Euclidean specialization of \cite{HP99}, Corollary 2.2, p.~49. Its proof commutes two covariant derivatives using Codazzi and replaces intrinsic curvature by the Gauss equation; that commutation calculation remains external. The formula is valid without a minimality or convexity hypothesis.
+This is the Euclidean specialization of \cite{HP99}, Corollary 2.2, p.~49. The formula is valid without a minimality or convexity hypothesis.
 \end{theorem}
+\begin{proof}
+Apply Theorem \ref{thm:spaceform-simons} with $c=0$. Its proof gives the Gauss--Codazzi commutation explicitly, so no external curvature-commutation input is needed for the evolution identities below.
+\end{proof}
 
 \begin{proposition}[Curvature evolution under mean curvature flow]\label{prop:mcf-curvature-evolution}
 Along a smooth Euclidean hypersurface flow,

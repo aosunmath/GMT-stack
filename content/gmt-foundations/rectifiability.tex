@@ -14,8 +14,12 @@ Let $V\subset\mathbb{R}^m$ be open and let $f:V\to\mathbb{R}^n$ be locally Lipsc
 \[
  \lim_{h\to0}\frac{|f(x+h)-f(x)-Df(x)h|}{|h|}=0.
 \]
-\emph{Cited theorem; proof to be added.} See \cite{Sim18}, Chapter 2, Theorem 1.4, pp.~44--46, for the scalar theorem. The displayed form follows by applying that theorem to each coordinate and localizing to balls compactly contained in $V$.
+See \cite{Sim18}, Chapter 2, Theorem 1.4, pp.~44--46, for the scalar theorem and the proof attributed there to Morrey. The local proof ingredients follow in this chapter.
 \end{theorem}
+\begin{proof}
+First suppose the target is scalar and work in a neighborhood with Lipschitz constant $L$. Choose a countable dense family $v_k$ in $S^{m-1}$. For each fixed $k$, Lemma \ref{lem:directional-weak-linearity} gives a full-measure set on which $D_{v_k}f=v_k\cdot g$, where $g$ consists of the coordinate derivatives. Intersect these sets and the full-measure set where all coordinate derivatives exist. Countability preserves full measure. At every point of this intersection, Lemma \ref{lem:angular-net-differentiability} proves differentiability with derivative $g$. A countable collection of Lipschitz neighborhoods covers $V$, giving the scalar result throughout $V$. Apply this result to the finitely many coordinate functions of a vector-valued map, intersect their full-measure sets, and combine the component error estimates in the Euclidean norm. This proves the stated theorem. The one-dimensional fundamental theorem for absolutely continuous functions remains the background input used in Lemma \ref{lem:lipschitz-on-lines}.
+\end{proof}
+
 
 \begin{definition}[Approximate tangent plane]\label{def:approximate-tangent}
 Let $M\subset\mathbb{R}^n$ be $\mathcal{H}^m$-measurable with locally finite $\mathcal{H}^m$ measure. An $m$-dimensional linear subspace $P$ is the \emph{approximate tangent plane} to $M$ at $x$ if

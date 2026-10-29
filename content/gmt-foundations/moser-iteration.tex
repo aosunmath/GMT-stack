@@ -7,8 +7,11 @@ For $n\geq2$, put $\chi=n/(n-2)$ if $n>2$, and $\chi=2$ if $n=2$. There is $S_n<
  \left(\int_{B_2}|w|^{2\chi}\right)^{1/\chi}
  \leq S_n\int_{B_2}|Dw|^2.
 \]
-This is an external Sobolev input from \cite{SimonPDE}, Lecture 17, Lemma 2, pp.~200--201, and Corollary 1, p.~202. For $n=2$ it also follows from the $W_0^{1,4/3}$ Sobolev inequality followed by Holder on the fixed ball. The choice $n/(n-2)$ is not used in dimension two.
+See \cite{SimonPDE}, Lecture 17, Lemma 2, pp.~200--201, and Corollary 1, p.~202. The choice $n/(n-2)$ is not used in dimension two.
 \end{theorem}
+\begin{proof}
+Corollary \ref{cor:scaled-sobolev-ball}, proved from the coordinate-projection Holder inequality and the first-power Sobolev estimate, gives the assertion with $R=2$. Its radius factor is fixed and can be included in $S_n$. In dimension two the proof uses the finite-power inequality of Theorem \ref{thm:two-dimensional-sobolev} with $q=4$.
+\end{proof}
 
 \begin{lemma}[Positive parts preserve the subsolution inequality]\label{lem:positive-part-subsolution}
 If $v\in H^1_{\mathrm{loc}}(U)$ is a weak subsolution for the coefficients fixed above, then $(v-k)_+$ is a weak subsolution for every constant $k$. If $v$ is a weak solution, both $v_+$ and $(-v)_+$ are nonnegative weak subsolutions.
