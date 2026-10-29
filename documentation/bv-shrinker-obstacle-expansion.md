@@ -1,6 +1,6 @@
 # BV representatives, shrinker gaps and an obstacle transition
 
-This expansion adds seven subject sections, 37 entries and 37 local proofs. Existing tags and reader locations are retained. The existing definition of BV now links to a local proof of its vector-measure representation.
+This expansion adds seven subject sections, 36 entries and 36 local proofs. Existing tags and reader locations are retained. The existing definition of BV now links to a local proof of its vector-measure representation.
 
 ## Source evidence and conventions
 

@@ -1,5 +1,5 @@
 \chapter{Measure representation for BV functions}\label{sec:bv-representation-calculus}
-This section proves the measure representation used in Definition \ref{def:bv} and proves constancy when the distributional derivative vanishes. The source definition and representation are \cite{Sim18}, Chapter 2, Section 2, equations (2.1)--(2.4), pp.~52--53. We retain the convention $\int u\,\operatorname{div}X=-\int X\cdot dDu$; changing the sign of a polar vector does not change its variation measure.
+This section proves the measure representation used in Definition \ref{def:bv} and uses the constancy statement already proved in Lemma \ref{lem:weak-gradient-zero}. The source definition and representation are \cite{Sim18}, Chapter 2, Section 2, equations (2.1)--(2.4), pp.~52--53. We retain the convention $\int u\,\operatorname{div}X=-\int X\cdot dDu$; changing the sign of a polar vector does not change its variation measure.
 
 \begin{proposition}[Distributional derivatives as vector measures]\label{prop:bv-vector-representation}
 Let $U\subset\mathbb R^n$ be open. For $u\in L^1_{\mathrm{loc}}(U)$, local finiteness of the variation supremum in Definition \ref{def:bv} is equivalent to representation of its distributional gradient by a locally finite vector-valued Radon measure. There is a Radon measure $\mu$ and a Borel vector field $\sigma$ such that
@@ -21,9 +21,3 @@ Every such $F$ has support in $W$ and norm at most one. Extend it by zero and mo
 The coordinate distributional identities characterize $Du$ uniquely, since smooth tests determine Radon measures. Conversely, a locally finite vector measure representing $Du$ bounds the variation on $W\Subset U$ by its total variation there. The already established representation then identifies the minimal positive dominating measure with the stated supremum. This completes the equivalence without a separate vector-valued representation theorem left external.
 \end{proof}
 
-\begin{lemma}[A vanishing distributional gradient]\label{lem:zero-distributional-gradient}
-If $U$ is connected and open and $u\in L^1_{\mathrm{loc}}(U)$ satisfies $Du=0$ in distributions, then $u$ is almost everywhere constant on $U$.
-\end{lemma}
-\begin{proof}
-On a ball $B\Subset U$, convolve $u$ at sufficiently small scales. The distributional convolution identity gives zero classical gradient on any smaller concentric ball, so each mollification is constant there. It converges to $u$ in $L^1$ on that smaller ball. The constants form a Cauchy sequence, since the $L^1$ distance between two constants is the volume of the ball times their difference. Hence $u$ is almost everywhere constant on the ball. Constants on overlapping balls agree because the overlap has positive measure. A connected open subset of Euclidean space is joined by chains of overlapping balls; for example the set accessible from one ball by a finite chain is both relatively open and relatively closed. A countable ball cover removes any ambiguity from unions of null sets. The constants therefore agree almost everywhere on all of $U$.
-\end{proof}
