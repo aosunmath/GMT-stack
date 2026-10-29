@@ -12841,5 +12841,329 @@
     "page": "tag/E152E255/index.html",
     "canonical_tag": "93DDA071D85B",
     "anchor": ""
+  },
+  {
+    "tag": "A8C5EFDE",
+    "label": "sec:normal-lipschitz-pushforward",
+    "title": "183 Lipschitz maps acting on compact normal currents",
+    "kind": "chapter",
+    "page": "tag/A8C5EFDE/index.html",
+    "canonical_tag": "4EC99D8F6D41",
+    "anchor": ""
+  },
+  {
+    "tag": "2797A944",
+    "label": "lem:vector-map-lipschitz-mollification",
+    "title": "Lemma 183.1 (Vector mollification preserves the operator Lipschitz bound)",
+    "kind": "lemma",
+    "page": "tag/2797A944/index.html",
+    "canonical_tag": "62CD279ECDC7",
+    "anchor": ""
+  },
+  {
+    "tag": "A4ABA9A9",
+    "label": "thm:compact-normal-lipschitz-pushforward",
+    "title": "Theorem 183.2 (Analytic pushforward of a compact normal current)",
+    "kind": "theorem",
+    "page": "tag/A4ABA9A9/index.html",
+    "canonical_tag": "47FF81F5740B",
+    "anchor": ""
+  },
+  {
+    "tag": "7E13D2B1",
+    "label": "prop:normal-pushforward-approximation-independence",
+    "title": "Proposition 183.3 (Independence of approximation and agreement on the support)",
+    "kind": "proposition",
+    "page": "tag/7E13D2B1/index.html",
+    "canonical_tag": "6963597FF6A7",
+    "anchor": ""
+  },
+  {
+    "tag": "16F71F20",
+    "label": "prop:normal-lipschitz-map-flat-stability",
+    "title": "Proposition 183.4 (Flat stability under a change of Lipschitz map)",
+    "kind": "proposition",
+    "page": "tag/16F71F20/index.html",
+    "canonical_tag": "5082CF488276",
+    "anchor": ""
+  },
+  {
+    "tag": "1CF3A3DF",
+    "label": "lem:smooth-map-real-flat-bound",
+    "title": "Lemma 183.5 (A smooth globally Lipschitz map bounds the real flat norm)",
+    "kind": "lemma",
+    "page": "tag/1CF3A3DF/index.html",
+    "canonical_tag": "0A97DBAC25D5",
+    "anchor": ""
+  },
+  {
+    "tag": "17BC6700",
+    "label": "prop:normal-lipschitz-pushforward-composition",
+    "title": "Proposition 183.6 (Composition for compact normal Lipschitz pushforwards)",
+    "kind": "proposition",
+    "page": "tag/17BC6700/index.html",
+    "canonical_tag": "FD35C70CFAAC",
+    "anchor": ""
+  },
+  {
+    "tag": "DE515F18",
+    "label": "ex:transverse-current-support-values",
+    "title": "Example 183.7 (Finite mass without normality does not determine pushforward from support values)",
+    "kind": "example",
+    "page": "tag/DE515F18/index.html",
+    "canonical_tag": "F67B788FD395",
+    "anchor": ""
+  },
+  {
+    "tag": "348B002D",
+    "label": "ex:nonproper-periodic-current-map",
+    "title": "Example 183.8 (A nonproper parametrization can make the proposed pushforward infinite)",
+    "kind": "example",
+    "page": "tag/348B002D/index.html",
+    "canonical_tag": "A0158D1DD327",
+    "anchor": ""
+  },
+  {
+    "tag": "9C5B79A3",
+    "label": "sec:geometric-integer-pushforward",
+    "title": "184 Geometric pushforwards and integer multiplicities",
+    "kind": "chapter",
+    "page": "tag/9C5B79A3/index.html",
+    "canonical_tag": "45668E6844E6",
+    "anchor": ""
+  },
+  {
+    "tag": "A52E7F8A",
+    "label": "lem:lipschitz-differential-wedge-identity",
+    "title": "Lemma 184.1 (Distributional exterior products of Lipschitz differentials)",
+    "kind": "lemma",
+    "page": "tag/A52E7F8A/index.html",
+    "canonical_tag": "4A2F3A858E5A",
+    "anchor": ""
+  },
+  {
+    "tag": "2C4E7370",
+    "label": "prop:uniform-lipschitz-weak-minors",
+    "title": "Proposition 184.2 (Weak continuity of minors under a uniform Lipschitz bound)",
+    "kind": "proposition",
+    "page": "tag/2C4E7370/index.html",
+    "canonical_tag": "3C7149CCAEEE",
+    "anchor": ""
+  },
+  {
+    "tag": "B3185A5A",
+    "label": "lem:weighted-pullback-weak-convergence",
+    "title": "Lemma 184.3 (Pullback integrals converge against a fixed integrable weight)",
+    "kind": "lemma",
+    "page": "tag/B3185A5A/index.html",
+    "canonical_tag": "0360B75DF314",
+    "anchor": ""
+  },
+  {
+    "tag": "9F49C348",
+    "label": "lem:rectifiable-full-rank-image-tangent",
+    "title": "Lemma 184.4 (Full-rank image tangents agree with the image of the differential)",
+    "kind": "lemma",
+    "page": "tag/9F49C348/index.html",
+    "canonical_tag": "E1BC38EDFD7F",
+    "anchor": ""
+  },
+  {
+    "tag": "9ED3D32F",
+    "label": "thm:integer-rectifiable-geometric-image",
+    "title": "Theorem 184.5 (Signed image multiplicity of an integer rectifiable current)",
+    "kind": "theorem",
+    "page": "tag/9ED3D32F/index.html",
+    "canonical_tag": "F7FBDCA3DAF1",
+    "anchor": ""
+  },
+  {
+    "tag": "7137AD20",
+    "label": "prop:normal-geometric-pushforward-agreement",
+    "title": "Proposition 184.6 (The analytic and tangential pushforward formulas agree)",
+    "kind": "proposition",
+    "page": "tag/7137AD20/index.html",
+    "canonical_tag": "12C23C6607AA",
+    "anchor": ""
+  },
+  {
+    "tag": "A905EDE1",
+    "label": "lem:local-proper-normal-pushforward",
+    "title": "Lemma 184.7 (Localization of a proper Lipschitz map on a normal current)",
+    "kind": "lemma",
+    "page": "tag/A905EDE1/index.html",
+    "canonical_tag": "FE42F5542170",
+    "anchor": ""
+  },
+  {
+    "tag": "42A3F7C1",
+    "label": "prop:pushforward-cancellation-mass",
+    "title": "Proposition 184.8 (The exact mass lost by cancellation)",
+    "kind": "proposition",
+    "page": "tag/42A3F7C1/index.html",
+    "canonical_tag": "7702881A8B7A",
+    "anchor": ""
+  },
+  {
+    "tag": "C96E1B1C",
+    "label": "sec:monotone-inverse-derivatives",
+    "title": "185 Monotone maps and singular inverse derivatives",
+    "kind": "chapter",
+    "page": "tag/C96E1B1C/index.html",
+    "canonical_tag": "AF49A6E669ED",
+    "anchor": ""
+  },
+  {
+    "tag": "256496D3",
+    "label": "lem:monotone-inverse-pushforward",
+    "title": "Lemma 185.1 (The inverse derivative is a pushforward of interval length)",
+    "kind": "lemma",
+    "page": "tag/256496D3/index.html",
+    "canonical_tag": "7C39A35EE07B",
+    "anchor": ""
+  },
+  {
+    "tag": "7070F5DD",
+    "label": "thm:monotone-inverse-derivative-decomposition",
+    "title": "Theorem 185.2 (Regular and singular parts of a monotone inverse)",
+    "kind": "theorem",
+    "page": "tag/7070F5DD/index.html",
+    "canonical_tag": "07E28955BBAA",
+    "anchor": ""
+  },
+  {
+    "tag": "5FEF4C9D",
+    "label": "cor:monotone-inverse-ac-criterion",
+    "title": "Corollary 185.3 (An exact criterion for absolute continuity of the inverse)",
+    "kind": "corollary",
+    "page": "tag/5FEF4C9D/index.html",
+    "canonical_tag": "D546E654D27D",
+    "anchor": ""
+  },
+  {
+    "tag": "D59D76CF",
+    "label": "cor:monotone-inverse-lipschitz-criterion",
+    "title": "Corollary 185.4 (A lower derivative bound is exactly an inverse Lipschitz bound)",
+    "kind": "corollary",
+    "page": "tag/D59D76CF/index.html",
+    "canonical_tag": "2F38473535BC",
+    "anchor": ""
+  },
+  {
+    "tag": "920E0DE4",
+    "label": "ex:fat-cantor-inverse-singular-part",
+    "title": "Example 185.5 (An inverse has derivative one almost everywhere and a singular remainder)",
+    "kind": "example",
+    "page": "tag/920E0DE4/index.html",
+    "canonical_tag": "887D04DBA9BC",
+    "anchor": ""
+  },
+  {
+    "tag": "4CBFB0F6",
+    "label": "prop:fat-cantor-regularized-critical-density",
+    "title": "Proposition 185.6 (Densities can concentrate into this singular continuous measure)",
+    "kind": "proposition",
+    "page": "tag/4CBFB0F6/index.html",
+    "canonical_tag": "B4DAA4CD132F",
+    "anchor": ""
+  },
+  {
+    "tag": "8B180886",
+    "label": "sec:examples-current-images",
+    "title": "186 Examples of oriented images and weak derivatives",
+    "kind": "chapter",
+    "page": "tag/8B180886/index.html",
+    "canonical_tag": "042F4234144E",
+    "anchor": ""
+  },
+  {
+    "tag": "9D76AE93",
+    "label": "ex:current-folded-rectangle",
+    "title": "Example 186.1 (Folding a rectangle cancels its oriented image)",
+    "kind": "example",
+    "page": "tag/9D76AE93/index.html",
+    "canonical_tag": "F26CE0FAC5CC",
+    "anchor": ""
+  },
+  {
+    "tag": "0626064F",
+    "label": "ex:current-complex-power-disk",
+    "title": "Example 186.2 (A power map preserves orientation and multiplies disk multiplicity)",
+    "kind": "example",
+    "page": "tag/0626064F/index.html",
+    "canonical_tag": "1A703A49C307",
+    "anchor": ""
+  },
+  {
+    "tag": "3228341C",
+    "label": "ex:weak-minors-oscillating-maps",
+    "title": "Example 186.3 (Uniformly small oscillations retain nonconvergent derivatives)",
+    "kind": "example",
+    "page": "tag/3228341C/index.html",
+    "canonical_tag": "ECFE5B3E2949",
+    "anchor": ""
+  },
+  {
+    "tag": "FAAB10D6",
+    "label": "ex:current-fat-cantor-measure-distinction",
+    "title": "Example 186.4 (An injective map distinguishes pushed length from pushed current mass)",
+    "kind": "example",
+    "page": "tag/FAAB10D6/index.html",
+    "canonical_tag": "3A9E3E350689",
+    "anchor": ""
+  },
+  {
+    "tag": "19286558",
+    "label": "ex:mass-convergence-infinite-carrier-union",
+    "title": "Example 186.5 (Mass convergence can have an infinite-length union of carriers)",
+    "kind": "example",
+    "page": "tag/19286558/index.html",
+    "canonical_tag": "696CAEEE92DA",
+    "anchor": ""
+  },
+  {
+    "tag": "B345F373",
+    "label": "sec:integer-current-mass-closure",
+    "title": "187 Integer rectifiability under convergence in mass",
+    "kind": "chapter",
+    "page": "tag/B345F373/index.html",
+    "canonical_tag": "719740AE60F3",
+    "anchor": ""
+  },
+  {
+    "tag": "FFBD9F17",
+    "label": "lem:common-countable-current-carrier",
+    "title": "Lemma 187.1 (A common orientation on a countable union of rectifiable carriers)",
+    "kind": "lemma",
+    "page": "tag/FFBD9F17/index.html",
+    "canonical_tag": "688CD33654B1",
+    "anchor": ""
+  },
+  {
+    "tag": "031946D1",
+    "label": "lem:current-common-carrier-mass-distance",
+    "title": "Lemma 187.2 (Mass distance equals the L1 distance of signed multiplicities)",
+    "kind": "lemma",
+    "page": "tag/031946D1/index.html",
+    "canonical_tag": "74859C11798E",
+    "anchor": ""
+  },
+  {
+    "tag": "CD7B38D8",
+    "label": "thm:integer-rectifiable-local-mass-completeness",
+    "title": "Theorem 187.3 (Completeness of integer rectifiable currents in local mass)",
+    "kind": "theorem",
+    "page": "tag/CD7B38D8/index.html",
+    "canonical_tag": "B5E7DE122838",
+    "anchor": ""
+  },
+  {
+    "tag": "4CD68487",
+    "label": "cor:integral-current-local-normal-completeness",
+    "title": "Corollary 187.4 (Completeness when both a current and its boundary converge in mass)",
+    "kind": "corollary",
+    "page": "tag/4CD68487/index.html",
+    "canonical_tag": "5BED5960DCC9",
+    "anchor": ""
   }
 ]

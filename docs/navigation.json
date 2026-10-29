@@ -1883,6 +1883,54 @@
     "tag": "DCBDD31CBE35"
   },
   {
+    "route": "sections/monotone-maps-and-singular-inverse-derivatives",
+    "title": "4.15 Monotone maps and singular inverse derivatives",
+    "chapter": "finite-perimeter",
+    "section": "monotone-maps-and-singular-inverse-derivatives"
+  },
+  {
+    "route": "tag/7C39A35EE07B",
+    "title": "Lemma 4.15.1 (The inverse derivative is a pushforward of interval length)",
+    "chapter": "finite-perimeter",
+    "section": "monotone-maps-and-singular-inverse-derivatives",
+    "tag": "7C39A35EE07B"
+  },
+  {
+    "route": "tag/07E28955BBAA",
+    "title": "Theorem 4.15.2 (Regular and singular parts of a monotone inverse)",
+    "chapter": "finite-perimeter",
+    "section": "monotone-maps-and-singular-inverse-derivatives",
+    "tag": "07E28955BBAA"
+  },
+  {
+    "route": "tag/D546E654D27D",
+    "title": "Corollary 4.15.3 (An exact criterion for absolute continuity of the inverse)",
+    "chapter": "finite-perimeter",
+    "section": "monotone-maps-and-singular-inverse-derivatives",
+    "tag": "D546E654D27D"
+  },
+  {
+    "route": "tag/2F38473535BC",
+    "title": "Corollary 4.15.4 (A lower derivative bound is exactly an inverse Lipschitz bound)",
+    "chapter": "finite-perimeter",
+    "section": "monotone-maps-and-singular-inverse-derivatives",
+    "tag": "2F38473535BC"
+  },
+  {
+    "route": "tag/887D04DBA9BC",
+    "title": "Example 4.15.5 (An inverse has derivative one almost everywhere and a singular remainder)",
+    "chapter": "finite-perimeter",
+    "section": "monotone-maps-and-singular-inverse-derivatives",
+    "tag": "887D04DBA9BC"
+  },
+  {
+    "route": "tag/B4DAA4CD132F",
+    "title": "Proposition 4.15.6 (Densities can concentrate into this singular continuous measure)",
+    "chapter": "finite-perimeter",
+    "section": "monotone-maps-and-singular-inverse-derivatives",
+    "tag": "B4DAA4CD132F"
+  },
+  {
     "route": "chapters/currents-flat-chains",
     "title": "5 Currents and flat chains",
     "chapter": "currents-flat-chains"
@@ -2553,6 +2601,164 @@
     "chapter": "currents-flat-chains",
     "section": "mass-bounds-for-slices-of-normal-currents",
     "tag": "963FC6952BFC"
+  },
+  {
+    "route": "sections/lipschitz-maps-acting-on-compact-normal-currents",
+    "title": "5.13 Lipschitz maps acting on compact normal currents",
+    "chapter": "currents-flat-chains",
+    "section": "lipschitz-maps-acting-on-compact-normal-currents"
+  },
+  {
+    "route": "tag/62CD279ECDC7",
+    "title": "Lemma 5.13.1 (Vector mollification preserves the operator Lipschitz bound)",
+    "chapter": "currents-flat-chains",
+    "section": "lipschitz-maps-acting-on-compact-normal-currents",
+    "tag": "62CD279ECDC7"
+  },
+  {
+    "route": "tag/47FF81F5740B",
+    "title": "Theorem 5.13.2 (Analytic pushforward of a compact normal current)",
+    "chapter": "currents-flat-chains",
+    "section": "lipschitz-maps-acting-on-compact-normal-currents",
+    "tag": "47FF81F5740B"
+  },
+  {
+    "route": "tag/6963597FF6A7",
+    "title": "Proposition 5.13.3 (Independence of approximation and agreement on the support)",
+    "chapter": "currents-flat-chains",
+    "section": "lipschitz-maps-acting-on-compact-normal-currents",
+    "tag": "6963597FF6A7"
+  },
+  {
+    "route": "tag/5082CF488276",
+    "title": "Proposition 5.13.4 (Flat stability under a change of Lipschitz map)",
+    "chapter": "currents-flat-chains",
+    "section": "lipschitz-maps-acting-on-compact-normal-currents",
+    "tag": "5082CF488276"
+  },
+  {
+    "route": "tag/0A97DBAC25D5",
+    "title": "Lemma 5.13.5 (A smooth globally Lipschitz map bounds the real flat norm)",
+    "chapter": "currents-flat-chains",
+    "section": "lipschitz-maps-acting-on-compact-normal-currents",
+    "tag": "0A97DBAC25D5"
+  },
+  {
+    "route": "tag/FD35C70CFAAC",
+    "title": "Proposition 5.13.6 (Composition for compact normal Lipschitz pushforwards)",
+    "chapter": "currents-flat-chains",
+    "section": "lipschitz-maps-acting-on-compact-normal-currents",
+    "tag": "FD35C70CFAAC"
+  },
+  {
+    "route": "tag/F67B788FD395",
+    "title": "Example 5.13.7 (Finite mass without normality does not determine pushforward from support values)",
+    "chapter": "currents-flat-chains",
+    "section": "lipschitz-maps-acting-on-compact-normal-currents",
+    "tag": "F67B788FD395"
+  },
+  {
+    "route": "tag/A0158D1DD327",
+    "title": "Example 5.13.8 (A nonproper parametrization can make the proposed pushforward infinite)",
+    "chapter": "currents-flat-chains",
+    "section": "lipschitz-maps-acting-on-compact-normal-currents",
+    "tag": "A0158D1DD327"
+  },
+  {
+    "route": "sections/geometric-pushforwards-and-integer-multiplicities",
+    "title": "5.14 Geometric pushforwards and integer multiplicities",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-pushforwards-and-integer-multiplicities"
+  },
+  {
+    "route": "tag/4A2F3A858E5A",
+    "title": "Lemma 5.14.1 (Distributional exterior products of Lipschitz differentials)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-pushforwards-and-integer-multiplicities",
+    "tag": "4A2F3A858E5A"
+  },
+  {
+    "route": "tag/3C7149CCAEEE",
+    "title": "Proposition 5.14.2 (Weak continuity of minors under a uniform Lipschitz bound)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-pushforwards-and-integer-multiplicities",
+    "tag": "3C7149CCAEEE"
+  },
+  {
+    "route": "tag/0360B75DF314",
+    "title": "Lemma 5.14.3 (Pullback integrals converge against a fixed integrable weight)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-pushforwards-and-integer-multiplicities",
+    "tag": "0360B75DF314"
+  },
+  {
+    "route": "tag/E1BC38EDFD7F",
+    "title": "Lemma 5.14.4 (Full-rank image tangents agree with the image of the differential)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-pushforwards-and-integer-multiplicities",
+    "tag": "E1BC38EDFD7F"
+  },
+  {
+    "route": "tag/F7FBDCA3DAF1",
+    "title": "Theorem 5.14.5 (Signed image multiplicity of an integer rectifiable current)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-pushforwards-and-integer-multiplicities",
+    "tag": "F7FBDCA3DAF1"
+  },
+  {
+    "route": "tag/12C23C6607AA",
+    "title": "Proposition 5.14.6 (The analytic and tangential pushforward formulas agree)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-pushforwards-and-integer-multiplicities",
+    "tag": "12C23C6607AA"
+  },
+  {
+    "route": "tag/FE42F5542170",
+    "title": "Lemma 5.14.7 (Localization of a proper Lipschitz map on a normal current)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-pushforwards-and-integer-multiplicities",
+    "tag": "FE42F5542170"
+  },
+  {
+    "route": "tag/7702881A8B7A",
+    "title": "Proposition 5.14.8 (The exact mass lost by cancellation)",
+    "chapter": "currents-flat-chains",
+    "section": "geometric-pushforwards-and-integer-multiplicities",
+    "tag": "7702881A8B7A"
+  },
+  {
+    "route": "sections/integer-rectifiability-under-convergence-in-mass",
+    "title": "5.15 Integer rectifiability under convergence in mass",
+    "chapter": "currents-flat-chains",
+    "section": "integer-rectifiability-under-convergence-in-mass"
+  },
+  {
+    "route": "tag/688CD33654B1",
+    "title": "Lemma 5.15.1 (A common orientation on a countable union of rectifiable carriers)",
+    "chapter": "currents-flat-chains",
+    "section": "integer-rectifiability-under-convergence-in-mass",
+    "tag": "688CD33654B1"
+  },
+  {
+    "route": "tag/74859C11798E",
+    "title": "Lemma 5.15.2 (Mass distance equals the L1 distance of signed multiplicities)",
+    "chapter": "currents-flat-chains",
+    "section": "integer-rectifiability-under-convergence-in-mass",
+    "tag": "74859C11798E"
+  },
+  {
+    "route": "tag/B5E7DE122838",
+    "title": "Theorem 5.15.3 (Completeness of integer rectifiable currents in local mass)",
+    "chapter": "currents-flat-chains",
+    "section": "integer-rectifiability-under-convergence-in-mass",
+    "tag": "B5E7DE122838"
+  },
+  {
+    "route": "tag/5BED5960DCC9",
+    "title": "Corollary 5.15.4 (Completeness when both a current and its boundary converge in mass)",
+    "chapter": "currents-flat-chains",
+    "section": "integer-rectifiability-under-convergence-in-mass",
+    "tag": "5BED5960DCC9"
   },
   {
     "route": "chapters/varifolds",
@@ -9852,6 +10058,47 @@
     "chapter": "examples",
     "section": "examples-of-area-critical-sets-and-pushforward-densities",
     "tag": "93DDA071D85B"
+  },
+  {
+    "route": "sections/examples-of-oriented-images-and-weak-derivatives",
+    "title": "16.31 Examples of oriented images and weak derivatives",
+    "chapter": "examples",
+    "section": "examples-of-oriented-images-and-weak-derivatives"
+  },
+  {
+    "route": "tag/F26CE0FAC5CC",
+    "title": "Example 16.31.1 (Folding a rectangle cancels its oriented image)",
+    "chapter": "examples",
+    "section": "examples-of-oriented-images-and-weak-derivatives",
+    "tag": "F26CE0FAC5CC"
+  },
+  {
+    "route": "tag/1A703A49C307",
+    "title": "Example 16.31.2 (A power map preserves orientation and multiplies disk multiplicity)",
+    "chapter": "examples",
+    "section": "examples-of-oriented-images-and-weak-derivatives",
+    "tag": "1A703A49C307"
+  },
+  {
+    "route": "tag/ECFE5B3E2949",
+    "title": "Example 16.31.3 (Uniformly small oscillations retain nonconvergent derivatives)",
+    "chapter": "examples",
+    "section": "examples-of-oriented-images-and-weak-derivatives",
+    "tag": "ECFE5B3E2949"
+  },
+  {
+    "route": "tag/3A9E3E350689",
+    "title": "Example 16.31.4 (An injective map distinguishes pushed length from pushed current mass)",
+    "chapter": "examples",
+    "section": "examples-of-oriented-images-and-weak-derivatives",
+    "tag": "3A9E3E350689"
+  },
+  {
+    "route": "tag/696CAEEE92DA",
+    "title": "Example 16.31.5 (Mass convergence can have an infinite-length union of carriers)",
+    "chapter": "examples",
+    "section": "examples-of-oriented-images-and-weak-derivatives",
+    "tag": "696CAEEE92DA"
   },
   {
     "route": "chapters/harmonic-maps",
